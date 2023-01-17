@@ -1,8 +1,21 @@
-<p>{{section.name}}</p>
+<h1>{{section.settings.heading}}</h1>
+<p>{{section.settings.description}}</p>
 {% schema %}
   {
     "name": "Custom hero banner",
-    "settings": []
+    "settings": [
+      {
+        "type": "text",
+        "label": "headline",
+        "id": "heading"
+      },
+      {
+
+        "type": "richtext",
+        "label": "description",
+        "id": "description"
+      }
+    ]
   }
 {% endschema %}
 
