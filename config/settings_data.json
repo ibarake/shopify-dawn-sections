@@ -218,7 +218,10 @@
       "custom-hero-banner": {
         "type": "custom-hero-banner",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Post_IG_-_Ene_12_2023.png"
+          "image": "shopify:\/\/shop_images\/Post_IG_-_Ene_12_2023.png",
+          "bg-color": "#FFFFFF",
+          "subheading": "hey",
+          "heading": "hey"
         }
       }
     },
