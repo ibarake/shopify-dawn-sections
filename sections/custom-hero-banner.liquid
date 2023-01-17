@@ -7,9 +7,6 @@
     <div class="content-spacer"></div>
   </div>
 </div>
-<div>
-  {{ section.settings.bg-color }}
-</div>
 {% schema %}
   {
     "name": "Custom hero banner",
@@ -47,9 +44,13 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 30px;
   }
   .content-container{
     height: 100%;
+  }
+  .content-spacer{
+    width: 70%;
   }
 {% endstylesheet %}
 
