@@ -1,8 +1,8 @@
 <div class="hero-banner-container" style="background-image: url({{ section.settings.image | image_url }})">
   <div class="inside-container">
     <div class="content-container" style="background-color: {{ section.settings.bg-color }}">
-      <p>{{ section.settings.subheading }}</p>
-      <p>{{ section.settings.heading }}</p>
+      <p class="heading-6">{{ section.settings.subheading }}</p>
+      <p class="heading-2">{{ section.settings.heading }}</p>
       <button>Shop now</button>
     </div>
     <div class="content-spacer"></div>
@@ -65,6 +65,14 @@
   }
   .content-spacer{
     width: 60%;
+  }
+  .heading-2{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .heading-6{
+    margin-top: 0;
+    margin-bottom: 0;
   }
 {% endstylesheet %}
 
