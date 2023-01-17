@@ -1,5 +1,5 @@
 <div class="hero-banner-container" style="background-image: url({{ section.settings.image | image_url }})">
-  <div class="inside-container" style="margin-left: {{ section.settings.spacing }}px;">
+  <div class="inside-container" style="margin-left: 300px;">
     <div class="content-container" style="background-color: {{ section.settings.bg-color }}">
       <p class="heading-6">{{ section.settings.subheading }}</p>
       <p class="heading-2">{{ section.settings.heading }}</p>
@@ -36,12 +36,12 @@
       {
             "type": "range",
             "id": "spacing",
-            "min": 0,
-            "max": 1080,
+            "min": 12,
+            "max": 24,
             "step": 1,
             "unit": "px",
             "label": "overlay left spacing",
-            "default": 300
+            "default": 16
       }
     ]
   }
