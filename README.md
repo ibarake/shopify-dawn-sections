@@ -1,1 +1,0 @@
-# shopify-dawn-sections
