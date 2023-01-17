@@ -1,4 +1,4 @@
-<img src="{{ section.settings.image | img_url:'master' }}" alt="">
+<img class="hero-banner-image" src="{{ section.settings.image | img_url:'master' }}" alt="">
 
 {% schema %}
   {
@@ -14,6 +14,11 @@
 {% endschema %}
 
 {% stylesheet %}
+  .hero-banner-image{
+    width: 100%;
+    min-height: 340px;
+    max-height: 100%;
+  }
 {% endstylesheet %}
 
 {% javascript %}
