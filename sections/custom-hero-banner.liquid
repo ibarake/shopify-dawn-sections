@@ -32,6 +32,15 @@
         "type": "text",
         "id": "heading",
         "label": "Heading"
+      },
+      {
+            "type": "range",
+            "label": "overlay left spacing",
+            "id": "spacing",
+            "min": 0,
+            "max": 1080,
+            "step": 1,
+            "unit": "px"
       }
     ]
   }
@@ -52,7 +61,7 @@
     flex-wrap: nowrap;
     min-height: 340px;
     max-height: 100%;
-    margin-left: 200px;
+    margin-left: {{ section.settings.spacing }}%;
   }
   .content-container{
     display: flex;
