@@ -3,7 +3,7 @@
     <div class="content-container" style="background-color: {{ section.settings.bg-color }}">
       <p class="heading-6">{{ section.settings.subheading }}</p>
       <p class="heading-2">{{ section.settings.heading }}</p>
-      <button>Shop now</button>
+      <button class="btn-hero-banner">Shop now</button>
     </div>
     <div class="content-spacer"></div>
   </div>
@@ -82,6 +82,17 @@
   .heading-2{
     font-size: 28px;
     font-weight: 700;
+  }
+  .btn-hero-banner{
+    background: #363534;
+    font-weight: 700;
+    color: #fff;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  .btn-hero-banner:hover{
+    background: #525252;
   }
 {% endstylesheet %}
 
