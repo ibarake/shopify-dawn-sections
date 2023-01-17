@@ -1,19 +1,9 @@
-<img src="" alt="">
+<img src="{{ section.settings.image || asset_url }}" alt="">
+
 {% schema %}
   {
     "name": "Custom hero banner",
     "settings": [
-      {
-        "type": "text",
-        "label": "headline",
-        "id": "heading"
-      },
-      {
-
-        "type": "richtext",
-        "label": "description",
-        "id": "description"
-      },
       {
             "type": "image_picker",
             "label": "hero image",
