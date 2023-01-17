@@ -1,6 +1,6 @@
 <div class="hero-banner-container" style="background-image: url({{ section.settings.image | image_url }})">
   <div class="inside-container">
-    <div class="content-container"></div>
+    <div class="content-container" style="{{settings.bg-color}}"></div>
     <div class="content-spacer"></div>
   </div>
 </div>
@@ -12,6 +12,12 @@
             "type": "image_picker",
             "label": "hero image",
             "id": "image"
+      },
+      {
+      "type": "color",
+      "id": "bg-color",
+      "label": "Heading color",
+      "default": "#FFFFFF"
       }
     ]
   }
@@ -25,6 +31,9 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .content-container{
+    
   }
 {% endstylesheet %}
 
