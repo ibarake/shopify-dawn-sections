@@ -1,5 +1,4 @@
-<h1>{{section.settings.heading}}</h1>
-<p>{{section.settings.description}}</p>
+<img src="" alt="">
 {% schema %}
   {
     "name": "Custom hero banner",
@@ -14,6 +13,11 @@
         "type": "richtext",
         "label": "description",
         "id": "description"
+      },
+      {
+            "type": "image_picker",
+            "label": "hero image",
+            "id": "image"
       }
     ]
   }
