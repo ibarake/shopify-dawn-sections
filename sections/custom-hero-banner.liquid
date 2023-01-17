@@ -1,5 +1,4 @@
-
-<div class="hero-banner-container">
+<div class="hero-banner-container" style="background-image: url({{ section.settings.image | image_url }})">
   <div class="inside-container">
     <div class="content-container"></div>
     <div class="content-spacer"></div>
@@ -23,7 +22,6 @@
     width: 100%;
     min-height: 340px;
     max-height: 100%;
-    background-image: url({{ section.settings.image | image_url }});
   }
 {% endstylesheet %}
 
