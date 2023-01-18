@@ -1,7 +1,7 @@
 {% for collection in section.settings.collection_list %}
   <p> {{ collection }}</p>
 <div class="paginator">
-  <span><a href="">{{ collection | title }}</a></span>
+  <span><a href="#">{{ collection.title }}</a></span>
 </div>
 
 {%endfor%}
@@ -36,8 +36,8 @@
     ],
     "blocks": [
       {
-        "type":"product",
-        "name": "product"
+        "type":"collection",
+        "name": "collection"
       }
     ],
     "presets": [
