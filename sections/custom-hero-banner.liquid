@@ -88,6 +88,9 @@
     background-color: {{ section.settings.bg-color }};
     color: {{ section.settings.color }};
   }
+  .hero-banner-container{
+    height: {{ section.settings.responsive-img-height }}px;
+  }
   }
 
 </style>
@@ -240,6 +243,12 @@
       {
             "type": "number",
             "id": "responsive-container-height",
+            "label": "Responsive text container height",
+            "default": 300
+      },
+      {
+            "type": "number",
+            "id": "responsive-img-height",
             "label": "Responsive text container height",
             "default": 300
       }
