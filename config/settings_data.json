@@ -38,7 +38,7 @@
     "inputs_radius": 0,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
-    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_vertical_offset": 12,
     "inputs_shadow_blur": 5,
     "card_style": "card",
     "card_image_padding": 0,
@@ -219,7 +219,7 @@
         "type": "custom-hero-banner",
         "settings": {
           "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1.jpg",
-          "bg-color": "#ffffff",
+          "bg-color": "#f3f3f3",
           "subheading": "Spruce up your home",
           "heading": "with fresh new looks!",
           "spacing": 100
