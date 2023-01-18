@@ -9,7 +9,7 @@ background-position: {{ section.settings.img-position }};
     ">
       <p class="heading-6">{{ section.settings.subheading }}</p>
       <p class="heading-2">{{ section.settings.heading }}</p>
-      <button class="btn-hero-banner"><a href={{ section.settings.button_link }}>Shop now</a></button>
+      <a href={{ section.settings.button_link }} class="btn-hero-banner">Shop now</a>
     </div>
     <div class="content-spacer"></div>
   </div>
@@ -145,6 +145,12 @@ background-position: {{ section.settings.img-position }};
     margin-top: -10px;
   }
   .btn-hero-banner{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+
     background: #363534;
     font-weight: 700;
     color: #fff;
