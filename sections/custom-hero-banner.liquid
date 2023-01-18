@@ -9,7 +9,7 @@ background-position: {{ section.settings.img-position }};
     ">
       <p class="heading-6">{{ section.settings.subheading }}</p>
       <p class="heading-2">{{ section.settings.heading }}</p>
-      <a href={{ section.settings.button_link }} class="btn-hero-banner">Shop now</a>
+      <a href={{ section.settings.button_link }} class="btn-hero-banner">{{ section.settings.button-text }}</a>
     </div>
     <div class="content-spacer"></div>
   </div>
@@ -94,6 +94,11 @@ background-position: {{ section.settings.img-position }};
           }
         ],
         "default": "center center"
+      },
+      {
+        "type": "text",
+        "id": "button-text",
+        "label": "Button text"
       },
       {
         "type": "url",
