@@ -1,14 +1,10 @@
 {% for collection in section.settings.collection_list %}
-  <p> {{ collection }}</p>
-<div class="paginator">
   <span><a href="#">{{ collection.title }}</a></span>
-</div>
-
 {%endfor%}
 
 <div class="left">
    <div class="collection-image">
-     <img src="{{ collection | image | image_url }}" alt="">
+     <img src="{{ collection.image.image_url }}" alt="">
    </div>
  <a href="#" class="btn-collections-all"></a>
 </div>
