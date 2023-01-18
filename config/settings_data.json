@@ -218,11 +218,13 @@
       "custom-hero-banner": {
         "type": "custom-hero-banner",
         "settings": {
-          "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1.jpg",
-          "bg-color": "#f3f3f3",
           "subheading": "Spruce up your home",
           "heading": "with fresh new looks!",
-          "spacing": 100
+          "spacing": 100,
+          "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1.jpg",
+          "bg-color": "#1878b9",
+          "color": "#FFFFFF",
+          "img-position": "top left"
         }
       }
     },
