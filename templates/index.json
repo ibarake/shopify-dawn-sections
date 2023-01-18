@@ -67,17 +67,6 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
       "settings": {
@@ -320,7 +309,6 @@
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
     "image_banner",
-    "rich_text",
     "46658e2a-45ab-457a-9e97-791c28394991",
     "collage",
     "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
