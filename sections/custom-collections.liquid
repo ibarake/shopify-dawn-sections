@@ -6,6 +6,14 @@
   }
 </style>
 
+<script>
+
+const selectedCollection = (collectionTitle) => {
+  return(collectionTitle);
+};
+
+</script>
+
 <div class="pagination">
 {% for collection in section.settings.collection_list %}
   <span onclick="selectedCollection({{ collection.title }})"><a href="#">{{ collection.title }}</a></span>
@@ -18,9 +26,7 @@
 
 <script>
 
-const selectedCollection = (collectionTitle) => {
-  return(collectionTitle);
-}
+
 
 const renderElement = document.querySelector(".render");
 
@@ -44,7 +50,7 @@ const render = ' <div class="collection-content-container">
 
 document.renderElement.innerHTML = render;
 
-}
+};
 
 
 
