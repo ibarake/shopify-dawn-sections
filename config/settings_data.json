@@ -226,7 +226,8 @@
           "color": "#ffffff",
           "img-position": "center center",
           "button-text": "shop now",
-          "button_link": "shopify:\/\/pages\/contact"
+          "button_link": "shopify:\/\/pages\/contact",
+          "btn-linebreak": "nowrap"
         }
       }
     },
