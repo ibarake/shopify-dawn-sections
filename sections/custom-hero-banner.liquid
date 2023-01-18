@@ -9,7 +9,7 @@ background-position: {{ section.settings.img-position }};
     ">
       <p class="heading-6">{{ section.settings.subheading }}</p>
       <p class="heading-2">{{ section.settings.heading }}</p>
-      <button href="#" class="btn-hero-banner">Shop now</button>
+      <button href={{ section.settings.button_link }} class="btn-hero-banner">Shop now</button>
     </div>
     <div class="content-spacer"></div>
   </div>
@@ -94,8 +94,12 @@ background-position: {{ section.settings.img-position }};
           }
         ],
         "default": "center center"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
       }
-      
     ]
   }
 {% endschema %}
