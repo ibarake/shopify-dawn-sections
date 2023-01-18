@@ -8,15 +8,15 @@
 
 <script>
 
-const selectedCollection = (collectionTitle) => {
-  return(collectionTitle);
+const selectedCollectionFunction = (collectionTitle) => {
+  const selectedCollection = collectionTitle;
 };
 
 </script>
 
 <div class="pagination">
 {% for collection in section.settings.collection_list %}
-  <span onclick="selectedCollection({{ collection.title }})"><a href="#">{{ collection.title }}</a></span>
+  <span onclick="selectedCollectionFunction({{ collection.title }})"><a href="#">{{ collection.title }}</a></span>
 {%endfor%}
 </div>
 
