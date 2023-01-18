@@ -54,7 +54,7 @@
     white-space: {{ section.settings.btn-linebreak }};
     font-size: 13.33333px;
     font-weight: 700;
-    color: #fff;
+    color: {{ section.settings.btn-txt-color }};
     border: none;
     border-radius: 0.25rem;
     padding: 4px 8px 4px 8px;
@@ -196,7 +196,13 @@
       {
       "type": "color",
       "id": "btn-bg-color-hover",
-      "label": "Button color",
+      "label": "Button hover color",
+      "default": "#FFFFFF"
+      },
+      {
+      "type": "color",
+      "id": "btn-txt-color",
+      "label": "Button text color",
       "default": "#FFFFFF"
       }
     ],
@@ -208,10 +214,3 @@
     ]
   }
 {% endschema %}
-
-{% stylesheet %}
-  
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
