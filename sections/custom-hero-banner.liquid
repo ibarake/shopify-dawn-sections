@@ -1,6 +1,12 @@
-<div class="hero-banner-container" style="background-image: url({{ section.settings.image | image_url }})">
+<div class="hero-banner-container" style="
+background-image: url({{ section.settings.image | image_url }});
+background-position: {{ section.settings.img-position }};
+">
   <div class="inside-container" style="margin-left: {{ section.settings.spacing }}px;">
-    <div class="content-container" style="background-color: {{ section.settings.bg-color }}">
+    <div class="content-container" style="
+    background-color: {{ section.settings.bg-color }};
+    color: {{ section.settings.color }}
+    ">
       <p class="heading-6">{{ section.settings.subheading }}</p>
       <p class="heading-2">{{ section.settings.heading }}</p>
       <button href="#" class="btn-hero-banner">Shop now</button>
@@ -12,17 +18,6 @@
   {
     "name": "Custom hero banner",
     "settings": [
-      {
-            "type": "image_picker",
-            "label": "hero image",
-            "id": "image"
-      },
-      {
-      "type": "color",
-      "id": "bg-color",
-      "label": "Overlay color",
-      "default": "#FFFFFF"
-      },
       {
         "type": "text",
         "id": "subheading",
@@ -38,7 +33,69 @@
             "id": "spacing",
             "label": "overlay left spacing",
             "default": 300
+      },
+      {
+            "type": "image_picker",
+            "label": "hero image",
+            "id": "image"
+      },
+      {
+      "type": "color",
+      "id": "bg-color",
+      "label": "Overlay color",
+      "default": "#FFFFFF"
+      },
+      {
+      "type": "color",
+      "id": "color",
+      "label": "Text color",
+      "default": "#FFFFFF"
+      },
+      {
+        "type": "select",
+        "id": "img-position",
+        "label": "Image position",
+        "options": [
+          {
+            "value": "center center",
+            "label": "center center"
+          },
+          {
+            "value": "top center",
+            "label": "top center"
+          },
+          {
+            "value": "bottom center",
+            "label": "bottom center"
+          },
+          {
+            "value": "top left",
+            "label": "top left"
+          },
+          {
+            "value": "left center",
+            "label": "left center"
+          },
+          {
+            "value": "bottom left",
+            "label": "bottom left"
+          },
+          {
+            "value": "top right",
+            "label": "top right"
+          },
+          {
+            "value": "right center",
+            "label": "right center"
+          },
+          {
+            "value": "bottom right",
+            "label": "bottom right"
+          }
+        ],
+        "default": "center center"
       }
+      
     ]
   }
 {% endschema %}
@@ -47,7 +104,6 @@
   .hero-banner-container{
     width: 100%;
     height: 540px;
-    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
