@@ -1,6 +1,16 @@
+<style>
+  .pagination{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+</style>
+
+<div class="pagination">
 {% for collection in section.settings.collection_list %}
   <span><a href="#">{{ collection.title }}</a></span>
 {%endfor%}
+</div>
 
 <div class="left">
    <div class="collection-image">
@@ -26,7 +36,7 @@
       "type": "collection_list",
       "id": "collection_list",
       "label": "Collections",
-      "limit": 8
+      "limit": 10
     }
       
     ],
