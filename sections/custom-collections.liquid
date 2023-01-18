@@ -1,26 +1,14 @@
 <style>
   .pagination{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 </style>
 
-
-
-<script>
-
-const selectedCollection = (colletionTitle) => {
-  return(colletionTitle);
-};
-
-</script>
-
-{% assign selected-title = "bar" %}
-
 <div class="pagination">
 {% for collection in section.settings.collection_list %}
-  <span onclick="selectedCollection()"><a href="#">{{ collection.title }}</a></span>
+  <span><a href="#">{{ collection.title }}</a></span>
 {%endfor%}
 </div>
 
@@ -35,8 +23,8 @@ if ({{ collection.title }} === selectedCollection){
       <div class="left">
         <div class="collection-image">
           <img src="{{ collection.image.image_url }}" alt="">
-       </div>
        <a href="#" class="btn-collections-all"></a>
+       </div>
        </div>
        <div class="right">
          
@@ -53,6 +41,8 @@ if ({{ collection.title }} === selectedCollection){
 </script>
 
 
+
+
 {%endfor%}
 
 {% schema %}
@@ -64,7 +54,7 @@ if ({{ collection.title }} === selectedCollection){
       "type": "collection_list",
       "id": "collection_list",
       "label": "Collections",
-      "limit": 6
+      "limit": 10
     }
       
     ],
