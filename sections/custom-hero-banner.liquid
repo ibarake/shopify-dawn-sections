@@ -9,7 +9,7 @@ background-position: {{ section.settings.img-position }};
     ">
       <p class="heading-6">{{ section.settings.subheading }}</p>
       <p class="heading-2">{{ section.settings.heading }}</p>
-      <a href={{ section.settings.button_link }} class="btn-hero-banner">{{ section.settings.button-text }}</a>
+      <a href={{ section.settings.button_link }} class="btn-hero-banner" style="white-space: {{ section.settings.btn-linebreak }}">{{ section.settings.button-text }}</a>
     </div>
     <div class="content-spacer"></div>
   </div>
@@ -104,7 +104,23 @@ background-position: {{ section.settings.img-position }};
         "type": "url",
         "id": "button_link",
         "label": "Button link"
-      }
+      },
+      {
+        "type": "select",
+        "id": "btn-linebreak",
+        "label": "Button text line break",
+        "options": [
+          {
+            "value": "normal",
+            "label": "normal"
+          },
+          {
+            "value": "nowrap",
+            "label": "nowrap"
+          }
+        ],
+        "default": "normal"
+      },
     ],
     "presets": [
       {
@@ -172,7 +188,6 @@ background-position: {{ section.settings.img-position }};
     width: 100px;
     text-decoration: none;
     margin-top: 30px;
-    white-space: nowrap;
     text-align: center;
   }
   .btn-hero-banner:hover{
