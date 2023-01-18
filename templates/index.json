@@ -5,14 +5,16 @@
       "settings": {
         "subheading": "SPRUCE UP YOUR HOME",
         "heading": "with fresh new looks!",
-        "spacing": 300,
+        "spacing": 500,
         "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
-        "bg-color": "#f3f3f3",
-        "color": "#FFFFFF",
+        "bg-color": "#f4f4f4",
+        "color": "#000000",
         "img-position": "center center",
         "button-text": "shop now",
         "button_link": "shopify:\/\/collections\/all",
-        "btn-linebreak": "normal"
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#363534",
+        "btn-bg-color-hover": "#FFFFFF"
       }
     },
     "image_banner": {
