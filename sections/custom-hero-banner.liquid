@@ -1,7 +1,7 @@
 <style>
   .hero-banner-container{
     width: 100%;
-    height: 540px;
+    height: {{ section.settings.img-height }}px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url({{ section.settings.image | image_url }});
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    height: 540px;
+    height: {{ section.settings.img-height }}px;
     margin-left: {{ section.settings.spacing }}px;
   }
   .content-container{
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 0px 0px;
-    height: 540px;
+    height: {{ section.settings.img-height }}px;
     padding: 0 16px 0 16px;
     background-color: {{ section.settings.bg-color }};
     color: {{ section.settings.color }};
@@ -83,7 +83,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 0px 0px;
-    height: 150px;
+    height: {{ section.settings.responsive-container-height }}px;
     padding: 0 16px 0 16px;
     background-color: {{ section.settings.bg-color }};
     color: {{ section.settings.color }};
@@ -230,6 +230,18 @@
       "id": "btn-txt-color",
       "label": "Button text color",
       "default": "#FFFFFF"
+      },
+      {
+            "type": "number",
+            "id": "img-height",
+            "label": "Image container height",
+            "default": 540
+      },
+      {
+            "type": "number",
+            "id": "responsive-container-height",
+            "label": "Responsive text container height",
+            "default": 300
       }
     ],
     "presets": [
