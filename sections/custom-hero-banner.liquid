@@ -68,8 +68,34 @@
     cursor: pointer;
   }
 
-</style>
+  .content-container2{
+    display: none;
+  }
 
+
+
+  @media only screen and (max-width: 768px) {
+    .inside-container{
+    display: none;
+  }
+  .content-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px 0px;
+    height: 540px;
+    padding: 0 16px 0 16px;
+    background-color: {{ section.settings.bg-color }};
+    color: {{ section.settings.color }};
+  }
+  }
+
+</style>
+<div class="content-container2">
+      <p class="heading-6">{{ section.settings.subheading }}</p>
+      <p class="heading-2">{{ section.settings.heading }}</p>
+      <a href={{ section.settings.button_link }} class="btn-hero-banner">{{ section.settings.button-text }}</a>
+    </div>
 <div class="hero-banner-container">
   <div class="inside-container">
     <div class="content-container">
