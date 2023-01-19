@@ -21,6 +21,49 @@
         "responsive-img-height": 300
       }
     },
+    "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
+      "type": "custom-collections",
+      "blocks": {
+        "a6d17ac0-21c5-4294-abf7-4ae0e1766d12": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "Alfombras",
+            "collection": "alfombras",
+            "product_list": [
+              "alesandra",
+              "alessio-sofa",
+              "cama-nino",
+              "maimz-sofa",
+              "sofa-cama",
+              "sofa-altonbury"
+            ]
+          }
+        },
+        "a7df558d-7009-42a7-b248-5065232ba302": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "Espejos",
+            "collection": "espejos",
+            "product_list": [
+              "sofa-altonbury",
+              "sofa-cama",
+              "maimz-sofa",
+              "cama-nino",
+              "alessio-sofa",
+              "alesandra"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "a6d17ac0-21c5-4294-abf7-4ae0e1766d12",
+        "a7df558d-7009-42a7-b248-5065232ba302"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#F4F4F4"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -299,6 +342,7 @@
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
+    "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "image_banner",
     "46658e2a-45ab-457a-9e97-791c28394991",
     "collage",
