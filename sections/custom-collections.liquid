@@ -3,7 +3,7 @@
     margin: 0 220px 0 220px;
   }
   .left{
-    width: 50%;
+    width: 70%;
   }
   .button-container{
     display: flex;
@@ -20,8 +20,16 @@
 
   
   .right{
-    width: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+
+  .product-container{
+    flex: 50%;
+  }
+
   ul.pagination{
     list-style-type: none;
     display: flex;
@@ -112,12 +120,16 @@ const selectedCollectionFunction = (collectionTitle) => {
       </div>
       <div class="button-container" >
       <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
+
+
       <svg class="arrow-svg" version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" preserveAspectRatio="none" viewBox="0 0 26 26" width="24" height="24" fill="inherit">
       <g transform="translate(1, 1)">
         <path fill="inherit" d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z" vector-effect="non-scaling-stroke">
         </path>
         </g>
         </svg>
+
+
       </div>
      </div>
 
