@@ -38,6 +38,12 @@
     height: 100%;
   }
 
+  .product-text-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
   .product-image{
     filter: drop-shadow(0 1px 1px rgba(136, 136, 136, 0.4)) drop-shadow(0 2px 2px rgba(136, 136, 136, 0.4));
     will-change: auto;
@@ -163,7 +169,7 @@ const selectedCollectionFunction = (collectionTitle) => {
 
        {% for product in block.settings.product_list %}
         <div class="product-container">
-           <a class="product-text" href="#">
+           <a class="product-text-container" href="#">
             <img class="product-image" src="{{ product.images[0] | image_url }}" alt="">
             <p class="product-text">{{ product.title }}</p>
           </a>
