@@ -5,6 +5,12 @@
   .left{
     width: 50%;
   }
+  .button-container{
+    display: flex;
+    justify-content: end;
+    padding: 0.5rem;
+    background-color: #f4f4f4;
+  }
   .right{
     width: 50%;
   }
@@ -96,7 +102,9 @@ const selectedCollectionFunction = (collectionTitle) => {
       <div class="collection-image">
         <img class="mainimage" src="{{ block.settings.collection.image | image_url }}" alt="">
       </div>
+      <div class="button-container" >
       <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
+      </div>
      </div>
 
      <div class="right">
