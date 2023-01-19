@@ -79,20 +79,23 @@ const selectedCollectionFunction = (collectionTitle) => {
 <div class="custom-collections-section">
 <ul class="pagination">
 {% for collection in section.blocks %}
-  <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
+  <li class="tab" data-content-id="collection-content-container-{{ forloop.index }}">
     {{ collection.settings.collection-title }}
     </li>
 {%endfor%}
 </ul>
 
 {% for block in section.blocks %}
-<div class="collection-content-container">
+
+<div id="custom-content-{{ forloop.index }}" class="collection-content-container">
+
     <div class="left">
       <div class="collection-image">
         <img class="mainimage" src="{{ block.settings.collection.image | image_url }}" alt="">
         <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
      </div>
      </div>
+
      <div class="right">
 
        {% for product in block.settings.product_list %}
@@ -103,7 +106,8 @@ const selectedCollectionFunction = (collectionTitle) => {
        {% endfor %}
        
      </div>
-</div>  
+</div> 
+
 {% endfor %}
 
 </div>
