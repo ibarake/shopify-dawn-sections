@@ -59,10 +59,10 @@ const tabContent = document.querySelectorAll('.collection-content-container');
 
 tabs.forEach((tab) =>{
   tab.addEventListener('click', (e) => {
-    console.log(e.srcElement);
-    console.log(e.srcElement.dataset);
+    console.log(e.target);
+    console.log(e.target.dataset);
 
-    contentId = e.srcElement.dataset.contentId;
+    contentId = e.target.dataset.contentId;
     content = document.querySelectorById(contentId);
     console.log(content);
 
