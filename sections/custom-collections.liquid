@@ -37,7 +37,6 @@
     padding: 0.5rem;
     cursor: pointer;
     align-items: center;
-    text-decoration: none;
   }
 
   .product-image{
@@ -50,6 +49,10 @@
   }
   .product-image:hover{
     transform: scale(1.2);
+  }
+
+  .product-text{
+    text-decoration: none;
   }
 
   ul.pagination{
@@ -161,7 +164,7 @@ const selectedCollectionFunction = (collectionTitle) => {
         <div class="product-container">
            <a href="#">
             <img class="product-image" src="{{ product.images[0] | image_url }}" alt="">
-            <p>{{ product.title }}</p>
+            <p class="product-text">{{ product.title }}</p>
           </a>
          </div>
        {% endfor %}
