@@ -253,10 +253,25 @@
                 "sofa-altonbury"
               ]
             }
+          },
+          "9e375062-7938-4f65-9556-11a1d5cab5f0": {
+            "type": "collection",
+            "settings": {
+              "collection-title": "Espejos",
+              "collection": "espejos",
+              "product_list": [
+                "alesandra",
+                "alessio-sofa",
+                "cama-nino",
+                "maimz-sofa",
+                "sofa-cama"
+              ]
+            }
           }
         },
         "block_order": [
-          "e1059b68-64cf-4548-8944-5ca5beb8cdb8"
+          "e1059b68-64cf-4548-8944-5ca5beb8cdb8",
+          "9e375062-7938-4f65-9556-11a1d5cab5f0"
         ],
         "settings": {
         }
