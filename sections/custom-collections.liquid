@@ -42,7 +42,7 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 {% for collection in section.settings.collection_list %}
 
-  {% if {{ forloop.index }} = 0 %}
+  {% if {{ forloop.index }} = 1 %}
   <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
     <div class="left">
       <div class="collection-image">
@@ -60,7 +60,7 @@ const selectedCollectionFunction = (collectionTitle) => {
   </div>
   {% endif %}
 
-  {% if {{ forloop.index }} > 0 %}
+  {% if {{ forloop.index }} > 1 %}
 
   <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
     <div class="left">
