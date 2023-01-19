@@ -68,6 +68,8 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 </script>
 
+
+<div class="custom-collections-section">
 <ul class="pagination">
 {% for collection in section.settings.collection_list %}
   <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
@@ -75,8 +77,6 @@ const selectedCollectionFunction = (collectionTitle) => {
     </li>
 {%endfor%}
 </ul>
-
-<div class="render"></div>
 
 {% for collection in section.settings.collection_list %}
 
@@ -97,6 +97,7 @@ const selectedCollectionFunction = (collectionTitle) => {
   </div>
 
 {%endfor%}
+</div>
 
 <script>
 
