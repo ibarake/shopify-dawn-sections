@@ -78,9 +78,9 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 <div class="custom-collections-section">
 <ul class="pagination">
-{% for collection in section.blocks.settings.collection_list %}
+{% for collection in section.blocks %}
   <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
-    {{ collection.title }}
+    {{ collection.settings.collection-title }}
     </li>
 {%endfor%}
 </ul>
@@ -145,19 +145,22 @@ tabs.forEach((tab) =>{
         "type": "collection",
         "name": "collection-block",
         "settings": [
-
-    {
-      "type": "collection",
-      "id": "collection",
-      "label": "Collection"
-    },
-    {
-      "type": "product_list",
-      "id": "product_list",
-      "label": "products",
-      "limit": 6
-    }
-      
+          {
+            "type": "text",
+            "id": "collection-title",
+            "label": "Collection title"
+          },
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          },
+          {
+            "type": "product_list",
+            "id": "product_list",
+            "label": "products",
+            "limit": 6
+          }
     ],
     "limit": 6
       }
