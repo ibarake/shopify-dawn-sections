@@ -86,7 +86,7 @@ const selectedCollectionFunction = (collectionTitle) => {
 </ul>
 
 {% for block in section.blocks %}
-
+<div class="collection-content-container">
     <div class="left">
       <div class="collection-image">
         <img class="mainimage" src="{{ block.settings.collection.image | image_url }}" alt="">
@@ -103,7 +103,7 @@ const selectedCollectionFunction = (collectionTitle) => {
        {% endfor %}
        
      </div>
-  
+</div>  
 {% endfor %}
 
 </div>
