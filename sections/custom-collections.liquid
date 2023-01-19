@@ -9,11 +9,11 @@
     display: flex;
     justify-content: end;
     padding: 0.5rem;
-    background-color: #f4f4f4;
+    background-color: {{ section.settings.btn-bg-color }};
   }
   div.button-container a.btn-collections-all{
     text-decoration: none;
-    color: {{ section.blocks.settings.btn-txt-color }};
+    color: {{ section.settings.btn-txt-color }};
   }
   .right{
     width: 50%;
@@ -159,6 +159,19 @@ tabs.forEach((tab) =>{
   {
     "name": "Custom collection section",
     "settings": [
+      {
+        "type": "color",
+        "id": "btn-txt-color",
+        "label": "Button text color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "btn-bg-color",
+        "label": "Button background color",
+        "default": "#F4F4F4"
+      }
+
     ],
     "blocks": [
       {
@@ -180,12 +193,6 @@ tabs.forEach((tab) =>{
             "id": "product_list",
             "label": "products",
             "limit": 6
-          },
-          {
-            "type": "color",
-            "id": "btn-txt-color",
-            "label": "Button text color",
-            "default": "#FFFFFF"
           }
     ],
     "limit": 6
