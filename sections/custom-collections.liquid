@@ -81,28 +81,49 @@ const selectedCollectionFunction = (collectionTitle) => {
 {%endfor%}
 </ul>
 
+<<<<<<< HEAD
 {% for block in section.blocks %}
+=======
+<div id="custom-content-{{ forloop.index }}" class="collection-content-container">
 
-  <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
+{% for collection in section.settings.collection_list %}
+>>>>>>> d83e3c90a4fefdce23ed03bfff1643a6278799d7
+
     <div class="left">
       <div class="collection-image">
         <img class="mainimage" src="{{ block.settings.collection.image | image_url }}" alt="">
         <a href="#" class="btn-collections-all">{{ block.settings.collection.title }}</a>
      </div>
      </div>
+<<<<<<< HEAD
      <div class="right">
 
        {% for product in block.settings.product_list %}
         <div class="product-container">
            <a href="#"><img src="{{ product.image | image_url }}" alt=""></a>
            <a href="#"><p>{{ product.title }}</p></a>
+=======
+     
+
+{%endfor%}
+
+{% for product in section.settings.product_list %}
+
+  <div class="right">
+       
+       <div class="product-container">
+           <a href="#"><img src="" alt=""></a>
+           <a href="#"><p>hello</p></a>
+>>>>>>> d83e3c90a4fefdce23ed03bfff1643a6278799d7
          </div>
        {% endfor %}
        
      </div>
-  </div>
+  
+{% endfor %}
 
-{%endfor%}
+</div>
+
 </div>
 
 <script>
@@ -135,25 +156,19 @@ tabs.forEach((tab) =>{
     "name": "Custom collection section",
     "settings": [
 
-    ],
-    "blocks": [
-      {
-        "type": "collection",
-        "name": "collection-content",
-        "settings": [
-          {
-            "type": "collection",
-            "id": "collection",
-            "label": "Collection"
-          },
-          {
-            "type": "product_list",
-            "id": "product_list",
-            "label": "products"
-          }
-          ],
-        "limit": 6
-      }
+    {
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections",
+      "limit": 6
+    },
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "products",
+      "limit": 6
+    }
+      
     ],
     "presets": [
       {
