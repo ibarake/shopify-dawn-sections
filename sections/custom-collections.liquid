@@ -58,7 +58,7 @@ const tabs = document.querySelectorAll('.tab');
 const tabContent = document.querySelectorAll('.collection-content-container');
 
 tabs.forEach((tab) =>{
-  tab.onclick((e) => {
+  tab.addEventListener('click', (e) => {
     console.log(e);
     console.log(this.dataset);
 
