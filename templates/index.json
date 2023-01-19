@@ -1,18 +1,5 @@
 {
   "sections": {
-    "554ae99c-46fa-4930-9d5a-46211ff5df6e": {
-      "type": "custom-collections",
-      "settings": {
-        "collection_list": [
-          "alfombras",
-          "espejos",
-          "lamparas",
-          "mantas",
-          "modulares",
-          "reclining"
-        ]
-      }
-    },
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
@@ -311,7 +298,6 @@
     }
   },
   "order": [
-    "554ae99c-46fa-4930-9d5a-46211ff5df6e",
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
     "image_banner",
     "46658e2a-45ab-457a-9e97-791c28394991",
