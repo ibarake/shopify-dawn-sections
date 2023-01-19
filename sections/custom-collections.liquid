@@ -7,6 +7,26 @@
     margin: 16px 100px 16px 100px;
   }
 
+  .mainimage{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+
+  @media (min-width: 679px){
+    .mainimage {
+    height: 40rem;
+    } 
+  }
+
+  :where(img, svg) {
+    display: block;
+    block-size: auto;
+    max-inline-size: 100%;
+}
+
   li.tab{
     padding: 16px 6px 16px 6px;
     margin: 0;
@@ -30,7 +50,7 @@
     color: black;
     text-decoration: underline;
     text-underline-offset: 0.8rem;
-    text-decoration-thickness: 0.5rem;
+    text-decoration-thickness: 0.2rem;
   }
 
   .collection-content-container{
@@ -65,7 +85,7 @@ const selectedCollectionFunction = (collectionTitle) => {
   <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
     <div class="left">
       <div class="collection-image">
-        <img src="{{ collection.image | image_url }}" alt="">
+        <img class="" src="{{ collection.image | image_url }}" alt="">
      <a href="#" class="btn-collections-all"></a>
      </div>
      </div>
