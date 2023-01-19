@@ -227,7 +227,37 @@
           "img-position": "center center",
           "button-text": "shop now",
           "button_link": "shopify:\/\/pages\/contact",
-          "btn-linebreak": "nowrap"
+          "btn-linebreak": "nowrap",
+          "btn-bg-color-normal": "#FFFFFF",
+          "btn-bg-color-hover": "#FFFFFF",
+          "btn-txt-color": "#FFFFFF",
+          "img-height": 540,
+          "responsive-container-height": 300,
+          "responsive-img-height": 300
+        }
+      },
+      "custom-collections": {
+        "type": "custom-collections",
+        "blocks": {
+          "e1059b68-64cf-4548-8944-5ca5beb8cdb8": {
+            "type": "collection",
+            "settings": {
+              "collection": "alfombras",
+              "product_list": [
+                "alesandra",
+                "alessio-sofa",
+                "cama-nino",
+                "maimz-sofa",
+                "sofa-cama",
+                "sofa-altonbury"
+              ]
+            }
+          }
+        },
+        "block_order": [
+          "e1059b68-64cf-4548-8944-5ca5beb8cdb8"
+        ],
+        "settings": {
         }
       }
     },
