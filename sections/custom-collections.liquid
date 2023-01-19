@@ -1,18 +1,18 @@
 <style>
-  .pagination{
+  ul.pagination{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
   }
 
-  .tab{
+  li.tab{
     padding: 0;
     margin: 0;
     cursor: pointer;
   }
 
-  .tab.active{
+  li.tab.active{
     border-bottom: 1px solid red;
   }
 
@@ -78,7 +78,7 @@ tabs.forEach((tab) =>{
       content.classList.remove('active');
     })
     tabs.forEach((tab) => {
-      e.target.classList.remove('active');
+      tab.classList.remove('active');
     })
 
     e.target.classList.add('active');
