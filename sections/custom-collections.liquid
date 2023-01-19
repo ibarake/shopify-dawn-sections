@@ -1,14 +1,151 @@
+<style>
+  .custom-collections-section{
+    margin: 0 220px 0 220px;
+  }
+  .left{
+    width: 50%;
+  }
+  .right{
+    width: 50%;
+  }
+  ul.pagination{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 16px 100px 16px 100px;
+  }
+
+  .mainimage{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+
+  @media (min-width: 679px){
+    .mainimage {
+    height: 40rem;
+    } 
+  }
+
+  li.tab{
+    padding: 16px 6px 16px 6px;
+    margin: 0;
+    font: Arial;
+    text-transform: uppercase;
+    font-size: clamp(14px, 1vw, 16px);
+    letter-spacing: 0.3em;
+    font-weight: 500;
+    padding-block: 1rem;
+    cursor: pointer;
+    scroll-snap-align: start;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  li.tab.active{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+    text-decoration-thickness: 0.2rem;
+  }
+
+  .collection-content-container{
+    display: none;
+  }
+  .collection-content-container.active{
+    display: block;
+  }
+
+</style>
+
+<script>
+
+const selectedCollectionFunction = (collectionTitle) => {
+  const selectedCollection = collectionTitle;
+};
+
+</script>
+
+
+<div class="custom-collections-section">
+<ul class="pagination">
+{% for collection in section.settings.collection_list %}
+  <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
+    {{ collection.title }}
+    </li>
+{%endfor%}
+</ul>
+
+{% for block in section.blocks %}
+
+    <div class="left">
+      <div class="collection-image">
+        <img class="mainimage" src="{{ block.settings.collection.image | image_url }}" alt="">
+        <a href="#" class="btn-collections-all">{{ block.settings.collection.title }}</a>
+     </div>
+     </div>
+     <div class="right">
+
+       {% for product in block.settings.product_list %}
+        <div class="product-container">
+           <a href="#"><img src="{{ product.image | image_url }}" alt=""></a>
+           <a href="#"><p>{{ product.title }}</p></a>
+         </div>
+       {% endfor %}
+       
+     </div>
+  
+{% endfor %}
+
+</div>
+
+</div>
+
+<script>
+
+const tabs = document.querySelectorAll('.tab');
+const tabContent = document.querySelectorAll('.collection-content-container');
+
+tabs.forEach((tab) =>{
+  tab.addEventListener('click', (e) => {
+
+    contentId = e.target.dataset.contentId;
+    content = document.getElementById(contentId);
+
+    tabContent.forEach((content) => {
+      content.classList.remove('active');
+    })
+    tabs.forEach((tab) => {
+      tab.classList.remove('active');
+    })
+
+    e.target.classList.add('active');
+    content.classList.add('active');
+  })
+})
+
+</script>
 
 {% schema %}
   {
     "name": "Custom collection section",
     "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "collection",
+        "name": "collection-block",
+        "settings": [
 
     {
-      "type": "collection_list",
-      "id": "collection_list",
-      "label": "Collections",
-      "limit": 6
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
     },
     {
       "type": "product_list",
@@ -17,6 +154,9 @@
       "limit": 6
     }
       
+    ],
+    "limit": 6
+      }
     ],
     "presets": [
       {
