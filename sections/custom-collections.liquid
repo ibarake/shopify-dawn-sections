@@ -13,6 +13,7 @@
   }
   .btn-collections-all{
     text-decoration: none;
+    color: {{ section.settings.btn-txt-color }};
   }
   .right{
     width: 50%;
@@ -179,6 +180,12 @@ tabs.forEach((tab) =>{
             "id": "product_list",
             "label": "products",
             "limit": 6
+          },
+          {
+            "type": "color",
+            "id": "btn-txt-color",
+            "label": "Button text color",
+            "default": "#FFFFFF"
           }
     ],
     "limit": 6
