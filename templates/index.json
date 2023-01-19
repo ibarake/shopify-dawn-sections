@@ -45,10 +45,10 @@
             "collection-title": "Espejos",
             "collection": "espejos",
             "product_list": [
+              "cama-nino",
               "sofa-altonbury",
               "sofa-cama",
               "maimz-sofa",
-              "cama-nino",
               "alessio-sofa",
               "alesandra"
             ]
@@ -374,7 +374,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     }
   },
