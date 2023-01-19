@@ -41,8 +41,10 @@ const selectedCollectionFunction = (collectionTitle) => {
 <div class="render"></div>
 
 {% for collection in section.settings.collection_list %}
-
-  {% if {{ forloop.index }} = 1 %}
+  <script>
+    console.log({{ forloop.index }});
+  </script>
+  {% if {{ forloop.index }} == 1 %}
   <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
     <div class="left">
       <div class="collection-image">
