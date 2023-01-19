@@ -4,6 +4,14 @@
     justify-content: space-between;
     flex-wrap: nowrap;
   }
+
+  .tab-content{
+    display: none;
+  }
+  .tab-content.active{
+    display: block;
+  }
+
 </style>
 
 <script>
@@ -16,7 +24,7 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 <div class="pagination">
 {% for collection in section.settings.collection_list %}
-  <span onclick="selectedCollectionFunction({{ collection.title }})" data-content-id="custom-content-{{ forloop.index }}">
+  <span class="tab" data-content-id="custom-content-{{ forloop.index }}">
     {{ collection.title }}
     </span>
 {%endfor%}
@@ -45,6 +53,25 @@ const selectedCollectionFunction = (collectionTitle) => {
 {%endfor%}
 
 <script>
+
+const tabs = document.querySelectorAll('.tab');
+const tabContent = document.querySelectorAll('.collection-content-container');
+
+tabs.forEach((tab) =>{
+  tab.addEventListener('click', () => {
+    console.log(this);
+    console.log(this.dataset);
+
+    contentId = this.dataset.contentId;
+    content = document.querySelectorById(contentId);
+    console.log(content);
+
+    tabContent.forEach((content) => {
+      content.classList.remove('active');
+    })
+    content.classList.add('active');
+  })
+})
 
 </script>
 
