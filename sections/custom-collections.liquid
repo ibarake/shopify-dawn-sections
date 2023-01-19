@@ -12,12 +12,15 @@
     cursor: pointer;
   }
 
+  .tab .active{
+    border-bottom: 1px solid red;
+  }
+
   .collection-content-container{
     display: none;
   }
   .collection-content-container.active{
     display: block;
-    color: red;
   }
 
 </style>
@@ -100,6 +103,11 @@ tabs.forEach((tab) =>{
     tabContent.forEach((content) => {
       content.classList.remove('active');
     })
+    tabs.forEach((tab) => {
+      e.target.classList.remove('active');
+    })
+
+    e.target.classList.add('active');
     content.classList.add('active');
   })
 })
