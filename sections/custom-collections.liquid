@@ -121,6 +121,9 @@ tabs.forEach((tab) =>{
     contentId = e.target.dataset.contentId;
     content = document.getElementById(contentId);
 
+    console.log(contentId);
+    console.log(content);
+
     tabContent.forEach((content) => {
       content.classList.remove('active');
     })
