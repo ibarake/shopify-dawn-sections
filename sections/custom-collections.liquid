@@ -22,13 +22,13 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 </script>
 
-<div class="pagination">
+<ul class="pagination">
 {% for collection in section.settings.collection_list %}
-  <span class="tab" data-content-id="custom-content-{{ forloop.index }}">
+  <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
     {{ collection.title }}
-    </span>
+    </li>
 {%endfor%}
-</div>
+</ul>
 
 <div class="render"></div>
 
