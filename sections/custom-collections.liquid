@@ -1,8 +1,15 @@
 <style>
   .pagination{
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+  }
+
+  .tab{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
   }
 
   .collection-content-container{
@@ -10,6 +17,7 @@
   }
   .collection-content-container.active{
     display: block;
+    color: red;
   }
 
 </style>
@@ -59,12 +67,9 @@ const tabContent = document.querySelectorAll('.collection-content-container');
 
 tabs.forEach((tab) =>{
   tab.addEventListener('click', (e) => {
-    console.log(e.target);
-    console.log(e.target.dataset);
 
     contentId = e.target.dataset.contentId;
     content = document.getElementById(contentId);
-    console.log(content);
 
     tabContent.forEach((content) => {
       content.classList.remove('active');
