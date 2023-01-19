@@ -138,8 +138,10 @@ const selectedCollectionFunction = (collectionTitle) => {
 
        {% for product in block.settings.product_list %}
         <div class="product-container">
-           <a href="#"><img src="{{ product.images[0] | image_url }}" alt=""></a>
-           <a href="#"><p>{{ product.title }}</p></a>
+           <a href="#">
+            <img src="{{ product.images[0] | image_url }}" alt="">
+            <p>{{ product.title }}</p>
+          </a>
          </div>
        {% endfor %}
        
