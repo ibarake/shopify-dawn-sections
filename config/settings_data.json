@@ -228,9 +228,9 @@
           "button-text": "shop now",
           "button_link": "shopify:\/\/pages\/contact",
           "btn-linebreak": "nowrap",
-          "btn-bg-color-normal": "#FFFFFF",
-          "btn-bg-color-hover": "#FFFFFF",
-          "btn-txt-color": "#FFFFFF",
+          "btn-bg-color-normal": "#ffffff",
+          "btn-bg-color-hover": "#ffffff",
+          "btn-txt-color": "#ffffff",
           "img-height": 540,
           "responsive-container-height": 300,
           "responsive-img-height": 300
@@ -242,6 +242,7 @@
           "e1059b68-64cf-4548-8944-5ca5beb8cdb8": {
             "type": "collection",
             "settings": {
+              "collection-title": "Alfombras",
               "collection": "alfombras",
               "product_list": [
                 "alesandra",
