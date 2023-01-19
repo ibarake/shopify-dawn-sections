@@ -29,6 +29,8 @@
   .product-container{
     width: 50%;
     flex: 50%;
+    background-color: {{ section.settings.btn-bg-color }};
+    padding: 5px;
   }
 
   .product-image{
@@ -49,6 +51,12 @@
     width: 100%;
     object-fit: cover;
     height: auto;
+  }
+
+  @media (min-width: 679px){
+    .mainimage {
+    height: 40rem;
+    } 
   }
 
   li.tab{
