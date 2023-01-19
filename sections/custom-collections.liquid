@@ -44,28 +44,6 @@ const selectedCollectionFunction = (collectionTitle) => {
 <div class="render"></div>
 
 {% for collection in section.settings.collection_list %}
-  <script>
-    console.log({{ forloop.index }});
-  </script>
-  {% if {{ forloop.index }} == 1 %}
-  <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
-    <div class="left">
-      <div class="collection-image">
-        <img src="{{ collection.image | image_url }}" alt="">
-     <a href="#" class="btn-collections-all"></a>
-     </div>
-     </div>
-     <div class="right">
-       
-       <div class="product-container">
-           <a href="#"><img src="" alt=""></a>
-           <a href="#"><p>{{ settings.section.product-list }}</p></a>
-         </div>
-     </div>
-  </div>
-  {% endif %}
-
-  {% if {{ forloop.index }} > 1 %}
 
   <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
     <div class="left">
@@ -82,10 +60,6 @@ const selectedCollectionFunction = (collectionTitle) => {
          </div>
      </div>
   </div>
-    
-  {% endif %}
-
-  
 
 {%endfor%}
 
