@@ -86,11 +86,13 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
 
+<div class="left-right">
+
     <div class="left">
       <div class="collection-image">
         <img class="mainimage" src="{{ block.settings.collection.image | image_url }}" alt="">
         <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
-     </div>
+      </div>
      </div>
 
      <div class="right">
@@ -104,7 +106,7 @@ const selectedCollectionFunction = (collectionTitle) => {
        
      </div>
 </div> 
-
+</div>
 {% endfor %}
 
 </div>
