@@ -78,7 +78,7 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 <div class="custom-collections-section">
 <ul class="pagination">
-{% for collection in section.settings.collection_list %}
+{% for collection in section.blocks.settings.collection_list %}
   <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
     {{ collection.title }}
     </li>
