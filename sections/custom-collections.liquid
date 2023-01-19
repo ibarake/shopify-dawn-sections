@@ -18,9 +18,7 @@
     text-decoration: none;
     color: {{ section.settings.btn-txt-color }};
   }
-  .spacer-element{
-    height: 10px;
-  }
+
   
   .right{
     display: grid;
@@ -55,6 +53,7 @@
     object-fit: cover;
     height: auto;
     max-height: 100px;
+    margin-top: auto;
   }
   .product-image:hover{
     transform: scale(1.2);
@@ -174,7 +173,6 @@ const selectedCollectionFunction = (collectionTitle) => {
        {% for product in block.settings.product_list %}
         <div class="product-container">
            <a class="product-text-container" href="#">
-            <div class="spacer-element"></div>
             <img class="product-image" src="{{ product.images[0] | image_url }}" alt="">
             <p class="product-text">{{ product.title }}</p>
           </a>
