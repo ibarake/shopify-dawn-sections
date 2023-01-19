@@ -61,7 +61,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "image_banner": {
@@ -338,6 +338,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "087b8800-2180-4c59-8c6d-5dc66436b193": {
+      "type": "custom-collections",
+      "blocks": {
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "Lamparas",
+            "collection": "lamparas",
+            "product_list": [
+              "alesandra",
+              "alessio-sofa",
+              "cama-nino",
+              "maimz-sofa",
+              "sofa-cama",
+              "sofa-altonbury"
+            ]
+          }
+        },
+        "cab66ae4-db85-44a0-9629-ac5f3664cdf7": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "Alfombras",
+            "collection": "alfombras",
+            "product_list": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a",
+        "cab66ae4-db85-44a0-9629-ac5f3664cdf7"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#F4F4F4"
+      }
     }
   },
   "order": [
@@ -350,6 +388,7 @@
     "featured_collection",
     "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
-    "03226e87-75fb-4c9b-ba5d-86c46b64eed6"
+    "03226e87-75fb-4c9b-ba5d-86c46b64eed6",
+    "087b8800-2180-4c59-8c6d-5dc66436b193"
   ]
 }
