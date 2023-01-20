@@ -1,8 +1,30 @@
+<style>
+
+</style>
+
 <div class="custom-double-banner">
-  <div class="left">
-    <img src="" alt="">
+
+{% for block in section.blocks %}
+  
+  <style>
+  .image{
+    background-image: url({{ block.settings.banner-image.image | image_url}});
+  }
+  </style>
+
+    <div class="half">
+  
+    <a href={{ section.settings.button_link }}>
+
+      <div class="image">
+        <p class="first-title">{{ block.settings.first-title.title }}</p>
+        <p class="second-title">{{ block.settings.second-title.title }}</p>
+      </div>
+
+    </a>
+
     <div class="button-container">
-      <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
+      <a href={{ section.settings.button_link }} class="btn-double-banner">{{ block.settings.button-text.title }}</a>
       <svg
         class="arrow-svg"
         version="1.2"
@@ -24,29 +46,11 @@
     </svg>
   </div>
 </div>
-<div class="right">
-  <img src="" alt="">
-  <div class="button-container">
-    <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
-    <svg
-      class="arrow-svg"
-      version="1.2"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      overflow="visible"
-      preserveAspectRatio="none"
-      viewBox="0 0 26 26"
-      width="24"
-      height="24"
-      fill="inherit">
-      <g transform="translate(1, 1)">
-        <path
-          fill="inherit"
-          d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
-          vector-effect="non-scaling-stroke">
-      </path>
-    </g>
-  </svg>
+
+{% endfor %}
+
+ 
+
 </div>
 
 {% schema %}
@@ -59,9 +63,32 @@
         "name": "banner-image",
         "settings": [
           {
+            "type": "text",
+            "id": "first-title",
+            "label": "First title"
+          },
+          {
+            "type": "text",
+            "id": "second-title",
+            "label": "Second title"
+          },
+          {
+            "type": "text",
+            "id": "button-text",
+            "label": "Button text"
+          },
+          {
             "type": "image_picker",
-            "label": "Banner image",
+            "label": "First image",
+            "id": "first-image"
+          }, {
+            "type": "image_picker",
+            "label": "Second image",
             "id": "banner-image"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
           }
         ],
         "limit": 2
