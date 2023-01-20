@@ -1,7 +1,15 @@
 <style>
+  .alink{
+    text-decoration: none;
+    color: {{ section.settings.text-color }};
+  }
   .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 35rem;
   }
+
   </style>
 
 <div class="custom-double-banner">
@@ -12,7 +20,7 @@
 
     <div class="half">
   
-    <a href={{ section.settings.button_link }}>
+    <a class="alink" href={{ section.settings.button_link }}>
 
       <div class="image" style="background-image: url({{ block.settings.banner-image | image_url}});">
         <p class="first-title">{{ block.settings.first-title }}</p>
@@ -54,7 +62,14 @@
 {% schema %}
   {
     "name": "Custom double banner",
-    "settings": [],
+    "settings": [
+      {
+      "type": "color",
+      "id": "text-color",
+      "label": "Text color",
+      "default": "#FFFFFF"
+      }
+    ],
     "blocks": [
       {
         "type": "image",
