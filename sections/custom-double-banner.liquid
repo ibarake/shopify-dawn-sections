@@ -8,7 +8,6 @@
   }
   .alink{
     text-decoration: none;
-    color: {{ section.settings.text-color }};
   }
   .half{
     width: 50%;
@@ -26,7 +25,7 @@
   .first-title{
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.08em;
@@ -35,7 +34,7 @@
   .second-title{
     font-style: normal;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -49,7 +48,7 @@
 
     <div class="half">
   
-    <a class="alink" href={{ section.settings.button_link }}>
+    <a class="alink" href={{ section.settings.button_link }} style="color: {{ section.settings.text-color }};">
 
       <div class="image" style="background-image: url({{ block.settings.banner-image | image_url}});">
         <p class="first-title">{{ block.settings.first-title }}</p>
@@ -59,7 +58,7 @@
     </a>
 
     <div class="button-container">
-      <a href={{ section.settings.button_link }} class="alink btn-double-banner">{{ block.settings.button-text }}</a>
+      <a href={{ section.settings.button_link }} style="color: {{ section.settings.btn-color }};" class="alink btn-double-banner">{{ block.settings.button-text }}</a>
       <svg
         class="arrow-svg"
         version="1.2"
@@ -97,6 +96,12 @@
       "id": "text-color",
       "label": "Text color",
       "default": "#FFFFFF"
+      },
+      {
+      "type": "color",
+      "id": "btn-color",
+      "label": "Button color",
+      "default": "#363534"
       }
     ],
     "blocks": [
