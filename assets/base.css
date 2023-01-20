@@ -2261,7 +2261,7 @@ input[type='checkbox'] {
     grid-template-areas:
       'heading search icons'
       'navigation navigation';
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr  3fr 1fr;
   }
 
   .header--middle-left {
