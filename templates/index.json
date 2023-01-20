@@ -375,6 +375,25 @@
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
       }
+    },
+    "5e2a584c-a48e-4c52-896c-4793dd016861": {
+      "type": "custom-double-banner",
+      "blocks": {
+        "af0d6954-943b-491b-a9fd-226774b24bfc": {
+          "type": "image",
+          "settings": {
+            "first-title": "hundreds of styles available",
+            "second-title": "in-stock & fast delivery",
+            "button-text": "shop in-stock",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "af0d6954-943b-491b-a9fd-226774b24bfc"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -388,6 +407,7 @@
     "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
     "03226e87-75fb-4c9b-ba5d-86c46b64eed6",
-    "087b8800-2180-4c59-8c6d-5dc66436b193"
+    "087b8800-2180-4c59-8c6d-5dc66436b193",
+    "5e2a584c-a48e-4c52-896c-4793dd016861"
   ]
 }
