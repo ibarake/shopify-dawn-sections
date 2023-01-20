@@ -1,33 +1,36 @@
 <style>
-  .custom-collections-section{
-    margin: 0 auto 0 auto;
+  .custom-collections-section {
+    margin: 0 auto;
   }
-  .left{
+  .left {
     display: flex;
     flex-direction: column;
   }
-  .button-container{
+  .button-container {
     display: flex;
     justify-content: end;
     align-items: center;
     padding: 0.5rem;
-    background-color: {{ section.settings.btn-bg-color }};
+    background-color: {{ section.settings.btn-bg-color }}
+    ;
   }
-  div.button-container a.btn-collections-all{
+  div.button-container a.btn-collections-all {
     text-transform: uppercase;
     text-decoration: none;
-    color: {{ section.settings.btn-txt-color }};
+    color: {{ section.settings.btn-txt-color }}
+    ;
   }
 
-  
-  .right{
+
+  .right {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem 1rem;
   }
 
-  .product-container{
-    background-color: {{ section.settings.btn-bg-color }};
+  .product-container {
+    background-color: {{ section.settings.btn-bg-color }}
+    ;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -38,7 +41,7 @@
     height: 100%;
   }
 
-  .product-text-container{
+  .product-text-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,7 +49,7 @@
     text-decoration: none;
   }
 
-  .product-image{
+  .product-image {
     filter: drop-shadow(0 1px 1px rgba(136, 136, 136, 0.4)) drop-shadow(0 2px 2px rgba(136, 136, 136, 0.4));
     will-change: auto;
     transition: all 0.5s ease-in-out;
@@ -55,39 +58,40 @@
     max-height: 100px;
     margin-top: auto;
   }
-  .product-image:hover{
+  .product-image:hover {
     transform: scale(1.2);
   }
 
-  .product-text{
+  .product-text {
     text-transform: uppercase;
     text-decoration: none;
-    color: {{ section.settings.btn-txt-color }};
+    color: {{ section.settings.btn-txt-color }}
+    ;
     margin-top: auto;
   }
 
-  ul.pagination{
+  ul.pagination {
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin: 32px 100px 32px 100px;
+    margin: 32px 100px;
   }
 
-  .mainimage{
+  .mainimage {
     width: 100%;
     object-fit: cover;
     height: auto;
   }
 
-  @media (min-width: 679px){
+  @media(min-width: 679px) {
     .mainimage {
-    height: 64rem;
-    } 
+      height: 64rem;
+    }
   }
 
-  li.tab{
-    padding: 16px 6px 16px 6px;
+  li.tab {
+    padding: 16px 6px;
     margin: 0;
     font: Arial;
     text-transform: uppercase;
@@ -105,110 +109,181 @@
     justify-content: center;
   }
 
-  li.tab.active{
+  li.tab.active {
     color: black;
     text-decoration: underline;
     text-underline-offset: 0.8rem;
     text-decoration-thickness: 0.2rem;
   }
-  .left-right{
+  .left-right {
     display: grid;
     grid-template-columns: 7fr 3fr;
     gap: 1rem 1rem;
   }
-  .collection-content-container{
+  .collection-content-container {
     display: none;
   }
-  .collection-content-container.active{
+  .collection-content-container.active {
     display: block;
   }
-
 </style>
 
 <script>
 
-const selectedCollectionFunction = (collectionTitle) => {
-  const selectedCollection = collectionTitle;
-};
-
+  const selectedCollectionFunction = (collectionTitle) => {
+    const selectedCollection = collectionTitle;
+  };
 </script>
 
 
 <div class="page-width custom-collections-section">
 
-<ul class="pagination">
-{% for collection in section.blocks %}
+  <ul class="pagination">
+    {% for collection in section.blocks %}
 
-  {% if forloop.index == 1 %}
-  <script>
-    console.log({{ forloop.index }})
-  </script>
-  <li class="tab active" data-content-id="custom-content-{{ forloop.index }}">
-    {{ collection.settings.collection-title }}
-    </li>
+      {% if forloop.index == 1 %}
+        <script>
+          console.log({{ forloop.index }})
+        </script>
+        <li class="tab active" data-content-id="custom-content-{{ forloop.index }}">
+          {{ collection.settings.collection-title }}
+        </li>
+      {% endif %}
+
+      {% if forloop.index > 1 %}
+        <script>
+          console.log({{ forloop.index }})
+        </script>
+        <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
+          {{ collection.settings.collection-title }}
+        </li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+  {% for block in section.blocks %}
+
+    {% if forloop.index == 1 %}
+      <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
+
+        <div class="left-right">
+
+          <div class="left">
+            <div class="collection-image">
+              <img
+                class="mainimage"
+                src="{{ block.settings.collection.image | image_url }}"
+                alt="">
+            </div>
+            <div class="button-container">
+              <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
+
+
+              <svg
+                class="arrow-svg"
+                version="1.2"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                overflow="visible"
+                preserveAspectRatio="none"
+                viewBox="0 0 26 26"
+                width="24"
+                height="24"
+                fill="inherit">
+                <g transform="translate(1, 1)">
+                  <path
+                    fill="inherit"
+                    d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
+                    vector-effect="non-scaling-stroke">
+                </path>
+              </g>
+            </svg>
+
+
+          </div>
+        </div>
+
+        <div class="right">
+
+          {% for product in block.settings.product_list %}
+            <div class="product-container">
+              <a class="product-text-container" href="#">
+                <img
+                  class="product-image"
+                  src="{{ product.images[0] | image_url }}"
+                  alt="">
+                <p class="product-text">{{ product.title }}</p>
+              </a>
+            </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
   {% endif %}
 
   {% if forloop.index > 1 %}
-  <script>
-    console.log({{ forloop.index }})
-  </script>
-  <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
-    {{ collection.settings.collection-title }}
-    </li>
-  {% endif %}
-  
-{%endfor%}
-</ul>
+    <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
 
-{% for block in section.blocks %}
+      <div class="left-right">
 
-<div id="custom-content-{{ forloop.index }}" class="collection-content-container">
+        <div class="left">
+          <div class="collection-image">
+            <img
+              class="mainimage"
+              src="{{ block.settings.collection.image | image_url }}"
+              alt="">
+          </div>
+          <div class="button-container">
+            <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
 
-<div class="left-right">
 
-    <div class="left">
-      <div class="collection-image">
-        <img class="mainimage" src="{{ block.settings.collection.image | image_url }}" alt="">
+            <svg
+              class="arrow-svg"
+              version="1.2"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              overflow="visible"
+              preserveAspectRatio="none"
+              viewBox="0 0 26 26"
+              width="24"
+              height="24"
+              fill="inherit">
+              <g transform="translate(1, 1)">
+                <path
+                  fill="inherit"
+                  d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
+                  vector-effect="non-scaling-stroke">
+              </path>
+            </g>
+          </svg>
+
+
+        </div>
       </div>
-      <div class="button-container" >
-      <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
 
+      <div class="right">
 
-      <svg class="arrow-svg" version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" preserveAspectRatio="none" viewBox="0 0 26 26" width="24" height="24" fill="inherit">
-      <g transform="translate(1, 1)">
-        <path fill="inherit" d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z" vector-effect="non-scaling-stroke">
-        </path>
-        </g>
-        </svg>
-
+        {% for product in block.settings.product_list %}
+          <div class="product-container">
+            <a class="product-text-container" href="#">
+              <img
+                class="product-image"
+                src="{{ product.images[0] | image_url }}"
+                alt="">
+              <p class="product-text">{{ product.title }}</p>
+            </a>
+          </div>
+        {% endfor %}
 
       </div>
-     </div>
-
-     <div class="right">
-
-       {% for product in block.settings.product_list %}
-        <div class="product-container">
-           <a class="product-text-container" href="#">
-            <img class="product-image" src="{{ product.images[0] | image_url }}" alt="">
-            <p class="product-text">{{ product.title }}</p>
-          </a>
-         </div>
-       {% endfor %}
-       
-     </div>
-</div> 
-</div>
-{% endfor %}
-
-</div>
-
-<script>
-
-const tabs = document.querySelectorAll('.tab');
+    </div>
+  </div>
+{% endif %}{% endfor %}</div><script>const tabs = document.querySelectorAll('.tab');
 const tabContent = document.querySelectorAll('.collection-content-container');
 
-tabs.forEach((tab) =>{
+tabs.forEach((tab) => {
   tab.addEventListener('click', (e) => {
 
     contentId = e.target.dataset.contentId;
@@ -217,74 +292,66 @@ tabs.forEach((tab) =>{
     console.log(contentId);
     console.log(content);
 
-    tabContent.forEach((content) => {
-      content.classList.remove('active');
-    })
-    tabs.forEach((tab) => {
-      tab.classList.remove('active');
-    })
+    tabContent
+      .forEach((content) => {
+        content.classList.remove('active');
+      })
+      tabs
+      .forEach((tab) => {
+        tab.classList.remove('active');
+      })
 
-    e.target.classList.add('active');
+      e
+      .target
+      .classList
+      .add('active');
     content.classList.add('active');
   })
 })
+</script>{% schema %}{
+  "name": "Custom collection section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "btn-txt-color",
+      "label": "Button text color",
+      "default": "#363534"
+    }, {
+      "type": "color",
+      "id": "btn-bg-color",
+      "label": "Button background color",
+      "default": "#F4F4F4"
+    }
 
-</script>
-
-{% schema %}
-  {
-    "name": "Custom collection section",
-    "settings": [
-      {
-        "type": "color",
-        "id": "btn-txt-color",
-        "label": "Button text color",
-        "default": "#363534"
-      },
-      {
-        "type": "color",
-        "id": "btn-bg-color",
-        "label": "Button background color",
-        "default": "#F4F4F4"
-      }
-
-    ],
-    "blocks": [
-      {
-        "type": "collection",
-        "name": "collection-block",
-        "settings": [
-          {
-            "type": "text",
-            "id": "collection-title",
-            "label": "Collection title"
-          },
-          {
-            "type": "collection",
-            "id": "collection",
-            "label": "Collection"
-          },
-          {
-            "type": "product_list",
-            "id": "product_list",
-            "label": "products",
-            "limit": 6
-          }
-    ],
-    "limit": 6
-      }
-    ],
-    "presets": [
-      {
-        "category": "custom-collection-banner",
-        "name": "Custom collection section Ashley"
-      }
-    ]
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "collection-block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "collection-title",
+          "label": "Collection title"
+        }, {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        }, {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "products",
+          "limit": 6
+        }
+      ],
+      "limit": 6
+    }
+  ],
+  "presets": [
+    {
+      "category": "custom-collection-banner",
+      "name": "Custom collection section Ashley"
+    }
+  ]
+}
+{% endschema %}{% stylesheet %}{% javascript %}
