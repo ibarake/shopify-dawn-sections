@@ -405,6 +405,8 @@
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
       "settings": {
+        "text-color": "#FFFFFF",
+        "btn-color": "#363534"
       }
     }
   },
