@@ -138,9 +138,19 @@ const selectedCollectionFunction = (collectionTitle) => {
 
 <ul class="pagination">
 {% for collection in section.blocks %}
+  
+  {% if forloop.index == 1 %}
   <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
     {{ collection.settings.collection-title }}
     </li>
+  {% endif %}
+
+  {% if forloop.index > 1 %}
+  <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
+    {{ collection.settings.collection-title }}
+    </li>
+  {% endif %}
+  
 {%endfor%}
 </ul>
 
