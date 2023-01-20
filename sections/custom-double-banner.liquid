@@ -15,6 +15,7 @@
   }
   .image{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 35rem;
@@ -34,8 +35,8 @@
     <a class="alink" href={{ section.settings.button_link }}>
 
       <div class="image" style="background-image: url({{ block.settings.banner-image | image_url}});">
-        <span class="first-title">{{ block.settings.first-title }}</span>
-        <span class="second-title">{{ block.settings.second-title }}</span>
+        <p class="first-title">{{ block.settings.first-title }}</p>
+        <p class="second-title">{{ block.settings.second-title }}</p>
       </div>
 
     </a>
