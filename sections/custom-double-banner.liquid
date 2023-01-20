@@ -1,0 +1,71 @@
+<div class="custom-double-banner">
+  <div class="left">
+    <img src="" alt="">
+    <div class="button-container">
+      <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
+      <svg
+        class="arrow-svg"
+        version="1.2"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        overflow="visible"
+        preserveAspectRatio="none"
+        viewBox="0 0 26 26"
+        width="24"
+        height="24"
+        fill="inherit">
+        <g transform="translate(1, 1)">
+          <path
+            fill="inherit"
+            d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
+            vector-effect="non-scaling-stroke">
+        </path>
+      </g>
+    </svg>
+  </div>
+</div>
+<div class="right">
+  <img src="" alt="">
+  <div class="button-container">
+    <a href="#" class="btn-collections-all">SHOP ALL {{ block.settings.collection.title }} NOW!</a>
+    <svg
+      class="arrow-svg"
+      version="1.2"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      overflow="visible"
+      preserveAspectRatio="none"
+      viewBox="0 0 26 26"
+      width="24"
+      height="24"
+      fill="inherit">
+      <g transform="translate(1, 1)">
+        <path
+          fill="inherit"
+          d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
+          vector-effect="non-scaling-stroke">
+      </path>
+    </g>
+  </svg>
+</div>
+
+{% schema %}
+  {
+    "name": "Custom double banner",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "banner-image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Banner image",
+            "id": "banner-image"
+          }
+        ],
+        "limit": 2
+      }
+    ]
+  }
+{% endschema %}
