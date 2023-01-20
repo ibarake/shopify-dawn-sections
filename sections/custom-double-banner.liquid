@@ -43,6 +43,12 @@
     font-size: 3rem;
     text-align: center;
   }
+  .custom-button-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5rem;
+}
 
   </style>
 
@@ -63,7 +69,7 @@
 
     </a>
 
-    <div class="button-container">
+    <div class="custom-button-container">
       <a href={{ section.settings.button_link }} style="color: {{ section.settings.btn-color }};" class="alink2 btn-double-banner">{{ block.settings.button-text }}</a>
       <svg
         class="arrow-svg"
