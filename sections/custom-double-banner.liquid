@@ -1,7 +1,16 @@
 <style>
+  .custom-double-banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
   .alink{
     text-decoration: none;
     color: {{ section.settings.text-color }};
+  }
+  .half{
+    width: 50%;
   }
   .image{
     display: flex;
@@ -23,8 +32,8 @@
     <a class="alink" href={{ section.settings.button_link }}>
 
       <div class="image" style="background-image: url({{ block.settings.banner-image | image_url}});">
-        <p class="first-title">{{ block.settings.first-title }}</p>
-        <p class="second-title">{{ block.settings.second-title }}</p>
+        <span class="first-title">{{ block.settings.first-title }}</span>
+        <span class="second-title">{{ block.settings.second-title }}</span>
       </div>
 
     </a>
