@@ -388,10 +388,21 @@
             "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5A.webp",
             "button_link": "shopify:\/\/collections"
           }
+        },
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
+          "type": "image",
+          "settings": {
+            "first-title": "customer favorites",
+            "second-title": "free shipping",
+            "button-text": "shop free-shipping",
+            "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5B.jpg",
+            "button_link": "shopify:\/\/collections\/alfombras"
+          }
         }
       },
       "block_order": [
-        "af0d6954-943b-491b-a9fd-226774b24bfc"
+        "af0d6954-943b-491b-a9fd-226774b24bfc",
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
       "settings": {
       }
