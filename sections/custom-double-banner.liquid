@@ -8,6 +8,11 @@
   }
   .alink{
     text-decoration: none;
+    color: {{ section.settings.text-color }};
+  }
+  .alink2{
+    text-decoration: none;
+    color: {{ section.settings.btn-color }};
   }
   .half{
     width: 50%;
@@ -25,7 +30,7 @@
   .first-title{
     font-style: normal;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.08em;
@@ -48,7 +53,7 @@
 
     <div class="half">
   
-    <a class="alink" href={{ section.settings.button_link }} style="color: {{ section.settings.text-color }};">
+    <a class="alink" href={{ section.settings.button_link }}>
 
       <div class="image" style="background-image: url({{ block.settings.banner-image | image_url}});">
         <p class="first-title">{{ block.settings.first-title }}</p>
@@ -58,7 +63,7 @@
     </a>
 
     <div class="button-container">
-      <a href={{ section.settings.button_link }} style="color: {{ section.settings.btn-color }};" class="alink btn-double-banner">{{ block.settings.button-text }}</a>
+      <a href={{ section.settings.button_link }} style="color: {{ section.settings.btn-color }};" class="alink2 btn-double-banner">{{ block.settings.button-text }}</a>
       <svg
         class="arrow-svg"
         version="1.2"
