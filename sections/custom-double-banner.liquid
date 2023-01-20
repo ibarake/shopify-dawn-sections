@@ -1,23 +1,20 @@
 <style>
-
-</style>
+  .image{
+    height: 35rem;
+  }
+  </style>
 
 <div class="custom-double-banner">
 
 {% for block in section.blocks %}
   
-  <style>
-  .image{
-    background-image: url({{ block.settings.banner-image | image_url}});
-    height: 35rem;
-  }
-  </style>
+ 
 
     <div class="half">
   
     <a href={{ section.settings.button_link }}>
 
-      <div class="image">
+      <div class="image" style="background-image: url({{ block.settings.banner-image | image_url}});">
         <p class="first-title">{{ block.settings.first-title.title }}</p>
         <p class="second-title">{{ block.settings.second-title.title }}</p>
       </div>
