@@ -21,6 +21,22 @@
         "responsive-img-height": 300
       }
     },
+    "46658e2a-45ab-457a-9e97-791c28394991": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-01-13_at_9.46.40_PM.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
       "type": "custom-collections",
       "blocks": {
@@ -52,11 +68,22 @@
               "alesandra"
             ]
           }
+        },
+        "3549a38d-4581-4c3c-8ad0-365031417b8e": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "",
+            "collection": "",
+            "product_list": [
+
+            ]
+          }
         }
       },
       "block_order": [
         "a6d17ac0-21c5-4294-abf7-4ae0e1766d12",
-        "a7df558d-7009-42a7-b248-5065232ba302"
+        "a7df558d-7009-42a7-b248-5065232ba302",
+        "3549a38d-4581-4c3c-8ad0-365031417b8e"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -112,62 +139,6 @@
         "show_text_below": false
       }
     },
-    "46658e2a-45ab-457a-9e97-791c28394991": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-01-13_at_9.46.40_PM.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "modulares"
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "modulares"
-          }
-        },
-        "product": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "sofa-cama",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1",
-        "product"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0": {
       "type": "custom-liquid",
       "settings": {
@@ -193,7 +164,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -201,45 +172,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "3aa88210-4cf6-4884-a9fa-b191fc1e053d": {
-      "type": "collage",
-      "blocks": {
-        "7ab8c46d-d59b-45c6-928e-3a0d74887920": {
-          "type": "collection",
-          "settings": {
-            "collection": "modulares"
-          }
-        },
-        "4a698c3d-1897-4574-884f-411d25411a64": {
-          "type": "collection",
-          "settings": {
-            "collection": "modulares"
-          }
-        },
-        "c0064177-187b-48dd-82de-84f49f3e9512": {
-          "type": "product",
-          "settings": {
-            "product": "sofa-cama",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "7ab8c46d-d59b-45c6-928e-3a0d74887920",
-        "4a698c3d-1897-4574-884f-411d25411a64",
-        "c0064177-187b-48dd-82de-84f49f3e9512"
-      ],
-      "settings": {
-        "heading": "Upgrade your Cozy",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -285,7 +217,7 @@
         "8554e369-d129-4fa2-aa7c-c1d41b015ce1"
       ],
       "settings": {
-        "title": "Tie to the loook together",
+        "title": "Mejores Ofertas",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -297,45 +229,130 @@
         "padding_bottom": 28
       }
     },
-    "03226e87-75fb-4c9b-ba5d-86c46b64eed6": {
-      "type": "collage",
+    "5e2a584c-a48e-4c52-896c-4793dd016861": {
+      "type": "custom-double-banner",
       "blocks": {
-        "template--17587688046899__03226e87-75fb-4c9b-ba5d-86c46b64eed6-1673667437396f972e-0": {
-          "type": "video",
+        "af0d6954-943b-491b-a9fd-226774b24bfc": {
+          "type": "image",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": true
+            "first-title": "hundreds of styles available",
+            "second-title": "in-stock & fast delivery",
+            "button-text": "shop in-stock",
+            "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5A.webp",
+            "button_link": "shopify:\/\/collections"
           }
         },
-        "template--17587688046899__03226e87-75fb-4c9b-ba5d-86c46b64eed6-1673667437396f972e-1": {
-          "type": "product",
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "template--17587688046899__03226e87-75fb-4c9b-ba5d-86c46b64eed6-1673667437396f972e-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
+            "first-title": "customer favorites",
+            "second-title": "free shipping",
+            "button-text": "shop free-shipping",
+            "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5B.jpg",
+            "button_link": "shopify:\/\/collections\/alfombras"
           }
         }
       },
       "block_order": [
-        "template--17587688046899__03226e87-75fb-4c9b-ba5d-86c46b64eed6-1673667437396f972e-0",
-        "template--17587688046899__03226e87-75fb-4c9b-ba5d-86c46b64eed6-1673667437396f972e-1",
-        "template--17587688046899__03226e87-75fb-4c9b-ba5d-86c46b64eed6-1673667437396f972e-2"
+        "af0d6954-943b-491b-a9fd-226774b24bfc",
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "text-color": "#ffffff",
+        "btn-color": "#363534"
+      }
+    },
+    "3aa88210-4cf6-4884-a9fa-b191fc1e053d": {
+      "type": "collage",
+      "blocks": {
+        "7ab8c46d-d59b-45c6-928e-3a0d74887920": {
+          "type": "collection",
+          "settings": {
+            "collection": "modulares"
+          }
+        },
+        "4a698c3d-1897-4574-884f-411d25411a64": {
+          "type": "collection",
+          "settings": {
+            "collection": "modulares"
+          }
+        },
+        "c0064177-187b-48dd-82de-84f49f3e9512": {
+          "type": "product",
+          "settings": {
+            "product": "sofa-cama",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "7ab8c46d-d59b-45c6-928e-3a0d74887920",
+        "4a698c3d-1897-4574-884f-411d25411a64",
+        "c0064177-187b-48dd-82de-84f49f3e9512"
+      ],
+      "settings": {
+        "heading": "Upgrade your Cozy",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "none",
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
+      "type": "collection-list",
+      "blocks": {
+        "13c91ef6-ae26-4022-999d-eedef2b7983e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "alfombras"
+          }
+        },
+        "4fa7c405-59a3-484d-aa69-72fdafcb35b4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "espejos"
+          }
+        },
+        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "bd52417d-64a6-4db8-9f94-99c1c05eaeff": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lamparas"
+          }
+        },
+        "0005bcb8-67b7-4fc2-9bfc-981992b47c89": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mantas"
+          }
+        }
+      },
+      "block_order": [
+        "13c91ef6-ae26-4022-999d-eedef2b7983e",
+        "4fa7c405-59a3-484d-aa69-72fdafcb35b4",
+        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76",
+        "bd52417d-64a6-4db8-9f94-99c1c05eaeff",
+        "0005bcb8-67b7-4fc2-9bfc-981992b47c89"
+      ],
+      "settings": {
+        "title": "Tie to the loook together",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 28
       }
     },
     "087b8800-2180-4c59-8c6d-5dc66436b193": {
@@ -375,53 +392,19 @@
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
       }
-    },
-    "5e2a584c-a48e-4c52-896c-4793dd016861": {
-      "type": "custom-double-banner",
-      "blocks": {
-        "af0d6954-943b-491b-a9fd-226774b24bfc": {
-          "type": "image",
-          "settings": {
-            "first-title": "hundreds of styles available",
-            "second-title": "in-stock & fast delivery",
-            "button-text": "shop in-stock",
-            "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5A.webp",
-            "button_link": "shopify:\/\/collections"
-          }
-        },
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
-          "type": "image",
-          "settings": {
-            "first-title": "customer favorites",
-            "second-title": "free shipping",
-            "button-text": "shop free-shipping",
-            "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5B.jpg",
-            "button_link": "shopify:\/\/collections\/alfombras"
-          }
-        }
-      },
-      "block_order": [
-        "af0d6954-943b-491b-a9fd-226774b24bfc",
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
-      ],
-      "settings": {
-        "text-color": "#FFFFFF",
-        "btn-color": "#363534"
-      }
     }
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
+    "46658e2a-45ab-457a-9e97-791c28394991",
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "image_banner",
-    "46658e2a-45ab-457a-9e97-791c28394991",
-    "collage",
     "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
     "featured_collection",
-    "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
-    "03226e87-75fb-4c9b-ba5d-86c46b64eed6",
-    "087b8800-2180-4c59-8c6d-5dc66436b193",
-    "5e2a584c-a48e-4c52-896c-4793dd016861"
+    "5e2a584c-a48e-4c52-896c-4793dd016861",
+    "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
+    "087b8800-2180-4c59-8c6d-5dc66436b193"
   ]
 }
