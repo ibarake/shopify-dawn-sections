@@ -40,39 +40,20 @@
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
       "type": "custom-collections",
       "blocks": {
-        "a6d17ac0-21c5-4294-abf7-4ae0e1766d12": {
+        "18924a0a-302d-44e9-a158-a5c7c1fdab08": {
           "type": "collection",
           "settings": {
-            "collection-title": "Alfombras",
-            "collection": "alfombras",
+            "collection-title": "Comedores",
+            "collection": "mesas-de-comedor-hasta-3-000-000",
             "product_list": [
-              "alesandra",
-              "alessio-sofa",
-              "cama-nino",
-              "maimz-sofa",
-              "sofa-cama",
-              "sofa-altonbury"
+
             ]
           }
         },
-        "a7df558d-7009-42a7-b248-5065232ba302": {
+        "f4abb9d3-0a39-4463-8536-1f82051dd3ae": {
           "type": "collection",
           "settings": {
-            "collection-title": "Espejos",
-            "collection": "espejos",
-            "product_list": [
-              "cama-nino",
-              "sofa-cama",
-              "maimz-sofa",
-              "alessio-sofa",
-              "alesandra"
-            ]
-          }
-        },
-        "3549a38d-4581-4c3c-8ad0-365031417b8e": {
-          "type": "collection",
-          "settings": {
-            "collection-title": "",
+            "collection-title": "Sillas de Comedor",
             "collection": "",
             "product_list": [
 
@@ -81,9 +62,8 @@
         }
       },
       "block_order": [
-        "a6d17ac0-21c5-4294-abf7-4ae0e1766d12",
-        "a7df558d-7009-42a7-b248-5065232ba302",
-        "3549a38d-4581-4c3c-8ad0-365031417b8e"
+        "18924a0a-302d-44e9-a158-a5c7c1fdab08",
+        "f4abb9d3-0a39-4463-8536-1f82051dd3ae"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -146,33 +126,6 @@
         "color_scheme": "background-1",
         "padding_top": 4,
         "padding_bottom": 52
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Top Deals",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 10,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
       }
     },
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
@@ -400,7 +353,6 @@
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "image_banner",
     "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
-    "featured_collection",
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
