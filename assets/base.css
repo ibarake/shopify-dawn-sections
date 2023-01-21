@@ -2259,7 +2259,7 @@ input[type='checkbox'] {
   display: grid;
   grid-template-areas: 'left-icon heading icons';
   align-items: center;
-  justify-items: center;
+  justify-items: stretch;
 }
 
 @media screen and (min-width: 990px) {
