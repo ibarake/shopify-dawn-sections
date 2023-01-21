@@ -2250,20 +2250,23 @@ input[type='checkbox'] {
 .top-header{
   display: grid;
   grid-template-areas: 'heading search icons';
-  grid-template-columns: 1fr  3fr 1fr;
+  grid-template-columns: 1fr  2fr 1fr;
   grid-area: top;
 }
 .header {
-  
+  display: grid;
+  grid-template-areas: 'left-icon heading icons';
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
 }
 
 @media screen and (min-width: 990px) {
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
     grid-template-areas:
-      'top top top'
-      'navigation navigation navigation';
-    grid-template-columns: 1fr  3fr 1fr;
+      'top'
+      'navigation';
+    grid-template-columns: 1fr;
   }
 
   .header--middle-left {
