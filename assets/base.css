@@ -2248,6 +2248,9 @@ input[type='checkbox'] {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 .top-header{
+  align-items: center;
+}
+.top-header-inner{
   display: grid;
   grid-template-areas: 'heading search icons';
   grid-template-columns: 1fr  3fr 1fr;
