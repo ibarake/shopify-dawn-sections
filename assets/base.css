@@ -2252,6 +2252,7 @@ input[type='checkbox'] {
   grid-template-areas: 'heading search icons';
   grid-template-columns: 1fr  3fr 1fr;
   grid-area: top;
+  width: var(--page-width);
 }
 .header {
   display: grid;
