@@ -138,7 +138,7 @@
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} {% if section.settings.menu != blank %} header--has-menu{% endif %}">
   <div class="top-header">
 
- 
+  <div class="page-width">
   {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
@@ -442,6 +442,8 @@
             </div>
           {%- endif -%}
         </a>
+      </div>
+
       </div>
 
       </div>
