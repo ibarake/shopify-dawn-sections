@@ -146,7 +146,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
-          "logo_width": 90,
+          "logo_width": 180,
           "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",

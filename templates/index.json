@@ -28,7 +28,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -119,15 +119,6 @@
         "show_text_below": false
       }
     },
-    "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 4,
-        "padding_bottom": 52
-      }
-    },
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
       "type": "collection-list",
       "blocks": {
@@ -182,26 +173,35 @@
         "padding_bottom": 28
       }
     },
+    "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 4,
+        "padding_bottom": 52
+      }
+    },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
       "type": "custom-double-banner",
       "blocks": {
         "af0d6954-943b-491b-a9fd-226774b24bfc": {
           "type": "image",
           "settings": {
-            "first-title": "hundreds of styles available",
-            "second-title": "in-stock & fast delivery",
+            "first-title": "cientos de estilos disponibles",
+            "second-title": "En inventario con entrega rápida",
             "button-text": "shop in-stock",
-            "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5A.webp",
-            "button_link": "shopify:\/\/collections"
+            "banner-image": "shopify:\/\/shop_images\/59302_092_ret_fhlojc.png",
+            "button_link": ""
           }
         },
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
           "type": "image",
           "settings": {
-            "first-title": "customer favorites",
-            "second-title": "free shipping",
+            "first-title": "Lo que mas valoran nuestros clientes",
+            "second-title": "Entrega con instalación",
             "button-text": "shop free-shipping",
-            "banner-image": "shopify:\/\/shop_images\/FW2-4_HP_DK_5B.jpg",
+            "banner-image": "shopify:\/\/shop_images\/B211-H467_MomKid_150_ret_zez095_1.png",
             "button_link": "shopify:\/\/collections\/alfombras"
           }
         }
@@ -213,6 +213,15 @@
       "settings": {
         "text-color": "#ffffff",
         "btn-color": "#363534"
+      }
+    },
+    "3d511c52-c834-4f0d-858d-d7f780e904b9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "3aa88210-4cf6-4884-a9fa-b191fc1e053d": {
@@ -352,9 +361,10 @@
     "46658e2a-45ab-457a-9e97-791c28394991",
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "image_banner",
-    "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
+    "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
+    "3d511c52-c834-4f0d-858d-d7f780e904b9",
     "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "087b8800-2180-4c59-8c6d-5dc66436b193"
