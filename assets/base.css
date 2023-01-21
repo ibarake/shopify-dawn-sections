@@ -2253,11 +2253,13 @@ input[type='checkbox'] {
   grid-template-columns: 1fr  3fr 1fr;
   grid-area: top;
   max-width: var(--page-width);
+  align-items: center;
 }
 .header {
   display: grid;
   grid-template-areas: 'left-icon heading icons';
   align-items: center;
+  justify-items: center;
 }
 
 @media screen and (min-width: 990px) {
