@@ -178,43 +178,43 @@
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
       "type": "collection-list",
       "blocks": {
-        "template--17587688046899__8bab7b54-ef93-4691-8cc8-87f3017eb3e8-16736662632684a4c0-0": {
+        "06cdde38-e143-4d16-9946-0e940af450e4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "alfombras"
+            "collection": "sofas"
           }
         },
-        "template--17587688046899__8bab7b54-ef93-4691-8cc8-87f3017eb3e8-16736662632684a4c0-1": {
+        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829": {
           "type": "featured_collection",
           "settings": {
-            "collection": "espejos"
+            "collection": "mesas-de-comedor-hasta-3-000-000"
           }
         },
-        "template--17587688046899__8bab7b54-ef93-4691-8cc8-87f3017eb3e8-16736662632684a4c0-2": {
+        "9bc59a37-0ca0-4bf8-b1d8-edb5941a3272": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "reclinomaticas-hata-2-500-000"
           }
         },
-        "8d264ceb-a6fd-4114-a937-fe75d5462f37": {
+        "0c7948dc-54d5-4f12-a61b-79adfcbc7403": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lamparas"
+            "collection": "colchones"
           }
         },
-        "8554e369-d129-4fa2-aa7c-c1d41b015ce1": {
+        "fd87f9a0-64ac-4887-ab2e-d31663082297": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mantas"
+            "collection": "camas"
           }
         }
       },
       "block_order": [
-        "template--17587688046899__8bab7b54-ef93-4691-8cc8-87f3017eb3e8-16736662632684a4c0-0",
-        "template--17587688046899__8bab7b54-ef93-4691-8cc8-87f3017eb3e8-16736662632684a4c0-1",
-        "template--17587688046899__8bab7b54-ef93-4691-8cc8-87f3017eb3e8-16736662632684a4c0-2",
-        "8d264ceb-a6fd-4114-a937-fe75d5462f37",
-        "8554e369-d129-4fa2-aa7c-c1d41b015ce1"
+        "06cdde38-e143-4d16-9946-0e940af450e4",
+        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829",
+        "9bc59a37-0ca0-4bf8-b1d8-edb5941a3272",
+        "0c7948dc-54d5-4f12-a61b-79adfcbc7403",
+        "fd87f9a0-64ac-4887-ab2e-d31663082297"
       ],
       "settings": {
         "title": "Mejores Ofertas",
