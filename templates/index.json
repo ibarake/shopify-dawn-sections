@@ -47,12 +47,7 @@
             "collection": "comedor",
             "blocks-selection": "collections",
             "product_list": [
-              "base-de-mesa-de-comedor-grindleburg",
-              "base-de-mesa-de-comedor-windville",
-              "mesa-de-comedor",
-              "mesa-de-comedor-de-berringer",
-              "mesa-de-comedor-de-glambrey",
-              "mesa-de-comedor-de-sommerford"
+
             ],
             "collection_list": [
               "alfombras",
@@ -69,7 +64,7 @@
           "settings": {
             "collection-title": "habitaciones",
             "collection": "habitacion",
-            "blocks-selection": "products",
+            "blocks-selection": "collections",
             "product_list": [
 
             ],
