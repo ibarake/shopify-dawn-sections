@@ -2258,6 +2258,10 @@ input[type='checkbox'] {
   max-width: var(--page-width);
   align-items: center;
 }
+.bottom-header-inner{
+  border-top: 1px solid #e8e8e8;
+  grid-area: "nav-container";
+}
 .header {
   display: grid;
   grid-template-areas: 'left-icon heading icons';
@@ -2269,7 +2273,7 @@ input[type='checkbox'] {
   .header--middle-left:not(.header--has-menu) {
     grid-template-areas:
       'top'
-      'navigation';
+      'nav-container';
   }
 
   .header--middle-left {
@@ -2618,7 +2622,6 @@ details[open] > .header__submenu {
 @media screen and (min-width: 990px) {
   .header__inline-menu {
     display: block;
-    border-top: 1px solid #e8e8e8;
   }
 
   .header--top-center .header__inline-menu {
