@@ -45,6 +45,7 @@
           "settings": {
             "collection-title": "Comedores",
             "collection": "comedor",
+            "blocks-selection": "collections",
             "product_list": [
               "base-de-mesa-de-comedor-grindleburg",
               "base-de-mesa-de-comedor-windville",
@@ -52,6 +53,9 @@
               "mesa-de-comedor-de-berringer",
               "mesa-de-comedor-de-glambrey",
               "mesa-de-comedor-de-sommerford"
+            ],
+            "collection_list": [
+
             ]
           }
         },
@@ -60,7 +64,11 @@
           "settings": {
             "collection-title": "habitaciones",
             "collection": "habitacion",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
@@ -70,7 +78,11 @@
           "settings": {
             "collection-title": "salas",
             "collection": "salas",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
@@ -80,7 +92,11 @@
           "settings": {
             "collection-title": "Colchones",
             "collection": "colchones",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
@@ -90,7 +106,11 @@
           "settings": {
             "collection-title": "Exteriores",
             "collection": "exteriores",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
@@ -363,6 +383,7 @@
           "settings": {
             "collection-title": "Lamparas",
             "collection": "lamparas",
+            "blocks-selection": "products",
             "product_list": [
               "alesandra",
               "alessio-sofa",
@@ -370,6 +391,9 @@
               "maimz-sofa",
               "sofa-cama",
               "sofa-altonbury"
+            ],
+            "collection_list": [
+
             ]
           }
         },
@@ -378,7 +402,11 @@
           "settings": {
             "collection-title": "Alfombras",
             "collection": "alfombras",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
