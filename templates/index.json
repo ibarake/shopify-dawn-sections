@@ -55,7 +55,12 @@
               "mesa-de-comedor-de-sommerford"
             ],
             "collection_list": [
-
+              "alfombras",
+              "camas",
+              "colchones",
+              "comedor",
+              "decoracion",
+              "espejos"
             ]
           }
         },
