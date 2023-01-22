@@ -3,14 +3,14 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "SPRUCE UP YOUR HOME",
-        "heading": "with fresh new looks!",
+        "subheading": "ARREGLA TU CASA",
+        "heading": "con estilos frescos",
         "spacing": 250,
         "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
         "bg-color": "#f4f4f4",
         "color": "#000000",
         "img-position": "center center",
-        "button-text": "shop now",
+        "button-text": "compra ahora",
         "button_link": "shopify:\/\/collections\/all",
         "btn-linebreak": "normal",
         "btn-bg-color-normal": "#363534",
@@ -166,8 +166,8 @@
         "fd87f9a0-64ac-4887-ab2e-d31663082297"
       ],
       "settings": {
-        "title": "Mejores Ofertas",
-        "heading_size": "h1",
+        "title": "mejores ofertas",
+        "heading_size": "h0",
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
