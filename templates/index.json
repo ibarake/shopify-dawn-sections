@@ -45,13 +45,17 @@
           "settings": {
             "collection-title": "Comedores",
             "collection": "comedor",
+            "blocks-selection": "collections",
             "product_list": [
-              "base-de-mesa-de-comedor-grindleburg",
-              "base-de-mesa-de-comedor-windville",
-              "mesa-de-comedor",
-              "mesa-de-comedor-de-berringer",
-              "mesa-de-comedor-de-glambrey",
-              "mesa-de-comedor-de-sommerford"
+
+            ],
+            "collection_list": [
+              "alfombras",
+              "camas",
+              "colchones",
+              "comedor",
+              "decoracion",
+              "espejos"
             ]
           }
         },
@@ -60,8 +64,22 @@
           "settings": {
             "collection-title": "habitaciones",
             "collection": "habitacion",
+            "blocks-selection": "products",
             "product_list": [
-
+              "accrington-arraz-izquierdo-frente-a-la-esquina-chaise",
+              "accrington-arrazo-derecho-hacia-la-esquina-chaise",
+              "accrington-brazo-izquierdo-frente-al-sofa-durmiente",
+              "accrington-con-el-brazo-izquierdo-frente-al-sofa",
+              "accrington-con-el-sofa-de-brazo-derecho",
+              "accrington-otomana-de-gran-tamano"
+            ],
+            "collection_list": [
+              "alfombras",
+              "camas",
+              "colchones",
+              "comedor",
+              "decoracion",
+              "espejos"
             ]
           }
         },
@@ -70,7 +88,11 @@
           "settings": {
             "collection-title": "salas",
             "collection": "salas",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
@@ -80,7 +102,11 @@
           "settings": {
             "collection-title": "Colchones",
             "collection": "colchones",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
@@ -90,7 +116,11 @@
           "settings": {
             "collection-title": "Exteriores",
             "collection": "exteriores",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
@@ -363,6 +393,7 @@
           "settings": {
             "collection-title": "Lamparas",
             "collection": "lamparas",
+            "blocks-selection": "products",
             "product_list": [
               "alesandra",
               "alessio-sofa",
@@ -370,6 +401,9 @@
               "maimz-sofa",
               "sofa-cama",
               "sofa-altonbury"
+            ],
+            "collection_list": [
+
             ]
           }
         },
@@ -378,7 +412,11 @@
           "settings": {
             "collection-title": "Alfombras",
             "collection": "alfombras",
+            "blocks-selection": "products",
             "product_list": [
+
+            ],
+            "collection_list": [
 
             ]
           }
