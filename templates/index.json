@@ -74,7 +74,12 @@
 
             ],
             "collection_list": [
-
+              "alfombras",
+              "camas",
+              "colchones",
+              "comedor",
+              "decoracion",
+              "espejos"
             ]
           }
         },
