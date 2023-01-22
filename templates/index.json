@@ -46,7 +46,12 @@
             "collection-title": "",
             "collection": "mesas-de-comedor-hasta-3-000-000",
             "product_list": [
-              "accrington-arraz-izquierdo-frente-a-la-esquina-chaise"
+              "base-de-mesa-de-comedor-grindleburg",
+              "base-de-mesa-de-comedor-windville",
+              "mesa-de-comedor",
+              "mesa-de-comedor-de-berringer",
+              "mesa-de-comedor-de-glambrey",
+              "mesa-de-comedor-de-sommerford"
             ]
           }
         },
@@ -211,7 +216,7 @@
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
       "settings": {
-        "text-color": "#ffffff",
+        "text-color": "#121212",
         "btn-color": "#363534"
       }
     },
