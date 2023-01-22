@@ -5,7 +5,7 @@
       "settings": {
         "subheading": "ARREGLA TU CASA",
         "heading": "con estilos frescos",
-        "spacing": 250,
+        "spacing": 236,
         "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
         "bg-color": "#f4f4f4",
         "color": "#000000",
@@ -16,7 +16,7 @@
         "btn-bg-color-normal": "#363534",
         "btn-bg-color-hover": "#525252",
         "btn-txt-color": "#ffffff",
-        "img-height": 540,
+        "img-height": 450,
         "responsive-container-height": 300,
         "responsive-img-height": 300
       }
@@ -43,8 +43,8 @@
         "18924a0a-302d-44e9-a158-a5c7c1fdab08": {
           "type": "collection",
           "settings": {
-            "collection-title": "",
-            "collection": "mesas-de-comedor-hasta-3-000-000",
+            "collection-title": "Comedores",
+            "collection": "comedor",
             "product_list": [
               "base-de-mesa-de-comedor-grindleburg",
               "base-de-mesa-de-comedor-windville",
@@ -58,8 +58,38 @@
         "f4abb9d3-0a39-4463-8536-1f82051dd3ae": {
           "type": "collection",
           "settings": {
-            "collection-title": "",
-            "collection": "",
+            "collection-title": "habitaciones",
+            "collection": "habitacion",
+            "product_list": [
+
+            ]
+          }
+        },
+        "bc256156-fac4-4301-91df-d1866b473b4b": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "salas",
+            "collection": "salas",
+            "product_list": [
+
+            ]
+          }
+        },
+        "40a8e92a-6d95-460b-81d3-ad05a5775f07": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "Colchones",
+            "collection": "colchones",
+            "product_list": [
+
+            ]
+          }
+        },
+        "03ba4f09-eaf8-4024-a6cb-86fd8a783689": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "Exteriores",
+            "collection": "exteriores",
             "product_list": [
 
             ]
@@ -68,7 +98,10 @@
       },
       "block_order": [
         "18924a0a-302d-44e9-a158-a5c7c1fdab08",
-        "f4abb9d3-0a39-4463-8536-1f82051dd3ae"
+        "f4abb9d3-0a39-4463-8536-1f82051dd3ae",
+        "bc256156-fac4-4301-91df-d1866b473b4b",
+        "40a8e92a-6d95-460b-81d3-ad05a5775f07",
+        "03ba4f09-eaf8-4024-a6cb-86fd8a783689"
       ],
       "settings": {
         "btn-txt-color": "#363534",
