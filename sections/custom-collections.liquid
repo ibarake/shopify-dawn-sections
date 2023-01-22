@@ -263,21 +263,43 @@
         </div>
       </div>
 
+      {% if block.settings.blocks-selection == "products" %}
       <div class="right">
 
-        {% for product in block.settings.product_list %}
-          <div class="product-container">
-            <a class="product-text-container" href="#">
-              <img
-                class="product-image"
-                src="{{ product.images[0] | image_url }}"
-                alt="">
-              <p class="product-text">{{ product.title }}</p>
-            </a>
-          </div>
-        {% endfor %}
+      {% for product in block.settings.product_list %}
+        <div class="product-container">
+          <a class="product-text-container" href="#">
+            <img
+              class="product-image"
+              src="{{ product.images[0] | image_url }}"
+              alt="">
+            <p class="product-text">{{ product.title }}</p>
+          </a>
+        </div>
+      {% endfor %}
 
-      </div>
+    </div>
+      {% endif %}
+
+      {% if block.settings.blocks-selection == "collections" %}
+      <div class="right">
+
+      {% for collection in block.settings.collection_list %}
+        <div class="product-container">
+          <a class="product-text-container" href="#">
+            <img
+              class="product-image"
+              src="{{ collection.image | image_url }}"
+              alt="">
+            <p class="product-text">{{ collection.title }}</p>
+          </a>
+        </div>
+      {% endfor %}
+
+    </div>
+      {% endif %}
+
+      
     </div>
   </div>
 {% endif %}{% endfor %}</div><script>const tabs = document.querySelectorAll('.tab');
@@ -337,10 +359,32 @@ tabs.forEach((tab) => {
           "type": "collection",
           "id": "collection",
           "label": "Collection"
+        },
+        {
+          "type": "select",
+          "id": "blocks-selection",
+          "label": "Productos o Colecciones?",
+          "options": [
+            {
+              "value": "products",
+              "label": "products"
+            },
+            {
+              "value": "collections",
+              "label": "collections"
+            }
+          ],
+          "default": "products"
         }, {
           "type": "product_list",
           "id": "product_list",
           "label": "products",
+          "limit": 6
+        },
+        {
+          "type": "collection_list",
+          "id": "collection_list",
+          "label": "collections",
           "limit": 6
         }
       ],
