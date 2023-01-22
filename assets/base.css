@@ -2261,6 +2261,8 @@ input[type='checkbox'] {
 .bottom-header-inner{
   border-top: 1px solid #e8e8e8;
   grid-area: "nav-container";
+  align-items: center;
+  justify-items: center;
 }
 .header {
   display: grid;
