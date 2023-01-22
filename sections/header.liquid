@@ -449,10 +449,10 @@
       </div>
       <div class="bottom-header-inner">
 
-      
+      <div class="page-width">
     {%- if section.settings.menu != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
-        <nav class="header__inline-menu page-width">
+        <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -502,7 +502,7 @@
           </ul>
         </nav>
       {%- else -%}
-        <nav class="header__inline-menu page-width">
+        <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -572,7 +572,7 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-
+    </div>
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
