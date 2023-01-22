@@ -204,21 +204,41 @@
           </div>
         </div>
 
+        {% if block.settings.blocks-selection == "products" %}
         <div class="right">
-
-          {% for product in block.settings.product_list %}
-            <div class="product-container">
-              <a class="product-text-container" href="#">
-                <img
-                  class="product-image"
-                  src="{{ product.images[0] | image_url }}"
-                  alt="">
-                <p class="product-text">{{ product.title }}</p>
-              </a>
-            </div>
-          {% endfor %}
-
-        </div>
+  
+        {% for product in block.settings.product_list %}
+          <div class="product-container">
+            <a class="product-text-container" href="#">
+              <img
+                class="product-image"
+                src="{{ product.images[0] | image_url }}"
+                alt="">
+              <p class="product-text">{{ product.title }}</p>
+            </a>
+          </div>
+        {% endfor %}
+  
+      </div>
+        {% endif %}
+  
+        {% if block.settings.blocks-selection == "collections" %}
+        <div class="right">
+  
+        {% for collection in block.settings.collection_list %}
+          <div class="product-container">
+            <a class="product-text-container" href="#">
+              <img
+                class="product-image"
+                src="{{ collection.image | image_url }}"
+                alt="">
+              <p class="product-text">{{ collection.title }}</p>
+            </a>
+          </div>
+        {% endfor %}
+  
+      </div>
+        {% endif %}
       </div>
     </div>
   {% endif %}
