@@ -1796,6 +1796,7 @@ details[open] > .share-button__fallback {
   position: relative;
   width: 100%;
   display: flex;
+  align-items: center;
   transition: box-shadow var(--duration-short) ease;
 }
 
