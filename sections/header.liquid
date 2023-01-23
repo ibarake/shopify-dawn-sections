@@ -30,7 +30,6 @@
 
 .header-search{
   grid-area: search;
-  height: 2.375rem;
   width: 100%;
 }
 
@@ -454,10 +453,10 @@
       </div>
 
       </div>
-      <div class="header-bottom-border">
-      <div class="bottom-header-inner page-width">
 
-      <div class="inner-bottom">
+    <div class="header-bottom-border">
+      <div class="bottom-header-inner page-width">
+        <div class="inner-bottom">
         
     {%- if section.settings.menu != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
@@ -581,8 +580,8 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-    </div>
-    </div>
+        </div>
+      </div>
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
