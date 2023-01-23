@@ -2264,7 +2264,7 @@ input[type='checkbox'] {
 }
 
 .header-bottom-border{
-  border-top: 1px solid #e8e8e8;
+  display: none;
 }
 .bottom-header-inner{
   align-items: center;
@@ -2285,6 +2285,10 @@ input[type='checkbox'] {
 
 
 @media screen and (min-width: 990px) {
+  .header-bottom-border{
+    display: block;
+    border-top: 1px solid #e8e8e8;
+  }
   .top-header-inner{
     grid-template-areas: 'heading search icons';
     
