@@ -2300,7 +2300,7 @@ input[type='checkbox'] {
   .header--middle-left:not(.header--has-menu) {
     grid-template-areas:
       'top'
-      'nav-container';
+      'bottom';
   }
 
   .header--middle-left {
