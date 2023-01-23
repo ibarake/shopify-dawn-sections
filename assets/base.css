@@ -2282,7 +2282,7 @@ input[type='checkbox'] {
 }
 .header {
   display: grid;
-  grid-template-areas: 'top top top';
+  grid-template-areas: 'left-icon heading icons';
   align-items: center;
 }
 
