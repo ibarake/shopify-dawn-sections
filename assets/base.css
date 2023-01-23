@@ -2632,6 +2632,7 @@ details[open] > .header__submenu {
   .header__inline-menu {
     display: block;
     width: 100%;
+    padding: .3125rem 1.25rem;
   }
 
   .header--top-center .header__inline-menu {
