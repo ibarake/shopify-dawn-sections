@@ -1869,7 +1869,6 @@ details[open] > .share-button__fallback {
   color: currentColor;
   cursor: pointer;
   display: flex;
-  height: 2.25rem;
   justify-content: center;
   overflow: hidden;
   padding: 0;
