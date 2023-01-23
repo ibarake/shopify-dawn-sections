@@ -206,7 +206,7 @@
         "type": "main-password-header",
         "settings": {
           "logo": "{{ shop.brand.logo }}",
-          "logo_max_width": 100,
+          "logo_max_width": 170,
           "color_scheme": "background-1"
         }
       },
