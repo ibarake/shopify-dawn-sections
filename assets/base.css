@@ -2631,6 +2631,7 @@ details[open] > .header__submenu {
 @media screen and (min-width: 990px) {
   .header__inline-menu {
     display: block;
+    width: 100%;
   }
 
   .header--top-center .header__inline-menu {
