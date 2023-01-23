@@ -288,52 +288,37 @@
         "btn-color": "#363534"
       }
     },
-    "3d511c52-c834-4f0d-858d-d7f780e904b9": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "3aa88210-4cf6-4884-a9fa-b191fc1e053d": {
-      "type": "collage",
+    "087b8800-2180-4c59-8c6d-5dc66436b193": {
+      "type": "custom-collections",
       "blocks": {
-        "7ab8c46d-d59b-45c6-928e-3a0d74887920": {
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
           "type": "collection",
           "settings": {
-            "collection": "modulares"
-          }
-        },
-        "4a698c3d-1897-4574-884f-411d25411a64": {
-          "type": "collection",
-          "settings": {
-            "collection": "modulares"
-          }
-        },
-        "c0064177-187b-48dd-82de-84f49f3e9512": {
-          "type": "product",
-          "settings": {
-            "product": "sofa-cama",
-            "second_image": false
+            "collection-title": "",
+            "collection": "ropa-de-cama-linos-de-banosy-mas-con-hasta-40-descuento",
+            "blocks-selection": "collections",
+            "product_list": [
+              "alesandra",
+              "alessio-sofa",
+              "cama-nino",
+              "maimz-sofa",
+              "sofa-cama",
+              "sofa-altonbury"
+            ],
+            "collection_list": [
+              "sabanas",
+              "rooa-de-cama",
+              "toallas-y-linos"
+            ]
           }
         }
       },
       "block_order": [
-        "7ab8c46d-d59b-45c6-928e-3a0d74887920",
-        "4a698c3d-1897-4574-884f-411d25411a64",
-        "c0064177-187b-48dd-82de-84f49f3e9512"
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a"
       ],
       "settings": {
-        "heading": "Upgrade your Cozy",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
@@ -378,7 +363,7 @@
         "0005bcb8-67b7-4fc2-9bfc-981992b47c89"
       ],
       "settings": {
-        "title": "Tie to the loook together",
+        "title": "Júntalos con sus estilos",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -388,52 +373,6 @@
         "swipe_on_mobile": true,
         "padding_top": 20,
         "padding_bottom": 28
-      }
-    },
-    "087b8800-2180-4c59-8c6d-5dc66436b193": {
-      "type": "custom-collections",
-      "blocks": {
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
-          "type": "collection",
-          "settings": {
-            "collection-title": "Lamparas",
-            "collection": "lamparas",
-            "blocks-selection": "products",
-            "product_list": [
-              "alesandra",
-              "alessio-sofa",
-              "cama-nino",
-              "maimz-sofa",
-              "sofa-cama",
-              "sofa-altonbury"
-            ],
-            "collection_list": [
-
-            ]
-          }
-        },
-        "cab66ae4-db85-44a0-9629-ac5f3664cdf7": {
-          "type": "collection",
-          "settings": {
-            "collection-title": "Alfombras",
-            "collection": "alfombras",
-            "blocks-selection": "products",
-            "product_list": [
-
-            ],
-            "collection_list": [
-
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a",
-        "cab66ae4-db85-44a0-9629-ac5f3664cdf7"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
       }
     }
   },
@@ -445,9 +384,7 @@
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
     "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
-    "3d511c52-c834-4f0d-858d-d7f780e904b9",
-    "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "087b8800-2180-4c59-8c6d-5dc66436b193"
+    "087b8800-2180-4c59-8c6d-5dc66436b193",
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
   ]
 }

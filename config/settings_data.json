@@ -106,9 +106,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/AshleyColombia",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/ashleycolombia.oficial\/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -117,6 +117,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/HouseIcon_primary_cykdcn.png",
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
@@ -146,7 +147,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
-          "logo_width": 90,
+          "logo_width": 130,
           "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
@@ -164,29 +165,29 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Sobre Ashley",
+              "menu": "footer-sobre-ashley"
             }
           },
-          "footer-1": {
+          "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "Ayuda  \/ Experiencia Ashley",
+              "menu": "footer-ayuda-ashley"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "bf422567-176c-4e44-8344-f61f72f2b685": {
+            "type": "link_list",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Legal",
+              "menu": "footer-legal"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "footer-2"
+          "8ffa10b4-7e9a-4cf2-94cf-e913134095c2",
+          "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
         "settings": {
           "color_scheme": "background-1",
