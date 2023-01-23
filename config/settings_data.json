@@ -175,18 +175,26 @@
               "menu": "footer"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
+            "type": "link_list",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Experiencia al Cliente",
+              "menu": "footer"
+            }
+          },
+          "bf422567-176c-4e44-8344-f61f72f2b685": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Legal",
+              "menu": "footer-legal"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "8ffa10b4-7e9a-4cf2-94cf-e913134095c2",
+          "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
         "settings": {
           "color_scheme": "background-1",
