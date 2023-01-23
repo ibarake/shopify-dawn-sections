@@ -2652,7 +2652,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 1);
+  color: rgba(var(--color-foreground), .90);
 }
 
 .header__menu-item:hover {
