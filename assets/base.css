@@ -2269,6 +2269,7 @@ input[type='checkbox'] {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 .header {
   display: grid;
