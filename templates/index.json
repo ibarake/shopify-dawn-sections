@@ -336,6 +336,39 @@
         "padding_bottom": 36
       }
     },
+    "087b8800-2180-4c59-8c6d-5dc66436b193": {
+      "type": "custom-collections",
+      "blocks": {
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
+          "type": "collection",
+          "settings": {
+            "collection-title": "",
+            "collection": "lamparas",
+            "blocks-selection": "collections",
+            "product_list": [
+              "alesandra",
+              "alessio-sofa",
+              "cama-nino",
+              "maimz-sofa",
+              "sofa-cama",
+              "sofa-altonbury"
+            ],
+            "collection_list": [
+              "sabanas",
+              "rooa-de-cama",
+              "toallas-y-linos"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4"
+      }
+    },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
       "type": "collection-list",
       "blocks": {
@@ -389,52 +422,6 @@
         "padding_top": 20,
         "padding_bottom": 28
       }
-    },
-    "087b8800-2180-4c59-8c6d-5dc66436b193": {
-      "type": "custom-collections",
-      "blocks": {
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
-          "type": "collection",
-          "settings": {
-            "collection-title": "Lamparas",
-            "collection": "lamparas",
-            "blocks-selection": "products",
-            "product_list": [
-              "alesandra",
-              "alessio-sofa",
-              "cama-nino",
-              "maimz-sofa",
-              "sofa-cama",
-              "sofa-altonbury"
-            ],
-            "collection_list": [
-
-            ]
-          }
-        },
-        "cab66ae4-db85-44a0-9629-ac5f3664cdf7": {
-          "type": "collection",
-          "settings": {
-            "collection-title": "Alfombras",
-            "collection": "alfombras",
-            "blocks-selection": "products",
-            "product_list": [
-
-            ],
-            "collection_list": [
-
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a",
-        "cab66ae4-db85-44a0-9629-ac5f3664cdf7"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
-      }
     }
   },
   "order": [
@@ -447,7 +434,7 @@
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "3d511c52-c834-4f0d-858d-d7f780e904b9",
     "3aa88210-4cf6-4884-a9fa-b191fc1e053d",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "087b8800-2180-4c59-8c6d-5dc66436b193"
+    "087b8800-2180-4c59-8c6d-5dc66436b193",
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
   ]
 }
