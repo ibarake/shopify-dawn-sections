@@ -2282,12 +2282,16 @@ input[type='checkbox'] {
 }
 .header {
   display: grid;
-  grid-template-areas: 'left-icon heading icons';
+  grid-template-areas: 'top top top';
   align-items: center;
 }
 
 
 @media screen and (min-width: 990px) {
+  .header {
+    grid-template-areas: 'top'
+    'bottom';
+  }
   .header-bottom-border{
     display: block;
     border-top: 1px solid #e8e8e8;
