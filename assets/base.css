@@ -2258,6 +2258,7 @@ input[type='checkbox'] {
   max-width: var(--page-width);
   align-items: center;
   justify-items: center;
+  padding: 1.875rem 0.9375rem 1.25rem;
 }
 .bottom-header-inner{
   border-top: 1px solid #e8e8e8;
