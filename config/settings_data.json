@@ -165,21 +165,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Sobre Ashley",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "menu": "footer-sobre-ashley"
             }
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
             "type": "link_list",
             "settings": {
-              "heading": "Experiencia al Cliente",
-              "menu": "footer"
+              "heading": "Ayuda  \/ Experiencia Ashley",
+              "menu": "footer-ayuda-ashley"
             }
           },
           "bf422567-176c-4e44-8344-f61f72f2b685": {
@@ -192,7 +185,6 @@
         },
         "block_order": [
           "footer-0",
-          "footer-1",
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2",
           "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
