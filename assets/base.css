@@ -2249,6 +2249,7 @@ input[type='checkbox'] {
 }
 .top-header{
   align-items: center;
+  grid-area: top;
 }
 
 .top-header-inner{
@@ -2266,6 +2267,7 @@ input[type='checkbox'] {
 
 .header-bottom-border{
   display: none;
+  grid-area: bottom;
 }
 .bottom-header-inner{
   align-items: center;
@@ -2280,7 +2282,7 @@ input[type='checkbox'] {
 }
 .header {
   display: grid;
-  grid-template-areas: 'left-icon heading icons';
+  grid-template-areas: 'top top top';
   align-items: center;
 }
 
