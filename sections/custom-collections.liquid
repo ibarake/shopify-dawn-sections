@@ -338,8 +338,13 @@ const tabContent = document.querySelectorAll('.collection-content-container');
 options.forEach((option) => {
   option.addEventListener('change', (e) => {
 
+    console.log(e);
+
     contentId = e.target.value;
     content = document.getElementById(contentId);
+
+    console.log(content);
+    console.log(contentId);
 
     tabContent.forEach((content) => {
         content.classList.remove('active');
