@@ -336,25 +336,19 @@
 const tabContent = document.querySelectorAll('.collection-content-container');
 
 options.forEach((option) => {
-  option.addEventListener('click', (e) => {
+  option.addEventListener('change', (e) => {
 
     contentId = e.target.value;
     content = document.getElementById(contentId);
 
-    tabContent
-      .forEach((content) => {
+    tabContent.forEach((content) => {
         content.classList.remove('active');
       })
-      tabs
-      .forEach((option) => {
+      tabs.forEach((option) => {
         option.classList.remove('active');
       })
 
-      e
-      .target
-      .classList
-      .add('active');
-    content.classList.add('active');
+      content.classList.add('active');
   })
 })
 
