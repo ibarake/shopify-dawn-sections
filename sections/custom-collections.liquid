@@ -332,11 +332,10 @@
 
 <script>
   const tabs = document.querySelectorAll('.tab');
-  const options = document.querySelectorAll('.options-collections');
+  const options = document.querySelector('#custom-catergory-select');
 const tabContent = document.querySelectorAll('.collection-content-container');
 
-options.forEach((option) => {
-  option.addEventListener('change', (e) => {
+  options.addEventListener('change', (e) => {
 
     console.log(e);
 
@@ -355,7 +354,7 @@ options.forEach((option) => {
 
       content.classList.add('active');
   })
-})
+
 
 tabs.forEach((tab) => {
   tab.addEventListener('click', (e) => {
