@@ -71,7 +71,12 @@
   }
 
   ul.pagination {
-    display: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 32px 100px;
   }
 
   .mainimage {
@@ -124,20 +129,15 @@
   }
 
   #custom-catergory-select{
-      display:none;
+      display:block;
     }
-
+    
     @media screen and (max-width: 989px) {
         #custom-catergory-select{
           display:block;
         }
         ul.pagination {
-          list-style-type: none;
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          gap: 1.5rem;
-          margin: 32px 100px;
+          display: none;
         }
     }
  
