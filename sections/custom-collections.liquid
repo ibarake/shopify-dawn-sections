@@ -337,7 +337,7 @@ const tabContent = document.querySelectorAll('.collection-content-container');
 
 options.forEach((option) => {
   option.addEventListener('click', (e) => {
-
+    console.log(e);
     contentId = e.target.dataset.contentId;
     content = document.getElementById(contentId);
 
@@ -363,7 +363,7 @@ tabs.forEach((tab) => {
 
     contentId = e.target.dataset.contentId;
     content = document.getElementById(contentId);
-    
+
     tabContent
       .forEach((content) => {
         content.classList.remove('active');
