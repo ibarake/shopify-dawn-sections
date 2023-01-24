@@ -144,7 +144,7 @@
 
   {% for collection in section.blocks %}
 
-      <option value="">{{ collection.settings.collection-title }}</option>
+      <option class="options-collections" value="" data-content-id="custom-content-{{ forloop.index }}">{{ collection.settings.collection-title }}</option>
 
   {% endfor %}
     
@@ -328,8 +328,38 @@
       
     </div>
   </div>
-{% endif %}{% endfor %}</div><script>const tabs = document.querySelectorAll('.tab');
+{% endif %}{% endfor %}</div>
+
+<script>
+  const tabs = document.querySelectorAll('.tab');
+  const options = document.querySelectorAll('.options-collections');
 const tabContent = document.querySelectorAll('.collection-content-container');
+
+options.forEach((option) => {
+  option.addEventListener('click', (e) => {
+
+    contentId = e.target.dataset.contentId;
+    content = document.getElementById(contentId);
+
+    console.log(contentId);
+    console.log(content);
+
+    tabContent
+      .forEach((content) => {
+        content.classList.remove('active');
+      })
+      tabs
+      .forEach((option) => {
+        option.classList.remove('active');
+      })
+
+      e
+      .target
+      .classList
+      .add('active');
+    content.classList.add('active');
+  })
+})
 
 tabs.forEach((tab) => {
   tab.addEventListener('click', (e) => {
@@ -356,6 +386,8 @@ tabs.forEach((tab) => {
     content.classList.add('active');
   })
 })
+
+
 </script>{% schema %}{
   "name": "Custom collection section",
   "settings": [
