@@ -332,10 +332,11 @@
 
 <script>
   const tabs = document.querySelectorAll('.tab');
-  const options = document.querySelector('#custom-catergory-select');
+  const options = document.querySelectorAll('.options-collections');
 const tabContent = document.querySelectorAll('.collection-content-container');
 
-  options.addEventListener('change', (e) => {
+options.forEach((option) => {
+  option.addEventListener('click', (e) => {
     console.log(e);
     contentId = e.target.dataset.contentId;
     content = document.getElementById(contentId);
@@ -355,7 +356,7 @@ const tabContent = document.querySelectorAll('.collection-content-container');
       .add('active');
     content.classList.add('active');
   })
-
+})
 
 tabs.forEach((tab) => {
   tab.addEventListener('click', (e) => {
