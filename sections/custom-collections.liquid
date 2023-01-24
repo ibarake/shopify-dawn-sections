@@ -132,14 +132,14 @@
     display: block;
   }
 
-  #custom-catergory-select{
+  .top-collection{
     display:none;
     width: 100%;
     margin: 30px 180px 30px 180px;
   }
     
     @media screen and (max-width: 989px) {
-        #custom-catergory-select{
+        .top-collection{
           display:block;
         }
         ul.pagination {
@@ -160,6 +160,7 @@
 
 <div class="page-width custom-collections-section">
 
+<div class="top-collection">
   <select name="custom-catergory-select" id="custom-catergory-select">
 
   {% for collection in section.blocks %}
@@ -169,6 +170,7 @@
   {% endfor %}
     
   </select>
+</div>
 
   <ul class="pagination">
     {% for collection in section.blocks %}
