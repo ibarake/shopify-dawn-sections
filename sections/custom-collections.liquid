@@ -127,6 +127,7 @@
   .collection-content-container.active {
     display: block;
   }
+
 </style>
 
 <script>
@@ -139,22 +140,26 @@
 
 <div class="page-width custom-collections-section">
 
+  <select name="custom-catergory-select" id="custom-catergory-select">
+
+  {% for collection in section.blocks %}
+
+      <option value="">{{ collection.settings.collection-title }}</option>
+
+  {% endfor %}
+    
+  </select>
+
   <ul class="pagination">
     {% for collection in section.blocks %}
 
       {% if forloop.index == 1 %}
-        <script>
-          console.log({{ forloop.index }})
-        </script>
         <li class="tab active" data-content-id="custom-content-{{ forloop.index }}">
           {{ collection.settings.collection-title }}
         </li>
       {% endif %}
 
       {% if forloop.index > 1 %}
-        <script>
-          console.log({{ forloop.index }})
-        </script>
         <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
           {{ collection.settings.collection-title }}
         </li>
