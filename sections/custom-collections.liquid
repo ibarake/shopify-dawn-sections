@@ -26,59 +26,7 @@
     ;
   }
 
-{% if section.blocks.size == 1 %}
-.right {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "product";
-  gap: 1rem 1rem;
-}
-{% endif %}
-{% if section.blocks.size == 2 %}
-.right {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "product"
-  "product";
-  gap: 1rem 1rem;
-}
-{% endif %}
-{% if section.blocks.size == 3 %}
-.right {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "product"
-  "product"
-  "product";
-  gap: 1rem 1rem;
-}
-{% if section.blocks.size == 4 %}
-.right {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "product product"
-  "product product";
-  gap: 1rem 1rem;
-}
-{% if section.blocks.size == 5 %}
-.right {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "product product"
-  "product product"
-  "product product";
-  gap: 1rem 1rem;
-}
-{% if section.blocks.size == 6 %}
-.right {
-  display: flex;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "product product"
-  "product product"
-  "product product";
-  gap: 1rem 1rem;
-}
-{% endif %}
+
   
 
   .product-container {
@@ -325,6 +273,65 @@
         </div>
 
         {% if block.settings.blocks-selection == "products" %}
+        <style>
+
+    {% if block.settings.product_list | size == 1 %}
+    .right {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: "product";
+      gap: 1rem 1rem;
+    }
+    {% endif %}
+    {% if block.settings.product_list | size == %}
+    .right {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: "product"
+      "product";
+      gap: 1rem 1rem;
+    }
+    {% endif %}
+    {% if block.settings.product_list | size == 3 %}
+    .right {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: "product"
+      "product"
+      "product";
+      gap: 1rem 1rem;
+    }
+    {% if block.settings.product_list | size == 4 %}
+    .right {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "product product"
+      "product product";
+      gap: 1rem 1rem;
+    }
+    {% if block.settings.product_list | size == 5 %}
+    .right {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "product product"
+      "product product"
+      "product product";
+      gap: 1rem 1rem;
+    }
+    {% if block.settings.product_list | size == 6 %}
+    .right {
+      display: flex;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "product product"
+      "product product"
+      "product product";
+      gap: 1rem 1rem;
+    }
+    {% endif %}
+
+    </style>
+
+
         <div class="right">
   
         {% for product in block.settings.product_list %}
@@ -362,6 +369,7 @@
         {% endif %}
   
         {% if block.settings.blocks-selection == "collections" %}
+        
         <div class="right">
   
         {% for collection in block.settings.collection_list %}
