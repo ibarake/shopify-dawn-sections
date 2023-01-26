@@ -195,8 +195,10 @@
 </script>
 
 
+
 <div class="page-width custom-collections-section">
 
+{% if collection.size > 1 %}
 <div class="top-collection">
   <select name="custom-catergory-select" id="custom-catergory-select">
 
@@ -226,6 +228,7 @@
 
     {% endfor %}
   </ul>
+{% endif %}
 
   {% for block in section.blocks %}
 
