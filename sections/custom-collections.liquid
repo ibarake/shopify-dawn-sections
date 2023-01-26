@@ -7,7 +7,10 @@
     flex-direction: column;
     margin: 100px auto 100px auto;
   }
-
+  .title-section-container{
+    display: flex;
+    justify-content: flex-start;
+  }
   .title-section{
     font-family: 'Open Sans', sans-serif;
     text-transform: lowercase;
@@ -245,9 +248,9 @@
 
   {% for block in section.blocks %}
 
-
+    <div class="title-section-container">
     <h2 class="title-section">{{ block.settings.heading-text }}</h6>
-
+  </div>
 
     {% if forloop.index == 1 %}
       <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
