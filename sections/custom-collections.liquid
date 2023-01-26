@@ -15,35 +15,6 @@
     display: grid;
     gap: 1rem 1rem;
   }
-  {% if block.settings.product_list.size == 1 %}
-  .right {
-    grid-template-columns: 1fr;
-  }
-  {% endif %}
-  {% if block.settings.product_list.size == %}
-  .right {
-    grid-template-columns: 1fr;
-  }
-  {% endif %}
-  {% if block.settings.product_list.size == 3 %}
-  .right {
-    grid-template-columns: 1fr;
-  }
-  {% if block.settings.product_list.size == 4 %}
-  .right {
-    grid-template-columns: 1fr 1fr;
-  }
-  {% if block.settings.product_list.size == 5 %}
-  .right {
-    grid-template-columns: 1fr 1fr;
-  }
-  {% if block.settings.product_list.size == 6 %}
-  .right {
-    grid-template-columns: 1fr 1fr;
-  }
-  {% endif %}
-
-
 
   .button-container {
     display: flex;
@@ -307,6 +278,37 @@
 
         {% if block.settings.blocks-selection == "products" %}
 
+        <style>
+
+        {% if block.settings.product_list.size == 1 %}
+        .right {
+          grid-template-columns: 1fr;
+        }
+        {% endif %}
+        {% if block.settings.product_list.size == 2 %}
+        .right {
+          grid-template-columns: 1fr;
+        }
+        {% endif %}
+        {% if block.settings.product_list.size == 3 %}
+        .right {
+          grid-template-columns: 1fr;
+        }
+        {% if block.settings.product_list.size == 4 %}
+        .right {
+          grid-template-columns: 1fr 1fr;
+        }
+        {% if block.settings.product_list.size == 5 %}
+        .right {
+          grid-template-columns: 1fr 1fr;
+        }
+        {% if block.settings.product_list.size == 6 %}
+        .right {
+          grid-template-columns: 1fr 1fr;
+        }
+        {% endif %}
+
+        </style>
 
         <div class="right">
   
@@ -345,6 +347,36 @@
         {% endif %}
   
         {% if block.settings.blocks-selection == "collections" %}
+
+        <style>
+          {% if block.settings.collection_list.size == 1 %}
+  .right {
+    grid-template-columns: 1fr;
+  }
+  {% endif %}
+  {% if block.settings.collection_list.size == 2 %}
+  .right {
+    grid-template-columns: 1fr;
+  }
+  {% endif %}
+  {% if block.settings.collection_list.size == 3 %}
+  .right {
+    grid-template-columns: 1fr;
+  }
+  {% if block.settings.collection_list.size == 4 %}
+  .right {
+    grid-template-columns: 1fr 1fr;
+  }
+  {% if block.settings.collection_list.size == 5 %}
+  .right {
+    grid-template-columns: 1fr 1fr;
+  }
+  {% if block.settings.collection_list.size == 6 %}
+  .right {
+    grid-template-columns: 1fr 1fr;
+  }
+  {% endif %}
+        </style>
         
         <div class="right">
   
