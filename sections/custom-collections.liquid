@@ -252,7 +252,7 @@
 
     {% if forloop.index == 1 %}
       <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
-        <div class="title-section-container">
+        <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
     <h2 class="title-section">{{ block.settings.heading-text }}</h6>
   </div>
         <div class="left-right">
@@ -370,7 +370,7 @@
 
   {% if forloop.index > 1 %}
     <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
-      <div class="title-section-container" style="justify-content: {{ section.settings.title-alignment }};">
+      <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
         <h2 class="title-section">{{ block.settings.heading-text }}</h6>
       </div>
       <div class="left-right">
@@ -568,26 +568,6 @@ tabs.forEach((tab) => {
   "name": "Custom collection section",
   "settings": [
     {
-        "type": "select",
-        "id": "title-alignment",
-        "label": "Title alignment",
-        "options": [
-          {
-            "value": "flex-start",
-            "label": "left"
-          },
-          {
-            "value": "center",
-            "label": "center"
-          },
-          {
-            "value": "flex-end",
-            "label": "right"
-          }
-        ],
-        "default": "flex-start"
-      },
-    {
       "type": "color",
       "id": "btn-txt-color",
       "label": "Button text color",
@@ -611,6 +591,25 @@ tabs.forEach((tab) => {
           "label": "Heading text",
           "default": "Heading text"
         },{
+        "type": "select",
+        "id": "title-alignment",
+        "label": "Title alignment",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "left"
+          },
+          {
+            "value": "center",
+            "label": "center"
+          },
+          {
+            "value": "flex-end",
+            "label": "right"
+          }
+        ],
+        "default": "flex-start"
+      },{
           "type": "text",
           "id": "collection-title",
           "label": "Collection title"
