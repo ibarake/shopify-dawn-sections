@@ -321,7 +321,7 @@
               alt="">
           </div>
           <div class="button-container">
-            <a href="#" class="btn-collections-all">{{ block.settings.collection.title }}</a>
+            <a href="#" class="btn-collections-all">{{ block.settings.button-title }}</a>
 
 
             <svg
@@ -468,6 +468,10 @@ tabs.forEach((tab) => {
           "type": "collection",
           "id": "collection",
           "label": "Collection"
+        }, {
+          "type": "text",
+          "id": "button-title",
+          "label": "Button text"
         },
         {
           "type": "select",
