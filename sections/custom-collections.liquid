@@ -286,7 +286,26 @@
                 class="product-image"
                 src="{{ product.images[0] | image_url }}"
                 alt="">
-              <p class="product-text">{{ product.title }}</p>
+              <p class="product-text">
+                {% if forloop.index == 1 %}
+                  {{ block.settings.poc-1 }}
+                {% endif %}
+                {% if forloop.index == 2 %}
+                  {{ block.settings.poc-2 }}
+                {% endif %}
+                {% if forloop.index == 3 %}
+                  {{ block.settings.poc-3 }}
+                {% endif %}
+                {% if forloop.index == 4 %}
+                  {{ block.settings.poc-4 }}
+                {% endif %}
+                {% if forloop.index == 5 %}
+                  {{ block.settings.poc-5 }}
+                {% endif %}
+                {% if forloop.index == 6 %}
+                  {{ block.settings.poc-6 }}
+                {% endif %}
+                </p>
             </a>
           </div>
         {% endfor %}
@@ -304,7 +323,24 @@
                 class="product-image"
                 src="{{ collection.image | image_url }}"
                 alt="">
-              <p class="product-text">{{ collection.title }}</p>
+              <p class="product-text">{% if forloop.index == 1 %}
+                {{ block.settings.poc-1 }}
+              {% endif %}
+              {% if forloop.index == 2 %}
+                {{ block.settings.poc-2 }}
+              {% endif %}
+              {% if forloop.index == 3 %}
+                {{ block.settings.poc-3 }}
+              {% endif %}
+              {% if forloop.index == 4 %}
+                {{ block.settings.poc-4 }}
+              {% endif %}
+              {% if forloop.index == 5 %}
+                {{ block.settings.poc-5 }}
+              {% endif %}
+              {% if forloop.index == 6 %}
+                {{ block.settings.poc-6 }}
+              {% endif %}</p>
             </a>
           </div>
         {% endfor %}
@@ -365,7 +401,26 @@
               class="product-image"
               src="{{ product.images[0] | image_url }}"
               alt="">
-            <p class="product-text">{{ product.title }}</p>
+            <p class="product-text">
+              {% if forloop.index == 1 %}
+                  {{ block.settings.poc-1 }}
+                {% endif %}
+                {% if forloop.index == 2 %}
+                  {{ block.settings.poc-2 }}
+                {% endif %}
+                {% if forloop.index == 3 %}
+                  {{ block.settings.poc-3 }}
+                {% endif %}
+                {% if forloop.index == 4 %}
+                  {{ block.settings.poc-4 }}
+                {% endif %}
+                {% if forloop.index == 5 %}
+                  {{ block.settings.poc-5 }}
+                {% endif %}
+                {% if forloop.index == 6 %}
+                  {{ block.settings.poc-6 }}
+                {% endif %}
+            </p>
           </a>
         </div>
       {% endfor %}
@@ -383,7 +438,26 @@
               class="product-image"
               src="{{ collection.image | image_url }}"
               alt="">
-            <p class="product-text">{{ collection.title }}</p>
+            <p class="product-text">
+              {% if forloop.index == 1 %}
+                  {{ block.settings.poc-1 }}
+                {% endif %}
+                {% if forloop.index == 2 %}
+                  {{ block.settings.poc-2 }}
+                {% endif %}
+                {% if forloop.index == 3 %}
+                  {{ block.settings.poc-3 }}
+                {% endif %}
+                {% if forloop.index == 4 %}
+                  {{ block.settings.poc-4 }}
+                {% endif %}
+                {% if forloop.index == 5 %}
+                  {{ block.settings.poc-5 }}
+                {% endif %}
+                {% if forloop.index == 6 %}
+                  {{ block.settings.poc-6 }}
+                {% endif %}
+            </p>
           </a>
         </div>
       {% endfor %}
