@@ -9,7 +9,6 @@
   }
   .title-section-container{
     display: flex;
-    justify-content: {{ section.settings.title-alignment }};
     width: 100%;
     margin-bottom: 5px;
   }
@@ -371,7 +370,7 @@
 
   {% if forloop.index > 1 %}
     <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
-      <div class="title-section-container">
+      <div class="title-section-container" style="justify-content: {{ section.settings.title-alignment }};">
         <h2 class="title-section">{{ block.settings.heading-text }}</h6>
       </div>
       <div class="left-right">
