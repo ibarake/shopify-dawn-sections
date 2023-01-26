@@ -363,7 +363,7 @@
         "e92b03e2-5a32-4503-98b4-109b8087bc3a"
       ],
       "settings": {
-        "title-alignment": "flex-start",
+        "title-alignment": "center",
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
       }
