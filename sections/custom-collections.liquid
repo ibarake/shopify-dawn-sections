@@ -475,6 +475,31 @@
 {% endif %}{% endfor %}</div>
 
 <script>
+  const rights = document.querySelectorAll('.right');
+
+  rights.forEach((element) => {
+   const ChildsNumber = element.childElementCount;
+    if (ChildsNumber === 1){
+        element.style.gridTemplateColumns = "1fr";
+    }
+    if (ChildsNumber === 2){
+        element.style.gridTemplateColumns = "1fr";
+    }
+    if (ChildsNumber === 3){
+        element.style.gridTemplateColumns = "1fr";
+    }
+    if (ChildsNumber === 4){
+        element.style.gridTemplateColumns = "1fr 1fr";
+    }
+    if (ChildsNumber === 5){
+        element.style.gridTemplateColumns = "1fr 1fr";
+    }
+    if (ChildsNumber === 6){
+        element.style.gridTemplateColumns = "1fr 1fr";
+    }
+})
+
+
   const tabs = document.querySelectorAll('.tab');
   const options = document.querySelector('#custom-catergory-select');
 const tabContent = document.querySelectorAll('.collection-content-container');
