@@ -35,9 +35,6 @@
     ;
   }
 
-
-  
-
   .product-container {
     background-color: {{ section.settings.btn-bg-color }};
     display: flex;
@@ -282,38 +279,6 @@
 
         {% if block.settings.blocks-selection == "products" %}
 
-        <style>
-
-        {% if block.settings.product_list.size == 1 %}
-        .right {
-          grid-template-columns: 1fr;
-        }
-        {% endif %}
-        {% if block.settings.product_list.size == 2 %}
-        .right {
-          grid-template-columns: 1fr;
-        }
-        {% endif %}
-        {% if block.settings.product_list.size == 3 %}
-        .right {
-          grid-template-columns: 1fr;
-        }
-        {% if block.settings.product_list.size == 4 %}
-        .right {
-          grid-template-columns: 1fr 1fr;
-        }
-        {% if block.settings.product_list.size == 5 %}
-        .right {
-          grid-template-columns: 1fr 1fr;
-        }
-        {% if block.settings.product_list.size == 6 %}
-        .right {
-          grid-template-columns: 1fr 1fr;
-        }
-        {% endif %}
-
-        </style>
-
         <div class="right">
   
         {% for product in block.settings.product_list %}
@@ -420,7 +385,7 @@
   {% endif %}
 
   {% if forloop.index > 1 %}
-    <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
+    <div id="custom-content custom-content-{{ forloop.index }}" class="collection-content-container">
 
       <div class="left-right">
 
