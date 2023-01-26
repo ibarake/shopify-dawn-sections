@@ -45,6 +45,7 @@
           "settings": {
             "collection-title": "Comedores",
             "collection": "comedor",
+            "button-title": "Add text",
             "blocks-selection": "collections",
             "product_list": [
               "accrington-arraz-izquierdo-frente-a-la-esquina-chaise",
@@ -61,7 +62,13 @@
               "comedor",
               "decoracion",
               "espejos"
-            ]
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         },
         "f4abb9d3-0a39-4463-8536-1f82051dd3ae": {
@@ -69,6 +76,7 @@
           "settings": {
             "collection-title": "habitaciones",
             "collection": "habitacion",
+            "button-title": "Add text",
             "blocks-selection": "products",
             "product_list": [
               "accrington-arraz-izquierdo-frente-a-la-esquina-chaise",
@@ -85,7 +93,13 @@
               "comedor",
               "decoracion",
               "espejos"
-            ]
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         },
         "bc256156-fac4-4301-91df-d1866b473b4b": {
@@ -93,13 +107,22 @@
           "settings": {
             "collection-title": "salas",
             "collection": "salas",
+            "button-title": "Add text",
             "blocks-selection": "products",
             "product_list": [
-
+              "1100-serie-california-king-mattress",
+              "aavie-almohada",
+              "abalone-de-3-piezas-seccional-con-chaise"
             ],
             "collection_list": [
 
-            ]
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         },
         "40a8e92a-6d95-460b-81d3-ad05a5775f07": {
@@ -107,13 +130,20 @@
           "settings": {
             "collection-title": "Colchones",
             "collection": "colchones",
+            "button-title": "Add text",
             "blocks-selection": "products",
             "product_list": [
 
             ],
             "collection_list": [
 
-            ]
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         },
         "03ba4f09-eaf8-4024-a6cb-86fd8a783689": {
@@ -121,13 +151,20 @@
           "settings": {
             "collection-title": "Exteriores",
             "collection": "exteriores",
+            "button-title": "Add text",
             "blocks-selection": "products",
             "product_list": [
 
             ],
             "collection_list": [
 
-            ]
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         }
       },
@@ -296,6 +333,7 @@
           "settings": {
             "collection-title": "",
             "collection": "ropa-de-cama-linos-de-banosy-mas-con-hasta-40-descuento",
+            "button-title": "Add text",
             "blocks-selection": "collections",
             "product_list": [
               "alesandra",
@@ -309,7 +347,13 @@
               "sabanas",
               "rooa-de-cama",
               "toallas-y-linos"
-            ]
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         }
       },
