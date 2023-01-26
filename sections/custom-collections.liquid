@@ -371,7 +371,9 @@
 
   {% if forloop.index > 1 %}
     <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
-
+      <div class="title-section-container">
+        <h2 class="title-section">{{ block.settings.heading-text }}</h6>
+      </div>
       <div class="left-right">
 
         <div class="left">
