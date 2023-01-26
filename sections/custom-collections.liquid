@@ -318,7 +318,7 @@
         {% endif %}
   
         {% if block.settings.blocks-selection == "collections" %}
-        <div class="right">
+        <div class="right right-{{ forloop.index }}">
   
         {% for collection in block.settings.collection_list %}
           <div class="product-container">
