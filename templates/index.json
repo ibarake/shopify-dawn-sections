@@ -44,6 +44,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "please, pass the style",
+            "title-alignment": "flex-start",
             "collection-title": "Comedores",
             "collection": "comedor",
             "button-title": "Add text",
@@ -71,6 +72,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "Heading text",
+            "title-alignment": "flex-start",
             "collection-title": "habitaciones",
             "collection": "habitacion",
             "button-title": "Add text",
@@ -102,6 +104,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "Heading text",
+            "title-alignment": "flex-start",
             "collection-title": "salas",
             "collection": "salas",
             "button-title": "Add text",
@@ -126,6 +129,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "Heading text",
+            "title-alignment": "flex-start",
             "collection-title": "Colchones",
             "collection": "colchones",
             "button-title": "Add text",
@@ -149,6 +153,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "Heading text",
+            "title-alignment": "flex-start",
             "collection-title": "Exteriores",
             "collection": "exteriores",
             "button-title": "Add text",
@@ -176,7 +181,6 @@
         "03ba4f09-eaf8-4024-a6cb-86fd8a783689"
       ],
       "settings": {
-        "title-alignment": "flex-start",
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
       }
@@ -333,6 +337,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "Heading text",
+            "title-alignment": "center",
             "collection-title": "",
             "collection": "ropa-de-cama-linos-de-banosy-mas-con-hasta-40-descuento",
             "button-title": "Add text",
@@ -363,7 +368,6 @@
         "e92b03e2-5a32-4503-98b4-109b8087bc3a"
       ],
       "settings": {
-        "title-alignment": "center",
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
       }
