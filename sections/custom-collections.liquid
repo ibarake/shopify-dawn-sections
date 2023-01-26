@@ -396,7 +396,7 @@
       </div>
 
       {% if block.settings.blocks-selection == "products" %}
-      <div class="right">
+      <div class="right right-{{ forloop.index }}">
 
       {% for product in block.settings.product_list %}
         <div class="product-container">
@@ -433,7 +433,7 @@
       {% endif %}
 
       {% if block.settings.blocks-selection == "collections" %}
-      <div class="right">
+      <div class="right right-{{ forloop.index }}">
 
       {% for collection in block.settings.collection_list %}
         <div class="product-container">
