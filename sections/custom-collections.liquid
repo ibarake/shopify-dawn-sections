@@ -200,11 +200,6 @@
 
 <div class="page-width custom-collections-section">
 
-<script>
-  console.log({{ collection_list.size }})
-</script>
-
-
 <div class="top-collection">
   <select name="custom-catergory-select" id="custom-catergory-select">
 
@@ -235,8 +230,13 @@
     {% endfor %}
   </ul>
 
+  
 
   {% for block in section.blocks %}
+
+    <div class="title-section">
+    <h6>{{ block.settings.heading-text }}</h6>
+  </div>
 
     {% if forloop.index == 1 %}
       <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
@@ -570,6 +570,10 @@ tabs.forEach((tab) => {
       "name": "collection-block",
       "settings": [
         {
+          "type": "text",
+          "id": "heading-title",
+          "label": "Heading title"
+        },{
           "type": "text",
           "id": "collection-title",
           "label": "Collection title"
