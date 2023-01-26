@@ -212,12 +212,47 @@
         .left-right{
           grid-template-columns: 1fr;
         }
-        .right{
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          overflow-x: auto;
-        }
+        {% if section.blocks.size == 1 %}
+.right {
+  display: flex;
+  grid-template-columns: 1fr;
+  gap: 1rem 1rem;
+}
+{% endif %}
+{% if section.blocks.size == 2 %}
+.right {
+  display: flex;
+  grid-template-columns: 1fr;
+  gap: 1rem 1rem;
+}
+{% endif %}
+{% if section.blocks.size == 3 %}
+.right {
+  display: flex;
+  grid-template-columns: 1fr;
+  gap: 1rem 1rem;
+}
+{% if section.blocks.size == 4 %}
+.right {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "product product"
+  "product product";
+  gap: 1rem 1rem;
+}
+{% if section.blocks.size == 5 %}
+.right {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1rem;
+}
+{% if section.blocks.size == 6 %}
+.right {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1rem;
+}
+{% endif %}
     }
  
 
