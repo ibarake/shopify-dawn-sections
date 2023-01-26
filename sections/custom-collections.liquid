@@ -9,7 +9,7 @@
   }
   .title-section-container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: {{ section.settings.title-alignment }};
     width: 100%;
     margin-bottom: 5px;
   }
@@ -568,6 +568,26 @@ tabs.forEach((tab) => {
 </script>{% schema %}{
   "name": "Custom collection section",
   "settings": [
+    {
+        "type": "select",
+        "id": "heading-alignment",
+        "label": "Title alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "flex-start"
+          },
+          {
+            "value": "center",
+            "label": "center"
+          },
+          {
+            "value": "right",
+            "label": "flex-end"
+          }
+        ],
+        "default": "center center"
+      },
     {
       "type": "color",
       "id": "btn-txt-color",
