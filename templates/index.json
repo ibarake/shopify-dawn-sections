@@ -43,6 +43,7 @@
         "18924a0a-302d-44e9-a158-a5c7c1fdab08": {
           "type": "collection",
           "settings": {
+            "heading-title": "please, pass the style",
             "collection-title": "Comedores",
             "collection": "comedor",
             "button-title": "Add text",
@@ -69,6 +70,7 @@
         "f4abb9d3-0a39-4463-8536-1f82051dd3ae": {
           "type": "collection",
           "settings": {
+            "heading-title": "",
             "collection-title": "habitaciones",
             "collection": "habitacion",
             "button-title": "Add text",
@@ -99,6 +101,7 @@
         "bc256156-fac4-4301-91df-d1866b473b4b": {
           "type": "collection",
           "settings": {
+            "heading-title": "",
             "collection-title": "salas",
             "collection": "salas",
             "button-title": "Add text",
@@ -122,6 +125,7 @@
         "40a8e92a-6d95-460b-81d3-ad05a5775f07": {
           "type": "collection",
           "settings": {
+            "heading-title": "",
             "collection-title": "Colchones",
             "collection": "colchones",
             "button-title": "Add text",
@@ -144,6 +148,7 @@
         "03ba4f09-eaf8-4024-a6cb-86fd8a783689": {
           "type": "collection",
           "settings": {
+            "heading-title": "",
             "collection-title": "Exteriores",
             "collection": "exteriores",
             "button-title": "Add text",
@@ -326,6 +331,7 @@
         "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
           "type": "collection",
           "settings": {
+            "heading-title": "",
             "collection-title": "",
             "collection": "ropa-de-cama-linos-de-banosy-mas-con-hasta-40-descuento",
             "button-title": "Add text",
