@@ -43,11 +43,11 @@
         "18924a0a-302d-44e9-a158-a5c7c1fdab08": {
           "type": "collection",
           "settings": {
-            "heading-text": "please, pass the style",
+            "heading-text": "Un lugar para compartir",
             "title-alignment": "flex-start",
             "collection-title": "Comedores",
             "collection": "comedor",
-            "button-title": "Add text",
+            "button-title": "Compra ahora",
             "blocks-selection": "collections",
             "product_list": [
 
@@ -60,12 +60,12 @@
               "decoracion",
               "espejos"
             ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
+            "poc-1": "Texitles",
+            "poc-2": "Habitaciones",
+            "poc-3": "Linos",
+            "poc-4": "Comedores",
+            "poc-5": "Detalles",
+            "poc-6": "Espejos"
           }
         },
         "f4abb9d3-0a39-4463-8536-1f82051dd3ae": {
