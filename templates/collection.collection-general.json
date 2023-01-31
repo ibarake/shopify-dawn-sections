@@ -8,6 +8,46 @@
         "color_scheme": "background-1"
       }
     },
+    "58d0bd97-190d-4933-be4c-06b278995576": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofa-camas"
+          }
+        },
+        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reclining"
+          }
+        }
+      },
+      "block_order": [
+        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-0",
+        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-1",
+        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -46,6 +86,7 @@
   },
   "order": [
     "banner",
+    "58d0bd97-190d-4933-be4c-06b278995576",
     "product-grid",
     "c1595f94-9223-4e54-9eda-bb448fc09e12"
   ]
