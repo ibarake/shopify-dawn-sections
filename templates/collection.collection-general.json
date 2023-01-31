@@ -14,7 +14,7 @@
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "modulares"
           }
         },
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-1": {
@@ -28,12 +28,19 @@
           "settings": {
             "collection": "reclining"
           }
+        },
+        "7ce278fa-e38e-47cc-86e1-9ea1ec24de93": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-0",
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-1",
-        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-2"
+        "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-2",
+        "7ce278fa-e38e-47cc-86e1-9ea1ec24de93"
       ],
       "settings": {
         "title": "",
