@@ -9,7 +9,8 @@
     },
     "macro-category-1": {
       "type": "macro-category-1",
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
