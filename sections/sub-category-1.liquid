@@ -7,7 +7,7 @@
   
   <h1>{{ category.name }}</h1>
   {{ category.image | metafield_tag }}
-  {% for collection in category.collections %}
+  {% for collection in category.collections.values %}
     {{ collection }}
   {% endfor %}
 
