@@ -1,5 +1,6 @@
-<h1>Macro Category: {{ shop.metaobjects.macro_categories.furniture.name }}</h1>
-{% for macro in shop.metaobjects %}
+<h1>Macro Category: {{ shop.metaobjects.type.handle }}</h1>
+
+{% for macro in shop.metaobjects.macro_categories %}
 
 <h1>{{ macro }}</h1>
 
