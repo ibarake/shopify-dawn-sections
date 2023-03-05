@@ -1,3 +1,7 @@
+{% assign pageobject = page.metafields.custom.reference | metafield_tag %}
+
+<h1>{{ pageobject }}</h1>
+
 {% assign macrotitle = page.title | replace: ' ', '-' | downcase | slugify %}
 {% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
 
