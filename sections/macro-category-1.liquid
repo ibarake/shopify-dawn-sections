@@ -6,7 +6,7 @@
   
   <h1>{{ category.name }}</h1>
   {{ category.image | metafield_tag }}
-  {{ category.subcategories }}
+  {{ category.subcategories | json | parse }}
 
   
 
