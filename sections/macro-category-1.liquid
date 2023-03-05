@@ -2,7 +2,7 @@
 
 <h1>a: {{ pageobject.name }}</h1>
 
-{% assign macrotitle = page.title | replace: ' ', '-' | downcase | slugify %}
+{% assign macrotitle = page.title | replace: ' ', '-' %}
 {% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
 
 
