@@ -8,6 +8,6 @@
 {% assign file = media_gid | parse_gid | media_file %}
 {% assign file_url = file | asset_url %}
 
-<h1>{{ file_url }}</h1>
+<a href="{{ file_url }}">Download File</a>
 
 
