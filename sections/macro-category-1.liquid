@@ -1,6 +1,6 @@
 {% assign pageobject = page.metafields.custom.reference %}
 
-{{ pageobject | metafield_tag }}
+{{ pageobject | metafield_text }}
 
 {% assign macrotitle = page.title | replace: ' ', '-' %}
 {% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
