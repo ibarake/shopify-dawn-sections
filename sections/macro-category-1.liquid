@@ -6,8 +6,8 @@
     {% assign media_gid = category.image %}
 
 {% assign file = media_gid | parse_gid | media_file %}
-{% assign file_url = file | asset_url %}
+{% assign file_url = file | src %}
 
-<a>{{ file }}</a>
+<a>{{ file_url }}</a>
 
 
