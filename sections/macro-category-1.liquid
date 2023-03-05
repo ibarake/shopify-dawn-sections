@@ -4,7 +4,7 @@
 
   <h1>{{ category['name'] }}</h1>
 
-    {% assign image_url = category['image'] | media_url %}
+    {% assign image_url = category['image'] | src %}
     <img src="{{ image_url }}" alt="{{ category['name'] }}">
 
 
