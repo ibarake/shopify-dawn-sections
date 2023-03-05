@@ -1,7 +1,7 @@
-{% assign macro = page.metafields.custom.reference %}
+{% assign sub = page.metafields.custom.reference %}
 
-{% assign macrotitle = page.title | replace: ' ', '-' %}
-{% assign category = shop.metaobjects['sub_categories'][macrotitle] %}
+{% assign subtitle = page.title | replace: ' ', '-' %}
+{% assign category = shop.metaobjects['sub_categories'][subtitle] %}
 
   
   <h1>{{ category.name }}</h1>
