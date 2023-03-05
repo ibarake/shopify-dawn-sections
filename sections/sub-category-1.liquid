@@ -2,13 +2,11 @@
 
 {% assign subtitle1 = page.title | replace: ' - ', '-' %}
 {% assign subtitle = subtitle1 | replace: ' ', '-' %}
-{% assign category = shop.metaobjects['sub_categories'][subtitle].values %}
+{% assign category = shop.metaobjects['sub_categories'][subtitle] %}
 
-  {{ category }}
+  
   <h1>{{ category.name }}</h1>
   {{ category.image | metafield_tag }}
-  {% for collection in category.collections.values %}
-    {{ collection }}
-  {% endfor %}
+    {{ category.collections.values }}
 
   
