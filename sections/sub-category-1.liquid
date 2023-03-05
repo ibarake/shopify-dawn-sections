@@ -1,6 +1,7 @@
 {% assign sub = page.metafields.custom.reference %}
 
 {% assign subtitle = page.title | replace: ' ', '-' %}
+{{ subtitle }}
 {% assign category = shop.metaobjects['sub_categories'][subtitle] %}
 
   
