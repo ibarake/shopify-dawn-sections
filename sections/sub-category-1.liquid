@@ -6,13 +6,13 @@
 
 {% for category in categories %}
 <div>
-{{ category.name }}
+<h1>{{ category.name }}</h1>
 {{ category.image | metafield_tag}}
 {% assign collections = category.collections.values %}
 
 {% for collection in collections %}
 <div>
-{{ collection.title }}
+<h1>{{ collection.title }}</h1>
 </div>
 {% endfor %}
 </div>
