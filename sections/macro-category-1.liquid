@@ -2,15 +2,11 @@
 
 {{ macro }}
 
-{{ shop.metaobjects.macro_categories }}
-
 {% assign macrotitle = page.title | replace: ' ', '-' %}
 {% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
 
 
   <h1>{{ category.name }}</h1>
-    {% assign media_gid = category.image | metafield_tag %}
-
-{{ media_gid }}
+  <div>{{ category.image | metafield_tag }}</div>
 
 
