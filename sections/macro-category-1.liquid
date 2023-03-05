@@ -1,1 +1,5 @@
-<h1>Macro Category: {{ shop.metaobjects.macro_categories.macro-3.name }}</h1>
+{% for macro in shop.metaobjects.macro_categories %}
+
+<h1>Macro Category: {{ macro.name }}</h1>
+
+{% endfor %}
