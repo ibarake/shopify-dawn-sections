@@ -3,8 +3,11 @@
 
 
   <h1>{{ category.name }}</h1>
+    {% assign media_gid = category.image %}
 
-    {% assign image_url = category.image %}
-    <h1>{{ image_url }}</h1>
+{% assign file = media_gid | parse_gid | media_file %}
+{% assign file_url = file | asset_url %}
+
+<h1>{{ file_url }}</h1>
 
 
