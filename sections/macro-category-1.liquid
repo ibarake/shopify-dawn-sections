@@ -1,6 +1,6 @@
 {% assign pageobject = page.metafields.custom.reference | metafield_tag %}
 
-<h1>a{{ pageobject.name }}</h1>
+<h1>a: {{ pageobject.name }}</h1>
 
 {% assign macrotitle = page.title | replace: ' ', '-' | downcase | slugify %}
 {% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
@@ -9,6 +9,6 @@
   <h1>{{ category.name }}</h1>
     {% assign media_gid = category.image | metafield_tag %}
 
-  <h1>{{ media_gid }}</h1>
+{{ media_gid }}
 
 
