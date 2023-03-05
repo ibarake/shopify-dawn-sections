@@ -6,7 +6,11 @@
   
   <h1>{{ category.name }}</h1>
   {{ category.image | metafield_tag }}
-  {{ category.subcategories[1] }}
+  {% assign subs = category.subcategories %}
+
+  {% for sub in subs %}
+      {{ sub }}
+    {% endfor %}
 
   
 
