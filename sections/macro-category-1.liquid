@@ -1,5 +1,5 @@
 {% assign macrotitle = page.title | replace: ' ', '-' | downcase | slugify %}
 {% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
 
-  <h1>{{ category['image'] }}</h1>
+  <h1>{{ category['image'] | media_url }}</h1>
 
