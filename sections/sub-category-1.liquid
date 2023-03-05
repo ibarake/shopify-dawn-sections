@@ -7,6 +7,14 @@
 {% for category in categories %}
 
 {{ category.name }}
+{{ category.image }}
+{% assign collections = category.collections.values %}
+
+{% for collection in collections %}
+
+{{ collection.title }}
+
+{% endfor %}
 
 {% endfor %}
 
