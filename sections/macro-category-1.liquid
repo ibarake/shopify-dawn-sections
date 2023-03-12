@@ -4,7 +4,7 @@
 {% assign macrotitle = macrotitle1 | replace: ' ', '-' %}
 {% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
 
-{% assign macroCategories = shop.metaobjects['macro_categories'] %}
+{% assign metaobjects = shop.metaobjects %}
 
   <p>{{ macro }}</p>
   <h1>{{ category.name }}</h1>
@@ -12,8 +12,8 @@
   {% assign subs = category.subcategories %}
 
   <h1>Macrocategories</h1>
-  {% for category in macroCategories %}
-    {{ category }}
+  {% for metaobject in metaobjects %}
+    {{ metaobject }}
   {% endfor %}
 
   {% for sub in subs %}
