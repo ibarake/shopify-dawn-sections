@@ -20,6 +20,6 @@
   <p>{{ category.description }}</p>
 {% endfor %}
 
-  {% for subcategory in category.sub_categories.values %}
-    <h3>{{ subcategory }}</h3>
-  {% endfor %}
+{% for subcategory in category.sub_categories.values %}
+  <h3>{{ subcategory }}</h3>
+{% endfor %}
