@@ -2,20 +2,17 @@
 
 {% assign macrotitle1 = page.title | replace: ' - ', '-' %}
 {% assign macrotitle = macrotitle1 | replace: ' ', '-' %}
-{% assign category = shop.metaobjects.macro_categories[macrotitle] %}
+{% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
 
-{% assign metaobjects = shop.metaobjects %}
-
-<p>{{ macro }}</p>
-
-{% for category in categories %}
+  
   <h1>{{ category.name }}</h1>
   {{ category.image | metafield_tag }}
   {% assign subs = category.subcategories %}
-{% endfor %}
 
-{{ resource.metafields.namespace.key }}
+  {% for sub in subs %}
+      {{ sub }}
+    {% endfor %}
 
-{% for sub in subs %}
-  {{ sub }}
-{% endfor %}
+  
+
+
