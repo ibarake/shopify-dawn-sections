@@ -11,7 +11,9 @@
   {{ category.image | metafield_tag }}
   {% assign subs = category.subcategories %}
 
-  <h1>Macrocategories</h1>
+  <hr>
+
+  <h1>Metaobjects</h1>
   {% for metaobject in metaobjects %}
     {{ metaobject }}
   {% endfor %}
