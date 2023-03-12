@@ -2,17 +2,12 @@
 
 {% assign macrotitle1 = page.title | replace: ' - ', '-' %}
 {% assign macrotitle = macrotitle1 | replace: ' ', '-' %}
-{% assign category = shop.metaobjects['macro_categories'][macrotitle] %}
+{% assign category = shop.metaobjects.macro_categories[macrotitle] %}
 
-  
-  <h1>{{ category.name }}</h1>
-  {{ category.image | metafield_tag }}
-  {% assign subs = category.subcategories %}
+<h1>{{ category.name }}</h1>
+{{ category.image | metafield_tag }}
+{% assign subs = category.subcategories %}
 
-  {% for sub in subs %}
-      {{ sub }}
-    {% endfor %}
-
-  
-
-
+{% for sub in subs %}
+  {{ sub }}
+{% endfor %}
