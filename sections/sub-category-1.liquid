@@ -4,11 +4,20 @@
 {% assign subtitle = subtitle1 | replace: ' ', '-' %}
 {% assign categories = shop.metaobjects.sub_categories.values %}
 
+{% comment %}
+  I'm separating the categories array from the collections array
+  to see them in different sections and identify differences between them.
+{% endcomment %}
+
 {% for category in categories %}
 <div>
-<h1>{{ category.name }}</h1>
+<h1>Category: {{ category.name }}</h1>
 {{ category.image | metafield_tag}}
+  
+<hr>
+  
 {% assign collections = category.collections.values %}
+  
 {{ collections }}
 {% for collection in collections %}
 <div>
