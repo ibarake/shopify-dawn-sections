@@ -11,17 +11,6 @@
   {{ category.image | metafield_tag }}
   {% assign subs = category.subcategories %}
 
-  <hr>
-
-  <h1>Metaobjects</h1>
-  {% for metaobject in metaobjects %}
-    {{ metaobject | type }}
-  {% endfor %}
-
-<hr>
-
-{{ resource.metafields.namespace.key }}
-
   {% for sub in subs %}
       {{ sub }}
     {% endfor %}
