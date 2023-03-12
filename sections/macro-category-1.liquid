@@ -15,8 +15,12 @@
 
   <h1>Metaobjects</h1>
   {% for metaobject in metaobjects %}
-    {{ metaobject }}
+    {{ metaobject | type }}
   {% endfor %}
+
+<hr>
+
+{{ resource.metafields.namespace.key }}
 
   {% for sub in subs %}
       {{ sub }}
