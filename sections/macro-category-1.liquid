@@ -19,6 +19,6 @@
   <h1>{{ macro_category.name }}</h1>
   <p>{{ category.description }}</p>
   {% for subcategory in category.sub_categories.values %}
-    <h3>{{ subcategory.name }}</h3>
+    <h3>{{ subcategory }}</h3>
   {% endfor %}
 {% endfor %}
