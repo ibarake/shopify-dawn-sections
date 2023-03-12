@@ -12,3 +12,7 @@
 {% for sub in subs %}
   {{ sub }}
 {% endfor %}
+
+{% for macro_category in shop.metaobjects.macro_categories.values %}
+  {{ macro_category.name }}
+{% endfor %}
