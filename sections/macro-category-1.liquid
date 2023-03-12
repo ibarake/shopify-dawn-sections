@@ -7,9 +7,12 @@
 {% assign metaobjects = shop.metaobjects %}
 
 <p>{{ macro }}</p>
-<h1>{{ category.name }}</h1>
-{{ category.image | metafield_tag }}
-{% assign subs = category.subcategories %}
+
+{% for category in categories %}
+  <h1>{{ category.name }}</h1>
+  {{ category.image | metafield_tag }}
+  {% assign subs = category.subcategories %}
+{% endfor %}
 
 {{ resource.metafields.namespace.key }}
 
