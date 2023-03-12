@@ -5,6 +5,7 @@
 {% assign category = shop.metaobjects.macro_categories[macrotitle] %}
 
 <h1>{{ category.name }}</h1>
+<p>{{ category.description }}</p>
 {{ category.image | metafield_tag }}
 {% assign subs = category.subcategories %}
 
