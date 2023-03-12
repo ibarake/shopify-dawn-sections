@@ -6,6 +6,7 @@
 
 {% for category in categories %}
 <div>
+<h4>Testing if the web is reacting to this change</h4>
 <h1>{{ category.name }}</h1>
 {{ category.image | metafield_tag}}
 {% assign collections = category.collections.values %}
