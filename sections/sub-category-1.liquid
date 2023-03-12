@@ -1,0 +1,21 @@
+{% assign sub = page.metafields.custom.reference %}
+
+{% assign subtitle1 = page.title | replace: ' - ', '-' %}
+{% assign subtitle = subtitle1 | replace: ' ', '-' %}
+{% assign categories = shop.metaobjects.sub_categories.values %}
+
+{% for category in categories %}
+<div>
+<h1>{{ category.name }}</h1>
+{{ category.image | metafield_tag}}
+{% assign collections = category.collections.values %}
+{{ collections }}
+{% for collection in collections %}
+<div>
+<h1>{{ collection.title }}</h1>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+
+  

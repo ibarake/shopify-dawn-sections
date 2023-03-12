@@ -6,9 +6,15 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "sub-category-1": {
+      "type": "sub-category-1",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "sub-category-1"
   ]
 }
