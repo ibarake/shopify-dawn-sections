@@ -19,13 +19,13 @@
   <h1>{{ macro_category.name }}</h1>
   <p>{{ macro_category.description }}</p>
   <h3>Subcategories:</h3>
-  {% for subcategory in macro_category.metafields.macro_categories.subcategories.value %}
-    <h5>{{ subcategory.system['sub-categories-nmrl220t'] }}</h5>
+  {% for subcategory in macro_category.metafields.subcategory_metafields.value %}
+    <h5>{{ subcategory }}</h5>
   {% endfor %}
 {% endfor %}
 
 <hr>
 
 {% for subcategory in shop.metaobjects.sub_categories.values %}
-  <h3>{{ subcategory.type }}</h3>
+  <h3>{{ subcategory }}</h3>
 {% endfor %}
