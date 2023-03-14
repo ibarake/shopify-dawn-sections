@@ -4,22 +4,11 @@
 {% assign macrotitle = macrotitle1 | replace: ' ', '-' %}
 {% assign category = shop.metaobjects.macro_categories[macrotitle] %}
 
-{% comment %}
-  <h1>{{ category.name }}</h1>
-  <p>{{ category.description }}</p>
-  {{ category.image | metafield_tag }}
-  {% assign subs = category.subcategories %}
+<h1>{{ category.name }}</h1>
+<p>{{ category.description }}</p>
+{{ category.image | metafield_tag }}
+{% assign subs = category.subcategories %}
 
-  {% for sub in subs %}
-    {{ sub }}
-  {% endfor %}
-{% endcomment %}
-
-{% for macro_category in shop.metaobjects.macro_categories.values %}
-  <h1>{{ macro_category.name }}</h1>
-  <p>{{ macro_category.description }}</p>
-  <h3>Subcategories:</h3>
-  {% for subcategory in macro_category.metafields.subcategory_metafields.value %}
-    <h5>{{ subcategory.system.handle }}</h5>
-  {% endfor %}
+{% for sub in subs %}
+  {{ sub }}
 {% endfor %}
