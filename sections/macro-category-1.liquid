@@ -20,6 +20,6 @@
 
 <hr>
 
-{% for subcategory in collection.metafields.custom.subcategories_of %}
-  {{ shop.metaobjects.subCategories[subcategory] }}
+{% for subcategory in collection.metafields.custom.subcategories_of.value %}
+  {{ subcategory }}
 {% endfor %}
