@@ -17,6 +17,6 @@
 
 <hr>
 
-{% for subcategory in collection.metafields.custom.subcategories_of.values %}
-  {{ subcategory.name }}
+{% for subcategory in collection.metafields.custom.subcategories_of.value %}
+  {{ subcategory }}
 {% endfor %}
