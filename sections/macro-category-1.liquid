@@ -20,7 +20,7 @@
   <p>{{ macro_category.description }}</p>
   <h3>Subcategories:</h3>
   {% for subcategory in macro_category.metafields.macro_categories.subcategories.value %}
-    <h5>{{ subcategory.system.handle }}</h5>
+    <h5>{{ subcategory.system['sub-categories-nmrl220t'] }}</h5>
   {% endfor %}
 {% endfor %}
 
