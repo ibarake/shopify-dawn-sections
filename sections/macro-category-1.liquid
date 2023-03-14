@@ -20,7 +20,7 @@
   <p>{{ macro_category.description }}</p>
   <p>Subcategories:</p>
   {% for subcategory in macro_category.metafields.subcategories.value %}
-    <h3>{{ subcategory.system.id }}</h3>
+    <h3>{% render 'subcategories' with metaobject as sub_categories %}</h3>
   {% endfor %}
 {% endfor %}
 
