@@ -18,7 +18,10 @@
 {% for macro_category in shop.metaobjects.macro_categories.values %}
   <h1>{{ macro_category.name }}</h1>
   <p>{{ macro_category.description }}</p>
-  {% for subcategory in macro_category.sub_categories.values %}
-    <h3>{{ subcategory }}</h3>
-  {% endfor %}
+{% endfor %}
+
+<hr>
+
+{% for subcategory in shop.metaobjects.sub_categories.values %}
+  <h3>{{ subcategory }}</h3>
 {% endfor %}
