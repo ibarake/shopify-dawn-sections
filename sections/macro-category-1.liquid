@@ -15,6 +15,10 @@
   {% endfor %}
 {% endcomment %}
 
+<h1>{{ category.name }}</h1>
+<p>{{ category.description }}</p>
+<p>{{ category.collection_subcategories }}</p>
+
 <hr>
 
 {% for subcategory in collection.metafields.custom.subcategories_of.value %}
