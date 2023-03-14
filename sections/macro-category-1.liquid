@@ -12,3 +12,9 @@
 {% for sub in subs %}
   {{ sub }}
 {% endfor %}
+
+<hr>
+
+{% for subcategory in collections.subcateries_of_macro_1.subcategories_of %}
+  {{ subcategory.name }}
+{% endfor %}
