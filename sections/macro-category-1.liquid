@@ -1,9 +1,5 @@
 {% assign macro = page.metafields.custom.reference.value %}
 
-{% assign macrotitle1 = page.title | replace: ' - ', '-' %}
-{% assign macrotitle = macrotitle1 | replace: ' ', '-' %}
-{% assign category = shop.metaobjects.macro_categories[macrotitle] %}
-
 <h1>{{ macro['name'] }}</h1>
 <p>{{ macro['description'] }}</p>
 {{ macro['image'] | metafield_tag }}
