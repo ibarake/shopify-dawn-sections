@@ -11,6 +11,5 @@
   {% assign subs = category.subcategories %}
 
 {% for sub in subs.value %}
-  {% assign sub_name = sub.fields.name %}
-  <p>{{ sub_name }}</p>
+  <p>{{ sub['name'] }}</p>
 {% endfor %}
