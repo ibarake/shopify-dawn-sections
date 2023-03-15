@@ -15,7 +15,10 @@
   {% endfor %}
 {% endcomment %}
 
-<h1>{{ macro }}</h1>
+{% for metaobject in page.metafields.custom.values %}
+<h1>{{ metaobject.field }}</h1>
+<p>{{ metaobject.field.value }}</p>
+{% endfor %}
 
 
 <hr>
