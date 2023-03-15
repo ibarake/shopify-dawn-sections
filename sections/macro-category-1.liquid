@@ -12,4 +12,5 @@
 
 {% for sub in subs.value %}
   <p>{{ sub['name'] }}</p>
+  {{ sub['image'] | metafield_tag }}
 {% endfor %}
