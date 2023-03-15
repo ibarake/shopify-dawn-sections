@@ -7,7 +7,7 @@
 
   <h1>{{ category.name }}</h1>
   <p>{{ category.description }}</p>
-  {{ category.image | metafield_tag | asset_img_url: '300x300'}}
+  {{ category.image | metafield_tag }}
   {% assign subs = category.subcategories %}
 
   {% for sub in subs %}
