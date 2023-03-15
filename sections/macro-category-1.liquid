@@ -15,10 +15,11 @@
   {% endfor %}
 {% endcomment %}
 
-{% for metaobject in page.metafields.custom.reference %}
-
+{% for metaobject in page.metafields.custom.reference.values %}
+<h1>{{ metaobject.name }}</h1>
 {% endfor %}
-<h1>{{ page.metafields.custom.reference }}</h1>
+
+<h1>{{ page.metafields.custom.reference.values }}</h1>
 
 <hr>
 
