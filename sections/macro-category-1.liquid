@@ -4,7 +4,7 @@
 <p>{{ macro['description'] }}</p>
 {{ macro['image'] | metafield_tag }}
 
-{% assign subs = category.subcategories %}
+{% assign subs = macro['subcategories'] %}
 
 {% for sub in subs.value %}
   <h1>{{ sub['name'] }}</h1>
