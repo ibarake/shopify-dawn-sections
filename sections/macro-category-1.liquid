@@ -15,7 +15,7 @@
   {% endfor %}
 {% endcomment %}
 
-{% for metaobject in page.metafields.custom.reference %}
+{% for metaobject in page.metafields.custom.values %}
 <h1>{{ metaobject.name }}</h1>
 <p>{{ metaobject.field.value }}</p>
 {% endfor %}
