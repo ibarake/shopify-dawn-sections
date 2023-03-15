@@ -10,7 +10,7 @@
   {{ category.image | metafield_tag }}
   {% assign subs = category.subcategories %}
 
-  {% for sub in subs %}
+  {% for sub in subs.values %}
     {{ sub }}
   {% endfor %}
 
