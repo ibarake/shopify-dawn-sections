@@ -26,6 +26,12 @@
     justify-content: center;
     align-items: center;
   }
+
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 {%- endstyle -%}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
@@ -35,7 +41,7 @@
   <div class="macrocategory-card-information">
     <div>
       <h1>{{ macrocategory.name }}</h1>
-      <p>{{ macrocategory.description }}</p>
+      <p class="truncate">{{ macrocategory.description }}</p>
     </div>
   </div>
 </div>
