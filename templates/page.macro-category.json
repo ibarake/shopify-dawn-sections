@@ -2,9 +2,57 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "265b8e1a-3020-45f9-99ee-4e7b2912dcd3": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18073012961589__265b8e1a-3020-45f9-99ee-4e7b2912dcd3-16789325018b39c542-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h0"
+          }
+        },
+        "template--18073012961589__265b8e1a-3020-45f9-99ee-4e7b2912dcd3-16789325018b39c542-1": {
+          "type": "text",
+          "settings": {
+            "text": "Description",
+            "text_style": "body"
+          }
+        },
+        "template--18073012961589__265b8e1a-3020-45f9-99ee-4e7b2912dcd3-16789325018b39c542-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See subcategories",
+            "button_link_1": "shopify:\/\/pages\/macro-1",
+            "button_style_secondary_1": false,
+            "button_label_2": "See offers",
+            "button_link_2": "shopify:\/\/pages\/macro-1",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18073012961589__265b8e1a-3020-45f9-99ee-4e7b2912dcd3-16789325018b39c542-0",
+        "template--18073012961589__265b8e1a-3020-45f9-99ee-4e7b2912dcd3-16789325018b39c542-1",
+        "template--18073012961589__265b8e1a-3020-45f9-99ee-4e7b2912dcd3-16789325018b39c542-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "macro-category-1": {
@@ -15,6 +63,7 @@
   },
   "order": [
     "main",
+    "265b8e1a-3020-45f9-99ee-4e7b2912dcd3",
     "macro-category-1"
   ]
 }
