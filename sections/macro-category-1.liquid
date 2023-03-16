@@ -1,8 +1,10 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
 
-<h1>{{ macrocategory.name }}</h1>
-<p>{{ macrocategory.description }}</p>
-{{ macrocategory.image | metafield_tag }}
+<div class="card card-wrapper card--horizontal">
+  <h1>{{ macrocategory.name }}</h1>
+  <p>{{ macrocategory.description }}</p>
+  {{ macrocategory.image | metafield_tag }}
+</div>
 
 {% assign subcategories = macrocategory.subcategories %}
 
