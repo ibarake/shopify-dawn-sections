@@ -1,12 +1,12 @@
-{% assign macro = page.metafields.custom.reference.value %}
+{% assign macrocategory = page.metafields.custom.reference.value %}
 
-<h1>{{ macro['name'] }}</h1>
-<p>{{ macro['description'] }}</p>
-{{ macro['image'] | metafield_tag }}
+<h1>{{ macrocategory.name }}</h1>
+<p>{{ macrocategory.description }}</p>
+{{ macrocategory.image | metafield_tag }}
 
-{% assign subs = macro['subcategories'] %}
+{% assign subcategories = macrocategory.subcategories %}
 
-{% for sub in subs.value %}
-  <h1>{{ sub['name'] }}</h1>
-  {{ sub['image'] | metafield_tag }}
+{% for subcategory in subcategories.value %}
+  <h1>{{ subcategory.name }}</h1>
+  {{ subcategory.image | metafield_tag }}
 {% endfor %}
