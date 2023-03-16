@@ -1,10 +1,18 @@
+{%- style -%}
+  .macrocategory-card {
+    width: 100%;
+    padding: 6em 12em;
+    background-color: gray;
+  }
+{%- endstyle -%}
+
 {% assign macrocategory = page.metafields.custom.reference.value %}
 
-
+<div class="macrocategory-card">
   <h1>{{ macrocategory.name }}</h1>
   <p>{{ macrocategory.description }}</p>
   {{ macrocategory.image | metafield_tag }}
-
+</div>
 
 {% assign subcategories = macrocategory.subcategories %}
 
