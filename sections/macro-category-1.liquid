@@ -2,22 +2,23 @@
   .macrocategory-card-background {
     width: 100%;
     padding: 6em 12em;
+  }
 
-    .img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  .macrocategory-card-background>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 {%- endstyle -%}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
 
 <div class="macrocategory-card-background">
-  <h1>{{ macrocategory.name }}</h1>
-  <p>{{ macrocategory.description }}</p>
   {{ macrocategory.image | metafield_tag }}
 </div>
+
+<h1>{{ macrocategory.name }}</h1>
+<p>{{ macrocategory.description }}</p>
 
 {% assign subcategories = macrocategory.subcategories %}
 
