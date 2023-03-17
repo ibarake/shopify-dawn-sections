@@ -44,6 +44,8 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 
+<h2>{{ macrocategory.name }}</h2>
+
 <div class="container">
   <div class="heading">
     <p class="nobold-h">
@@ -68,7 +70,6 @@
   </div>
 </div>
 
-<h1>{{ macrocategory.name }}</h1>
 <img src="{{ macrocategory.image | image_url }}" alt="macro image" width="622" height="350">
 <p>{{ macrocategory.description }}</p>
 
