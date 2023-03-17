@@ -1,4 +1,5 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign subcategories = macrocategory.subcategories %}
 
 <div class="container">
   {{ macrocategory.image | metafield_tag }}
@@ -9,8 +10,6 @@
     </div>
   </div>
 </div>
-
-{% assign subcategories = macrocategory.subcategories %}
 
 {% for subcategory in subcategories.value %}
   <h1>{{ subcategory.name }}</h1>
