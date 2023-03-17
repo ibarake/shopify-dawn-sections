@@ -45,28 +45,29 @@
 {% assign subcategories = macrocategory.subcategories %}
 
 <h1>{{ macrocategory.name }}</h1>
-
-<div class="container">
-  <div class="heading">
-    <p class="nobold-h">
-      <strong class="bolded-h">{{ section.settings['bold-section-heading'] }}</strong>
-      {{ section.settings['no-bold-section-heading'] }}
-    </p>
-  </div>
-  <div class="column-container">
-    {% for subcategory in subcategories.value %}
-      {% assign subcategoriespage = subcategory.page.value %}
-      <div class="column">
-        <div>
-          <img src="{{ subcategory.image | image_url }}" alt="sub image" width="350" height="197">
-          <a href="{{ subcategoriespage.url }}">
-            <h1 class="macro-link">
-              {{ subcategory.name }}
-            </h1>
-          </a>
+<div class="page-width">
+  <div class="container">
+    <div class="heading">
+      <p class="nobold-h">
+        <strong class="bolded-h">{{ section.settings['bold-section-heading'] }}</strong>
+        {{ section.settings['no-bold-section-heading'] }}
+      </p>
+    </div>
+    <div class="column-container">
+      {% for subcategory in subcategories.value %}
+        {% assign subcategoriespage = subcategory.page.value %}
+        <div class="column">
+          <div>
+            <img src="{{ subcategory.image | image_url }}" alt="sub image" width="350" height="197">
+            <a href="{{ subcategoriespage.url }}">
+              <h1 class="macro-link">
+                {{ subcategory.name }}
+              </h1>
+            </a>
+          </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
