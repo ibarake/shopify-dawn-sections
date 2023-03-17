@@ -20,8 +20,11 @@
 
 <hr>
 <div class="container">
-  <span>{{ section.settings['bold-section-heading'] }}</span>
-  <span>{{ section.settings['no-bold-section-heading'] }}</span>
+  <div class="heading">
+    <span>{{ section.settings['bold-section-heading'] }}</span>
+
+    <span>{{ section.settings['no-bold-section-heading'] }}</span>
+  </div>
   <div class="column-container">
     {% for subcategory in subcategories.value %}
       <div class="column">
