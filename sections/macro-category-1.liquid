@@ -9,14 +9,16 @@
 <div class="container">
   <span>{{ section.settings['bold-section-heading'] }}</span>
   <span>{{ section.settings['no-bold-section-heading'] }}</span>
-  {% for subcategory in subcategories.value %}
-    <div class="column">
-      <div>
-        <img src="{{ subcategory.image | image_url }}" alt="sub image" width="350" height="350">
-        <h1>{{ subcategory.name }}</h1>
+  <div class="">
+    {% for subcategory in subcategories.value %}
+      <div class="column">
+        <div>
+          <img src="{{ subcategory.image | image_url }}" alt="sub image" width="350" height="350">
+          <h1>{{ subcategory.name }}</h1>
+        </div>
       </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
