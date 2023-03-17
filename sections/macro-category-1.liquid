@@ -5,15 +5,15 @@
 <img src="{{ macrocategory.image | image_url }}" alt="Girl in a jacket" width="350" height="350">
 <p>{{ macrocategory.description }}</p>
 
-<div class="container">
-  <div class="column">
-    <div></div>
-  </div>
-</div>
-
 {% for subcategory in subcategories.value %}
-  <h1>{{ subcategory.name }}</h1>
-  {{ subcategory.image | metafield_tag }}
+  <div class="container">
+    <div class="column">
+      <div>
+        <img src="{{ subcategory.image | image_url }}" alt="Girl in a jacket" width="350" height="350">
+        <h1>{{ subcategory.name }}</h1>
+      </div>
+    </div>
+  </div>
 {% endfor %}
 
 {% schema %}
