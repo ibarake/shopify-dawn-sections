@@ -1,8 +1,8 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
 
-<div class="macrocategory-card-background">
+<div class="container">
   {{ macrocategory.image | metafield_tag }}
-  <div class="macrocategory-card-information">
+  <div class="column">
     <div>
       <h1>{{ macrocategory.name }}</h1>
       <p class="truncate">{{ macrocategory.description }}</p>
@@ -16,3 +16,133 @@
   <h1>{{ subcategory.name }}</h1>
   {{ subcategory.image | metafield_tag }}
 {% endfor %}
+
+{% schema %}
+  {
+  "name": "Custom collection section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "btn-txt-color",
+      "label": "Button text color",
+      "default": "#363534"
+    }, {
+      "type": "color",
+      "id": "btn-bg-color",
+      "label": "Button background color",
+      "default": "#F4F4F4"
+    }
+
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "collection-block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading-text",
+          "label": "Heading text",
+          "default": "Heading text"
+        },{
+        "type": "select",
+        "id": "title-alignment",
+        "label": "Title alignment",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "left"
+          },
+          {
+            "value": "center",
+            "label": "center"
+          },
+          {
+            "value": "flex-end",
+            "label": "right"
+          }
+        ],
+        "default": "flex-start"
+      },{
+          "type": "text",
+          "id": "collection-title",
+          "label": "Collection title"
+        }, {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        }, {
+          "type": "text",
+          "id": "button-title",
+          "label": "Button text",
+          "default": "Add text"
+        },
+        {
+          "type": "select",
+          "id": "blocks-selection",
+          "label": "Productos o Colecciones?",
+          "options": [
+            {
+              "value": "products",
+              "label": "products"
+            },
+            {
+              "value": "collections",
+              "label": "collections"
+            }
+          ],
+          "default": "products"
+        }, {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "products",
+          "limit": 6
+        },
+        {
+          "type": "collection_list",
+          "id": "collection_list",
+          "label": "collections",
+          "limit": 6
+        }, {
+          "type": "text",
+          "id": "poc-1",
+          "label": "Product 1 text",
+          "default": "Product 1 text"
+        }, {
+          "type": "text",
+          "id": "poc-2",
+          "label": "Product 2 text",
+          "default": "Product 2 text"
+        }, {
+          "type": "text",
+          "id": "poc-3",
+          "label": "Product 3 text",
+          "default": "Product 3 text"
+        }, {
+          "type": "text",
+          "id": "poc-4",
+          "label": "Product 4 text",
+          "default": "Product 4 text"
+        }, {
+          "type": "text",
+          "id": "poc-5",
+          "label": "Product 5 text",
+          "default": "Product 5 text"
+        }, {
+          "type": "text",
+          "id": "poc-6",
+          "label": "Product 6 text",
+          "default": "Product 6 text"
+        }
+      ],
+      "limit": 6
+    }
+  ],
+  "presets": [
+    {
+      "category": "macro-category-1",
+      "name": "Custom macrocategory 1 section Ashley"
+    }
+  ]
+}
+{% endschema %}
