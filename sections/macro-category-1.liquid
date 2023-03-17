@@ -16,7 +16,7 @@
     font-weight: 400;
   }
   .container{
-    margin: 0 250px 0 250px;
+    margin: 0 150px 0 150px;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -43,9 +43,8 @@
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
-
-<h1>{{ macrocategory.name }}</h1>
 <div class="page-width">
+  <h1>{{ macrocategory.name }}</h1>
   <div class="container">
     <div class="heading">
       <p class="nobold-h">
