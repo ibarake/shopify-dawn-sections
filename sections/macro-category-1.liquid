@@ -4,6 +4,8 @@
 <h1>{{ macrocategory.name }}</h1>
 <img src="{{ macrocategory.image | image_url }}" alt="macro image" width="350" height="350">
 <p>{{ macrocategory.description }}</p>
+
+<hr>
 <div class="container">
   {% for subcategory in subcategories.value %}
     <div class="column">
@@ -14,6 +16,7 @@
     </div>
   {% endfor %}
 </div>
+
 {% schema %}
   {
   "name": "Custom macrocategory",
