@@ -11,13 +11,17 @@
     "macro-category-1": {
       "type": "macro-category-1",
       "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+      }
+    },
+    "macro-category-2": {
+      "type": "macro-category-2",
+      "settings": {
       }
     }
   },
   "order": [
     "main",
-    "macro-category-1"
+    "macro-category-1",
+    "macro-category-2"
   ]
 }
