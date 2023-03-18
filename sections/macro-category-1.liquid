@@ -1,4 +1,7 @@
 {% style %}
+  .sub-image-container{
+    width: 100%;
+  }
   .heading{
     display:flex;
     justify-content: center;
@@ -56,7 +59,7 @@
         {% assign subcategoriespage = subcategory.page.value %}
         <div class="column">
           <div>
-            <img src="{{ subcategory.image | image_url }}" alt="sub image" width="350" height="197">
+            <img class="sub-image-container" src="{{ subcategory.image | image_url }}" alt="sub image">
             <a href="{{ subcategoriespage.url }}">
               <h1 class="macro-link">
                 {{ subcategory.name }}
