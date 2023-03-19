@@ -32,8 +32,10 @@
     width: 100%;
   }
 {% endstyle %}
+
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
+
 <div class="section-macro-2">
   <div class="page-width">
     <div class="section-container-2">
@@ -47,6 +49,7 @@
       </div>
       <div class="right">{{ section.settings['x-text'] }}</div>
     </div>
+
     <div class="section-bottom-2">
       {% for subcategory in subcategories.value %}
         {% if forloop.index == section.settings.subid %}
