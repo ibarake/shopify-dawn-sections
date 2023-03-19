@@ -43,12 +43,13 @@
       <div class="right">{{ section.settings['x-text'] }}</div>
     </div>
     <div class="section-bottom-2">
-      <div class="column">
-        <div class="image-col"><img src="{{ subcategory.image | image_url }}" alt="sub image"></div>
-      </div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
+      {% for subcategory in subcategories.value %}
+        {% assign subcategoriespage = subcategory.page.value %}
+        <div class="column">
+          <div class="image-col"><img src="{{ subcategory.image | image_url }}" alt="sub image"></div>
+          <a href="#"></a>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
