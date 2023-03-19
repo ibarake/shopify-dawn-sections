@@ -44,11 +44,14 @@
     </div>
     <div class="section-bottom-2">
       {% for subcategory in subcategories.value %}
+        {% assign subcategoriescollections = subcategory.collections %}
         {% assign subcategoriespage = subcategory.page.value %}
-        <div class="column">
-          <div class="image-col"><img src="{{ subcategory.image | image_url }}" alt="sub image"></div>
-          <a href="#"></a>
-        </div>
+        {% for collection in subcategoriescollections.value %}
+          <div class="column">
+            <div class="image-col"><img src="{{ subcategory.image | image_url }}" alt="sub image"></div>
+            <a href="#"></a>
+          </div>
+        {% endfor %}
       {% endfor %}
     </div>
   </div>
