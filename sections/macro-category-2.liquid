@@ -44,7 +44,7 @@
     </div>
     <div class="section-bottom-2">
       {% for subcategory in subcategories.value %}
-        {% if subcategory.handle == section.settings.subid %}
+        {% if forloop.index == section.settings.subid %}
           {% assign subcategoriescollections = subcategory.collections %}
           {% assign subcategoriespage = subcategory.page.value %}
           {% for collection in subcategoriescollections.value %}
