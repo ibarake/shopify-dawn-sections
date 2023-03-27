@@ -1,31 +1,31 @@
 {% style %}
-  .section-macro-2{
+  .section-macro-3{
     margin: 30px 0 30px 0;
   }
-  .section-container-2{
+  .section-container-3{
     height: 200px;
     background-color: red;
     display: flex;
     flex-direction: row;
   }
-  .section-container-2 .left{
+  .section-container-3 .left{
     width:30%;
     background-color: #F3EFEA;
   }
-  .section-container-2 .right{
+  .section-container-3 .right{
     width: 70%;
     background-color: #D3D3D3;
   }
   .bolded-h{
     line-height: 32px;
   }
-  .section-bottom-2{
+  .section-bottom-3{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
   }
-  .section-bottom-2 .column{
+  .section-bottom-3 .column{
     margin: 10px;
   }
   .image-col img{
@@ -36,9 +36,9 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 
-<div class="section-macro-2">
+<div class="section-macro-3">
   <div class="page-width">
-    <div class="section-container-2">
+    <div class="section-container-3">
       <div class="left">
         <p class="bolded-h">
           <strong>{{ section.settings['x-heading'] }}</strong>
@@ -50,7 +50,7 @@
       <div class="right">{{ section.settings['x-text'] }}</div>
     </div>
 
-    <div class="section-bottom-2">
+    <div class="section-bottom-3">
       {% for subcategory in subcategories.value %}
         {% if forloop.index == section.settings.subid %}
           {% assign subcategoriescollections = subcategory.collections %}
