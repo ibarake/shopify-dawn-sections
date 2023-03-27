@@ -50,24 +50,7 @@
       <div class="right">{{ section.settings['x-text'] }}</div>
     </div>
 
-    <div class="section-bottom-3">
-      {% for subcategory in subcategories.value %}
-        {% if forloop.index == section.settings.subid %}
-          {% assign subcategoriescollections = subcategory.collections %}
-          {% assign subcategoriespage = subcategory.page.value %}
-          {% for collection in subcategoriescollections.value %}
-            <div class="column">
-              <div class="image-col"><img src="{{ collection.image | image_url }}" alt="sub image"></div>
-              <a href="#">
-                <p>{{ collection.title }}</p>
-              </a>
-            </div>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
+
 
 <div class="section-bottom-3">
   {% for subcategory in subcategories.value %}
