@@ -55,7 +55,7 @@
       {% assign subcategoriescollections = subcategory.collections %}
       {% assign subcategoriespage = subcategory.page.value %}
       {% for collection in subcategoriescollections.value %}
-        {% if collection.handle == 'bedroom image 1' %}
+        {% if collection.handle == 'Best selling products' %}
           {% for product in collection.products %}
             <div class="column">
               <div class="image-col"><img src="{{ product.featured_image | image_url }}" alt="product image"></div>
