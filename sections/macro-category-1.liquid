@@ -83,10 +83,12 @@
   <h1 class="macro-cat-title">{{ macrocategory.name }}</h1>
   <div class="container">
     <div class="heading">
-      <p class="nobold-h">
+      <div class="nobold-h">
+      <p>
         <div class="bolded-h"><strong>{{ section.settings['bold-section-heading'] }}</strong></div>
         {{ section.settings['no-bold-section-heading'] }}
       </p>
+      </div>
     </div>
     <div class="column-container">
       {% for subcategory in subcategories.value %}
