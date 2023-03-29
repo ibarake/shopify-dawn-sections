@@ -23,8 +23,16 @@
         "x-heading": "refined <br> relaxation"
       }
     },
-    "fc7ace06-5d22-43b6-bea6-86b527a8606c": {
+    "macro-category-2a": {
       "type": "macro-category-2",
+      "settings": {
+        "subid": 1,
+        "x-text": "shop all furniture",
+        "x-heading": "refined  relaxation"
+      }
+    },
+    "macro-category-3": {
+      "type": "macro-category-3",
       "settings": {
         "subid": 1,
         "x-text": "shop all furniture",
@@ -36,6 +44,7 @@
     "main",
     "macro-category-1",
     "macro-category-2",
-    "fc7ace06-5d22-43b6-bea6-86b527a8606c"
+    "macro-category-3",
+    "macro-category-2a"
   ]
 }
