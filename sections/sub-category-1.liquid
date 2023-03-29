@@ -87,14 +87,14 @@
       
     </div>
     <div class="column-container">
-      {% for subcategory in subcategories.value %}
-        {% assign subcategoriespage = subcategory.page.value %}
+      {% for collection in collections.value %}
+        {% assign collectionpage = collection.url %}
         <div class="column">
-          <div class="sub-image-container">
-            <img src="{{ subcategory.image | image_url }}" alt="sub image">
-            <a href="{{ subcategoriespage.url }}">
+          <div class="col-image-container">
+            <img src="{{ collection.image | image_url }}" alt="sub image">
+            <a href="{{ collectionpage.url }}">
               <h2 class="macro-link">
-                {{ subcategory.name }}
+                {{ collection.name }}
               </h2>
             </a>
           </div>
