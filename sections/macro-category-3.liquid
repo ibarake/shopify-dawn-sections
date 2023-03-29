@@ -57,7 +57,7 @@
       {% for collection in subcategoriescollections.value %}
         {% if forloop.index == section.settings.colid %}
           {% for product in collection.products %}
-            {% if forloop.index < 4 %}
+            {% if forloop.index <= 5 %}
             <div class="column">
               <div class="image-col"><img src="{{ product.featured_image | image_url }}" alt="product image"></div>
               <a href="{{ product.url }}">
