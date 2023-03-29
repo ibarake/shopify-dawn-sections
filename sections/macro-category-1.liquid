@@ -99,12 +99,13 @@
         <div class="column">
           <div class="sub-image-container">
             <img src="{{ subcategory.image | image_url }}" alt="sub image">
-            <a href="{{ subcategoriespage.url }}">
+           
+          </div>
+           <a href="{{ subcategoriespage.url }}">
               <h2 class="macro-link">
                 {{ subcategory.name }}
               </h2>
             </a>
-          </div>
         </div>
       {% endfor %}
     </div>
