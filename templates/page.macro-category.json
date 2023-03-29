@@ -11,16 +11,24 @@
     "macro-category-1": {
       "type": "macro-category-1",
       "settings": {
+        "bold-section-heading": "aniversary sale",
+        "no-bold-section-heading": "Styles for days."
       }
     },
     "macro-category-2": {
       "type": "macro-category-2",
       "settings": {
+        "subid": 1,
+        "x-text": "shop all living rooms",
+        "x-heading": "refined <br> relaxation"
       }
     },
-    "macro-category-3": {
-      "type": "macro-category-3",
+    "fc7ace06-5d22-43b6-bea6-86b527a8606c": {
+      "type": "macro-category-2",
       "settings": {
+        "subid": 1,
+        "x-text": "shop all furniture",
+        "x-heading": "refined  relaxation"
       }
     }
   },
@@ -28,6 +36,6 @@
     "main",
     "macro-category-1",
     "macro-category-2",
-    "macro-category-3"
+    "fc7ace06-5d22-43b6-bea6-86b527a8606c"
   ]
 }
