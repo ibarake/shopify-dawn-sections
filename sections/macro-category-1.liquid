@@ -74,15 +74,12 @@
      font-family: Open Sans;
       font-size: 1em;
      font-weight: 800;
+     margin: 10px 0px 0px 30px;
    }
    .macro-link::after{
      margin-left: 5px;
      content: ">";
    }
-  .subcat-link{
-    color: purple;
-    
-  }
 {% endstyle %}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
@@ -105,7 +102,7 @@
             <img src="{{ subcategory.image | image_url }}" alt="sub image">   
           </div>
            <a href="{{ subcategoriespage.url }}">
-              <h2 class="macro-link" class="subcat-link">
+              <h2 class="macro-link">
                 {{ subcategory.name }}
               </h2>
             </a>
