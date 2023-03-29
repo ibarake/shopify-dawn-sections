@@ -85,8 +85,9 @@
     <div class="heading">
       <div class="bolded-h">
         <strong>{{ section.settings['bold-section-heading'] }}</strong>
+        {{ section.settings['no-bold-section-heading'] }}
       </div>
-      <p class="nobold-h">{{ section.settings['no-bold-section-heading'] }}</p>
+      
     </div>
     <div class="column-container">
       {% for subcategory in subcategories.value %}
