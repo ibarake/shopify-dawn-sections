@@ -1,25 +1,33 @@
 {% schema %}
   {
   "name": "Custom macrocategoty 4",
-  "settings": [
+ "settings": [
+    {
+      "type": "number",
+      "id": "subid",
+      "label": "id for sub of the macro you want to use for the section",
+      "default": 1
+    },
     {
       "type": "text",
-      "id": "bold-section-heading",
-      "label": "Bold columns heading",
-      "default": "aniversary sale"
-    }, {
-      "type": "text",
-      "id": "no-bold-section-heading",
-      "label": "No bold columns heading",
-      "default": "Styles for days."
+      "id": "x-text",
+      "label": "button text",
+      "default": "shop all living rooms"
+    },
+    {
+     "type": "text",
+      "id": "x-heading",
+      "label": "heading text",
+      "default": "refined <br> relaxation"
     }
   ],
   "blocks": [
+
   ],
   "presets": [
     {
-      "category": "macro-category-1",
-      "name": "Custom macrocategory 1 section Ashley"
+      "category": "macro-category-2",
+      "name": "Custom macrocategory 2 section Ashley"
     }
   ]
 }
