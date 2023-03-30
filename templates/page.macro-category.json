@@ -33,12 +33,12 @@
         "x-heading": "restful nights, every night"
       }
     },
-    "macro-category-4": {
+    "aa997670-e389-43c4-a7c3-805e772e3f98": {
       "type": "macro-category-2",
       "settings": {
         "subid": 1,
         "x-text": "shop all outdoor",
-        "x-heading": "cozy nigths by the"
+        "x-heading": "cozy nights by the fire"
       }
     }
   },
@@ -47,6 +47,6 @@
     "macro-category-1",
     "macro-category-2",
     "macro-category-3",
-    "macro-category-4"
+    "aa997670-e389-43c4-a7c3-805e772e3f98"
   ]
 }
