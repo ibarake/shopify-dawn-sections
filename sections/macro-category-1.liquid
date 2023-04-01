@@ -102,6 +102,7 @@
         {% assign subcategoriespage = subcategory.page.value %}
         <div class="column">
           <div class="sub-image-container">
+            <div class="sale"><p class="offer tag">{{ subcategory.offertag }}</p></div>
             <img src="{{ subcategory.image | image_url }}" alt="sub image">  
              <a href="{{ subcategoriespage.url }}">
               <h2 class="macro-link">
