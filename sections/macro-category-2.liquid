@@ -35,47 +35,54 @@
   }
 {% endstyle %}
 
+
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 
-<div class="section-macro-2">
+
   <div class="page-width">
-    <div class="section-container-2">
-      <div class="left">
-        <p class="bolded-h">
-          <strong>{{ section.settings['x-heading'] }}</strong>
-        </p>
-        <a href="#">
-          <p>{{ section.settings['x-text'] }}</p>
-        </a>
-      </div>
-      <div class="right">{{ section.settings['x-text'] }}</div>
-    </div>
+    <div class="section-macro-2">
+
+      {% for subcategory in subcategories.value %}
+        {% if forloop.index == section.settings.subid %}
+          {% assign subcategoriescollections = subcategory.collections %}
+          {% assign subcategoriespage = subcategory.page.value %}
+
+          <div class="section-container-2">
+            <div class="left">
+              <p class="bolded-h2">
+                <strong>{{ subcategory.macro_section_title }}</strong>
+              </p>
+              <div class="link-shop">
+              <a href="#">
+                <p>Shop all {{ subcategory.title }}</p>
+              </a>
+            </div>    
+            </div>
+            <div class="right">{{ section.settings['x-text'] }}</div>
+          </div>
+
+          <div class="section-bottom-2">
+      
+          {% for collection in subcategoriescollections.value %}
+            <div class="column">
+              <div class="image-col">
+                <img src="{{ collection.image | image_url }}" alt="sub image">
+              </div>
+              <a href="#">
+                <p>{{ collection.title }}</p>
+              </a>
+            </div>
+          {% endfor %}
+
+          </div>
+        {% endif %}
+      {% endfor %}
+    
   </div>
 </div>
 
-<div class="section-bottom-2">
-  {% for subcategory in subcategories.value %}
-    {% if forloop.index == section.settings.subid %}
-      {% assign subcategoriescollections = subcategory.collections %}
-      {% assign subcategoriespage = subcategory.page.value %}
-      {% for collection in subcategoriescollections.value %}
-        {% if forloop.index == section.settings.colid %}
-          {% for product in collection.products %}
-            {% if forloop.index <= section.settings.colnum %}
-            <div class="column">
-              <div class="image-col"><img src="{{ product.featured_image | image_url }}" alt="product image"></div>
-              <a href="{{ product.url }}">
-                <p>{{ product.title }}</p>
-              </a>
-            </div>
-              {% endif %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-</div>
+
 {% schema %}
   {
   "name": "Custom macrocategory 2",
