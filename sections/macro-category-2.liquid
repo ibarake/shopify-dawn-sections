@@ -55,24 +55,25 @@
 
   <div class="page-width">
     <div class="section-macro-2">
-    <div class="section-container-2">
-      <div class="left">
-        <p class="bolded-h2">
-          <strong>Shop all {{ section.settings['x-heading'] }}</strong>
-        </p>
-        <div class="link-shop">
-        <a href="#">
-          <p>{{ section.settings['x-text'] }}</p>
-        </a>
-      </div>    
-      </div>
-      <div class="right">{{ section.settings['x-text'] }}</div>
-    </div>
 
       {% for subcategory in subcategories.value %}
         {% if forloop.index == section.settings.subid %}
           {% assign subcategoriescollections = subcategory.collections %}
           {% assign subcategoriespage = subcategory.page.value %}
+
+          <div class="section-container-2">
+            <div class="left">
+              <p class="bolded-h2">
+                <strong>Shop all {{ subcategory.title }}</strong>
+              </p>
+              <div class="link-shop">
+              <a href="#">
+                <p>{{ section.settings['x-text'] }}</p>
+              </a>
+            </div>    
+            </div>
+            <div class="right">{{ section.settings['x-text'] }}</div>
+          </div>
 
           <div class="section-bottom-2">
       
