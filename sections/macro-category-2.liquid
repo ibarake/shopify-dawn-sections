@@ -47,7 +47,7 @@
         {% if forloop.index == section.settings.subid %}
           {% assign subcategoriescollections = subcategory.collections %}
           {% assign subcategoriespage = subcategory.page.value %}
-          {% assign subimageurl = subcategory.image | image_url: '300x300' %}
+          {% assign subimageurl = subcategory.image | image_url %}
           <div class="section-container-2">
             <div class="left">
               <p class="bolded-h2">
