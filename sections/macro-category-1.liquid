@@ -1,88 +1,93 @@
 {% style %}
- *{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  border: none;
-  outline: none;
+  *{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   border: none;
+   outline: none;
+    }
+    .sub-image-container{
+     margin: 0px 15px;
    }
-   .sub-image-container{
-    margin: 0px 15px;
-  }
-   .sub-image-container img{
-     width: 100%;
-     height: 275px;
-     background-size: cover;
-     padding: 6px;
-     object-fit: cover;
-     object-position: center;
+    .sub-image-container img{
+      width: 100%;
+      height: 275px;
+      background-size: cover;
+      padding: 6px;
+      object-fit: cover;
+      object-position: center;
+    }
+      .sale{
+     position: absolute;
+     width: 20%;
+     height: 5%;
    }
-   .heading{
-     display:flex;
-     justify-content: center;
-     align-items: flex-end;
-   }
-   .heading span{
-     margin: 0 0 0 1px;
-     font-family: Open Sans;
-     font-size: 20px;
-     font-weight: 500;
-     letter-spacing: 0;
-     color: black;
-   }
-   .bolded-h{
-     margin: 0px 17px 30px 20px;
-     font-family: Open Sans;
-     font-size: 30px;
-     font-weight: 900;
-     letter-spacing: -0.4px;
-     color: black;
-   }
-   .container{
-     padding: 50px 0px;
-     margin: 0px 0px 10px 0px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     background-color: #FFE8D0;
-   }
-   .column-container{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-   }
-   .column{
-     width: 30%;
-   }
-   .macro-cat-title{
-     font-family: Open Sans;
-     font-size: 28px;
-     font-weight: normal;
-     line-height: 36px;
-     letter-spacing: 0;
-     text-align: left;
-     text-transform: capitalize;
-     margin-bottom: 8px;
-   }
-   .macro-link{
-     text-transform: uppercase;
-     font-family: Open Sans;
-     font-size: 1em;
-     font-weight: 800;
-     margin: 3px 0px 0px 9px;
-     padding-bottom: 10px;
-   }
-   .macro-link::after{
-     margin-left: 5px;
-     background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
-     background-size: 10px 10px;
-     display: inline-block;
-     width: 10px; 
-     height: 10px;
-     content:"";
+    .heading{
+      display:flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .heading span{
+      margin: 0 0 0 1px;
+      font-family: Open Sans;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0;
+      color: black;
+    }
+    .bolded-h{
+      margin: 0px 17px 30px 20px;
+      font-family: Open Sans;
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      color: black;
+    }
+    .container{
+      padding: 50px 0px;
+      margin: 0px 0px 10px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #FFE8D0;
+    }
+    .column-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .column{
+      width: 30%;
+    }
+    .macro-cat-title{
+      font-family: Open Sans;
+      font-size: 28px;
+      font-weight: normal;
+      line-height: 36px;
+      letter-spacing: 0;
+      text-align: left;
+      text-transform: capitalize;
+      margin-bottom: 8px;
+    }
+    .macro-link{
+      text-transform: uppercase;
+      font-family: Open Sans;
+      font-size: 1em;
+      font-weight: 800;
+      margin: 3px 0px 0px 9px;
+      padding-bottom: 10px;
+    }
+    .macro-link::after{
+      margin-left: 5px;
+      background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
+      background-size: 10px 10px;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      content:"";
 
-   }
+    }
 {% endstyle %}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
@@ -93,24 +98,25 @@
     <div class="heading">
       <div class="bolded-h">
         <strong>{{ section.settings['bold-section-heading'] }}</strong>
-       <span span="nobold-h">{{ section.settings['no-bold-section-heading'] }}</span> 
+        <span span="nobold-h">{{ section.settings['no-bold-section-heading'] }}</span>
       </div>
-      
     </div>
     <div class="column-container">
       {% for subcategory in subcategories.value %}
         {% assign subcategoriespage = subcategory.page.value %}
         <div class="column">
           <div class="sub-image-container">
-            <div class="sale"><p class="offer tag">{{ subcategory.offertag }}</p></div>
-            <img src="{{ subcategory.image | image_url }}" alt="sub image">  
-             <a href="{{ subcategoriespage.url }}">
+            <div class="sale">
+              <p class="offer tag">{{ subcategory.offertag }}</p>
+            </div>
+            <img src="{{ subcategory.image | image_url }}" alt="sub image">
+            <a href="{{ subcategoriespage.url }}">
               <h2 class="macro-link">
                 {{ subcategory.name }}
               </h2>
             </a>
           </div>
-        </div>   
+        </div>
       {% endfor %}
     </div>
   </div>
