@@ -69,7 +69,7 @@
           {% for collection in subcategoriescollections.value %}
             <div class="column">
                 <img src="{{ collection.image | image_url }}" alt="sub image">
-              <a href="#">
+              <a class="sub-link" href="{{ collection.url }}">
                 <p>{{ collection.title }}</p>
               </a>
             </div>
