@@ -124,9 +124,11 @@
         {% assign subcategoriespage = subcategory.page.value %}
         <div class="column">
           <div class="sub-image-container">
+            {% if subcategory.offertag != '' %}
             <div class="sale">
               <p class="offer tag">{{ subcategory.offertag }}</p>
             </div>
+              {% endif %}
             <img src="{{ subcategory.image | image_url }}" alt="sub image">
             <a href="{{ subcategoriespage.url }}">
               <h2 class="macro-link">
