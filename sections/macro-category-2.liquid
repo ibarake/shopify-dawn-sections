@@ -3,46 +3,30 @@
     margin: 30px 0 30px 0;
   }
   .section-container-2{
-    width: 100%;
     height: 200px;
+    background-color: red;
     display: flex;
     flex-direction: row;
   }
   .section-container-2 .left{
-    width: 25%;
-    height: 100%;
+    width:30%;
     background-color: #F3EFEA;
   }
   .section-container-2 .right{
-    width: 75%;
-   
+    width: 70%;
     background-color: #D3D3D3;
   }
-  .bolded-h2{
-     font-family: Open Sans;
-     font-size: 26px;
-     font-weight: 700;
-     line-height: 36px;
-     text-align: left;
-     padding: 30px 0px 0px 45px;
-     text-transform: capitalize;
-     margin: 60px 0px 10px 0px;
-     line-height: 32px;
-     color: green;
-  }
-  .link-shop{
-    text-align: center;
-    border: 2%;
-    
+  .bolded-h{
+    line-height: 32px;
   }
   .section-bottom-2{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .section-bottom-2 .column{
-    margin: 20px 0px;
+    margin: 10px;
   }
   .image-col img{
     height: 305px;
@@ -54,49 +38,44 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 
-
+<div class="section-macro-2">
   <div class="page-width">
-    <div class="section-macro-2">
-
-      {% for subcategory in subcategories.value %}
-        {% if forloop.index == section.settings.subid %}
-          {% assign subcategoriescollections = subcategory.collections %}
-          {% assign subcategoriespage = subcategory.page.value %}
-
-          <div class="section-container-2">
-            <div class="left">
-              <p class="bolded-h2">
-                <strong>{{ subcategory.macro_section_title }}</strong>
-              </p>
-              <div class="link-shop">
-              <a href="#">
-                <p>Shop all {{ subcategory.title }}</p>
-              </a>
-            </div>    
-            </div>
-            <div class="right">{{ section.settings['x-text'] }}</div>
-          </div>
-
-          <div class="section-bottom-2">
-      
-          {% for collection in subcategoriescollections.value %}
-            <div class="column">
-              <div class="image-col">
-                <img src="{{ collection.image | image_url }}" alt="sub image">
-              </div>
-              <a href="#">
-                <p>{{ collection.title }}</p>
-              </a>
-            </div>
-          {% endfor %}
-
-          </div>
-        {% endif %}
-      {% endfor %}
-    
+    <div class="section-container-2">
+      <div class="left">
+        <p class="bolded-h">
+          <strong>{{ section.settings['x-heading'] }}</strong>
+        </p>
+        <a href="#">
+          <p>{{ section.settings['x-text'] }}</p>
+        </a>
+      </div>
+      <div class="right">{{ section.settings['x-text'] }}</div>
+    </div>
   </div>
 </div>
 
+<div class="section-bottom-2">
+  {% for subcategory in subcategories.value %}
+    {% if forloop.index == section.settings.subid %}
+      {% assign subcategoriescollections = subcategory.collections %}
+      {% assign subcategoriespage = subcategory.page.value %}
+      {% for collection in subcategoriescollections.value %}
+        {% if forloop.index == section.settings.colid %}
+          {% for product in collection.products %}
+            {% if forloop.index <= section.settings.colnum %}
+            <div class="column">
+              <div class="image-col"><img src="{{ product.featured_image | image_url }}" alt="product image"></div>
+              <a href="{{ product.url }}">
+                <p>{{ product.title }}</p>
+              </a>
+            </div>
+              {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
 {% schema %}
   {
   "name": "Custom macrocategory 2",
@@ -108,16 +87,28 @@
       "default": 1
     },
     {
+      "type": "number",
+      "id": "colnum",
+      "label": "# columns under section",
+      "default": 3
+    },
+    {
+      "type": "number",
+      "id": "colid",
+      "label": "id for collection of the sub you want to use for the section",
+      "default": 1
+    },
+    {
       "type": "text",
       "id": "x-text",
       "label": "button text",
-      "default": "shop all living rooms"
+      "default": "shop all bedrooms"
     },
     {
      "type": "text",
       "id": "x-heading",
       "label": "heading text",
-      "default": "refined <br> relaxation"
+      "default": "restful nights, <br> every night"
     }
   ],
   "blocks": [
