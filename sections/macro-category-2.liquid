@@ -76,7 +76,10 @@
           {% assign subcategoriespage = subcategory.page.value %}
           {% for collection in subcategoriescollections.value %}
             <div class="column">
-              <div class="image-col"><img src="{{ collection.image | image_url }}" alt="sub image"></div>
+              <div class="image-col">
+                <div class="sale"><p class="offer tag"></p></div>
+                <img src="{{ collection.image | image_url }}" alt="sub image">
+              </div>
               <a href="#">
                 <p>{{ collection.title }}</p>
               </a>
