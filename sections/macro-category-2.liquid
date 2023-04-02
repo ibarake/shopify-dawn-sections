@@ -29,7 +29,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
   }
-  .column img{
+  .column .img{
     aspect-ratio : 1 / 1;
     width: 100%;
     object-fit: contain;
@@ -93,7 +93,7 @@
       
           {% for collection in subcategoriescollections.value %}
             <div class="column">
-                <img src="{{ collection.image | image_url }}" alt="sub image">
+                <img src="{{ collection.image | image_url }}" alt="sub image" class="img">
               <a href="{{ collection.url }}">
                 <h2 class="sub-link">{{ collection.title }}</p>
               </a>
