@@ -17,23 +17,14 @@
       "type": "macro-category-2",
       "settings": {
         "subid": 1,
-        "colnum": 3,
-        "colid": 1,
         "x-text": "shop all living rooms",
         "x-heading": "refined  relaxation"
-      }
-    },
-    "macro-category-3": {
-      "type": "macro-category-3",
-      "settings": {
-        "x-text": "shop all bedroomsss"
       }
     }
   },
   "order": [
     "main",
     "macro-category-1",
-    "macro-category-2",
-    "macro-category-3"
+    "macro-category-2"
   ]
 }
