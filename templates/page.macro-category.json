@@ -17,6 +17,8 @@
       "type": "macro-category-2",
       "settings": {
         "subid": 1,
+        "colnum": 3,
+        "colid": 1,
         "x-text": "shop all living rooms",
         "x-heading": "refined  relaxation"
       }
@@ -25,6 +27,8 @@
       "type": "macro-category-3",
       "settings": {
         "subid": 2,
+        "colnum": 3,
+        "colid": 2,
         "x-text": "shop all dining",
         "x-heading": "style is on the menu"
       }
