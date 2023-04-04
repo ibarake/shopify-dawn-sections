@@ -17,20 +17,16 @@
       "type": "macro-category-2",
       "settings": {
         "subid": 1,
-        "colnum": 3,
-        "colid": 1,
         "x-text": "shop all living rooms",
-        "x-heading": "refined  relaxationn"
+        "x-heading": "refined  relaxation"
       }
     },
     "macro-category-3": {
       "type": "macro-category-3",
       "settings": {
         "subid": 2,
-        "colnum": 3,
-        "colid": 3,
-        "x-text": "shop all dinning",
-        "x-heading": "styles a"
+        "x-text": "shop all dining",
+        "x-heading": "style is on the menu"
       }
     }
   },
