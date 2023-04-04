@@ -29,7 +29,8 @@
     background-color: brown;
     width: 50%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
+  grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);
 }
 .right .item{
     background-color: #F6F6F6;
@@ -56,7 +57,7 @@
            <div class="left">
              
            </div>
-          <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
+          <div class="right">
               <div class="item">
                 <p class="bolded-h2">
                 <strong>{{ subcategory.macro_section_title }}</strong>
