@@ -39,16 +39,8 @@
 }
 .right .item:nth-child(4){
     background-color: #EFEFEF;
-  }
-.item-prod{
-  border: 3px solid black;
-  aspect-ratio : 1 / 1;
-      width: 100%;
-      object-fit: contain;
-      background-color: #EFEFEF;
-      mix-blend-mode: multiply;
-      filter: contrast(1);
 }
+
 {% endstylesheet %}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
@@ -76,7 +68,7 @@
                  </div>
               </div>
             {% for collection in subcategoriescollections.value %}
-            <div class="item-prod">
+            <div class="item">
               <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-product-right">
               <p class="collection-title">{{ collection.title }}</p>
               <p class="collection-description">{{ collection.description }}</p>
