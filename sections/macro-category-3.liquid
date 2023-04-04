@@ -64,9 +64,7 @@
                 <strong>{{ subcategory.macro_section_title }}</strong>
                 </p>
                 <div class="link-shop">
-                  <a href="#">
-                  <strong>Shop all {{ subcategory.name}}</strong>
-                   </a>
+                    <a href="{{ collection.url }}" class="collection-link">{{ section.settings.x-text }}</a>
                  </div>
               </div>
             {% for collection in subcategoriescollections.value %}
@@ -74,7 +72,6 @@
               <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-product-right">
               <p class="collection-title">{{ collection.title }}</p>
               <p class="collection-description">{{ collection.description }}</p>
-              <a href="{{ collection.url }}" class="collection-link">{{ section.settings.x-text }}</a>
             </div>
           {% endfor %}
            </div>      
