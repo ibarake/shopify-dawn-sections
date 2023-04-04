@@ -18,48 +18,30 @@
     background-color: aqua;
     width: 50%;
 }
-
-.right {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 10px;
+.img-product-left{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    
 }
-
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #f6f6f6;
-  padding: 10px;
+.right{
+    background-color: brown;
+    width: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
-
-.item img {
-  max-height: 200px;
-  width: 100%;
-  object-fit: contain;
+.right .item{
+    background-color: #F6F6F6;
 }
-
-.collection-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
+.right .item:nth-child(1){
+    background-color: #EFEFEF;
 }
-
-.collection-description {
-  font-size: 14px;
-  margin-bottom: 10px;
+.right .item:nth-child(4){
+    background-color: #EFEFEF;
 }
-
-.collection-link {
-  display: inline-block;
-  font-size: 14px;
-  padding: 8px 16px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
+.img-product-right{
+       aspect-ratio : 
 }
 {% endstylesheet %}
 
@@ -76,7 +58,7 @@
            <div class="left">
              
            </div>
-          <div class="right">
+          <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
               <div class="item">
                 <p class="bolded-h2">
                 <strong>{{ subcategory.macro_section_title }}</strong>
