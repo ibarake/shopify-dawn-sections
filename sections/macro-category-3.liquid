@@ -18,10 +18,7 @@
              
            </div>
            <div class="right">
-              <div class="item"><h1>perra</h1></div>
-              <div class="item">2</div>
-              <div class="item">3</div>
-              <div class="item">4</div>
+              <div class="item"></div>
            </div>
              <p class="bolded-h2">
                 <strong>{{ subcategory.macro_section_title }}</strong>
@@ -38,8 +35,48 @@
 </div>
 
 {% schema %}
-  {
-    "name": "Custom macro category 3",
-    "settings": []
-  }
+    {
+  "name": "Custom macrocategory 3",
+  "settings": [
+    {
+      "type": "number",
+      "id": "subid",
+      "label": "id for sub of the macro you want to use for the section",
+      "default": 1
+    },
+    {
+      "type": "number",
+      "id": "colnum",
+      "label": "# columns under section",
+      "default": 3
+    },
+    {
+      "type": "number",
+      "id": "colid",
+      "label": "id for collection of the sub you want to use for the section",
+      "default": 1
+    },
+    {
+      "type": "text",
+      "id": "x-text",
+      "label": "button text",
+      "default": "shop all dinning"
+    },
+    {
+     "type": "text",
+      "id": "x-heading",
+      "label": "heading text",
+      "default": "styles is on menu"
+    }
+  ],
+  "blocks": [
+
+  ],
+  "presets": [
+    {
+      "category": "macro-category-3",
+      "name": "Custom macrocategory 3 section Ashley"
+    }
+  ]
+}
 {% endschema %}
