@@ -29,7 +29,6 @@
     background-color: brown;
     width: 50%;
     display: grid;
-    grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);
     grid-template-rows: 1fr 1fr;
 }
 .right .item{
@@ -57,7 +56,7 @@
            <div class="left">
              
            </div>
-           <div class="right">
+          <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
               <div class="item">
                 <p class="bolded-h2">
                 <strong>{{ subcategory.macro_section_title }}</strong>
@@ -86,10 +85,10 @@
       "default": 2
     },
     {
-      "type": "number",
-      "id": "colnum",
-      "label": "# de columnas",
-      "default": 4
+    "type": "number",
+  "id": "colnum",
+  "label": "# de columnas",
+  "default": 3
     },
     {
       "type": "number",
