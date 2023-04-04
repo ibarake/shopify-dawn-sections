@@ -25,12 +25,11 @@
     background-size: cover;
     
 }
-  
 .right{
     background-color: brown;
     width: 50%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);
     grid-template-rows: 1fr 1fr;
 }
 .right .item{
@@ -69,9 +68,7 @@
                    </a>
                  </div>
               </div>
-           </div>
-             
-            
+           </div>      
          </div>
        {% endif %}
     {% endfor %}
@@ -91,7 +88,7 @@
     {
       "type": "number",
       "id": "colnum",
-      "label": "# columns under section",
+      "label": "# de columnas",
       "default": 3
     },
     {
