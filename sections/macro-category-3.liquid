@@ -40,13 +40,8 @@
 .right .item:nth-child(4){
     background-color: #EFEFEF;
 }
-.img-product-right{
-       aspect-ratio : 1 / 1;
-      width: 100%;
-      object-fit: contain;
-      background-color: #EFEFEF;
-      mix-blend-mode: multiply;
-      filter: contrast(1);
+item-prod{
+  border: 1px solid black;
 }
 {% endstylesheet %}
 
@@ -75,7 +70,7 @@
                  </div>
               </div>
             {% for collection in subcategoriescollections.value %}
-            <div class="item">
+            <div class="item-prod">
               <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-product-right">
               <p class="collection-title">{{ collection.title }}</p>
               <p class="collection-description">{{ collection.description }}</p>
