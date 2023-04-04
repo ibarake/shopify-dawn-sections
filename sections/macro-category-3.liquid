@@ -1,5 +1,55 @@
 {% stylesheet %}
+.page-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.section-macro-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-container-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .right {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
 {% endstylesheet %}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
