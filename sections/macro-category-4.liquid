@@ -29,6 +29,7 @@
   <div class="subcategories">
     {% for subcategory in subcategories.value  %}
       <div class="subcategory">
+        <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
         <p>{{ subcategory.name }}</p>
       </div>
     {% endfor %}
