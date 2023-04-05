@@ -41,6 +41,11 @@
       "type": "macro-category-5",
       "settings": {
       }
+    },
+    "macro-category-6": {
+      "type": "macro-category-6",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -49,6 +54,7 @@
     "macro-category-2",
     "macro-category-3",
     "macro-category-4",
-    "macro-category-5"
+    "macro-category-5",
+    "macro-category-6"
   ]
 }
