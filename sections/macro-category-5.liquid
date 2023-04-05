@@ -1,8 +1,9 @@
 {% style %}
 .heading-categories-5{
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 25px;
+  text-align: center;
 }
 .subcategories-5{
   width: 100%;
@@ -45,7 +46,7 @@
 {% assign subcategories = macrocategory.subcategories %}
 
 <div class="page-width">
-  <p class="heading-categories-5">Shop by category</p>
+  <p class="heading-categories-5">{{ macrocategory.macro_section_title }}</p>
   <div class="macro-section-5">
   <div class="subcategories-5">
     {% for subcategory in subcategories.value  %}
