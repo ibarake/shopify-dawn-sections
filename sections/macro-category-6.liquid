@@ -1,29 +1,29 @@
 {% style %}
-.heading-categories-5{
+.heading-categories-6{
   font-size: 32px;
   font-weight: 900;
   margin-bottom: 25px;
   text-align: center;
 }
-.collections-5{
+.subcategories-6{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.collection-5 {
+.subcategory-6 {
   width: 48%;
   margin: 0px 1% 80px 1%;
 }
-.collection-5 p{
+.subcategory-6 p{
   text-transform: uppercase;
   text-align: left;
   font-weight: 400;
   font-size: 16px;
   color: black;
 }
-.collection-5 p::after{
+.subcategory-6 p::after{
   margin-left: 5px;
   background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
   background-size: 10px 10px;
@@ -32,7 +32,7 @@
   height: 10px;
   content:"";
 }
-.collection-5 img{
+.subcategory-6 img{
   position: center;
   object-fit: cover;
   height: 400px;
@@ -48,7 +48,7 @@
   <p class="heading-categories-6">Explore more {{ macrocategory.name }}</p>
   <div class="macro-section-6">
   <div class="subcategories-6">
-    {% for collection in collectionsarray.value  %}
+    {% for subcategory in subcategories.value  %}
       <div class="subcategory-6">
         <img src="{{ subcategory.image | image_url }}" alt="collection image">
         <p>{{ subcategory.title }}</p>
