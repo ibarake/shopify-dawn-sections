@@ -12,7 +12,7 @@
 }
 .subcategory-6 {
   display: inline;
-  float: left;
+  float: right;
   margin: 0px 1% 80px 1%;
 }
 .subcategory-6 p{
@@ -47,12 +47,14 @@
   <p class="heading-categories-6">Explore more {{ macrocategory.name }}</p>
   <div class="macro-section-6">
   <div class="subcategories-6">
+    <div class="subcategory-scroll">
     {% for subcategory in subcategories.value  %}
       <div class="subcategory-6">
         <img src="{{ subcategory.image | image_url }}" alt="collection image">
         <p>{{ subcategory.name }}</p>
       </div>
     {% endfor %}
+    </div>
   </div>
   </div>
 </div>
