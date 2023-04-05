@@ -53,8 +53,8 @@
   <div class="subcategories-5">
     {% for collection in collectionsarray.value  %}
       <div class="subcategory-5">
-        <img src="{{ subcategory.image | image_url }}" alt="sub image">
-        <p>{{ subcategory.name }}</p>
+        <img src="{{ collection.image | image_url }}" alt="collection image">
+        <p>{{ collection.title }}</p>
       </div>
     {% endfor %}
   </div>
