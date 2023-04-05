@@ -22,17 +22,17 @@
     display: flex;
     margin: 30px 0 30px 0;
 }
-.left{
-    background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
+.left-m3{
+    
     width: 50%;
 }
-.img-product-left{
+.img-product-left-m3{
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
 }
-.right{
+.right-m3{
     background-color: brown;
     width: 50%;
     display: grid;
@@ -44,7 +44,7 @@
   object-fit: cover;
   justify-content: center;
 }
-.right .item{
+.right-m3 .item{
   background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
@@ -57,13 +57,13 @@
       text-align: center;
       padding: 5px 7px 5px 7px;
  }
-.right .item:nth-child(1){
+.right-m3 .item:nth-child(1){
     background-color: #EFEFEF;
 }
-.right .item:nth-child(4){
+.right-m3 .item:nth-child(4){
     background-color: #EFEFEF;
 }
-.img-product-right{
+.img-product-right-m3{
        aspect-ratio: 1/1;
 }
 .collection-link {
@@ -87,9 +87,9 @@ p.collection-title{
           {% assign subcategoriespage = subcategory.page.value %}
           {% assign subimageurl = subcategory.image | image_url %}
          <div class="section-container-3">
-           <div class="left">
+           <div class="left-m3">
            </div>
-          <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
+          <div class="right-m3" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
               <div class="item">
                 <p class="macro-title">
                 <strong>{{ subcategory.macro_section_title }}</strong>
