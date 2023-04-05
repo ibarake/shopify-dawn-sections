@@ -1,30 +1,30 @@
 {% style %}
-.heading-categories{
+.heading-categories-5{
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 25px;
 }
-.subcategories{
+.subcategories-5{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-.subcategory {
+.subcategory-5 {
   width: 50%;
   margin: 10px;
 }
-.subcategory p{
+.subcategory-5 p{
   padding: 20px 35px 20px 35px;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
   color: black;
 }
-.subcategory img{
+.subcategory-5 img{
   padding: 20px;
   position: center;
-  object-fit: contain;
+  object-fit: cover;
   width:100%;
 }
 {% endstyle %}
@@ -34,11 +34,11 @@
 {% assign subcategories = macrocategory.subcategories %}
 
 <div class="page-width">
-  <p class="heading-categories">Shop by category</p>
+  <p class="heading-categories-5">Shop by category</p>
   <div class="macro-section-5">
-  <div class="subcategories">
+  <div class="subcategories-5">
     {% for subcategory in subcategories.value  %}
-      <div class="subcategory">
+      <div class="subcategory-5">
         <img src="{{ subcategory.image | image_url }}" alt="sub image">
         <p>{{ subcategory.name }}</p>
       </div>
