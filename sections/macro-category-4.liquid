@@ -18,6 +18,7 @@
   padding: 20px 35px 20px 35px;
 }
 .subcategory .imagewrap{
+  width: 100%;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -41,7 +42,9 @@
   <div class="subcategories">
     {% for subcategory in subcategories.value  %}
       <div class="subcategory">
+        <div class="imagewrap">
         <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
+        </div>
         <p>{{ subcategory.name }}</p>
       </div>
     {% endfor %}
