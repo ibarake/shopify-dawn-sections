@@ -120,7 +120,7 @@
     </div>
     <div class="column-container">
       {% for subcategory in subcategories.value %}
-        {% if forloop.index0 <= section.settings.colnum %}
+        {% if forloop.index <= section.settings.colnum %}
         {% assign subcategoriespage = subcategory.page.value %}
         <div class="column">
           <div class="sub-image-container">
