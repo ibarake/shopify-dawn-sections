@@ -46,8 +46,9 @@
 {% assign subcategories = macrocategory.subcategories %}
 {% for subcategory in subcategories.value %}
 {% if forloop.index == section.settings.subid %}
+{% assign collectionsarray = subcategory.collections %}
 <div class="page-width">
-  <p class="heading-categories-5">{{ macrocategory.macro_section_title }}</p>
+  <p class="heading-categories-5">{{ subcategory.macro_section_title }}</p>
   <div class="macro-section-5">
   <div class="subcategories-5">
     {% for collection in collectionsarray.value  %}
@@ -70,7 +71,7 @@
       "type": "number",
       "id": "subid",
       "label": "id for sub of the macro you want to use for the section",
-      "default": 3
+      "default": 2
     }
   ],
   "presets": [
