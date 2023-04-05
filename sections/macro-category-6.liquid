@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .subcategory-6 {
   width: 15%;
@@ -36,7 +36,6 @@
   aspect-ratio: 1 / 1;
   position: center;
   object-fit: cover;
-  height: 400px;
   width: 100%;
 }
 {% endstyle %}
@@ -52,7 +51,7 @@
     {% for subcategory in subcategories.value  %}
       <div class="subcategory-6">
         <img src="{{ subcategory.image | image_url }}" alt="collection image">
-        <p>{{ subcategory.title }}</p>
+        <p>{{ subcategory.name }}</p>
       </div>
     {% endfor %}
   </div>
