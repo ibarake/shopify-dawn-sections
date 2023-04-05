@@ -44,12 +44,13 @@
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
-
+{% for subcategory in subcategories.value %}
+  
 <div class="page-width">
   <p class="heading-categories-5">{{ macrocategory.macro_section_title }}</p>
   <div class="macro-section-5">
   <div class="subcategories-5">
-    {% for subcategory in subcategories.value  %}
+    {% for collection in collectionsarray.value  %}
       <div class="subcategory-5">
         <img src="{{ subcategory.image | image_url }}" alt="sub image">
         <p>{{ subcategory.name }}</p>
@@ -58,11 +59,17 @@
   </div>
   </div>
 </div>
+{% endfor %}
 
 {% schema %}
 {
   "name": "macro-category-5",
-  "settings": [],
+  "settings": [{
+      "type": "number",
+      "id": "subid",
+      "label": "id for sub of the macro you want to use for the section",
+      "default": 1
+    }],
   "presets": [
   {
     "category": "macro-category-5",
