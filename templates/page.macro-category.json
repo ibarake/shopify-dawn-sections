@@ -18,15 +18,14 @@
       "type": "macro-category-2",
       "settings": {
         "subid": 1,
-        "colnum": 3,
-        "colid": 1
+        "colnum": 3
       }
     },
     "macro-category-3": {
       "type": "macro-category-3",
       "settings": {
         "subid": 2,
-        "colnum": 2,
+        "colnum": 3,
         "colid": 2,
         "x-text": "shop all dining",
         "x-heading": "style is on the menu"
@@ -40,6 +39,7 @@
     "macro-category-5": {
       "type": "macro-category-5",
       "settings": {
+        "subid": 2
       }
     },
     "macro-category-6": {
