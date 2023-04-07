@@ -93,7 +93,6 @@
           {% assign subcategoriescollections = subcategory.collections %}
           {% assign subcategoriespage = subcategory.page.value %}
           {% assign subimageurl = subcategory.image | image_url %}
-          
           <div class="section-container-2">
             <div class="left">
               <p class="bolded-h2">
@@ -107,7 +106,6 @@
             </div>
             <div class="right" style="background-image: url('{{ subimageurl }}')"><div></div></div>
           </div>
-
           <div class="section-bottom-2">
           {% for collection in subcategoriescollections.value %}
           {% if forloop.index <= section.settings.colnum %}
@@ -119,14 +117,11 @@
             </div>
           {% endif %}
           {% endfor %}
-
           </div>
         {% endif %}
-      {% endfor %}
-    
+      {% endfor %}  
   </div>
 </div>
-
 
 {% schema %}
   {
