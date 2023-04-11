@@ -1,80 +1,79 @@
 {% style %}
-   *{
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none;
-      border: none;
-      outline: none;
-    }
-    .col-image-container{
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+  .col-image-container {
     margin: 0px 15px;
     overflow: hidden;
   }
-   .col-image-container img{
-     width: 310%;
-     height: 275px;
-     object-fit: cover;
-     position: center;
-   }
-   .heading{
-     display:flex;
-     justify-content: center;
-     align-items: flex-end;
-   }
-   .heading span{
-     margin: 0 0 0 1px;
-     font-family: Open Sans;
-     font-size: 20px;
-     font-weight: 500;
-     letter-spacing: 0;
-     color: black;
-   }
-   .bolded-h{
-     margin: 0px 0px 12px 0px;
-     font-family: Open Sans;
-     font-size: 30px;
-     font-weight: 900;
-     letter-spacing: -0.4px;
-     color: black;
-   }
-   .container{
-     padding: 50px 0px;
-     margin: 0px 0px 10px 0px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     background-color: #FFE8D0;
-   }
-   .column-container{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-   }
-   .column{
-     width: 30%;
-   }
-   .sub-cat-title{
-     font-family: Open Sans;
-     font-size: 28px;
-     font-weight: 700;
-     line-height: 36px;
-     letter-spacing: 0;
-     text-align: left;
-     text-transform: capitalize;
-     margin-bottom: 4px;
-
-   }
-   .col-link{
-     text-transform: uppercase;
-     font-family: Open Sans;
-      font-size: 9pt;
-     font-weight: 800;
-   }
-   .col-link::after{
-     margin-left: 5px;
-     content: ">";
-   }
+  .col-image-container img {
+    width: 110%;
+    height: 275px;
+    object-fit: cover;
+    position: center;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .heading span {
+    margin: 0 0 0 1px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: black;
+  }
+  .bolded-h {
+    margin: 0px 0px 12px 0px;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.4px;
+    color: black;
+  }
+  .container {
+    padding: 50px 0px;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffe8d0;
+  }
+  .column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .column {
+    width: 30%;
+  }
+  .sub-cat-title {
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+  }
+  .col-link {
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 9pt;
+    font-weight: 800;
+  }
+  .col-link::after {
+    margin-left: 5px;
+    content: '>';
+  }
 {% endstyle %}
 
 {% assign subcategory = page.metafields.custom.reference.value %}
@@ -85,16 +84,15 @@
     <div class="heading">
       <div class="bolded-h">
         <strong>{{ section.settings['bold-section-heading'] }}</strong>
-       <span span="nobold-h">{{ section.settings['no-bold-section-heading'] }}</span> 
+        <span span="nobold-h">{{ section.settings['no-bold-section-heading'] }}</span>
       </div>
-      
     </div>
     <div class="column-container">
       {% for collection in collections.value %}
         {% assign collectionpage = collection.url %}
         <div class="column">
           <div class="col-image-container">
-            <img src="{{ collection.custom.roomimage | image_url }}" alt="sub image">
+            <img src="{{ collection.image.room | image_url }}" alt="sub image">
             <a href="{{ collectionpage.url }}">
               <h2 class="col-link">
                 {{ collection.title }}
@@ -108,7 +106,7 @@
 </div>
 
 {% schema %}
-  {
+{
   "name": "Custom subcategory",
   "settings": [
     {
@@ -116,15 +114,15 @@
       "id": "bold-section-heading",
       "label": "Bold columns heading",
       "default": "aniversary sale"
-    }, {
+    },
+    {
       "type": "text",
       "id": "no-bold-section-heading",
       "label": "No bold columns heading",
       "default": "Styles for days."
     }
   ],
-  "blocks": [
-  ],
+  "blocks": [],
   "presets": [
     {
       "category": "sub-category-1",
@@ -133,4 +131,3 @@
   ]
 }
 {% endschema %}
-  
