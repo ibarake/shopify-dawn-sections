@@ -82,12 +82,12 @@
   <h1 class="sub-cat-title">{{ subcategory.name }}</h1>
   <div class="container">
     <div class="heading">
-      <div class="bolded- h">
+      <div class="bolded-h">
         <strong>{{ section.settings['bold-section-heading'] }}</strong>
         <span span="nobold-h">{{ section.settings['no-bold-section-heading'] }}</span>
       </div>
     </div>
-    <div class="column-container ">
+    <div class="column-container">
       {% for collection in collections.value %}
         {% assign collectionpage = collection.url %}
         <div class="column">
