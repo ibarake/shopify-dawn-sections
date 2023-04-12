@@ -104,11 +104,13 @@
       height: 10px;
       content:"";
     }
-  @media (max-width:479px){
-    .page-width{
-      background-color: red;
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.5em;
+      }
     }
-  }
+
+    }
 {% endstyle %}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
