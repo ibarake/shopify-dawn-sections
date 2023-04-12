@@ -28,7 +28,7 @@
       right: 0;
       background: #C60F2F;
    }
-  .sale p{
+    .sale p{
     text-transform: uppercase;
       font-family: Open Sans;
       font-size: 0.9em;
@@ -37,7 +37,7 @@
       padding: 10px 20px 10px 20px;
       color: #fff;
   }
-  .sale p sup{
+    .sale p sup{
     font-size: 0.6em;
   }
     .heading{
@@ -104,6 +104,11 @@
       height: 10px;
       content:"";
     }
+  @media (max-width:480px){
+    .page-width{
+      background-color: red;
+    }
+  }
 {% endstyle %}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
