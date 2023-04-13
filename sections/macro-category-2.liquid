@@ -25,6 +25,8 @@
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: space-between;
+    overflow-x: scroll;
+  overflow-y: hidden;
     }
   .bolded-h2{
     padding: 140px 10px 10px 30px;
@@ -146,7 +148,7 @@
             </div>
             <div class="right" style="background-image: url('{{ subimageurl }}')"><div></div></div>
           </div>
-          <div class="section-bottom-2" style="overflow-y: auto;">
+          <div class="section-bottom-2">
           {% for collection in subcategoriescollections.value %}
           {% if forloop.index <= section.settings.colnum %}
             <div class="column">
