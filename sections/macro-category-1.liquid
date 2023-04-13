@@ -105,6 +105,23 @@
       height: 10px;
       content:"";
     }
+  @media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .column {
+    width: 30%;
+  }
+}
 {% endstyle %}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
