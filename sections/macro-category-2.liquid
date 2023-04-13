@@ -146,7 +146,7 @@
             </div>
             <div class="right" style="background-image: url('{{ subimageurl }}')"><div></div></div>
           </div>
-          <div class="section-bottom-2">
+          <div class="section-bottom-2" style="overflow-y: auto;">
           {% for collection in subcategoriescollections.value %}
           {% if forloop.index <= section.settings.colnum %}
             <div class="column">
