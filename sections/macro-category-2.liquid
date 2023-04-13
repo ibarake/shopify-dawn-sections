@@ -113,7 +113,8 @@
       margin-bottom: 20px;
      }
     .link-shop{
-      margin-left: 135%;
+      margin-left:auto;
+      margin-right: 0;
       height: 20%;
      }
     .link-shop a{
@@ -148,7 +149,6 @@
             <div class="right" style="background-image: url('{{ subimageurl }}')"><div></div></div>
           </div>
           <div class="section-bottom-2">
-          
           {% for collection in subcategoriescollections.value %}
           {% if forloop.index <= section.settings.colnum %}
             <div class="column">
