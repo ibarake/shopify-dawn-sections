@@ -50,7 +50,6 @@
   .section-bottom-2 .column {
     width: 25%;
   }
-  
   .sub-link{
       text-transform: uppercase;
       font-family: Open Sans;
@@ -149,6 +148,7 @@
             <div class="right" style="background-image: url('{{ subimageurl }}')"><div></div></div>
           </div>
           <div class="section-bottom-2">
+          <div class="section-bottom-2-scroll">
           {% for collection in subcategoriescollections.value %}
           {% if forloop.index <= section.settings.colnum %}
             <div class="column">
@@ -159,6 +159,7 @@
             </div>
           {% endif %}
           {% endfor %}
+          </div>
           </div>
         {% endif %}
       {% endfor %}  
