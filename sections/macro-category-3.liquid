@@ -82,6 +82,23 @@ p.collection-title{
     color: black;
     margin-bottom: 25px;
   }
+@media only screen and (max-width: 768px) {
+  .section-container-3 {
+    flex-direction: column;
+  }
+  .leftm3 {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .right .item {
+    max-width: 100%;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
 {% endstylesheet %}
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
