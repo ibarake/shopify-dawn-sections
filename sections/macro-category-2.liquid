@@ -25,7 +25,12 @@
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: space-between;
+      overflow-x: scroll;  /*Scroll*/
     }
+  .section-bottom-2 .column {
+    width: 25%;
+    white-space: nowrap;   /*Scroll*/
+  }
   .bolded-h2{
     padding: 140px 10px 10px 30px;
   }
@@ -45,9 +50,6 @@
   .column a{
       color: black;
     }
-  .section-bottom-2 .column {
-    width: 25%;
-  }
   .sub-link{
       text-transform: uppercase;
       font-family: Open Sans;
@@ -149,6 +151,7 @@
             </div>
             <div class="right" style="background-image: url('{{ subimageurl }}')"><div></div></div>
           </div>
+      
           <div class="section-bottom-2">
           {% for collection in subcategoriescollections.value %}
           {% if forloop.index <= section.settings.colnum %}
@@ -163,6 +166,7 @@
           </div>
         {% endif %}
       {% endfor %}  
+      
   </div>
 </div>
 
