@@ -34,10 +34,7 @@
   aspect-ratio: 1 / 1;
   width:100%;
 }
-  @media only screen and (max-width: 678px) {
-  .heading-categories {
-    font-size: 18px;
-  }
+ @media only screen and (max-width: 678px) {
   .subcategories {
     flex-direction: column;
   }
@@ -45,9 +42,17 @@
     width: 100%;
     margin: 10px 0;
   }
-  .subcategory p {
-    padding: 10px 15px;
-    font-size: 16px;
+}
+
+@media only screen and (min-width: 679px) {
+  .subcategories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .subcategory {
+    width: auto;
+    margin: 0;
   }
 }
   
