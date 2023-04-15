@@ -50,6 +50,16 @@
     object-fit: cover;
     object-position: center;
   }
+  .sub-sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 12%;
+    top: 0;
+    right: 0;
+    background: #C60F2F;
+   }
   .heading span {
     margin: 0 0 0 1px;
     font-family: Open Sans;
@@ -96,6 +106,11 @@
         {% assign collectionpage = collection.url %}
         <div class="column">
           <div class="col-image-container">
+            {% if subcategory.offertag != '' %}
+                <div class="sub-sale">
+                  <p class="offer-tag-sub">{{ subcategory.offertag }}</p>
+                </div>
+              {% endif %}
             <img src="{{ collection.metafields.image.room | image_url }}" alt="sub image">
             <a href="{{ collectionpage.url }}">
               <h2 class="col-link">
