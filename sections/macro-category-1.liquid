@@ -31,13 +31,13 @@
         align-items: flex-end;
         }
     .column-container{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
         }
-      .column{
-          width: 30%;
-        }
+    .column{
+        width: 30%;
+      }
     .sub-image-container{
        position: relative;
        margin: 0px 10px;
@@ -72,7 +72,6 @@
     .sale p sup{
       font-size: 0.6em;
     }
-    
     .heading span{
         margin: 0 0 0 1px;
         font-family: Open Sans;
@@ -89,8 +88,6 @@
         letter-spacing: -0.4px;
         color: #393731;
       }
-    
-    
     .macro-link{
         text-transform: uppercase;
         font-family: Open Sans;
@@ -158,7 +155,7 @@
             <div class="sub-image-container">
               {% if subcategory.offertag != '' %}
                 <div class="sale">
-                  <p class="offer tag">{{ subcategory.offertag }}</p>
+                  <p>{{ subcategory.offertag }}</p>
                 </div>
               {% endif %}
               <img src="{{ subcategory.image | image_url }}" alt="sub image">
