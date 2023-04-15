@@ -42,14 +42,6 @@
     position: relative;
     margin: 0px 10px;
   }
-  .col-image-container img {
-    width: 100%;
-    max-width: 100%;
-    height: 275px;
-    background-size: cover;
-    object-fit: cover;
-    object-position: center;
-  }
   .sub-sale{
     display: flex;
     justify-content: center;
@@ -72,6 +64,26 @@
   .sub-sale p sup{
       font-size: 0.6em;
     }
+  .col-image-container img {
+    width: 100%;
+    max-width: 100%;
+    height: 275px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+  }
+  .col-link {
+    text-transform: uppercase;
+          font-family: Open Sans;
+          font-size: 1em;
+          font-weight: 500;
+          margin: 3px 0px 0px 1px;
+          padding-bottom: 10px;
+  }
+  .col-link::after {
+    margin-left: 5px;
+    content: '>';
+  }
   .heading span {
     margin: 0 0 0 1px;
     font-family: Open Sans;
@@ -88,16 +100,7 @@
     letter-spacing: -0.4px;
     color: black;
   }
-  .col-link {
-    text-transform: uppercase;
-    font-family: Open Sans;
-    font-size: 9pt;
-    font-weight: 800;
-  }
-  .col-link::after {
-    margin-left: 5px;
-    content: '>';
-  }
+  
 {% endstyle %}
 
 {% assign subcategory = page.metafields.custom.reference.value %}
