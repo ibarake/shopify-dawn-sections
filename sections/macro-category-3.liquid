@@ -94,16 +94,21 @@ p.collection-title{
     margin-bottom: 30px;
     text-align: center;
   }
-    @media only screen and (max-width: 768px) {
-  .section-container-3 {
-    flex-direction: column;
-  }
-       .leftm3 {
-    order: 1; /* Se mueve arriba */
-  }
-  .right {
-    order: 2; /* Se mueve debajo */
-  }
+  @media only screen and (max-width: 768px) {
+    .section-container-3 {
+      flex-direction: column;
+    }
+    .leftm3 {
+      order: 1;
+    }
+    .right {
+      order: 2; 
+    }
+    .macro-title {
+    font-size: 1.3em;
+    padding: 40px 2px 24px;
+    line-height: 1.3em;
+}
   }
 
 {% endstylesheet %}
