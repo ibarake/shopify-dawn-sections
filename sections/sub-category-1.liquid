@@ -105,6 +105,35 @@
         height: 10px;
         content:"";
   }
+   @media (max-width: 768px) {
+        .column {
+        width: 100%;
+        margin-bottom: 2rem;
+        }
+       .col-image-container {
+        margin: 0;
+        }
+        .sub-cat-title {
+        font-size: 2.5rem;
+        margin: 1.25rem 1vw;
+        }
+        .heading {
+        flex-direction: column;
+        align-items: center;
+        }
+        .bolded-h {
+        text-align: center;
+        margin: 0 1rem 2rem;
+        font-size: 2.4rem;
+        }
+        .container {
+        padding: 3rem 0;
+        }
+        .column-container {
+        flex-wrap: wrap;
+        padding: 1.5rem;
+        }
+   }
 {% endstyle %}
 
 {% assign subcategory = page.metafields.custom.reference.value %}
