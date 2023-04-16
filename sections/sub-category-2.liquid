@@ -1,2 +1,84 @@
+{% style %}
+  .heading-categories{
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 25px;
+    backgroun-color:red;
+}
+.subcategories{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.subcategory {
+  width: 15%;
+  margin: 10px;
+}
+.subcategory p{
+  padding: 20px 35px 20px 35px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+.subcategory .imagewrap{
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #F2F2F2;
+}
+.subcategory img{
+  padding: 20px;
+  position: center;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+  width:100%;
+}
+ @media only screen and (max-width: 678px) {
+ .subcategories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .subcategory {
+    width: 80%;
+    margin-left: 8%;
+  }
 
+   .subcategory p {
+   font-size: 1.5rem;
+   }
+}
+{% endstyle %}
 
+{% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign subcategories = macrocategory.subcategories %}
+
+<div class="page-width">
+  <p class="heading-categories">Shop by category</p>
+  <div class="macro-section-4">
+  <div class="subcategories">
+    {% for subcategory in subcategories.value  %}
+      <div class="subcategory">
+        <div class="imagewrap">
+        <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
+        </div>
+        <p>{{ subcategory.name }}</p>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+</div>
+{% schema %}
+  {
+  "name": "sub-category-2",
+  "settings": [],
+  "presets": [
+  {
+    "category": "sub-category-2",
+    "name": "Custom subcategory 2 section Ashley"
+  }
+]
+}
+{% endschema %}
