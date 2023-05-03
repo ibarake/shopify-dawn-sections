@@ -59,12 +59,12 @@
   <p class="heading-categories">Shop by category</p>
   <div class="sub-category-2">
   <div class="collections">
-    {% for collection in collections  %}
+    {% for collection in collections.value  %}
       <div class="collection">
         <div class="imagewrap">
         <img src="{{ collection.image | image_url }}" alt="sub image">
         </div>
-        <p>{{ collections.title }}</p>
+        <p>{{ collections.name }}</p>
       </div>
     {% endfor %}
   </div>
