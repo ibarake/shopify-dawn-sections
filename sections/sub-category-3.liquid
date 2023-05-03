@@ -159,7 +159,7 @@
           </div>
       
           <div class="section-bottom-2">
-          {% for collection in subcategoriescollections.value %}
+          {% for collection in collections.value %}
           {% if forloop.index <= section.settings.colnum %}
             <div class="column">
                 <img src="{{ collection.image | image_url }}" alt="sub image" class="img">
