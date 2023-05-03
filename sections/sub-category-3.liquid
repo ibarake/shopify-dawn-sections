@@ -138,7 +138,7 @@
 
 
 <div class="page-width">
-    <div class="section-macro-2">
+    <div class="section-sub-2">
       {% for subcategory in subcategories.value %}
         {% if forloop.index == section.settings.subid %}
           {% assign subcategoriescollections = subcategory.collections %}
@@ -178,7 +178,7 @@
 
 {% schema %}
   {
-  "name": "Custom macrocategory 2",
+  "name": "Custom subcategory 3",
   "settings": [
     {
       "type": "number",
@@ -198,8 +198,8 @@
   ],
   "presets": [
     {
-      "category": "macro-category-2",
-      "name": "Custom macrocategory 2 section Ashley"
+      "category": "sub-category-3",
+      "name": "Custom subcategory 3 section Ashley"
     }
   ]
 }
