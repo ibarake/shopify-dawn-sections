@@ -139,19 +139,19 @@
 
 <div class="page-width">
     <div class="section-sub-2">
-      {% for subcategory in subcategories.value %}
+      {% for collection in collections.value %}
         {% if forloop.index == section.settings.subid %}
-          {% assign subcategoriescollections = subcategory.collections %}
-          {% assign subcategoriespage = subcategory.page.value %}
-          {% assign subimageurl = subcategory.image | image_url %}
+          {% assign subcategoriescollections = collection.collections %}
+          {% assign subcategoriespage = collection.page.value %}
+          {% assign subimageurl = collection.image | image_url %}
           <div class="section-container-2">
             <div class="left">
               <p class="bolded-h2">
-                <strong>{{ subcategory.macro_section_title }}</strong>
+                <strong>{{ collection.macro_section_title }}</strong>
               </p>
               <div class="link-shop">
               <a href="#">
-                <strong>Shop all {{ subcategory.name }}</strong>
+                <strong>Shop all {{ collection.title }}</strong>
               </a>
             </div>    
             </div>
