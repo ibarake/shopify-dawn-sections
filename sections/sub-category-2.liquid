@@ -62,9 +62,9 @@
     {% for collection in collections.value  %}
       <div class="collection">
         <div class="imagewrap">
-        <img src="{{ collection.koimage | image_url }}" alt="sub image">
+        <img src="{{ collection.image | image_url }}" alt="sub image">
         </div>
-        <p>{{ subcategory.name }}</p>
+        <p>{{ collections.name }}</p>
       </div>
     {% endfor %}
   </div>
