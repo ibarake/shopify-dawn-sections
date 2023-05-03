@@ -58,11 +58,11 @@
 <div class="page-width">
   <p class="heading-categories">Shop by category</p>
   <div class="macro-section-4">
-  <div class="subcategories">
+  <div class="collections">
     {% for collection in collections.value  %}
-      <div class="subcategory">
+      <div class="collection">
         <div class="imagewrap">
-        <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
+        <img src="{{ collection.koimage | image_url }}" alt="sub image">
         </div>
         <p>{{ subcategory.name }}</p>
       </div>
