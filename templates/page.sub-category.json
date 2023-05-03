@@ -16,11 +16,17 @@
       "type": "sub-category-2",
       "settings": {
       }
+    },
+    "sub-category-3": {
+      "type": "sub-category-3",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "sub-category-1",
-    "sub-category-2"
+    "sub-category-2",
+    "sub-category-3"
   ]
 }
