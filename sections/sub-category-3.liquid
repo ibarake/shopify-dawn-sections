@@ -1,12 +1,206 @@
+{% style %}
+  .section-macro-2{
+    margin: 30px 0 30px 0;
+  }
+  .section-container-2{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 20px 0;
+  }
+  .section-container-2 .left{
+    width: 24%;
+    background-color: #F3EFEA;
+  }
+  .section-container-2 .right{
+    width: 80%;
+    background-color: #D3D3D3;
+    background-position: center;
+    background-repeat: norepeat;
+    background-size: cover;
+  }
+  .section-bottom-2{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      overflow-x: scroll;  /*Scroll*/
+    }
+  .section-bottom-2 .column {
+    width: 25%;
+    white-space: nowrap;   /*Scroll*/
+  }
+  .bolded-h2{
+    padding: 140px 10px 10px 30px;
+  }
+  .bolded-h2 strong{
+    line-height: 32px;
+    font-size: 30px;
+    font-weight: bolder; 
+  }
+  .column .img{
+      aspect-ratio : 1 / 1;
+      width: 100%;
+      object-fit: contain;
+      background-color: #EFEFEF;
+      mix-blend-mode: multiply;
+      filter: contrast(1);
+    }
+  .column a{
+      color: black;
+    }
+  .sub-link{
+      text-transform: uppercase;
+      font-family: Open Sans;
+      font-size: 1em;
+      font-weight: 500;
+      margin: 10px 0px 20px 0px;
+      padding-bottom:10px;
+      width: 80%;
+    }
+  .sub-link::after{
+      margin-left: 5px;
+      background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
+      background-size: 10px 10px;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      content:"";
+    }
+  .link-shop {
+      display: inline-block;
+      width: auto;
+      text-align: center;
+      border-radius: 5px;
+      border: 1px solid black;
+      margin-left: 10%;
+      padding: 5px 7px 5px 7px;
+      border-width: 2px;
+      border-style: solid;
+    }
+  .link-shop a{
+    display: inline-block;
+      color: black;
+    }
+  @media screen and (max-width: 768px) {   
+   .bolded-h2{
+    padding: 0;
+     width: 20%;
+    }
+    .bolded-h2 strong{
+    line-height: 1.1em;
+    font-size: 1.8em;
+    font-weight: bolder; 
+    }
+    .section-container-2 {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+     }
+    .section-container-2 .left{
+      display: flex;  
+      align-items: center;
+      width: 100%;
+      background-color: #F3EFEA;
+     }
+    .section-container-2 .right {
+      width: 100%;
+      height: 24em;
+      margin-top: 20px;
+     }
+    .section-bottom-2 .column {
+      width: 100%;
+      margin-bottom: 20px;
+     }
+    .link-shop{
+      margin-left:auto;
+      height: 20%;
+     }
+    .link-shop a{
+      white-space: nowrap;
+    }
+    .column img {
+      max-width: 100%;
+    }
+    .sub-link{
+      font-size: 0.6em;
+      margin-left:3px;
+      white-space: normal;
+      word-wrap: break-word;
+}
+  }
+{% endstyle %}
+
+
+{% assign subcategory = page.metafields.custom.reference.value %}
+{% assign collections = subcategory.collections %}
+
+
+<div class="page-width">
+    <div class="section-macro-2">
+      {% for subcategory in subcategories.value %}
+        {% if forloop.index == section.settings.subid %}
+          {% assign subcategoriescollections = subcategory.collections %}
+          {% assign subcategoriespage = subcategory.page.value %}
+          {% assign subimageurl = subcategory.image | image_url %}
+          <div class="section-container-2">
+            <div class="left">
+              <p class="bolded-h2">
+                <strong>{{ subcategory.macro_section_title }}</strong>
+              </p>
+              <div class="link-shop">
+              <a href="#">
+                <strong>Shop all {{ subcategory.name }}</strong>
+              </a>
+            </div>    
+            </div>
+            <div class="right" style="background-image: url('{{ subimageurl }}')"><div></div></div>
+          </div>
+      
+          <div class="section-bottom-2">
+          {% for collection in subcategoriescollections.value %}
+          {% if forloop.index <= section.settings.colnum %}
+            <div class="column">
+                <img src="{{ collection.image | image_url }}" alt="sub image" class="img">
+              <a href="{{ collection.url }}">
+                <h2 class="sub-link">{{ collection.title }}</h2>
+              </a>
+            </div>
+          {% endif %}
+          {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}  
+      
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+  "name": "Custom macrocategory 2",
+  "settings": [
+    {
+      "type": "number",
+      "id": "subid",
+      "label": "id for sub of the macro you want to use for the section",
+      "default": 1
+    },
+    {
+      "type": "number",
+      "id": "colnum",
+      "label": "# columns under section",
+      "default": 3
+    }
+  ],
+  "blocks": [
+
+  ],
+  "presets": [
+    {
+      "category": "macro-category-2",
+      "name": "Custom macrocategory 2 section Ashley"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
