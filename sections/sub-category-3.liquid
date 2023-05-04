@@ -31,10 +31,10 @@
     width: 25%;
     white-space: nowrap;   /*Scroll*/
   }
-  .bolded-h2{
+  .bolded-sub-h2{
     padding: 140px 10px 10px 30px;
   }
-  .bolded-h2 strong{
+  .bolded-sub-h2 strong{
     line-height: 32px;
     font-size: 30px;
     font-weight: bolder; 
@@ -84,11 +84,11 @@
       color: black;
     }
   @media screen and (max-width: 768px) {   
-   .bolded-h2{
+   .bolded-sub-h2{
     padding: 0;
      width: 20%;
     }
-    .bolded-h2 strong{
+    .bolded-sub-h2 strong{
     line-height: 1.1em;
     font-size: 1.8em;
     font-weight: bolder; 
@@ -146,7 +146,7 @@
           {% assign subimageurl = collection.image | image_url %}
           <div class="section-container-2">
             <div class="left">
-              <p class="bolded-h2">
+              <p class="bolded-sub-h2">
                 <strong>{{collection.title}}</strong>
               </p>
               <div class="link-shop">
