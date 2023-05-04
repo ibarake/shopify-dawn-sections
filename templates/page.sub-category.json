@@ -10,6 +10,8 @@
     "sub-category-1": {
       "type": "sub-category-1",
       "settings": {
+        "bold-section-heading": "aniversary sale",
+        "no-bold-section-heading": "Styles for days."
       }
     },
     "sub-category-2": {
@@ -20,6 +22,10 @@
     "sub-category-3": {
       "type": "sub-category-3",
       "settings": {
+        "subid": 1,
+        "colnum": 3,
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "box_position": "right"
       }
     }
   },
