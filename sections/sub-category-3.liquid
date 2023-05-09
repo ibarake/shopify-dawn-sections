@@ -1,66 +1,64 @@
 {% style %}
-  .page-width {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.section-sub-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.section-container-2 {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.section-container-2 .left {
-  flex-basis: 50%;
-}
-
-.section-container-2 .right {
-  flex-basis: 50%;
-}
-
-.bolded-sub-h2 {
-  font-weight: bold;
-}
-
-.link-shop a {
-  text-decoration: none;
-  color: #000;
-}
-
-.section-container-2 .right div {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 300px;
-}
-
-.section-bottom-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.column {
-  flex-basis: 24%;
-  margin-bottom: 20px;
-}
-
-.img {
-  width: 100%;
-  height: auto;
-}
-
-.sub-link {
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 10px;
-}
+    .section-sub-2{
+      margin: 30px 0 30px 0;
+    }
+    .section-container-2{
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      margin: 20px 0 20px 0;
+    }
+    .section-container-2 .left{
+      width: 24%;
+      background-color: #F3EFEA;
+    }
+    .section-container-2 .right{
+      width: 80%;
+      background-color: #D3D3D3;
+      background-position: center;
+      background-repeat: norepeat;
+      background-size: cover;
+    }
+    .section-bottom-2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        overflow-x: scroll;  /*Scroll*/
+      }
+    .section-bottom-2 .column {
+      width: 25%;
+      white-space: nowrap;   /*Scroll*/
+    }
+    .bolded-sub-h2{
+      padding: 140px 10px 10px 30px;
+    }
+    .bolded-sub-h2 strong{
+      line-height: 32px;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    .column .img{
+        aspect-ratio : 1 / 1;
+        width: 100%;
+        object-fit: contain;
+        background-color: #EFEFEF;
+        mix-blend-mode: multiply;
+        filter: contrast(1);
+      }
+    .column a{
+        color: black;
+      }
+    .sub-link{
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 1em;
+        font-weight: 500;
+        margin: 10px 0px 20px 0px;
+        padding-bottom:10px;
+        width: 80%;
+      }
     .sub-link::after{
         margin-left: 5px;
         background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
@@ -133,6 +131,8 @@
   }
     }
 {% endstyle %}
+
+
 {% assign subcategory = page.metafields.custom.reference.value %}
 {% assign collections = subcategory.collections %}
 
@@ -143,11 +143,8 @@
         {% assign subcategoriescollections = collection.collections %}
         {% assign subcategoriespage = collection.page.value %}
         {% assign subimageurl = collection.image | image_url %}
-        
-        {% assign box_position = section.settings.box_position %}
-        
         <div class="section-container-2">
-          <div class="{% if box_position == "left" %}left{% else %}right{% endif %}">
+          <div class="{% if section.settings.box_position == "left" %} left {% else %}right{% endif %}">
             <p class="bolded-sub-h2">
               <strong>{{ collection.title }}</strong>
             </p>
@@ -157,13 +154,11 @@
               </a>
             </div>
           </div>
-          <div class="{% if box_position == "left" %}right{% else %}left{% endif %}">
-            <div style="background-image: url('{{ subimageurl }}')"></div>
-          </div>
+         <div class="{% if section.settings.box_position == "left" %} right {% else %}left{% endif %}" style="background-image: url('{{ subimageurl}}')"><div></div></div>
         </div>
 
         <div class="section-bottom-2">
-          {% for collection in subcategoriescollections.value %}
+          {% for collection in collections.value %}
             {% if forloop.index <= section.settings.colnum %}
               <div class="column">
                 <img src="{{ collection.image | image_url }}" alt="sub image" class="img">
@@ -178,8 +173,6 @@
     {% endfor %}
   </div>
 </div>
-
-
 
 {% schema %}
   {
