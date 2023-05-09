@@ -131,8 +131,6 @@
   }
     }
 {% endstyle %}
-
-
 {% assign subcategory = page.metafields.custom.reference.value %}
 {% assign collections = subcategory.collections %}
 
@@ -143,8 +141,11 @@
         {% assign subcategoriescollections = collection.collections %}
         {% assign subcategoriespage = collection.page.value %}
         {% assign subimageurl = collection.image | image_url %}
+        
+        {% assign box_position = section.settings.box_position %}
+        
         <div class="section-container-2">
-          <div class="{% if section.settings.box_position == "left" %} left {% else %}right{% endif %}">
+          <div class="{% if box_position == "left" %}left{% else %}right{% endif %}">
             <p class="bolded-sub-h2">
               <strong>{{ collection.title }}</strong>
             </p>
@@ -154,11 +155,13 @@
               </a>
             </div>
           </div>
-         <div class="{% if section.settings.box_position == "left" %} right {% else %}left{% endif %}" style="background-image: url('{{ subimageurl}}')"><div></div></div>
+          <div class="{% if box_position == "left" %}right{% else %}left{% endif %}">
+            <div style="background-image: url('{{ subimageurl }}')"></div>
+          </div>
         </div>
 
         <div class="section-bottom-2">
-          {% for collection in collections.value %}
+          {% for collection in subcategoriescollections.value %}
             {% if forloop.index <= section.settings.colnum %}
               <div class="column">
                 <img src="{{ collection.image | image_url }}" alt="sub image" class="img">
@@ -173,6 +176,8 @@
     {% endfor %}
   </div>
 </div>
+
+
 
 {% schema %}
   {
