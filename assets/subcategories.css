@@ -310,18 +310,18 @@
         word-wrap: break-word;
       }
     }
+    
+    .style1 .img, .style2 .img{
+      background-color: #EFEFEF;
+    }
 
-.style1 .img, .style2 .img{
-  background-color: #EFEFEF;
-}
-
-.style3 .img{
-  aspect-ratio : 1 / 1;
+    .style3 .img{
+        aspect-ratio : 1 / 1;
         width: 100%;
         object-fit: cover;
         mix-blend-mode: multiply;
         filter: contrast(1);
-} 
+    } 
 
     .style1 .img, .style2 .img{
         aspect-ratio : 1 / 1;
