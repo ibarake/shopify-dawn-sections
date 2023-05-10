@@ -318,12 +318,8 @@
       }
     }
 
-.style1 .img{
+.style1 .img, .style2 .img{
   background-color: #EFEFEF;
-}
-
-.style2 .img{
-  background-color: #FFF;
 }
 
 .style1 
