@@ -149,6 +149,9 @@
                 <a href="{{ collection.url }}">
                   <h2 class="sub-link">{{ collection.title }}</h2>
                 </a>
+                 <a href="{{ collection.url }}" style="color: {{ section.settings.colorText }};">
+                <strong>{{ collection.metafields.custom.secction_button_3 }}</strong>
+              </a>
               </div>
             {% endif %}
           {% endfor %}
