@@ -164,8 +164,8 @@
                 <a href="{{ collection.url }}">
                   <h2 class="sub-link">{{ collection.title }}</h2>
                 </a>
-                 <div class="link-shopNow" style="border-color:{{ section.settings.colorText }};">
-                <a href="#" style="{% if section.settings.Border_style == "Style_1"%} Style_1  {% else %} Style_2 {% endif %} color: {{ section.settings.colorText }};">
+                 <div class="link-shopNow" style="{% if section.settings.Border_style == "Style_1"%} Style_1  {% else %} Style_2 {% endif %} color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};">
+                <a href="#">
                   <strong>Shop now</strong>
                 </a>
                </div>
