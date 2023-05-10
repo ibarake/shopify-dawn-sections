@@ -9,7 +9,6 @@
     }
     .section-container-2 .left{
       width: 24%;
-      background-color: #F3EFEA;
     }
     .section-container-2 .right{
       width: 80%;
@@ -143,7 +142,7 @@
         {% assign subcategoriespage = collection.page.value %}
         {% assign subimageurl = collection.image | image_url %}
         <div class="section-container-2" style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}">
-          <div class="left">
+          <div class="left" style="background-color: {{ section.settings.Color }};">
             <p class="bolded-sub-h2">
               <strong>{{ collection.title }}</strong>
             </p>
