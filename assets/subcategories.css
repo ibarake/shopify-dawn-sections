@@ -333,7 +333,6 @@
     }
     .style1 .link-shopNow, .style2 .link-shopNow {
       display: inline-block;
-      width: content;
       text-align: center;
       border-radius: 5px;
       border: 1px solid black;
@@ -342,7 +341,6 @@
     }
     .style3 .link-shopNow{
       display: inline-block;
-      width: content;
       text-align: center;
       border-radius: 0px;
       border-bottom: 1px solid black;

@@ -24,8 +24,10 @@
       "settings": {
         "subid": 1,
         "colnum": 3,
-        "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-        "box_position": "left"
+        "Color": "#F3EFEA",
+        "colorText": "#000000",
+        "box_position": "left",
+        "Border_style": "style3"
       }
     }
   },
