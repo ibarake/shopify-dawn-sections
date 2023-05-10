@@ -143,11 +143,11 @@
         {% assign subimageurl = collection.image | image_url %}
         <div class="section-container-2" style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}">
           <div class="left" style="background-color: {{ section.settings.Color }};">
-            <p class="bolded-sub-h2"style="background-color: {{ section.settings.colorText }};">
+            <p class="bolded-sub-h2" style="background-color: {{ section.settings.colorText }};">
               <strong>{{ collection.title }}</strong>
             </p>
             <div class="link-shop">
-              <a href="#"style="background-color: {{ section.settings.colorText }};">
+              <a href="#" style="background-color: {{ section.settings.colorText }};">
                 <strong>{{ collection.metafields.custom.secction_button_3 }}</strong>
               </a>
             </div>
