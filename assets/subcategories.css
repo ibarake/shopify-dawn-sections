@@ -232,7 +232,6 @@
         aspect-ratio : 1 / 1;
         width: 100%;
         object-fit: contain;
-        background-color: #EFEFEF;
         mix-blend-mode: multiply;
         filter: contrast(1);
     }
@@ -319,4 +318,6 @@
         word-wrap: break-word;
       }
     }
+
+
 {% endstyle %}
