@@ -332,7 +332,6 @@
       margin-left: 10%
     }
     .style1 .link-shopNow, .style2 .link-shopNow {
-      display: inline-block;
       text-align: center;
       border-radius: 5px;
       border: 1px solid black;
@@ -340,7 +339,6 @@
       padding: 5px 7px 5px 7px;
     }
     .style3 .link-shopNow{
-      display: inline-block;
       text-align: center;
       border-radius: 0px;
       border-bottom: 1px solid black;
