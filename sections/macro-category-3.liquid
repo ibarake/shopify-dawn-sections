@@ -1,153 +1,35 @@
-{% stylesheet %}
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    outline: none;
-}
-.macro-title{
-  font-family: Open Sans;
-    font-size: 30px;
-    padding: 90px 2px 54px;
-    font-weight: bolder;
-    width: 60%;
-    text-align: center;
-    line-height: 32px;
-  }
-.section-container-3{
-    height: auto;
-    display: flex;
-    margin: 30px 0;
-}
-.leftm3 {
-    width: 50%;
-    background-color: #D3D3D3;
-    background-position: center;
-    background-size: cover;
-}
-.img-product-left{
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-.section-macro-3 .right{
-  width: auto;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  overflow: hidden;
-}
-.img-item {
-  width: 100%;
-  max-width: 100%;
-  height: 250px;
-  object-fit: cover;
-  justify-content: center;
-  padding:10px;
-}
-.right .item{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  max-width: 100%;
-}
-.right .item:nth-child(1) {
-   background-color: #EFEFEF;
-}
-.right .item:nth-child(4){
-    background-color: #EFEFEF;
-}
-.link-shop-m3{
-    display: inline-block;
-    width: auto;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 4%;
-} 
-.img-product-right{
-       aspect-ratio: 1/1;
-}
-.collection-link {
-    color: black;
-    font-weight: bolder;
-  }
-p.collection-title{
-    font-weight: bolder;
-    font-family: Open Sans;
-    font-size: 14px;
-    max-width: 100%;
-    color: black;
-    margin-bottom: 25px;
-  }
-  .right .item {
-    max-width: 100%;
-    padding: 5px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  @media only screen and (max-width: 768px) {
-    .section-container-3 {
-      flex-direction: column;
-    }
-    .leftm3 {
-      order: 1;
-      width: 100%;
-      height: 25em;
-    }
-    .right {
-      order: 2; 
-    }
-    .section-macro-3 .macro-title {
-    font-size: 1.3em;
-    padding: 40px 2px 24px;
-    line-height: 1.3em;
-    }
-    .collection-link {
-      font-size: 0.9em;
-    }
-    p.collection-title {
-      font-size: 0.88em;
-    }
-    .img-item {
-      height: auto;
-    }
-  }
+{{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 
-{% endstylesheet %}
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 <div class="page-width">
   <div class="section-macro-3">
     {% for subcategory in subcategories.value %}
-       {% if forloop.index == section.settings.subid %}
-          {% assign subcategoriescollections = subcategory.collections %}
-          {% assign subcategoriespage = subcategory.page.value %}
-          {% assign subimageurl = subcategory.image | image_url %}
-         <div class="section-container-3">
-           <div class="leftm3"style="background-image: url('{{ subimageurl }}')">
-           </div>
+      {% if forloop.index == section.settings.subid %}
+        {% assign subcategoriescollections = subcategory.collections %}
+        {% assign subcategoriespage = subcategory.page.value %}
+        {% assign subimageurl = subcategory.image | image_url %}
+        <div class="section-container-3">
+          <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
-              <div class="item">
-                <p class="macro-title">
-                <strong>{{ subcategory.macro_section_title }}</strong>
-                </p>
-                <div class="link-shop-m3">
-                    <a href="{{ collection.url }}" class="collection-link">Shop all {{ subcategory.name }}</a>
-                 </div>
-              </div>
-            {% for collection in subcategoriescollections.value %}
             <div class="item">
-              <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
-              <p class="collection-title">{{ collection.title }}</p>
-              <p class="collection-description">{{ collection.description }}</p>
+              <p class="macro-title">
+                <strong>{{ subcategory.macro_section_title }}</strong>
+              </p>
+              <div class="link-shop-m3">
+                <a href="{{ collection.url }}" class="collection-link">Shop all {{ subcategory.name }}</a>
+              </div>
             </div>
-          {% endfor %}
-           </div>      
-         </div>
-       {% endif %}
+            {% for collection in subcategoriescollections.value %}
+              <div class="item">
+                <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
+                <p class="collection-title">{{ collection.title }}</p>
+                <p class="collection-description">{{ collection.description }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
