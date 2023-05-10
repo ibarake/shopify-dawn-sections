@@ -30,8 +30,7 @@
           {% for collection in collections.value %}
             {% if forloop.index <= section.settings.colnum %}
               <div
-                class="column"
-                style="{% if section.settings.Border_style == "style1"%} style1 {% else%} style2 {% endif %}"
+                class="column {% if section.settings.Border_style == "style1"%} style1 {% else%} style2 {% endif %}"
               >
                 <img src="{{ collection.image | image_url }}" alt="sub image" class="img">
                 <a href="{{ collection.url }}">
