@@ -79,6 +79,7 @@
         border-width: 2px;
         border-style: solid;
       }
+  .link-shopNow.Style1
     .link-shop a{
       display: inline-block;
       }
@@ -164,7 +165,7 @@
                 <a href="{{ collection.url }}">
                   <h2 class="sub-link">{{ collection.title }}</h2>
                 </a>
-                 <div class="link-shopNow" style="{% if section.settings.Border_style == "Style1"%} Style1  {% else %} Style2 {% endif %} color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};">
+                 <div class="link-shopNow" style="{% if section.settings.Border_style == "style1"%} style1  {% else %} style2 {% endif %} color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};">
                 <a href="#">
                   <strong>Shop now</strong>
                 </a>
@@ -229,15 +230,15 @@
     "label": "Border style",
     "options": [
       {
-        "value": "Style1",
-        "label": "Style 1"
+        "value": "style1",
+        "label": "style 1"
       },
       {
-        "value": "Style2",
-        "label": "Style 2"
+        "value": "style2",
+        "label": "style 2"
       }
     ],
-    "default": "Style1"
+    "default": "style1"
   }    
   ],
   "blocks": [
