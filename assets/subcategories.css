@@ -328,6 +328,9 @@
     .column.style3{
       align-items: flex-start;
     }
+    .style3 a{
+      margin-left: 10%
+    }
     .style1 .link-shop, .style2 .link-shop {
       display: inline-block;
       width: auto;
