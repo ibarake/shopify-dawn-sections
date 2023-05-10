@@ -143,7 +143,7 @@
         {% assign subimageurl = collection.image | image_url %}
         <div class="section-container-2" style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}">
           <div class="left" style="background-color: {{ section.settings.Color }};">
-            <p class="bolded-sub-h2">
+            <p class="bolded-sub-h2"style="background-color: {{ section.settings.colorText }};">
               <strong>{{ collection.title }}</strong>
             </p>
             <div class="link-shop">
@@ -196,7 +196,7 @@
     },
     {
       "type": "color",
-      "id": "body_text",
+      "id": "colorText",
       "label": "Body text",
       "default": "#000000"
     },
