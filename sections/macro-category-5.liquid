@@ -1,89 +1,24 @@
-{% style %}
-.heading-categories-5{
-  font-size: 32px;
-  font-weight: 900;
-  margin-bottom: 25px;
-  text-align: center;
-}
-.collections-5{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.collection-5 {
-  width: 48%;
-  margin: 0px 1% 80px 1%;
-}
-.collection-5 p{
-  text-transform: uppercase;
-  text-align: left;
-  font-weight: 400;
-  font-size: 16px;
-  color: black;
-}
-.collection-5 p::after{
-  margin-left: 5px;
-  background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
-  background-size: 10px 10px;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  content:"";
-}
-.collection-5 img{
-  position: center;
-  object-fit: cover;
-  height: 400px;
-  width: 100%;
-}
-  @media only screen and (max-width: 767px) {
-.collections-5{
-flex-direction: column;
-}
-.collection-5 {
-width: 100%;
-margin: 0px 0 40px 0;
-}
-.collection-5 img{
-max-height: 180px;
-max-width: 100%;
-}
-.heading-categories-5{
-  font-size: 1.4em;
-  text-align: left;
-  margin-top: 40px; 
-}
-.collection-5 p{
-  font-family: Open Sans,Arial,sans-serif;
-   line-height: 1.1428571429em;
-    font-size: 1.1rem;
-    font-weight: bold;   
-}
-}
-{% endstyle %}
-
+{{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 {% for subcategory in subcategories.value %}
-{% if forloop.index == section.settings.subid %}
-{% assign collectionsarray = subcategory.collections %}
-<div class="page-width">
-  <p class="heading-categories-5">{{ subcategory.macro_section_title }}</p>
-  <div class="macro-section-5">
-  <div class="collections-5">
-    {% for collection in collectionsarray.value  %}
-      <div class="collection-5">
-        <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
-        <p>{{ collection.title }}</p>
+  {% if forloop.index == section.settings.subid %}
+    {% assign collectionsarray = subcategory.collections %}
+    <div class="page-width">
+      <p class="heading-categories-5">{{ subcategory.macro_section_title }}</p>
+      <div class="macro-section-5">
+        <div class="collections-5">
+          {% for collection in collectionsarray.value %}
+            <div class="collection-5">
+              <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
+              <p>{{ collection.title }}</p>
+            </div>
+          {% endfor %}
+        </div>
       </div>
-    {% endfor %}
-  </div>
-  </div>
-</div>
-{% endif %}
+    </div>
+  {% endif %}
 {% endfor %}
 
 {% schema %}
