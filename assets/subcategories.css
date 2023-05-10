@@ -227,7 +227,7 @@
       font-size: 30px;
       font-weight: bolder;
     }
-    .sub-link{
+    .style1 .sub-link, .style2 .sub-link{
         text-transform: uppercase;
         font-family: Open Sans;
         text-align: center;
@@ -235,6 +235,16 @@
         font-weight: 500;
         margin: 10px 0px 20px 0px;
         padding-bottom:10px;
+        width: 80%;
+    }
+    .style3 .sub-link {
+        text-transform: uppercase;
+        font-family: Open Sans;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0px;
+        padding-bottom:0px;
         width: 80%;
     }
     .link-shop {
