@@ -1,81 +1,21 @@
-{% style %}
-.heading-categories-6{
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 25px;
-  text-align: left;
-}
-.subcategories-6{
-  width: 100%;
-  height: 400px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-}
-.subcategory-scroll{
-  width: 200%;
-  height: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-}
-.subcategory-6 {
-  width: 20%;
-  margin: 0px 1% 80px 1%;
-}
-.subcategory-6 p{
-  text-transform: uppercase;
-  text-align: left;
-  font-weight: 400;
-  font-size: 16px;
-  color: black;
-}
-.subcategory-6 p::after{
-  margin-left: 5px;
-  background-image: url('https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077');
-  background-size: 10px 10px;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  content:"";
-}
-.subcategory-6 img{
-  aspect-ratio: 1 / 1;
-  position: center;
-  object-fit: cover;
-  width: 100%;
-}
-  @media only screen and (max-width: 768px) {
-  .heading-categories-6{
-     font-size: 1.2em; 
-  }
-  .subcategory-6 {
-    width: 30%;
-    height: 150px;
-    margin: 0px 1% 80px 1%;
-  }
-    .subcategories-6{
-      height: 11em;
-    }
-    .subcategory-6 p{
-      font-size: 0.8em;
-    }
-}
-{% endstyle %}
+{{ 'macrocategories.css' | asset_url | stylesheet_tag }}
+
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 
 <div class="page-width">
   <p class="heading-categories-6">Explore more {{ macrocategory.name }}</p>
   <div class="macro-section-6">
-  <div class="subcategories-6">
-    <div class="subcategory-scroll">
-    {% for subcategory in subcategories.value  %}
-      <div class="subcategory-6">
-        <img src="{{ subcategory.image | image_url }}" alt="collection image">
-        <p>{{ subcategory.name }}</p>
+    <div class="subcategories-6">
+      <div class="subcategory-scroll">
+        {% for subcategory in subcategories.value %}
+          <div class="subcategory-6">
+            <img src="{{ subcategory.image | image_url }}" alt="collection image">
+            <p>{{ subcategory.name }}</p>
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
     </div>
-  </div>
   </div>
 </div>
 
