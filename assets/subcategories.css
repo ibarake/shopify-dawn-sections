@@ -330,4 +330,10 @@
         mix-blend-mode: multiply;
         filter: contrast(1);
     }
+    .style3{
+      background-color: #EFEFEF;
+    }
+    .style3{
+      
+    }
 {% endstyle %}
