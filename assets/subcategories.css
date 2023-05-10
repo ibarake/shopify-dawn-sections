@@ -218,7 +218,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
     }
     .bolded-sub-h2{
       padding: 140px 10px 10px 30px;
@@ -333,7 +332,10 @@
     .style3{
       background-color: #EFEFEF;
     }
-    .style3{
-      
+    .column.style1, .column.style2{
+      align-items: center;
+    }
+    .column.style3{
+      align-items: flex-start;
     }
 {% endstyle %}
