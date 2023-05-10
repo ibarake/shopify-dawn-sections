@@ -228,13 +228,6 @@
       font-size: 30px;
       font-weight: bolder;
     }
-    .column .img{
-        aspect-ratio : 1 / 1;
-        width: 100%;
-        object-fit: contain;
-        mix-blend-mode: multiply;
-        filter: contrast(1);
-    }
     .sub-link{
         text-transform: uppercase;
         font-family: Open Sans;
@@ -322,6 +315,19 @@
   background-color: #EFEFEF;
 }
 
-.style1 
+.style3 .img{
+  aspect-ratio : 1 / 1;
+        width: 100%;
+        object-fit: cover;
+        mix-blend-mode: multiply;
+        filter: contrast(1);
+} 
 
+    .style1 .img, .style2 .img{
+        aspect-ratio : 1 / 1;
+        width: 100%;
+        object-fit: contain;
+        mix-blend-mode: multiply;
+        filter: contrast(1);
+    }
 {% endstyle %}
