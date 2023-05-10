@@ -331,7 +331,7 @@
     .style3 a{
       margin-left: 10%
     }
-    .style1 .link-shop, .style2 .link-shop {
+    .style1 .link-shopNow, .style2 .link-shopNow {
       display: inline-block;
       width: auto;
       text-align: center;
@@ -342,14 +342,11 @@
       border-width: 2px;
       border-style: solid;
     }
-    .style3 .link-shop{
+    .style3 .link-shopNow{
       display: inline-block;
       width: auto;
       text-align: center;
-      border-radius: 5px;
-      border-top: 0px;
-      border-right: 0px;
-      border-left: 0px;
+      border-radius: 0px;
       border-bottom: 1px solid black;
       margin-left: 10%;
       border-width: 2px;
