@@ -29,12 +29,23 @@
         "box_position": "left",
         "Border_style": "style3"
       }
+    },
+    "sub-category-4": {
+      "type": "sub-category-4",
+      "settings": {
+        "subid": 1,
+        "colnum": 3,
+        "Color": "#F3EFEA",
+        "colorText": "#000000",
+        "box_position": "left"
+      }
     }
   },
   "order": [
     "main",
     "sub-category-1",
     "sub-category-2",
-    "sub-category-3"
+    "sub-category-3",
+    "sub-category-4"
   ]
 }
