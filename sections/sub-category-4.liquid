@@ -1,12 +1,102 @@
+{{ 'subcategories.css' | asset_url | stylesheet_tag }}
+
+{% assign subcategory = page.metafields.custom.reference.value %}
+{% assign collections = subcategory.collections %}
+<div class="page-width">
+  <div class="section-sub-4">
+    {% for subcategory in subcategories.value %}
+      {% if forloop.index == section.settings.subid %}
+        {% assign subcategoriescollections = subcategory.collections %}
+        {% assign subcategoriespage = subcategory.page.value %}
+        {% assign subimageurl = subcategory.image | image_url %}
+        <div 
+          class="section-container-4"
+          style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}"
+        >
+          <div class="lefts4" style="background-image: url('{{ subimageurl }}')"></div>
+          <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
+            <div class="item"style="background-color:{{ section.settings.Color }};">
+              <p class="sub-title"style="color: {{ section.settings.colorText }};">
+                <strong >{{ subcategory.macro_section_title }}</strong>
+              </p>
+              <div class="link-shop-s4">
+                <a href="{{ collection.url }}" class="collection-link"style="color: {{ section.settings.colorText }};">Shop all {{ subcategory.name }}</a>
+              </div>
+            </div>
+            {% for collection in subcategoriescollections.value %}
+              <div class="item"style="background-color:{{ section.settings.itemColor }};">
+                <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
+                <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
+                <p class="collection-description">{{ collection.description }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+  "name": "Custom subcategory 4",
+  "settings": [
+    {
+      "type": "number",
+      "id": "subid",
+      "label": "id for sub of the macro you want to use for the section",
+      "default": 2
+    },
+    {
+    "type": "number",
+  "id": "colnum",
+  "label": "# of columns",
+  "default": 3
+    }, 
+    {
+      "type": "color",
+      "id": "Color",
+      "label": "Background item title",
+      "default": "#F3EFEA"
+    },
+    {
+      "type": "color",
+      "id": "itemColor",
+      "label": "Background item color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "colorText",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+    "type": "select",
+    "id": "box_position",
+    "label": "Horizontal alignment",
+    "options": [
+      {
+        "value": "left",
+        "label": "Left"
+      },
+      {
+        "value": "right",
+        "label": "Right"
+      }
+
+    ],
+    "default": "left"
+    }
+  ],
+  "blocks": [
+
+  ],
+  "presets": [
+    {
+      "category": "sub-category-4",
+      "name": "Custom subcategory 4 section Ashley"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
