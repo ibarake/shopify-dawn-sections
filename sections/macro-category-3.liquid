@@ -3,7 +3,7 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 <div class="page-width">
-  <div class="section-macro-3"style="background-color:{{ section.settings.secctionColor }};">
+  <div class="section-macro-3">
     {% for subcategory in subcategories.value %}
       {% if forloop.index == section.settings.subid %}
         {% assign subcategoriescollections = subcategory.collections %}
@@ -60,12 +60,6 @@
       "default": "#F3EFEA"
     },
     {
-      "type": "color",
-      "id": "secctionColor",
-      "label": "Background secction color",
-      "default": "#F3EFEA"
-    },
-     {
       "type": "color",
       "id": "itemColor",
       "label": "Background item color",
