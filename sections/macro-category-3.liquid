@@ -16,11 +16,11 @@
           <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
             <div class="item">
-              <p class="macro-title">
-                <strong>{{ subcategory.macro_section_title }}</strong>
+              <p class="macro-title"style="color: {{ section.settings.colorText }};">
+                <strong >{{ subcategory.macro_section_title }}</strong>
               </p>
-              <div class="link-shop-m3">
-                <a href="{{ collection.url }}" class="collection-link">Shop all {{ subcategory.name }}</a>
+              <div class="link-shop-m3" style="border-color:{{ section.settings.colorText }};">
+                <a href="{{ collection.url }}" class="collection-link"style="color: {{ section.settings.colorText }};">Shop all {{ subcategory.name }}</a>
               </div>
             </div>
             {% for collection in subcategoriescollections.value %}
