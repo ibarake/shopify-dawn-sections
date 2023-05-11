@@ -34,7 +34,10 @@
       "type": "sub-category-4",
       "settings": {
         "subid": 2,
-        "colnum": 2
+        "colnum": 2,
+        "Color": "#F3EFEA",
+        "colorText": "#000000",
+        "box_position": "left"
       }
     }
   },
