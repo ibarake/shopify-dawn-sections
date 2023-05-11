@@ -12,11 +12,11 @@
         {% assign subimageurl = subcategory.image | image_url %}
         <div class="section-container-2">
           <div class="left">
-            <p class="bolded-h2">
+            <p class="bolded-h2"style="color: {{ section.settings.colorText }};">
               <strong>{{ subcategory.macro_section_title }}</strong>
             </p>
             <div class="link-shop" style=" border-color:{{ section.settings.colorText }};">
-              <a href="#">
+              <a href="#"style="color: {{ section.settings.colorText }};">
                 <strong>Shop all {{ subcategory.name }}</strong>
               </a>
             </div>
