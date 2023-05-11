@@ -11,7 +11,7 @@
         {% assign subcategoriespage = subcategory.page.value %}
         {% assign subimageurl = subcategory.image | image_url %}
         <div class="section-container-2">
-          <div class="left">
+          <div class="left"style="background-color: {{ section.settings.Color }};">
             <p class="bolded-h2"style="color: {{ section.settings.colorText }};">
               <strong>{{ subcategory.macro_section_title }}</strong>
             </p>
