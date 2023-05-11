@@ -24,7 +24,7 @@
               </div>
             </div>
             {% for collection in subcategoriescollections.value %}
-              <div class="item"style="background-color:{{ section.settings.itemColor }}; .item:nth-child(4){background-color: #EFEFEF;">
+              <div class="item"style="background-color:{{ section.settings.itemColor }}; .item:nth-child(4){background-color: #EFEFEF;}">
                 <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
                 <p class="collection-title">{{ collection.title }}</p>
                 <p class="collection-description">{{ collection.description }}</p>
