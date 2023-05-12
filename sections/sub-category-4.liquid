@@ -2,9 +2,9 @@
 
 {% assign subcategory = page.metafields.custom.reference.value %}
 {% assign collections = subcategory.collections %}
-<h1>Ess</h1>
 <div class="page-width">
   <div class="section-sub-4">
+    <h1>Ess</h1>
     {% for subcategory in subcategories.value %}
       {% if forloop.index == section.settings.subid %}
         {% assign subcategoriescollections = subcategory.collections %}
