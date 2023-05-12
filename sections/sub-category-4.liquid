@@ -1,33 +1,29 @@
 {{ 'subcategories.css' | asset_url | stylesheet_tag }}
 
-{% assign subcategory = page.metafields.custom.reference.value %}
-{% assign collections = subcategory.collections %}
+{% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign subcategories = macrocategory.subcategories %}
 <div class="page-width">
-  <div class="section-sub-4">
-    {% for collection in collections.value %}
+  <div class="section-macro-3">
+    {% for subcategory in subcategories.value %}
       {% if forloop.index == section.settings.subid %}
-        {% assign subcategoriescollections = collection.collections %}
-        {% assign subcategoriespage = collection.page.value %}
-        {% assign subimageurl = collection.image | image_url %}
-        <h1>Ess</h1>
-        <div 
-          class="section-container-4"
-          style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}"
-        >
-          <div class="lefts4" style="background-image: url('{{ subimageurl }}')"></div>
+        {% assign subcategoriescollections = subcategory.collections %}
+        {% assign subcategoriespage = subcategory.page.value %}
+        {% assign subimageurl = subcategory.image | image_url %}
+        <div class="section-container-3">
+          <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
-            <div class="item"style="background-color:{{ section.settings.Color }};">
-              <p class="sub-title"style="color: {{ section.settings.colorText }};">
-                <strong >{{ subcategory.macro_section_title }}</strong>
+            <div class="item">
+              <p class="macro-title">
+                <strong>{{ subcategory.macro_section_title }}</strong>
               </p>
-              <div class="link-shop-s4">
-                <a href="{{ collection.url }}" class="collection-link"style="color: {{ section.settings.colorText }};">Shop all {{ subcategory.name }}</a>
+              <div class="link-shop-m3">
+                <a href="{{ collection.url }}" class="collection-link">Shop all {{ subcategory.name }}</a>
               </div>
             </div>
             {% for collection in subcategoriescollections.value %}
-              <div class="item"style="background-color:{{ section.settings.itemColor }};">
+              <div class="item">
                 <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
-                <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
+                <p class="collection-title">{{ collection.title }}</p>
                 <p class="collection-description">{{ collection.description }}</p>
               </div>
             {% endfor %}
@@ -39,55 +35,20 @@
 </div>
 
 {% schema %}
-    {
-  "name": "Custom subcategory 4",
+{
+  "name": "Custom macrocategory 3",
   "settings": [
     {
       "type": "number",
       "id": "subid",
-      "label": "id for sub of the macro you want to use for the section",
+      "label": "ID for subcategory of the macro you want to use for the section",
       "default": 2
     },
     {
-    "type": "number",
-  "id": "colnum",
-  "label": "# of columns",
-  "default": 3
-    }, 
-    {
-      "type": "color",
-      "id": "Color",
-      "label": "Background item title",
-      "default": "#F3EFEA"
-    },
-    {
-      "type": "color",
-      "id": "itemColor",
-      "label": "Background item color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "color",
-      "id": "colorText",
-      "label": "Text color",
-      "default": "#000000"
-    },
-    {
-    "type": "select",
-    "id": "box_position",
-    "label": "Horizontal alignment",
-    "options": [
-      {
-        "value": "left",
-        "label": "Left"
-      },
-      {
-        "value": "right",
-        "label": "Right"
-      }
-
-    ],
-    "default": "left"
+      "type": "number",
+      "id": "colnum",
+      "label": "# of columns",
+      "default": 3
     }
   ],
   "blocks": [
@@ -95,8 +56,8 @@
   ],
   "presets": [
     {
-      "category": "sub-category-4",
-      "name": "Custom subcategory 4 section Ashley"
+      "category": "macro-category-3",
+      "name": "Custom macrocategory 3 section Ashley"
     }
   ]
 }
