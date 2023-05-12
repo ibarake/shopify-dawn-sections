@@ -4,13 +4,13 @@
 {% assign collections = subcategory.collections %}
 <div class="page-width">
   <div class="section-sub-4">
-    <h1>Ess</h1>
+    
     {% for subcategory in subcategories.value %}
       {% if forloop.index == section.settings.subid %}
         {% assign subcategoriescollections = subcategory.collections %}
         {% assign subcategoriespage = subcategory.page.value %}
         {% assign subimageurl = subcategory.image | image_url %}
-        
+        <h1>Ess</h1>
         <div 
           class="section-container-4"
           style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}"
