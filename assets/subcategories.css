@@ -306,11 +306,10 @@
     white-space: normal;
     word-wrap: break-word;
   }
-     .column {
+  .column {
     flex: 1 0 100%;
     max-width: 100%;
   }
-  
   .col-image-container {
     margin: 0;
   }
