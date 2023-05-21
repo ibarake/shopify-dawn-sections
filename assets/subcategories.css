@@ -281,6 +281,9 @@
     flex-wrap: wrap;
     padding: 1.5rem;
   }
+  .column {
+    width: 100%;
+  }
   .bolded-sub-h2 {
     padding: 0;
     width: 20%;
@@ -320,9 +323,6 @@
   }
   .link-shop a {
     white-space: nowrap;
-  }
-  .column {
-    width: 100%;
   }
   .column img {
     max-width: 100%;
