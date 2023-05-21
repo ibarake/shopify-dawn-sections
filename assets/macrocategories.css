@@ -17,6 +17,16 @@
         text-transform: capitalize;
         margin: 20px 50px 30px;
       }
+
+.macro-title{
+  font-family: Open Sans;
+    font-size: 30px;
+    padding: 90px 2px 54px;
+    font-weight: bolder;
+    width: 60%;
+    text-align: center;
+    line-height: 32px;
+  }
     .container{
         padding: 50px 0px;
         margin: 0px 0px 10px 0px;
@@ -267,23 +277,6 @@
 }
   }
 
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    outline: none;
-}
-.macro-title{
-  font-family: Open Sans;
-    font-size: 30px;
-    padding: 90px 2px 54px;
-    font-weight: bolder;
-    width: 60%;
-    text-align: center;
-    line-height: 32px;
-  }
 .section-container-3{
     height: auto;
     display: flex;
