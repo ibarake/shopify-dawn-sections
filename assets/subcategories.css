@@ -288,7 +288,7 @@
   }
   .section-bottom-2 .column {
     flex: 1 0 100%;
-    max-width: 100%;
+    max-width: 50%;
   }
   .link-shop {
     margin-left: auto;
