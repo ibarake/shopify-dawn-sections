@@ -391,7 +391,7 @@ p.collection-title {
 }
 @media only screen and (max-width: 768px) {
   .bolded-h2 {
-    padding: 0;
+    padding: 4%;
     width: 20%;
   }
   .bolded-h2 strong {
