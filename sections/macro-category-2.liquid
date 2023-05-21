@@ -10,10 +10,7 @@
         {% assign subcategoriescollections = subcategory.collections %}
         {% assign subcategoriespage = subcategory.page.value %}
         {% assign subimageurl = subcategory.image | image_url %}
-        <div 
-          class="section-container-2"
-          
-          >
+        <div class="section-container-2">
           <style>
             .section-container-2{
               {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
