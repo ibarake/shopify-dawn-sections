@@ -24,10 +24,10 @@
       "settings": {
         "subid": 1,
         "colnum": 3,
-        "Color": "#F3EFEA",
+        "Color": "#f3efea",
         "colorText": "#000000",
         "box_position": "left",
-        "Border_style": "style3"
+        "Border_style": "style2"
       }
     },
     "sub-category-4": {
@@ -35,7 +35,8 @@
       "settings": {
         "subid": 2,
         "colnum": 2,
-        "Color": "#F3EFEA",
+        "Color": "#f3efea",
+        "itemColor": "#FFFFFF",
         "colorText": "#000000",
         "box_position": "left"
       }
