@@ -291,6 +291,9 @@
     max-width: 50%;
     margin-right: 10px;
   }
+  .style3 .sub-link{
+    text-align:left;
+  }
   .link-shop {
     margin-left: auto;
     height: 20%;
