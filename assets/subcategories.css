@@ -283,6 +283,8 @@
   }
   .column {
     width: 100%;
+    margin-bottom: 2rem;
+  }
   }
   .bolded-sub-h2 {
     padding: 0;
