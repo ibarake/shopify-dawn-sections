@@ -287,8 +287,8 @@
     margin-top: 20px;
   }
   .section-bottom-2 .column {
-    width: 100%;
-    margin-bottom: 20px;
+    flex: 1 0 100%;
+    max-width: 100%;
   }
   .link-shop {
     margin-left: auto;
