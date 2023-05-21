@@ -12,8 +12,13 @@
         {% assign subimageurl = subcategory.image | image_url %}
         <div 
           class="section-container-2"
-          style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}"
+          
           >
+          <style>
+            .section-container-2{
+              {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
+            }
+          </style>
           <div class="left"style="background-color: {{ section.settings.Color }};">
             <p class="bolded-h2"style="color: {{ section.settings.colorText }};">
               <strong>{{ subcategory.macro_section_title }}</strong>
