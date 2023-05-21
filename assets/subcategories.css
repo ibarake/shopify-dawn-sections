@@ -321,6 +321,9 @@
   .link-shop a {
     white-space: nowrap;
   }
+  .column {
+    width: 100%;
+  }
   .column img {
     max-width: 100%;
   }
