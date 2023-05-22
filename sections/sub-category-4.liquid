@@ -1,7 +1,7 @@
 {{ 'subcategories.css' | asset_url | stylesheet_tag }}
 
 {% assign macrocategory = page.metafields.custom.reference.value %}
-{% assign collections = macrocategory.collections %}
+{% assign collections = subcategory.collections %}
 <div class="page-width">
   <div class="section-macro-3">
     {% for collection in collections %}
