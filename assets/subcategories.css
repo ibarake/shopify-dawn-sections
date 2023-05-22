@@ -305,8 +305,10 @@
   background-color: #efefef;
 }
 .lefts4{
-  width:1200px;
-  height:1200px;
+   width: 80%;
+  background-position: center;
+  background-repeat: norepeat;
+  background-size: cover;
 }
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
