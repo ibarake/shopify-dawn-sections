@@ -1,41 +1,41 @@
 {{ 'subcategories.css' | asset_url | stylesheet_tag }}
 
-{% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign subcategory = page.metafields.custom.reference.value %}
 {% assign collections = subcategory.collections %}
 <div class="page-width">
-  <div class="section-macro-3">
-    {% for collection in collections %}
+  <div class="section-sub-4">
+    {% for collection in collections.value %}
       {% if forloop.index == section.settings.subid %}
-        {% assign collectionpage = collection.page.value %}
-        {% assign collectionimageurl = collection.image | image_url %}
-        <div class="section-container-3">
-          <style>
-            .section-container-3 {
-              {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
-            }
-          </style>
-          <div class="leftm3" style="background-image: url('{{ collectionimageurl }}')"></div>
+        {% assign subcategoriescollections = collection.collections %}
+        {% assign subcategoriespage = collection.page.value %}
+        {% assign subimageurl = collection.image | image_url %}
+        <div 
+          class="section-container-4"
+          style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}"
+        >
+          <div class="lefts4" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
-            <div class="item" style="background-color:{{ section.settings.Color }};">
-              <p class="macro-title" style="color: {{ section.settings.colorText }};">
-                <strong>{{ collection.macro_section_title }}</strong>
+            <div class="item"style="background-color:{{ section.settings.Color }};">
+              <p class="sub-title"style="color: {{ section.settings.colorText }};">
+                <strong >{{ collection.title }}</strong>
               </p>
-              <div class="link-shop-m3">
-                <a href="{{ collectionpage.url }}" class="collection-link" style="color: {{ section.settings.colorText }};">Shop all {{ collection.name }}</a>
+              <div class="link-shop-s4">
+                <a href="{{ collection.url }}" class="collection-link"style="color: {{ section.settings.colorText }};">Shop all {{ collection.name }}</a>
               </div>
             </div>
-            <div class="item" style="background-color:{{ section.settings.itemColor }};">
-              <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
-              <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
-              <p class="collection-description">{{ collection.description }}</p>
-            </div>
+            {% for collection in subcategoriescollections.value %}
+              <div class="item"style="background-color:{{ section.settings.itemColor }};">
+                <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
+                <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
+                <p class="collection-description">{{ collection.description }}</p>
+              </div>
+            {% endfor %}
           </div>
         </div>
       {% endif %}
     {% endfor %}
   </div>
 </div>
-
 
 {% schema %}
     {
