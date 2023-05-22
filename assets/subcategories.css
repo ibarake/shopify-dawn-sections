@@ -305,7 +305,8 @@
   background-color: #efefef;
 }
 .lefts4{
-   width: 80%;
+  width: 80%;
+  height:200px;
   background-position: center;
   background-repeat: norepeat;
   background-size: cover;
