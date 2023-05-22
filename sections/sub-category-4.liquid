@@ -6,7 +6,6 @@
   <div class="section-sub-4">
     {% for collection in collections.value %}
       {% if forloop.index == section.settings.subid %}
-        {% assign subcategoriescollections = collection.collections %}
         {% assign subcategoriespage = collection.page.value %}
         {% assign subimageurl = collection.image | image_url %}
         <div 
@@ -23,7 +22,7 @@
                 <a href="{{ collection.url }}" class="collection-link"style="color: {{ section.settings.colorText }};">Shop all {{ collection.name }}</a>
               </div>
             </div>
-            {% for collection in subcategoriescollections.value %}
+            {% for collection in collections.value %}
               <div class="item"style="background-color:{{ section.settings.itemColor }};">
                 <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
                 <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
