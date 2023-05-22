@@ -1,9 +1,9 @@
 {{ 'subcategories.css' | asset_url | stylesheet_tag }}
 
-{% assign subcategories = shop.metaobjects.sub_categories.value %}
+{% assign subcategories = shop.metaobjects.sub_categories %}
 <div class="page-width">
   <div class="section-sub-4">
-    {% for subcategory in subcategories %}
+    {% for subcategory in subcategories.value %}
       {% if forloop.index == section.settings.subid %}
         {% assign collections = subcategory.collections.value %}
         {% assign subimageurl = subcategory.image | image_url %}
