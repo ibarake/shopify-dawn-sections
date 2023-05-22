@@ -306,6 +306,7 @@
 }
 .lefts4{
   width:1200px;
+  height:1200px;
 }
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
