@@ -627,9 +627,7 @@ h5:empty,
 h6:empty {
   display: none;
 }
-div:empty:not(.leftm3){
-  display:none;
-}
+
 .link,
 .customer a {
   cursor: pointer;
