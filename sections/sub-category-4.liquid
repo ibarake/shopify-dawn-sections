@@ -3,7 +3,7 @@
 {% assign subcategories = shop.metaobjects.sub_categories.value %}
 <div class="page-width">
   <div class="section-sub-4">
-    {% for subcategory in subcategories.value %}
+    {% for subcategory in subcategories %}
       {% if forloop.index == section.settings.subid %}
         {% assign collections = subcategory.collections.value %}
         {% assign subimageurl = subcategory.image | image_url %}
