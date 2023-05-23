@@ -140,12 +140,10 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   overflow-x: scroll;
-  /*Scroll*/
 }
 .section-bottom-2 .column {
   width: 25%;
   white-space: nowrap;
-  /*Scroll*/
 }
 .bolded-h2 {
   padding: 140px 10px 10px 30px;
