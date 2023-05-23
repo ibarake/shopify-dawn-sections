@@ -316,11 +316,10 @@
   background-size: cover;
 }
 .section-container-sub-4 .right {
-  width: 80%;
-  background-color: #d3d3d3;
-  background-position: center;
-  background-repeat: norepeat;
-  background-size: cover;
+  width: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
 }
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
