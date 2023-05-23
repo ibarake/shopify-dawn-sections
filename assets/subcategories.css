@@ -304,16 +304,10 @@
 .right .item:nth-child(4) {
   background-color: #efefef;
 }
-.section-sub-4{
+.section-container-sub-4{
   height: auto;
   display: flex;
   margin: 30px 0;
-}
-.section-container-sub-4{
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-  margin: 20px 0 20px 0;
 }
 .section-container-sub-4.left {
   width: 24%;
