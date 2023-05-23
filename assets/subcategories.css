@@ -309,6 +309,14 @@
   color: black;
   font-weight: bolder;
 }
+.section-container-sub-4 p.collection-title {
+  font-weight: bolder;
+  font-family: Open Sans;
+  font-size: 14px;
+  max-width: 100%;
+  color: black;
+  margin-bottom: 25px;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
