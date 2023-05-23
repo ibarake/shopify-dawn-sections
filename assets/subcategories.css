@@ -234,11 +234,11 @@
   mix-blend-mode: multiply;
   filter: contrast(1);
 }
-.column.style1,
-.column.style2 {
+.column .style1,
+.column .style2 {
   align-items: center;
 }
-.column.style3 {
+.column .style3 {
   align-items: flex-start;
 }
 .style3 a {
