@@ -208,6 +208,12 @@
   background-position: center;
   background-size: cover;
 }
+.img-product-left {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
 .section-macro-3 .right {
   width: auto;
   display: grid;
@@ -241,6 +247,9 @@
   text-align: center;
   font-size: 14px;
   margin-top: 4%;
+}
+.img-product-right {
+  aspect-ratio: 1/1;
 }
 .collection-link {
   color: black;
