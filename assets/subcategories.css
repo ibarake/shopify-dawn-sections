@@ -321,6 +321,13 @@
   grid-template-rows: 1fr 1fr;
   overflow: hidden;
 }
+.section-container-sub-4 .right .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
