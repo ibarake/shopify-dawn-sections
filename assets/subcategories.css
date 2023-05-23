@@ -313,6 +313,10 @@
   flex-direction: row;
   margin: 20px 0 20px 0;
 }
+.section-container-sub-4.left {
+  width: 24%;
+  background-color: #f3efea;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
