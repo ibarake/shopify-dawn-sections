@@ -414,17 +414,6 @@
   .section-container-sub-4 .right {
     order: 2;
   }
- .section-container-sub-4 {
-    flex-direction: column;
-  }
-  .right {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
-  }
-   .item {
-    width: calc(100% / {{ section.settings.colnum }});
-  }
 }
 @media only screen and (max-width: 678px) {
   .collections {
