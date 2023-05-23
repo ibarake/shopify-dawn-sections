@@ -272,7 +272,7 @@
   background-size: cover;
 }
 .section-container-sub-4 .right {
-  width: auto;
+  width: 60%;
   display: grid;
   grid-template-rows: 1fr 1fr;
   overflow: hidden;
