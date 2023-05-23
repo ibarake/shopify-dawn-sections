@@ -254,7 +254,12 @@ p.collection-title {
   color: black;
   margin-bottom: 25px;
 }
-
+.right .item {
+  max-width: 100%;
+  padding: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 .heading-categories {
   font-size: 24px;
