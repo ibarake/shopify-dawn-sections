@@ -415,6 +415,9 @@
     order: 2;
     width: 100%;
   }
+  .section-container-sub-4.img-item {
+    height: auto;
+  }
   .section-container-sub-4 .sub-title {
     font-size: 1.3em;
     padding: 40px 2px 24px;
