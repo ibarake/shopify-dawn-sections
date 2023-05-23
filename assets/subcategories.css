@@ -271,6 +271,12 @@
   background-position: center;
   background-size: cover;
 }
+.section-macro-3 .right {
+  width: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
 
 
 @media only screen and (max-width: 768px) {
