@@ -277,13 +277,7 @@
   grid-template-rows: 1fr 1fr;
   overflow: hidden;
 }
-.section-container-sub-4 .item{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-}
+
 .section-container-sub-4 .img-item {
   width: 100%;
   max-width: 100%;
