@@ -481,20 +481,7 @@ p.collection-title {
   .right {
     order: 2;
   }
-  .section-macro-3 .macro-title {
-    font-size: 1.3em;
-    padding: 40px 2px 24px;
-    line-height: 1.3em;
-  }
-  .collection-link {
-    font-size: 0.9em;
-  }
-  p.collection-title {
-    font-size: 0.88em;
-  }
-  .img-item {
-    height: auto;
-  }
+
   .heading-categories-6 {
     font-size: 1.2em;
   }
