@@ -309,9 +309,11 @@
   display: flex;
   margin: 30px 0;
 }
-.section-container-sub-4.left {
-  width: 24%;
-  background-color: #f3efea;
+.section-container-sub-4 .left {
+  width: 50%;
+  background-color: #d3d3d3;
+  background-position: center;
+  background-size: cover;
 }
 .section-container-sub-4 .right {
   width: 80%;
