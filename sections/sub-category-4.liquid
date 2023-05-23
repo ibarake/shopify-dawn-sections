@@ -4,6 +4,7 @@
 <div class="page-width">
   <div class="section-sub-4">
     {% for subcategory in subcategories.values %}
+      {{ subcategory.title }}
       {% if forloop.index == section.settings.subid %}
         {% assign collections = subcategory.collections %}
         {% assign subimageurl = subcategory.image | image_url %}
@@ -11,7 +12,6 @@
           class="section-container-sub-4"
           style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}"
         >
-        {{ subcategory.title }}
           <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
             <div class="item"style="background-color:{{ section.settings.Color }};">
