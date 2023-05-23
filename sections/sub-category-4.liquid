@@ -7,22 +7,27 @@
       {% if forloop.index == section.settings.subid %}
         {% assign collections = subcategory.collections %}
         {% assign subimageurl = subcategory.image | image_url %}
-        <div 
+        <div
           class="section-container-sub-4"
           style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}"
         >
           <div class="left" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
-            <div class="item"style="background-color:{{ section.settings.Color }};">
-              <p class="sub-title"style="color: {{ section.settings.colorText }};">
-                <strong >{{ subcategory.description }}</strong>
+            <div class="item" style="background-color:{{ section.settings.Color }};">
+              <p class="sub-title" style="color: {{ section.settings.colorText }};">
+                <strong>{{ subcategory.description }}</strong>
               </p>
               <div class="link-shop-s4">
-                <a href="{{ subcategory.page.url }}" class="collection-link"style="color: {{ section.settings.colorText }};">Shop all</a>
+                <a
+                  href="{{ subcategory.page.url }}"
+                  class="collection-link"
+                  style="color: {{ section.settings.colorText }};"
+                  >Shop all</a
+                >
               </div>
             </div>
             {% for collection in collections.value %}
-              <div class="item"style="background-color:{{ section.settings.itemColor }};">
+              <div class="item" style="background-color:{{ section.settings.itemColor }};">
                 <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
                 <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
               </div>
@@ -49,7 +54,7 @@
   "id": "colnum",
   "label": "# of columns",
   "default": 3
-    }, 
+    },
     {
       "type": "color",
       "id": "Color",
@@ -84,7 +89,27 @@
 
     ],
     "default": "left"
-    }
+    },
+    {
+    "type": "select",
+    "id": "Border_style",
+    "label": "Border style",
+    "options": [
+      {
+        "value": "style1",
+        "label": "style 1"
+      },
+      {
+        "value": "style2",
+        "label": "style 2"
+      },
+      {
+        "value": "style3",
+        "label": "style 3"
+      }
+    ],
+    "default": "style1"
+  }
   ],
   "blocks": [
 
