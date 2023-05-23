@@ -305,7 +305,9 @@
   background-color: #efefef;
 }
 .section-sub-4{
-  margin: 30px 0 30px 0;
+  height: auto;
+  display: flex;
+  margin: 30px 0;
 }
 .section-container-sub-4{
   height: 400px;
