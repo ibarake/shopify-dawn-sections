@@ -14,9 +14,13 @@
           <div class="left" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
             <div class="item" style="background-color:{{ section.settings.Color }};">
-              <p class="sub-title" style="color: {{ section.settings.colorText }};">
+              <h2 class="short-title" style="color: {{ section.settings.colorText }};">
                 <strong>{{ subcategory.short_title }}</strong>
+              </h2>
+              <p class="sub-title" style="color: {{ section.settings.colorText }};">
+                <strong>{{ subcategory.marketing_title }}</strong>
               </p>
+              
               <div class="link-shop-s4">
                 <a
                   href="{{ subcategory.page.url }}"
