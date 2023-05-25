@@ -319,6 +319,8 @@
 }
 .section-container-sub-4 h2.short-title {
  text-transform:uppercase;
+ font-size: 1.5rem;
+ letter-spacing: 0.2rem;
 }
 .section-container-sub-4 p.collection-title.style1{
   border-bottom:1px solid black;
