@@ -317,14 +317,8 @@
   color: black;
   margin-bottom: 25px;
 }
-.section-container-sub-4 .sub-title {
-  font-family: Open Sans;
-  font-size: 30px;
-  padding: 90px 2px 54px;
-  font-weight: bolder;
-  width: 60%;
-  text-align: center;
-  line-height: 32px;
+.section-container-sub-4 h2.short-title {
+ text-transform:uppercase;
 }
 .section-container-sub-4 p.collection-title.style1{
   border-bottom:1px solid black;
@@ -439,9 +433,6 @@
   }
   .section-container-sub-4.img-item {
     height: auto;
-  }
- .short-title{
-    text-transform: uppercase;
   }
   .section-container-sub-4 .collection-link {
     font-size: 0.9em;
