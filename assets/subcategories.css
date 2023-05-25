@@ -328,6 +328,11 @@
     text-align: center;
     padding-top: 0.2rem;
 }
+.section-container-sub-4 p.sub-description {
+    font-size: 2rem;
+    margin-top: 3px;
+    text-align: center;
+}
 .section-container-sub-4 p.collection-title.style1{
   border-bottom:1px solid black;
 }
