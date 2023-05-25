@@ -1,12 +1,33 @@
+{{ 'subcategories.css' | asset_url | stylesheet_tag }}
+
+{% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign subcategories = macrocategory.subcategories %}
+
+<div class="page-width">
+  <p class="heading-categories-6">Explore more {{ macrocategory.name }}</p>
+  <div class="macro-section-6">
+    <div class="subcategories-6">
+      <div class="subcategory-scroll">
+        {% for subcategory in subcategories.value %}
+          <div class="subcategory-6">
+            <img src="{{ subcategory.image | image_url }}" alt="collection image">
+            <p>{{ subcategory.name }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
+{
+  "name": "macro-category-6",
+  "settings": [],
+  "presets": [
   {
-    "name": "Section name",
-    "settings": []
+    "category": "macro-category-6",
+    "name": "Custom macrocategory 6 section Ashley"
   }
+]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
