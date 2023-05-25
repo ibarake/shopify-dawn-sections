@@ -326,8 +326,7 @@
   text-align: center;
   line-height: 32px;
 }
-p.collection-title.style1{
-  color:green;
+.section-container-sub-4 p.collection-title.style1{
   border-bottom:1px solid black;
 }
 @media only screen and (max-width: 768px) {
