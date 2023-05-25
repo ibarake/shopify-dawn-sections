@@ -326,9 +326,6 @@
   text-align: center;
   line-height: 32px;
 }
- p.collection-title{
-  color:red;
-}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
