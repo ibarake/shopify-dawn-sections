@@ -298,6 +298,9 @@
 .section-container-sub-4 .right .item:nth-child(4) {
   background-color: #efefef;
 }
+.text-item {
+    display: contents;
+}
 .section-container-sub-4 .link-shop-s4 {
   display: inline-block;
   width: auto;
