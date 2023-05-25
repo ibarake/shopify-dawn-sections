@@ -42,6 +42,11 @@
         "Shop_border_style": "style2",
         "Border_style": "style1"
       }
+    },
+    "sub-category-5": {
+      "type": "sub-category-5",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -49,6 +54,7 @@
     "sub-category-1",
     "sub-category-2",
     "sub-category-3",
-    "sub-category-4"
+    "sub-category-4",
+    "sub-category-5"
   ]
 }
