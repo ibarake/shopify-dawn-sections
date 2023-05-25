@@ -36,9 +36,10 @@
         "subid": 2,
         "colnum": 2,
         "Color": "#f3efea",
-        "itemColor": "#FFFFFF",
+        "itemColor": "#ffffff",
         "colorText": "#000000",
-        "box_position": "left"
+        "box_position": "left",
+        "Border_style": "style2"
       }
     }
   },
