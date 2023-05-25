@@ -323,6 +323,11 @@
  text-align:center; 
  letter-spacing: 0.2rem;
 }
+.section-container-sub-4 h1.marketing-title {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 0.2rem;
+}
 .section-container-sub-4 p.collection-title.style1{
   border-bottom:1px solid black;
 }
