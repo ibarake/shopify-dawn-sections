@@ -39,6 +39,7 @@
         "itemColor": "#ffffff",
         "colorText": "#000000",
         "box_position": "left",
+        "Shop_border_style": "style2",
         "Border_style": "style2"
       }
     }
