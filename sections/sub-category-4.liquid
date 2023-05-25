@@ -20,7 +20,7 @@
               <div class="link-shop-s4">
                 <a
                   href="{{ subcategory.page.url }}"
-                  class="collection-link  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
+                  class="collection-link"
                   style="color: {{ section.settings.colorText }};"
                   >Shop all</a
                 >
@@ -29,7 +29,7 @@
             {% for collection in collections.value %}
               <div class="item" style="background-color:{{ section.settings.itemColor }};">
                 <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
-                <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
+                <p class="collection-title  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
               </div>
             {% endfor %}
           </div>
