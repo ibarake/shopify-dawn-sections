@@ -392,7 +392,8 @@ p.collection-title.style3 {
 .link-shop{
   text-transform:uppercase;
 }
-.sub-section-5 .collection-title.style1 {
+.sub-section-5 .collection-title.style1,
+.sub-section-5 .collection-title.style2{
     border-bottom: 1px solid black;
     width:100px;
 }
