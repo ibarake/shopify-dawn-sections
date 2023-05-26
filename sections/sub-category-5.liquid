@@ -1,6 +1,7 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 
 {% assign subcategories = shop.metaobjects.sub_categories %}
+{% assign collections = subcategory.collections %}
 <div class="page-width">
   {% for collection in collections.value %}
     {% assign collections = subcategory.collections %}
