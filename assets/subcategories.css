@@ -378,6 +378,10 @@
   display: flex;
   flex-wrap: nowrap;
 }
+.subcategory-5 {
+  width: 20%;
+  margin: 0px 1% 80px 1%;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
