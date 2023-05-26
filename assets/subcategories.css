@@ -507,7 +507,7 @@
   .section-container-sub-4 p.collection-title {
     font-size: 0.88em;
   }
-  .sub-section-5 p.title-subcategory-5 {
+  .sub-section-5.title-subcategory-5 {
     font-size: 1.2em;
     color:red;
   }
