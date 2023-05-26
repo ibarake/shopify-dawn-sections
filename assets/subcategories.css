@@ -402,7 +402,7 @@
 .sub-section-5 .subcategory-5 img {
   aspect-ratio: 1 / 1;
   object-fit: contain;
-  max-width: 65%;
+  width: 65%;
 }
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
