@@ -4,12 +4,12 @@
 {% assign collections = subcategory.collections %}
 
 <div class="page-width">
-  <p class="heading-categories-6">{{ subcategory.name }}</p>
-  <div class="macro-section-6">
-    <div class="subcategories-6">
+  <p class="title-subcategory-5">{{ subcategory.name }}</p>
+  <div class="sub-section-5">
+    <div class="subcategories-5">
       <div class="subcategory-scroll">
         {% for collection in collections.value %}
-          <div class="subcategory-6">
+          <div class="subcategory-5">
             <img src="{{ collection.image | image_url }}" alt="collection image">
             <p>{{ collection.title }}</p>
           </div>
