@@ -394,7 +394,6 @@ p.collection-title.style3 {
 }
 .sub-section-5 .collection-title.style1,
 .sub-section-5 .collection-title.style3{
-    border-bottom: 1px solid black;
     width:100px;
 }
 @media only screen and (max-width: 768px) {
