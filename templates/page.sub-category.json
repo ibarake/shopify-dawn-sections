@@ -46,6 +46,9 @@
     "sub-category-5": {
       "type": "sub-category-5",
       "settings": {
+        "Color": "#1773b0",
+        "colorText": "#dd1d1d",
+        "Shop_border_style": "style3"
       }
     }
   },
