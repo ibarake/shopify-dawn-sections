@@ -510,11 +510,7 @@
   .title-subcategory-5 {
     font-size: 1.2em;
   }
-  .sub-section-5 .subcategory-5 {
-    width: 30%;
-    height: 150px;
-    margin: 0px 1% 80px 1%;
-  }
+
 }
 @media only screen and (max-width: 678px) {
   .collections {
