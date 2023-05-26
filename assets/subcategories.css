@@ -398,6 +398,12 @@
   height: 10px;
   content: "";
 }
+.sub-section-5 .subcategory-5 img {
+  aspect-ratio: 1 / 1;
+  position: center;
+  object-fit: cover;
+  width: 100%;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
