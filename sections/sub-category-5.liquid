@@ -11,7 +11,7 @@
         {% for collection in collections.value %}
           <div class="subcategory-5"style="background-color:{{ section.settings.Color }};">
             <img src="{{ collection.image | image_url }}" alt="collection image">
-            <p>{{ collection.title }}</p>
+            <p style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
             <div
             class="link-shopNow {% if section.settings.Border_style == "style1"%} hidden {% endif %}"
             style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
