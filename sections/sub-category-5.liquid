@@ -12,6 +12,14 @@
           <div class="subcategory-5">
             <img src="{{ collection.image | image_url }}" alt="collection image">
             <p>{{ collection.title }}</p>
+            <div
+            class="link-shopNow {% if section.settings.Border_style == "style1"%} hidden {% endif %}"
+            style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
+          >
+            <a href="#" style="color: {{ section.settings.colorText }};">
+              <strong>Shop now</strong>
+            </a>
+          </div>
           </div>
         {% endfor %}
       </div>
