@@ -17,7 +17,7 @@
             style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
           >
             <a href="#" style="color: {{ section.settings.colorText }};">
-              <strong class="link-shop {% if section.settings.Shop_border_style == "style1"%} style1 {% elsif section.settings.Shop_border_style == "style2" %} style2 {% else %} style3 {% endif %}">Shop now</strong>
+              <strong class="collection-title {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}">Shop now</strong>
             </a>
           </div>
           </div>
@@ -45,7 +45,7 @@
    },
    {
     "type": "select",
-    "id": "Shop_border_style",
+    "id": "Border_style",
     "label": "Shop border style",
     "options": [
       {
