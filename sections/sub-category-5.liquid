@@ -1,17 +1,17 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 
-{% assign macrocategory = page.metafields.custom.reference.value %}
-{% assign subcategories = macrocategory.subcategories %}
+{% assign subcategory = page.metafields.custom.reference.value %}
+{% assign collections = subcategory.collections %}
 
 <div class="page-width">
   <p class="heading-categories-6">Explore more {{ macrocategory.name }}</p>
   <div class="macro-section-6">
     <div class="subcategories-6">
       <div class="subcategory-scroll">
-        {% for subcategory in subcategories.value %}
+        {% for collection in collections.value %}
           <div class="subcategory-6">
-            <img src="{{ subcategory.image | image_url }}" alt="collection image">
-            <p>{{ subcategory.name }}</p>
+            <img src="{{ collection.image | image_url }}" alt="collection image">
+            <p>{{ collection.title }}</p>
           </div>
         {% endfor %}
       </div>
