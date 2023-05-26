@@ -373,7 +373,7 @@
   overflow-y: hidden;
 }
 .sub-section-5 .subcategory-scroll {
-  width: 100%;
+  width: auto;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
