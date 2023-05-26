@@ -379,7 +379,7 @@
   flex-wrap: nowrap;
 }
 .sub-section-5 .subcategory-5 {
-  width: 20%;
+  max-width: 20%;
   margin: 0px 1% 80px 1%;
   border:1px solid red;
 }
