@@ -357,7 +357,7 @@
   padding: 7px 17px;
   border-radius: 4px;
 }
-.style3 {
+.section-container-sub-4 a.collection-link.style3 {
   border-bottom: double;
 }
 .title-subcategory-5{
@@ -394,6 +394,9 @@
   aspect-ratio: 1 / 1;
   object-fit: contain;
   width: 100%;
+}
+.link-shop{
+  text-transform:uppercase;
 }
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
