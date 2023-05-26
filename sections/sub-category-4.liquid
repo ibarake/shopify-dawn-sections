@@ -7,9 +7,9 @@
       {% if forloop.index == section.settings.subid %}
         {% assign collections = subcategory.collections %}
         {% assign subimageurl = subcategory.image | image_url %}
-        <div class="section-container-sub-4">
+        <div class="section-container-sub-4" style="{% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}">
           <style>
-            {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
+            
           </style>
           <div class="left" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
