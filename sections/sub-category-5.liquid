@@ -3,6 +3,7 @@
 {% assign subcategories = shop.metaobjects.sub_categories %}
 <div class="page-width">
   {% for subcategory in subcategories.values %}
+    {% assign collections = subcategory.collections %}
       <p class="heading-categories-6">Explore more {{ collection.title }}</p>
       <div class="macro-section-6">
         <div class="subcategories-6">
