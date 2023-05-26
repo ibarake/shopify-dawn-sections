@@ -521,6 +521,9 @@
   .sub-section-5 .subcategory-5 p {
     font-size: 0.8em;
   }
+  .sub-section-5 .subcategory-5 img{
+    
+  }
 }
 @media only screen and (max-width: 678px) {
   .collections {
