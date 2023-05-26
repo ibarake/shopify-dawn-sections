@@ -513,7 +513,7 @@ p.collection-title.style3 {
     width: 100%;
   }
   .sub-section-5 p.collection-title{
-    
+    width:10px;
   }
 }
 @media only screen and (max-width: 678px) {
