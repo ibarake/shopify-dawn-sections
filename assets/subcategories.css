@@ -393,7 +393,7 @@ p.collection-title.style3 {
   text-transform:uppercase;
 }
 .sub-section-5 .collection-title{
-  width:10px;
+  width: 40%;
 }
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
