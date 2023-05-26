@@ -392,6 +392,9 @@ p.collection-title.style3 {
 .link-shop{
   text-transform:uppercase;
 }
+.sub-section-5 .collection-title{
+  width:10px;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
