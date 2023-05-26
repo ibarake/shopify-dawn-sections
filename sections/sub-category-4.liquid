@@ -16,16 +16,15 @@
             <div class="item" style="background-color:{{ section.settings.Color }};">
               <div class="text-item">
                 <h2 class="short-title" style="color: {{ section.settings.colorText }};">
-                <strong>{{ subcategory.short_title }}</strong>
-              </h2>
-              <h1 class="marketing-title" style="color: {{ section.settings.colorText }};"">
-                <strong>{{ subcategory.marketing_title }}</strong>
-              </h1>
-              <p class="sub-description" style="color: {{ section.settings.colorText }};">
-                {{ subcategory.description }}
-              </p>
-              
-              </div>  
+                  <strong>{{ subcategory.short_title }}</strong>
+                </h2>
+                <h1 class="marketing-title" style="color: {{ section.settings.colorText }};">
+                  <strong>{{ subcategory.marketing_title }}</strong>
+                </h1>
+                <p class="sub-description" style="color: {{ section.settings.colorText }};">
+                  {{ subcategory.description }}
+                </p>
+              </div>
               <div class="link-shop-s4">
                 <a
                   href="{{ subcategory.page.url }}"
@@ -33,16 +32,22 @@
                   style="color: {{ section.settings.colorText }};"
                   >Shop all</a
                 >
-            </div>  
+              </div>
             </div>
             {% for collection in collections.value %}
               <div class="item" style="background-color:{{ section.settings.itemColor }};">
                 <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
-                <p class="collection-title  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
+                <p
+                  class="collection-title  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
+                  style="color: {{ section.settings.colorText }};"
+                >
+                  {{ collection.title }}
+                </p>
               </div>
             {% endfor %}
           </div>
         </div>
+        }
       {% endif %}
     {% endfor %}
   </div>
