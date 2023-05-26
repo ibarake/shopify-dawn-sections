@@ -338,7 +338,7 @@
     max-width: 50%;
     line-height: 23px;
 }
-.section-container-sub-4 p.collection-title.style1 {
+p.collection-title.style1 {
   border-bottom:1px solid black;
 }
 .section-container-sub-4 p.collection-title.style2 {
@@ -349,7 +349,7 @@
 .section-container-sub-4 p.collection-title.style3 {
   border-bottom: double;
 }
- a.collection-link.style1 {
+.section-container-sub-4 a.collection-link.style1 {
     border-bottom:1px solid black;
 }
 .section-container-sub-4 a.collection-link.style2 {
