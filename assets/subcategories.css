@@ -395,6 +395,10 @@ p.collection-title.style3 {
 .sub-section-5 .collection-title{
   width: 50%;
 }
+.sub-section-5 p.collection-title.style1 {
+    border-bottom: 1px solid black;
+    width:100px;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
@@ -515,10 +519,7 @@ p.collection-title.style3 {
   .sub-section-5 p.collection-title{
     width:44%;
   }
-  .sub-section-5 p.collection-title.style1 {
-    border-bottom: 1px solid black;
-    width:100px;
-}
+  
 }
 @media only screen and (max-width: 678px) {
   .collections {
