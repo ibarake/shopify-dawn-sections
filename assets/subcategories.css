@@ -509,7 +509,9 @@
   }
   .sub-section-5 .title-subcategory-5 {
     font-size: 1.2em;
+    color:red;
   }
+  
 }
 @media only screen and (max-width: 678px) {
   .collections {
