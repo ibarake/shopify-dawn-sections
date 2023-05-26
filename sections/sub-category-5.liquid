@@ -13,11 +13,11 @@
             <img src="{{ collection.image | image_url }}" alt="collection image">
             <p style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
             <div
-            class="link-shopNow {% if section.settings.Shop_border_style == "style1"%} style1 {% elsif section.settings.Shop_border_style == "style2" %} style2 {% else %} style3 {% endif %}"
+            class="link-shopNow"
             style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
           >
             <a href="#" style="color: {{ section.settings.colorText }};">
-              <strong>Shop now</strong>
+              <strong{% if section.settings.Shop_border_style == "style1"%} style1 {% elsif section.settings.Shop_border_style == "style2" %} style2 {% else %} style3 {% endif %}>Shop now</strong>
             </a>
           </div>
           </div>
