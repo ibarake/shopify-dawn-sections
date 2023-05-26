@@ -504,8 +504,9 @@ p.collection-title.style3 {
     font-size: 1.2em;
   }
   .sub-section-5 .subcategory-5 {
-    width: 30%;
-    height: auto;
+    flex: 1 0 100%;
+    max-width: 50%;
+    margin-right: 10px;
   }
   .sub-section-5 .subcategory-5 p {
     font-size: 0.8em;
