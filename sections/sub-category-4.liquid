@@ -7,7 +7,7 @@
       {% if forloop.index == section.settings.subid %}
         {% assign collections = subcategory.collections %}
         {% assign subimageurl = subcategory.image | image_url %}
-        <div class="section-container-sub-4"
+        <div class="section-container-sub-4">
           <style>
             .section-container-sub-4{
               {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
