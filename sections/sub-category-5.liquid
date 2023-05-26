@@ -12,14 +12,14 @@
           <div class="subcategory-5"style="background-color:{{ section.settings.Color }};">
             <img src="{{ collection.image | image_url }}" alt="collection image">
             <p style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
-           
+          
             <p
                   class="collection-title  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
                   style="color: {{ section.settings.colorText }};"
                 >
                  Shop now
             </p>
-          </div>
+          
           </div>
         {% endfor %}
       </div>
