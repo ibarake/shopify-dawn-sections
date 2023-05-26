@@ -383,13 +383,7 @@ p.collection-title.style1 {
   margin-right:11px;
   padding: 5px;
 }
-.sub-section-5 .subcategory-5 p {
-  text-transform: uppercase;
-  text-align: left;
-  font-weight: 400;
-  font-size: 16px;
-  color: black;
-}
+
 .sub-section-5 .subcategory-5 img {
   aspect-ratio: 1 / 1;
   object-fit: contain;
