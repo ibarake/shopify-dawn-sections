@@ -9,7 +9,7 @@
     <div class="subcategories-5">
       <div class="subcategory-scroll">
         {% for collection in collections.value %}
-          <div class="subcategory-5">
+          <div class="subcategory-5"style="background-color:{{ section.settings.Color }};">
             <img src="{{ collection.image | image_url }}" alt="collection image">
             <p>{{ collection.title }}</p>
             <div
