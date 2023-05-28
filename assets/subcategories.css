@@ -413,14 +413,14 @@ p.collection-title.style3 {
   width: 48%;
   margin: 0px 1% 80px 1%;
 }
-.collection-6 p {
+.collections-6 p {
   text-transform: uppercase;
   text-align: left;
   font-weight: 400;
   font-size: 16px;
   color: black;
 }
-.collection-6 p::after {
+.collections-6 p::after {
   margin-left: 5px;
   background-image: url("https://cdn.shopify.com/s/files/1/0703/9723/1413/files/32213.png?v=1679027077");
   background-size: 10px 10px;
