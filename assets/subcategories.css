@@ -160,7 +160,9 @@
   flex-direction: column;
   justify-content: center;
 }
-
+.section-container-3 .button-content {
+    margin-left: 13%;
+}
 .section-container-3 .right {
   width: 80%;
   background-position: center;
