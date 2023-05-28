@@ -3,7 +3,7 @@
 {% assign subcategory = page.metafields.custom.reference.value %}
 {% assign collections = subcategory.collections %}
 {{ subcategory.name }}
-{% for subcategory in subcategories.value %}
+{% for collection in collections.value %}
   {% if forloop.index == section.settings.subid %}
     {% assign collectionsarray = subcategory.collections %}
     <div class="page-width">
