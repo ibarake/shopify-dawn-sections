@@ -143,11 +143,11 @@
 .section-sub-3 {
   margin: 30px 0 30px 0;
 }
-.section-container-3 .short-title, 
+.section-container-3 .short-title,
 .section-container-3 .marketing-title,
-.section-container-3 .sub-description{
+.section-container-3 .sub-description {
   text-align: left;
-  margin-left:13%;
+  margin-left: 13%;
 }
 .section-container-3 {
   height: 400px;
@@ -161,7 +161,7 @@
   justify-content: center;
 }
 .section-container-3 .button-content {
-    margin-left: 13%;
+  margin-left: 13%;
 }
 .section-container-3 .right {
   width: 80%;
@@ -209,7 +209,7 @@
   margin: 20px 0px 5px 0px;
   padding-bottom: 0px;
   width: 80%;
-  margin-left:8%;
+  margin-left: 8%;
 }
 .link-shop {
   display: inline-block;
@@ -222,8 +222,8 @@
   padding: 5px 7px 5px 7px;
   border-width: 1px;
   border-style: solid;
-}   
-    
+}
+
 .link-shop a {
   display: inline-block;
 }
@@ -254,7 +254,6 @@
   align-items: flex-start;
 }
 .style3 a {
-  
 }
 .style1 .link-shopNow,
 .style2 .link-shopNow {
@@ -268,7 +267,7 @@
   text-align: left;
   border-radius: 0px;
   border-bottom: 1px solid black;
-  margin-left:8%;
+  margin-left: 8%;
   width: 100px;
   margin-bottom: 20px;
 }
@@ -332,18 +331,18 @@
   color: black;
   margin-bottom: 25px;
 }
- h2.short-title {
+h2.short-title {
   text-transform: uppercase;
   font-size: 1.5rem;
   text-align: center;
   letter-spacing: 0.2rem;
 }
- h1.marketing-title {
+h1.marketing-title {
   font-size: 3rem;
   text-align: center;
   padding-top: 0.2rem;
 }
- p.sub-description {
+p.sub-description {
   font-size: 2rem;
   margin-top: 3px;
   text-align: center;
@@ -491,9 +490,9 @@ p.collection-title.style3 {
     width: 100%;
   }
   .section-container-3 .text-content {
-    width:50%;
+    width: 50%;
   }
-  .section-container-3 .button-content{
+  .section-container-3 .button-content {
     display: flex;
     align-items: end;
     margin: 0;
@@ -506,6 +505,11 @@ p.collection-title.style3 {
     flex: 1 0 100%;
     max-width: 50%;
     margin-right: 10px;
+  }
+  .section-container-3 .short-title,
+  .section-container-3 .marketing-title,
+  .section-container-3 .sub-description {
+    margin-left: 0;
   }
   .style3 .sub-link {
     text-align: left;
@@ -574,7 +578,7 @@ p.collection-title.style3 {
   .sub-section-5 p.collection-title {
     width: 44%;
   }
-   .collections-6 {
+  .collections-6 {
     flex-direction: column;
   }
   .collection-6 {
