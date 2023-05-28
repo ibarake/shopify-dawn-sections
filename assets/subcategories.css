@@ -396,6 +396,13 @@ p.collection-title.style3 {
 .sub-section-5 .collection-title.style3 {
   width: 100px;
 }
+.heading-subcategory-6{
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  text-align: center;
+}
+  
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
