@@ -2,7 +2,7 @@
 
 {% assign subcategory = page.metafields.custom.reference.value %}
 {% assign collections = subcategory.collections %}
-<h1>hola</h1>
+{{ subcategory.name }}
 {% for subcategory in subcategories.value %}
   {% if forloop.index == section.settings.subid %}
     {% assign collectionsarray = subcategory.collections %}
