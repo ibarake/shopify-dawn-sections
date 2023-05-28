@@ -429,6 +429,12 @@ p.collection-title.style3 {
   height: 10px;
   content: "";
 }
+.collection-6 img {
+  position: center;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
 @media only screen and (max-width: 768px) {
   .sub-cat-title {
     font-size: 2.5rem;
