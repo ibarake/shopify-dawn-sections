@@ -143,6 +143,10 @@
 .section-sub-3 {
   margin: 30px 0 30px 0;
 }
+.section-sub-3 .short-title, .marketing-title{
+  color:darkblue;
+  
+}
 .section-container-3 {
   height: 400px;
   display: flex;
