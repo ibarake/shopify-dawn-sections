@@ -143,25 +143,25 @@
 .section-sub-2 {
   margin: 30px 0 30px 0;
 }
-.section-container-2 {
+.section-container-3 {
   height: 400px;
   display: flex;
   margin: 20px 0 20px 0;
 }
-.section-container-2 .left {
+.section-container-3 .left {
   display: flex;
   width: 24%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.section-container-2 .right {
+.section-container-3 .right {
   width: 80%;
   background-position: center;
   background-repeat: norepeat;
   background-size: cover;
 }
-.section-bottom-2 {
+.section-bottom-3 {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -169,7 +169,7 @@
   justify-content: space-between;
   overflow-x: scroll; /*Scroll*/
 }
-.section-bottom-2 .column {
+.section-bottom-3 .column {
   width: 25%;
   white-space: nowrap; /*Scroll*/
   display: flex;
