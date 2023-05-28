@@ -486,6 +486,7 @@ p.collection-title.style3 {
     height: auto;
   }
   .section-container-3 .left {
+    padding: 5%;
     display: -webkit-box;
     width: 100%;
   }
