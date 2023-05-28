@@ -153,6 +153,7 @@
   width: 24%;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .section-container-2 .right {
   width: 80%;
