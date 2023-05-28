@@ -23,7 +23,7 @@
       "type": "sub-category-3",
       "settings": {
         "subid": 1,
-        "colnum": 3,
+        "colnum": 4,
         "Color": "#f3efea",
         "colorText": "#000000",
         "box_position": "left",
@@ -54,6 +54,8 @@
     "sub-category-6": {
       "type": "sub-category-6",
       "settings": {
+        "subid": 2,
+        "numberCollections": 3
       }
     }
   },
