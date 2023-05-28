@@ -410,6 +410,8 @@ p.collection-title.style3 {
   flex-wrap: wrap;
 }
 .collection-6 {
+  width: 48%;
+  margin: 0px 1% 80px 1%;
 }
   
 @media only screen and (max-width: 768px) {
