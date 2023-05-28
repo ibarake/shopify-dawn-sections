@@ -487,10 +487,8 @@ p.collection-title.style3 {
     height: auto;
   }
   .section-container-3 .left {
-    display: flex;
-    align-items: center;
+    display: -webkit-box;
     width: 100%;
-    background-color: #f3efea;
   }
   .section-container-3 .right {
     width: 100%;
