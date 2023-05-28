@@ -140,7 +140,7 @@
   aspect-ratio: 1 / 1;
   width: 100%;
 }
-.section-sub-2 {
+.section-sub-3 {
   margin: 30px 0 30px 0;
 }
 .section-container-3 {
@@ -155,6 +155,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .section-container-3 .right {
   width: 80%;
   background-position: center;
