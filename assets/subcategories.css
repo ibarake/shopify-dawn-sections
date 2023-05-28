@@ -496,7 +496,8 @@ p.collection-title.style3 {
   .section-container-3 .button-content {
     display: flex;
     align-items: end;
-    margin: 0;
+    margin-left: 0;
+    margin-bottom: 5%;
   }
   .section-container-3 .right {
     width: 100%;
