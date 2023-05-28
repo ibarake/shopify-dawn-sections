@@ -9,12 +9,15 @@
       <p class="heading-subcategory-6">{{ subcategory.name }}</p>
       <div class="sub-section-6">
         <div class="collections-6">
-          {% for collection in collectionsarray.value %}
-            <div class="collection-5">
-              <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
-              <p><strong>{{ collection.title }}</strong></p>
-            </div>
-          {% endfor %}
+       {% assign limit = 2 %}
+{% for collection in collectionsarray.value %}
+  {% if forloop.index <= limit %}
+    <div class="collection-5">
+      <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
+      <p><strong>{{ collection.title }}</strong></p>
+    </div>
+  {% endif %}
+{% endfor %}
         </div>
       </div>
     </div>
