@@ -13,7 +13,7 @@
         
         <div class="section-container-3">
           <style>
-            .section-container-2{
+            .section-container-3{
               {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
             }
           </style>
@@ -38,7 +38,7 @@
           </div>
           <div class="right" style="background-image: url('{{ subimageurl}}')"><div></div></div>
         </div>
-        <div class="section-bottom-2">
+        <div class="section-bottom-3">
           {% for collection in collections.value %}
             {% if forloop.index <= section.settings.colnum %}
               <div
