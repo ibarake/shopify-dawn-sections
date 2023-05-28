@@ -512,6 +512,7 @@ p.collection-title.style3 {
   .section-container-3 .marketing-title,
   .section-container-3 .sub-description {
     margin-left: 0;
+    max-width: 95%;
   }
   .style3 .sub-link {
     text-align: left;
