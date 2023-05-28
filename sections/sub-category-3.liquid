@@ -18,15 +18,9 @@
             }
           </style>
           <div class="left" style="background-color: {{ section.settings.Color }};">
-              <h2 class="short-title" style="color: {{ section.settings.colorText }};">
-                  <strong>{{ collection.short_title }}</strong>
-                </h2>
-                <h1 class="marketing-title" style="color: {{ section.settings.colorText }};">
-                  <strong>{{ collection.marketing_title }}</strong>
-                </h1>
-                <p class="sub-description" style="color: {{ section.settings.colorText }};">
-                  {{ collection.marketing_description }}
-                </p>
+            <p class="bolded-sub-h2" style="color: {{ section.settings.colorText }};">
+              <strong>{{ collection.title }}</strong>
+            </p>
             <div class="link-shop" style="border-color:{{ section.settings.colorText }};">
               <a href="#" style="color: {{ section.settings.colorText }};">
                 <strong>{{ collection.metafields.custom.secction_button_3 }}</strong>
