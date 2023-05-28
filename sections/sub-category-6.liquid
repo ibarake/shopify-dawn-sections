@@ -9,7 +9,7 @@
       <p class="heading-subcategory-6">{{ subcategory.name }}</p>
       <div class="sub-section-6">
         <div class="collections-6">
-          {% assign limit = 2 %}
+          {% assign limit = section.settings.numberCollections %}
           {% for collection in collectionsarray.value %}
             {% if forloop.index <= limit %}
               <div class="collection-5">
