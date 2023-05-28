@@ -524,6 +524,9 @@ p.collection-title.style3 {
   h1.marketing-title {
     font-size: 2.6rem;
 }
+  h2.short-title{
+    font-size:1.2rem;
+  }
   .link-shop a {
     white-space: nowrap;
   }
