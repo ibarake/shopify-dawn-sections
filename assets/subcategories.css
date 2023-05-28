@@ -556,6 +556,17 @@ p.collection-title.style3 {
   .sub-section-5 p.collection-title {
     width: 44%;
   }
+   .collections-6 {
+    flex-direction: column;
+  }
+  .collection-6 {
+    width: 100%;
+    margin: 0px 0 40px 0;
+  }
+  .collection-6 img {
+    max-height: 180px;
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 678px) {
   .collections {
