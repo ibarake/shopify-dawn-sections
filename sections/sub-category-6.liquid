@@ -11,7 +11,7 @@
         <div class="collections-5">
           {% for collection in collectionsarray.value %}
             <div class="collection-5">
-              <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
+              <img src="{{ collection.image | image_url }}" alt="collection image">
               <p>{{ collection.title }}</p>
             </div>
           {% endfor %}
