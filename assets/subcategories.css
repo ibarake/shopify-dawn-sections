@@ -254,6 +254,7 @@
 }
 .style1 .link-shopNow,
 .style2 .link-shopNow {
+  width: fit-content;
   text-align: left;
   border-radius: 5px;
   border: 1px solid black;
