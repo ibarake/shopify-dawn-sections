@@ -25,7 +25,8 @@
         "subid": 1,
         "colnum": 4,
         "Color": "#ffe3cd",
-        "ColorCollections": "#ffffff",
+        "ColorImageCollections": "#F3EFEA",
+        "ColorTextCollections": "#dd1d1d",
         "colorText": "#000000",
         "box_position": "left",
         "Border_style": "style2"
