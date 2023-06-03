@@ -257,9 +257,9 @@
 .style2 .link-shopNow {
   width: fit-content;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 3px;
   border: 1px solid black;
-  padding: 5px 7px 5px 7px;
+  padding: 7px 9px;
   margin-bottom: 20px;
 }
 .style3 .link-shopNow {
