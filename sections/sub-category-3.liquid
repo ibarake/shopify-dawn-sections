@@ -52,6 +52,7 @@
                     src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
                     alt="sub image"
                     class="img"
+                    style="background-color: {{ section.settings.ColorCollections }};"
                   >
                   <a href="{{ collection.url }}">
                     <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
