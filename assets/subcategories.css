@@ -350,6 +350,7 @@ p.collection-title.style1 {
   border-bottom: 1px solid black;
 }
 p.collection-title.style2 {
+  width: fit-content;
   border: 1px solid black;
   padding: 2px 8px;
   border-radius: 4px;
