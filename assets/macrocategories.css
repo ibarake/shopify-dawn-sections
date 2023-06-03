@@ -375,6 +375,9 @@ p.collection-title {
   object-fit: cover;
   width: 100%;
 }
+.text-macro-7 {
+  padding: 20px;
+}
 @media only screen and (max-width: 768px) {
   .bolded-h2 {
     padding: 4%;
