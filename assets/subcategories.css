@@ -225,7 +225,7 @@
   aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: contain;
-  mix-blend-mode: multiply;
+  
   filter: contrast(1);
 }
 .style3 .img {
