@@ -267,7 +267,7 @@
   border-radius: 0px;
   border-bottom: 1px solid black;
   margin-left: 8%;
-  width: 100px;
+  width: fit-content;
   margin-bottom: 20px;
 }
 .section-container-sub-4 {
