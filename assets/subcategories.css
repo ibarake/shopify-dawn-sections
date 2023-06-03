@@ -236,7 +236,6 @@
   aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: cover;
-  mix-blend-mode: multiply;
   filter: contrast(1);
 }
 .column.style1,
