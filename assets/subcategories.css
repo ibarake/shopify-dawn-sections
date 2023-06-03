@@ -228,9 +228,9 @@
   background-color: #EFEFEF;
   filter: contrast(1);
 }
- .text-item {
+.style1 .text-item,
+.style2 .text-item {
   background-color: white;
-  border: 1px solid black;
 }
 .style3 .img {
   aspect-ratio: 1 / 1;
