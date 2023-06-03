@@ -225,7 +225,7 @@
   aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: contain;
-  
+  background-color: #EFEFEF;
   filter: contrast(1);
 }
 .style1 .text-item,
@@ -243,6 +243,7 @@
 .column.style2 {
   align-items: center;
   justify-content: center;
+  background-color:red;
 }
 .column .style3 {
   align-items: flex-start;
