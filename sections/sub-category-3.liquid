@@ -46,9 +46,13 @@
             {% if forloop.index <= section.settings.colnum %}
               <div
                 class="column  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
-                style="background-color: {{ section.settings.ColorCollections }};"
+                
               >
-                <div>
+               <style>
+                 .column{
+                   background-color: {{ section.settings.ColorCollections }};
+                 }
+               </style>
                   <img
                     src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
                     alt="sub image"
@@ -65,7 +69,7 @@
                       <strong>Shop now</strong>
                     </a>
                   </div>
-                </div>
+                
               </div>
             {% endif %}
           {% endfor %}
