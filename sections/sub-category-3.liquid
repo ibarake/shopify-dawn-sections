@@ -10,7 +10,7 @@
         {% assign subcategoriescollections = collection.collections %}
         {% assign subcategoriespage = collection.page.value %}
         {% assign subimageurl = collection.image | image_url %}
-        
+
         <div class="section-container-3">
           <style>
             .section-container-3{
@@ -20,24 +20,26 @@
           <div class="left" style="background-color: {{ section.settings.Color }};">
             <div class="text-content">
               <h2 class="short-title" style="color: {{ section.settings.colorText }};">
-                  <strong>{{ subcategory.short_title }}</strong>
-                </h2>
-                <h1 class="marketing-title" style="color: {{ section.settings.colorText }};">
-                  <strong>{{ subcategory.marketing_title }}</strong>
-                </h1>
-                <p class="sub-description" style="color: {{ section.settings.colorText }};">
-                  {{ subcategory.marketing_description }}
-                </p>
+                <strong>{{ subcategory.short_title }}</strong>
+              </h2>
+              <h1 class="marketing-title" style="color: {{ section.settings.colorText }};">
+                <strong>{{ subcategory.marketing_title }}</strong>
+              </h1>
+              <p class="sub-description" style="color: {{ section.settings.colorText }};">
+                {{ subcategory.marketing_description }}
+              </p>
             </div>
-              <div class="button-content">
-                <div class="link-shop" style="border-color:{{ section.settings.colorText }};">
-              <a href="#" style="color: {{ section.settings.colorText }};">
-                <strong>{{ collection.metafields.custom.secction_button_3 }}</strong>
-              </a>
-            </div>
+            <div class="button-content">
+              <div class="link-shop" style="border-color:{{ section.settings.colorText }};">
+                <a href="#" style="color: {{ section.settings.colorText }};">
+                  <strong>{{ collection.metafields.custom.secction_button_3 }}</strong>
+                </a>
               </div>
+            </div>
           </div>
-          <div class="right" style="background-image: url('{{ collection.metafields.image.room | image_url }}')"><div></div></div>
+          <div class="right" style="background-image: url('{{ collection.metafields.image.room | image_url }}')">
+            <div></div>
+          </div>
         </div>
         <div class="section-bottom-3">
           {% for collection in collections.value %}
@@ -45,26 +47,24 @@
               <div
                 class="column  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
                 style="background-color: {{ section.settings.ColorCollections }};"
-                >
+              >
                 <div>
                   <img
-                  src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
-                  alt="sub image"
-                  class="img"
-                >
-                </div>
-                <div>
+                    src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
+                    alt="sub image"
+                    class="img"
+                  >
                   <a href="{{ collection.url }}">
                     <h2 class="sub-link">{{ collection.title }}</h2>
                   </a>
-                </div>
-                <div
-                  class="link-shopNow {% if section.settings.Border_style == "style1"%} hidden {% endif %}"
-                  style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
-                >
-                  <a href="#"style="color: {{ section.settings.colorText }};" >
-                    <strong>Shop now</strong>
-                  </a>
+                  <div
+                    class="link-shopNow {% if section.settings.Border_style == "style1"%} hidden {% endif %}"
+                    style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
+                  >
+                    <a href="#" style="color: {{ section.settings.colorText }};">
+                      <strong>Shop now</strong>
+                    </a>
+                  </div>
                 </div>
               </div>
             {% endif %}
