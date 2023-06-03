@@ -242,9 +242,10 @@
   mix-blend-mode: multiply;
   filter: contrast(1);
 }
-.column .style1,
-.column .style2 {
+.column.style1,
+.column.style2 {
   align-items: center;
+  
 }
 .column .style3 {
   align-items: flex-start;
@@ -254,8 +255,7 @@
 .style1 .link-shopNow,
 .style2 .link-shopNow {
   width: fit-content;
-  text-align: center;
-  align-items: center;
+  text-align: left;
   border-radius: 3px;
   border: 1px solid black;
   padding: 6px 12px;
