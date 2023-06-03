@@ -1,12 +1,6 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+{{ 'macrocategories.css' | asset_url | stylesheet_tag }}
+{% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign subcategories = macrocategory.subcategories %}
+<p>
+  {{ macrocategory.macro_page_text }}
+</p>
