@@ -236,9 +236,6 @@
   mix-blend-mode: multiply;
   filter: contrast(1);
 }
-.style3 {
-  background-color: #efefef;
-}
 .style3 .img {
   aspect-ratio: 1 / 1;
   width: 100%;
