@@ -228,6 +228,10 @@
   background-color: #EFEFEF;
   filter: contrast(1);
 }
+.style1 .text-item,
+.style2 .text-item {
+  background-color: white;
+}
 .style3 .img {
   aspect-ratio: 1 / 1;
   width: 100%;
