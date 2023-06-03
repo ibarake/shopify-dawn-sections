@@ -24,9 +24,9 @@
       "settings": {
         "subid": 1,
         "colnum": 4,
-        "Color": "#dd1d1d",
-        "ColorCollections": "#dd1d1d",
-        "colorText": "#ffffff",
+        "Color": "#ffe3cd",
+        "ColorCollections": "#efefef",
+        "colorText": "#000000",
         "box_position": "left",
         "Border_style": "style2"
       }
