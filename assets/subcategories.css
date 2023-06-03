@@ -196,6 +196,7 @@
 .style2 .sub-link {
   font-family: Open Sans;
   text-align: center;
+  align-items: center;
   font-size: 1.2em;
   font-weight: bold;
   margin: 10px 0px 8px 0px;
