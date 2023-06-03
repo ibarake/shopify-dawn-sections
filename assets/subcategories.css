@@ -7,7 +7,6 @@
   outline: none;
 }
 .sub-cat-title {
-  font-family: Open Sans;
   font-size: 28px;
   font-weight: normal;
   line-height: 36px;
@@ -18,7 +17,6 @@
 }
 .heading span {
   margin: 0 0 0 1px;
-  font-family: Open Sans;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0;
@@ -39,7 +37,6 @@
 }
 .bolded-h {
   margin: 0px 17px 30px 20px;
-  font-family: Open Sans;
   font-size: 30px;
   font-weight: 900;
   letter-spacing: -0.4px;
@@ -69,7 +66,6 @@
 }
 .sub-sale p {
   text-transform: uppercase;
-  font-family: Open Sans;
   font-size: 0.9em;
   font-weight: 200;
   margin: 3px 0px 0px 9px;
@@ -89,7 +85,6 @@
 }
 .col-link {
   text-transform: uppercase;
-  font-family: Open Sans;
   font-size: 1em;
   font-weight: 500;
   margin: 3px 0px 0px 1px;
@@ -194,7 +189,6 @@
 }
 .style1 .sub-link,
 .style2 .sub-link {
-  font-family: Open Sans;
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
@@ -322,7 +316,6 @@
 }
 .section-container-sub-4 p.collection-title {
   font-weight: bolder;
-  font-family: Open Sans;
   font-size: 14px;
   max-width: 100%;
   color: black;
