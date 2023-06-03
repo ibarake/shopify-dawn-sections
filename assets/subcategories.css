@@ -245,7 +245,6 @@
 .column .style1,
 .column .style2 {
   align-items: center;
-  justify-content: center;
 }
 .column .style3 {
   align-items: flex-start;
