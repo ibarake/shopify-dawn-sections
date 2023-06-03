@@ -39,7 +39,7 @@
           </div>
           <div class="right" style="background-image: url('{{ collection.metafields.image.room | image_url }}')"><div></div></div>
         </div>
-        <div class="section-bottom-3">
+        <div class="section-bottom-3" style="background-color: {{ section.settings.ColorCollections }};>
           {% for collection in collections.value %}
             {% if forloop.index <= section.settings.colnum %}
               <div
