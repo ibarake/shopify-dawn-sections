@@ -10,8 +10,8 @@
     "sub-category-1": {
       "type": "sub-category-1",
       "settings": {
-        "bold-section-heading": "aniversary sale",
-        "no-bold-section-heading": "Styles for days."
+        "bold-section-heading": "hola",
+        "no-bold-section-heading": "hola"
       }
     },
     "sub-category-2": {
@@ -22,11 +22,11 @@
     "sub-category-3": {
       "type": "sub-category-3",
       "settings": {
-        "subid": 1,
+        "subid": 2,
         "colnum": 4,
         "Color": "#ffe3cd",
-        "ColorImageCollections": "#F3EFEA",
-        "ColorTextCollections": "#dd1d1d",
+        "colorItemsCollections": "#FFFFFF",
+        "ColorImageCollections": "#f3efea",
         "colorText": "#000000",
         "box_position": "left",
         "Border_style": "style2"
