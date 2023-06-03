@@ -48,12 +48,14 @@
                 class="column  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
                 style="background-color: {{ section.settings.ColorCollections }};"
               >
+                <div>
                   <img
                     src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
                     alt="sub image"
                     class="img"
-                    style="background-color: {{ section.settings.ColorCollections }};"
                   >
+                </div>
+                  
                   <a href="{{ collection.url }}">
                     <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
                   </a>
