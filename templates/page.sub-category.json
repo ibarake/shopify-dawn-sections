@@ -23,9 +23,9 @@
       "type": "sub-category-3",
       "settings": {
         "subid": 2,
-        "colnum": 4,
+        "colnum": 3,
         "Color": "#ffe3cd",
-        "colorItemsCollections": "#FFFFFF",
+        "colorItemsCollections": "#ffffff",
         "ColorImageCollections": "#f3efea",
         "colorText": "#000000",
         "box_position": "left",
