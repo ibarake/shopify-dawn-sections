@@ -7,10 +7,6 @@
   <div class="section-sub-3">
     {% for collection in collections.value %}
       {% if forloop.index == section.settings.subid %}
-        {% assign subcategoriescollections = collection.collections %}
-        {% assign subcategoriespage = collection.page.value %}
-        {% assign subimageurl = collection.image | image_url %}
-
         <div class="section-container-3">
           <style>
             .section-container-3{
@@ -47,25 +43,24 @@
               <div
                 class="column  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
                 style="background-color: {{ section.settings.colorItemsCollections }};"
-                >
+              >
                 <img
                   src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
                   alt="sub image"
                   class="img"
                   style="background-color: {{ section.settings.ColorImageCollections }};"
                 >
-                  <a href="{{ collection.url }}">
-                    <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
+                <a href="{{ collection.url }}">
+                  <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
+                </a>
+                <div
+                  class="link-shopNow {% if section.settings.Border_style == "style1"%} hidden {% endif %}"
+                  style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
+                >
+                  <a href="#" style="color: {{ section.settings.colorText }};">
+                    <strong>Shop now</strong>
                   </a>
-                  <div
-                    class="link-shopNow {% if section.settings.Border_style == "style1"%} hidden {% endif %}"
-                    style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
-                  >
-                    <a href="#" style="color: {{ section.settings.colorText }};">
-                      <strong>Shop now</strong>
-                    </a>
-                  </div>
-               
+                </div>
               </div>
             {% endif %}
           {% endfor %}
