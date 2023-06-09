@@ -200,7 +200,6 @@
 .section-macro-3 .right {
   width: auto;
   display: grid;
-  grid-template-rows: 1fr 1fr;
   overflow: hidden;
 }
 .img-item {
