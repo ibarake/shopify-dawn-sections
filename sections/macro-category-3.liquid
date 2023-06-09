@@ -14,8 +14,7 @@
             }
           </style>
           <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
-          <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);
-                grid-template-rows: repeat({{ section.settings.rownum }}, 1fr);">
+          <div class="right">
             {% assign itemsCount = subcategoriescollections.value | size %}
             {% assign rows = itemsCount | divided_by: section.settings.colnum | ceil %}
             <style>
