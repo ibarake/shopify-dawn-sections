@@ -19,7 +19,7 @@
             <div class="sub-image-container">
               {% if subcategory.offertag != '' %}
                 <div class="sale" style="background-color: {{ section.settings.backgroundSaleColor }};">
-                  <p color: {{ section.settings.saleTextColor }};>{{ subcategory.offertag }}</p>
+                  <p style="color: {{ section.settings.saleTextColor }};">{{ subcategory.offertag }}</p>
                 </div>
               {% endif %}
               <img src="{{ subcategory.image | image_url }}" alt="sub image">
