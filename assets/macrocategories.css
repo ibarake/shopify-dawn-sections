@@ -118,11 +118,9 @@
 }
 .section-container-2 .left {
   width: 24%;
-  background-color: #f3efea;
 }
 .section-container-2 .right {
   width: 80%;
-  background-color: #d3d3d3;
   background-position: center;
   background-repeat: norepeat;
   background-size: cover;
@@ -151,8 +149,6 @@
   aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: contain;
-  background-color: #efefef;
-  mix-blend-mode: multiply;
   filter: contrast(1);
 }
 .column a {
