@@ -28,6 +28,9 @@
             {% for collection in subcategoriescollections.value %}
               <div class="item" style="background-color:{{ section.settings.itemColor }};">
               <style>
+                .right {
+                  grid-template-rows: repeat({{ section.settings.rownum }}, 1fr);
+                }
                 .right .item:nth-child(4) {
                   background-color: {{ section.settings.Color }} !important;
                 }
