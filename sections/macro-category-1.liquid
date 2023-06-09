@@ -4,7 +4,7 @@
 {% assign subcategories = macrocategory.subcategories %}
 <div class="page-width">
   <h1 class="macro-cat-title">{{ macrocategory.name }}</h1>
-  <div class="container">
+  <div class="container" style="background-color: {{ section.settings.backgroundColor }};">
     <div class="heading">
       <div class="bolded-h">
         <strong>{{ macrocategory.section_1_text_1 }}</strong>
@@ -45,6 +45,12 @@
       "id": "colnum",
       "label": "# columns inside section",
       "default": 3
+    },
+    {
+      "type": "color",
+      "id": "backgroundColor",
+      "label": "Section background color",
+      "default": "#FFE3CD"
     }
   ],
   "blocks": [
