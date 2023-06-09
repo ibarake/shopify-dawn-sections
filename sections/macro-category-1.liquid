@@ -6,9 +6,9 @@
   <h1 class="macro-cat-title">{{ macrocategory.name }}</h1>
   <div class="container" style="background-color: {{ section.settings.backgroundColor }};">
     <div class="heading">
-      <div class="bolded-h" style="color: {{ section.settings.HeadingTextColor }};">
+      <div class="bolded-h" style="color: {{ section.settings.titleAndSubtitleColor }};">
         <strong>{{ macrocategory.section_1_text_1 }}</strong>
-        <span span="nobold-h" style="color: {{ section.settings.HeadingTextColor }};">{{ macrocategory.section_1_text_2 }}</span>
+        <span span="nobold-h" style="color: {{ section.settings.titleAndSubtitleColor }};">{{ macrocategory.section_1_text_2 }}</span>
       </div>
     </div>
     <div class="column-container">
@@ -24,7 +24,7 @@
               {% endif %}
               <img src="{{ subcategory.image | image_url }}" alt="sub image">
               <a href="{{ subcategoriespage.url }}">
-                <h2 class="macro-link">
+                <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor }};">
                   {{ subcategory.name }}
                 </h2>
               </a>
@@ -52,8 +52,8 @@
     },
     {
       "type": "color",
-      "id": "HeadingTextColor",
-      "label": "Heading text color",
+      "id": "titleAndSubtitleColor",
+      "label": "Title and subtitle text color",
       "default": "#393731"
     },
     {
