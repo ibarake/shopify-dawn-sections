@@ -16,12 +16,12 @@
               {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
             }
           </style>
-          <div class="left"style="background-color: {{ section.settings.Color }};">
-            <p class="bolded-h2"style="color: {{ section.settings.colorText }};">
+          <div class="left" style="background-color: {{ section.settings.Color }};">
+            <p class="bolded-h2" style="color: {{ section.settings.colorText }};">
               <strong>{{ subcategory.macro_section_title }}</strong>
             </p>
             <div class="link-shop" style=" border-color:{{ section.settings.colorText }};">
-              <a href="#"style="color: {{ section.settings.colorText }};">
+              <a href="#" style="color: {{ section.settings.colorText }};">
                 <strong>Shop all {{ subcategory.name }}</strong>
               </a>
             </div>
@@ -67,6 +67,22 @@
       "default": 3
     },
     {
+     "type": "select",
+     "id": "box_position",
+     "label": "Horizontal alignment",
+     "options": [
+        {
+         "value": "left",
+         "label": "Left"
+        },
+        {
+         "value": "right",
+         "label": "Right"
+        }
+      ],
+     "default": "left"
+    },
+    {
      "type":"header",
      "content":" ----------------- Text colors ----------------- "
     },
@@ -85,23 +101,6 @@
       "id": "Color",
       "label": "Background color item title",
       "default": "#F3EFEA"
-    },
-     {
-    "type": "select",
-    "id": "box_position",
-    "label": "Horizontal alignment",
-    "options": [
-      {
-        "value": "left",
-        "label": "Left"
-      },
-      {
-        "value": "right",
-        "label": "Right"
-      }
-
-    ],
-    "default": "left"
     }
   ],
   "blocks": [
