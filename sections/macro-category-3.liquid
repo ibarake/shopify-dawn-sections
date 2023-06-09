@@ -18,8 +18,7 @@
             {% assign itemsCount = subcategoriescollections.value | size %}
             {% assign rows = itemsCount | divided_by: section.settings.colnum | ceil %}
             <style>
-              .right {
-                display: grid;
+              .section-macro-3 .right {
                 grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);
                 grid-template-rows: repeat({{ rows }}, 1fr);
               }
