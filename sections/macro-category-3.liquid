@@ -16,7 +16,15 @@
           <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);
                 grid-template-rows: repeat({{ section.settings.rownum }}, 1fr);">
-            
+            {% assign itemsCount = subcategoriescollections.value | size %}
+            {% assign rows = itemsCount | divided_by: section.settings.colnum | ceil %}
+            <style>
+              .right {
+                display: grid;
+                grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);
+                grid-template-rows: repeat({{ rows }}, 1fr);
+              }
+            </style>
             <div class="item" style="background-color:{{ section.settings.Color }};">
               <p class="macro-title" style="color: {{ section.settings.colorText }};">
                 <strong>{{ subcategory.macro_section_title }}</strong>
