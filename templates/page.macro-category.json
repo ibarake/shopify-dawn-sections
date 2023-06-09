@@ -11,13 +11,17 @@
     "macro-category-1": {
       "type": "macro-category-1",
       "settings": {
-        "colnum": 3
+        "colnum": 5,
+        "backgroundColor": "#fffaee"
       }
     },
     "macro-category-2": {
       "type": "macro-category-2",
       "settings": {
         "subid": 1,
+        "Color": "#F3EFEA",
+        "colorText": "#000000",
+        "box_position": "left",
         "colnum": 3
       }
     },
@@ -25,7 +29,11 @@
       "type": "macro-category-3",
       "settings": {
         "subid": 2,
-        "colnum": 2
+        "colnum": 2,
+        "Color": "#F3EFEA",
+        "itemColor": "#FFFFFF",
+        "colorText": "#000000",
+        "box_position": "left"
       }
     },
     "macro-category-4": {
