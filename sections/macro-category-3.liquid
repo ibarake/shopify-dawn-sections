@@ -1,5 +1,4 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
-
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 <div class="page-width">
@@ -27,15 +26,12 @@
               </div>
             </div>
             {% for collection in subcategoriescollections.value %}
-  {% assign colorIndex = forloop.index0 | plus: 1 %}
-  {% assign isDivisibleBy3 = colorIndex | math: 'modulo', 3 %}
-  <div class="item" style="background-color: {% if isDivisibleBy3 == 0 %}#efefef{% endif %};">
-    <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
-    <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
-    <p class="collection-description">{{ collection.marketing_description }}</p>
-  </div>
-{% endfor %}
-
+              <div class="item" style="background-color:{{ section.settings.itemColor }};">
+                <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
+                <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
+                <p class="collection-description">{{ collection.marketing_description }}</p>
+              </div>
+            {% endfor %}
           </div>
         </div>
       {% endif %}
