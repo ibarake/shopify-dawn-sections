@@ -5,7 +5,7 @@
 <div class="page-width">
   <h1 class="macro-cat-title">{{ macrocategory.name }}</h1>
   <div class="container" style="background-color: {{ section.settings.backgroundColor }};">
-    <div class="heading">
+    <div class="heading" style="color: {{ section.settings.HeadingTextColor }};">
       <div class="bolded-h">
         <strong>{{ macrocategory.section_1_text_1 }}</strong>
         <span span="nobold-h">{{ macrocategory.section_1_text_2 }}</span>
@@ -18,7 +18,7 @@
           <div class="column">
             <div class="sub-image-container">
               {% if subcategory.offertag != '' %}
-                <div class="sale" style="background-color: {{ section.settings.backgroundSaleColor }};">
+                <div class="sale" style="background-color: {{ section.settings.backgroundSaleColor }}; color: {{ section.settings.HeadingTextColor }}; ">
                   <p>{{ subcategory.offertag }}</p>
                 </div>
               {% endif %}
