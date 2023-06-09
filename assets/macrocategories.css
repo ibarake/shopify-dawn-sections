@@ -220,12 +220,6 @@
   padding: 5px;
   text-align: center;
 }
-.right .item:nth-child(1) {
-  background-color: #efefef;
-}
-.right .item:nth-child(4) {
-  background-color: #efefef;
-}
 .link-shop-m3 {
   display: inline-block;
   width: auto;
