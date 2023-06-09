@@ -35,7 +35,7 @@
               <div class="column">
                 <img src="{{ collection.image | image_url }}" alt="sub image" class="img">
                 <a href="{{ collection.url }}">
-                  <h2 class="sub-link">{{ collection.title }}</h2>
+                  <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
                 </a>
               </div>
             {% endif %}
