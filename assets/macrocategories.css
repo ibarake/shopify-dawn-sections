@@ -142,7 +142,7 @@
 }
 .bolded-h2 strong {
   line-height: 32px;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: bolder;
 }
 .column .img {
