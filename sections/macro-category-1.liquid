@@ -18,7 +18,7 @@
           <div class="column">
             <div class="sub-image-container">
               {% if subcategory.offertag != '' %}
-                <div class="sale">
+                <div class="sale" style="background-color: {{ section.settings.backgroundSaleColor }};">
                   <p>{{ subcategory.offertag }}</p>
                 </div>
               {% endif %}
@@ -50,6 +50,12 @@
       "type": "color",
       "id": "backgroundColor",
       "label": "Section background color",
+      "default": "#fffaee"
+    },
+    {
+      "type": "color",
+      "id": "backgroundSaleColor",
+      "label": "Sale background color",
       "default": "#fffaee"
     }
   ],
