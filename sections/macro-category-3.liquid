@@ -7,7 +7,6 @@
     {% for subcategory in subcategories.value %}
       {% if forloop.index == section.settings.subid %}
         {% assign subcategoriescollections = subcategory.collections %}
-        {% assign subcategoriespage = subcategory.page.value %}
         {% assign subimageurl = subcategory.image | image_url %}
         <div class="section-container-3">
           <style>
