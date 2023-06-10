@@ -108,6 +108,9 @@ svg.next-icon {
   margin-top: -13px;
   margin-left: -5%;
 }
+.cont {
+  display:flex;
+}
 .section-macro-2 {
   margin: 30px 0 30px 0;
 }
