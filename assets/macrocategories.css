@@ -103,10 +103,10 @@
   padding-bottom: 10px;
 }
 svg.next-icon {
-  transform: scale(.5);
+  transform: scale(.4);
   width: auto;
   margin-top: -0.8em;
-  margin-left: -1%;
+  margin-left: -2%;
 }
 .cont {
   display:flex;
