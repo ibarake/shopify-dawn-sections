@@ -102,6 +102,12 @@
   margin: 3px 0px 0px 1px;
   padding-bottom: 10px;
 }
+svg.next-icon {
+  transform: scale(.5);
+  width: auto;
+  margin-top: -13px;
+  margin-left: -5%;
+}
 .section-macro-2 {
   margin: 30px 0 30px 0;
 }
