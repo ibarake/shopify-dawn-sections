@@ -24,10 +24,13 @@
               {% endif %}
               <img src="{{ subcategory.image | image_url }}" alt="sub image">
               <a href="{{ subcategoriespage.url }}">
-                <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor }};">
+                <div>
+                  <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor }};">
                   {{ subcategory.name }}
                 </h2>
                 {% render 'nextIcon' %}
+                </div>
+                
               </a>
             </div>
           </div>
