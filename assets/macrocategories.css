@@ -100,7 +100,7 @@
 }
 .macro-link::after {
   margin-left: 5px;
-  background-image: url('Icon next.svg');
+  background-image: url('Assets/Next icon.svg');
   background-size: 10px 10px;
   display: inline-block;
   width: 10px;
