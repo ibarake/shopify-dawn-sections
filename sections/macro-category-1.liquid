@@ -28,7 +28,10 @@
                   {{ subcategory.name }}
                 
                 </h2>
-                  {% render 'nextIcon' %}
+                .macro-link::after {
+                {% render 'nextIcon' %}
+                }
+                  
               </a>
             </div>
           </div>
