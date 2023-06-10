@@ -8,6 +8,7 @@
 }
 .icon{
   background-image:url(Next\ icon.svg);
+  background-repeat: no-repeat;
 }
 .macro-cat-title {
   font-family: Open Sans;
