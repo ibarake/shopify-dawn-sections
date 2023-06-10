@@ -26,11 +26,7 @@
               <a href="{{ subcategoriespage.url }}">
                 <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor }};">
                   {{ subcategory.name }}
-                <style>
-                  .macro-link::after {
-                background-image:{% render 'nextIcon' %};
-                } 
-                </style>
+              {% render 'nextIcon' %}
                 </h2>
                 
               </a>
