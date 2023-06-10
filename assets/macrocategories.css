@@ -104,7 +104,6 @@
 }
 .macro-link::after {
   margin-left: 5px;
-  background-image: url('nextIcon.liquid');
   background-size: 10px 10px;
   display: inline-block;
   width: 10px;
