@@ -28,9 +28,13 @@
                   <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor }};">
                   {{ subcategory.name }}
                 </h2>
+                  <style>
+                    g.iconNext {
+                      fill: {{ section.settings.titleAndSubtitleColor }};
+                    }
+                  </style>
                 {% render 'nextIcon' %}
                 </div>
-                
               </a>
             </div>
           </div>
