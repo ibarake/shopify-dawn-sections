@@ -28,7 +28,8 @@
                   {{ subcategory.name }}
                 </h2>
               </a>
-              <img src="Next icon.svg" alt="Next icon" style="fill: {{ titleAndSubtitleColor }};">
+              {% assign color = section.settings.titleAndSubtitleColor %}
+              <img src="Next icon.svg" alt="Next icon" style="fill: {{ color }};">
             </div>
           </div>
         {% endif %}
