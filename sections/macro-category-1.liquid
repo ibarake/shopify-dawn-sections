@@ -29,7 +29,9 @@
                 </h2>
               </a>
               {% assign color = section.settings.titleAndSubtitleColor %}
-              <img src="Next icon.svg" alt="Next icon" style="fill: {{ color }};">
+              <svg class="icon" style="fill: {{ color }};">
+                <use xlink:href="Next icon.svg"></use>
+              </svg>
             </div>
           </div>
         {% endif %}
