@@ -7,8 +7,8 @@
   outline: none;
 }
 .icono{
-  background-image:url(Next\ icon.svg);
-  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
 }
 .macro-cat-title {
   font-family: Open Sans;
