@@ -6,6 +6,9 @@
   border: none;
   outline: none;
 }
+.icon{
+  background-image:url(Next\ icon.svg);
+}
 .macro-cat-title {
   font-family: Open Sans;
   font-size: 28px;
