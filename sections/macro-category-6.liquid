@@ -3,7 +3,7 @@
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 
-<div class="page-width">
+<div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
   <p class="heading-categories-6" style="color: {{ section.settings.colorText }};">Explore more {{ macrocategory.name }}</p>
   <div class="macro-section-6">
     <div class="subcategories-6">
@@ -49,6 +49,12 @@
     {
       "type":"header",
       "content":" ------------ Background colors ------------ "
+    },
+    {
+      "type": "color",
+      "id": "backgroundSectionColor",
+      "label": "Background section color",
+      "default": "#FFFFFF"
     }
   ],
   "presets": [
