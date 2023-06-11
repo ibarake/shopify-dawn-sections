@@ -11,7 +11,7 @@
         {% assign limit = section.settings.numberCollections %}
         {% for subcategory in subcategories.value %}
           {% if forloop.index <= limit %}
-          <div class="subcategory-6">
+          <div class="subcategory-6" style="background-color:{{ section.settings.backgroundItemColor }};">
             <img src="{{ subcategory.image | image_url }}" alt="collection image">
             <p style="color: {{ section.settings.colorText }};">{{ subcategory.name }}</p>
           </div>
@@ -54,6 +54,12 @@
       "type": "color",
       "id": "backgroundSectionColor",
       "label": "Background section color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "backgroundItemColor",
+      "label": "Background subcategories item",
       "default": "#FFFFFF"
     }
   ],
