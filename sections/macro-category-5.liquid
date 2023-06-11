@@ -5,7 +5,7 @@
 {% for subcategory in subcategories.value %}
   {% if forloop.index == section.settings.subid %}
     {% assign collectionsarray = subcategory.collections %}
-    <div class="page-width" style="background-color:{{ section.settings.backgroundColor }};">
+    <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
       <p class="heading-categories-5" style="color: {{ section.settings.colorText }};">
         {{ subcategory.macro_section_title }}
       </p>
