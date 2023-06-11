@@ -25,17 +25,22 @@
                 </a>
               </div>
             </div>
+            {% assign limit = section.settings.numberCollections %}
             {% for collection in subcategoriescollections.value %}
-              <div class="item" style="background-color:{{ section.settings.itemColor }};">
-              <style>
-                .right .item:nth-child(4) {
-                  background-color: {{ section.settings.Color }} !important;
-                }
-              </style>
-                <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
-                <p class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
-                <p class="collection-description">{{ collection.marketing_description }}</p>
-              </div>
+              {% if forloop.index <= limit %}
+                <div class="item" style="background-color:{{ section.settings.itemColor }};">
+                  <style>
+                    .right .item:nth-child(4) {
+                      background-color: {{ section.settings.Color }} !important;
+                    }
+                  </style>
+                  <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
+                  <p class="collection-title" style="color: {{ section.settings.colorText }};">
+                    {{ collection.title }}
+                  </p>
+                  <p class="collection-description">{{ collection.marketing_description }}</p>
+                </div>
+              {% endif %}
             {% endfor %}
           </div>
         </div>
