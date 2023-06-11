@@ -34,17 +34,20 @@
       "type": "macro-category-3",
       "settings": {
         "subid": 2,
+        "box_position": "left",
         "colnum": 2,
         "numberCollections": 4,
-        "Color": "#f3efea",
-        "itemColor": "#ffffff",
         "colorText": "#000000",
-        "box_position": "left"
+        "Color": "#f3f3f3",
+        "itemColor": "#ffffff"
       }
     },
     "macro-category-4": {
       "type": "macro-category-4",
       "settings": {
+        "titleColor": "#000000",
+        "subColor": "#000000",
+        "backgroundColor": "#f2f2f2"
       }
     },
     "macro-category-5": {
