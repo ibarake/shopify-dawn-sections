@@ -6,20 +6,27 @@
   {% if forloop.index == section.settings.subid %}
     {% assign collectionsarray = subcategory.collections %}
     <div class="page-width">
-      <p class="heading-categories-5">{{ subcategory.macro_section_title }}</p>
+      <p class="heading-categories-5" style="color: {{ section.settings.colorText }};">
+        {{ subcategory.macro_section_title }}
+      </p>
       <div class="macro-section-5">
         <div class="collections-5">
+          {% assign limit = section.settings.numberCollections %}
           {% for collection in collectionsarray.value %}
-            <div class="collection-5">
-              <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
-              <p>{{ collection.title }}</p>
-              <style>
-                .column-container .iconNext {
-                  fill: {{ section.settings.titleAndSubtitleColor }};
-                }
-              </style>
-              {% render 'nextIcon' %}
-            </div>
+            {% if forloop.index <= limit %}
+              <div class="collection-5">
+                <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
+                <div class="link-container">
+                  <p style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
+                </div>
+                <style>
+                  .column-container .iconNext {
+                    fill: {{ section.settings.titleAndSubtitleColor }};
+                  }
+                </style>
+                {% render 'nextIcon' %}
+              </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -32,10 +39,34 @@
   "name": "macro-category-5",
   "settings": [
     {
+      "type":"header",
+      "content":" ------------- Configure section ------------- "
+    },
+    {
       "type": "number",
       "id": "subid",
-      "label": "id for sub of the macro you want to use for the section",
+      "label": "Id for sub of the macro you want to use for the section",
       "default": 2
+    },
+    {
+      "type": "number",
+      "id": "numberCollections",
+      "label": "Number of collections in the section",
+      "default": 2
+    },
+    {
+     "type":"header",
+     "content":" ----------------- Text colors ----------------- "
+    },
+    {
+     "type": "color",
+     "id": "colorText",
+     "label": "Text color",
+     "default": "#000000"
+    },
+    {
+      "type":"header",
+      "content":" ------------ Background colors ------------ "
     }
   ],
   "presets": [
