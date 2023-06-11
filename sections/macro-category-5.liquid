@@ -18,13 +18,13 @@
                 <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
                 <div class="link-container">
                   <p style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
-                </div>
-                <style>
+                  <style>
                   .column-container .iconNext {
                     fill: {{ section.settings.titleAndSubtitleColor }};
                   }
                 </style>
                 {% render 'nextIcon' %}
+                </div>
               </div>
             {% endif %}
           {% endfor %}
