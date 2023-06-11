@@ -4,7 +4,7 @@
 {% assign subcategories = macrocategory.subcategories %}
 
 <div class="page-width">
-  <p class="heading-categories-6">Explore more {{ macrocategory.name }}</p>
+  <p class="heading-categories-6" style="color: {{ section.settings.colorText }};">Explore more {{ macrocategory.name }}</p>
   <div class="macro-section-6">
     <div class="subcategories-6">
       <div class="subcategory-scroll">
@@ -13,7 +13,7 @@
           {% if forloop.index <= limit %}
           <div class="subcategory-6">
             <img src="{{ subcategory.image | image_url }}" alt="collection image">
-            <p>{{ subcategory.name }}</p>
+            <p style="color: {{ section.settings.colorText }};">{{ subcategory.name }}</p>
           </div>
         {% endif %}
         {% endfor %}
