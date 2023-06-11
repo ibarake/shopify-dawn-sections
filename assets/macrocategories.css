@@ -188,7 +188,7 @@ svg.next-icon {
   background-size: cover;
 }
 .section-macro-3 .right {
-  width: auto;
+  width: 50%;
   display: grid;
   overflow: hidden;
 }
