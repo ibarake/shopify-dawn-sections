@@ -4,15 +4,15 @@
 {% assign subcategories = macrocategory.subcategories %}
 
 <div class="page-width">
-  <p class="heading-categories">Shop by category</p>
+  <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Shop by category</p>
   <div class="macro-section-4">
     <div class="subcategories">
       {% for subcategory in subcategories.value %}
         <div class="subcategory">
-          <div class="imagewrap">
+          <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
             <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
           </div>
-          <p>{{ subcategory.name }}</p>
+          <p style="color: {{ section.settings.subColor }};">{{ subcategory.name }}</p>
         </div>
       {% endfor %}
     </div>
