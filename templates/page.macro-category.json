@@ -66,9 +66,9 @@
       "type": "macro-category-6",
       "settings": {
         "numberCollections": 7,
-        "colorText": "#fffcfc",
-        "backgroundSectionColor": "#dd1d1d",
-        "backgroundItemColor": "#1773b0"
+        "colorText": "#000000",
+        "backgroundSectionColor": "#fffcfc",
+        "backgroundItemColor": "#fffcfc"
       }
     },
     "macro-category-7": {
