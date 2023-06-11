@@ -3,15 +3,15 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "ARREGLA TU CASA",
-        "heading": "con estilos frescos",
+        "subheading": "Comer con tu estilo",
+        "heading": "tu hogar, tu estilo",
         "spacing": 236,
         "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
         "bg-color": "#f4f4f4",
         "color": "#000000",
         "img-position": "center center",
         "button-text": "compra ahora",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify:\/\/collections\/comedor",
         "btn-linebreak": "normal",
         "btn-bg-color-normal": "#363534",
         "btn-bg-color-hover": "#525252",
