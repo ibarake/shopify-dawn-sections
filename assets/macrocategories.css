@@ -438,12 +438,12 @@ p.collection-title {
     font-size: 2.4rem;
   }
   .container {
-    padding: 3rem 0;
+    padding-top: 3rem;
+    padding-bottom: 0;
   }
   .column-container {
     flex-wrap: wrap;
-    padding-top: 3rem;
-    padding-bottom: 0;
+    padding: 1.5rem;
   }
   .section-container-3 {
     flex-direction: column;
