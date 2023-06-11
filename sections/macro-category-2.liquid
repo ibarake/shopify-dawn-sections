@@ -42,6 +42,11 @@
                 <a href="{{ collection.url }}">
                   <div class="link-container">
                     <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
+                    <style>
+                    .section-bottom-2 .iconNext {
+                      fill: {{ section.settings.titleAndSubtitleColor }};
+                    }
+                  </style>
                     {% render 'nextIcon' %}
                   </div>
                 </a>
