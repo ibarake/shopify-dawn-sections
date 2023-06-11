@@ -12,10 +12,10 @@
       "type": "macro-category-1",
       "settings": {
         "colnum": 3,
-        "titleAndSubtitleColor": "#c60f2f",
-        "saleTextColor": "#1773b0",
-        "backgroundColor": "#1773b0",
-        "backgroundSaleColor": "#6fc60f"
+        "titleAndSubtitleColor": "#121212",
+        "saleTextColor": "#ffffff",
+        "backgroundColor": "#f3efea",
+        "backgroundSaleColor": "#c60f2f"
       }
     },
     "macro-category-2": {
@@ -25,8 +25,8 @@
         "colnum": 3,
         "box_position": "right",
         "colorText": "#121212",
-        "Color": "#1773b0",
-        "ColorImageCollections": "#f3efea",
+        "Color": "#ffffff",
+        "ColorImageCollections": "#f3f3f3",
         "colorItemsCollections": "#ffffff"
       }
     },
@@ -35,8 +35,8 @@
       "settings": {
         "subid": 2,
         "box_position": "left",
-        "colnum": 1,
-        "numberCollections": 2,
+        "colnum": 2,
+        "numberCollections": 4,
         "colorText": "#000000",
         "Color": "#f3f3f3",
         "itemColor": "#ffffff"
@@ -56,17 +56,17 @@
       "type": "macro-category-5",
       "settings": {
         "subid": 2,
-        "numberCollections": 2,
+        "numberCollections": 3,
         "colorText": "#000000",
-        "backgroundSectionColor": "#ffffff",
+        "backgroundSectionColor": "#fff",
         "backgroundItemColor": "#ffffff"
       }
     },
     "macro-category-6": {
       "type": "macro-category-6",
       "settings": {
-        "numberCollections": 7,
-        "colorText": "#000000",
+        "numberCollections": 3,
+        "colorText": "#121212",
         "backgroundSectionColor": "#fffcfc",
         "backgroundItemColor": "#fffcfc"
       }
