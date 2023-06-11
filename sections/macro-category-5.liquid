@@ -9,7 +9,7 @@
       <p class="heading-categories-5" style="color: {{ section.settings.colorText }};">
         {{ subcategory.macro_section_title }}
       </p>
-      <div class="macro-section-5">
+      <div class="macro-section-5" style="background-color:{{ section.settings.backgroundColor }};">
         <div class="collections-5">
           {% assign limit = section.settings.numberCollections %}
           {% for collection in collectionsarray.value %}
