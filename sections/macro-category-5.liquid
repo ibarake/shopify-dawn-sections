@@ -9,11 +9,14 @@
       <p class="heading-categories-5">{{ subcategory.macro_section_title }}</p>
       <div class="macro-section-5">
         <div class="collections-5">
+          {% assign limit = section.settings.numberCollections %}
           {% for collection in collectionsarray.value %}
-            <div class="collection-5">
-              <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
-              <p>{{ collection.title }}</p>
-            </div>
+            {% if forloop.index <= limit %}
+              <div class="collection-5">
+                <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
+                <p>{{ collection.title }}</p>
+              </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -29,6 +32,12 @@
       "type": "number",
       "id": "subid",
       "label": "id for sub of the macro you want to use for the section",
+      "default": 2
+    },
+    {
+      "type": "number",
+      "id": "numberCollections",
+      "label": "number of collections in the section",
       "default": 2
     }
   ],
