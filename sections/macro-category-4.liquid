@@ -7,7 +7,7 @@
   <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Shop by category</p>
   <div class="macro-section-4">
     <div class="subcategories">
-      {% assign limit = section.settings.numberCollections %}
+      {% assign limit = section.settings.numberSubcategories %}
       {% for subcategory in subcategories.value %}
         {% if forloop.index <= limit %}
         <div class="subcategory">
