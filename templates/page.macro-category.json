@@ -48,18 +48,27 @@
         "numberSubcategories": 8,
         "titleColor": "#000000",
         "subColor": "#000000",
+        "backgroundSectionColor": "#FFFFFF",
         "backgroundColor": "#f2f2f2"
       }
     },
     "macro-category-5": {
       "type": "macro-category-5",
       "settings": {
-        "subid": 2
+        "subid": 2,
+        "numberCollections": 2,
+        "colorText": "#000000",
+        "backgroundSectionColor": "#FFFFFF",
+        "backgroundItemColor": "#FFFFFF"
       }
     },
     "macro-category-6": {
       "type": "macro-category-6",
       "settings": {
+        "numberCollections": 7,
+        "colorText": "#fffcfc",
+        "backgroundSectionColor": "#dd1d1d",
+        "backgroundItemColor": "#1773b0"
       }
     },
     "macro-category-7": {
