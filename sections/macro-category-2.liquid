@@ -32,18 +32,24 @@
         <div class="section-bottom-2">
           {% for collection in subcategoriescollections.value %}
             {% if forloop.index <= section.settings.colnum %}
-              <div class="column"  style="background-color: {{ section.settings.colorItemsCollections }};">
-                <img src="{{ collection.image | image_url }}" alt="sub image" class="img" style="background-color: {{ section.settings.ColorImageCollections }};">
+              <div class="column" style="background-color: {{ section.settings.colorItemsCollections }};">
+                <img
+                  src="{{ collection.image | image_url }}"
+                  alt="sub image"
+                  class="img"
+                  style="background-color: {{ section.settings.ColorImageCollections }};"
+                >
                 <a href="{{ collection.url }}">
-                  <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
-                 
-                </a>
-                <style>
+                  <div class="link-container">
+                    <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
+                    <style>
                       g.iconNext {
                         fill: {{ section.settings.colorText }};
                       }
                     </style>
-                  {% render 'nextIcon' %}
+                    {% render 'nextIcon' %}
+                  </div>
+                </a>
               </div>
             {% endif %}
           {% endfor %}
@@ -108,7 +114,7 @@
       "id": "Color",
       "label": "Background color item title",
       "default": "#F3EFEA"
-    }, 
+    },
     {
       "type": "color",
       "id": "ColorImageCollections",
