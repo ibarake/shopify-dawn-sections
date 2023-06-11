@@ -379,6 +379,9 @@ p.collection-title {
     margin-bottom: 20px;
     margin-right: 5px;
   }
+  .section-macro-3 .right {
+    width: auto;
+  }
   .link-shop {
     margin-left: auto;
     margin-right: 3%;
