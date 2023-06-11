@@ -11,7 +11,7 @@
     "macro-category-1": {
       "type": "macro-category-1",
       "settings": {
-        "colnum": 3,
+        "colnum": 4,
         "titleAndSubtitleColor": "#393731",
         "saleTextColor": "#ffffff",
         "backgroundColor": "#fffaee",
@@ -35,7 +35,6 @@
       "settings": {
         "subid": 2,
         "colnum": 2,
-        "rownum": 2,
         "Color": "#f3efea",
         "itemColor": "#ffffff",
         "colorText": "#000000",
