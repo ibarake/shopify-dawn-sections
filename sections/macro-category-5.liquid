@@ -6,7 +6,7 @@
   {% if forloop.index == section.settings.subid %}
     {% assign collectionsarray = subcategory.collections %}
     <div class="page-width">
-      <p class="heading-categories-5">{{ subcategory.macro_section_title }}</p>
+      <p class="heading-categories-5" style="color: {{ section.settings.colorText }};">{{ subcategory.macro_section_title }}</p>
       <div class="macro-section-5">
         <div class="collections-5">
           {% assign limit = section.settings.numberCollections %}
@@ -14,7 +14,7 @@
             {% if forloop.index <= limit %}
               <div class="collection-5">
                 <img src="{{ collection.metafields.image.room | image_url }}" alt="collection image">
-                <p>{{ collection.title }}</p>
+                <p style="color: {{ section.settings.colorText }};">{{ collection.title }}</p>
               </div>
             {% endif %}
           {% endfor %}
@@ -50,7 +50,7 @@
     },
     {
      "type": "color",
-     "id": "titleColor",
+     "id": "colorText",
      "label": "Text color",
      "default": "#000000"
     },
