@@ -8,11 +8,14 @@
   <div class="macro-section-6">
     <div class="subcategories-6">
       <div class="subcategory-scroll">
+        {% assign limit = section.settings.numberCollections %}
         {% for subcategory in subcategories.value %}
+          {% if forloop.index <= limit %}
           <div class="subcategory-6">
             <img src="{{ subcategory.image | image_url }}" alt="collection image">
             <p>{{ subcategory.name }}</p>
           </div>
+        {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -22,7 +25,14 @@
 {% schema %}
 {
   "name": "macro-category-6",
-  "settings": [],
+  "settings": [
+    {
+      "type": "number",
+      "id": "numberCollections",
+      "label": "Number of collections in the section",
+      "default": 2
+    }
+  ],
   "presets": [
   {
     "category": "macro-category-6",
