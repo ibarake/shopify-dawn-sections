@@ -305,7 +305,7 @@ p.collection-title {
   overflow-y: hidden;
 }
 .subcategory-scroll {
-  width: 200%;
+  width: auto;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
