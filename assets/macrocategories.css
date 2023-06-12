@@ -458,7 +458,7 @@ p.collection-title {
   .heading-categories-6 {
     font-size: 1.2em;
   }
-  .macro-section-6 .subcategories-6 {
+  .macro-section-6 .subcategory-scroll {
     flex: 1 0 100%;
     max-width: 50%;
     margin-right: 10px;
