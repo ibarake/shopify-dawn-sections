@@ -455,18 +455,23 @@ p.collection-title {
   .img-item {
     height: auto;
   }
-    .macro-section-6 {
-      flex-wrap: wrap;
-    }
-
-    .subcategory-6 {
-      width: 50%; /* Ajusta el ancho de cada subcategoría según tus necesidades */
-    }
-
-    .subcategory-scroll {
-      overflow-x: initial;
-      /* Ajusta el estilo del scroll horizontal según tus necesidades */
-    }
+  .heading-categories-6 {
+    font-size: 1.2em;
+  }
+  .macro-section-6 .subcategories-6 {
+    flex: 1 0 100%;
+    max-width: 50%;
+    margin-right: 10px;
+  }
+  .macro-section-6 .subcategories-6 p {
+    font-size: 0.8em;
+  }
+  .macro-section-6 .subcategories-6 img {
+    width: 100%;
+  }
+  .macro-section-6 p.collection-title {
+    width: 44%;
+  }
 }
 @media only screen and (max-width: 678px) {
   .subcategories {
