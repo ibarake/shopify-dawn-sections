@@ -516,12 +516,6 @@
 
             {%- for link in section.settings.menu.links -%}
               <li>
-                          {% assign macrocategory = page.metafields.custom.reference.value %}
-{% assign subcategories = macrocategory.subcategories %}
-                  {% for subcategory in subcategories.value %}
-    <p> {{ subcategory.name }}</p>
-        </div>
-      {% endfor %}
                 {%- if link.links != blank -%}
                   <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
