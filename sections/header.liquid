@@ -516,11 +516,7 @@
             {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
                   {% for subcategory in subcategories.value %}
-        <div class="subcategory">
-          <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
-            <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
-          </div>
-          <p style="color: {{ section.settings.subColor }};">{{ subcategory.name }}</p>
+     {{ subcategory.name }}</p>
         </div>
       {% endfor %}
             {%- for link in section.settings.menu.links -%}
