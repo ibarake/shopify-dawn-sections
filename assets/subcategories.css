@@ -593,6 +593,11 @@ p.collection-title.style3 {
     max-height: 180px;
     max-width: 100%;
   }
+  .macro-section-6 .next-icon {
+    transform: scale(.3);
+    margin-top: -20px;
+    margin-left: -4%;
+}
 }
 @media only screen and (max-width: 678px) {
   .collections {
