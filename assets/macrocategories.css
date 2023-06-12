@@ -478,6 +478,10 @@ p.collection-title {
     margin-top: -20px;
     margin-left: -4%;
   }
+  .macro-section-6 .next-icon{
+    margin-top: -16px;
+    margin-left: -3%;
+  }
 }
 @media only screen and (max-width: 678px) {
   .subcategories {
