@@ -33,7 +33,7 @@
     "macro-category-3": {
       "type": "macro-category-3",
       "settings": {
-        "subid": 2,
+        "subid": 3,
         "box_position": "left",
         "colnum": 2,
         "numberCollections": 4,
@@ -58,7 +58,7 @@
         "subid": 2,
         "numberCollections": 3,
         "colorText": "#000000",
-        "backgroundSectionColor": "#fff",
+        "backgroundSectionColor": "#ffffff",
         "backgroundItemColor": "#ffffff"
       }
     },
