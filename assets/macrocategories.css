@@ -455,20 +455,7 @@ p.collection-title {
   .img-item {
     height: auto;
   }
-  .heading-categories-6 {
-    font-size: 1.2em;
-  }
-  .subcategory-6 {
-      flex: 1 0 100%;
-    max-width: 50%;
-    margin-right: 10px;
-  }
-  .subcategories-6 {
-    height: 11em;
-  }
-  .subcategory-6 p {
-    font-size: 0.8em;
-  }
+
 }
 @media only screen and (max-width: 678px) {
   .subcategories {
