@@ -473,6 +473,11 @@ p.collection-title {
     max-width: 50%;
     margin-right: -19%;
   }
+  .macro-section-5 .next-icon{
+    transform: scale(.3);
+    margin-top: -20px;
+    margin-left: -4%;
+  }
 }
 @media only screen and (max-width: 678px) {
   .subcategories {
