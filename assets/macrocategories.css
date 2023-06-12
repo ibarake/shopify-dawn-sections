@@ -455,7 +455,18 @@ p.collection-title {
   .img-item {
     height: auto;
   }
+    .macro-section-6 {
+      flex-wrap: wrap;
+    }
 
+    .subcategory-6 {
+      width: 50%; /* Ajusta el ancho de cada subcategoría según tus necesidades */
+    }
+
+    .subcategory-scroll {
+      overflow-x: initial;
+      /* Ajusta el estilo del scroll horizontal según tus necesidades */
+    }
 }
 @media only screen and (max-width: 678px) {
   .subcategories {
