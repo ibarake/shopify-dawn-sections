@@ -471,7 +471,7 @@ p.collection-title {
   .subcategory-6 {
     flex: 1 0 100%;
     max-width: 50%;
-    margin-right: 10px;
+    margin-right: -19%;
   }
 }
 @media only screen and (max-width: 678px) {
