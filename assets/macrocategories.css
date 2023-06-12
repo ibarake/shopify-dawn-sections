@@ -311,9 +311,8 @@ p.collection-title {
   flex-wrap: nowrap;
 }
 .subcategory-6 {
-    flex: 1 0 100%;
-    max-width: 50%;
-    margin-right: 10px;
+  width: 20%;
+  margin: 0px 1% 80px 1%;
 }
 .subcategory-6 p {
   text-transform: uppercase;
