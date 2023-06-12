@@ -468,6 +468,11 @@ p.collection-title {
   .macro-section-6 p.collection-title {
     width: 44%;
   }
+  .subcategory-6 {
+    flex: 1 0 100%;
+    max-width: 50%;
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 678px) {
   .subcategories {
