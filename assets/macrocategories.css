@@ -7,7 +7,6 @@
   outline: none;
 }
 .macro-cat-title {
-  font-family: Open Sans;
   font-size: 28px;
   font-weight: normal;
   line-height: 36px;
@@ -67,7 +66,6 @@
 }
 .sale p {
   text-transform: uppercase;
-  font-family: Open Sans;
   font-size: 0.9em;
   font-weight: 200;
   margin: 3px 0px 0px 9px;
@@ -78,14 +76,12 @@
 }
 .heading span {
   margin: 0 0 0 1px;
-  font-family: Open Sans;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0;
 }
 .bolded-h {
   margin: 0px 17px 30px 20px;
-  font-family: Open Sans;
   font-size: 30px;
   font-weight: 900;
   letter-spacing: -0.4px;
@@ -154,7 +150,6 @@ svg.next-icon {
 }
 .sub-link {
   text-transform: uppercase;
-  font-family: Open Sans;
   font-size: 1em;
   font-weight: 500;
   margin: 10px 0px 20px 0px;
@@ -222,7 +217,6 @@ svg.next-icon {
 }
 p.collection-title {
   font-weight: bolder;
-  font-family: Open Sans;
   font-size: 14px;
   max-width: 100%;
   color: black;
@@ -396,7 +390,6 @@ p.collection-title {
     margin-top: 40px;
   }
   .collection-5 p {
-    font-family: Open Sans, Arial, sans-serif;
     line-height: 1.1428571429em;
     font-size: 1.1rem;
     font-weight: bold;
