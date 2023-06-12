@@ -585,6 +585,11 @@ p.collection-title.style3 {
   .collections-6 {
     flex-direction: column;
   }
+  .collections-6 p {
+    line-height: 1.1em;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
   .collection-6 {
     width: 100%;
     margin: 0px 0 40px 0;
