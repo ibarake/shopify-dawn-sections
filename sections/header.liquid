@@ -513,12 +513,7 @@
       {%- else -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
-            {% assign macrocategory = page.metafields.custom.reference.value %}
-{% assign subcategories = macrocategory.subcategories %}
-                  {% for subcategory in subcategories.value %}
-    <p> {{ subcategory.name }}</p>
-        </div>
-      {% endfor %}
+
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
