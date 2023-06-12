@@ -459,9 +459,9 @@ p.collection-title {
     font-size: 1.2em;
   }
   .subcategory-6 {
-    width: 30%;
-    height: 150px;
-    margin: 0px 1% 80px 1%;
+    flex: 1 0 100%;
+    max-width: 50%;
+    margin-right: 10px;
   }
   .subcategories-6 {
     height: 11em;
