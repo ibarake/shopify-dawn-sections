@@ -513,7 +513,14 @@
       {%- else -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
-            <h1>Hola puta</h1>
+                  {% for subcategory in subcategories.value %}
+        <div class="subcategory">
+          <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
+            <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
+          </div>
+          <p style="color: {{ section.settings.subColor }};">{{ subcategory.name }}</p>
+        </div>
+      {% endfor %}
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
