@@ -513,7 +513,8 @@
       {%- else -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
-            {% for subcategory in subcategories.value %}
+            <h1>Hola puta</h1>
+            {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
                   <header-menu>
