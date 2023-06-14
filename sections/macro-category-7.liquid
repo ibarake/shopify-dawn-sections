@@ -6,9 +6,10 @@
   </p>
   <div>
     <h1>Pruebas</h1>
-    {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
+    {% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign subcategories = macrocategory.subcategories %}
     <ul>
-      {%- for subcategory in macrocategory.subcategories -%}
+      {% for subcategory in subcategories.value %}
         <li>{{ subcategory.name }}</li>
       {%- endfor -%}
     </ul>
