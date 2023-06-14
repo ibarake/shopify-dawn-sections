@@ -1,6 +1,5 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
-{% assign macroitems = page.metafields.custom.reference.value %}
-{% assign subcategories = macroitems.subcategories %}
+
 <div class="text-macro-7">
   <p>
     {{ macrocategory.macro_page_text }}
@@ -8,11 +7,14 @@
   <div>
     <h1>Pruebas</h1>
     
-  
-    <ul>
-      {% for subcategory in subcategories.value %}
-        <li>{{ subcategory.name }}</li>
-      {%- endfor -%}
-    </ul>
+  <ul>
+                        {% assign macroitems = page.metafields.custom.reference.value %}
+                        {% assign subcategories = macroitems.subcategories %}
+                        <h2>Funciono puta</h2>
+                        {% for subcategory in subcategories.value %}
+                          <li>{{ subcategory.name }}</li>
+                        {%- endfor -%}
+                      </ul>
+    
   </div>
 </div>
