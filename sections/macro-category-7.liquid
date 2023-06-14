@@ -5,6 +5,12 @@
     {{ macrocategory.macro_page_text }}
   </p>
   <div>
-  <h1> Pruebas</h1>
-</div>
+    <h1>Pruebas</h1>
+    {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
+    <ul>
+      {%- for subcategory in macrocategory.subcategories -%}
+        <li>{{ subcategory.name }}</li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </div>
