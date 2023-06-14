@@ -6,7 +6,7 @@
   </p>
   <div>
     <h1>Pruebas</h1>
-    {% assign macrocategory = page.metafields.custom.reference.value %}
+    {% assign macrocategory = page.metafields.custom.reference.values %}
 {% assign subcategories = macrocategory.subcategories %}
 
 {%- for macrocategory in macrocategories -%}
