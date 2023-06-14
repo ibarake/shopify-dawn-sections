@@ -8,4 +8,12 @@
 {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
 {%- for macrocategory in macrocategories -%}
   {{ macrocategory.name}}
+  <ul>
+                        {% assign macroitems = page.metafields.custom.reference.value %}
+                        {% assign subcategories = macroitems.subcategories %}
+                        <h2>Funciono puta</h2>
+                        {% for subcategory in subcategories.value %}
+                          <li>{{ subcategory.name }}</li>
+                        {%- endfor -%}
+                      </ul>
 {%- endfor -%}
