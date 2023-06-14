@@ -8,6 +8,9 @@
     <h1>Pruebas</h1>
     {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
+{%- for macrocategory in macrocategories -%}
+  {{ macrocategory.name | escape }}
+  {%- endfor -%}
     <ul>
       {% for subcategory in subcategories.value %}
         <li>{{ subcategory.name }}</li>
