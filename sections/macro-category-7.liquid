@@ -1,6 +1,5 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
  {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
-          
           {%- if macrocategories != blank -%}
             <nav class="header__inline-menu">
               <ul class="list-menu list-menu--inline" role="list">
