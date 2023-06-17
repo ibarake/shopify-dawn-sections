@@ -23,6 +23,9 @@
     },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
+      "custom_css": [
+        ".banner__box {display: none;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-01-13_at_9.46.40_PM.jpg",
         "image_overlay_opacity": 0,
