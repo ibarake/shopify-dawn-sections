@@ -7,43 +7,61 @@
         "padding_bottom": 28
       }
     },
-    "7e2b1209-d4eb-4ff5-a45d-04f3b77ac499": {
-      "type": "multicolumn",
+    "9c032288-6542-4bc0-9511-fb3c7cf74476": {
+      "type": "slideshow",
       "blocks": {
-        "template--19647063589171__7e2b1209-d4eb-4ff5-a45d-04f3b77ac499-16873898871c0ba729-0": {
-          "type": "column",
+        "template--19647063589171__9c032288-6542-4bc0-9511-fb3c7cf74476-16873900916039aba5-0": {
+          "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/23_AHS_BHP_AboutAshley_LP_DK_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19647063589171__9c032288-6542-4bc0-9511-fb3c7cf74476-16873900916039aba5-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--19647063589171__7e2b1209-d4eb-4ff5-a45d-04f3b77ac499-16873898871c0ba729-0"
+        "template--19647063589171__9c032288-6542-4bc0-9511-fb3c7cf74476-16873900916039aba5-0",
+        "template--19647063589171__9c032288-6542-4bc0-9511-fb3c7cf74476-16873900916039aba5-1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
   "order": [
     "main",
-    "7e2b1209-d4eb-4ff5-a45d-04f3b77ac499"
+    "9c032288-6542-4bc0-9511-fb3c7cf74476"
   ]
 }
