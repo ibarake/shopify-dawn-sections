@@ -10,7 +10,6 @@
     "67d7aaf5-e986-470e-9005-a37d6684b9c0": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/23_AHS_BHP_AboutAshley_LP_DK_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -22,10 +21,41 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "39fb3151-406a-4bf2-970c-62eab757adfe": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>N U E S T R O  - P R O P Ó S I T O<\/strong><\/h5>"
+          }
+        },
+        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-1",
+        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "67d7aaf5-e986-470e-9005-a37d6684b9c0"
+    "67d7aaf5-e986-470e-9005-a37d6684b9c0",
+    "39fb3151-406a-4bf2-970c-62eab757adfe"
   ]
 }
