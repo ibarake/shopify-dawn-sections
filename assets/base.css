@@ -2262,7 +2262,7 @@ input[type='checkbox'] {
     align-items: center;
     justify-items: center;
     padding: 1.875rem 0.9375rem 1.25rem;
-    width: 100%;
+    width: 99%;
 }
 
 .header-bottom-border{
