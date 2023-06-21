@@ -266,10 +266,9 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
               "heading": "Sobre Ashley",
-              "menu": "footer-sobre-ashley"
+              "menu": "sobre-ashley"
             }
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
