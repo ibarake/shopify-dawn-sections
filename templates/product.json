@@ -10,22 +10,48 @@
             "text_style": "uppercase"
           }
         },
-        "title": { "type": "title", "settings": {} },
-        "price": { "type": "price", "settings": {} },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": { "picker_type": "button" }
+          "settings": {
+            "picker_type": "button"
+          }
         },
-        "quantity_selector": { "type": "quantity_selector", "settings": {} },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": { "show_dynamic_checkout": true }
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
-        "description": { "type": "description", "settings": {} },
-        "share": { "type": "share", "settings": { "share_label": "Share" } },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "c589598a-c51a-4679-92d2-0fe79ced895b": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -56,24 +82,29 @@
       "blocks": {
         "column-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": ["column-0", "column-1"],
+      "block_order": [
+        "column-0",
+        "column-1"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -94,7 +125,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "También te puede gustar",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -111,7 +142,7 @@
     "1019d179-9363-4397-bb86-e5190b6615ac": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/CollectionA_Banner_Abinger_Sofa.jpg",
+        "image": "shopify:\/\/shop_images\/CollectionA_Banner_Abinger_Sofa.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -127,7 +158,7 @@
     "36fe26bc-e236-47ce-90a6-ec84501ec813": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/AHS_Stationary_PDP_IconSet23_DK.jpg",
+        "image": "shopify:\/\/shop_images\/AHS_Stationary_PDP_IconSet23_DK.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -146,14 +177,14 @@
         "template--17587688014131__16600dcd-463d-4cea-9d63-03b99949e863-16736623847f0e0970-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Productos recientemente vistos</p>",
+            "heading": "<p>Productos recientemente vistos<\/p>",
             "heading_size": "h1"
           }
         },
         "template--17587688014131__16600dcd-463d-4cea-9d63-03b99949e863-16736623847f0e0970-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
         "template--17587688014131__16600dcd-463d-4cea-9d63-03b99949e863-16736623847f0e0970-2": {
