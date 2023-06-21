@@ -1,6 +1,7 @@
 {
   "current": {
     "show_breadcrumb_nav": true,
+    "breadcrumb_delimeter": "slash",
     "breadcrumb_text_color": "#121212",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#363534",
