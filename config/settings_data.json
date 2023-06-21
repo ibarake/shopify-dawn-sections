@@ -3,7 +3,7 @@
     "show_breadcrumb_nav": true,
     "breadcrumb_text_color": "#121212",
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
+    "colors_accent_1": "#363534",
     "gradient_accent_1": "",
     "colors_accent_2": "{{ shop.brand.colors.primary[0].background }}",
     "gradient_accent_2": "",
@@ -294,7 +294,7 @@
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/Ashley_footer_logo_f70fe410-2d4a-4e6a-aad6-5f126c8445f6.png",
-          "color_scheme": "accent-1",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Suscríbete a nuestro newsletter",
           "phone-number": "Enter company phone number",
