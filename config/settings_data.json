@@ -166,6 +166,7 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Sobre Ashley",
               "menu": "footer-sobre-ashley"
@@ -173,6 +174,7 @@
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Ayuda  \/ Experiencia Ashley",
               "menu": "footer-ayuda-ashley"
