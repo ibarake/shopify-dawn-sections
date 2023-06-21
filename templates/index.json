@@ -3,7 +3,7 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "Comer con tu estilo",
+        "subheading": "Abrimos nuestras puertas",
         "heading": "tu hogar, tu estilo",
         "spacing": 236,
         "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
@@ -23,6 +23,7 @@
     },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".banner__box {display: none;}"
       ],
@@ -279,7 +280,7 @@
         "fd87f9a0-64ac-4887-ab2e-d31663082297"
       ],
       "settings": {
-        "title": "mejores ofertas",
+        "title": "conoce nuestras categorías",
         "heading_size": "h0",
         "image_ratio": "square",
         "columns_desktop": 5,
