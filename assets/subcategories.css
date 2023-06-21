@@ -577,18 +577,8 @@ p.collection-title.style3 {
   .sub-section-5 p.collection-title {
     width: 44%;
   }
-  .heading-subcategory-6 {
-    font-size: 1.4em;
-    text-align: left;
-    margin-top: 40px;
-  }
   .collections-6 {
     flex-direction: column;
-  }
-  .collections-6 p {
-    line-height: 1.1em;
-    font-size: 1.1rem;
-    font-weight: 700;
   }
   .collection-6 {
     width: 100%;
