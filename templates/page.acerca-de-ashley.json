@@ -25,10 +25,12 @@
     "39fb3151-406a-4bf2-970c-62eab757adfe": {
       "type": "rich-text",
       "blocks": {
-        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-1": {
-          "type": "text",
+        "e2a3314c-79d6-483f-9c16-5232cf431adb": {
+          "type": "caption",
           "settings": {
-            "text": "<h4><strong>NUESTRO    PROPÓSITO<\/strong><\/h4>"
+            "caption": "NUESTRO    PROPÓSITO",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
         "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-0": {
@@ -40,7 +42,7 @@
         }
       },
       "block_order": [
-        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-1",
+        "e2a3314c-79d6-483f-9c16-5232cf431adb",
         "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-0"
       ],
       "settings": {
@@ -48,14 +50,59 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 28,
         "padding_bottom": 52
+      }
+    },
+    "ba277442-b64e-4d5d-99ee-8e4f9aaf1bda": {
+      "type": "image-with-text",
+      "blocks": {
+        "8f5ead8e-2230-45c3-8bd1-998e9ed210e5": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "8f5ead8e-2230-45c3-8bd1-998e9ed210e5",
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-0",
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "67d7aaf5-e986-470e-9005-a37d6684b9c0",
-    "39fb3151-406a-4bf2-970c-62eab757adfe"
+    "39fb3151-406a-4bf2-970c-62eab757adfe",
+    "ba277442-b64e-4d5d-99ee-8e4f9aaf1bda"
   ]
 }
