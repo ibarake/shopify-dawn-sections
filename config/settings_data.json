@@ -297,6 +297,7 @@
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Ayuda  \/ Experiencia Ashley",
               "menu": ""
@@ -304,6 +305,7 @@
           },
           "fc59b486-fc49-441d-b114-d71507b91697": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Services",
               "menu": ""
