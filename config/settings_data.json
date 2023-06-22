@@ -153,7 +153,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 1,
-              "menu-promo": "promo-menu"
+              "menu-promo": "promo-menu",
+              "image-promo-url": ""
             }
           },
           "f04b324e-b43b-4506-92ed-79ac3bca20c5": {
@@ -161,7 +162,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 2,
-              "menu-promo": "main-menu"
+              "menu-promo": "main-menu",
+              "image-promo-url": ""
             }
           },
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
@@ -169,7 +171,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 3,
-              "menu-promo": "promo-menu"
+              "menu-promo": "promo-menu",
+              "image-promo-url": ""
             }
           },
           "1c69075e-efb7-464d-8e2c-55a30d596df5": {
@@ -177,7 +180,8 @@
             "settings": {
               "macro-id": 4,
               "menu-promo": "promo-menu",
-              "image-promo": "shopify:\/\/shop_images\/91202-16-67-SW_BIG.jpg"
+              "image-promo": "shopify:\/\/shop_images\/91202-16-67-SW_BIG.jpg",
+              "image-promo-url": "shopify:\/\/products\/annora-wall-art"
             }
           },
           "4dc2e002-f586-440e-be5d-f3bba0c7d1cc": {
@@ -185,7 +189,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 5,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           },
           "95e5fcf3-b860-4f44-986d-cba3fb9c2bcc": {
@@ -193,7 +198,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 6,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           },
           "8a169905-8cc3-4c30-8ce6-9ebfe940d224": {
@@ -201,7 +207,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 7,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           },
           "017cac50-a62e-4521-bf26-2f2feb2d191d": {
@@ -209,7 +216,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 8,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           },
           "23e2c265-5e12-4be4-a565-bfc42cb3c47f": {
@@ -217,7 +225,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 9,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           },
           "82086b4b-60d7-4df4-8494-50da7a369c2d": {
@@ -225,7 +234,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 10,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           },
           "d387d0b0-830d-4431-b094-57701f0d96c4": {
@@ -233,7 +243,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 11,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           },
           "2bb8fa41-18a6-4e0a-85c6-bff4edcad293": {
@@ -241,7 +252,8 @@
             "disabled": true,
             "settings": {
               "macro-id": 12,
-              "menu-promo": ""
+              "menu-promo": "",
+              "image-promo-url": ""
             }
           }
         },
