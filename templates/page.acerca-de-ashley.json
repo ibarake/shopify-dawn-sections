@@ -155,7 +155,8 @@
         "9ba79713-4e78-4e52-bfa2-7b5d5addd473"
       ],
       "custom_css": [
-        ".title-wrapper-with-link {justify-content: center;}"
+        ".title-wrapper-with-link {justify-content: center;}",
+        ".multicolumn .title {font-weight:bold;}"
       ],
       "settings": {
         "title": "Multicolumn",
