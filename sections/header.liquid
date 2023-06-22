@@ -514,11 +514,9 @@
                             <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
                           </div>
                           <div class="bottom-content">
-                             {%- for link in section.block.settings.menu-promo.links -%}
+                             {%- for link in block.settings.menu-promo -%}
                                {%- if link.links != blank -%}
-                              <a href="{{ link.url }}" class="link-col">
-                              <span>{{ link.title | escape }}</span>
-                              </a>
+                              Funciona
                               {%- endif -%}
                             {% endfor %}
                           </div>
