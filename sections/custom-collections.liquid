@@ -258,10 +258,13 @@
 
           <div class="left">
             <div class="collection-image">
-              <img
+            <a href="{{ collection.url }}">
+                <img
                 class="mainimage"
                 src="{{ block.settings.collection.image | image_url }}"
                 alt="">
+            </a>
+              
             </div>
             <div class="button-container">
               <a href="{{ collection.url }}" class="btn-collections-all">{{ block.settings.button-title }}</a>
