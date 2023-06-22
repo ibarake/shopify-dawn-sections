@@ -199,6 +199,9 @@
         "2157caaa-ae23-4576-834e-d21baf1f10cd",
         "9ba79713-4e78-4e52-bfa2-7b5d5addd473"
       ],
+      "custom_css": [
+        ".title-wrapper-with-link{justify-content: center;}"
+      ],
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
