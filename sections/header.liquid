@@ -514,7 +514,7 @@
                             <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
                           </div>
                           <div class="bottom-content">
-                             {%- for link in block.settings.menu-promo -%}
+                             {%- for link in block.settings.menu-promo.links -%}
                                Entra a for
                                {%- if link.links != blank -%}
                               Funciona
