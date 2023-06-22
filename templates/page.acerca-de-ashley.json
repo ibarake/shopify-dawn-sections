@@ -91,7 +91,8 @@
       ],
       "custom_css": [
         "p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium.caption-with-letter-spacing {font-weight: bold;}",
-        ".image-with-text__heading {font-weight:bold;}"
+        ".image-with-text__heading {font-weight: bold;}",
+        "p {font-weight: 600;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ashley_direct_person_bd21f2ec-2173-4acc-8caa-f1529993ba4c.jpg",
