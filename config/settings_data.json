@@ -316,6 +316,9 @@
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2",
           "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
+        "custom_css": [
+          ".footer__column.footer__column--info{display:none;}"
+        ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/Ashley_footer_logo_f70fe410-2d4a-4e6a-aad6-5f126c8445f6.png",
           "color_scheme": "accent-1",
