@@ -511,7 +511,7 @@
                         </div>
                         <div class="image-content">
                           <div class="top-content">
-                            <a href="">
+                            <a href="{{ block.settings.image-promo-url}}">
                               <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
                             </a>
                           </div>
@@ -967,6 +967,11 @@
             "type": "image_picker",
             "id": "image-promo",
             "label": "Image"
+          },
+          {
+            "type": "url",
+            "id": "image-promo-url",
+            "label": "Link for image promotion"
           }
         ],
         "limit": 20
