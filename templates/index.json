@@ -23,6 +23,7 @@
     },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".banner__box {display: none;}"
       ],
@@ -342,24 +343,26 @@
             "heading-text": "Hazlo mas acogedor",
             "title-alignment": "center",
             "collection-title": "",
-            "collection": "sofas",
+            "collection": "ropa-de-cama-linos-de-banosy-mas-con-hasta-40-descuento",
             "button-title": "Add text",
-            "blocks-selection": "products",
+            "blocks-selection": "collections",
             "product_list": [
-              "lucina-loveseat",
-              "elyza-3-piezas-seccional",
-              "sofa-bladen",
-              "kiessel-de-2-piezas-seccional"
+              "alesandra",
+              "alessio-sofa",
+              "cama-nino",
+              "maimz-sofa",
+              "sofa-cama",
+              "sofa-altonbury"
             ],
             "collection_list": [
               "sabanas",
               "rooa-de-cama",
               "toallas-y-linos"
             ],
-            "poc-1": "Lucina Sofa 2 puestos",
-            "poc-2": "Elyza Modular",
-            "poc-3": "Sofá 3 puestos Balden",
-            "poc-4": "",
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }

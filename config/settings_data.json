@@ -150,6 +150,7 @@
         "blocks": {
           "d8102645-15e5-4527-9a78-717e61793ffd": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 1,
               "menu-promo": "promo-menu",
@@ -158,6 +159,7 @@
           },
           "f04b324e-b43b-4506-92ed-79ac3bca20c5": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 2,
               "menu-promo": "main-menu",
@@ -166,6 +168,7 @@
           },
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 3,
               "menu-promo": "promo-menu",
@@ -182,6 +185,7 @@
           },
           "4dc2e002-f586-440e-be5d-f3bba0c7d1cc": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 5,
               "menu-promo": "",
@@ -190,6 +194,7 @@
           },
           "95e5fcf3-b860-4f44-986d-cba3fb9c2bcc": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 6,
               "menu-promo": "",
@@ -198,6 +203,7 @@
           },
           "8a169905-8cc3-4c30-8ce6-9ebfe940d224": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 7,
               "menu-promo": "",
@@ -206,6 +212,7 @@
           },
           "017cac50-a62e-4521-bf26-2f2feb2d191d": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 8,
               "menu-promo": "",
@@ -214,6 +221,7 @@
           },
           "23e2c265-5e12-4be4-a565-bfc42cb3c47f": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 9,
               "menu-promo": "",
@@ -222,6 +230,7 @@
           },
           "82086b4b-60d7-4df4-8494-50da7a369c2d": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 10,
               "menu-promo": "",
@@ -230,6 +239,7 @@
           },
           "d387d0b0-830d-4431-b094-57701f0d96c4": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 11,
               "menu-promo": "",
@@ -238,6 +248,7 @@
           },
           "2bb8fa41-18a6-4e0a-85c6-bff4edcad293": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 12,
               "menu-promo": "",
