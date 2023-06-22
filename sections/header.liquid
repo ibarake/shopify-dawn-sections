@@ -232,7 +232,7 @@
                                     </li>
                                   {%- endfor -%}
                                 {%- for block in section.blocks -%}
-                                  {% if loop.first %}
+                                  {% if forloop.first %}
                                      <div class="image-content">
                                         <div class="top-content">
                                           <a href="{{ block.settings.image-promo-url}}">
