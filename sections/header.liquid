@@ -515,10 +515,12 @@
                           </div>
                           <div class="bottom-content">
                              {%- for link in block.settings.menu.links -%}
+                               {%- if link.links != blank -%}
                               <a href="{{ link.url }}" class="link-col">
                                 {{ forloop.index }}
                               <span>{{ link.title | escape }}</span>
                               </a>
+                              {%- endif -%}
                             {% endfor %}
                           </div>
                         </div>
