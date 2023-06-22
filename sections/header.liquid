@@ -511,7 +511,9 @@
                         </div>
                         <div class="image-content">
                           <div class="top-content">
-                            <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
+                            <a>
+                              <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
+                            </a>
                           </div>
                           <div class="bottom-content">
                              {%- for link in block.settings.menu-promo.links -%}
