@@ -516,10 +516,7 @@
                           <div class="bottom-content">
                              {%- for link in block.settings.menu-promo.links -%}
                                {%- if link != blank -%}
-                              Funciona
-                              {%- endif -%}
-                               {%- if link.links == blank -%}
-                              En blanco
+                               <span>{{ link.title | escape }}</span>
                               {%- endif -%}
                             {% endfor %}
                           </div>
