@@ -412,7 +412,7 @@
 
       {% for product in block.settings.product_list %}
         <div class="product-container">
-          <a class="product-text-container" href="#">
+          <a class="product-text-container" href="{{ product.url }}">
             <img
               class="product-image"
               src="{{ product.images[0] | image_url }}"
