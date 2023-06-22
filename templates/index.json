@@ -345,14 +345,11 @@
             "collection-title": "",
             "collection": "sofas",
             "button-title": "Add text",
-            "blocks-selection": "collections",
+            "blocks-selection": "products",
             "product_list": [
-              "alesandra",
-              "alessio-sofa",
-              "cama-nino",
-              "maimz-sofa",
-              "sofa-cama",
-              "sofa-altonbury"
+              "sofa-bladen",
+              "lucina-loveseat",
+              "kiessel-de-2-piezas-seccional"
             ],
             "collection_list": [
               "sabanas",
