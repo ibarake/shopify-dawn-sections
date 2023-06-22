@@ -23,7 +23,6 @@
     },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
-      "disabled": true,
       "custom_css": [
         ".banner__box {display: none;}"
       ],
