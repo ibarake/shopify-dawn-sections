@@ -124,6 +124,7 @@
         "template--19647063589171__9660274e-316f-4bad-9f90-394ccaa58dc1-16873934966ea0120c-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_14.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -133,6 +134,7 @@
         "2157caaa-ae23-4576-834e-d21baf1f10cd": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_14.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -142,6 +144,7 @@
         "9ba79713-4e78-4e52-bfa2-7b5d5addd473": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_13.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
