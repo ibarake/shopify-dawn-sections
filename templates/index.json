@@ -344,23 +344,22 @@
             "collection-title": "",
             "collection": "sofas",
             "button-title": "Add text",
-            "blocks-selection": "collections",
+            "blocks-selection": "products",
             "product_list": [
-              "alessio-sofa",
-              "cama-nino",
-              "maimz-sofa",
-              "sofa-cama",
-              "sofa-altonbury"
+              "lucina-loveseat",
+              "elyza-3-piezas-seccional",
+              "sofa-bladen",
+              "kiessel-de-2-piezas-seccional"
             ],
             "collection_list": [
               "sabanas",
               "rooa-de-cama",
               "toallas-y-linos"
             ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
+            "poc-1": "Lucina Sofa 2 puestos",
+            "poc-2": "Elyza Modular",
+            "poc-3": "Sofá 3 puestos Balden",
+            "poc-4": "",
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
