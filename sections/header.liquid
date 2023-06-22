@@ -518,6 +518,7 @@
                                {%- if link.links != blank -%}
                               <a href="{{ link.url }}" class="link-col">
                                 Hay {{ forloop.index }} elementos
+                                 {{ link.value }}
                               <span>{{ link.title | escape }}</span>
                               </a>
                               {%- endif -%}
