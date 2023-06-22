@@ -163,7 +163,8 @@
         ".multicolumn .title {font-weight: bold;}",
         ".multicolumn.background-primary .multicolumn-card {background: white;}",
         ".multicolumn-card__info {padding: 0px 2.5rem;}",
-        ".multicolumn-card-spacing {padding-top: 0;}"
+        ".multicolumn-card-spacing {padding-top: 0;}",
+        ".title-wrapper-with-link {margin: 5rem 0 0rem;}"
       ],
       "settings": {
         "title": "Multicolumn",
