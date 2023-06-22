@@ -516,7 +516,8 @@
                           <div class="bottom-content">
                              {%- for link in block.settings.menu.links -%}
                               <a href="{{ link.url }}" class="link-col">
-                              <span>{{ link.title }}</span>
+                                {{ forloop.index }}
+                              <span>{{ link.title | escape }}</span>
                               </a>
                             {% endfor %}
                           </div>
