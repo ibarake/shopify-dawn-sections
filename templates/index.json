@@ -446,6 +446,7 @@
         "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ICON_CSR.svg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -455,6 +456,7 @@
         "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ICON_HopeToDream.svg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -464,6 +466,7 @@
         "7711b335-1e04-495e-a41a-d1bfe7c614f1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ICON_PriceMatchGuarantee.svg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
