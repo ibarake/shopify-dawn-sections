@@ -326,7 +326,7 @@
           "newsletter_heading": "¡Suscríbete ahora y empieza a ahorrar!",
           "phone-number": "(+57) 061 482 30 00",
           "show_social": true,
-          "enable_country_selector": false,
+          "enable_country_selector": true,
           "enable_language_selector": false,
           "payment_enable": true,
           "margin_top": 16,
