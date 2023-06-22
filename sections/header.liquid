@@ -175,7 +175,7 @@
                                 <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                   {% render 'icon-arrow' %}
                                   {{ macrocategory.name | escape }}
-                                </button>
+                                </button> 
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {% assign subcategories = macrocategory.subcategories.value %}
                                   {% for subcategory in subcategories %}
@@ -212,6 +212,7 @@
                                     </li>
                                   {%- endfor -%}
                                 </ul>
+                                <h1>Aqui apareceria la imagen </h1>
                               </div>
                             </div>
                           </details>
