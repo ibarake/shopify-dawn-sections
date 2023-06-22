@@ -15,7 +15,9 @@
   .footer .grid {
     display: block;
   }
-
+.logo-footer {
+  display:block;
+}
   .footer-block.grid__item {
     padding: 0;
     margin: 4rem 0;
