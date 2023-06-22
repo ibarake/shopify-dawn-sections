@@ -232,6 +232,7 @@
                                     </li>
                                   {%- endfor -%}
                                 {%- for block in section.blocks -%}
+                                  {% if forloop.first %}
                                      <div class="image-content">
                                         <div class="top-content">
                                           <a href="{{ block.settings.image-promo-url}}">
@@ -251,7 +252,7 @@
                                           {% endfor %}
                                         </div>
                                     </div>
-                                   
+                                   {% endif %}
                                   {% endfor %}
                                 </ul>
                               </div>
