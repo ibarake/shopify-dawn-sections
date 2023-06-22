@@ -252,7 +252,7 @@
           "logo": "{{ shop.brand.logo }}",
           "logo_width": 170,
           "logo_position": "top-left",
-          "menu": "promo-menu",
+          "menu": "main-menu",
           "show_line_separator": false,
           "enable_sticky_header": false,
           "mobile_logo_position": "center",
@@ -268,7 +268,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Sobre Ashley",
-              "menu": "sobre-ashley"
+              "menu": ""
             }
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
@@ -276,14 +276,14 @@
             "disabled": true,
             "settings": {
               "heading": "Ayuda  \/ Experiencia Ashley",
-              "menu": "footer-ayuda-ashley"
+              "menu": ""
             }
           },
           "bf422567-176c-4e44-8344-f61f72f2b685": {
             "type": "link_list",
             "settings": {
               "heading": "Legal",
-              "menu": "footer-legal"
+              "menu": ""
             }
           }
         },
@@ -293,7 +293,6 @@
           "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Ashley_footer_logo_f70fe410-2d4a-4e6a-aad6-5f126c8445f6.png",
           "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "Suscríbete a nuestro newsletter",
@@ -538,7 +537,6 @@
             "logo_width": 90,
             "logo_position": "middle-left",
             "menu": "main-menu",
-            "menu_type_desktop": "dropdown",
             "show_line_separator": true,
             "enable_sticky_header": true,
             "mobile_logo_position": "center",
