@@ -516,7 +516,9 @@
                           <div class="bottom-content">
                              {%- for link in block.settings.menu-promo.links -%}
                                {%- if link != blank -%}
-                               <span>{{ link.title | escape }}</span>
+                                <a href="{{ link.url }}" class="link-col">
+                              <span>{{ link.title | escape }}</span>
+                              </a>
                               {%- endif -%}
                             {% endfor %}
                           </div>
