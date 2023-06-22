@@ -514,7 +514,7 @@
                             <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
                           </div>
                           <div class="bottom-content">
-                             {%- for link in section.settings.menu.links.values -%}
+                             {%- for link in section.settings.menu.links.value -%}
                                {%- if link.links != blank -%}
                               <a href="{{ link.url }}" class="link-col">
                               <span>{{ link.title | escape }}</span>
