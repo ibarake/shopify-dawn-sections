@@ -159,14 +159,14 @@
             "type": "menu",
             "settings": {
               "macro-id": 2,
-              "menu-promo": ""
+              "menu-promo": "main-menu"
             }
           },
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
             "type": "menu",
             "settings": {
               "macro-id": 3,
-              "menu-promo": ""
+              "menu-promo": "promo-menu"
             }
           },
           "1c69075e-efb7-464d-8e2c-55a30d596df5": {
