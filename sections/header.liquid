@@ -518,6 +518,9 @@
                                {%- if link.links != blank -%}
                               Funciona
                               {%- endif -%}
+                               {%- if link.links == blank -%}
+                              En blanco
+                              {%- endif -%}
                             {% endfor %}
                           </div>
                         </div>
