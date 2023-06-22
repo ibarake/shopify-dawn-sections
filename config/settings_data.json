@@ -180,7 +180,6 @@
             "settings": {
               "macro-id": 4,
               "menu-promo": "promo-menu",
-              "image-promo": "shopify:\/\/shop_images\/91202-16-67-SW_BIG.jpg",
               "image-promo-url": "shopify:\/\/products\/annora-wall-art"
             }
           },
@@ -317,6 +316,7 @@
           "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
         "settings": {
+          "logo": "shopify:\/\/shop_images\/Ashley_footer_logo_f70fe410-2d4a-4e6a-aad6-5f126c8445f6.png",
           "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "¡Suscríbete ahora y empieza a ahorrar!",
