@@ -517,9 +517,9 @@
                              {%- for link in section.settings.menu.links -%}
                                {%- if link.links != blank -%}
                               <a href="{{ link.url }}" class="link-col">
-                                Hay {{ forloop.index.values }} elementos
+                                Hay {{ forloop.index }} elementos
                                  
-                              <span>{{ link.title | escape }}</span>
+                              <span>{{ links.title | escape }}</span>
                               </a>
                               {%- endif -%}
                             {% endfor %}
