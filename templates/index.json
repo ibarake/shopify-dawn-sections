@@ -447,20 +447,20 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/ICON_CSR.svg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Responsabilidad social de la empresa",
+            "text": "<p>Infórmese de todo lo que hacemos para ayudar a nuestros empleados, al medio ambiente y a la comunidad.<\/p>",
+            "link_label": "Leer más",
+            "link": "shopify:\/\/pages\/acerca-de-ashley"
           }
         },
         "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/ICON_HopeToDream.svg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Soñar con esperanza",
+            "text": "<p>Todos los niños deben dormir bien y tener una cama propia.<\/p>",
+            "link_label": "Leer más",
+            "link": "https:\/\/www.ahopetodream.com"
           }
         },
         "7711b335-1e04-495e-a41a-d1bfe7c614f1": {
@@ -504,8 +504,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
