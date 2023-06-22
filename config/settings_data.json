@@ -307,7 +307,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Legal",
-              "menu": ""
+              "menu": "footer-legal"
             }
           }
         },
