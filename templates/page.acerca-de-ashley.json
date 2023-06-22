@@ -108,51 +108,6 @@
         "padding_bottom": 36
       }
     },
-    "98378411-2d2f-458e-955b-5b0dd8153122": {
-      "type": "image-with-text",
-      "blocks": {
-        "823685c1-a06e-4f3a-a171-e7219f2c0088": {
-          "type": "caption",
-          "settings": {
-            "caption": "el legado de ashley",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "010c34b7-56af-437a-bdc4-d0f2775137cd": {
-          "type": "heading",
-          "settings": {
-            "heading": "Nuestra historia",
-            "heading_size": "h1"
-          }
-        },
-        "e70cabf6-8f7f-46d0-9993-a6b9491eb854": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lo que una vez fue una empresa familiar con solo 35 empleados a mas de 35.000 miembros valiosos del equipo en todo el mundo. Con mas de 30 millones de pies cuadrados de espacio en instalaciones, cuenta con 155 instalaciones en todo el mundo lo que nos permite aprovechar proveedores y empresas, crear nuestros puestos de trabajo adicionales y continuar infundiendo economías.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "823685c1-a06e-4f3a-a171-e7219f2c0088",
-        "010c34b7-56af-437a-bdc4-d0f2775137cd",
-        "e70cabf6-8f7f-46d0-9993-a6b9491eb854"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Ashley_direct_person_bd21f2ec-2173-4acc-8caa-f1529993ba4c.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "9660274e-316f-4bad-9f90-394ccaa58dc1": {
       "type": "multicolumn",
       "blocks": {
@@ -200,7 +155,7 @@
         "9ba79713-4e78-4e52-bfa2-7b5d5addd473"
       ],
       "custom_css": [
-        ".title-wrapper-with-link{justify-content: center;}"
+        ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -218,6 +173,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "98378411-2d2f-458e-955b-5b0dd8153122": {
+      "type": "image-with-text",
+      "blocks": {
+        "823685c1-a06e-4f3a-a171-e7219f2c0088": {
+          "type": "caption",
+          "settings": {
+            "caption": "el legado de ashley",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "010c34b7-56af-437a-bdc4-d0f2775137cd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuestra historia",
+            "heading_size": "h1"
+          }
+        },
+        "e70cabf6-8f7f-46d0-9993-a6b9491eb854": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lo que una vez fue una empresa familiar con solo 35 empleados a mas de 35.000 miembros valiosos del equipo en todo el mundo. Con mas de 30 millones de pies cuadrados de espacio en instalaciones, cuenta con 155 instalaciones en todo el mundo lo que nos permite aprovechar proveedores y empresas, crear nuestros puestos de trabajo adicionales y continuar infundiendo economías.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "823685c1-a06e-4f3a-a171-e7219f2c0088",
+        "010c34b7-56af-437a-bdc4-d0f2775137cd",
+        "e70cabf6-8f7f-46d0-9993-a6b9491eb854"
+      ],
+      "custom_css": [
+        "p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium.caption-with-letter-spacing {font-weight: bold; letter-spacing: 3px; font-size: 1.4rem;}",
+        ".image-with-text__heading {font-weight: bold;}",
+        "p {font-weight: 600;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ashley_direct_person_bd21f2ec-2173-4acc-8caa-f1529993ba4c.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -225,7 +230,7 @@
     "67d7aaf5-e986-470e-9005-a37d6684b9c0",
     "39fb3151-406a-4bf2-970c-62eab757adfe",
     "ba277442-b64e-4d5d-99ee-8e4f9aaf1bda",
-    "98378411-2d2f-458e-955b-5b0dd8153122",
-    "9660274e-316f-4bad-9f90-394ccaa58dc1"
+    "9660274e-316f-4bad-9f90-394ccaa58dc1",
+    "98378411-2d2f-458e-955b-5b0dd8153122"
   ]
 }
