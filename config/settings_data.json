@@ -150,6 +150,7 @@
         "blocks": {
           "d8102645-15e5-4527-9a78-717e61793ffd": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 1,
               "menu-promo": "promo-menu"
@@ -175,7 +176,8 @@
             "type": "menu",
             "settings": {
               "macro-id": 4,
-              "menu-promo": "promo-menu"
+              "menu-promo": "promo-menu",
+              "image-promo": "shopify:\/\/shop_images\/91202-16-67-SW_BIG.jpg"
             }
           },
           "4dc2e002-f586-440e-be5d-f3bba0c7d1cc": {
