@@ -231,9 +231,8 @@
                                       {%- endif -%}
                                     </li>
                                   {%- endfor -%}
-                                
-                                </ul>
-                          {%- for block in section.blocks -%}
+                                {%- for block in section.blocks -%}
+                                  {% if loop.first %}
                                      <div class="image-content">
                                         <div class="top-content">
                                           <a href="{{ block.settings.image-promo-url}}">
@@ -253,7 +252,9 @@
                                           {% endfor %}
                                         </div>
                                     </div>
+                                    {%- endif -%}
                                   {% endfor %}
+                                </ul>
                               </div>
                             </div>
                           </details>
