@@ -15,12 +15,7 @@
   .footer .grid {
     display: block;
   }
-.logo-footer {
-  display:block !important;
-}
-  .logo-footer .field {
-    width: 100% !important;
-}
+
   .footer-block.grid__item {
     padding: 0;
     margin: 4rem 0;
