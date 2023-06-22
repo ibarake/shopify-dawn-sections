@@ -158,7 +158,8 @@
       "custom_css": [
         ".title-wrapper-with-link {justify-content: center;}",
         ".multicolumn .title {font-weight: bold;}",
-        ".multicolumn.background-primary .multicolumn-card {background: white;}"
+        ".multicolumn.background-primary .multicolumn-card {background: white;}",
+        ".multicolumn-card__info {padding: 0px 2.5rem;}"
       ],
       "settings": {
         "title": "Multicolumn",
