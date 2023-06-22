@@ -252,7 +252,7 @@
     {% if forloop.index == 1 %}
       <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
-    <h2 class="title-section">{{ block.settings.heading-text }}</h6>
+    <h2 class="title-section">{{ block.settings.heading-text }}</h2>
   </div>
         <div class="left-right">
 
@@ -261,7 +261,7 @@
             <a href="{{ collection.url }}">
                 <img
                 class="mainimage"
-                src="{{ block.settings.collection.image | image_url }}"
+                src="{{ block.settings.collection.image.src | image_url }}"
                 alt="">
             </a>
               
