@@ -46,7 +46,8 @@
         "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-0"
       ],
       "custom_css": [
-        "p.rich-text__caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {font-weight: 800;}"
+        "p.rich-text__caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {font-weight: 800;}",
+        "h2 {font-size: 3rem;}"
       ],
       "settings": {
         "desktop_content_position": "center",
