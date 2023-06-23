@@ -47,7 +47,7 @@
 
 <div class="breadcrumbs" aria-label="breadcrumbs">
     {%- unless template == 'index' or template == 'cart' -%}
-    <a href="https://tienda.ashleycolombia.com" title="Home">Home</a>
+    <a href="/" title="Home">Home</a>
     {%- case template.name -%}
         {%- when 'article' -%}
         {%- for link in linklists.main-menu.links -%}
@@ -267,5 +267,5 @@
 <script defer>
     const breadCrumbLinks = document.querySelectorAll(".breadcrumbs a")
     const lastLink = breadCrumbLinks[breadCrumbLinks.length - 1]
-    lastLink.href = "javascript:void(0)"
+    lastLink.href = "https://tienda.ashleycolombia.com"
 </script>
