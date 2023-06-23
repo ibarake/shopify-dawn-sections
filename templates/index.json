@@ -80,12 +80,13 @@
             "collection-title": "Salas",
             "collection": "salas",
             "button-title": "Add text",
-            "blocks-selection": "products",
+            "blocks-selection": "collections",
             "product_list": [
 
             ],
             "collection_list": [
-
+              "sofas-modulares",
+              "sofas"
             ],
             "poc-1": "Product 1 text",
             "poc-2": "Product 2 text",
