@@ -151,7 +151,7 @@
           "d8102645-15e5-4527-9a78-717e61793ffd": {
             "type": "menu",
             "settings": {
-              "macro-id": 2,
+              "macro-id": 1,
               "menu-promo": "",
               "image-promo-url": ""
             }
@@ -174,7 +174,6 @@
           },
           "1c69075e-efb7-464d-8e2c-55a30d596df5": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "macro-id": 4,
               "menu-promo": "",
@@ -184,7 +183,6 @@
           },
           "4dc2e002-f586-440e-be5d-f3bba0c7d1cc": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "macro-id": 5,
               "menu-promo": "",
