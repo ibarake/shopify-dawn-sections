@@ -47,10 +47,10 @@
         "18924a0a-302d-44e9-a158-a5c7c1fdab08": {
           "type": "collection",
           "settings": {
-            "heading-text": "Un lugar para compartir",
+            "heading-text": "Nuevo refugio de descanso",
             "title-alignment": "flex-start",
             "collection-title": "Comedores",
-            "collection": "comedor",
+            "collection": "dormitorio",
             "button-title": "Compra ahora",
             "blocks-selection": "collections",
             "product_list": [
