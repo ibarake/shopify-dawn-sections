@@ -148,10 +148,18 @@
       "header": {
         "type": "header",
         "blocks": {
-          "d8102645-15e5-4527-9a78-717e61793ffd": {
+          "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
             "type": "menu",
             "settings": {
-              "macro-id": 6,
+              "macro-id": 9,
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "4dc2e002-f586-440e-be5d-f3bba0c7d1cc": {
+            "type": "menu",
+            "settings": {
+              "macro-id": 10,
               "menu-promo": "",
               "image-promo-url": ""
             }
@@ -164,22 +172,6 @@
               "image-promo-url": ""
             }
           },
-          "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
-            "type": "menu",
-            "settings": {
-              "macro-id": 8,
-              "menu-promo": "",
-              "image-promo-url": ""
-            }
-          },
-          "4dc2e002-f586-440e-be5d-f3bba0c7d1cc": {
-            "type": "menu",
-            "settings": {
-              "macro-id": 9,
-              "menu-promo": "",
-              "image-promo-url": ""
-            }
-          },
           "1c69075e-efb7-464d-8e2c-55a30d596df5": {
             "type": "menu",
             "settings": {
@@ -188,14 +180,22 @@
               "image-promo": "shopify:\/\/shop_images\/Sala_de_Estar_sin_fondo.webp",
               "image-promo-url": "shopify:\/\/products\/annora-wall-art"
             }
+          },
+          "d8102645-15e5-4527-9a78-717e61793ffd": {
+            "type": "menu",
+            "settings": {
+              "macro-id": 6,
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
           }
         },
         "block_order": [
-          "d8102645-15e5-4527-9a78-717e61793ffd",
-          "f04b324e-b43b-4506-92ed-79ac3bca20c5",
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7",
           "4dc2e002-f586-440e-be5d-f3bba0c7d1cc",
-          "1c69075e-efb7-464d-8e2c-55a30d596df5"
+          "f04b324e-b43b-4506-92ed-79ac3bca20c5",
+          "1c69075e-efb7-464d-8e2c-55a30d596df5",
+          "d8102645-15e5-4527-9a78-717e61793ffd"
         ],
         "settings": {
           "color_scheme": "background-1",
