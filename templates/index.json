@@ -44,143 +44,37 @@
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
       "type": "custom-collections",
       "blocks": {
-        "18924a0a-302d-44e9-a158-a5c7c1fdab08": {
+        "b6f82881-e698-4c53-bc50-d4a93f6bf13b": {
           "type": "collection",
           "settings": {
-            "heading-text": "Un lugar para compartir",
+            "heading-text": "nuevo refugio de descanso",
             "title-alignment": "flex-start",
             "collection-title": "Dormitorio",
             "collection": "dormitorio",
-            "button-title": "Compra ahora",
+            "button-title": "todo en dormitorios",
             "blocks-selection": "collections",
             "product_list": [
 
             ],
             "collection_list": [
-
+              "juegos-de-dormitorio",
+              "camas-1",
+              "cabeceros-1",
+              "mesas-de-noche",
+              "cajonera-con-espejo",
+              "almacenamiento-en-cubos"
             ],
-            "poc-1": "Texitles",
-            "poc-2": "Habitaciones",
-            "poc-3": "Linos",
-            "poc-4": "Comedores",
-            "poc-5": "Detalles",
-            "poc-6": "Espejos"
-          }
-        },
-        "f4abb9d3-0a39-4463-8536-1f82051dd3ae": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "habitaciones",
-            "collection": "habitacion",
-            "button-title": "Add text",
-            "blocks-selection": "collections",
-            "product_list": [
-              "accrington-arraz-izquierdo-frente-a-la-esquina-chaise",
-              "accrington-arrazo-derecho-hacia-la-esquina-chaise",
-              "accrington-con-el-brazo-izquierdo-frente-al-sofa",
-              "accrington-con-el-sofa-de-brazo-derecho",
-              "accrington-otomana-de-gran-tamano"
-            ],
-            "collection_list": [
-              "alfombras",
-              "camas",
-              "colchones",
-              "comedor",
-              "decoracion",
-              "espejos"
-            ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
-        "bc256156-fac4-4301-91df-d1866b473b4b": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "para la estancia más habitada",
-            "title-alignment": "flex-start",
-            "collection-title": "salas",
-            "collection": "salas",
-            "button-title": "Add text",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "muebles-reclinables",
-              "mueble-para-television",
-              "mesas-de-cafe",
-              "sofas-dos-puestos",
-              "sofas-cama",
-              "sofa-dos-puestos"
-            ],
-            "poc-1": "Muebles reclinables",
-            "poc-2": "Muebles de TV",
-            "poc-3": "Mesas de centro",
-            "poc-4": "Sofás de 2 y 3 puestos",
-            "poc-5": "Sofás cama",
-            "poc-6": "Sofás 2 puestos"
-          }
-        },
-        "40a8e92a-6d95-460b-81d3-ad05a5775f07": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Heading text",
-            "title-alignment": "flex-start",
-            "collection-title": "Colchones",
-            "collection": "colchones",
-            "button-title": "Add text",
-            "blocks-selection": "products",
-            "product_list": [
-              "1100-serie-california-king-mattress",
-              "aavie-almohada"
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
-        "03ba4f09-eaf8-4024-a6cb-86fd8a783689": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Heading text",
-            "title-alignment": "flex-start",
-            "collection-title": "Exteriores",
-            "collection": "exteriores",
-            "button-title": "Add text",
-            "blocks-selection": "products",
-            "product_list": [
-              "1100-serie-california-king-mattress"
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
+            "poc-1": "Juegos de dormitorio",
+            "poc-2": "Camas",
+            "poc-3": "Cabeceros",
+            "poc-4": "Mesas de noche",
+            "poc-5": "Cajonera con espejos",
+            "poc-6": "Baúles"
           }
         }
       },
       "block_order": [
-        "18924a0a-302d-44e9-a158-a5c7c1fdab08",
-        "f4abb9d3-0a39-4463-8536-1f82051dd3ae",
-        "bc256156-fac4-4301-91df-d1866b473b4b",
-        "40a8e92a-6d95-460b-81d3-ad05a5775f07",
-        "03ba4f09-eaf8-4024-a6cb-86fd8a783689"
+        "b6f82881-e698-4c53-bc50-d4a93f6bf13b"
       ],
       "settings": {
         "btn-txt-color": "#363534",
