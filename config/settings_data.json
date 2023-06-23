@@ -168,7 +168,7 @@
             "type": "menu",
             "settings": {
               "macro-id": 3,
-              "menu-promo": "promo-menu",
+              "menu-promo": "",
               "image-promo-url": ""
             }
           },
@@ -177,7 +177,7 @@
             "disabled": true,
             "settings": {
               "macro-id": 4,
-              "menu-promo": "promo-menu",
+              "menu-promo": "",
               "image-promo": "shopify:\/\/shop_images\/Sala_de_Estar_sin_fondo.webp",
               "image-promo-url": "shopify:\/\/products\/annora-wall-art"
             }
@@ -220,7 +220,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Sobre Ashley",
-              "menu": "footer-sobre-ashley"
+              "menu": "sobre-ashley"
             }
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
@@ -235,7 +235,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Legal",
-              "menu": ""
+              "menu": "footer-legal"
             }
           }
         },
