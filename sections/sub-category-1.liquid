@@ -14,6 +14,7 @@
     </div>
     <div class="column-container">
       {% for collection in collections.value %}
+      {% if forloop.index <= section.settings.colnum %}
         {% assign collectionpage = collection.url %}
         <div class="column">
           <div class="col-image-container">
@@ -30,6 +31,7 @@
             </a>
           </div>
         </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
