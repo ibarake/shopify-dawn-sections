@@ -107,19 +107,22 @@
         "bc256156-fac4-4301-91df-d1866b473b4b": {
           "type": "collection",
           "settings": {
-            "heading-text": "Heading text",
+            "heading-text": "para la estancia más habitada",
             "title-alignment": "flex-start",
             "collection-title": "salas",
             "collection": "salas",
             "button-title": "Add text",
-            "blocks-selection": "products",
+            "blocks-selection": "collections",
             "product_list": [
-              "1100-serie-california-king-mattress",
-              "aavie-almohada",
-              "abalone-de-3-piezas-seccional-con-chaise"
+
             ],
             "collection_list": [
-
+              "sofas",
+              "muebles-reclinables",
+              "mueble-para-television",
+              "mesas-de-cafe",
+              "sofas-dos-puestos",
+              "sofas-cama"
             ],
             "poc-1": "Product 1 text",
             "poc-2": "Product 2 text",
