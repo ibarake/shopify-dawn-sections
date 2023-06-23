@@ -151,7 +151,7 @@
           "d8102645-15e5-4527-9a78-717e61793ffd": {
             "type": "menu",
             "settings": {
-              "macro-id": 1,
+              "macro-id": 2,
               "menu-promo": "",
               "image-promo-url": ""
             }
@@ -248,7 +248,7 @@
           ".footer__copyright {display: none;}",
           "h2.footer-block__heading.phone.sec {display: none;}",
           ".footer-block--newsletter {margin-left: 25%;}",
-          "@media (max-width: 768px){.footer-block--newsletter{margin-left: 0; }}"
+          "@media (max-width: 768px) {.footer-block--newsletter {margin-left: 0; }}"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/Ashley_footer_logo_f70fe410-2d4a-4e6a-aad6-5f126c8445f6.png",
