@@ -153,7 +153,6 @@
             "settings": {
               "macro-id": 7,
               "menu-promo": "main-menu",
-              "image-promo": "shopify:\/\/shop_images\/Fundas_de_almohada_con_fondo_1.webp",
               "image-promo-url": ""
             }
           },
@@ -162,8 +161,7 @@
             "settings": {
               "macro-id": 4,
               "menu-promo": "",
-              "image-promo": "shopify:\/\/shop_images\/Sala_de_Estar_sin_fondo.webp",
-              "image-promo-url": "shopify:\/\/products\/annora-wall-art"
+              "image-promo-url": ""
             }
           },
           "d8102645-15e5-4527-9a78-717e61793ffd": {
