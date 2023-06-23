@@ -376,6 +376,66 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
+    "1d2455c4-f424-4f1b-85f7-baaf07a1f950": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/making_image.svg",
+            "title": "Haciendo un impacto",
+            "text": "<h4>Cómo estamos retribuyendo a nuestras comunidades, equipos y planeta.<\/h4>",
+            "link_label": "Leer más",
+            "link": "shopify:\/\/pages\/acerca-de-ashley"
+          }
+        },
+        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ICON_CSR.svg",
+            "title": "Responsabilidad social de la empresa",
+            "text": "<p>Infórmese de todo lo que hacemos para ayudar a nuestros empleados, al medio ambiente y a la comunidad.<\/p>",
+            "link_label": "Leer más",
+            "link": "shopify:\/\/pages\/acerca-de-ashley"
+          }
+        },
+        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ICON_HopeToDream.svg",
+            "title": "Soñar con esperanza",
+            "text": "<p>Todos los niños deben dormir bien y tener una cama propia.<\/p>",
+            "link_label": "Leer más",
+            "link": "https:\/\/www.ahopetodream.com"
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-0",
+        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-1",
+        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2"
+      ],
+      "custom_css": [
+        ".multicolumn-list h3 {font-weight: 700;}",
+        ".multicolumn.background-primary .multicolumn-card {background: white;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
       "type": "collection-list",
       "blocks": {
@@ -429,66 +489,6 @@
         "padding_top": 20,
         "padding_bottom": 28
       }
-    },
-    "1d2455c4-f424-4f1b-85f7-baaf07a1f950": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/making_image.svg",
-            "title": "Haciendo un impacto",
-            "text": "<h4>Cómo estamos retribuyendo a nuestras comunidades, equipos y planeta.<\/h4>",
-            "link_label": "Leer más",
-            "link": "shopify:\/\/pages\/acerca-de-ashley"
-          }
-        },
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICON_CSR.svg",
-            "title": "Responsabilidad social de la empresa",
-            "text": "<p>Infórmese de todo lo que hacemos para ayudar a nuestros empleados, al medio ambiente y a la comunidad.<\/p>",
-            "link_label": "Leer más",
-            "link": "shopify:\/\/pages\/acerca-de-ashley"
-          }
-        },
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICON_HopeToDream.svg",
-            "title": "Soñar con esperanza",
-            "text": "<p>Todos los niños deben dormir bien y tener una cama propia.<\/p>",
-            "link_label": "Leer más",
-            "link": "https:\/\/www.ahopetodream.com"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-0",
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-1",
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2"
-      ],
-      "custom_css": [
-        ".multicolumn-list h3 {font-weight: 700;}",
-        ".multicolumn.background-primary .multicolumn-card{background:white;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
     }
   },
   "order": [
@@ -500,7 +500,7 @@
     "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "1d2455c4-f424-4f1b-85f7-baaf07a1f950"
+    "1d2455c4-f424-4f1b-85f7-baaf07a1f950",
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
   ]
 }
