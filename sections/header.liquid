@@ -550,6 +550,7 @@
                             </li>
                           {% endfor %}
                         </div>
+                        {%- if block.settings.image-promo-url != blank -%} 
                         <div class="image-content">
                           <div class="top-content">
                             <a href="{{ block.settings.image-promo-url}}">
@@ -566,6 +567,7 @@
                             {% endfor %}
                           </div>
                         </div>
+                        {%- endif -%}
                       </div>
                     </ul>
                   </li>
