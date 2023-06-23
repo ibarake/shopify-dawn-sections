@@ -227,13 +227,11 @@
 
   <ul class="pagination">
     {% for collection in section.blocks %}
-
       {% if forloop.index == 1 %}
         <li class="tab active" data-content-id="custom-content-{{ forloop.index }}">
           {{ collection.settings.collection-title }}
         </li>
       {% endif %}
-
       {% if forloop.index > 1 %}
         <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
           {{ collection.settings.collection-title }}
@@ -243,25 +241,19 @@
     {% endfor %}
   </ul>
 
-  
-
   {% for block in section.blocks %}
-
-  
-
     {% if forloop.index == 1 %}
       <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
     <h2 class="title-section">{{ block.settings.heading-text }}</h2>
   </div>
         <div class="left-right">
-
           <div class="left">
             <div class="collection-image">
             <a href="{{ block.settings.collection.url }}">
                 <img
                 class="mainimage"
-                src="{{ block.settings.collection.roomimage | image_url }}"
+                src="{{ block.settings.collection.metafields.roomimage | image_url }}"
                 alt="">
             </a>
             </div>
