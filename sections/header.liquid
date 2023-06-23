@@ -550,8 +550,9 @@
                             </li>
                           {% endfor %}
                         </div>
-                        {%- if block.settings.image-promo-url != blank -%} 
+                        
                         <div class="image-content">
+                          {%- if block.settings.image-promo-url != blank -%} 
                           <div class="top-content">
                             <a href="{{ block.settings.image-promo-url}}">
                               <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
