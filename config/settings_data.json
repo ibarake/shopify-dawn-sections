@@ -152,7 +152,7 @@
             "type": "menu",
             "settings": {
               "macro-id": 7,
-              "menu-promo": "main-menu",
+              "menu-promo": "",
               "image-promo-url": ""
             }
           },
