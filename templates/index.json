@@ -70,7 +70,7 @@
         "f4abb9d3-0a39-4463-8536-1f82051dd3ae": {
           "type": "collection",
           "settings": {
-            "heading-text": "Heading text",
+            "heading-text": "",
             "title-alignment": "flex-start",
             "collection-title": "habitaciones",
             "collection": "habitacion",
