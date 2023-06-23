@@ -470,7 +470,8 @@
         "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2"
       ],
       "custom_css": [
-        ".multicolumn-list h3 {font-weight: 700;}"
+        ".multicolumn-list h3 {font-weight: 700;}",
+        ".multicolumn.background-primary .multicolumn-card{background:white;}"
       ],
       "settings": {
         "title": "",
