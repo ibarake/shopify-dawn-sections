@@ -232,14 +232,14 @@
                                 {%- for block in section.blocks -%}
                                   {% if forloop.first %}
                                      <div class="image-content">
+                                    {%- if block.settings.image-promo-url != blank -%}
                                         <div class="top-content">
                                           <a href="{{ block.settings.image-promo-url}}">
                                             <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
                                           </a>
-                                        <style>
-                                        
-                                        </style>
                                         </div>
+                                      {%- endif -%}
+                                     {%- if block.settings.menu-promo.links != blank -%}
                                         <div class="bottom-content">
                                            {%- for link in block.settings.menu-promo.links -%}
                                              {%- if link != blank -%}
@@ -249,6 +249,7 @@
                                             {%- endif -%}
                                           {% endfor %}
                                         </div>
+                                    {%- endif -%}
                                     </div>
                                    {% endif %}
                                   {% endfor %}
