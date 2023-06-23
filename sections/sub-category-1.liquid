@@ -23,7 +23,7 @@
                 <p class="offer-tag-sub">{{ subcategory.offertag }}</p>
               </div>
             {% endif %}
-            <img src="{{ collection.metafields.image.room | image_url }}" alt="sub image">
+            <img src="{{ collection.metafields.custom.roomimage | image_url }}" alt="sub image">
             <a href="{{ collectionpage.url }}">
               <h2 class="col-link">
                 {{ collection.title }}
