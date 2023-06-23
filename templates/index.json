@@ -99,11 +99,35 @@
             "poc-5": "Mesas de café",
             "poc-6": "Muebles de tv"
           }
+        },
+        "927a0513-956e-4797-9a26-6405e42bb17d": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
+            "collection-title": "",
+            "collection": "comedor",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "b6f82881-e698-4c53-bc50-d4a93f6bf13b",
-        "6c6a11fb-2842-4632-a1d5-b1abc166ea69"
+        "6c6a11fb-2842-4632-a1d5-b1abc166ea69",
+        "927a0513-956e-4797-9a26-6405e42bb17d"
       ],
       "settings": {
         "btn-txt-color": "#363534",
