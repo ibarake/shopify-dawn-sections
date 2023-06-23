@@ -220,7 +220,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Sobre Ashley",
-              "menu": ""
+              "menu": "footer-sobre-ashley"
             }
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
@@ -245,14 +245,14 @@
           "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
         "custom_css": [
-          ".footer__copyright{display:none;}"
+          ".footer__copyright {display: none;}"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/Ashley_footer_logo_f70fe410-2d4a-4e6a-aad6-5f126c8445f6.png",
           "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "¡Suscribete al newsletter!",
-          "phone-number": "(+57)",
+          "phone-number": "(+57) 304 465 0873",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
