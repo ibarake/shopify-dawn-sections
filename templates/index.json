@@ -50,19 +50,14 @@
             "heading-text": "Un lugar para compartir",
             "title-alignment": "flex-start",
             "collection-title": "Comedores",
-            "collection": "comedor",
+            "collection": "dormitorio",
             "button-title": "Compra ahora",
             "blocks-selection": "collections",
             "product_list": [
 
             ],
             "collection_list": [
-              "alfombras",
-              "camas",
-              "colchones",
-              "comedor",
-              "decoracion",
-              "espejos"
+
             ],
             "poc-1": "Texitles",
             "poc-2": "Habitaciones",
@@ -80,7 +75,7 @@
             "collection-title": "habitaciones",
             "collection": "habitacion",
             "button-title": "Add text",
-            "blocks-selection": "products",
+            "blocks-selection": "collections",
             "product_list": [
               "accrington-arraz-izquierdo-frente-a-la-esquina-chaise",
               "accrington-arrazo-derecho-hacia-la-esquina-chaise",
