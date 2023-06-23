@@ -86,14 +86,18 @@
             ],
             "collection_list": [
               "sofas-modulares",
-              "sofas"
+              "sofas",
+              "sofa-dos-puestos",
+              "muebles-reclinables",
+              "mesas-de-cafe",
+              "mueble-para-television"
             ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
+            "poc-1": "Sofás modulares",
+            "poc-2": "Sofás y sillones",
+            "poc-3": "Sofá dos puestos",
+            "poc-4": "Muebles reclinables",
+            "poc-5": "Mesas de café",
+            "poc-6": "Muebles de tv"
           }
         }
       },
