@@ -292,15 +292,6 @@
         "padding_bottom": 28
       }
     },
-    "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 4,
-        "padding_bottom": 52
-      }
-    },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
       "type": "custom-double-banner",
       "blocks": {
@@ -310,7 +301,7 @@
             "first-title": "cientos de estilos disponibles",
             "second-title": "En inventario con entrega rápida",
             "button-text": "shop in-stock",
-            "banner-image": "shopify:\/\/shop_images\/59302_092_ret_fhlojc.png",
+            "banner-image": "shopify:\/\/shop_images\/Mueble_image_ef1e69b1-eb93-456d-91fe-644e55e12f20.jpg",
             "button_link": ""
           }
         },
@@ -320,7 +311,7 @@
             "first-title": "Lo que mas valoran nuestros clientes",
             "second-title": "Entrega con instalación",
             "button-text": "shop free-shipping",
-            "banner-image": "shopify:\/\/shop_images\/B211-H467_MomKid_150_ret_zez095_1.png",
+            "banner-image": "shopify:\/\/shop_images\/Mueble_2_4062c11d-469c-40e3-9069-48ca79f36662.jpg",
             "button_link": "shopify:\/\/collections\/alfombras"
           }
         }
@@ -333,7 +324,7 @@
 
       ],
       "settings": {
-        "text-color": "#121212",
+        "text-color": "#ffffff",
         "btn-color": "#363534"
       }
     },
@@ -437,7 +428,6 @@
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "image_banner",
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
-    "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
