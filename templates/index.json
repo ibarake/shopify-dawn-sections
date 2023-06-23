@@ -117,12 +117,12 @@
 
             ],
             "collection_list": [
-              "sofas",
               "muebles-reclinables",
               "mueble-para-television",
               "mesas-de-cafe",
               "sofas-dos-puestos",
-              "sofas-cama"
+              "sofas-cama",
+              "sofa-dos-puestos"
             ],
             "poc-1": "Product 1 text",
             "poc-2": "Product 2 text",
