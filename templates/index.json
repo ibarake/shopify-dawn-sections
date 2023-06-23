@@ -3,9 +3,9 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "Abrimos nuestras puertas",
-        "heading": "Tu hogar, tu estilo",
-        "spacing": 170,
+        "subheading": "compartiendo en la mesa",
+        "heading": "tu hogar, tu estilo",
+        "spacing": 236,
         "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
         "bg-color": "#f4f4f4",
         "color": "#000000",
@@ -47,10 +47,10 @@
         "18924a0a-302d-44e9-a158-a5c7c1fdab08": {
           "type": "collection",
           "settings": {
-            "heading-text": "Nuevo refugio de descanso",
+            "heading-text": "Un lugar para compartir",
             "title-alignment": "flex-start",
             "collection-title": "Comedores",
-            "collection": "dormitorio",
+            "collection": "comedor",
             "button-title": "Compra ahora",
             "blocks-selection": "collections",
             "product_list": [
@@ -310,7 +310,7 @@
             "first-title": "cientos de estilos disponibles",
             "second-title": "En inventario con entrega rápida",
             "button-text": "shop in-stock",
-            "banner-image": "shopify:\/\/shop_images\/Mueble_image.jpg",
+            "banner-image": "shopify:\/\/shop_images\/59302_092_ret_fhlojc.png",
             "button_link": ""
           }
         },
@@ -320,7 +320,7 @@
             "first-title": "Lo que mas valoran nuestros clientes",
             "second-title": "Entrega con instalación",
             "button-text": "shop free-shipping",
-            "banner-image": "shopify:\/\/shop_images\/Mueble_2.jpg",
+            "banner-image": "shopify:\/\/shop_images\/B211-H467_MomKid_150_ret_zez095_1.png",
             "button_link": "shopify:\/\/collections\/alfombras"
           }
         }
@@ -333,7 +333,7 @@
 
       ],
       "settings": {
-        "text-color": "#ffffff",
+        "text-color": "#121212",
         "btn-color": "#363534"
       }
     },
@@ -374,66 +374,6 @@
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
-      }
-    },
-    "1d2455c4-f424-4f1b-85f7-baaf07a1f950": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/making_image.svg",
-            "title": "Haciendo un impacto",
-            "text": "<h4>Cómo estamos retribuyendo a nuestras comunidades, equipos y planeta.<\/h4>",
-            "link_label": "Leer más",
-            "link": "shopify:\/\/pages\/acerca-de-ashley"
-          }
-        },
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICON_CSR.svg",
-            "title": "Responsabilidad social de la empresa",
-            "text": "<p>Infórmese de todo lo que hacemos para ayudar a nuestros empleados, al medio ambiente y a la comunidad.<\/p>",
-            "link_label": "Leer más",
-            "link": "shopify:\/\/pages\/acerca-de-ashley"
-          }
-        },
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICON_HopeToDream.svg",
-            "title": "Soñar con esperanza",
-            "text": "<p>Todos los niños deben dormir bien y tener una cama propia.<\/p>",
-            "link_label": "Leer más",
-            "link": "https:\/\/www.ahopetodream.com"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-0",
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-1",
-        "template--17657980813619__1d2455c4-f424-4f1b-85f7-baaf07a1f950-16874761776a97d932-2"
-      ],
-      "custom_css": [
-        ".multicolumn-list h3 {font-weight: 700;}",
-        ".multicolumn.background-primary .multicolumn-card {background: white;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
@@ -500,7 +440,6 @@
     "1bbdfb7b-1eb9-48aa-bcc1-93b8d4fc60d0",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
-    "1d2455c4-f424-4f1b-85f7-baaf07a1f950",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
   ]
 }
