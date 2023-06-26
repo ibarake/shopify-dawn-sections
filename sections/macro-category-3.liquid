@@ -30,9 +30,7 @@
               {% if forloop.index <= limit %}
                 <div class="item" style="background-color:{{ section.settings.itemColor }};">
                   <style>
-                    .right .item:nth-child(4) {
-                      background-color: {{ section.settings.Color }} !important;
-                    }
+                    
                   </style>
                   <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
                   <p class="collection-title" style="color: {{ section.settings.colorText }};">
