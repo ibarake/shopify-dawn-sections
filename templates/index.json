@@ -93,35 +93,11 @@
             "poc-5": "Mesas de café",
             "poc-6": "Muebles de tv"
           }
-        },
-        "927a0513-956e-4797-9a26-6405e42bb17d": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Heading text",
-            "title-alignment": "flex-start",
-            "collection-title": "",
-            "collection": "comedor",
-            "button-title": "Add text",
-            "blocks-selection": "products",
-            "product_list": [
-
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
         }
       },
       "block_order": [
         "b6f82881-e698-4c53-bc50-d4a93f6bf13b",
-        "6c6a11fb-2842-4632-a1d5-b1abc166ea69",
-        "927a0513-956e-4797-9a26-6405e42bb17d"
+        "6c6a11fb-2842-4632-a1d5-b1abc166ea69"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -183,19 +159,19 @@
         "06cdde38-e143-4d16-9946-0e940af450e4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofas"
+            "collection": "sofas-2-puestos"
           }
         },
         "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mesas-de-comedor-hasta-3-000-000"
+            "collection": "cocina-y-comedor"
           }
         },
         "9bc59a37-0ca0-4bf8-b1d8-edb5941a3272": {
           "type": "featured_collection",
           "settings": {
-            "collection": "reclinomaticas-hata-2-500-000"
+            "collection": "exterior"
           }
         },
         "0c7948dc-54d5-4f12-a61b-79adfcbc7403": {
