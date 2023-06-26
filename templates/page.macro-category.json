@@ -11,7 +11,7 @@
     "macro-category-1": {
       "type": "macro-category-1",
       "settings": {
-        "colnum": 5,
+        "colnum": 4,
         "titleAndSubtitleColor": "#121212",
         "saleTextColor": "#ffffff",
         "backgroundColor": "#f3efea",
@@ -62,8 +62,8 @@
         "colnum": 3,
         "numberCollections": 5,
         "colorText": "#000000",
-        "Color": "#F3EFEA",
-        "itemColor": "#FFFFFF"
+        "Color": "#f3efea",
+        "itemColor": "#ffffff"
       }
     },
     "macro-category-4": {
