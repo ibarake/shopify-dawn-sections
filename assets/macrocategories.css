@@ -110,6 +110,9 @@ svg.next-icon {
   display: flex;
   margin: 20px 0 20px 0;
 }
+.section-container-2 .left {
+  width: 24%;
+}
 .section-container-2 .right {
   width: 80%;
   background-position: center;
@@ -342,7 +345,7 @@ p.collection-title {
     display: flex;
     align-items: center;
     width: 100%;
-    margin: auto;
+    background-color: #f3efea;
   }
   .section-container-2 .right {
     width: 100%;
