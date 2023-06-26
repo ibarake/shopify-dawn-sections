@@ -170,6 +170,7 @@ svg.next-icon {
 .link-shop a {
   display: inline-block;
   color: black;
+  text-transform: lowercase;
 }
 .section-container-3 {
   height: auto;
