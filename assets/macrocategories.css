@@ -19,7 +19,7 @@
   font-size: 3rem;
   padding: 90px 2px 54px;
   font-weight: bolder;
-  width: 71%;
+  width: 90%;
   text-align: center;
   line-height: 32px;
 }
@@ -112,6 +112,8 @@ svg.next-icon {
 }
 .section-container-2 .left {
   width: 24%;
+  padding: 1%;
+  text-align: left;
 }
 .section-container-2 .right {
   width: 80%;
@@ -132,7 +134,7 @@ svg.next-icon {
   white-space: nowrap;
 }
 .bolded-h2 {
-  padding: 140px 10px 10px 30px;
+  padding: 50% 0 5% 9%;
 }
 .bolded-h2 strong {
   line-height: 32px;
