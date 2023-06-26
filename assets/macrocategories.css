@@ -214,6 +214,7 @@ svg.next-icon {
 .collection-link {
   color: black;
   font-weight: bolder;
+  text-transform: lowercase;
 }
 p.collection-title {
   font-weight: bolder;
