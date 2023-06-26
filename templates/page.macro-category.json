@@ -44,7 +44,7 @@
       "type": "macro-category-3",
       "settings": {
         "subid": 2,
-        "box_position": "left",
+        "box_position": "right",
         "colnum": 2,
         "numberCollections": 3,
         "colorText": "#000000",
@@ -59,9 +59,9 @@
         "colnum": 3,
         "box_position": "right",
         "colorText": "#000000",
-        "Color": "#F3EFEA",
-        "ColorImageCollections": "#F3EFEA",
-        "colorItemsCollections": "#FFFFFF"
+        "Color": "#f3efea",
+        "ColorImageCollections": "#f3efea",
+        "colorItemsCollections": "#ffffff"
       }
     },
     "macro-category-5": {
