@@ -251,26 +251,24 @@
           "settings": {
             "heading-text": "Hazlo mas acogedor",
             "title-alignment": "center",
-            "collection-title": "",
-            "collection": "sofas",
-            "button-title": "Add text",
+            "collection-title": "Sofás Reclinables",
+            "collection": "sofas-reclinables",
+            "button-title": "Ver ahora",
             "blocks-selection": "products",
             "product_list": [
-              "sofa-bladen",
-              "lucina-loveseat",
-              "kiessel-de-2-piezas-seccional"
+              "el-sofa-reclinable-con-consola-man-den",
+              "el-sofa-reclinable-con-energia-man-den",
+              "futon-santini"
             ],
             "collection_list": [
-              "sabanas",
-              "rooa-de-cama",
-              "toallas-y-linos"
+
             ],
-            "poc-1": "Sofá Bladen 2 puestos",
-            "poc-2": "Lucina 2 puestos",
-            "poc-3": "Kiessel Sofa Modular",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
+            "poc-1": "Sofá reclinable con consola",
+            "poc-2": "Futón santini",
+            "poc-3": "",
+            "poc-4": "",
+            "poc-5": "",
+            "poc-6": ""
           }
         }
       },
