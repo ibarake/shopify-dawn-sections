@@ -342,7 +342,7 @@ p.collection-title {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #f3efea;
+    margin: auto;
   }
   .section-container-2 .right {
     width: 100%;
