@@ -59,8 +59,8 @@
       "settings": {
         "subid": 4,
         "box_position": "left",
-        "colnum": 3,
-        "numberCollections": 5,
+        "colnum": 2,
+        "numberCollections": 3,
         "colorText": "#000000",
         "Color": "#f3efea",
         "itemColor": "#ffffff"
