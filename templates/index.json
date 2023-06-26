@@ -286,19 +286,19 @@
         "13c91ef6-ae26-4022-999d-eedef2b7983e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "alfombras"
+            "collection": "alfombras-1"
           }
         },
         "4fa7c405-59a3-484d-aa69-72fdafcb35b4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "espejos"
+            "collection": "espejos-de-pared"
           }
         },
         "8dec4ffe-b887-4bd5-9f18-9db11ff98c76": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "estantes"
           }
         },
         "bd52417d-64a6-4db8-9f94-99c1c05eaeff": {
@@ -310,7 +310,7 @@
         "0005bcb8-67b7-4fc2-9bfc-981992b47c89": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mantas"
+            "collection": "decoracion-del-hogar"
           }
         }
       },
