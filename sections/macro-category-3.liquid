@@ -34,6 +34,11 @@
                     {{ collection.title }}
                   </p>
                   <p class="collection-description">{{ collection.marketing_description }}</p>
+                  <style>
+                    .right .item:nth-child(4) {
+                      background-color:{{ section.settings.Color }};
+                    }
+                  </style>
                 </div>
               {% endif %}
             {% endfor %}
