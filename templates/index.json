@@ -57,19 +57,16 @@
 
             ],
             "collection_list": [
-              "juegos-de-dormitorio",
-              "camas-1",
-              "cabeceros-1",
-              "mesas-de-noche",
-              "cajonera-con-espejo",
-              "cofres-de-almacenamiento"
+              "camas",
+              "ropa-de-cama",
+              "camarotes"
             ],
-            "poc-1": "Juegos de dormitorio",
-            "poc-2": "Camas",
-            "poc-3": "Cabeceros",
-            "poc-4": "Mesas de noche",
-            "poc-5": "Cajonera con espejos",
-            "poc-6": "Cofres"
+            "poc-1": "Camas",
+            "poc-2": "Ropa de cama",
+            "poc-3": "Camarotes",
+            "poc-4": ".",
+            "poc-5": ".",
+            "poc-6": "."
           }
         },
         "6c6a11fb-2842-4632-a1d5-b1abc166ea69": {
@@ -86,15 +83,12 @@
             ],
             "collection_list": [
               "sofas-modulares",
-              "sofas",
-              "sofa-dos-puestos",
-              "muebles-reclinables",
-              "mesas-de-cafe",
-              "mueble-para-television"
+              "sillas-para-sala-y-habitacion",
+              "muebles"
             ],
             "poc-1": "Sofás modulares",
-            "poc-2": "Sofás y sillones",
-            "poc-3": "Sofá dos puestos",
+            "poc-2": "Sillas para sala",
+            "poc-3": "Muebles",
             "poc-4": "Muebles reclinables",
             "poc-5": "Mesas de café",
             "poc-6": "Muebles de tv"
