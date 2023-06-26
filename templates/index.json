@@ -215,7 +215,7 @@
           "settings": {
             "first-title": "cientos de estilos disponibles",
             "second-title": "En inventario con entrega rápida",
-            "button-text": "shop in-stock",
+            "button-text": "Comprar ahora",
             "banner-image": "shopify:\/\/shop_images\/Mueble_image_ef1e69b1-eb93-456d-91fe-644e55e12f20.jpg",
             "button_link": ""
           }
@@ -225,7 +225,7 @@
           "settings": {
             "first-title": "Lo que mas valoran nuestros clientes",
             "second-title": "Entrega con instalación",
-            "button-text": "shop free-shipping",
+            "button-text": "Comprar ahora",
             "banner-image": "shopify:\/\/shop_images\/Mueble_2_4062c11d-469c-40e3-9069-48ca79f36662.jpg",
             "button_link": "shopify:\/\/collections\/alfombras"
           }
