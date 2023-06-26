@@ -110,9 +110,6 @@ svg.next-icon {
   display: flex;
   margin: 20px 0 20px 0;
 }
-.section-container-2 .left {
-  width: 24%;
-}
 .section-container-2 .right {
   width: 80%;
   background-position: center;
@@ -132,7 +129,8 @@ svg.next-icon {
   white-space: nowrap;
 }
 .bolded-h2 {
-  padding: 140px 10px 10px 30px;
+  width: 100%;
+  padding: 10%;
 }
 .bolded-h2 strong {
   line-height: 32px;
