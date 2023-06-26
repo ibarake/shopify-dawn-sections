@@ -16,6 +16,11 @@
           <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);">
             <div class="item" style="background-color:{{ section.settings.Color }};">
+              <style>
+                    .right .item:nth-child(4){
+                      background-color:{{ section.settings.Color }};
+                    }
+                  </style>
               <p class="macro-title" style="color: {{ section.settings.colorText }};">
                 <strong>{{ subcategory.macro_section_title }}</strong>
               </p>
@@ -29,9 +34,6 @@
             {% for collection in subcategoriescollections.value %}
               {% if forloop.index <= limit %}
                 <div class="item" style="background-color:{{ section.settings.itemColor }};">
-                  <style>
-                    
-                  </style>
                   <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
                   <p class="collection-title" style="color: {{ section.settings.colorText }};">
                     {{ collection.title }}
