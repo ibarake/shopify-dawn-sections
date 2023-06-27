@@ -66,6 +66,16 @@
         "itemColor": "#ffffff"
       }
     },
+    "5bb3322b-cbbb-48e4-b229-feb292a1fe38": {
+      "type": "macro-category-5",
+      "settings": {
+        "subid": 2,
+        "numberCollections": 2,
+        "colorText": "#000000",
+        "backgroundSectionColor": "#FFFFFF",
+        "backgroundItemColor": "#FFFFFF"
+      }
+    },
     "macro-category-4": {
       "type": "macro-category-4",
       "settings": {
@@ -89,6 +99,7 @@
     "macro-category-3",
     "f23922bc-80ad-419b-967f-108a1e733fce",
     "69bbce97-f696-427e-8443-080adbb1d37c",
+    "5bb3322b-cbbb-48e4-b229-feb292a1fe38",
     "macro-category-4",
     "macro-category-7"
   ]
