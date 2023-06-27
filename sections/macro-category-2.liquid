@@ -34,12 +34,14 @@
           {% for collection in subcategoriescollections.value %}
             {% if forloop.index <= section.settings.colnum %}
               <div class="column" style="background-color: {{ section.settings.colorItemsCollections }};">
+               <a href="{{ collection.url }}">
                 <img
                   src="{{ collection.image | image_url }}"
                   alt="sub image"
                   class="img"
                   style="background-color: {{ section.settings.ColorImageCollections }};"
                 >
+               </a>
                 <a href="{{ collection.url }}">
                   <div class="link-container">
                     <h2 class="macro-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
