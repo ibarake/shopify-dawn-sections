@@ -374,14 +374,14 @@ p.collection-title.style3 {
   overflow-y: hidden;
 }
 .sub-section-5 .subcategory-scroll {
-  width: auto;
+  width: 200%;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
 }
 .sub-section-5 .subcategory-5 {
   width: 20%;
-  margin-right: 11px;
+  margin: 0 .5% 1% 1%;
   padding: 5px;
 }
 
