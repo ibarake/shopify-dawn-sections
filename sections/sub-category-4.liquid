@@ -5,6 +5,7 @@
 <div class="page-width">
   <div class="section-sub-4">
     {% for collection in collections.value %}
+      {% assign collectionpage = collection.url %}
       {% if forloop.index == section.settings.subid %}
         {% assign subimageurl = subcategory.image | image_url %}
         <div class="section-container-sub-4">
@@ -16,7 +17,7 @@
           <div class="left" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
             <div class="item" style="background-color:{{ section.settings.Color }};">
-              <a href="{{ collection.url }}" class="text-item">
+              <a href="{{ subcategory.url }}" class="text-item">
                 <div class="text-item">
                   <h2 class="short-title" style="color: {{ section.settings.colorText }};">
                     <strong>{{ subcategory.short_title }}</strong>
