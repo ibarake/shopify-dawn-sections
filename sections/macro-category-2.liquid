@@ -40,9 +40,8 @@
                   class="img"
                   style="background-color: {{ section.settings.ColorImageCollections }};"
                 >
-                <a href="{{ collection.url }}">
                   <div class="link-container">
-                    <h2 class="collection-title" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
+                    <h2 class="collection-title" style="color: {{ section.settings.colorText }};"><a href="{{ collection.url }}">{{ collection.title }} </a></h2>
                     <style>
                     .section-bottom-2 .iconNext {
                       fill: {{ section.settings.colorText }};
@@ -50,7 +49,6 @@
                   </style>
                     {% render 'nextIcon' %}
                   </div>
-                </a>
               </div>
             {% endif %}
           {% endfor %}
