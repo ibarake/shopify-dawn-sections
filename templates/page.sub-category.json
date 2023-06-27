@@ -37,6 +37,7 @@
       "settings": {
         "subid": 2,
         "colnum": 2,
+        "numberCollections": 3,
         "Color": "#f3efea",
         "itemColor": "#ffffff",
         "colorText": "#000000",
