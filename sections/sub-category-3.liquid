@@ -15,15 +15,21 @@
           </style>
           <div class="left" style="background-color: {{ section.settings.Color }};">
             <div class="text-content">
-              <h2 class="short-title" style="color: {{ section.settings.colorText }};">
-                <strong>{{ subcategory.short_title }}</strong>
-              </h2>
-              <h1 class="marketing-title" style="color: {{ section.settings.colorText }};">
-                <strong>{{ subcategory.marketing_title }}</strong>
-              </h1>
-              <p class="sub-description" style="color: {{ section.settings.colorText }};">
-                {{ subcategory.marketing_description }}
-              </p>
+              <a href="{{ collectionpage }}">
+                <h2 class="short-title" style="color: {{ section.settings.colorText }};">
+                  <strong>{{ subcategory.short_title }}</strong>
+                </h2>
+              </a>
+              <a href="{{ collectionpage }}">
+                <h1 class="marketing-title" style="color: {{ section.settings.colorText }};">
+                  <strong>{{ subcategory.marketing_title }}</strong>
+                </h1>
+              </a>
+              <a href="{{ collectionpage }}">
+                <p class="sub-description" style="color: {{ section.settings.colorText }};">
+                  {{ subcategory.marketing_description }}
+                </p>
+              </a>
             </div>
             <div class="button-content">
               <div class="link-shop" style="border-color:{{ section.settings.colorText }};">
@@ -44,12 +50,14 @@
                 class="column  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
                 style="background-color: {{ section.settings.colorItemsCollections }};"
               >
-                <img
-                  src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
-                  alt="sub image"
-                  class="img"
-                  style="background-color: {{ section.settings.ColorImageCollections }};"
-                >
+                <a href="{{ collectionpage }}">
+                  <img
+                    src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
+                    alt="sub image"
+                    class="img"
+                    style="background-color: {{ section.settings.ColorImageCollections }};"
+                  >
+                </a>
                 <a href="{{ collection.url }}">
                   <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
                 </a>
