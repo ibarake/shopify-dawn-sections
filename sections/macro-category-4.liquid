@@ -10,16 +10,16 @@
       {% assign limit = section.settings.numberSubcategories %}
       {% for subcategory in subcategories.value %}
         {% if forloop.index <= limit %}
-          {% assign subcategoriespage = subcategory.page.value %}
-          <a href="{{ subcategoriespage.url }}">
-        <div class="subcategory">
-          <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
-            <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
+          <div class="subcategory">
+            {% assign subcategoriespage = subcategory.page.value %}
+            <a href="{{ subcategoriespage.url }}">
+              <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
+                <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
+              </div>
+              <p style="color: {{ section.settings.subColor }};">{{ subcategory.name }}</p>
+            </a>
           </div>
-          <p style="color: {{ section.settings.subColor }};">{{ subcategory.name }}</p>
-        </div>
-          </a>
-          {% endif %}
+        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -64,7 +64,7 @@
     "id": "backgroundSectionColor",
     "label": "Background section color",
     "default": "#FFFFFF"
-  },  
+  },
   {
     "type": "color",
     "id": "backgroundColor",
