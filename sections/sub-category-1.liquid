@@ -14,23 +14,23 @@
     </div>
     <div class="column-container">
       {% for collection in collections.value %}
-      {% if forloop.index <= section.settings.colnum %}
-        {% assign collectionpage = collection.url %}
-        <div class="column">
-          <div class="col-image-container">
-            {% if subcategory.offertag != '' %}
-              <div class="sub-sale">
-                <p class="offer-tag-sub">{{ subcategory.offertag }}</p>
+        {% if forloop.index <= section.settings.colnum %}
+          {% assign collectionpage = collection.url %}
+          <a href="{{ collectionpage }}">
+            <div class="column">
+              <div class="col-image-container">
+                {% if subcategory.offertag != '' %}
+                  <div class="sub-sale">
+                    <p class="offer-tag-sub">{{ subcategory.offertag }}</p>
+                  </div>
+                {% endif %}
+                <img src="{{ collection.metafields.custom.roomimage | image_url }}" alt="sub image">
+                <h2 class="col-link">
+                  {{ collection.title }}
+                </h2>
               </div>
-            {% endif %}
-            <img src="{{ collection.metafields.custom.roomimage | image_url }}" alt="sub image">
-            <a href="{{ collectionpage }}">
-              <h2 class="col-link">
-                {{ collection.title }}
-              </h2>
-            </a>
-          </div>
-        </div>
+            </div>
+          </a>
         {% endif %}
       {% endfor %}
     </div>
