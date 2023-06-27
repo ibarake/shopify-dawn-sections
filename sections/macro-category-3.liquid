@@ -16,13 +16,13 @@
           <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);">
             <div class="item" style="background-color:{{ section.settings.Color }};">
-              <a href="{{ subcategoriespage.url }}">
+            {% assign subcategoriespage = subcategory.page.value %}
+             <a href="{{ subcategoriespage.url }}">
               <p class="macro-title" style="color: {{ section.settings.colorText }};">
                 <strong>{{ subcategory.macro_section_title }}</strong>
               </p>
               </a>
               <div class="link-shop-m3">
-                {% assign subcategoriespage = subcategory.page.value %}
                 <a href="{{ subcategoriespage.url }}" class="collection-link" style="color: {{ section.settings.colorText }};"
                   >Ver todo {{ subcategory.name }}
                 </a>
