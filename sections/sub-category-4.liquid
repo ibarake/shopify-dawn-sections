@@ -15,8 +15,8 @@
           </style>
           <div class="left" style="background-image: url('{{ subimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
-            <div class="item" style="background-color:{{ section.settings.Color }};">
-              <a href="{{ collection.url }}" class="text-item">
+            <a href="{{ collection.url }}" class="text-item">
+              <div class="item" style="background-color:{{ section.settings.Color }};">
                 <div class="text-item">
                   <h2 class="short-title" style="color: {{ section.settings.colorText }};">
                     <strong>{{ subcategory.short_title }}</strong>
@@ -28,16 +28,16 @@
                     {{ subcategory.marketing_description }}
                   </p>
                 </div>
-              </a>
-              <div class="link-shop-s4">
-                <a
-                  href="{{ subcategory.page.url }}"
-                  class="collection-link {% if section.settings.Shop_border_style == "style1"%} style1 {% elsif section.settings.Shop_border_style == "style2" %} style2 {% else %} style3 {% endif %}"
-                  style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
-                  >ver todo</a
-                >
+                <div class="link-shop-s4">
+                  <a
+                    href="{{ subcategory.page.url }}"
+                    class="collection-link {% if section.settings.Shop_border_style == "style1"%} style1 {% elsif section.settings.Shop_border_style == "style2" %} style2 {% else %} style3 {% endif %}"
+                    style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
+                    >ver todo</a
+                  >
+                </div>
               </div>
-            </div>
+            </a>
             {% assign limit = section.settings.numberCollections %}
             {% for collection in collections.value %}
               {% if forloop.index <= limit %}
