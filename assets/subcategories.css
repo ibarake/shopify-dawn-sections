@@ -582,6 +582,9 @@ p.collection-title.style3 {
   .sub-section-5 p.collection-title {
     width: 44%;
   }
+  .sub-section-5 .subcategory-scroll {
+    width: auto;
+  }
   .heading-subcategory-6 {
     font-size: 1.4em;
     text-align: left;
