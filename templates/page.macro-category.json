@@ -82,13 +82,22 @@
         "subid": 2,
         "numberCollections": 2,
         "colorText": "#000000",
-        "backgroundSectionColor": "#FFFFFF",
-        "backgroundItemColor": "#FFFFFF"
+        "backgroundSectionColor": "#ffffff",
+        "backgroundItemColor": "#ffffff"
       }
     },
     "macro-category-7": {
       "type": "macro-category-7",
       "settings": {
+      }
+    },
+    "3f51cc43-cdde-4412-b2b3-bf540293fee5": {
+      "type": "macro-category-6",
+      "settings": {
+        "numberCollections": 7,
+        "colorText": "#000000",
+        "backgroundSectionColor": "#FFFFFF",
+        "backgroundItemColor": "#FFFFFF"
       }
     }
   },
@@ -101,6 +110,7 @@
     "f23922bc-80ad-419b-967f-108a1e733fce",
     "69bbce97-f696-427e-8443-080adbb1d37c",
     "5bb3322b-cbbb-48e4-b229-feb292a1fe38",
-    "macro-category-7"
+    "macro-category-7",
+    "3f51cc43-cdde-4412-b2b3-bf540293fee5"
   ]
 }
