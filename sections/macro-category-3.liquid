@@ -1,6 +1,7 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
+{% assign subcategoriespage = subcategory.page.value %}
 <div class="page-width">
   <div class="section-macro-3">
     {% for subcategory in subcategories.value %}
@@ -20,7 +21,7 @@
                 <strong>{{ subcategory.macro_section_title }}</strong>
               </p>
               <div class="link-shop-m3">
-                <a href="{{ collection.url }}" class="collection-link" style="color: {{ section.settings.colorText }};"
+                <a  href="{{ subcategoriespage.url }}" class="collection-link" style="color: {{ section.settings.colorText }};"
                   >Comprar todo {{ subcategory.name -}}
                 </a>
               </div>
