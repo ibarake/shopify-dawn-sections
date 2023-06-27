@@ -40,11 +40,9 @@
             </div>
           </div>
 
-          <div class="right" style="background-image: url('{{ subcategory.image | image_url }}')">
-            <a href="{{ collectionpage }}">
-              <div></div>
-            </a>
-          </div>
+          <a class="right" style="background-image: url('{{ subcategory.image | image_url }}')">
+            <div></div>
+          </a>
         </div>
         <div class="section-bottom-3">
           {% for collection in collections.value %}
