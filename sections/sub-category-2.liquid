@@ -12,7 +12,10 @@
           <div class="imagewrap">
             <img src="{{ collection.image | image_url }}" alt="sub image">
           </div>
-          <p>{{ collection.title }}</p>
+          {% assign collectionpage = collection.url %}
+           <a href="{{ collectionpage }}">
+            <p>{{ collection.title }}</p>
+          </a>
         </div>
       {% endfor %}
     </div>
