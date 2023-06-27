@@ -22,7 +22,7 @@
               <div class="link-shop-m3">
                 {% assign subcategoriespage = subcategory.page.value %}
                 <a href="{{ subcategoriespage.url }}" class="collection-link" style="color: {{ section.settings.colorText }};"
-                  >Comprar todo {{ subcategory.name }}
+                  >Ver todo {{ subcategory.name }}
                 </a>
               </div>
             </div>
@@ -32,7 +32,7 @@
                 <div class="item" style="background-color:{{ section.settings.itemColor }};">
                   <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
                   <p class="collection-title" style="color: {{ section.settings.colorText }};">
-                    {{ collection.title }}
+                   <a href="{{ collection.url }}">{{ collection.title }}</a> 
                   </p>
                   <p class="collection-description">{{ collection.marketing_description }}</p>
                   <style>
