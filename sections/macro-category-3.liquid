@@ -32,7 +32,9 @@
             {% for collection in subcategoriescollections.value %}
               {% if forloop.index <= limit %}
                 <div class="item" style="background-color:{{ section.settings.itemColor }};">
+                   <a href="{{ collection.url }}">
                   <img src="{{ collection.image | image_url }}" alt="Collection Image" class="img-item">
+                   </a>
                   <p class="collection-title">
                    <a href="{{ collection.url }}" style="color: {{ section.settings.colorText }};">{{ collection.title }}</a> 
                   </p>
