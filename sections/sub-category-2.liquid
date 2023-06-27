@@ -9,11 +9,12 @@
     <div class="collections">
       {% for collection in collections.value %}
         <div class="collection">
+          {% assign collectionpage = collection.url %}
           <div class="imagewrap">
             <a href="{{ collectionpage }}"> <img src="{{ collection.image | image_url }}" alt="sub image"></a>
           </div>
-          {% assign collectionpage = collection.url %}
-           <a href="{{ collectionpage }}">
+
+          <a href="{{ collectionpage }}">
             <p>{{ collection.title }}</p>
           </a>
         </div>
