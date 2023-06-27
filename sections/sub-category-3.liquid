@@ -51,6 +51,7 @@
         </div>
         <div class="section-bottom-3">
           {% for collection in collections.value %}
+            {% assign collectionpage = collection.url %}
             {% if forloop.index <= section.settings.colnum %}
               <a href="{{ collection.url }}">
                 <div
