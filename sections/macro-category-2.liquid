@@ -17,37 +17,38 @@
             }
           </style>
           <div class="left" style="background-color: {{ section.settings.Color }};">
-            <p class="bolded-h2" style="color: {{ section.settings.colorText }};">
-              <strong>{{ subcategory.macro_section_title }}</strong>
-            </p>
+            <a href="{{ subcategoriespage.url }}">
+              <p class="bolded-h2" style="color: {{ section.settings.colorText }};">
+                <strong>{{ subcategory.macro_section_title }}</strong>
+              </p>
+            </a>
             <div class="link-shop" style=" border-color:{{ section.settings.colorText }};">
               <a href="{{ subcategoriespage.url }}" style="color: {{ section.settings.colorText }};">
                 <strong>Ver todo {{ subcategory.name }}</strong>
               </a>
             </div>
           </div>
-          <a href="{{ subcategoriespage.url }}" class="right" style="background-image: url('{{ subimageurl }}')"> 
-          </a>       
+          <a href="{{ subcategoriespage.url }}" class="right" style="background-image: url('{{ subimageurl }}')"> </a>
         </div>
 
         <div class="section-bottom-2">
           {% for collection in subcategoriescollections.value %}
             {% if forloop.index <= section.settings.colnum %}
               <div class="column" style="background-color: {{ section.settings.colorItemsCollections }};">
-               <a href="{{ collection.url }}">
-                <img
-                  src="{{ collection.image | image_url }}"
-                  alt="sub image"
-                  class="img"
-                  style="background-color: {{ section.settings.ColorImageCollections }};"
-                >
+                <a href="{{ collection.url }}">
+                  <img
+                    src="{{ collection.image | image_url }}"
+                    alt="sub image"
+                    class="img"
+                    style="background-color: {{ section.settings.ColorImageCollections }};"
+                  >
                   <div class="link-container">
                     <h2 class="macro-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
                     <style>
-                    .section-bottom-2 .iconNext {
-                      fill: {{ section.settings.colorText }};
-                    }
-                  </style>
+                      .section-bottom-2 .iconNext {
+                        fill: {{ section.settings.colorText }};
+                      }
+                    </style>
                     {% render 'nextIcon' %}
                   </div>
                 </a>
