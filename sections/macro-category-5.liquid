@@ -15,7 +15,9 @@
           {% for collection in collectionsarray.value %}
             {% if forloop.index <= limit %}
               <div class="collection-5" style="background-color:{{ section.settings.backgroundItemColor }};">
+              <a href="{{ collection.url }}">
                 <img src="{{ collection.metafields.custom.roomimage | image_url }}" alt="collection image">
+              </a>
                 <div class="link-container">
                   <p><a style="color: {{ section.settings.colorText }};" href="{{ collection.url }}">{{ collection.title }}</a></p>
                   <style>
