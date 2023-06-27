@@ -13,12 +13,13 @@
               {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
             }
           </style>
+        {% assign subcategoriespage = subcategory.page.value %}
           <a href="{{ subcategoriespage.url }}">
-          <div class="leftm3" style="background-image: url('{{ subimageurl }}')"></div>
+          <div class="leftm3" style="background-image: url('{{ subimageurl }}')"> </div>
           </a>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);">
             <div class="item" style="background-color:{{ section.settings.Color }};">
-            {% assign subcategoriespage = subcategory.page.value %}
+            
              <a href="{{ subcategoriespage.url }}">
               <p class="macro-title" style="color: {{ section.settings.colorText }};">
                 <strong>{{ subcategory.macro_section_title }}</strong>
