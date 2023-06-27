@@ -17,7 +17,7 @@
               <div class="collection-5" style="background-color:{{ section.settings.backgroundItemColor }};">
                 <img src="{{ collection.metafields.custom.roomimage | image_url }}" alt="collection image">
                 <div class="link-container">
-                  <a href="{{ collection.url }}"style="color: {{ section.settings.colorText }};">{{ collection.title }}</a>
+                  <p style="color: {{ section.settings.colorText }};"><a href="{{ collection.url }}">{{ collection.title }}</a></p>
                   <style>
                   .macro-section-5 .iconNext {
                     fill: {{ section.settings.colorText }};
