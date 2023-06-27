@@ -282,6 +282,8 @@
   align-items: center;
   justify-content: center;
   max-width: 100%;
+  padding: 5px;
+  text-align: center;
 }
 .section-container-sub-4 .img-item {
   width: 100%;
@@ -497,8 +499,7 @@ p.collection-title.style3 {
   .section-bottom-3 a {
     width: 50%;
   }
-  .section-bottom-3 
-  .section-container-3 .short-title,
+  .section-bottom-3 .section-container-3 .short-title,
   .section-container-3 .marketing-title,
   .section-container-3 .sub-description {
     margin-left: 0;
