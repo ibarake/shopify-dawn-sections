@@ -359,6 +359,10 @@ p.collection-title {
   .section-macro-3 .right {
     width: auto;
   }
+  .macro-link{
+    font-size: 1.2rem;
+    white-space: break-spaces;
+  }
   .link-shop {
     margin-left: auto;
     margin-right: 3%;
