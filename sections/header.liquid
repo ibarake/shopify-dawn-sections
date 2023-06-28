@@ -582,28 +582,33 @@
           {%- endif -%}
           <script>
             var dropdownElements = document.querySelectorAll('.dropdown');
-var dropdownContentElements = document.querySelectorAll('.dropdown-content');
-var bodyElement = document.body;
-
-for (var i = 0; i < dropdownElements.length; i++) {
-  var dropdownElement = dropdownElements[i];
-  var dropdownContentElement = dropdownContentElements[i];
-
-  dropdownElement.addEventListener('mouseenter', function() {
-    var contentElement = this.querySelector('.dropdown-content');
-    // Agregar estilos cuando el hover está activo
-    contentElement.style.display = 'flex';
-    bodyElement.style.backgroundColor = 'green'; // Cambiar el color de fondo del body
-  });
-
-  dropdownElement.addEventListener('mouseleave', function() {
-    var contentElement = this.querySelector('.dropdown-content');
-    // Remover estilos cuando el hover ya no está activo
-    contentElement.style = '';
-    bodyElement.style.backgroundColor = '#ffffff'; // Restaurar el color de fondo inicial del body
-  });
-}
-
+            var dropdownContentElements = document.querySelectorAll('.dropdown-content');
+            
+            for (var i = 0; i < dropdownElements.length; i++) {
+              var dropdownElement = dropdownElements[i];
+              var dropdownContentElement = dropdownContentElements[i];
+            
+              dropdownElement.addEventListener('mouseenter', function() {
+                var contentElement = this.querySelector('.dropdown-content');
+                // Agregar estilos cuando el hover está activo
+                contentElement.style.display = 'flex';
+                contentElement.style.position = 'absolute';
+                contentElement.style.width = '96%';
+                contentElement.style.height = 'fit-content';
+                contentElement.style.left = '1%';
+                contentElement.style.justifyContent = 'space-between';
+                contentElement.style.padding = '10px';
+                contentElement.style.backgroundColor = '#f3f3f3';
+                contentElement.style.boxShadow = '1px 1px 5px #373737b3';
+                contentElement.style.transition = 'opacity .5s';
+              });
+            
+              dropdownElement.addEventListener('mouseleave', function() {
+                var contentElement = this.querySelector('.dropdown-content');
+                // Remover estilos cuando el hover ya no está activo
+                contentElement.style = '';
+              });
+            }
           </script>
 <style>
    ul.list-menu--inline li {
@@ -614,7 +619,7 @@ for (var i = 0; i < dropdownElements.length; i++) {
 }
 
 .dropdown-content {
-  display: none !important; /* Ocultar el menú desplegable por defecto */
+  display: none ; /* Ocultar el menú desplegable por defecto */
 }
      .top-content {
       width: 100%;
