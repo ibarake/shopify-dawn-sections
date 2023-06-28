@@ -580,23 +580,6 @@
               </ul>
             </nav>
           {%- endif -%}
-          <script>
-            document.addEventListener("DOMContentLoaded", function() {
-  const dropdown = document.querySelector(".dropdown");
-  const dropdownContent = dropdown.querySelector(".dropdown-content");
-
-  dropdown.addEventListener("mouseleave", function() {
-    dropdownContent.style.display = "none";
-    dropdown.querySelector(".dropdown::before").style.display = "none";
-  });
-
-  dropdown.addEventListener("mouseenter", function() {
-    dropdownContent.style.display = "flex";
-    dropdown.querySelector(".dropdown::before").style.display = "block";
-  });
-});
-
-          </script>
 <style>
    ul.list-menu--inline li {
     padding:0 !important;
@@ -614,53 +597,27 @@
     height: fit-content;
   }
  .dropdown:hover .dropdown-content {
-  display: flex;
-  position: absolute;
-  width: 96%;
-  height: fit-content;
-  left: 1%;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #f3f3f3;
-  box-shadow: 1px 1px 5px #373737b3;
-  transition: opacity .5s;
+    display: flex;
+    position: absolute;
+    width: 96%;
+    height: fit-content;
+    left: 1%;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 5px #373737b3;
+    transition: opacity .5s;
 }
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  width: 96%;
-  left: 1%;
-  padding: 10px;
-  background-color: #f3f3f3;
-  box-shadow: 1px 1px 5px #373737b3;
-  transition: opacity .5s;
-}
-
-.dropdown:hover .dropdown-content {
-  display: flex;
-}
-
-.dropdown::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
-  z-index: 999;
-}
-
-.dropdown:hover .dropdown::before {
-  display: block;
-}
+   .dropdown:before {
+      content: "";
+      top: 100%;
+      left: 0;
+      height: 290em;
+      width: 100%;
+      display: block;
+      position: absolute;
+      background: rgba(var(--color-foreground),.5);
+   }
   .image-content {
    width: 17em;
    height: fit-content;
