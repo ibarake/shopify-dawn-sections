@@ -265,18 +265,10 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
-
-    {% section 'announcement-bar' %}
-    {% section 'header' %}
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {%- if settings.show_breadcrumb_nav -%}
-        {% render 'breadcrumbs' %}
-      {%- endif -%}
-      {{ content_for_layout }}
       <div class="overlay">
         <style>
           .overlay {
-              display: block;
+              display: none;
               position: absolute;
               width: 100%;
               background-color: rgba(0, 0, 0, 0.4);
@@ -285,6 +277,14 @@
           }
         </style>
       </div>
+    {% section 'announcement-bar' %}
+    {% section 'header' %}
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      {%- if settings.show_breadcrumb_nav -%}
+        {% render 'breadcrumbs' %}
+      {%- endif -%}
+      {{ content_for_layout }}
+
     </main>
 
     {% section 'footer' %}
