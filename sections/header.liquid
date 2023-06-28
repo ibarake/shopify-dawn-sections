@@ -608,6 +608,10 @@
     box-shadow: 1px 1px 5px #373737b3;
     transition: opacity .5s;
 }
+  .dropdown:not(:hover) .dropdown-content:before {
+  display: none;
+}
+
    .dropdown:hover:before {
       content: "";
       top: 100%;
@@ -685,8 +689,6 @@
 }
 
 </style>
-
-
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
