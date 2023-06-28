@@ -595,7 +595,10 @@
               dropdownContentElement.style.backgroundColor = '#f3f3f3';
               dropdownContentElement.style.boxShadow = '1px 1px 5px #373737b3';
               dropdownContentElement.style.transition = 'opacity .5s';
-            
+            });
+            dropdownElement.addEventListener('mouseleave', function() {
+              //cuando el hover ya no está activo
+              dropdownContentElement.style = '';
             });
           </script>
 <style>
