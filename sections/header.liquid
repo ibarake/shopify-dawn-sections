@@ -593,15 +593,6 @@
                 var contentElement = this.querySelector('.dropdown-content');
                 // Agregar estilos cuando el hover está activo
                 contentElement.style.display = 'flex';
-                contentElement.style.position = 'absolute';
-                contentElement.style.width = '96%';
-                contentElement.style.height = 'fit-content';
-                contentElement.style.left = '1%';
-                contentElement.style.justifyContent = 'space-between';
-                contentElement.style.padding = '10px';
-                contentElement.style.backgroundColor = '#f3f3f3';
-                contentElement.style.boxShadow = '1px 1px 5px #373737b3';
-                contentElement.style.transition = 'opacity .5s';
                 overlayElement.style.display = 'block';
               });
             
@@ -626,8 +617,16 @@
         height: auto;
     }
   .dropdown-content {
-    display: none;
+    display: block;
     height: fit-content;
+    position: absolute;
+    width: 96%;
+    left: 1%;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 5px #373737b3;
+    transition: opacity .5s;
   }
   .image-content {
    width: 17em;
