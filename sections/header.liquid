@@ -580,6 +580,23 @@
               </ul>
             </nav>
           {%- endif -%}
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+  const dropdown = document.querySelector(".dropdown");
+  const dropdownContent = dropdown.querySelector(".dropdown-content");
+
+  dropdown.addEventListener("mouseleave", function() {
+    dropdownContent.style.display = "none";
+    dropdown.querySelector(".dropdown::before").style.display = "none";
+  });
+
+  dropdown.addEventListener("mouseenter", function() {
+    dropdownContent.style.display = "flex";
+    dropdown.querySelector(".dropdown::before").style.display = "block";
+  });
+});
+
+          </script>
 <style>
    ul.list-menu--inline li {
     padding:0 !important;
@@ -609,7 +626,27 @@
   transition: opacity .5s;
 }
 
-.dropdown-content::before {
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 96%;
+  left: 1%;
+  padding: 10px;
+  background-color: #f3f3f3;
+  box-shadow: 1px 1px 5px #373737b3;
+  transition: opacity .5s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown::before {
   content: "";
   position: fixed;
   top: 0;
@@ -621,10 +658,9 @@
   z-index: 999;
 }
 
-.dropdown:hover .dropdown-content::before {
+.dropdown:hover .dropdown::before {
   display: block;
 }
-
   .image-content {
    width: 17em;
    height: fit-content;
