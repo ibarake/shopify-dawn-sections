@@ -586,7 +586,8 @@
             for (var i = 0; i < dropdownElements.length; i++) {
               var dropdownElement = dropdownElements[i];
               var dropdownContentElement = dropdownContentElements[i];
-            overlay.addEventListener('mouseenter', function() {
+             dropdownElement.addEventListener('mouseenter', function() {
+               var overlay = this.querySelector('.dropdown-content');
               overlay.style.display = 'block';
             });
               dropdownElement.addEventListener('mouseenter', function() {
