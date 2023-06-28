@@ -578,26 +578,17 @@
               {%- endfor -%}
               </ul>
             </nav>
-                <div class="overlay">
-        <style>
-          .overlay {
-              position: absolute;
-              width: 100%;
-              background-color: rgba(0, 0, 0, 0.4);
-              height: 100em;
-              margin-top: -290em;
-          }
-        </style>
-      </div>
           {%- endif -%}
           <script>
             var dropdownElements = document.querySelectorAll('.dropdown');
             var dropdownContentElements = document.querySelectorAll('.dropdown-content');
-            
+            var overlay = document.querySelectorAll('.overlay');
             for (var i = 0; i < dropdownElements.length; i++) {
               var dropdownElement = dropdownElements[i];
               var dropdownContentElement = dropdownContentElements[i];
-            
+            overlay.addEventListener('mouseenter', function() {
+              overlay.style.display = 'block';
+            });
               dropdownElement.addEventListener('mouseenter', function() {
                 var contentElement = this.querySelector('.dropdown-content');
                 // Agregar estilos cuando el hover está activo
