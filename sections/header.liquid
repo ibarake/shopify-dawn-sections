@@ -457,7 +457,18 @@
             {%- endif -%}
           </div>
         </div>
-
+        <div class="overlay">
+        <style>
+          .overlay {
+              display: none;
+              position: absolute;
+              width: 100%;
+              background-color: rgba(0, 0, 0, 0.4);
+              height: 100em;
+              margin-top: -290em;
+          }
+        </style>
+      </div>
         <div class="header__icons">
 
         {%- if shop.customer_accounts_enabled -%}
