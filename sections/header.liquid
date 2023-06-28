@@ -599,7 +599,7 @@
               dropdownElement.addEventListener('mouseleave', function() {
                 var contentElement = this.querySelector('.dropdown-content');
                 //cuando el hover ya no está activo
-                contentElement.style = '';
+                contentElement.style.display = 'none';
                 overlayElement.style.display = 'none';
               });
             }
