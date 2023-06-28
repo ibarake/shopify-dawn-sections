@@ -580,34 +580,38 @@
             </nav>
           {%- endif -%}
           <script>
-            var dropdownElements = document.querySelectorAll('.dropdown');
-            var dropdownContentElements = document.querySelectorAll('.dropdown-content');
-            
-            for (var i = 0; i < dropdownElements.length; i++) {
-              var dropdownElement = dropdownElements[i];
-              var dropdownContentElement = dropdownContentElements[i];
-            
-              dropdownElement.addEventListener('mouseenter', function() {
-                var contentElement = this.querySelector('.dropdown-content');
-                // Agregar estilos cuando el hover está activo
-                contentElement.style.display = 'flex';
-                contentElement.style.position = 'absolute';
-                contentElement.style.width = '96%';
-                contentElement.style.height = 'fit-content';
-                contentElement.style.left = '1%';
-                contentElement.style.justifyContent = 'space-between';
-                contentElement.style.padding = '10px';
-                contentElement.style.backgroundColor = '#f3f3f3';
-                contentElement.style.boxShadow = '1px 1px 5px #373737b3';
-                contentElement.style.transition = 'opacity .5s';
-              });
-            
-              dropdownElement.addEventListener('mouseleave', function() {
-                var contentElement = this.querySelector('.dropdown-content');
-                // Remover estilos cuando el hover ya no está activo
-                contentElement.style = '';
-              });
-            }
+          var dropdownElements = document.querySelectorAll('.dropdown');
+var dropdownContentElements = document.querySelectorAll('.dropdown-content');
+var overlayElement = document.querySelector('.overlay');
+
+for (var i = 0; i < dropdownElements.length; i++) {
+  var dropdownElement = dropdownElements[i];
+  var dropdownContentElement = dropdownContentElements[i];
+
+  dropdownElement.addEventListener('mouseenter', function() {
+    var contentElement = this.querySelector('.dropdown-content');
+    // Agregar estilos cuando el hover está activo
+    contentElement.style.display = 'flex';
+    contentElement.style.position = 'absolute';
+    contentElement.style.width = '96%';
+    contentElement.style.height = 'fit-content';
+    contentElement.style.left = '1%';
+    contentElement.style.justifyContent = 'space-between';
+    contentElement.style.padding = '10px';
+    contentElement.style.backgroundColor = '#f3f3f3';
+    contentElement.style.boxShadow = '1px 1px 5px #373737b3';
+    contentElement.style.transition = 'opacity .5s';
+    overlayElement.style.display = 'block'; // Cambiar display del overlay a block
+  });
+
+  dropdownElement.addEventListener('mouseleave', function() {
+    var contentElement = this.querySelector('.dropdown-content');
+    // Remover estilos cuando el hover ya no está activo
+    contentElement.style = '';
+    overlayElement.style.display = 'none'; // Restaurar display del overlay a none
+  });
+}
+
           </script>
 <style>
    ul.list-menu--inline li {
