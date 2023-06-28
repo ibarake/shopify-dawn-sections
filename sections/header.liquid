@@ -582,10 +582,15 @@
           <script>
             var dropdownElements = document.querySelectorAll('.dropdown');
             var dropdownContentElements = document.querySelectorAll('.dropdown-content');
-            var overlay = document.querySelectorAll('.overlay');
+            var overlay = document.querySelecto('.overlay');
+            
             for (var i = 0; i < dropdownElements.length; i++) {
               var dropdownElement = dropdownElements[i];
               var dropdownContentElement = dropdownContentElements[i];
+              
+             overlayElement.addEventListener('mouseenter', function() {
+                overlayElement.style.display = 'block'; 
+              });
               
               dropdownElement.addEventListener('mouseenter', function() {
                 var contentElement = this.querySelector('.dropdown-content');
