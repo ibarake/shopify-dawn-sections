@@ -581,22 +581,23 @@
             </nav>
           {%- endif -%}
           <script>
-            var elemento = document.getElementById('');
-
+            var dropdownElement = document.querySelector('.dropdown');
+            var dropdownContentElement = document.querySelector('.dropdown-content');
+            dropdownElement.addEventListener('mouseenter', function() {
+              // Agregar estilos cuando el hover está activo
+              dropdownContentElement.style.display = 'flex';
+              dropdownContentElement.style.position = 'absolute';
+              dropdownContentElement.style.width = '96%';
+              dropdownContentElement.style.height = 'fit-content';
+              dropdownContentElement.style.left = '1%';
+              dropdownContentElement.style.justifyContent = 'space-between';
+              dropdownContentElement.style.padding = '10px';
+              dropdownContentElement.style.backgroundColor = '#f3f3f3';
+              dropdownContentElement.style.boxShadow = '1px 1px 5px #373737b3';
+              dropdownContentElement.style.transition = 'opacity .5s';
+            });
           </script>
 <style>
-   .dropdown:hover .dropdown-content {
-    display: flex;
-    position: absolute;
-    width: 96%;
-    height: fit-content;
-    left: 1%;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #f3f3f3;
-    box-shadow: 1px 1px 5px #373737b3;
-    transition: opacity .5s;
-}
    ul.list-menu--inline li {
     padding:0 !important;
   }
