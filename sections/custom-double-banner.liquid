@@ -66,7 +66,7 @@
 <div class="custom-double-banner page-width">
   {% for block in section.blocks %}
     <div class="half">
-      <a class="alink" href="{{ section.settings.button_link.url }}">
+      <a class="alink" href="{{ block.settings.button_link.url }}">
         <div class="image" style="background-image: url({{ block.settings.banner-image | image_url}});">
           <p class="first-title">{{ block.settings['first-title'] }}</p>
           <p class="second-title">{{ block.settings['second-title'] }}</p>
@@ -75,7 +75,7 @@
 
       <div class="custom-button-container">
         <a
-          href="{{ section.settings.button_link.url }}"
+          href="{{ block.settings.button_link.url }}"
           style="color: {{ section.settings.btn-color }};"
           class="alink2 btn-double-banner"
         >
