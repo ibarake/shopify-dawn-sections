@@ -44,6 +44,31 @@
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
       "type": "custom-collections",
       "blocks": {
+        "6c6a11fb-2842-4632-a1d5-b1abc166ea69": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "para la estancia más habitada",
+            "title-alignment": "flex-start",
+            "collection-title": "Salas",
+            "collection": "salas",
+            "button-title": "Todo en salas",
+            "blocks-selection": "products",
+            "product_list": [
+              "accesorios-de-entretenimiento-para-insertar-chimenea-electrica"
+            ],
+            "collection_list": [
+              "sofas-modulares",
+              "sillas-para-sala-y-habitacion",
+              "muebles"
+            ],
+            "poc-1": "Sofás modulares",
+            "poc-2": "Sillas para sala",
+            "poc-3": "Muebles",
+            "poc-4": "Muebles reclinables",
+            "poc-5": "Mesas de café",
+            "poc-6": "Muebles de tv"
+          }
+        },
         "b6f82881-e698-4c53-bc50-d4a93f6bf13b": {
           "type": "collection",
           "settings": {
@@ -69,35 +94,34 @@
             "poc-6": "."
           }
         },
-        "6c6a11fb-2842-4632-a1d5-b1abc166ea69": {
+        "75d1df97-7012-4d41-a8dd-84f4db1a0a38": {
           "type": "collection",
           "settings": {
-            "heading-text": "para la estancia más habitada",
+            "heading-text": "Heading text",
             "title-alignment": "flex-start",
-            "collection-title": "Salas",
-            "collection": "salas",
-            "button-title": "Todo en salas",
-            "blocks-selection": "collections",
+            "collection-title": "Comedores",
+            "collection": "mesas-de-comedor",
+            "button-title": "Add text",
+            "blocks-selection": "products",
             "product_list": [
 
             ],
             "collection_list": [
-              "sofas-modulares",
-              "sillas-para-sala-y-habitacion",
-              "muebles"
+
             ],
-            "poc-1": "Sofás modulares",
-            "poc-2": "Sillas para sala",
-            "poc-3": "Muebles",
-            "poc-4": "Muebles reclinables",
-            "poc-5": "Mesas de café",
-            "poc-6": "Muebles de tv"
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         }
       },
       "block_order": [
+        "6c6a11fb-2842-4632-a1d5-b1abc166ea69",
         "b6f82881-e698-4c53-bc50-d4a93f6bf13b",
-        "6c6a11fb-2842-4632-a1d5-b1abc166ea69"
+        "75d1df97-7012-4d41-a8dd-84f4db1a0a38"
       ],
       "settings": {
         "btn-txt-color": "#363534",
