@@ -79,11 +79,36 @@
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
+        },
+        "747645e1-5838-463d-b961-609d925b2f83": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
+            "collection-title": "",
+            "collection": "decoracion-del-hogar",
+            "button-title": "Add text",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "alfombras",
+              "alfombras-1"
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "2b9c57d4-54b5-42cf-ba81-ef8c394679a0",
-        "f2a12ca4-b64f-4515-a892-93248634a1d3"
+        "f2a12ca4-b64f-4515-a892-93248634a1d3",
+        "747645e1-5838-463d-b961-609d925b2f83"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -120,10 +145,34 @@
             "poc-5": "Mesa",
             "poc-6": "Juegos de comedor"
           }
+        },
+        "2cfe48c9-45d0-422f-bbbb-32e15ef5663a": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
+            "collection-title": "",
+            "collection": "",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
-        "75d1df97-7012-4d41-a8dd-84f4db1a0a38"
+        "75d1df97-7012-4d41-a8dd-84f4db1a0a38",
+        "2cfe48c9-45d0-422f-bbbb-32e15ef5663a"
       ],
       "settings": {
         "btn-txt-color": "#363534",
