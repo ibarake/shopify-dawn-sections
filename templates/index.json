@@ -106,19 +106,19 @@
 
             ],
             "collection_list": [
-              "sillas-de-comedor",
               "bancos-de-comedor",
               "almacenamiento-comedor",
               "mesas-de-comedor-altas",
               "sillas-altas-de-comedor",
-              "mesas-de-comedor"
+              "mesas-de-comedor",
+              "juegos-de-comedor"
             ],
-            "poc-1": "Sillas",
-            "poc-2": "Bancos",
-            "poc-3": "Almacenamiento",
-            "poc-4": "Mesas de barra",
-            "poc-5": "Sillas de barra",
-            "poc-6": "Mesas de comedor"
+            "poc-1": "Bancos",
+            "poc-2": "Almacenamiento",
+            "poc-3": "Mesas de barra",
+            "poc-4": "Sillas de barra",
+            "poc-5": "Mesa",
+            "poc-6": "Juegos de comedor"
           }
         }
       },
