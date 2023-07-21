@@ -374,12 +374,6 @@
     "54b97664-3cf4-44af-97ad-c90fe7df232c": {
       "type": "collage",
       "blocks": {
-        "969f180f-3c5b-4291-9058-f41a4c54e7e5": {
-          "type": "collection",
-          "settings": {
-            "collection": "colchones-por-tipo"
-          }
-        },
         "template--17657980813619__54b97664-3cf4-44af-97ad-c90fe7df232c-collection-1": {
           "type": "collection",
           "settings": {
@@ -391,12 +385,18 @@
           "settings": {
             "collection": "colchones-por-tamano"
           }
+        },
+        "969f180f-3c5b-4291-9058-f41a4c54e7e5": {
+          "type": "collection",
+          "settings": {
+            "collection": "colchones-por-tipo"
+          }
         }
       },
       "block_order": [
-        "969f180f-3c5b-4291-9058-f41a4c54e7e5",
         "template--17657980813619__54b97664-3cf4-44af-97ad-c90fe7df232c-collection-1",
-        "f462a52e-dd20-45f7-ba80-503373a8612b"
+        "f462a52e-dd20-45f7-ba80-503373a8612b",
+        "969f180f-3c5b-4291-9058-f41a4c54e7e5"
       ],
       "settings": {
         "heading": "Colchones",
