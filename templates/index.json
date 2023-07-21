@@ -172,6 +172,7 @@
     },
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "0c7948dc-54d5-4f12-a61b-79adfcbc7403": {
           "type": "featured_collection",
