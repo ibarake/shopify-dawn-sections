@@ -5,8 +5,8 @@
       "settings": {
         "subheading": "compartiendo en la mesa",
         "heading": "Tu hogar, tu estilo",
-        "spacing": 236,
-        "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
+        "spacing": 536,
+        "image": "shopify:\/\/shop_images\/15403-64-46-77-46-65.webp",
         "bg-color": "#f4f4f4",
         "color": "#000000",
         "img-position": "center center",
@@ -130,6 +130,7 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -178,6 +179,7 @@
     },
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "06cdde38-e143-4d16-9946-0e940af450e4": {
           "type": "featured_collection",
@@ -232,6 +234,7 @@
     },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
       "type": "custom-double-banner",
+      "disabled": true,
       "blocks": {
         "af0d6954-943b-491b-a9fd-226774b24bfc": {
           "type": "image",
@@ -268,6 +271,7 @@
     },
     "087b8800-2180-4c59-8c6d-5dc66436b193": {
       "type": "custom-collections",
+      "disabled": true,
       "blocks": {
         "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
           "type": "collection",
@@ -305,6 +309,7 @@
     },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "13c91ef6-ae26-4022-999d-eedef2b7983e": {
           "type": "featured_collection",
