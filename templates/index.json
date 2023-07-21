@@ -143,6 +143,7 @@
     },
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "0c7948dc-54d5-4f12-a61b-79adfcbc7403": {
           "type": "featured_collection",
@@ -183,6 +184,7 @@
     },
     "8fcb6f31-5e9e-4ac9-9074-98800ddaa0ad": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "33af7c74-48a0-4db1-a9fc-2e5e12266811": {
           "type": "featured_collection",
