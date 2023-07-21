@@ -3,7 +3,7 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "compartiendo en la mesa",
+        "subheading": "compartiendo en familia",
         "heading": "Tu hogar, tu estilo",
         "spacing": 27,
         "image": "shopify:\/\/shop_images\/15403-64-46-77-46-65.webp",
@@ -52,21 +52,23 @@
             "collection-title": "Salas",
             "collection": "salas",
             "button-title": "Todo en salas",
-            "blocks-selection": "products",
+            "blocks-selection": "collections",
             "product_list": [
 
             ],
             "collection_list": [
               "sofas-modulares",
               "sillas-para-sala-y-habitacion",
-              "muebles"
+              "muebles",
+              "mesas-de-centro",
+              "alfombras-1"
             ],
             "poc-1": "Sofás modulares",
             "poc-2": "Sillas para sala",
             "poc-3": "Muebles",
-            "poc-4": "Muebles reclinables",
-            "poc-5": "Mesas de café",
-            "poc-6": "Muebles de tv"
+            "poc-4": "Muebles de centro",
+            "poc-5": "Lamparas de piso",
+            "poc-6": "Alfombras"
           }
         },
         "b6f82881-e698-4c53-bc50-d4a93f6bf13b": {
