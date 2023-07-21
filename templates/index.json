@@ -99,9 +99,9 @@
           "settings": {
             "heading-text": "Heading text",
             "title-alignment": "flex-start",
-            "collection-title": "Comedores",
+            "collection-title": "Comedores y Cocina",
             "collection": "mesas-de-comedor",
-            "button-title": "Add text",
+            "button-title": "Todo en comedor y cocina",
             "blocks-selection": "products",
             "product_list": [
 
