@@ -120,35 +120,10 @@
             "poc-5": "Mesa",
             "poc-6": "Juegos de comedor"
           }
-        },
-        "2cfe48c9-45d0-422f-bbbb-32e15ef5663a": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "bancos",
-            "title-alignment": "flex-start",
-            "collection-title": "bancos",
-            "collection": "decoracion-del-hogar",
-            "button-title": "Add text",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "accesorios-para-el-hogar",
-              "alfombras"
-            ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
         }
       },
       "block_order": [
-        "75d1df97-7012-4d41-a8dd-84f4db1a0a38",
-        "2cfe48c9-45d0-422f-bbbb-32e15ef5663a"
+        "75d1df97-7012-4d41-a8dd-84f4db1a0a38"
       ],
       "settings": {
         "btn-txt-color": "#363534",
