@@ -385,7 +385,7 @@
         "c46272c6-73c3-40b9-bd22-aa1bb8a62ac3": {
           "type": "collection",
           "settings": {
-            "heading-text": "Heading text",
+            "heading-text": "",
             "title-alignment": "flex-start",
             "collection-title": "Dormitorio",
             "collection": "dormitorio",
