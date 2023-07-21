@@ -230,7 +230,6 @@
     },
     "aa20221d-fd0a-4547-8813-821a77a2603d": {
       "type": "custom-collections",
-      "disabled": true,
       "blocks": {
         "9cae3991-f00f-497c-bd2c-f8eba08a3ab7": {
           "type": "collection",
@@ -250,10 +249,10 @@
               "comedores-de-exterior",
               "tapetes-interiores-exteriores"
             ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
+            "poc-1": "Accesorios para el exterior",
+            "poc-2": "Cojines exteriores",
+            "poc-3": "Comedores de exterior",
+            "poc-4": "Tapetes de exterior",
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
