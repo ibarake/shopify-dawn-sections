@@ -470,12 +470,6 @@
             "collection": "jarrones-y-botellas"
           }
         },
-        "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "velas-y-portavelas"
-          }
-        },
         "730b51fc-86e7-42c1-bc49-4878b289322b": {
           "type": "featured_collection",
           "settings": {
@@ -498,7 +492,6 @@
       "block_order": [
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-1",
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-2",
-        "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-3",
         "730b51fc-86e7-42c1-bc49-4878b289322b",
         "ef9052ff-c8cd-4874-b912-eff3f28534e5",
         "9b6717bf-d7cc-49d1-a790-cb251b2b82b2"
