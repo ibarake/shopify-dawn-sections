@@ -172,7 +172,6 @@
     },
     "8fcb6f31-5e9e-4ac9-9074-98800ddaa0ad": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "33af7c74-48a0-4db1-a9fc-2e5e12266811": {
           "type": "featured_collection",
@@ -195,7 +194,7 @@
         "34cee181-46cf-47a6-90e7-9189df14d8cc": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "almacenamiento-y-organizacion"
           }
         }
       },
@@ -582,6 +581,30 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd": {
+      "type": "collage",
+      "blocks": {
+        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "almacenamiento"
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -598,6 +621,7 @@
     "db6c522d-c4bb-4064-ae63-94fd790a4964",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "46658e2a-45ab-457a-9e97-791c28394991",
-    "image_banner"
+    "image_banner",
+    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd"
   ]
 }
