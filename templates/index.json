@@ -130,7 +130,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -186,12 +185,6 @@
             "collection": "sofas-modulares"
           }
         },
-        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cocina-y-comedor"
-          }
-        },
         "9bc59a37-0ca0-4bf8-b1d8-edb5941a3272": {
           "type": "featured_collection",
           "settings": {
@@ -204,6 +197,12 @@
             "collection": "colchones"
           }
         },
+        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cocina-y-comedor"
+          }
+        },
         "fd87f9a0-64ac-4887-ab2e-d31663082297": {
           "type": "featured_collection",
           "settings": {
@@ -213,9 +212,9 @@
       },
       "block_order": [
         "06cdde38-e143-4d16-9946-0e940af450e4",
-        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829",
         "9bc59a37-0ca0-4bf8-b1d8-edb5941a3272",
         "0c7948dc-54d5-4f12-a61b-79adfcbc7403",
+        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829",
         "fd87f9a0-64ac-4887-ab2e-d31663082297"
       ],
       "settings": {
@@ -237,10 +236,10 @@
         "af0d6954-943b-491b-a9fd-226774b24bfc": {
           "type": "image",
           "settings": {
-            "first-title": "cientos de estilos disponibles",
-            "second-title": "En inventario con entrega rápida",
+            "first-title": "Estilos para todo",
+            "second-title": "Encuentra el tuyo",
             "button-text": "Comprar ahora",
-            "banner-image": "shopify:\/\/shop_images\/Mueble_image_ef1e69b1-eb93-456d-91fe-644e55e12f20.jpg",
+            "banner-image": "shopify:\/\/shop_images\/32902-38-SET-10X8-CROP.webp",
             "button_link": ""
           }
         },
