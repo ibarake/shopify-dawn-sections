@@ -165,55 +165,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "REGISTRATE A INAUGURACION",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "PRÓXIMAMENTE FURNITURE ASHLEY HOMESTORE EN COLOMBIA",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "RESIGRATE",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "{{ shop.brand.square_logo }}",
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
       "type": "collection-list",
       "blocks": {
@@ -223,37 +174,30 @@
             "collection": "colchones"
           }
         },
-        "06cdde38-e143-4d16-9946-0e940af450e4": {
+        "e619eab9-cd13-4ea0-8506-4114cb2b8985": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofas-modulares"
+            "collection": "almacenamiento"
           }
         },
-        "9bc59a37-0ca0-4bf8-b1d8-edb5941a3272": {
+        "a0d96b79-ef6b-46e1-8d20-578996ca5a60": {
           "type": "featured_collection",
           "settings": {
-            "collection": "exterior"
+            "collection": "camarotes"
           }
         },
-        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829": {
+        "f70aca5c-2cad-4598-900c-76cdafaa40fa": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cocina-y-comedor"
-          }
-        },
-        "fd87f9a0-64ac-4887-ab2e-d31663082297": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "camas"
+            "collection": ""
           }
         }
       },
       "block_order": [
         "0c7948dc-54d5-4f12-a61b-79adfcbc7403",
-        "06cdde38-e143-4d16-9946-0e940af450e4",
-        "9bc59a37-0ca0-4bf8-b1d8-edb5941a3272",
-        "dcc6aa31-6c74-4bed-bdfc-f94e0e78d829",
-        "fd87f9a0-64ac-4887-ab2e-d31663082297"
+        "e619eab9-cd13-4ea0-8506-4114cb2b8985",
+        "a0d96b79-ef6b-46e1-8d20-578996ca5a60",
+        "f70aca5c-2cad-4598-900c-76cdafaa40fa"
       ],
       "settings": {
         "title": "conoce nuestras categorías",
@@ -407,20 +351,13 @@
           "settings": {
             "collection": "lamparas"
           }
-        },
-        "0005bcb8-67b7-4fc2-9bfc-981992b47c89": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "decoracion-del-hogar"
-          }
         }
       },
       "block_order": [
         "13c91ef6-ae26-4022-999d-eedef2b7983e",
         "4fa7c405-59a3-484d-aa69-72fdafcb35b4",
         "8dec4ffe-b887-4bd5-9f18-9db11ff98c76",
-        "bd52417d-64a6-4db8-9f94-99c1c05eaeff",
-        "0005bcb8-67b7-4fc2-9bfc-981992b47c89"
+        "bd52417d-64a6-4db8-9f94-99c1c05eaeff"
       ],
       "settings": {
         "title": "Júntalos con sus estilos",
@@ -435,24 +372,42 @@
         "padding_bottom": 28
       }
     },
-    "46658e2a-45ab-457a-9e97-791c28394991": {
-      "type": "image-banner",
-      "disabled": true,
-      "custom_css": [
-        ".banner__box {display: none;}"
+    "db6c522d-c4bb-4064-ae63-94fd790a4964": {
+      "type": "custom-collections",
+      "blocks": {
+        "18c804dd-d36d-4aef-bf85-66c86cc341d1": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Escritorio",
+            "collection": "escritorios",
+            "button-title": "Add text",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "escritorios",
+              "lamparas-de-escritorio",
+              "almacenamiento-para-oficina",
+              "sillas-de-oficina"
+            ],
+            "poc-1": "Escritorios",
+            "poc-2": "Lámparas de escritorio",
+            "poc-3": "Almacenamiento para escritorio",
+            "poc-4": "Sillas de oficina",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        }
+      },
+      "block_order": [
+        "18c804dd-d36d-4aef-bf85-66c86cc341d1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-01-13_at_9.46.40_PM.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
@@ -509,42 +464,73 @@
         "padding_bottom": 36
       }
     },
-    "db6c522d-c4bb-4064-ae63-94fd790a4964": {
-      "type": "custom-collections",
+    "46658e2a-45ab-457a-9e97-791c28394991": {
+      "type": "image-banner",
+      "disabled": true,
+      "custom_css": [
+        ".banner__box {display: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-01-13_at_9.46.40_PM.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
       "blocks": {
-        "18c804dd-d36d-4aef-bf85-66c86cc341d1": {
-          "type": "collection",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Escritorio",
-            "collection": "escritorios",
-            "button-title": "Add text",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "escritorios",
-              "lamparas-de-escritorio",
-              "almacenamiento-para-oficina",
-              "sillas-de-oficina"
-            ],
-            "poc-1": "Escritorios",
-            "poc-2": "Lámparas de escritorio",
-            "poc-3": "Almacenamiento para escritorio",
-            "poc-4": "Sillas de oficina",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
+            "heading": "REGISTRATE A INAUGURACION",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "PRÓXIMAMENTE FURNITURE ASHLEY HOMESTORE EN COLOMBIA",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "RESIGRATE",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "18c804dd-d36d-4aef-bf85-66c86cc341d1"
+        "heading",
+        "text",
+        "button"
       ],
       "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
+        "image": "{{ shop.brand.square_logo }}",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     }
   },
@@ -553,14 +539,14 @@
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "8032200c-07ba-474b-b497-5a6d98d1b083",
-    "image_banner",
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
     "aa20221d-fd0a-4547-8813-821a77a2603d",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "46658e2a-45ab-457a-9e97-791c28394991",
+    "db6c522d-c4bb-4064-ae63-94fd790a4964",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
-    "db6c522d-c4bb-4064-ae63-94fd790a4964"
+    "46658e2a-45ab-457a-9e97-791c28394991",
+    "image_banner"
   ]
 }
