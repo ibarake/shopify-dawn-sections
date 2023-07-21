@@ -170,47 +170,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "0c7948dc-54d5-4f12-a61b-79adfcbc7403": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "colchones"
-          }
-        },
-        "1b55388f-96ed-4a62-92b4-08be7397a3a2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "colchones-por-tipo"
-          }
-        },
-        "f70aca5c-2cad-4598-900c-76cdafaa40fa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "colchones-por-tamano"
-          }
-        }
-      },
-      "block_order": [
-        "0c7948dc-54d5-4f12-a61b-79adfcbc7403",
-        "1b55388f-96ed-4a62-92b4-08be7397a3a2",
-        "f70aca5c-2cad-4598-900c-76cdafaa40fa"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h0",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 28
-      }
-    },
     "8fcb6f31-5e9e-4ac9-9074-98800ddaa0ad": {
       "type": "collection-list",
       "disabled": true,
@@ -630,7 +589,6 @@
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "8032200c-07ba-474b-b497-5a6d98d1b083",
-    "8bab7b54-ef93-4691-8cc8-87f3017eb3e8",
     "8fcb6f31-5e9e-4ac9-9074-98800ddaa0ad",
     "aa20221d-fd0a-4547-8813-821a77a2603d",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
