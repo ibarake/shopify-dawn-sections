@@ -143,17 +143,17 @@
             "collection_list": [
               "bancos-de-dormitorio",
               "sillas-de-dormitorio",
-              "almacenamiento-de-dormitorio",
               "camas",
               "mesitas-de-noche",
-              "lamparas-de-mesa"
+              "lamparas-de-mesa",
+              "ropa-de-cama"
             ],
             "poc-1": "Bancos",
             "poc-2": "Sillas",
-            "poc-3": "Almacenamiento",
-            "poc-4": "Camas",
-            "poc-5": "Mesas de noche",
-            "poc-6": "Lámparas"
+            "poc-3": "Camas",
+            "poc-4": "Mesas de noche",
+            "poc-5": "Lámparas de mesa",
+            "poc-6": "Ropa de cama"
           }
         }
       },
@@ -457,6 +457,7 @@
     },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-1": {
           "type": "featured_collection",
