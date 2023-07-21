@@ -246,10 +246,10 @@
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
           "type": "image",
           "settings": {
-            "first-title": "Lo que mas valoran nuestros clientes",
-            "second-title": "Entrega con instalación",
+            "first-title": "Muebles",
+            "second-title": "Con instalación",
             "button-text": "Comprar ahora",
-            "banner-image": "shopify:\/\/shop_images\/Mueble_2_4062c11d-469c-40e3-9069-48ca79f36662.jpg",
+            "banner-image": "shopify:\/\/shop_images\/con_fondo.webp",
             "button_link": "shopify:\/\/collections\/alfombras"
           }
         }
