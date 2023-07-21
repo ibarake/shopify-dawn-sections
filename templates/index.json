@@ -270,6 +270,7 @@
     },
     "aa20221d-fd0a-4547-8813-821a77a2603d": {
       "type": "custom-collections",
+      "disabled": true,
       "blocks": {
         "9cae3991-f00f-497c-bd2c-f8eba08a3ab7": {
           "type": "collection",
@@ -382,7 +383,6 @@
     },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "13c91ef6-ae26-4022-999d-eedef2b7983e": {
           "type": "featured_collection",
@@ -457,7 +457,6 @@
     },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-1": {
           "type": "featured_collection",
