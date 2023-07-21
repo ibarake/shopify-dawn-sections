@@ -152,7 +152,7 @@
     width: 100%;
     height: 100%;
   }
- 
+
   #custom-catergory-select{
     height: 4.5rem;
     margin: 30px 0px 30px 0px;
@@ -180,7 +180,7 @@
   #custom-catergory-select option p{
     text-transform: uppercase;
   }
-    
+
     @media screen and (max-width: 989px) {
         .top-collection{
           display:block;
@@ -198,46 +198,37 @@
           overflow-x: auto;
         }
     }
- 
-
 </style>
 
 <script>
-
   const selectedCollectionFunction = (collectionTitle) => {
     const selectedCollection = collectionTitle;
   };
 </script>
 
-
-
 <div class="page-width custom-collections-section">
-
-<div class="top-collection">
-  <select name="custom-catergory-select" id="custom-catergory-select">
-
-  {% for collection in section.blocks %}
-
-      <option class="options-collections" value="custom-content-{{ forloop.index }}"> <span class="inside-text">{{ collection.settings.collection-title }}</span></option>
-
-  {% endfor %}
-    
-  </select>
-</div>
+  <div class="top-collection">
+    <select name="custom-catergory-select" id="custom-catergory-select">
+      {% for collection in section.blocks %}
+        <option class="options-collections" value="custom-content-{{ forloop.index }}">
+          <span class="inside-text">{{ collection.settings['collection-title'] }}</span>
+        </option>
+      {% endfor %}
+    </select>
+  </div>
 
   <ul class="pagination">
     {% for collection in section.blocks %}
       {% if forloop.index == 1 %}
         <li class="tab active" data-content-id="custom-content-{{ forloop.index }}">
-          {{ collection.settings.collection-title }}
+          {{ collection.settings['collection-title'] }}
         </li>
       {% endif %}
       {% if forloop.index > 1 %}
         <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
-          {{ collection.settings.collection-title }}
+          {{ collection.settings['collection-title'] }}
         </li>
       {% endif %}
-
     {% endfor %}
   </ul>
 
@@ -245,20 +236,21 @@
     {% if forloop.index == 1 %}
       <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
-    <h2 class="title-section">{{ block.settings.heading-text }}</h2>
-  </div>
+          <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
+        </div>
         <div class="left-right">
           <div class="left">
             <div class="collection-image">
-            <a href="{{ block.settings.collection.url }}">
+              <a href="{{ block.settings.collection.url }}">
                 <img
-                class="mainimage"
-                src="{{ block.settings.collection.metafields.custom.roomimage | image_url }}"
-                alt="">
-            </a>
+                  class="mainimage"
+                  src="{{ block.settings.collection.metafields.custom.roomimage | image_url }}"
+                  alt=""
+                >
+              </a>
             </div>
             <div class="button-container">
-              <a href="{{ collection.url }}" class="btn-collections-all">{{ block.settings.button-title }}</a>
+              <a href="{{ collection.url }}" class="btn-collections-all">{{ block.settings['button-title'] }}</a>
               <svg
                 class="arrow-svg"
                 version="1.2"
@@ -269,290 +261,287 @@
                 viewBox="0 0 26 26"
                 width="24"
                 height="24"
-                fill="inherit">
-                <g transform="translate(1, 1)">
-                  <path
-                    fill="inherit"
-                    d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
-                    vector-effect="non-scaling-stroke">
-                </path>
-              </g>
-            </svg>
+                fill="inherit"
+              >
+                  <g transform="translate(1, 1)">
+                    <path
+                      fill="inherit"
+                      d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
+                      vector-effect="non-scaling-stroke">
+                  </path>
+                </g>
+              </svg>
+            </div>
           </div>
-        </div>
 
-        {% if block.settings.blocks-selection == "products" %}
-        <div class="right ">
-  
-        {% for product in block.settings.product_list %}
-          <div class="product-container">
-            <a class="product-text-container" href="{{ product.url }}">
+          {% if block.settings['blocks-selection'] == 'products' %}
+            <div class="right ">
+              {% for product in block.settings.product_list %}
+                <div class="product-container">
+                  <a class="product-text-container" href="{{ product.url }}">
+                    <img
+                      class="product-image"
+                      src="{{ product.images[0] | image_url }}"
+                      alt=""
+                    >
+                    <p class="product-text">
+                      {% if forloop.index == 1 %}
+                        {{ block.settings['poc-1'] }}
+                      {% endif %}
+                      {% if forloop.index == 2 %}
+                        {{ block.settings['poc-2'] }}
+                      {% endif %}
+                      {% if forloop.index == 3 %}
+                        {{ block.settings['poc-3'] }}
+                      {% endif %}
+                      {% if forloop.index == 4 %}
+                        {{ block.settings['poc-4'] }}
+                      {% endif %}
+                      {% if forloop.index == 5 %}
+                        {{ block.settings['poc-5'] }}
+                      {% endif %}
+                      {% if forloop.index == 6 %}
+                        {{ block.settings['poc-6'] }}
+                      {% endif %}
+                    </p>
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if block.settings['blocks-selection'] == 'collections' %}
+            <div class="right ">
+              {% for collection in block.settings.collection_list %}
+                <div class="product-container">
+                  <a class="product-text-container" href="{{ collection.url }}">
+                    <img
+                      class="product-image"
+                      src="{{ collection.image | image_url }}"
+                      alt=""
+                    >
+                    <p class="product-text">
+                      {% if forloop.index == 1 %}
+                        {{ block.settings['poc-1'] }}
+                      {% endif %}
+                      {% if forloop.index == 2 %}
+                        {{ block.settings['poc-2'] }}
+                      {% endif %}
+                      {% if forloop.index == 3 %}
+                        {{ block.settings['poc-3'] }}
+                      {% endif %}
+                      {% if forloop.index == 4 %}
+                        {{ block.settings['poc-4'] }}
+                      {% endif %}
+                      {% if forloop.index == 5 %}
+                        {{ block.settings['poc-5'] }}
+                      {% endif %}
+                      {% if forloop.index == 6 %}
+                        {{ block.settings['poc-6'] }}
+                      {% endif %}
+                    </p>
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if forloop.index > 1 %}
+      <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
+        <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
+          <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
+        </div>
+        <div class="left-right">
+          <div class="left">
+            <div class="collection-image">
               <img
-                class="product-image"
-                src="{{ product.images[0] | image_url }}"
-                alt="">
-              <p class="product-text">
-                {% if forloop.index == 1 %}
-                  {{ block.settings.poc-1 }}
-                {% endif %}
-                {% if forloop.index == 2 %}
-                  {{ block.settings.poc-2 }}
-                {% endif %}
-                {% if forloop.index == 3 %}
-                  {{ block.settings.poc-3 }}
-                {% endif %}
-                {% if forloop.index == 4 %}
-                  {{ block.settings.poc-4 }}
-                {% endif %}
-                {% if forloop.index == 5 %}
-                  {{ block.settings.poc-5 }}
-                {% endif %}
-                {% if forloop.index == 6 %}
-                  {{ block.settings.poc-6 }}
-                {% endif %}
-                </p>
-            </a>
+                class="mainimage"
+                src="{{ block.settings.collection.image | image_url }}"
+                alt=""
+              >
+            </div>
+            <div class="button-container">
+              <a href="#" class="btn-collections-all">{{ block.settings['button-title'] }}</a>
+
+              <svg
+                class="arrow-svg"
+                version="1.2"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                overflow="visible"
+                preserveAspectRatio="none"
+                viewBox="0 0 26 26"
+                width="24"
+                height="24"
+                fill="inherit"
+              >
+                  <g transform="translate(1, 1)">
+                    <path
+                      fill="inherit"
+                      d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
+                      vector-effect="non-scaling-stroke">
+                  </path>
+                </g>
+              </svg>
+            </div>
           </div>
-        {% endfor %}
-  
-      </div>
-        {% endif %}
-  
-        {% if block.settings.blocks-selection == "collections" %}
-        <div class="right ">
-  
-        {% for collection in block.settings.collection_list %}
-          <div class="product-container">
-            <a class="product-text-container" href="{{ collection.url }}">
-              <img
-                class="product-image"
-                src="{{ collection.image | image_url }}"
-                alt="">
-              <p class="product-text">{% if forloop.index == 1 %}
-                {{ block.settings.poc-1 }}
-              {% endif %}
-              {% if forloop.index == 2 %}
-                {{ block.settings.poc-2 }}
-              {% endif %}
-              {% if forloop.index == 3 %}
-                {{ block.settings.poc-3 }}
-              {% endif %}
-              {% if forloop.index == 4 %}
-                {{ block.settings.poc-4 }}
-              {% endif %}
-              {% if forloop.index == 5 %}
-                {{ block.settings.poc-5 }}
-              {% endif %}
-              {% if forloop.index == 6 %}
-                {{ block.settings.poc-6 }}
-              {% endif %}</p>
-            </a>
-          </div>
-        {% endfor %}
-  
-      </div>
-        {% endif %}
-      </div>
-    </div>
-  {% endif %}
 
-  {% if forloop.index > 1 %}
-    <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
-      <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
-        <h2 class="title-section">{{ block.settings.heading-text }}</h2>
-      </div>
-      <div class="left-right">
+          {% if block.settings['blocks-selection'] == 'products' %}
+            <div class="right ">
+              {% for product in block.settings.product_list %}
+                <div class="product-container">
+                  <a class="product-text-container" href="{{ product.url }}">
+                    <img
+                      class="product-image"
+                      src="{{ product.images[0] | image_url }}"
+                      alt=""
+                    >
+                    <p class="product-text">
+                      {% if forloop.index == 1 %}
+                        {{ block.settings['poc-1'] }}
+                      {% endif %}
+                      {% if forloop.index == 2 %}
+                        {{ block.settings['poc-2'] }}
+                      {% endif %}
+                      {% if forloop.index == 3 %}
+                        {{ block.settings['poc-3'] }}
+                      {% endif %}
+                      {% if forloop.index == 4 %}
+                        {{ block.settings['poc-4'] }}
+                      {% endif %}
+                      {% if forloop.index == 5 %}
+                        {{ block.settings['poc-5'] }}
+                      {% endif %}
+                      {% if forloop.index == 6 %}
+                        {{ block.settings['poc-6'] }}
+                      {% endif %}
+                    </p>
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
 
-        <div class="left">
-          <div class="collection-image">
-            <img
-              class="mainimage"
-              src="{{ block.settings.collection.image | image_url }}"
-              alt="">
-          </div>
-          <div class="button-container">
-            <a href="#" class="btn-collections-all">{{ block.settings.button-title }}</a>
-
-
-            <svg
-              class="arrow-svg"
-              version="1.2"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              overflow="visible"
-              preserveAspectRatio="none"
-              viewBox="0 0 26 26"
-              width="24"
-              height="24"
-              fill="inherit">
-              <g transform="translate(1, 1)">
-                <path
-                  fill="inherit"
-                  d="m10.8788 17.657-1.41396-1.414 4.24196-4.243-4.24196-4.24298 1.41396-1.414 5.656 5.65698z"
-                  vector-effect="non-scaling-stroke">
-              </path>
-            </g>
-          </svg>
-
-
+          {% if block.settings['blocks-selection'] == 'collections' %}
+            <div class="right">
+              {% for collection in block.settings.collection_list %}
+                <div class="product-container">
+                  <a class="product-text-container" href="#">
+                    <img
+                      class="product-image"
+                      src="{{ block.settings.collection.metafields.custom.roomimage | image_url }}"
+                      alt=""
+                    >
+                    <p class="product-text">
+                      {% if forloop.index == 1 %}
+                        {{ block.settings['poc-1'] }}
+                      {% endif %}
+                      {% if forloop.index == 2 %}
+                        {{ block.settings['poc-2'] }}
+                      {% endif %}
+                      {% if forloop.index == 3 %}
+                        {{ block.settings['poc-3'] }}
+                      {% endif %}
+                      {% if forloop.index == 4 %}
+                        {{ block.settings['poc-4'] }}
+                      {% endif %}
+                      {% if forloop.index == 5 %}
+                        {{ block.settings['poc-5'] }}
+                      {% endif %}
+                      {% if forloop.index == 6 %}
+                        {{ block.settings['poc-6'] }}
+                      {% endif %}
+                    </p>
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </div>
-
-      {% if block.settings.blocks-selection == "products" %}
-      <div class="right ">
-
-      {% for product in block.settings.product_list %}
-        <div class="product-container">
-          <a class="product-text-container" href="{{ product.url }}">
-            <img
-              class="product-image"
-              src="{{ product.images[0] | image_url }}"
-              alt="">
-            <p class="product-text">
-              {% if forloop.index == 1 %}
-                  {{ block.settings.poc-1 }}
-                {% endif %}
-                {% if forloop.index == 2 %}
-                  {{ block.settings.poc-2 }}
-                {% endif %}
-                {% if forloop.index == 3 %}
-                  {{ block.settings.poc-3 }}
-                {% endif %}
-                {% if forloop.index == 4 %}
-                  {{ block.settings.poc-4 }}
-                {% endif %}
-                {% if forloop.index == 5 %}
-                  {{ block.settings.poc-5 }}
-                {% endif %}
-                {% if forloop.index == 6 %}
-                  {{ block.settings.poc-6 }}
-                {% endif %}
-            </p>
-          </a>
-        </div>
-      {% endfor %}
-
-    </div>
-      {% endif %}
-
-      {% if block.settings.blocks-selection == "collections" %}
-      <div class="right">
-
-      {% for collection in block.settings.collection_list %}
-        <div class="product-container">
-          <a class="product-text-container" href="#">
-            <img
-              class="product-image"
-              src="{{ collection.image | image_url }}"
-              alt="">
-            <p class="product-text">
-              {% if forloop.index == 1 %}
-                  {{ block.settings.poc-1 }}
-                {% endif %}
-                {% if forloop.index == 2 %}
-                  {{ block.settings.poc-2 }}
-                {% endif %}
-                {% if forloop.index == 3 %}
-                  {{ block.settings.poc-3 }}
-                {% endif %}
-                {% if forloop.index == 4 %}
-                  {{ block.settings.poc-4 }}
-                {% endif %}
-                {% if forloop.index == 5 %}
-                  {{ block.settings.poc-5 }}
-                {% endif %}
-                {% if forloop.index == 6 %}
-                  {{ block.settings.poc-6 }}
-                {% endif %}
-            </p>
-          </a>
-        </div>
-      {% endfor %}
-
-    </div>
-      {% endif %}
-
-      
-    </div>
-  </div>
-{% endif %}{% endfor %}</div>
+    {% endif -%}
+  {%- endfor %}
+</div>
 
 <script>
-  const rights = document.querySelectorAll('.right');
+    const rights = document.querySelectorAll('.right');
 
-  rights.forEach((element) => {
-   const ChildsNumber = element.childElementCount;
-    if (ChildsNumber === 1){
-        element.style.gridTemplateColumns = "100%";
-    }
-    if (ChildsNumber === 2){
-        element.style.gridTemplateColumns = "100%";
-    }
-    if (ChildsNumber === 3){
-        element.style.gridTemplateColumns = "100%";
-    }
-    if (ChildsNumber === 4){
-        element.style.gridTemplateColumns = "50% 50%";
-    }
-    if (ChildsNumber === 5){
-        element.style.gridTemplateColumns = "50% 50%";
-    }
-    if (ChildsNumber === 6){
-        element.style.gridTemplateColumns = "50% 50%";
-    }
-})
+    rights.forEach((element) => {
+     const ChildsNumber = element.childElementCount;
+      if (ChildsNumber === 1){
+          element.style.gridTemplateColumns = "100%";
+      }
+      if (ChildsNumber === 2){
+          element.style.gridTemplateColumns = "100%";
+      }
+      if (ChildsNumber === 3){
+          element.style.gridTemplateColumns = "100%";
+      }
+      if (ChildsNumber === 4){
+          element.style.gridTemplateColumns = "50% 50%";
+      }
+      if (ChildsNumber === 5){
+          element.style.gridTemplateColumns = "50% 50%";
+      }
+      if (ChildsNumber === 6){
+          element.style.gridTemplateColumns = "50% 50%";
+      }
+  })
 
 
-  const tabs = document.querySelectorAll('.tab');
-  const options = document.querySelector('#custom-catergory-select');
-const tabContent = document.querySelectorAll('.collection-content-container');
+    const tabs = document.querySelectorAll('.tab');
+    const options = document.querySelector('#custom-catergory-select');
+  const tabContent = document.querySelectorAll('.collection-content-container');
 
-  options.addEventListener('change', (e) => {
+    options.addEventListener('change', (e) => {
 
-    console.log(e);
+      console.log(e);
 
-    contentId = e.target.value;
-    content = document.getElementById(contentId);
+      contentId = e.target.value;
+      content = document.getElementById(contentId);
 
-    console.log(content);
-    console.log(contentId);
+      console.log(content);
+      console.log(contentId);
 
-    tabContent.forEach((content) => {
-        content.classList.remove('active');
-      })
-      tabs.forEach((option) => {
-        option.classList.remove('active');
-      })
+      tabContent.forEach((content) => {
+          content.classList.remove('active');
+        })
+        tabs.forEach((option) => {
+          option.classList.remove('active');
+        })
 
+        content.classList.add('active');
+    })
+
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', (e) => {
+
+      contentId = e.target.dataset.contentId;
+      content = document.getElementById(contentId);
+
+      tabContent
+        .forEach((content) => {
+          content.classList.remove('active');
+        })
+        tabs
+        .forEach((tab) => {
+          tab.classList.remove('active');
+        })
+
+        e
+        .target
+        .classList
+        .add('active');
       content.classList.add('active');
+    })
   })
-
-
-tabs.forEach((tab) => {
-  tab.addEventListener('click', (e) => {
-
-    contentId = e.target.dataset.contentId;
-    content = document.getElementById(contentId);
-
-    tabContent
-      .forEach((content) => {
-        content.classList.remove('active');
-      })
-      tabs
-      .forEach((tab) => {
-        tab.classList.remove('active');
-      })
-
-      e
-      .target
-      .classList
-      .add('active');
-    content.classList.add('active');
-  })
-})
-
-
-</script>{% schema %}{
+</script>
+{% schema %}
+{
   "name": "Custom collection section",
   "settings": [
     {
