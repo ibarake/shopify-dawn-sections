@@ -65,12 +65,12 @@
 
             ],
             "collection_list": [
-              "almacenamiento-comedor",
               "bancos-de-comedor",
               "mesas-de-comedor-altas",
               "sillas-altas-de-comedor",
               "sillas-de-comedor",
-              "mesas-de-comedor"
+              "mesas-de-comedor",
+              "almacenamiento-comedor"
             ],
             "poc-1": "Product 1 text",
             "poc-2": "Product 2 text",
