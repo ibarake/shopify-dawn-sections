@@ -408,14 +408,15 @@
               "sofas-2-puestos",
               "sofas-3-puestos",
               "sofas-cama-seccionales",
-              "sofas-reclinables-de-dos-plazas"
+              "sofas-reclinables-de-dos-plazas",
+              "sofas-modulares"
             ],
             "poc-1": "Sofá cama",
             "poc-2": "Sofá dos puestos",
             "poc-3": "Sofá tres puestos",
             "poc-4": "Sofá cama modular",
             "poc-5": "Sofá reclinable",
-            "poc-6": "Product 6 text"
+            "poc-6": "Sofá modular"
           }
         }
       },
