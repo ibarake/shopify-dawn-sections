@@ -143,7 +143,6 @@
     },
     "8bab7b54-ef93-4691-8cc8-87f3017eb3e8": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "0c7948dc-54d5-4f12-a61b-79adfcbc7403": {
           "type": "featured_collection",
@@ -367,13 +366,20 @@
           "settings": {
             "collection": "lamparas"
           }
+        },
+        "7ccf0866-29c8-44b6-9869-ed629cf42d94": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bols-y-bandejas"
+          }
         }
       },
       "block_order": [
         "13c91ef6-ae26-4022-999d-eedef2b7983e",
         "4fa7c405-59a3-484d-aa69-72fdafcb35b4",
         "8dec4ffe-b887-4bd5-9f18-9db11ff98c76",
-        "bd52417d-64a6-4db8-9f94-99c1c05eaeff"
+        "bd52417d-64a6-4db8-9f94-99c1c05eaeff",
+        "7ccf0866-29c8-44b6-9869-ed629cf42d94"
       ],
       "settings": {
         "title": "Júntalos con sus estilos",
