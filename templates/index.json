@@ -51,10 +51,39 @@
             "poc-5": "Sofá reclinable",
             "poc-6": "Sofá modular"
           }
+        },
+        "f2a12ca4-b64f-4515-a892-93248634a1d3": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
+            "collection-title": "Comedores",
+            "collection": "cocina-y-comedor",
+            "button-title": "",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "almacenamiento-comedor",
+              "bancos-de-comedor",
+              "mesas-de-comedor-altas",
+              "sillas-altas-de-comedor",
+              "sillas-de-comedor",
+              "mesas-de-comedor"
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
-        "2b9c57d4-54b5-42cf-ba81-ef8c394679a0"
+        "2b9c57d4-54b5-42cf-ba81-ef8c394679a0",
+        "f2a12ca4-b64f-4515-a892-93248634a1d3"
       ],
       "settings": {
         "btn-txt-color": "#363534",
