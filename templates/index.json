@@ -55,8 +55,8 @@
         "f2a12ca4-b64f-4515-a892-93248634a1d3": {
           "type": "collection",
           "settings": {
-            "heading-text": "Heading text",
-            "title-alignment": "flex-start",
+            "heading-text": "",
+            "title-alignment": "flex-end",
             "collection-title": "Comedores",
             "collection": "cocina-y-comedor",
             "button-title": "",
@@ -72,8 +72,8 @@
               "mesas-de-comedor",
               "almacenamiento-comedor"
             ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
+            "poc-1": "Bancos de comedor",
+            "poc-2": "Mesas de comedor de barras",
             "poc-3": "Product 3 text",
             "poc-4": "Product 4 text",
             "poc-5": "Product 5 text",
