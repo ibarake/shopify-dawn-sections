@@ -5,7 +5,7 @@
       "settings": {
         "subheading": "compartiendo en la mesa",
         "heading": "Tu hogar, tu estilo",
-        "spacing": 536,
+        "spacing": 27,
         "image": "shopify:\/\/shop_images\/15403-64-46-77-46-65.webp",
         "bg-color": "#f4f4f4",
         "color": "#000000",
@@ -54,7 +54,7 @@
             "button-title": "Todo en salas",
             "blocks-selection": "products",
             "product_list": [
-              "accesorios-de-entretenimiento-para-insertar-chimenea-electrica"
+
             ],
             "collection_list": [
               "sofas-modulares",
