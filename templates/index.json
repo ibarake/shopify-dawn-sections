@@ -5,7 +5,7 @@
       "settings": {
         "subheading": "compartiendo en familia",
         "heading": "Tu hogar, tu estilo",
-        "spacing": 27,
+        "spacing": 230,
         "image": "shopify:\/\/shop_images\/21104-64-46-77-46-17.webp",
         "bg-color": "#f4f4f4",
         "color": "#000000",
@@ -170,53 +170,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "8fcb6f31-5e9e-4ac9-9074-98800ddaa0ad": {
-      "type": "collection-list",
-      "blocks": {
-        "33af7c74-48a0-4db1-a9fc-2e5e12266811": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "almacenamiento"
-          }
-        },
-        "07e6a20b-c1e0-4a86-9479-c229617dccc4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "almacenamiento-de-dormitorio"
-          }
-        },
-        "f1ae01c2-6d94-467d-a361-e049baed202f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "armarios-de-almacenamiento-con-acento"
-          }
-        },
-        "34cee181-46cf-47a6-90e7-9189df14d8cc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "almacenamiento-y-organizacion"
-          }
-        }
-      },
-      "block_order": [
-        "33af7c74-48a0-4db1-a9fc-2e5e12266811",
-        "07e6a20b-c1e0-4a86-9479-c229617dccc4",
-        "f1ae01c2-6d94-467d-a361-e049baed202f",
-        "34cee181-46cf-47a6-90e7-9189df14d8cc"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h0",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 28
-      }
-    },
     "aa20221d-fd0a-4547-8813-821a77a2603d": {
       "type": "custom-collections",
       "blocks": {
@@ -367,60 +320,6 @@
         "padding_bottom": 36
       }
     },
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
-      "type": "collection-list",
-      "blocks": {
-        "13c91ef6-ae26-4022-999d-eedef2b7983e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "alfombras-1"
-          }
-        },
-        "4fa7c405-59a3-484d-aa69-72fdafcb35b4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "espejos-de-pared"
-          }
-        },
-        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "estantes"
-          }
-        },
-        "bd52417d-64a6-4db8-9f94-99c1c05eaeff": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lamparas"
-          }
-        },
-        "7ccf0866-29c8-44b6-9869-ed629cf42d94": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bols-y-bandejas"
-          }
-        }
-      },
-      "block_order": [
-        "13c91ef6-ae26-4022-999d-eedef2b7983e",
-        "4fa7c405-59a3-484d-aa69-72fdafcb35b4",
-        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76",
-        "bd52417d-64a6-4db8-9f94-99c1c05eaeff",
-        "7ccf0866-29c8-44b6-9869-ed629cf42d94"
-      ],
-      "settings": {
-        "title": "Júntalos con sus estilos",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 28
-      }
-    },
     "db6c522d-c4bb-4064-ae63-94fd790a4964": {
       "type": "custom-collections",
       "blocks": {
@@ -513,6 +412,60 @@
         "padding_bottom": 36
       }
     },
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
+      "type": "collection-list",
+      "blocks": {
+        "13c91ef6-ae26-4022-999d-eedef2b7983e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "alfombras-1"
+          }
+        },
+        "4fa7c405-59a3-484d-aa69-72fdafcb35b4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "espejos-de-pared"
+          }
+        },
+        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "estantes"
+          }
+        },
+        "bd52417d-64a6-4db8-9f94-99c1c05eaeff": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lamparas"
+          }
+        },
+        "7ccf0866-29c8-44b6-9869-ed629cf42d94": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bols-y-bandejas"
+          }
+        }
+      },
+      "block_order": [
+        "13c91ef6-ae26-4022-999d-eedef2b7983e",
+        "4fa7c405-59a3-484d-aa69-72fdafcb35b4",
+        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76",
+        "bd52417d-64a6-4db8-9f94-99c1c05eaeff",
+        "7ccf0866-29c8-44b6-9869-ed629cf42d94"
+      ],
+      "settings": {
+        "title": "Júntalos con sus estilos",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
       "disabled": true,
@@ -585,6 +538,18 @@
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd": {
       "type": "collage",
       "blocks": {
+        "9eacd98f-f13c-4882-930b-f61a95862abb": {
+          "type": "collection",
+          "settings": {
+            "collection": "almacenamiento-de-dormitorio"
+          }
+        },
+        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43": {
+          "type": "collection",
+          "settings": {
+            "collection": "armarios-de-almacenamiento-con-acento"
+          }
+        },
         "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1": {
           "type": "collection",
           "settings": {
@@ -593,6 +558,8 @@
         }
       },
       "block_order": [
+        "9eacd98f-f13c-4882-930b-f61a95862abb",
+        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43",
         "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1"
       ],
       "settings": {
@@ -612,14 +579,13 @@
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "8032200c-07ba-474b-b497-5a6d98d1b083",
-    "8fcb6f31-5e9e-4ac9-9074-98800ddaa0ad",
     "aa20221d-fd0a-4547-8813-821a77a2603d",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "db6c522d-c4bb-4064-ae63-94fd790a4964",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "46658e2a-45ab-457a-9e97-791c28394991",
     "image_banner",
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd"
