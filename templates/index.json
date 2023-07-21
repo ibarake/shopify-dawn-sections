@@ -58,7 +58,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
@@ -162,7 +162,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "image_banner": {
@@ -303,7 +303,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
@@ -504,15 +504,15 @@
         "9b6717bf-d7cc-49d1-a790-cb251b2b82b2"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Decoración",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
         "padding_bottom": 36
       }
     },
@@ -551,7 +551,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     }
   },
