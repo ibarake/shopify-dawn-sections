@@ -378,6 +378,46 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "8032200c-07ba-474b-b497-5a6d98d1b083": {
+      "type": "custom-collections",
+      "blocks": {
+        "c46272c6-73c3-40b9-bd22-aa1bb8a62ac3": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
+            "collection-title": "Dormitorio",
+            "collection": "dormitorio",
+            "button-title": "Todo en dormitorios",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "bancos-de-dormitorio",
+              "sillas-de-dormitorio",
+              "almacenamiento-de-dormitorio",
+              "camas",
+              "mesitas-de-noche",
+              "lamparas-de-mesa"
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        }
+      },
+      "block_order": [
+        "c46272c6-73c3-40b9-bd22-aa1bb8a62ac3"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#F4F4F4"
+      }
     }
   },
   "order": [
@@ -389,6 +429,7 @@
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "46658e2a-45ab-457a-9e97-791c28394991"
+    "46658e2a-45ab-457a-9e97-791c28394991",
+    "8032200c-07ba-474b-b497-5a6d98d1b083"
   ]
 }
