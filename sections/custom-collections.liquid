@@ -239,7 +239,7 @@
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
         <div class="left-right">
-          <div class="left">
+          <div class="left" style="order: 2;">
             <div class="collection-image">
               <a href="{{ block.settings.collection.url }}">
                 <img
@@ -275,7 +275,7 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div class="right ">
+            <div class="right " style="order: 1;">
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
