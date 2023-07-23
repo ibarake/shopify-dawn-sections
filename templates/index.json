@@ -107,12 +107,39 @@
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
+        },
+        "cdba8124-7909-4e4e-819b-4acce32ee8bd": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Exterior",
+            "collection": "exterior",
+            "button-title": "",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "accesorios-exteriores",
+              "cojines-exteriores",
+              "comedores-de-exterior",
+              "tapetes-interiores-exteriores"
+            ],
+            "poc-1": "Accesorios",
+            "poc-2": "Cojines",
+            "poc-3": "Comedores",
+            "poc-4": "Alfombras",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "2b9c57d4-54b5-42cf-ba81-ef8c394679a0",
         "c621e14c-233b-4a64-9894-453a7b7e07a6",
-        "f2a12ca4-b64f-4515-a892-93248634a1d3"
+        "f2a12ca4-b64f-4515-a892-93248634a1d3",
+        "cdba8124-7909-4e4e-819b-4acce32ee8bd"
       ],
       "settings": {
         "btn-txt-color": "#363534",
