@@ -52,34 +52,6 @@
             "poc-6": "Sofá modular"
           }
         },
-        "c621e14c-233b-4a64-9894-453a7b7e07a6": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Dormitorio",
-            "collection": "dormitorio",
-            "button-title": "",
-            "blocks-selection": "products",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "bancos-de-dormitorio",
-              "sillas-de-dormitorio",
-              "camas",
-              "mesitas-de-noche",
-              "lamparas-de-mesa",
-              "ropa-de-cama"
-            ],
-            "poc-1": "Bancos",
-            "poc-2": "Sillas",
-            "poc-3": "Camas",
-            "poc-4": "Mesas de noche",
-            "poc-5": "Lámparas",
-            "poc-6": "Ropa de cama"
-          }
-        },
         "f2a12ca4-b64f-4515-a892-93248634a1d3": {
           "type": "collection",
           "settings": {
@@ -137,7 +109,6 @@
       },
       "block_order": [
         "2b9c57d4-54b5-42cf-ba81-ef8c394679a0",
-        "c621e14c-233b-4a64-9894-453a7b7e07a6",
         "f2a12ca4-b64f-4515-a892-93248634a1d3",
         "cdba8124-7909-4e4e-819b-4acce32ee8bd"
       ],
@@ -149,39 +120,6 @@
     },
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
       "type": "custom-collections",
-      "blocks": {
-        "75d1df97-7012-4d41-a8dd-84f4db1a0a38": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Comedor",
-            "collection": "cocina-y-comedor",
-            "button-title": "Todo en comedores",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "bancos-de-comedor",
-              "almacenamiento-comedor",
-              "mesas-de-comedor-altas",
-              "sillas-altas-de-comedor",
-              "mesas-de-comedor",
-              "juegos-de-comedor"
-            ],
-            "poc-1": "Bancos",
-            "poc-2": "Almacenamiento",
-            "poc-3": "Mesas de barra",
-            "poc-4": "Sillas de barra",
-            "poc-5": "Mesa",
-            "poc-6": "Juegos de comedor"
-          }
-        }
-      },
-      "block_order": [
-        "75d1df97-7012-4d41-a8dd-84f4db1a0a38"
-      ],
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4",
