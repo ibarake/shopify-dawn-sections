@@ -21,17 +21,17 @@
         "responsive-img-height": 300
       }
     },
-    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
+    "087b8800-2180-4c59-8c6d-5dc66436b193": {
       "type": "custom-collections",
       "blocks": {
-        "2b9c57d4-54b5-42cf-ba81-ef8c394679a0": {
+        "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
           "type": "collection",
           "settings": {
             "heading-text": "",
             "title-alignment": "flex-start",
-            "collection-title": "sofas",
+            "collection-title": "Sofas",
             "collection": "sofas-modulares",
-            "button-title": "Todo en sofas",
+            "button-title": "",
             "blocks-selection": "collections",
             "product_list": [
 
@@ -40,18 +40,55 @@
               "sofa-cama",
               "sofas-2-puestos",
               "sofas-3-puestos",
-              "sofas-cama-seccionales",
-              "sofas-reclinables-de-dos-plazas",
-              "sofas-modulares"
+              "sofas-cama-seccionales"
             ],
-            "poc-1": "Sofa cama",
-            "poc-2": "Sofá dos puestos",
-            "poc-3": "Sofá tres puestos",
-            "poc-4": "Sofá cama modular",
-            "poc-5": "Sofá reclinable",
-            "poc-6": "Sofá modular"
+            "poc-1": "Sofa Cama",
+            "poc-2": "Dos Puestos",
+            "poc-3": "Tres puestos",
+            "poc-4": "Sofa cama modular",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
           }
         },
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "center",
+            "collection-title": "Sofás Reclinables",
+            "collection": "sofas-reclinables",
+            "button-title": "Ver ahora",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "asientos-electricos",
+              "sofas-reclinables",
+              "sofas-reclinables-de-dos-plazas"
+            ],
+            "poc-1": "EléctricAs",
+            "poc-2": "Tres puestos",
+            "poc-3": "Dos puestos",
+            "poc-4": "",
+            "poc-5": "",
+            "poc-6": ""
+          }
+        }
+      },
+      "block_order": [
+        "2e254ad6-e4b0-4d09-b8a7-b851324d815e",
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "left"
+      }
+    },
+    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
+      "type": "custom-collections",
+      "blocks": {
         "f2a12ca4-b64f-4515-a892-93248634a1d3": {
           "type": "collection",
           "settings": {
@@ -136,7 +173,6 @@
         }
       },
       "block_order": [
-        "2b9c57d4-54b5-42cf-ba81-ef8c394679a0",
         "f2a12ca4-b64f-4515-a892-93248634a1d3",
         "cdba8124-7909-4e4e-819b-4acce32ee8bd",
         "b61a3fc5-bc64-42f0-a445-205351259d9a"
@@ -185,10 +221,39 @@
             "poc-5": "Lámparas de mesa",
             "poc-6": "Ropa de cama"
           }
+        },
+        "bfcd191b-bce3-4a79-8dd0-df282aefa5e7": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Cocina y Comedor",
+            "collection": "cocina-y-comedor",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "bancos-de-comedor",
+              "almacenamiento-comedor",
+              "mesas-de-comedor-altas",
+              "sillas-altas-de-comedor",
+              "mesas-de-comedor",
+              "juegos-de-comedor"
+            ],
+            "poc-1": "Bancos",
+            "poc-2": "Almacenamiento",
+            "poc-3": "Mesas de barra",
+            "poc-4": "Sillas de barra",
+            "poc-5": "Mesas",
+            "poc-6": "Juegos de comedor"
+          }
         }
       },
       "block_order": [
-        "c46272c6-73c3-40b9-bd22-aa1bb8a62ac3"
+        "c46272c6-73c3-40b9-bd22-aa1bb8a62ac3",
+        "bfcd191b-bce3-4a79-8dd0-df282aefa5e7"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -270,71 +335,6 @@
       "settings": {
         "text-color": "#ffffff",
         "btn-color": "#363534"
-      }
-    },
-    "087b8800-2180-4c59-8c6d-5dc66436b193": {
-      "type": "custom-collections",
-      "blocks": {
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "center",
-            "collection-title": "Sofás Reclinables",
-            "collection": "sofas-reclinables",
-            "button-title": "Ver ahora",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "asientos-electricos",
-              "sofas-reclinables",
-              "sofas-reclinables-de-dos-plazas"
-            ],
-            "poc-1": "EléctricAs",
-            "poc-2": "Tres puestos",
-            "poc-3": "Dos puestos",
-            "poc-4": "",
-            "poc-5": "",
-            "poc-6": ""
-          }
-        },
-        "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Sofas",
-            "collection": "sofas-modulares",
-            "button-title": "",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "sofa-cama",
-              "sofas-2-puestos",
-              "sofas-3-puestos",
-              "sofas-cama-seccionales"
-            ],
-            "poc-1": "Sofa Cama",
-            "poc-2": "Dos Puestos",
-            "poc-3": "Tres puestos",
-            "poc-4": "Sofa cama modular",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        }
-      },
-      "block_order": [
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a",
-        "2e254ad6-e4b0-4d09-b8a7-b851324d815e"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4",
-        "ir-alignment": "left"
       }
     },
     "54b97664-3cf4-44af-97ad-c90fe7df232c": {
@@ -632,12 +632,12 @@
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
+    "087b8800-2180-4c59-8c6d-5dc66436b193",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "8032200c-07ba-474b-b497-5a6d98d1b083",
     "aa20221d-fd0a-4547-8813-821a77a2603d",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
-    "087b8800-2180-4c59-8c6d-5dc66436b193",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
     "db6c522d-c4bb-4064-ae63-94fd790a4964",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
