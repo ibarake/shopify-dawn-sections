@@ -218,109 +218,8 @@
         "ir-alignment": "left"
       }
     },
-    "8032200c-07ba-474b-b497-5a6d98d1b083": {
-      "type": "custom-collections",
-      "blocks": {
-        "c46272c6-73c3-40b9-bd22-aa1bb8a62ac3": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Dormitorio",
-            "collection": "dormitorio",
-            "button-title": "Todo en dormitorios",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "bancos-de-dormitorio",
-              "sillas-de-dormitorio",
-              "camas",
-              "mesitas-de-noche",
-              "lamparas-de-mesa",
-              "ropa-de-cama"
-            ],
-            "poc-1": "Bancos",
-            "poc-2": "Sillas",
-            "poc-3": "Camas",
-            "poc-4": "Mesas de noche",
-            "poc-5": "Lámparas de mesa",
-            "poc-6": "Ropa de cama"
-          }
-        },
-        "bfcd191b-bce3-4a79-8dd0-df282aefa5e7": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Cocina y Comedor",
-            "collection": "cocina-y-comedor",
-            "button-title": "Add text",
-            "blocks-selection": "products",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "bancos-de-comedor",
-              "almacenamiento-comedor",
-              "mesas-de-comedor-altas",
-              "sillas-altas-de-comedor",
-              "mesas-de-comedor",
-              "juegos-de-comedor"
-            ],
-            "poc-1": "Bancos",
-            "poc-2": "Almacenamiento",
-            "poc-3": "Mesas de barra",
-            "poc-4": "Sillas de barra",
-            "poc-5": "Mesas",
-            "poc-6": "Juegos de comedor"
-          }
-        }
-      },
-      "block_order": [
-        "c46272c6-73c3-40b9-bd22-aa1bb8a62ac3",
-        "bfcd191b-bce3-4a79-8dd0-df282aefa5e7"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4",
-        "ir-alignment": "left"
-      }
-    },
     "aa20221d-fd0a-4547-8813-821a77a2603d": {
       "type": "custom-collections",
-      "blocks": {
-        "9cae3991-f00f-497c-bd2c-f8eba08a3ab7": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Exterior",
-            "collection": "exterior",
-            "button-title": "Todo en exteriores",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "accesorios-exteriores",
-              "cojines-exteriores",
-              "comedores-de-exterior",
-              "tapetes-interiores-exteriores"
-            ],
-            "poc-1": "Accesorios",
-            "poc-2": "Cojines",
-            "poc-3": "Comedores",
-            "poc-4": "Tapetes",
-            "poc-5": "",
-            "poc-6": "Product 6 text"
-          }
-        }
-      },
-      "block_order": [
-        "9cae3991-f00f-497c-bd2c-f8eba08a3ab7"
-      ],
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4",
@@ -662,7 +561,6 @@
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
-    "8032200c-07ba-474b-b497-5a6d98d1b083",
     "aa20221d-fd0a-4547-8813-821a77a2603d",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
