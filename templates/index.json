@@ -21,8 +21,65 @@
         "responsive-img-height": 300
       }
     },
-    "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
+    "087b8800-2180-4c59-8c6d-5dc66436b193": {
       "type": "custom-collections",
+      "blocks": {
+        "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Sofas",
+            "collection": "sofas-modulares",
+            "button-title": "",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "sofa-cama",
+              "sofas-2-puestos",
+              "sofas-3-puestos",
+              "sofas-cama-seccionales"
+            ],
+            "poc-1": "Sofa Cama",
+            "poc-2": "Dos Puestos",
+            "poc-3": "Tres puestos",
+            "poc-4": "Sofa cama modular",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        },
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "center",
+            "collection-title": "Sofás Reclinables",
+            "collection": "sofas-reclinables",
+            "button-title": "Ver ahora",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "asientos-electricos",
+              "sofas-reclinables",
+              "sofas-reclinables-de-dos-plazas"
+            ],
+            "poc-1": "EléctricAs",
+            "poc-2": "Tres puestos",
+            "poc-3": "Dos puestos",
+            "poc-4": "",
+            "poc-5": "",
+            "poc-6": ""
+          }
+        }
+      },
+      "block_order": [
+        "2e254ad6-e4b0-4d09-b8a7-b851324d815e",
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a"
+      ],
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4",
@@ -151,79 +208,6 @@
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4",
         "ir-alignment": "right"
-      }
-    },
-    "087b8800-2180-4c59-8c6d-5dc66436b193": {
-      "type": "custom-collections",
-      "blocks": {
-        "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Sofas",
-            "collection": "sofas-modulares",
-            "button-title": "",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "sofa-cama",
-              "sofas-2-puestos",
-              "sofas-3-puestos",
-              "sofas-cama-seccionales"
-            ],
-            "poc-1": "Sofa Cama",
-            "poc-2": "Dos Puestos",
-            "poc-3": "Tres puestos",
-            "poc-4": "Sofa cama modular",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "center",
-            "collection-title": "Sofás Reclinables",
-            "collection": "sofas-reclinables",
-            "button-title": "Ver ahora",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "asientos-electricos",
-              "sofas-reclinables",
-              "sofas-reclinables-de-dos-plazas"
-            ],
-            "poc-1": "EléctricAs",
-            "poc-2": "Tres puestos",
-            "poc-3": "Dos puestos",
-            "poc-4": "",
-            "poc-5": "",
-            "poc-6": ""
-          }
-        }
-      },
-      "block_order": [
-        "2e254ad6-e4b0-4d09-b8a7-b851324d815e",
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4",
-        "ir-alignment": "left"
-      }
-    },
-    "aa20221d-fd0a-4547-8813-821a77a2603d": {
-      "type": "custom-collections",
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4",
-        "ir-alignment": "left"
       }
     },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
@@ -518,10 +502,8 @@
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
-    "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
-    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
-    "aa20221d-fd0a-4547-8813-821a77a2603d",
+    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
