@@ -299,10 +299,37 @@
             "poc-5": "",
             "poc-6": ""
           }
+        },
+        "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Sofas",
+            "collection": "sofas-modulares",
+            "button-title": "",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "sofa-cama",
+              "sofas-2-puestos",
+              "sofas-3-puestos",
+              "sofas-cama-seccionales"
+            ],
+            "poc-1": "Sofa Cama",
+            "poc-2": "Dos Puestos",
+            "poc-3": "Tres puestos",
+            "poc-4": "Sofa cama modular",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a"
+        "e92b03e2-5a32-4503-98b4-109b8087bc3a",
+        "2e254ad6-e4b0-4d09-b8a7-b851324d815e"
       ],
       "settings": {
         "btn-txt-color": "#363534",
