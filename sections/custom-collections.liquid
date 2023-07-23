@@ -288,7 +288,14 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div class="right " style="order: 1;">
+            <div
+              class="right "
+              {% if section.settings['ir-alignment'] == 'left' %}
+                style="order: 2;"
+              {% else %}
+                style="order: 1;"
+              {% endif %}
+            >
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
