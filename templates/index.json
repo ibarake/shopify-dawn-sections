@@ -79,11 +79,35 @@
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
+        },
+        "c621e14c-233b-4a64-9894-453a7b7e07a6": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Dormitorio",
+            "collection": "",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "2b9c57d4-54b5-42cf-ba81-ef8c394679a0",
-        "f2a12ca4-b64f-4515-a892-93248634a1d3"
+        "f2a12ca4-b64f-4515-a892-93248634a1d3",
+        "c621e14c-233b-4a64-9894-453a7b7e07a6"
       ],
       "settings": {
         "btn-txt-color": "#363534",
