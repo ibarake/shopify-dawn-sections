@@ -100,12 +100,12 @@
               "lamparas-de-mesa",
               "ropa-de-cama"
             ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
+            "poc-1": "Bancos",
+            "poc-2": "Sillas",
+            "poc-3": "Camas",
+            "poc-4": "Mesas de noche",
+            "poc-5": "Lámparas",
+            "poc-6": "Ropa de cama"
           }
         }
       },
