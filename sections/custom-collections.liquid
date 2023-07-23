@@ -331,7 +331,14 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div class="right " style="order: 1;">
+            <div
+              class="right "
+              {% if section.settings['ir-alignment'] == 'left' %}
+                style="order: 1;"
+              {% else %}
+                style="order: 2;"
+              {% endif %}
+            >
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
