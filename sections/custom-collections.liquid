@@ -311,7 +311,7 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div class="right ">
+            <div class="right " style="order: 1;">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
