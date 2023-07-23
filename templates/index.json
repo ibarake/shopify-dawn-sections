@@ -21,6 +21,14 @@
         "responsive-img-height": 300
       }
     },
+    "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
+      "type": "custom-collections",
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "left"
+      }
+    },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
       "type": "custom-collections",
       "blocks": {
@@ -105,25 +113,44 @@
             "poc-5": "Lámparas",
             "poc-6": "Ropa de cama"
           }
+        },
+        "c1a40e7f-1f8c-4912-a1a9-aec7ac573470": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Oficinas",
+            "collection": "escritorios",
+            "button-title": "",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "sillas-de-oficina",
+              "almacenamiento-para-oficina",
+              "lamparas-de-escritorio",
+              "escritorios"
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "f2a12ca4-b64f-4515-a892-93248634a1d3",
         "cdba8124-7909-4e4e-819b-4acce32ee8bd",
-        "b61a3fc5-bc64-42f0-a445-205351259d9a"
+        "b61a3fc5-bc64-42f0-a445-205351259d9a",
+        "c1a40e7f-1f8c-4912-a1a9-aec7ac573470"
       ],
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4",
         "ir-alignment": "right"
-      }
-    },
-    "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
-      "type": "custom-collections",
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4",
-        "ir-alignment": "left"
       }
     },
     "087b8800-2180-4c59-8c6d-5dc66436b193": {
@@ -632,8 +659,8 @@
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
-    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71",
+    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
     "8032200c-07ba-474b-b497-5a6d98d1b083",
     "aa20221d-fd0a-4547-8813-821a77a2603d",
