@@ -334,9 +334,9 @@
             <div
               class="right "
               {% if section.settings['ir-alignment'] == 'left' %}
-                style="order: 1;"
-              {% else %}
                 style="order: 2;"
+              {% else %}
+                style="order: 1;"
               {% endif %}
             >
               {% for collection in block.settings.collection_list %}
@@ -389,7 +389,14 @@
             style="grid-template-columns: 3.5fr 6.5fr;"
           {% endif %}
         >
-          <div class="left">
+          <div
+            class="left"
+            {% if section.settings['ir-alignment'] == 'left' %}
+              style="order: 1;"
+            {% else %}
+              style="order: 2;"
+            {% endif %}
+          >
             <div class="collection-image">
               <img
                 class="mainimage"
@@ -424,7 +431,14 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div class="right ">
+            <div
+              class="right "
+              {% if section.settings['ir-alignment'] == 'left' %}
+                style="order: 2;"
+              {% else %}
+                style="order: 1;"
+              {% endif %}
+            >
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
@@ -460,7 +474,14 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div class="right">
+            <div
+              class="right"
+              {% if section.settings['ir-alignment'] == 'left' %}
+                style="order: 2;"
+              {% else %}
+                style="order: 1;"
+              {% endif %}
+            >
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="#">
