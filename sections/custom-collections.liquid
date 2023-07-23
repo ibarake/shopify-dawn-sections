@@ -547,11 +547,12 @@
   })
 
 
-    const tabs = document.querySelectorAll('.tab');
-    const options = document.querySelector('#custom-catergory-select');
+    const tabs = document.querySelectorAll('.{{ section.id }} .tab');
+    const options = document.querySelectorAll('#custom-catergory-select');
   const tabContent = document.querySelectorAll('.collection-content-container');
 
-    options.addEventListener('change', (e) => {
+    options.forEach((option) =>{
+    option.addEventListener('change', (e) => {
 
       console.log(e);
 
@@ -569,6 +570,7 @@
         })
 
         content.classList.add('active');
+    })
     })
 
 
