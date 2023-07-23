@@ -52,34 +52,6 @@
             "poc-6": "Sofá modular"
           }
         },
-        "f2a12ca4-b64f-4515-a892-93248634a1d3": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-end",
-            "collection-title": "Comedores",
-            "collection": "cocina-y-comedor",
-            "button-title": "",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "bancos-de-comedor",
-              "mesas-de-comedor-altas",
-              "sillas-altas-de-comedor",
-              "sillas-de-comedor",
-              "mesas-de-comedor",
-              "almacenamiento-comedor"
-            ],
-            "poc-1": "Bancos de comedor",
-            "poc-2": "Mesas de comedor de barras",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
         "c621e14c-233b-4a64-9894-453a7b7e07a6": {
           "type": "collection",
           "settings": {
@@ -107,12 +79,40 @@
             "poc-5": "Lámparas",
             "poc-6": "Ropa de cama"
           }
+        },
+        "f2a12ca4-b64f-4515-a892-93248634a1d3": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-end",
+            "collection-title": "Comedores",
+            "collection": "cocina-y-comedor",
+            "button-title": "",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "bancos-de-comedor",
+              "mesas-de-comedor-altas",
+              "sillas-altas-de-comedor",
+              "sillas-de-comedor",
+              "mesas-de-comedor",
+              "almacenamiento-comedor"
+            ],
+            "poc-1": "Bancos de comedor",
+            "poc-2": "Mesas de comedor de barras",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "2b9c57d4-54b5-42cf-ba81-ef8c394679a0",
-        "f2a12ca4-b64f-4515-a892-93248634a1d3",
-        "c621e14c-233b-4a64-9894-453a7b7e07a6"
+        "c621e14c-233b-4a64-9894-453a7b7e07a6",
+        "f2a12ca4-b64f-4515-a892-93248634a1d3"
       ],
       "settings": {
         "btn-txt-color": "#363534",
