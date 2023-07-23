@@ -87,13 +87,18 @@
             "title-alignment": "flex-start",
             "collection-title": "Dormitorio",
             "collection": "dormitorio",
-            "button-title": "Add text",
+            "button-title": "",
             "blocks-selection": "products",
             "product_list": [
 
             ],
             "collection_list": [
-
+              "bancos-de-dormitorio",
+              "sillas-de-dormitorio",
+              "camas",
+              "mesitas-de-noche",
+              "lamparas-de-mesa",
+              "ropa-de-cama"
             ],
             "poc-1": "Product 1 text",
             "poc-2": "Product 2 text",
