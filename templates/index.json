@@ -86,7 +86,7 @@
             "heading-text": "",
             "title-alignment": "flex-start",
             "collection-title": "Dormitorio",
-            "collection": "",
+            "collection": "dormitorio",
             "button-title": "Add text",
             "blocks-selection": "products",
             "product_list": [
