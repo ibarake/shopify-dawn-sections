@@ -136,7 +136,6 @@
   }
   .left-right {
     display: grid;
-    grid-template-columns: 6.5fr 3.5fr;
     gap: 1rem 1rem;
   }
   .collection-content-container {
@@ -238,8 +237,22 @@
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
-        <div class="left-right">
-          <div class="left" style="order: 2;">
+        <div
+          class="left-right"
+          {% if section.settings['ir-alignment'] == 'left' %}
+            style="grid-template-columns: 6.5fr 3.5fr;"
+          {% else %}
+            style="grid-template-columns: 3.5fr 6.5fr;"
+          {% endif %}
+        >
+          <div
+            class="left"
+            {% if section.settings['ir-alignment'] == 'left' %}
+              style="order: 1;"
+            {% else %}
+              style="order: 2;"
+            {% endif %}
+          >
             <div class="collection-image">
               <a href="{{ block.settings.collection.url }}">
                 <img
@@ -354,7 +367,14 @@
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
-        <div class="left-right">
+        <div
+          class="left-right"
+          {% if section.settings['ir-alignment'] == 'left' %}
+            style="grid-template-columns: 6.5fr 3.5fr;"
+          {% else %}
+            style="grid-template-columns: 3.5fr 6.5fr;"
+          {% endif %}
+        >
           <div class="left">
             <div class="collection-image">
               <img
@@ -557,8 +577,8 @@
     },
     {
         "type": "select",
-        "id": "title-alignment",
-        "label": "Title alignment",
+        "id": "ir-alignment",
+        "label": "Image room alignment",
         "options": [
           {
             "value": "flex-start",
