@@ -87,7 +87,8 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "right"
       }
     },
     "aadfa2b9-d1b3-4fcd-8fbe-3e0173203b71": {
@@ -127,7 +128,8 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "left"
       }
     },
     "8032200c-07ba-474b-b497-5a6d98d1b083": {
@@ -167,7 +169,8 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "left"
       }
     },
     "aa20221d-fd0a-4547-8813-821a77a2603d": {
@@ -205,7 +208,8 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "left"
       }
     },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
@@ -279,7 +283,8 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "left"
       }
     },
     "54b97664-3cf4-44af-97ad-c90fe7df232c": {
@@ -355,7 +360,8 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
+        "btn-bg-color": "#f4f4f4",
+        "ir-alignment": "left"
       }
     },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
