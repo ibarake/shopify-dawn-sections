@@ -204,7 +204,7 @@
   };
 </script>
 
-<div class="page-width custom-collections-section">
+<div class="page-width custom-collections-section {{ section.id }}">
   <div class="top-collection">
     <select name="custom-catergory-select" id="custom-catergory-select">
       {% for collection in section.blocks %}
@@ -521,7 +521,7 @@
 </div>
 
 <script>
-    const rights = document.querySelectorAll('.right');
+    const rights = document.querySelectorAll('.{{ section.id }} .right');
 
     rights.forEach((element) => {
      const ChildsNumber = element.childElementCount;
@@ -541,8 +541,6 @@
           element.style.gridTemplateColumns = "50% 50%";
       }
       else if (ChildsNumber === 6){
-          element.style.gridTemplateColumns = "50% 50%";
-      } else {
           element.style.gridTemplateColumns = "50% 50%";
       }
   })
