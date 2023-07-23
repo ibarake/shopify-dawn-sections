@@ -152,7 +152,7 @@
     height: 100%;
   }
 
-  #custom-catergory-select{
+  .custom-catergory-select{
     height: 4.5rem;
     margin: 30px 0px 30px 0px;
     width: auto;
@@ -173,10 +173,10 @@
     justify-content: space-between;
     letter-spacing: 3px;
   }
-  #custom-catergory-select option{
+  .custom-catergory-select option{
     height: 100%;
   }
-  #custom-catergory-select option p{
+  .custom-catergory-select option p{
     text-transform: uppercase;
   }
 
@@ -207,7 +207,7 @@
 
 <div class="page-width custom-collections-section {{ section.id }}">
   <div class="top-collection">
-    <select name="custom-catergory-select" id="custom-catergory-select">
+    <select name="custom-catergory-select" class="custom-catergory-select">
       {% for collection in section.blocks %}
         <option class="options-collections" value="custom-content-{{ forloop.index }}">
           <span class="inside-text">{{ collection.settings['collection-title'] }}</span>
@@ -548,8 +548,8 @@
 
 
     const tabs = document.querySelectorAll('.{{ section.id }} .tab');
-    const options = document.querySelectorAll('.{{ section.id }} #custom-catergory-select');
-  const tabContent = document.querySelectorAll('.{{ section.id }} .collection-content-container');
+    const options = document.querySelectorAll('.{{ section.id }} .custom-catergory-select');
+    const tabContent = document.querySelectorAll('.{{ section.id }} .collection-content-container');
 
     options.forEach((option) =>{
     option.addEventListener('change', (e) => {
