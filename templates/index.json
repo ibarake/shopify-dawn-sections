@@ -228,7 +228,6 @@
     },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
       "type": "custom-double-banner",
-      "disabled": true,
       "blocks": {
         "af0d6954-943b-491b-a9fd-226774b24bfc": {
           "type": "image",
