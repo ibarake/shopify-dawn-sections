@@ -178,7 +178,7 @@
             "title-alignment": "flex-start",
             "collection-title": "Oficinas",
             "collection": "escritorios",
-            "button-title": "",
+            "button-title": "Escritorios",
             "blocks-selection": "collections",
             "product_list": [
 
@@ -187,12 +187,12 @@
               "sillas-de-oficina",
               "almacenamiento-para-oficina",
               "lamparas-de-escritorio",
-              "escritorios"
+              "accesorios-exteriores"
             ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
+            "poc-1": "Sillas",
+            "poc-2": "Almacenamiento",
+            "poc-3": "Lamparas",
+            "poc-4": "Accesorios",
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
