@@ -117,32 +117,6 @@
             "poc-6": "Almacenamiento"
           }
         },
-        "cdba8124-7909-4e4e-819b-4acce32ee8bd": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Exterior",
-            "collection": "exterior",
-            "button-title": "Todo en exteriores",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "accesorios-exteriores",
-              "cojines-exteriores",
-              "comedores-de-exterior",
-              "tapetes-interiores-exteriores"
-            ],
-            "poc-1": "Accesorios",
-            "poc-2": "Cojines",
-            "poc-3": "Comedores",
-            "poc-4": "Alfombras",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
         "b61a3fc5-bc64-42f0-a445-205351259d9a": {
           "type": "collection",
           "settings": {
@@ -196,13 +170,39 @@
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
+        },
+        "cdba8124-7909-4e4e-819b-4acce32ee8bd": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Exterior",
+            "collection": "exterior",
+            "button-title": "Todo en exteriores",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "accesorios-exteriores",
+              "cojines-exteriores",
+              "comedores-de-exterior",
+              "tapetes-interiores-exteriores"
+            ],
+            "poc-1": "Accesorios",
+            "poc-2": "Cojines",
+            "poc-3": "Comedores",
+            "poc-4": "Alfombras",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "f2a12ca4-b64f-4515-a892-93248634a1d3",
-        "cdba8124-7909-4e4e-819b-4acce32ee8bd",
         "b61a3fc5-bc64-42f0-a445-205351259d9a",
-        "c1a40e7f-1f8c-4912-a1a9-aec7ac573470"
+        "c1a40e7f-1f8c-4912-a1a9-aec7ac573470",
+        "cdba8124-7909-4e4e-819b-4acce32ee8bd"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -248,6 +248,7 @@
     },
     "54b97664-3cf4-44af-97ad-c90fe7df232c": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--17657980813619__54b97664-3cf4-44af-97ad-c90fe7df232c-collection-1": {
           "type": "collection",
