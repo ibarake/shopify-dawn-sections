@@ -57,7 +57,7 @@
             "title-alignment": "center",
             "collection-title": "Sofás Reclinables",
             "collection": "sofas-reclinables",
-            "button-title": "Ver ahora",
+            "button-title": "",
             "blocks-selection": "collections",
             "product_list": [
 
@@ -67,7 +67,7 @@
               "sofas-reclinables",
               "sofas-reclinables-de-dos-plazas"
             ],
-            "poc-1": "EléctricAs",
+            "poc-1": "Eléctricos",
             "poc-2": "Tres puestos",
             "poc-3": "Dos puestos",
             "poc-4": "",
