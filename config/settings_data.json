@@ -187,6 +187,24 @@
               "menu-promo": "",
               "image-promo-url": ""
             }
+          },
+          "0c888690-4766-4fc0-9283-7d2a62ca0ff0": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "macro-id": 1,
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "43f119bd-c77d-4a7f-8c47-3df354a28d1e": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "macro-id": 1,
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
           }
         },
         "block_order": [
@@ -194,7 +212,9 @@
           "f04b324e-b43b-4506-92ed-79ac3bca20c5",
           "d8102645-15e5-4527-9a78-717e61793ffd",
           "1c69075e-efb7-464d-8e2c-55a30d596df5",
-          "169412a7-c2d4-47d8-968c-0f32aee3b012"
+          "169412a7-c2d4-47d8-968c-0f32aee3b012",
+          "0c888690-4766-4fc0-9283-7d2a62ca0ff0",
+          "43f119bd-c77d-4a7f-8c47-3df354a28d1e"
         ],
         "settings": {
           "color_scheme": "background-1",
