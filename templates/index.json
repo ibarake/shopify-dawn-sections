@@ -150,8 +150,8 @@
             "title-alignment": "flex-start",
             "collection-title": "Dormitorio",
             "collection": "dormitorio",
-            "button-title": "",
-            "blocks-selection": "products",
+            "button-title": "Todo en dormitorios",
+            "blocks-selection": "collections",
             "product_list": [
 
             ],
