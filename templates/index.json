@@ -5,7 +5,7 @@
       "settings": {
         "subheading": "Cómodo & casual",
         "heading": "Maggie",
-        "spacing": 700,
+        "spacing": 750,
         "image": "shopify:\/\/shop_images\/52003-38-35-23-14-T921.jpg",
         "bg-color": "#f4f4f4",
         "color": "#000000",
@@ -24,6 +24,29 @@
     "087b8800-2180-4c59-8c6d-5dc66436b193": {
       "type": "custom-collections",
       "blocks": {
+        "323dd858-82ff-47aa-906e-88361087f310": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Mejor vendidos",
+            "title-alignment": "flex-start",
+            "collection-title": "Mejor Vendidos",
+            "collection": "sofas-mejor-vendidos",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        },
         "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
           "type": "collection",
           "settings": {
@@ -31,14 +54,14 @@
             "title-alignment": "flex-start",
             "collection-title": "3 Puestos",
             "collection": "sofas-3-puestos",
-            "button-title": "Modulares",
+            "button-title": "Vista sofás 3 Puestos",
             "blocks-selection": "collections",
             "product_list": [
-
+              "sofa-3-puestos-abinger"
             ],
             "collection_list": [
-              "sofa-cama",
               "sofas-2-puestos",
+              "sofa-cama",
               "sofas-3-puestos",
               "sofas-cama-seccionales"
             ],
@@ -100,6 +123,7 @@
         }
       },
       "block_order": [
+        "323dd858-82ff-47aa-906e-88361087f310",
         "2e254ad6-e4b0-4d09-b8a7-b851324d815e",
         "09efa8a3-8961-4dd0-a15d-21f7edc0396f",
         "e92b03e2-5a32-4503-98b4-109b8087bc3a"
