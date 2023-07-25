@@ -24,12 +24,35 @@
     "087b8800-2180-4c59-8c6d-5dc66436b193": {
       "type": "custom-collections",
       "blocks": {
+        "09efa8a3-8961-4dd0-a15d-21f7edc0396f": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Sofás",
+            "title-alignment": "flex-start",
+            "collection-title": "2 Puestos",
+            "collection": "sofas-2-puestos",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        },
         "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
           "type": "collection",
           "settings": {
-            "heading-text": "",
+            "heading-text": "Sofas",
             "title-alignment": "flex-start",
-            "collection-title": "Sofas",
+            "collection-title": "3 Puestos",
             "collection": "sofas-modulares",
             "button-title": "Modulares",
             "blocks-selection": "collections",
@@ -52,9 +75,10 @@
         },
         "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
           "type": "collection",
+          "disabled": true,
           "settings": {
-            "heading-text": "",
-            "title-alignment": "center",
+            "heading-text": "Sofas",
+            "title-alignment": "flex-start",
             "collection-title": "Sofás Reclinables",
             "collection": "sofas-reclinables",
             "button-title": "",
@@ -77,6 +101,7 @@
         }
       },
       "block_order": [
+        "09efa8a3-8961-4dd0-a15d-21f7edc0396f",
         "2e254ad6-e4b0-4d09-b8a7-b851324d815e",
         "e92b03e2-5a32-4503-98b4-109b8087bc3a"
       ],
