@@ -53,7 +53,7 @@
             "heading-text": "Sofas",
             "title-alignment": "flex-start",
             "collection-title": "3 Puestos",
-            "collection": "sofas-modulares",
+            "collection": "sofas-3-puestos",
             "button-title": "Modulares",
             "blocks-selection": "collections",
             "product_list": [
@@ -80,7 +80,7 @@
             "heading-text": "Sofas",
             "title-alignment": "flex-start",
             "collection-title": "Sofás Reclinables",
-            "collection": "sofas-reclinables",
+            "collection": "sofas-reclinomaticos",
             "button-title": "",
             "blocks-selection": "collections",
             "product_list": [
