@@ -75,11 +75,10 @@
         },
         "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "heading-text": "Sofas",
+            "heading-text": "Sofás",
             "title-alignment": "flex-start",
-            "collection-title": "Sofás Reclinableses",
+            "collection-title": "Reclinábles",
             "collection": "sofas-reclinomaticos",
             "button-title": "",
             "blocks-selection": "collections",
