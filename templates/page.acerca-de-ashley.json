@@ -10,6 +10,7 @@
     "67d7aaf5-e986-470e-9005-a37d6684b9c0": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_15.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
