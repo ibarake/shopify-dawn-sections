@@ -1,7 +1,17 @@
 {
   "sections": {
+    "289e1d89-95b1-4672-8d49-6110bf66ebc4": {
+      "type": "macro-category-1",
+      "settings": {
+        "colnum": 3,
+        "titleAndSubtitleColor": "#393731",
+        "saleTextColor": "#fff",
+        "backgroundColor": "#fffaee",
+        "backgroundSaleColor": "#c60f2f"
+      }
+    }
   },
   "order": [
-
+    "289e1d89-95b1-4672-8d49-6110bf66ebc4"
   ]
 }
