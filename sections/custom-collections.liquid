@@ -153,7 +153,7 @@
     height: 100%;
   }
 
-  #custom-catergory-select{
+  #custom-category-select{
     height: 4.5rem;
     margin: 30px 0px 30px 0px;
     width: auto;
@@ -174,10 +174,10 @@
     justify-content: space-between;
     letter-spacing: 3px;
   }
-  #custom-catergory-select option{
+  #custom-category-select option{
     height: 100%;
   }
-  #custom-catergory-select option p{
+  #custom-category-select option p{
     text-transform: uppercase;
   }
 
@@ -208,7 +208,7 @@
 
 <div id="{{ section.id }}" class="page-width custom-collections-section">
   <div class="top-collection">
-    <select name="custom-catergory-select" id="custom-catergory-select">
+    <select name="custom-category-select" id="custom-category-select">
       {% for collection in section.blocks %}
         <option class="options-collections" value="custom-content-{{ section.id }}-{{ forloop.index }}">
           <span class="inside-text">{{ collection.settings['collection-title'] }}</span>
@@ -498,7 +498,7 @@
 
     document.querySelectorAll('.custom-collections-section').forEach((section) => {
     const tabs = section.querySelectorAll('.tab');
-    const options = section.querySelector('#custom-catergory-select');
+    const options = section.querySelector('#custom-category-select');
     const tabContent = section.querySelectorAll('.collection-content-container');
 
     options.addEventListener('change', (e) => {
