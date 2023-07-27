@@ -496,8 +496,8 @@
     })
 
 
-    document.querySelectorAll('.custom-collections-section').forEach((section) => {
-    const sectionId = "{{ section.id }}";
+      document.querySelectorAll('.custom-collections-section').forEach((section) => {
+    const sectionId = section.id;
     const tabs = section.querySelectorAll('.tab');
     const options = section.querySelector('#custom-catergory-select');
     const tabContent = section.querySelectorAll('.collection-content-container');
