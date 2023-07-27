@@ -206,7 +206,7 @@
   };
 </script>
 
-<div class="page-width custom-collections-section">
+<div id="{{ section.id }}" class="page-width custom-collections-section">
   <div class="top-collection">
     <select name="custom-catergory-select" id="custom-catergory-select">
       {% for collection in section.blocks %}
@@ -496,9 +496,9 @@
   })
 
 
-    const tabs = document.querySelectorAll('.tab');
-    const options = document.querySelector('#custom-catergory-select');
-  const tabContent = document.querySelectorAll('.collection-content-container');
+    const tabs = document.querySelectorAll('#{{ section.id }} .tab');
+    const options = document.querySelector('#{{ section.id }} #custom-catergory-select');
+  const tabContent = document.querySelectorAll('#{{ section.id }} .collection-content-container');
 
     options.addEventListener('change', (e) => {
 
