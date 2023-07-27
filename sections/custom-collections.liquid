@@ -366,7 +366,7 @@
               >
             </div>
             <div class="button-container">
-              <a href="{{ block.settings.collection.url }}" class="btn-collections-all">
+              <a href="{{ collection.url }}" class="btn-collections-all">
                 {{- block.settings['button-title'] -}}
               </a>
 
@@ -433,7 +433,7 @@
             <div class="right">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
-                  <a class="product-text-container" href="#">
+                  <a class="product-text-container" href="{{ collection.url }}">
                     <img
                       class="product-image"
                       src="{{ collection.image | image_url }}"
