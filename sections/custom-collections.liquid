@@ -522,53 +522,77 @@
 </div>
 
 <script>
-      const rights = document.querySelectorAll('.right');
+    const rights = document.querySelectorAll('.right');
 
-      rights.forEach((element) => {
-       const ChildsNumber = element.childElementCount;
-        if (ChildsNumber === 1){
-            element.style.gridTemplateColumns = "1fr";
-        }
-        if (ChildsNumber === 2){
-            element.style.gridTemplateColumns = "1fr";
-        }
-        if (ChildsNumber === 3){
-            element.style.gridTemplateColumns = "1fr";
-        }
-        if (ChildsNumber === 4){
-            element.style.gridTemplateColumns = "5fr 5fr";
-        }
-        if (ChildsNumber === 5){
-            element.style.gridTemplateColumns = "5fr 5fr";
-        }
-        if (ChildsNumber === 6){
-            element.style.gridTemplateColumns = "5fr 5fr";
-        }
+    rights.forEach((element) => {
+     const ChildsNumber = element.childElementCount;
+      if (ChildsNumber === 1){
+          element.style.gridTemplateColumns = "1fr";
+      }
+      if (ChildsNumber === 2){
+          element.style.gridTemplateColumns = "1fr";
+      }
+      if (ChildsNumber === 3){
+          element.style.gridTemplateColumns = "1fr";
+      }
+      if (ChildsNumber === 4){
+          element.style.gridTemplateColumns = "5fr 5fr";
+      }
+      if (ChildsNumber === 5){
+          element.style.gridTemplateColumns = "5fr 5fr";
+      }
+      if (ChildsNumber === 6){
+          element.style.gridTemplateColumns = "5fr 5fr";
+      }
+  })
+
+
+    const tabs = document.querySelectorAll('#{{ section.id }} .tab');
+    const options = document.querySelectorAll('#{{ section.id }} .custom-catergory-select');
+    const tabContent = document.querySelectorAll('#{{ section.id }} .collection-content-container');
+
+    options.forEach((option) =>{
+    option.addEventListener('change', (e) => {
+
+      console.log(e);
+
+      contentId = e.target.value;
+      content = document.getElementById(contentId);
+
+      tabContent.forEach((content) => {
+          content.classList.remove('active');
+        })
+        tabs.forEach((option) => {
+          option.classList.remove('active');
+        })
+
+        content.classList.add('active');
+    })
     })
 
 
-  document.addEventListener("DOMContentLoaded", function () {
-      const tabs = document.querySelectorAll("#{{ section.id }} .tab");
-      const selectElement = document.querySelector(".custom-catergory-select");
-      const tabContent = document.querySelectorAll(
-        "#{{ section.id }} .collection-content-container"
-      );
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', (e) => {
 
-      tabs.forEach((tab, index) => {
-        tab.addEventListener("click", () => {
-          tabs.forEach((tab) => tab.classList.remove("active"));
-          tab.classList.add("active");
-          tabContent.forEach((content) => content.classList.remove("active"));
-          tabContent[index].classList.add("active");
-        });
-      });
+      contentId = e.target.dataset.contentId;
+      content = document.getElementById(contentId);
 
-      selectElement.addEventListener("change", (e) => {
-        const selectedContentId = e.target.value;
-        tabContent.forEach((content) => content.classList.remove("active"));
-        document.getElementById(selectedContentId).classList.add("active");
-      });
-    });
+      tabContent
+        .forEach((content) => {
+          content.classList.remove('active');
+        })
+        tabs
+        .forEach((tab) => {
+          tab.classList.remove('active');
+        })
+
+        e
+        .target
+        .classList
+        .add('active');
+      content.classList.add('active');
+    })
+  })
 </script>
 {% schema %}
 {
