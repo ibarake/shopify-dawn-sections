@@ -43,7 +43,7 @@
 
   .right {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem 1rem;
   }
 
@@ -136,13 +136,14 @@
   }
   .left-right {
     display: grid;
+    grid-template-columns: 6.5fr 3.5fr;
     gap: 1rem 1rem;
   }
-  .{{ section.id }} .collection-content-container {
+  .collection-content-container {
     display: none;
     width: 100%;
   }
-  .{{ section.id }} .collection-content-container.active {
+  .collection-content-container.active {
     display: block;
   }
 
@@ -152,7 +153,7 @@
     height: 100%;
   }
 
-  .custom-catergory-select{
+  #custom-catergory-select{
     height: 4.5rem;
     margin: 30px 0px 30px 0px;
     width: auto;
@@ -173,10 +174,10 @@
     justify-content: space-between;
     letter-spacing: 3px;
   }
-  .custom-catergory-select option{
+  #custom-catergory-select option{
     height: 100%;
   }
-  .custom-catergory-select option p{
+  #custom-catergory-select option p{
     text-transform: uppercase;
   }
 
@@ -205,11 +206,11 @@
   };
 </script>
 
-<div id="{{ section.id }}" class="page-width custom-collections-section">
+<div class="page-width custom-collections-section">
   <div class="top-collection">
-    <select name="custom-catergory-select" class="custom-catergory-select">
+    <select name="custom-catergory-select" id="custom-catergory-select">
       {% for collection in section.blocks %}
-        <option class="options-collections" value="custom-content-{{ section.id }}-{{ forloop.index }}">
+        <option class="options-collections" value="custom-content-{{ forloop.index }}">
           <span class="inside-text">{{ collection.settings['collection-title'] }}</span>
         </option>
       {% endfor %}
@@ -219,12 +220,12 @@
   <ul class="pagination">
     {% for collection in section.blocks %}
       {% if forloop.index == 1 %}
-        <li class="tab active" data-content-id="custom-content-{{ section.id }}-{{ forloop.index }}">
+        <li class="tab active" data-content-id="custom-content-{{ forloop.index }}">
           {{ collection.settings['collection-title'] }}
         </li>
       {% endif %}
       {% if forloop.index > 1 %}
-        <li class="tab" data-content-id="custom-content-{{ section.id }}-{{ forloop.index }}">
+        <li class="tab" data-content-id="custom-content-{{ forloop.index }}">
           {{ collection.settings['collection-title'] }}
         </li>
       {% endif %}
@@ -233,26 +234,12 @@
 
   {% for block in section.blocks %}
     {% if forloop.index == 1 %}
-      <div id="custom-content-{{ section.id }}-{{ forloop.index }}" class="collection-content-container active">
+      <div id="custom-content-{{ forloop.index }}" class="collection-content-container active">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
-        <div
-          class="left-right"
-          {% if section.settings['ir-alignment'] == 'left' %}
-            style="grid-template-columns: 6.5fr 3.5fr;"
-          {% else %}
-            style="grid-template-columns: 3.5fr 6.5fr;"
-          {% endif %}
-        >
-          <div
-            class="left"
-            {% if section.settings['ir-alignment'] == 'left' %}
-              style="order: 1;"
-            {% else %}
-              style="order: 2;"
-            {% endif %}
-          >
+        <div class="left-right">
+          <div class="left">
             <div class="collection-image">
               <a href="{{ block.settings.collection.url }}">
                 <img
@@ -288,14 +275,7 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div
-              class="right "
-              {% if section.settings['ir-alignment'] == 'left' %}
-                style="order: 2;"
-              {% else %}
-                style="order: 1;"
-              {% endif %}
-            >
+            <div class="right ">
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
@@ -331,14 +311,7 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div
-              class="right "
-              {% if section.settings['ir-alignment'] == 'left' %}
-                style="order: 2;"
-              {% else %}
-                style="order: 1;"
-              {% endif %}
-            >
+            <div class="right ">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
@@ -377,30 +350,16 @@
     {% endif %}
 
     {% if forloop.index > 1 %}
-      <div id="custom-content-{{ section.id }}-{{ forloop.index }}" class="collection-content-container">
+      <div id="custom-content-{{ forloop.index }}" class="collection-content-container">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
-        <div
-          class="left-right"
-          {% if section.settings['ir-alignment'] == 'left' %}
-            style="grid-template-columns: 6.5fr 3.5fr;"
-          {% else %}
-            style="grid-template-columns: 3.5fr 6.5fr;"
-          {% endif %}
-        >
-          <div
-            class="left"
-            {% if section.settings['ir-alignment'] == 'left' %}
-              style="order: 1;"
-            {% else %}
-              style="order: 2;"
-            {% endif %}
-          >
+        <div class="left-right">
+          <div class="left">
             <div class="collection-image">
               <img
                 class="mainimage"
-                src="{{ block.settings.collection.metafields.custom.roomimage | image_url }}"
+                src="{{ block.settings.collection.image | image_url }}"
                 alt=""
               >
             </div>
@@ -431,14 +390,7 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div
-              class="right "
-              {% if section.settings['ir-alignment'] == 'left' %}
-                style="order: 2;"
-              {% else %}
-                style="order: 1;"
-              {% endif %}
-            >
+            <div class="right ">
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
@@ -474,14 +426,7 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div
-              class="right"
-              {% if section.settings['ir-alignment'] == 'left' %}
-                style="order: 2;"
-              {% else %}
-                style="order: 1;"
-              {% endif %}
-            >
+            <div class="right">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="#">
@@ -527,37 +472,39 @@
     rights.forEach((element) => {
      const ChildsNumber = element.childElementCount;
       if (ChildsNumber === 1){
-          element.style.gridTemplateColumns = "1fr";
+          element.style.gridTemplateColumns = "100%";
       }
       if (ChildsNumber === 2){
-          element.style.gridTemplateColumns = "1fr";
+          element.style.gridTemplateColumns = "100%";
       }
       if (ChildsNumber === 3){
-          element.style.gridTemplateColumns = "1fr";
+          element.style.gridTemplateColumns = "100%";
       }
       if (ChildsNumber === 4){
-          element.style.gridTemplateColumns = "5fr 5fr";
+          element.style.gridTemplateColumns = "50% 50%";
       }
       if (ChildsNumber === 5){
-          element.style.gridTemplateColumns = "5fr 5fr";
+          element.style.gridTemplateColumns = "50% 50%";
       }
       if (ChildsNumber === 6){
-          element.style.gridTemplateColumns = "5fr 5fr";
+          element.style.gridTemplateColumns = "50% 50%";
       }
   })
 
 
-    const tabs = document.querySelectorAll('#{{ section.id }} .tab');
-    const options = document.querySelectorAll('#{{ section.id }} .custom-catergory-select');
-    const tabContent = document.querySelectorAll('#{{ section.id }} .collection-content-container');
+    const tabs = document.querySelectorAll('.tab');
+    const options = document.querySelector('#custom-catergory-select');
+  const tabContent = document.querySelectorAll('.collection-content-container');
 
-    options.forEach((option) =>{
-    option.addEventListener('change', (e) => {
+    options.addEventListener('change', (e) => {
 
       console.log(e);
 
       contentId = e.target.value;
       content = document.getElementById(contentId);
+
+      console.log(content);
+      console.log(contentId);
 
       tabContent.forEach((content) => {
           content.classList.remove('active');
@@ -568,7 +515,6 @@
 
         content.classList.add('active');
     })
-    })
 
 
   tabs.forEach((tab) => {
@@ -576,9 +522,6 @@
 
       contentId = e.target.dataset.contentId;
       content = document.getElementById(contentId);
-
-      console.log(contentId);  // Log the contentId
-      console.log(content);    // Log the content element
 
       tabContent
         .forEach((content) => {
@@ -611,23 +554,8 @@
       "id": "btn-bg-color",
       "label": "Button background color",
       "default": "#F4F4F4"
-    },
-    {
-        "type": "select",
-        "id": "ir-alignment",
-        "label": "Image room alignment",
-        "options": [
-          {
-            "value": "left",
-            "label": "left"
-          },
-          {
-            "value": "right",
-            "label": "right"
-          }
-        ],
-        "default": "left"
-      }
+    }
+
   ],
   "blocks": [
     {
