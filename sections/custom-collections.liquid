@@ -250,7 +250,9 @@
               </a>
             </div>
             <div class="button-container">
-              <a href="{{ collection.url }}" class="btn-collections-all">{{ block.settings['button-title'] }}</a>
+              <a href="{{ block.settings.collection.url }}" class="btn-collections-all">
+                {{- block.settings['button-title'] -}}
+              </a>
               <svg
                 class="arrow-svg"
                 version="1.2"
