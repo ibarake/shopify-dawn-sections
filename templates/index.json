@@ -55,7 +55,7 @@
             "collection-title": "3 Puestos",
             "collection": "sofas-3-puestos",
             "button-title": "Vista sofás 3 Puestos",
-            "blocks-selection": "collections",
+            "blocks-selection": "products",
             "product_list": [
               "sofa-3-puestos-abinger"
             ],
@@ -83,12 +83,15 @@
             "button-title": "Add text",
             "blocks-selection": "products",
             "product_list": [
-
+              "accesorio-miscelaneo-anchor-lane",
+              "espejo-realyn",
+              "sofa-2-puestos-ballina",
+              "sofa-2-puestos-discota"
             ],
             "collection_list": [
 
             ],
-            "poc-1": "Product 1 text",
+            "poc-1": "",
             "poc-2": "Product 2 text",
             "poc-3": "Product 3 text",
             "poc-4": "Product 4 text",
@@ -130,8 +133,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4",
-        "ir-alignment": "left"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
@@ -254,8 +256,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4",
-        "ir-alignment": "right"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
