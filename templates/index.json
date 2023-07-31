@@ -443,6 +443,7 @@
         "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-video-1": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/21104-16-65.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=E8ZULCJ68ZM",
             "description": "Describe the video",
             "image_padding": false
