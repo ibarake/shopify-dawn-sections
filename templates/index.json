@@ -552,6 +552,33 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "20e65239-4052-4371-81ce-c5e38cda20da": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "almacenamiento-y-organizacion",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -564,6 +591,7 @@
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
     "46658e2a-45ab-457a-9e97-791c28394991",
-    "image_banner"
+    "image_banner",
+    "20e65239-4052-4371-81ce-c5e38cda20da"
   ]
 }
