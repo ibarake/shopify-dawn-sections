@@ -472,12 +472,26 @@
           "settings": {
             "collection": "sillas-de-oficina"
           }
+        },
+        "d9b846fe-062d-41b9-beed-a125b3e7a1a2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "almacenamiento-para-oficina"
+          }
+        },
+        "6dbea484-9f77-4717-9bf9-17422064c16f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1",
         "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2",
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3"
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3",
+        "d9b846fe-062d-41b9-beed-a125b3e7a1a2",
+        "6dbea484-9f77-4717-9bf9-17422064c16f"
       ],
       "settings": {
         "title": "Collections",
