@@ -562,7 +562,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "almacenamiento-y-organizacion",
-        "products_to_show": 6,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
