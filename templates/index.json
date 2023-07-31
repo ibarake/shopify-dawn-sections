@@ -464,20 +464,27 @@
         "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "lamparas-de-escritorio"
           }
         },
         "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "sillas-de-oficina"
+          }
+        },
+        "d4745ad2-7010-4972-b694-8f459b2715b2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "almacenamiento-para-oficina"
           }
         }
       },
       "block_order": [
         "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1",
         "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2",
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3"
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3",
+        "d4745ad2-7010-4972-b694-8f459b2715b2"
       ],
       "settings": {
         "title": "Collections",
