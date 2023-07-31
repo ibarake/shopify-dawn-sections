@@ -552,33 +552,6 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "648f6785-f34e-439d-9de8-8f526c38da87": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Canastos",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "cestas-y-cajas",
-        "products_to_show": 2,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -591,7 +564,6 @@
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
     "46658e2a-45ab-457a-9e97-791c28394991",
-    "image_banner",
-    "648f6785-f34e-439d-9de8-8f526c38da87"
+    "image_banner"
   ]
 }
