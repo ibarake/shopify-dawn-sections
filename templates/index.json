@@ -261,15 +261,16 @@
 
             ],
             "collection_list": [
-              "mesas-de-comedor",
-              "sillas-de-comedor",
-              "bancos-de-comedor",
-              "lamparas-de-techo"
+              "sofas-modulares",
+              "sillas-para-sala-y-habitacion",
+              "mesas-de-centro",
+              "lamparas-de-pie",
+              "alfombras"
             ],
-            "poc-1": "Mesas de comedor",
-            "poc-2": "Silla de comedor",
-            "poc-3": "Bancos de comedor",
-            "poc-4": "Lámparas de techo",
+            "poc-1": "",
+            "poc-2": "",
+            "poc-3": "",
+            "poc-4": "",
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
