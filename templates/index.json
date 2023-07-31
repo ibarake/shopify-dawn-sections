@@ -107,39 +107,12 @@
             "poc-5": "Lámparas de mesa",
             "poc-6": "Ropa de cama"
           }
-        },
-        "c1a40e7f-1f8c-4912-a1a9-aec7ac573470": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Oficinas",
-            "collection": "escritorios",
-            "button-title": "Escritorios",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "sillas-de-oficina",
-              "almacenamiento-para-oficina",
-              "lamparas-de-escritorio",
-              "accesorios-exteriores"
-            ],
-            "poc-1": "Sillas",
-            "poc-2": "Almacenamiento",
-            "poc-3": "Lamparas",
-            "poc-4": "Accesorios",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
         }
       },
       "block_order": [
         "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14",
         "f2a12ca4-b64f-4515-a892-93248634a1d3",
-        "b61a3fc5-bc64-42f0-a445-205351259d9a",
-        "c1a40e7f-1f8c-4912-a1a9-aec7ac573470"
+        "b61a3fc5-bc64-42f0-a445-205351259d9a"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -478,6 +451,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "fcf9fb58-7693-4f5b-963a-3a338c8e332a": {
+      "type": "custom-collections",
+      "blocks": {
+        "108d6047-65fc-4b70-a3fb-e6bdaa0fa4d7": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
+            "collection-title": "",
+            "collection": "",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        }
+      },
+      "block_order": [
+        "108d6047-65fc-4b70-a3fb-e6bdaa0fa4d7"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#F4F4F4"
+      }
     }
   },
   "order": [
@@ -490,6 +498,7 @@
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
     "46658e2a-45ab-457a-9e97-791c28394991",
     "image_banner",
-    "766d8af5-dd53-430b-99ee-00a7aca8f49e"
+    "766d8af5-dd53-430b-99ee-00a7aca8f49e",
+    "fcf9fb58-7693-4f5b-963a-3a338c8e332a"
   ]
 }
