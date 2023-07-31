@@ -548,6 +548,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "547b63a5-e240-477a-a311-0e76b90ebdfb": {
+      "type": "custom-collections",
+      "blocks": {
+        "95edd3d4-e83e-484b-aa92-7be6426a16b4": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Sala",
+            "collection": "salas",
+            "button-title": "Add text",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "sofas-modulares",
+              "sofas-reclinomaticos",
+              "sillas-para-sala-y-habitacion",
+              "alfombras",
+              "mesas-de-centro",
+              "cojines-decorativos"
+            ],
+            "poc-1": "Sofás",
+            "poc-2": "Reclinables",
+            "poc-3": "Poltronas",
+            "poc-4": "Alfombras",
+            "poc-5": "Mesas",
+            "poc-6": "Cojines"
+          }
+        }
+      },
+      "block_order": [
+        "95edd3d4-e83e-484b-aa92-7be6426a16b4"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#F4F4F4"
+      }
     }
   },
   "order": [
@@ -560,6 +600,7 @@
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "46658e2a-45ab-457a-9e97-791c28394991",
     "image_banner",
-    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd"
+    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
+    "547b63a5-e240-477a-a311-0e76b90ebdfb"
   ]
 }
