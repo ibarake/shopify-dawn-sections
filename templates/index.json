@@ -247,13 +247,40 @@
             "poc-5": "Product 5 text",
             "poc-6": "Product 6 text"
           }
+        },
+        "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Salas",
+            "collection": "salas",
+            "button-title": "Add text",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "mesas-de-comedor",
+              "sillas-de-comedor",
+              "bancos-de-comedor",
+              "lamparas-de-techo"
+            ],
+            "poc-1": "Mesas de comedor",
+            "poc-2": "Silla de comedor",
+            "poc-3": "Bancos de comedor",
+            "poc-4": "Lámparas de techo",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
         }
       },
       "block_order": [
         "f2a12ca4-b64f-4515-a892-93248634a1d3",
         "b61a3fc5-bc64-42f0-a445-205351259d9a",
         "c1a40e7f-1f8c-4912-a1a9-aec7ac573470",
-        "cdba8124-7909-4e4e-819b-4acce32ee8bd"
+        "cdba8124-7909-4e4e-819b-4acce32ee8bd",
+        "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14"
       ],
       "settings": {
         "btn-txt-color": "#363534",
