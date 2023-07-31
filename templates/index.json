@@ -152,19 +152,19 @@
 
             ],
             "collection_list": [
+              "mesas-de-comedor",
+              "sillas-de-comedor",
+              "almacenamiento-comedor",
               "bancos-de-comedor",
               "mesas-de-comedor-altas",
-              "sillas-altas-de-comedor",
-              "sillas-de-comedor",
-              "mesas-de-comedor",
-              "almacenamiento-comedor"
+              "sillas-altas-de-comedor"
             ],
-            "poc-1": "Bancos de comedor",
-            "poc-2": "Mesas de barras",
-            "poc-3": "Sillas de barra",
-            "poc-4": "Sillas",
-            "poc-5": "Mesas",
-            "poc-6": "Almacenamiento"
+            "poc-1": "Mesas de comedor",
+            "poc-2": "Sillas de comedor",
+            "poc-3": "Almacenamiento para comedor",
+            "poc-4": "Bancos de comedor",
+            "poc-5": "Mesas de barra",
+            "poc-6": "sillas de barra"
           }
         },
         "b61a3fc5-bc64-42f0-a445-205351259d9a": {
@@ -586,7 +586,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     }
   },
