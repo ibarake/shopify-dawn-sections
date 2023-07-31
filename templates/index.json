@@ -147,7 +147,7 @@
             "title-alignment": "flex-end",
             "collection-title": "Comedores",
             "collection": "cocina-y-comedor",
-            "button-title": "Cocina y Comedor",
+            "button-title": "Comedor",
             "blocks-selection": "collections",
             "product_list": [
 
@@ -287,42 +287,6 @@
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
-      }
-    },
-    "5e2a584c-a48e-4c52-896c-4793dd016861": {
-      "type": "custom-double-banner",
-      "blocks": {
-        "af0d6954-943b-491b-a9fd-226774b24bfc": {
-          "type": "image",
-          "settings": {
-            "first-title": "Muebles para",
-            "second-title": "Entrega Rapida",
-            "button-text": "",
-            "banner-image": "shopify:\/\/shop_images\/32902-38-SET-10X8-CROP.webp",
-            "button_link": ""
-          }
-        },
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
-          "type": "image",
-          "settings": {
-            "first-title": "Muebles",
-            "second-title": "Con instalación",
-            "button-text": "Comprar ahora",
-            "banner-image": "shopify:\/\/shop_images\/con_fondo.webp",
-            "button_link": "shopify:\/\/collections\/alfombras"
-          }
-        }
-      },
-      "block_order": [
-        "af0d6954-943b-491b-a9fd-226774b24bfc",
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "text-color": "#ffffff",
-        "btn-color": "#363534"
       }
     },
     "54b97664-3cf4-44af-97ad-c90fe7df232c": {
@@ -472,6 +436,80 @@
         "padding_bottom": 28
       }
     },
+    "5e2a584c-a48e-4c52-896c-4793dd016861": {
+      "type": "custom-double-banner",
+      "blocks": {
+        "af0d6954-943b-491b-a9fd-226774b24bfc": {
+          "type": "image",
+          "settings": {
+            "first-title": "Muebles para",
+            "second-title": "Entrega Rapida",
+            "button-text": "",
+            "banner-image": "shopify:\/\/shop_images\/32902-38-SET-10X8-CROP.webp",
+            "button_link": ""
+          }
+        },
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
+          "type": "image",
+          "settings": {
+            "first-title": "Muebles",
+            "second-title": "Con instalación",
+            "button-text": "Comprar ahora",
+            "banner-image": "shopify:\/\/shop_images\/con_fondo.webp",
+            "button_link": "shopify:\/\/collections\/alfombras"
+          }
+        }
+      },
+      "block_order": [
+        "af0d6954-943b-491b-a9fd-226774b24bfc",
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text-color": "#ffffff",
+        "btn-color": "#363534"
+      }
+    },
+    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd": {
+      "type": "collage",
+      "blocks": {
+        "9eacd98f-f13c-4882-930b-f61a95862abb": {
+          "type": "collection",
+          "settings": {
+            "collection": "almacenamiento-de-dormitorio"
+          }
+        },
+        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43": {
+          "type": "collection",
+          "settings": {
+            "collection": "armarios-de-almacenamiento-con-acento"
+          }
+        },
+        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "almacenamiento"
+          }
+        }
+      },
+      "block_order": [
+        "9eacd98f-f13c-4882-930b-f61a95862abb",
+        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43",
+        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
       "disabled": true,
@@ -540,97 +578,18 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd": {
-      "type": "collage",
-      "blocks": {
-        "9eacd98f-f13c-4882-930b-f61a95862abb": {
-          "type": "collection",
-          "settings": {
-            "collection": "almacenamiento-de-dormitorio"
-          }
-        },
-        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43": {
-          "type": "collection",
-          "settings": {
-            "collection": "armarios-de-almacenamiento-con-acento"
-          }
-        },
-        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "almacenamiento"
-          }
-        }
-      },
-      "block_order": [
-        "9eacd98f-f13c-4882-930b-f61a95862abb",
-        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43",
-        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "547b63a5-e240-477a-a311-0e76b90ebdfb": {
-      "type": "custom-collections",
-      "blocks": {
-        "95edd3d4-e83e-484b-aa92-7be6426a16b4": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Sala",
-            "collection": "salas",
-            "button-title": "Add text",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "sofas-modulares",
-              "sofas-reclinomaticos",
-              "sillas-para-sala-y-habitacion",
-              "alfombras",
-              "mesas-de-centro",
-              "cojines-decorativos"
-            ],
-            "poc-1": "Sofás",
-            "poc-2": "Reclinables",
-            "poc-3": "Poltronas",
-            "poc-4": "Alfombras",
-            "poc-5": "Mesas",
-            "poc-6": "Cojines"
-          }
-        }
-      },
-      "block_order": [
-        "95edd3d4-e83e-484b-aa92-7be6426a16b4"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
-      }
     }
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
     "087b8800-2180-4c59-8c6d-5dc66436b193",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
-    "5e2a584c-a48e-4c52-896c-4793dd016861",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "46658e2a-45ab-457a-9e97-791c28394991",
-    "image_banner",
+    "5e2a584c-a48e-4c52-896c-4793dd016861",
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
-    "547b63a5-e240-477a-a311-0e76b90ebdfb"
+    "46658e2a-45ab-457a-9e97-791c28394991",
+    "image_banner"
   ]
 }
