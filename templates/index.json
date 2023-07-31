@@ -209,18 +209,18 @@
 
             ],
             "collection_list": [
-              "bancos-de-dormitorio",
-              "sillas-de-dormitorio",
               "camas",
               "mesitas-de-noche",
+              "bancos-de-dormitorio",
+              "sillas-de-dormitorio",
               "lamparas-de-mesa",
               "ropa-de-cama"
             ],
-            "poc-1": "Bancos",
-            "poc-2": "Sillas",
-            "poc-3": "Camas",
-            "poc-4": "Mesas de noche",
-            "poc-5": "Lámparas",
+            "poc-1": "Camas",
+            "poc-2": "Mesas de noche",
+            "poc-3": "bancos de dormitorio",
+            "poc-4": "Sillas de dormitorio",
+            "poc-5": "Lámparas de mesa",
             "poc-6": "Ropa de cama"
           }
         },
