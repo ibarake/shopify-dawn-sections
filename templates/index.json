@@ -21,122 +21,6 @@
         "responsive-img-height": 300
       }
     },
-    "087b8800-2180-4c59-8c6d-5dc66436b193": {
-      "type": "custom-collections",
-      "disabled": true,
-      "blocks": {
-        "323dd858-82ff-47aa-906e-88361087f310": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Mejor vendidos",
-            "title-alignment": "flex-start",
-            "collection-title": "sofás",
-            "collection": "sofas-mejor-vendidos",
-            "button-title": "Conoce Colección Abinger",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
-        "2e254ad6-e4b0-4d09-b8a7-b851324d815e": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Sofás",
-            "title-alignment": "flex-start",
-            "collection-title": "3 Puestos",
-            "collection": "sofas-3-puestos",
-            "button-title": "Vista sofás 3 Puestos",
-            "blocks-selection": "products",
-            "product_list": [
-              "sofa-3-puestos-abinger"
-            ],
-            "collection_list": [
-              "sofas-2-puestos",
-              "sofa-cama",
-              "sofas-3-puestos",
-              "sofas-cama-seccionales"
-            ],
-            "poc-1": "Sofa Cama",
-            "poc-2": "Dos Puestos",
-            "poc-3": "Tres puestos",
-            "poc-4": "Sofa cama modular",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
-        "09efa8a3-8961-4dd0-a15d-21f7edc0396f": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Sofás",
-            "title-alignment": "flex-start",
-            "collection-title": "2 Puestos",
-            "collection": "sofas-2-puestos",
-            "button-title": "Add text",
-            "blocks-selection": "products",
-            "product_list": [
-              "accesorio-miscelaneo-anchor-lane",
-              "espejo-realyn",
-              "sofa-2-puestos-ballina",
-              "sofa-2-puestos-discota"
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
-        },
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Sofás",
-            "title-alignment": "flex-start",
-            "collection-title": "Reclinábles",
-            "collection": "sofas-reclinomaticos",
-            "button-title": "",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "asientos-electricos",
-              "sofas-reclinables",
-              "sofas-reclinables-de-dos-plazas"
-            ],
-            "poc-1": "Eléctricos",
-            "poc-2": "Tres puestos",
-            "poc-3": "Dos puestos",
-            "poc-4": "",
-            "poc-5": "",
-            "poc-6": ""
-          }
-        }
-      },
-      "block_order": [
-        "323dd858-82ff-47aa-906e-88361087f310",
-        "2e254ad6-e4b0-4d09-b8a7-b851324d815e",
-        "09efa8a3-8961-4dd0-a15d-21f7edc0396f",
-        "e92b03e2-5a32-4503-98b4-109b8087bc3a"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
-      }
-    },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
       "type": "custom-collections",
       "blocks": {
@@ -552,11 +436,51 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "766d8af5-dd53-430b-99ee-00a7aca8f49e": {
+      "type": "collage",
+      "blocks": {
+        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-video-1": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=E8ZULCJ68ZM",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-video-1",
+        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-product-1",
+        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
-    "087b8800-2180-4c59-8c6d-5dc66436b193",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
@@ -564,6 +488,7 @@
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
     "46658e2a-45ab-457a-9e97-791c28394991",
-    "image_banner"
+    "image_banner",
+    "766d8af5-dd53-430b-99ee-00a7aca8f49e"
   ]
 }
