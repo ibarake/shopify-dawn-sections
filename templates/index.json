@@ -263,16 +263,17 @@
             "collection_list": [
               "sofas-modulares",
               "sillas-para-sala-y-habitacion",
+              "sofas-reclinables",
               "mesas-de-centro",
-              "lamparas-de-pie",
+              "cojines-decorativos",
               "alfombras"
             ],
-            "poc-1": "",
-            "poc-2": "",
-            "poc-3": "",
-            "poc-4": "",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
+            "poc-1": "Sofás",
+            "poc-2": "Poltronas",
+            "poc-3": "Reclinables",
+            "poc-4": "Mesas de centro",
+            "poc-5": "Cojines",
+            "poc-6": "Alfombras"
           }
         }
       },
