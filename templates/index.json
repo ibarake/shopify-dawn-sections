@@ -175,6 +175,12 @@
           "settings": {
             "collection": "colchas-y-cubrecamas"
           }
+        },
+        "dd6c5727-a720-4380-a613-9b06149710a3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "armarios-de-almacenamiento-con-acento"
+          }
         }
       },
       "block_order": [
@@ -186,7 +192,8 @@
         "ea9e70f3-1889-4dc9-84a9-e5fdf7dc2b4d",
         "c8d09cbb-f8a3-4cc6-b9b7-d03a007ee7c6",
         "d617e319-2bb5-45df-bedb-dd3aa3a5c38a",
-        "0f1f87cc-6959-4dd7-990b-f922782c3c31"
+        "0f1f87cc-6959-4dd7-990b-f922782c3c31",
+        "dd6c5727-a720-4380-a613-9b06149710a3"
       ],
       "settings": {
         "title": "Decoración",
@@ -194,7 +201,7 @@
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
-        "show_view_all": true,
+        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
