@@ -1,1 +1,34 @@
-{"sections":{"4c9fd0f6-2ddb-415b-84bf-54307a1e5284":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/CollectionA_Banner_Abinger_Sofa.jpg","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"main":{"type":"main-list-collections","settings":{"title":"Collections","sort":"alphabetical","image_ratio":"square","columns_desktop":3,"columns_mobile":"2"}}},"order":["4c9fd0f6-2ddb-415b-84bf-54307a1e5284","main"]}
+{
+  "sections": {
+    "4c9fd0f6-2ddb-415b-84bf-54307a1e5284": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/A2C00206.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "4c9fd0f6-2ddb-415b-84bf-54307a1e5284",
+    "main"
+  ]
+}
