@@ -3,10 +3,10 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "Cómodo & casual",
-        "heading": "Maggie",
+        "subheading": "Elegante",
+        "heading": "y minimalista",
         "spacing": 750,
-        "image": "shopify:\/\/shop_images\/52003-38-35-23-14-T921.jpg",
+        "image": "shopify:\/\/shop_images\/D760-45_01c2de95-ce74-4e29-af7f-2151dc8a2572.jpg",
         "bg-color": "#f4f4f4",
         "color": "#000000",
         "img-position": "center center",
@@ -24,34 +24,6 @@
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
       "type": "custom-collections",
       "blocks": {
-        "b61a3fc5-bc64-42f0-a445-205351259d9a": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "Dormitorio",
-            "collection": "dormitorio",
-            "button-title": "Todo en dormitorios",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "camas",
-              "mesitas-de-noche",
-              "bancos-de-dormitorio",
-              "sillas-de-dormitorio",
-              "lamparas-de-mesa",
-              "ropa-de-cama"
-            ],
-            "poc-1": "Camas",
-            "poc-2": "Mesas de noche",
-            "poc-3": "bancos",
-            "poc-4": "Sillas",
-            "poc-5": "Lámparas",
-            "poc-6": "Ropa de cama"
-          }
-        },
         "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14": {
           "type": "collection",
           "settings": {
@@ -78,6 +50,34 @@
             "poc-4": "Mesas de centro",
             "poc-5": "Cojines",
             "poc-6": "Alfombras"
+          }
+        },
+        "b61a3fc5-bc64-42f0-a445-205351259d9a": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Dormitorio",
+            "collection": "dormitorio",
+            "button-title": "Todo en dormitorios",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "camas",
+              "mesitas-de-noche",
+              "bancos-de-dormitorio",
+              "sillas-de-dormitorio",
+              "lamparas-de-mesa",
+              "ropa-de-cama"
+            ],
+            "poc-1": "Camas",
+            "poc-2": "Mesas de noche",
+            "poc-3": "bancos",
+            "poc-4": "Sillas",
+            "poc-5": "Lámparas",
+            "poc-6": "Ropa de cama"
           }
         },
         "f2a12ca4-b64f-4515-a892-93248634a1d3": {
@@ -110,8 +110,8 @@
         }
       },
       "block_order": [
-        "b61a3fc5-bc64-42f0-a445-205351259d9a",
         "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14",
+        "b61a3fc5-bc64-42f0-a445-205351259d9a",
         "f2a12ca4-b64f-4515-a892-93248634a1d3"
       ],
       "settings": {
