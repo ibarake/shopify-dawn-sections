@@ -412,6 +412,7 @@
     },
     "766d8af5-dd53-430b-99ee-00a7aca8f49e": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-video-1": {
           "type": "video",
