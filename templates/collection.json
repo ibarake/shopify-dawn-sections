@@ -1,11 +1,50 @@
 {
   "sections": {
+    "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "background-1"
+      }
+    },
+    "87c60f33-59d8-416a-8360-f7543630c187": {
+      "type": "macro-category-1",
+      "settings": {
+        "colnum": 3,
+        "titleAndSubtitleColor": "#393731",
+        "saleTextColor": "#fff",
+        "backgroundColor": "#f3f3f3",
+        "backgroundSaleColor": "#c60f2f"
       }
     },
     "product-grid": {
@@ -28,7 +67,9 @@
     }
   },
   "order": [
+    "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e",
     "banner",
+    "87c60f33-59d8-416a-8360-f7543630c187",
     "product-grid"
   ]
 }
