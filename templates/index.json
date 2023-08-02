@@ -152,30 +152,6 @@
             "collection": "esculturas"
           }
         },
-        "ea9e70f3-1889-4dc9-84a9-e5fdf7dc2b4d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accesorios-para-el-hogar"
-          }
-        },
-        "c8d09cbb-f8a3-4cc6-b9b7-d03a007ee7c6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cojines-decorativos"
-          }
-        },
-        "d617e319-2bb5-45df-bedb-dd3aa3a5c38a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "juegos-de-lamparas"
-          }
-        },
-        "0f1f87cc-6959-4dd7-990b-f922782c3c31": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ropa-de-cama"
-          }
-        },
         "dd6c5727-a720-4380-a613-9b06149710a3": {
           "type": "featured_collection",
           "settings": {
@@ -189,10 +165,6 @@
         "730b51fc-86e7-42c1-bc49-4878b289322b",
         "ef9052ff-c8cd-4874-b912-eff3f28534e5",
         "9b6717bf-d7cc-49d1-a790-cb251b2b82b2",
-        "ea9e70f3-1889-4dc9-84a9-e5fdf7dc2b4d",
-        "c8d09cbb-f8a3-4cc6-b9b7-d03a007ee7c6",
-        "d617e319-2bb5-45df-bedb-dd3aa3a5c38a",
-        "0f1f87cc-6959-4dd7-990b-f922782c3c31",
         "dd6c5727-a720-4380-a613-9b06149710a3"
       ],
       "settings": {
