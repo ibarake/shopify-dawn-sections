@@ -527,12 +527,19 @@
           "settings": {
             "collection": "sofas-reclinables"
           }
+        },
+        "99fbd5e3-4065-43f1-b063-d763ddddd5ca": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-modulares"
+          }
         }
       },
       "block_order": [
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3"
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3",
+        "99fbd5e3-4065-43f1-b063-d763ddddd5ca"
       ],
       "settings": {
         "title": "Collections",
