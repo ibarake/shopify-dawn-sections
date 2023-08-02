@@ -220,7 +220,7 @@
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -449,45 +449,6 @@
         "padding_bottom": 28
       }
     },
-    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "9eacd98f-f13c-4882-930b-f61a95862abb": {
-          "type": "collection",
-          "settings": {
-            "collection": "almacenamiento-de-dormitorio"
-          }
-        },
-        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43": {
-          "type": "collection",
-          "settings": {
-            "collection": "armarios-de-almacenamiento-con-acento"
-          }
-        },
-        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "almacenamiento"
-          }
-        }
-      },
-      "block_order": [
-        "9eacd98f-f13c-4882-930b-f61a95862abb",
-        "c46ed6da-21ee-4eec-b7e7-dfe8cfb35a43",
-        "template--17657980813619__e3616ff7-1d9a-4d6f-a990-3659fef99fcd-collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
       "disabled": true,
@@ -508,53 +469,43 @@
         "show_text_below": true
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
+    "6e5a2fea-fb53-490e-8639-337a3ddca284": {
+      "type": "collage",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "9980586f-a91c-4ef6-8de2-207a89d87fb5": {
+          "type": "collection",
           "settings": {
-            "heading": "REGISTRATE A INAUGURACION",
-            "heading_size": "h0"
+            "collection": "lamparas-1"
           }
         },
-        "text": {
-          "type": "text",
+        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1": {
+          "type": "product",
           "settings": {
-            "text": "PRÓXIMAMENTE FURNITURE ASHLEY HOMESTORE EN COLOMBIA",
-            "text_style": "body"
+            "product": "juego-de-accesorios-juego-de-5-natilain",
+            "second_image": false
           }
         },
-        "button": {
-          "type": "buttons",
+        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-collection-1": {
+          "type": "collection",
           "settings": {
-            "button_label_1": "RESIGRATE",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "collection": "sillas-para-sala-y-habitacion"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "9980586f-a91c-4ef6-8de2-207a89d87fb5",
+        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1",
+        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-collection-1"
       ],
       "settings": {
-        "image": "{{ shop.brand.square_logo }}",
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -568,8 +519,7 @@
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
     "46658e2a-45ab-457a-9e97-791c28394991",
-    "image_banner"
+    "6e5a2fea-fb53-490e-8639-337a3ddca284"
   ]
 }
