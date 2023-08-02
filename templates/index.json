@@ -390,7 +390,7 @@
       ],
       "settings": {
         "heading": "Jarrones y Floreros",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "desktop_layout": "right",
         "mobile_layout": "collage",
         "card_styles": "none",
