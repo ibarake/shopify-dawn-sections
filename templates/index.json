@@ -567,12 +567,19 @@
           "settings": {
             "collection": "sillas-de-comedor"
           }
+        },
+        "b4866806-2c32-4c73-a33f-0eb4ae426949": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lamparas-de-techo"
+          }
         }
       },
       "block_order": [
         "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-2",
         "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-1",
-        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-3"
+        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-3",
+        "b4866806-2c32-4c73-a33f-0eb4ae426949"
       ],
       "settings": {
         "title": "Collections",
