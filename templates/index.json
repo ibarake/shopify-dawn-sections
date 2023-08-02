@@ -312,8 +312,49 @@
         "padding_bottom": 36
       }
     },
+    "6e5a2fea-fb53-490e-8639-337a3ddca284": {
+      "type": "collage",
+      "blocks": {
+        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "juego-de-accesorios-juego-de-5-natilain",
+            "second_image": false
+          }
+        },
+        "c875c8c1-d0ee-465a-ae39-d636811a70ac": {
+          "type": "product",
+          "settings": {
+            "product": "juego-de-accesorios-juego-de-5-gentset",
+            "second_image": false
+          }
+        },
+        "9980586f-a91c-4ef6-8de2-207a89d87fb5": {
+          "type": "collection",
+          "settings": {
+            "collection": "jarrones-y-botellas"
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1",
+        "c875c8c1-d0ee-465a-ae39-d636811a70ac",
+        "9980586f-a91c-4ef6-8de2-207a89d87fb5"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5e2a584c-a48e-4c52-896c-4793dd016861": {
       "type": "custom-double-banner",
+      "disabled": true,
       "blocks": {
         "af0d6954-943b-491b-a9fd-226774b24bfc": {
           "type": "image",
@@ -468,46 +509,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "6e5a2fea-fb53-490e-8639-337a3ddca284": {
-      "type": "collage",
-      "blocks": {
-        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1": {
-          "type": "product",
-          "settings": {
-            "product": "juego-de-accesorios-juego-de-5-natilain",
-            "second_image": false
-          }
-        },
-        "c875c8c1-d0ee-465a-ae39-d636811a70ac": {
-          "type": "product",
-          "settings": {
-            "product": "juego-de-accesorios-juego-de-5-gentset",
-            "second_image": false
-          }
-        },
-        "9980586f-a91c-4ef6-8de2-207a89d87fb5": {
-          "type": "collection",
-          "settings": {
-            "collection": "jarrones-y-botellas"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1",
-        "c875c8c1-d0ee-465a-ae39-d636811a70ac",
-        "9980586f-a91c-4ef6-8de2-207a89d87fb5"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -517,10 +518,10 @@
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
+    "6e5a2fea-fb53-490e-8639-337a3ddca284",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "46658e2a-45ab-457a-9e97-791c28394991",
-    "6e5a2fea-fb53-490e-8639-337a3ddca284"
+    "46658e2a-45ab-457a-9e97-791c28394991"
   ]
 }
