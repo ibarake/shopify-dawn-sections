@@ -21,6 +21,60 @@
         "responsive-img-height": 300
       }
     },
+    "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "juegos-de-comedor"
+          }
+        },
+        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cocina-y-comedor"
+          }
+        },
+        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sillas-de-comedor"
+          }
+        },
+        "b4866806-2c32-4c73-a33f-0eb4ae426949": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lamparas-de-techo"
+          }
+        },
+        "2026054b-a0f4-43f2-8830-68c7b90e339b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "almacenamiento-comedor"
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-2",
+        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-1",
+        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-3",
+        "b4866806-2c32-4c73-a33f-0eb4ae426949",
+        "2026054b-a0f4-43f2-8830-68c7b90e339b"
+      ],
+      "settings": {
+        "title": "Comedores",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
       "type": "custom-collections",
       "blocks": {
@@ -211,6 +265,136 @@
         "padding_bottom": 32
       }
     },
+    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-2-puestos"
+          }
+        },
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-3-puestos"
+          }
+        },
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-reclinables"
+          }
+        },
+        "99fbd5e3-4065-43f1-b063-d763ddddd5ca": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-modulares"
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2",
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3",
+        "99fbd5e3-4065-43f1-b063-d763ddddd5ca"
+      ],
+      "settings": {
+        "title": "Sofás",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5e2a584c-a48e-4c52-896c-4793dd016861": {
+      "type": "custom-double-banner",
+      "blocks": {
+        "af0d6954-943b-491b-a9fd-226774b24bfc": {
+          "type": "image",
+          "settings": {
+            "first-title": "",
+            "second-title": "",
+            "button-text": "",
+            "banner-image": "shopify:\/\/shop_images\/32902-38-SET-10X8-CROP.webp",
+            "button_link": ""
+          }
+        },
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
+          "type": "image",
+          "settings": {
+            "first-title": "",
+            "second-title": "",
+            "button-text": "",
+            "banner-image": "shopify:\/\/shop_images\/con_fondo.webp",
+            "button_link": "shopify:\/\/collections\/alfombras"
+          }
+        }
+      },
+      "block_order": [
+        "af0d6954-943b-491b-a9fd-226774b24bfc",
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text-color": "#ffffff",
+        "btn-color": "#363534"
+      }
+    },
+    "ceaf14b4-27d3-404e-b8f6-27e140237b10": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "escritorios"
+          }
+        },
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lamparas-de-escritorio"
+          }
+        },
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sillas-de-oficina"
+          }
+        },
+        "d9b846fe-062d-41b9-beed-a125b3e7a1a2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "almacenamiento-para-oficina"
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1",
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2",
+        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3",
+        "d9b846fe-062d-41b9-beed-a125b3e7a1a2"
+      ],
+      "settings": {
+        "title": "Oficina en casa",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
       "type": "collection-list",
       "blocks": {
@@ -263,43 +447,6 @@
         "swipe_on_mobile": true,
         "padding_top": 20,
         "padding_bottom": 28
-      }
-    },
-    "5e2a584c-a48e-4c52-896c-4793dd016861": {
-      "type": "custom-double-banner",
-      "disabled": true,
-      "blocks": {
-        "af0d6954-943b-491b-a9fd-226774b24bfc": {
-          "type": "image",
-          "settings": {
-            "first-title": "Muebles para",
-            "second-title": "Entrega Rapida",
-            "button-text": "",
-            "banner-image": "shopify:\/\/shop_images\/32902-38-SET-10X8-CROP.webp",
-            "button_link": ""
-          }
-        },
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
-          "type": "image",
-          "settings": {
-            "first-title": "Muebles",
-            "second-title": "Con instalación",
-            "button-text": "Comprar ahora",
-            "banner-image": "shopify:\/\/shop_images\/con_fondo.webp",
-            "button_link": "shopify:\/\/collections\/alfombras"
-          }
-        }
-      },
-      "block_order": [
-        "af0d6954-943b-491b-a9fd-226774b24bfc",
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "text-color": "#ffffff",
-        "btn-color": "#363534"
       }
     },
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd": {
@@ -409,212 +556,20 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "766d8af5-dd53-430b-99ee-00a7aca8f49e": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-video-1": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/21104-16-65.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=E8ZULCJ68ZM",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-product-1": {
-          "type": "product",
-          "settings": {
-            "product": "sillon-decorativo-giratorio-de-gran-tamano-lindyn",
-            "second_image": false
-          }
-        },
-        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "sofas-modulares"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-video-1",
-        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-product-1",
-        "template--17657980813619__766d8af5-dd53-430b-99ee-00a7aca8f49e-collection-1"
-      ],
-      "settings": {
-        "heading": "Colección Lindyn",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "ceaf14b4-27d3-404e-b8f6-27e140237b10": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "escritorios"
-          }
-        },
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lamparas-de-escritorio"
-          }
-        },
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sillas-de-oficina"
-          }
-        },
-        "d9b846fe-062d-41b9-beed-a125b3e7a1a2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "almacenamiento-para-oficina"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1",
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2",
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3",
-        "d9b846fe-062d-41b9-beed-a125b3e7a1a2"
-      ],
-      "settings": {
-        "title": "Oficina en casa",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-2-puestos"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-3-puestos"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-reclinables"
-          }
-        },
-        "99fbd5e3-4065-43f1-b063-d763ddddd5ca": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-modulares"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3",
-        "99fbd5e3-4065-43f1-b063-d763ddddd5ca"
-      ],
-      "settings": {
-        "title": "Sofás",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "juegos-de-comedor"
-          }
-        },
-        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cocina-y-comedor"
-          }
-        },
-        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sillas-de-comedor"
-          }
-        },
-        "b4866806-2c32-4c73-a33f-0eb4ae426949": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lamparas-de-techo"
-          }
-        },
-        "2026054b-a0f4-43f2-8830-68c7b90e339b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "almacenamiento-comedor"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-2",
-        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-1",
-        "template--17657980813619__20cb0676-888c-4753-b8e9-32e8cc6eecbd-featured_collection-3",
-        "b4866806-2c32-4c73-a33f-0eb4ae426949",
-        "2026054b-a0f4-43f2-8830-68c7b90e339b"
-      ],
-      "settings": {
-        "title": "Comedores",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
+    "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
+    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
+    "ceaf14b4-27d3-404e-b8f6-27e140237b10",
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "e3616ff7-1d9a-4d6f-a990-3659fef99fcd",
     "46658e2a-45ab-457a-9e97-791c28394991",
-    "image_banner",
-    "766d8af5-dd53-430b-99ee-00a7aca8f49e",
-    "ceaf14b4-27d3-404e-b8f6-27e140237b10",
-    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
-    "20cb0676-888c-4753-b8e9-32e8cc6eecbd"
+    "image_banner"
   ]
 }
