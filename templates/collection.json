@@ -39,6 +39,7 @@
     },
     "87c60f33-59d8-416a-8360-f7543630c187": {
       "type": "macro-category-1",
+      "disabled": true,
       "settings": {
         "colnum": 3,
         "titleAndSubtitleColor": "#393731",
