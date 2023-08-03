@@ -5,8 +5,8 @@
       "settings": {
         "colnum": 3,
         "titleAndSubtitleColor": "#393731",
-        "saleTextColor": "#fff",
-        "backgroundColor": "#fffaee",
+        "saleTextColor": "#ffffff",
+        "backgroundColor": "#ffffff",
         "backgroundSaleColor": "#c60f2f"
       }
     }
