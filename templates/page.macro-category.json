@@ -14,7 +14,7 @@
         "colnum": 4,
         "titleAndSubtitleColor": "#121212",
         "saleTextColor": "#ffffff",
-        "backgroundColor": "#f3efea",
+        "backgroundColor": "{{ shop.brand.colors.secondary[0].background }}",
         "backgroundSaleColor": "#c60f2f"
       }
     },
@@ -59,7 +59,7 @@
         "colnum": 3,
         "box_position": "right",
         "colorText": "#000000",
-        "Color": "#f3efea",
+        "Color": "#ffffff",
         "ColorImageCollections": "#ffffff",
         "colorItemsCollections": "#ffffff"
       }
@@ -96,8 +96,8 @@
       "settings": {
         "numberCollections": 7,
         "colorText": "#000000",
-        "backgroundSectionColor": "#FFFFFF",
-        "backgroundItemColor": "#FFFFFF"
+        "backgroundSectionColor": "#ffffff",
+        "backgroundItemColor": "#ffffff"
       }
     }
   },
