@@ -26,7 +26,7 @@
         "colnum": 3,
         "Color": "#ffffff",
         "colorItemsCollections": "#ffffff",
-        "ColorImageCollections": "#f3f3f3",
+        "ColorImageCollections": "#ffffff",
         "colorText": "#000000",
         "box_position": "left",
         "Border_style": "style2"
@@ -56,6 +56,7 @@
     },
     "sub-category-6": {
       "type": "sub-category-6",
+      "disabled": true,
       "settings": {
         "subid": 2,
         "numberCollections": 3
