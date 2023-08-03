@@ -26,7 +26,7 @@
         "colnum": 3,
         "Color": "#f3f3f3",
         "colorItemsCollections": "#ffffff",
-        "ColorImageCollections": "{{ shop.brand.colors.primary[0].foreground }}",
+        "ColorImageCollections": "#f3f3f3",
         "colorText": "#000000",
         "box_position": "left",
         "Border_style": "style2"
