@@ -14,7 +14,7 @@
         "colnum": 4,
         "titleAndSubtitleColor": "#121212",
         "saleTextColor": "#ffffff",
-        "backgroundColor": "{{ shop.brand.colors.secondary[0].background }}",
+        "backgroundColor": "#fff",
         "backgroundSaleColor": "#c60f2f"
       }
     },
@@ -25,7 +25,7 @@
         "titleColor": "#000000",
         "subColor": "#000000",
         "backgroundSectionColor": "#ffffff",
-        "backgroundColor": "#f2f2f2"
+        "backgroundColor": "#fff"
       }
     },
     "macro-category-2": {
@@ -35,8 +35,8 @@
         "colnum": 3,
         "box_position": "right",
         "colorText": "#121212",
-        "Color": "#efefef",
-        "ColorImageCollections": "#efefef",
+        "Color": "#ffffff",
+        "ColorImageCollections": "#ffffff",
         "colorItemsCollections": "#ffffff"
       }
     },
