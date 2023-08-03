@@ -8,8 +8,16 @@
         "padding_bottom": 28
       }
     },
+    "sub-category-6": {
+      "type": "sub-category-6",
+      "settings": {
+        "subid": 2,
+        "numberCollections": 3
+      }
+    },
     "sub-category-1": {
       "type": "sub-category-1",
+      "disabled": true,
       "settings": {
         "colnum": 4
       }
@@ -53,23 +61,15 @@
         "colorText": "#121212",
         "Border_style": "style3"
       }
-    },
-    "sub-category-6": {
-      "type": "sub-category-6",
-      "disabled": true,
-      "settings": {
-        "subid": 2,
-        "numberCollections": 3
-      }
     }
   },
   "order": [
     "main",
+    "sub-category-6",
     "sub-category-1",
     "sub-category-2",
     "sub-category-3",
     "sub-category-4",
-    "sub-category-5",
-    "sub-category-6"
+    "sub-category-5"
   ]
 }
