@@ -24,9 +24,9 @@
       "settings": {
         "subid": 2,
         "colnum": 3,
-        "Color": "#ffe3cd",
+        "Color": "#f3f3f3",
         "colorItemsCollections": "#ffffff",
-        "ColorImageCollections": "#f3efea",
+        "ColorImageCollections": "{{ shop.brand.colors.primary[0].foreground }}",
         "colorText": "#000000",
         "box_position": "left",
         "Border_style": "style2"
