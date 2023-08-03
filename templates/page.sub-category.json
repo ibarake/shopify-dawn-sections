@@ -8,17 +8,16 @@
         "padding_bottom": 28
       }
     },
-    "sub-category-2": {
-      "type": "sub-category-2",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "sub-category-6": {
       "type": "sub-category-6",
       "settings": {
         "subid": 5,
         "numberCollections": 2
+      }
+    },
+    "sub-category-2": {
+      "type": "sub-category-2",
+      "settings": {
       }
     },
     "sub-category-3": {
@@ -67,8 +66,8 @@
   },
   "order": [
     "main",
-    "sub-category-2",
     "sub-category-6",
+    "sub-category-2",
     "sub-category-3",
     "sub-category-4",
     "sub-category-5",
