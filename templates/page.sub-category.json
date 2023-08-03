@@ -10,7 +10,6 @@
     },
     "sub-category-1": {
       "type": "sub-category-1",
-      "disabled": true,
       "settings": {
         "colnum": 3
       }
@@ -22,7 +21,6 @@
     },
     "sub-category-3": {
       "type": "sub-category-3",
-      "disabled": true,
       "settings": {
         "subid": 2,
         "colnum": 3,
