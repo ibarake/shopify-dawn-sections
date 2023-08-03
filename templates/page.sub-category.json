@@ -10,6 +10,7 @@
     },
     "sub-category-2": {
       "type": "sub-category-2",
+      "disabled": true,
       "settings": {
       }
     },
