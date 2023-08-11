@@ -20,19 +20,25 @@
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofa-camas"
+            "collection": "sofas-3-puestos"
           }
         },
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "reclinomaticas-hata-2-500-000"
+            "collection": "sofas-modulares"
           }
         },
         "7ce278fa-e38e-47cc-86e1-9ea1ec24de93": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofas"
+            "collection": "sofas-reclinomaticos"
+          }
+        },
+        "f53039ab-b9ad-4485-9fab-3d540081fb1d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofa-cama"
           }
         }
       },
@@ -40,11 +46,12 @@
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-0",
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-1",
         "template--17843221397811__58d0bd97-190d-4933-be4c-06b278995576-16751249984a70d8d7-2",
-        "7ce278fa-e38e-47cc-86e1-9ea1ec24de93"
+        "7ce278fa-e38e-47cc-86e1-9ea1ec24de93",
+        "f53039ab-b9ad-4485-9fab-3d540081fb1d"
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
