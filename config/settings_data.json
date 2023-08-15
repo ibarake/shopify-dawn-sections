@@ -125,6 +125,7 @@
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/AFHS_INT_Logo_Horizontal_3.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
