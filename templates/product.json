@@ -127,7 +127,7 @@
       "settings": {
         "heading": "También te puede gustar",
         "heading_size": "h2",
-        "products_to_show": 10,
+        "products_to_show": 5,
         "columns_desktop": 5,
         "color_scheme": "background-1",
         "image_ratio": "square",
