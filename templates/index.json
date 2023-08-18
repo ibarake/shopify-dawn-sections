@@ -533,6 +533,13 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "cf8beef6-7924-4a14-abfd-70d08d484a61": {
+      "type": "custom-double-banner",
+      "settings": {
+        "text-color": "#FFFFFF",
+        "btn-color": "#363534"
+      }
     }
   },
   "order": [
@@ -546,6 +553,7 @@
     "6e5a2fea-fb53-490e-8639-337a3ddca284",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "46658e2a-45ab-457a-9e97-791c28394991"
+    "46658e2a-45ab-457a-9e97-791c28394991",
+    "cf8beef6-7924-4a14-abfd-70d08d484a61"
   ]
 }
