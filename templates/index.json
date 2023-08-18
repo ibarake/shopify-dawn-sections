@@ -433,7 +433,7 @@
             "second-title": "",
             "button-text": "Los mas vendidos del pais",
             "banner-image": "shopify:\/\/shop_images\/1_c255441d-965a-4190-b03a-82abfa5340f1.png",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
           }
         },
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
@@ -451,7 +451,6 @@
         "af0d6954-943b-491b-a9fd-226774b24bfc",
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
