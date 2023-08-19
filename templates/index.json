@@ -429,10 +429,10 @@
         "af0d6954-943b-491b-a9fd-226774b24bfc": {
           "type": "image",
           "settings": {
-            "first-title": "",
-            "second-title": "",
+            "first-title": "Mejores Vendidos",
+            "second-title": "los m",
             "button-text": "Los mas vendidos del pais",
-            "banner-image": "shopify:\/\/shop_images\/1_c255441d-965a-4190-b03a-82abfa5340f1.png",
+            "banner-image": "shopify:\/\/shop_images\/2_ec8251f8-caac-48f7-9a75-bfa5ca7be67b.png",
             "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
           }
         },
@@ -451,6 +451,7 @@
         "af0d6954-943b-491b-a9fd-226774b24bfc",
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
