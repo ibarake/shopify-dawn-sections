@@ -496,7 +496,7 @@
                             {% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            {% for images in option.options %}
+                            {% for images in option.variants %}
                               <img src="{{ images.featured_image }}" alt="{{ images.alt }}">
                             {% endfor %}
                           </label>
