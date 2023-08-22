@@ -432,17 +432,17 @@
             "first-title": "Mejores Vendidos",
             "second-title": "los m",
             "button-text": "Los mas vendidos del pais",
-            "banner-image": "shopify:\/\/shop_images\/2_ec8251f8-caac-48f7-9a75-bfa5ca7be67b.png",
+            "banner-image": "shopify:\/\/shop_images\/4.png",
             "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
           }
         },
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
           "type": "image",
           "settings": {
-            "first-title": "",
-            "second-title": "",
+            "first-title": "conoce neustra",
+            "second-title": "linea naranja",
             "button-text": "Conoce nuestra linea naranja",
-            "banner-image": "shopify:\/\/shop_images\/Banner_News_Letter_-_Aug_18_2023_1.png",
+            "banner-image": "shopify:\/\/shop_images\/Banner_News_Letter_-_Aug_18_2023_2.jpg",
             "button_link": "shopify:\/\/collections\/linea-naranja"
           }
         }
@@ -451,12 +451,11 @@
         "af0d6954-943b-491b-a9fd-226774b24bfc",
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "text-color": "#ffffff",
+        "text-color": "#f68c2c",
         "btn-color": "#363534"
       }
     },
