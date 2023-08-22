@@ -197,6 +197,42 @@
         "padding_bottom": 36
       }
     },
+    "5e2a584c-a48e-4c52-896c-4793dd016861": {
+      "type": "custom-double-banner",
+      "blocks": {
+        "af0d6954-943b-491b-a9fd-226774b24bfc": {
+          "type": "image",
+          "settings": {
+            "first-title": "",
+            "second-title": "",
+            "button-text": "Los mejor vendidos",
+            "banner-image": "shopify:\/\/shop_images\/4.jpg",
+            "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
+          }
+        },
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
+          "type": "image",
+          "settings": {
+            "first-title": "",
+            "second-title": "",
+            "button-text": "Conoce nuestra linea naranja",
+            "banner-image": "shopify:\/\/shop_images\/3.jpg",
+            "button_link": "shopify:\/\/collections\/linea-naranja"
+          }
+        }
+      },
+      "block_order": [
+        "af0d6954-943b-491b-a9fd-226774b24bfc",
+        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text-color": "#f68c2c",
+        "btn-color": "#363534"
+      }
+    },
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
       "type": "collection-list",
       "blocks": {
@@ -423,43 +459,6 @@
         "padding_bottom": 36
       }
     },
-    "5e2a584c-a48e-4c52-896c-4793dd016861": {
-      "type": "custom-double-banner",
-      "blocks": {
-        "af0d6954-943b-491b-a9fd-226774b24bfc": {
-          "type": "image",
-          "settings": {
-            "first-title": "descubre",
-            "second-title": "más vendidos",
-            "button-text": "Los mas vendidos",
-            "banner-image": "shopify:\/\/shop_images\/4.png",
-            "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
-          }
-        },
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
-          "type": "image",
-          "settings": {
-            "first-title": "conoce neustra",
-            "second-title": "linea naranja",
-            "button-text": "Conoce nuestra linea naranja",
-            "banner-image": "shopify:\/\/shop_images\/Banner_News_Letter_-_Aug_18_2023_2.jpg",
-            "button_link": "shopify:\/\/collections\/linea-naranja"
-          }
-        }
-      },
-      "block_order": [
-        "af0d6954-943b-491b-a9fd-226774b24bfc",
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "text-color": "#525252",
-        "btn-color": "#363534"
-      }
-    },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
       "type": "collection-list",
       "blocks": {
@@ -539,12 +538,12 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
+    "5e2a584c-a48e-4c52-896c-4793dd016861",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "6e5a2fea-fb53-490e-8639-337a3ddca284",
-    "5e2a584c-a48e-4c52-896c-4793dd016861",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "46658e2a-45ab-457a-9e97-791c28394991"
   ]
