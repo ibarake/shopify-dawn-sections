@@ -496,7 +496,7 @@
                             {% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            <img src="{{ variant.image }}" alt="{{ value }}">
+                            {% for variant in product.variants %} <img src="{{ variant.image }}" alt="{{ value }}"> {% endfor %}
                           </label>
                         {%- endfor -%}
                       </fieldset>
