@@ -497,7 +497,7 @@
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                             {% for vari in product.variants %}
-                              <img src="{{ vari.featured_image }}" alt="{{ vari.alt }}">
+                              <img src="{{ vari.image }}" alt="{{ vari.alt }}">
                             {% endfor %}
                           </label>
                         {%- endfor -%}
