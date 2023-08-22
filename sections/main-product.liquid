@@ -495,9 +495,9 @@
                               checked
                             {% endif %}
                           >
-
-                            <h2>{{ product.template_suffix }}</h2>
-
+                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                            <h2>{{ option.name }}</h2>
+                          </label>
                         {%- endfor -%}
                       </fieldset>
                     {%- endfor -%}
