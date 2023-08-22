@@ -429,9 +429,9 @@
         "af0d6954-943b-491b-a9fd-226774b24bfc": {
           "type": "image",
           "settings": {
-            "first-title": "Mejores Vendidos",
-            "second-title": "los m",
-            "button-text": "Los mas vendidos del pais",
+            "first-title": "descubre",
+            "second-title": "más vendidos",
+            "button-text": "Los mas vendidos",
             "banner-image": "shopify:\/\/shop_images\/4.png",
             "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
           }
@@ -455,7 +455,7 @@
 
       ],
       "settings": {
-        "text-color": "#f68c2c",
+        "text-color": "#525252",
         "btn-color": "#363534"
       }
     },
