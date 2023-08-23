@@ -1267,7 +1267,7 @@ title-details {
   justify-content: space-between;
 }
 
-.answer-details {
+answer-details {
   display: block;
   height: 0px;
   transition: all 200ms ease;
