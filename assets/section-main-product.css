@@ -1248,3 +1248,28 @@ a.product__text {
   flex-shrink: 0;
 }
 
+con-details {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+container-details {
+  width: 100%;
+  padding: 0 15px 5px 15px;
+  border-bottom: 1px solid var(--main-gray);
+  margin: 15px;
+}
+
+title-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.answer-details {
+  display: block;
+  height: 0px;
+  transition: all 200ms ease;
+  overflow: hidden;
+}

@@ -357,12 +357,14 @@
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
                   <con-details>
-                    <title-details>
-                      <p>Details and Overview</p>
-                    </title-details>
-                    <answer-details>
-                      {{ product.description }}
-                    </answer-details>
+                    <container-details>
+                      <title-details>
+                        <p>Details and Overview</p>
+                      </title-details>
+                      <answer-details>
+                        {{ product.description }}
+                      </answer-details>
+                    </container-details>
                   </con-details>
                 </div>
               {%- endif -%}
