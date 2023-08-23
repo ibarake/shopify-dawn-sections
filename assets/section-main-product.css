@@ -1257,7 +1257,7 @@ con-details {
 container-details {
   width: 100%;
   padding: 0 15px 5px 15px;
-  border-bottom: 1px solid var(--main-gray);
+  border-bottom: 1px solid gray;
   margin: 15px;
 }
 
