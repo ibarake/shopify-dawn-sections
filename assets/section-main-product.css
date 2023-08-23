@@ -1260,6 +1260,7 @@ container-details {
   padding: 0 15px 5px 15px;
   border-bottom: 1px solid gray;
   margin: 15px;
+  cursor: pointer;
 }
 
 title-details {
