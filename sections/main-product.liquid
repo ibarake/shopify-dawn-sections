@@ -482,7 +482,9 @@
                     {{ block.shopify_attributes }}
                   >
                     {%- for option in product.options_with_values -%}
-                      <h2>{{ option }}</h2>
+                      <script>
+                        console.log(option);
+                      </script>
                       <fieldset class="js product-form__input">
                         <legend class="form__label">{{ option.name }}</legend>
                         {%- for value in option.values -%}
