@@ -876,7 +876,7 @@
               {%- for media in product.media -%}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   <li
-                    {% if product.selected_or_first_available_variant.image.alt != media.alt and product.selected_or_first_available_variant.image.alt != blank %}
+                    {% if product.selected_or_first_available_variant.featured-image.alt != media.alt and product.selected_or_first_available_variant.featured-image.alt != blank %}
                       style="display: none;"
                     {% endif %}
                     thumbnail-alt={{ media.alt }}
