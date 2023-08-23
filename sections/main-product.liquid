@@ -496,7 +496,7 @@
                             {% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            {% if option.name == 'Color' || option.name == 'color' %}
+                            {% if option.name == 'Color' or option.name == 'color' %}
                               {% for var in product.variants %}
                                 {% if var.options == value %}
                                   {{ variant.featured_image | img_tag: "", "","100x100"}} 
