@@ -356,16 +356,14 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
-                  <preguntas>
-                      <faq class="faq-container">
-                        <question class="FAQ-title">
-                          {{ product.title }}
-                        </question>
-                        <answer class="FAQ-text">
-                          {{ product.description }}
-                        </answer>
-                      </faq>
-                  </preguntas>
+                  <details>
+                    <title-details>
+                      <p>Details and Overview</p>
+                    </title-details>
+                    <answer-details>
+                      {{ product.description }}
+                    </answer-details>
+                  </details>
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
