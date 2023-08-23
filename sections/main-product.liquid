@@ -498,9 +498,11 @@
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                             {% if option.name == 'Color' or option.name == 'color' %}
                               {% for var in product.variants %}
-                                {% if var.options == value %}
-                                  {{ variant.featured_image | img_tag }}
-                                {% endif %}    
+                                {% for op in var.options %}
+                                  {% if op.value == value %}
+                                    {{ variant.featured_image | img_tag }}
+                                  {% endif %}
+                                {% endfor %}    
                               {% endfor %}
                               {% else %}
                                 {{ value }}
