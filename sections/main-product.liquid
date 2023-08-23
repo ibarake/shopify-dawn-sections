@@ -499,7 +499,6 @@
                             {% if option.name == 'Color' or option.name == 'color' %}
                               {% for var in product.variants %}
                                 {% if var.options contains value %}
-                                  {{ value }}
                                   {{ var.image | img_tag }}
                                 {% endif %}}
                               {% endfor %}
