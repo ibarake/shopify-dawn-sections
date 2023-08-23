@@ -500,7 +500,7 @@
                               {% for var in product.variants %}
                                 {% for op in var.options %}
                                   {% if op.value == value %}
-                                    {{ variant.featured_image | img_tag }}
+                                    {{ var.featured_image | img_tag }}
                                   {% endif %}
                                 {% endfor %}    
                               {% endfor %}
