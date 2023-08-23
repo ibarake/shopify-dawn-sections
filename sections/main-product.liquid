@@ -499,10 +499,12 @@
                             {% if option.name == 'Color' or option.name == 'color' %}
                               {% for var in product.variants %}
                                 {% for op in var.options %}
-                                  {% if op.value == value %}
-                                    {{ value }}
-                                    {{ var.image | img_tag }}
-                                  {% endif %}
+                                  {% for val in op.values %}
+                                    {% if op.value == value %}
+                                      {{ value }}
+                                      {{ var.image | img_tag }}
+                                    {% endif %}}
+                                  {% endfor %}  
                                 {% endfor %}    
                               {% endfor %}
                               {% else %}
