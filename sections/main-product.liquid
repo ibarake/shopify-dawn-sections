@@ -357,7 +357,6 @@
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
                   <preguntas>
-                    {% for block in section.blocks %}
                       <faq class="faq-container">
                         <question class="FAQ-title">
                           {{ block.settings['FAQ-title'] }}
@@ -366,7 +365,6 @@
                           {{ product.description }}
                         </answer>
                       </faq>
-                    {% endfor %}
                   </preguntas>
                 </div>
               {%- endif -%}
