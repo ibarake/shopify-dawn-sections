@@ -356,14 +356,14 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
-                  <details>
+                  <con-details>
                     <title-details>
                       <p>Details and Overview</p>
                     </title-details>
                     <answer-details>
                       {{ product.description }}
                     </answer-details>
-                  </details>
+                  </con-details>
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
