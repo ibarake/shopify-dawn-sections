@@ -761,7 +761,7 @@ class VariantSelects extends HTMLElement {
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
-
+    this.filterImgVariant();
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
@@ -771,6 +771,18 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+    }
+  }
+
+  filterImgVariant(){
+    if(this.currentVariant.featured_image && this.currentVariant.featured_image.alt){
+      document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display == 'none')
+      const currentImgAlt = this.currentVariant.featured_image.alt
+      const thumbnailSelector = `[thumbnail-alt = '${currentImgAlt}']`
+      document.querySelectorAll(thumbnailSelector).forEach(img => img.style.display = block)
+    }
+    else {
+      document.querySelectorAll(`[thumbnail-alt]`).forEach(img => img.style.display = 'block')
     }
   }
 
