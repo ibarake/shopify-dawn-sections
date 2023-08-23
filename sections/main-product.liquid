@@ -359,11 +359,11 @@
                   <preguntas>
                     {% for block in section.blocks %}
                       <faq class="faq-container">
-                        <question class="FAQ-title subtitulo-3">
+                        <question class="FAQ-title">
                           {{ block.settings['FAQ-title'] }}
                         </question>
-                        <answer class="FAQ-text parrafo-2">
-                          {{ block.settings['FAQ-text'] }}
+                        <answer class="FAQ-text">
+                          {{ product.description }}
                         </answer>
                       </faq>
                     {% endfor %}
