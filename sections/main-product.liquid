@@ -358,7 +358,7 @@
                 <div class="product__description rte quick-add-hidden">
                   <con-details>
                     <container-details>
-                      <title-details>
+                      <title-details class="title-details">
                         <p>Details and Overview</p>
                       </title-details>
                       <answer-details>
@@ -1183,6 +1183,65 @@
       ]
     }
   </script>
+
+  <script>
+  
+  /* FAQ DROPDOWN ANIMATION */
+document.addEventListener('DOMContentLoaded', function() {
+  var faqTitles = document.querySelectorAll('.title-details');
+  var openAnswer = null; // Keeps track of the currently open answer
+  var openTitle = null; // Keeps track of the currently open FAQ title
+
+  faqTitles.forEach(function(title) {
+    title.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+
+      if (openAnswer === answer) {
+        // Clicking on the same FAQ title again, close the answer and rotate the SVG back
+        toggleSlide(answer);
+        rotateSvg(this, '0deg');
+        openAnswer = null;
+        openTitle = null;
+      } else {
+        // Clicking on a different FAQ title
+        if (openAnswer) {
+          // Close the previously open answer and rotate its SVG back
+          toggleSlide(openAnswer);
+          rotateSvg(openTitle, '0deg');
+        }
+
+        // Open the clicked answer and rotate its SVG
+        toggleSlide(answer);
+        rotateSvg(this, '90deg');
+        openAnswer = answer;
+        openTitle = this;
+      }
+    });
+  });
+});
+
+function toggleSlide(element) {
+  var isHidden = getComputedStyle(element).height === '0px';
+
+  if (isHidden) {
+    element.style.height = 'auto';
+    element.style.marginTop = '15px';
+    element.style.marginBottom = '10px';
+  } else {
+    element.style.height = '0px';
+    element.style.marginTop = '0px';
+    element.style.marginBottom = '0px';
+  }
+}
+
+function rotateSvg(title, rotation) {
+  var svgElement = title.querySelector('svg');
+  svgElement.style.transform = `rotate(${rotation})`;
+}
+
+
+</script>
+
 </section>
 
 {% schema %}
