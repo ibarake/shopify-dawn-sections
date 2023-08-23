@@ -481,6 +481,7 @@
                     data-url="{{ product.url }}"
                     {{ block.shopify_attributes }}
                   >
+                  {% if product.options_with_values != empty %}
                     {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
                         <legend class="form__label">{{ option.name }}</legend>
@@ -510,6 +511,7 @@
                         {%- endfor -%}
                       </fieldset>
                     {%- endfor -%}
+                  {%- endif -%}
                     <script type="application/json">
                       {{ product.variants | json }}
                     </script>
