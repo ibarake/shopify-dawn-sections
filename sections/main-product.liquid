@@ -499,7 +499,7 @@
                             {% if option.name == 'Color' || option.name == 'color' %}
                               {% for var in product.variants %}
                                 {% if var.options == value %}
-                                  {{ variant.featured_image | img_tag:"", "100x100"}} 
+                                  {{ variant.featured_image | img_tag: "", "","100x100"}} 
                                 {% endif %}    
                               {% endfor %}
                               {% else %}
