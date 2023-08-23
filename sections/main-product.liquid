@@ -356,7 +356,18 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
-                  {{ product.description }}
+                  <preguntas>
+                    {% for block in section.blocks %}
+                      <faq class="faq-container">
+                        <question class="FAQ-title subtitulo-3">
+                          {{ block.settings['FAQ-title'] }}
+                        </question>
+                        <answer class="FAQ-text parrafo-2">
+                          {{ block.settings['FAQ-text'] }}
+                        </answer>
+                      </faq>
+                    {% endfor %}
+                  </preguntas>
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}

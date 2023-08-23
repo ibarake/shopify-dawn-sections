@@ -1247,3 +1247,43 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+
+preguntas {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.FAQ-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq-container {
+  width: 100%;
+  padding: 0 15px 5px 15px;
+  border-bottom: 1px solid var(--main-gray);
+  margin: 15px;
+}
+
+.FAQ-subtitle {
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+}
+
+.FAQ-text {
+  width: 100%;
+  color: var(--main-gray);
+}
+
+preguntas {
+  width: 65%;
+}
+
+answer {
+  display: block;
+  height: 0px;
+  transition: all 200ms ease;
+  overflow: hidden;
+}
