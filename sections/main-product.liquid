@@ -875,11 +875,10 @@
               {%- endif -%}
               {%- for media in product.media -%}
                 <script>
-                  console.log(media);
+                  console.log(media.alt);
                 </script>
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   {% if product.selected_or_first_available_variant.featured_image.alt == media.alt %}
-                    <h2>{{ media.id }}</h2>
                     <li
                       thumbnail-alt={{ media.alt }}
                       id="Slide-{{ section.id }}-{{ media.id }}-right"
