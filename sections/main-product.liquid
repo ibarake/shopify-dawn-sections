@@ -874,6 +874,9 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
+                <scrip>
+                  console.log(media);
+                </script>
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   {% if product.selected_or_first_available_variant.featured_image.alt == media.alt %}
                     <h2>{{ media.id }}</h2>
