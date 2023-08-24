@@ -874,6 +874,7 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
+                {{ media.alt }}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   {% if product.selected_or_first_available_variant.featured_image.alt == media.alt %}
                     {{ product.selected_or_first_available_variant.featured_image.alt }}
