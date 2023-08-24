@@ -999,6 +999,7 @@
                       assign media_index = media_index | plus: 1
                     -%}
                     <li
+                      thumbnail-alt={{ media.alt }}
                       id="Slide-Thumbnails-{{ section.id }}-{{ forloop.index }}-right"
                       class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}"
                       data-target="{{ section.id }}-{{ media.id }}"
