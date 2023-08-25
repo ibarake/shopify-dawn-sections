@@ -138,6 +138,9 @@
         "b61a3fc5-bc64-42f0-a445-205351259d9a",
         "d9a57b26-d340-4d4e-91bb-78f610ed24ef"
       ],
+      "custom_css": [
+        "@media only screen and (max-width: 768px) {.product-image {width: 120px; }}"
+      ],
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f3f3f3"
@@ -226,7 +229,7 @@
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
       "custom_css": [
-        ".image{background-position: center;}"
+        ".image {background-position: center;}"
       ],
       "settings": {
         "text-color": "#f68c2c",
