@@ -90,6 +90,7 @@
         "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-0",
         "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-1"
       ],
+      "disabled": true,
       "custom_css": [
         "p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium.caption-with-letter-spacing {font-weight: bold; letter-spacing: 3px; font-size: 1.4rem;}",
         ".image-with-text__heading {font-weight: bold;}",
@@ -159,6 +160,7 @@
         "2157caaa-ae23-4576-834e-d21baf1f10cd",
         "9ba79713-4e78-4e52-bfa2-7b5d5addd473"
       ],
+      "disabled": true,
       "custom_css": [
         ".title-wrapper-with-link {justify-content: center;}",
         ".multicolumn .title {font-weight: bold;}",
