@@ -370,7 +370,8 @@
                       </title-details>
                       <answer-details>
                         {%- assign current_variant = product.selected_or_first_available_variant -%}
-                        <span>{{ current_variant.sku }}</span>
+                        <span>Item: {{ current_variant.sku }}</span>
+                        <p style="font-weight:bold">Descripción</p>
                         {{ product.description }}
                       </answer-details>
                     </container-details>
