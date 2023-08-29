@@ -369,6 +369,8 @@
                         {% render 'icon-arrow-right-dropdown' %}
                       </title-details>
                       <answer-details>
+                        {%- assign current_variant = product.selected_or_first_available_variant -%}
+                        <span>{{ current_variant.sku }}</span>
                         {{ product.description }}
                       </answer-details>
                     </container-details>
