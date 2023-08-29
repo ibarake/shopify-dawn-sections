@@ -378,7 +378,11 @@
                         {% render 'icon-arrow-right-dropdown' %}
                       </title-details>
                       <answer-details>
-                        {{ product.metafields.custom.alto }}
+                        <ul>
+                          <li>Alto: {{ product.metafields.custom.alto }}</li>
+                          <li>Ancho: {{ product.metafields.custom.ancho }}</li>
+                          <li>Profundidad: {{ product.metafields.custom.profundidad }}</li>
+                        </ul>
                       </answer-details>
                     </container-details>
                     <container-details>
