@@ -1275,3 +1275,8 @@ answer-details {
   transition: all 200ms ease;
   overflow: hidden;
 }
+
+answer-details .product-review {
+  display: flex;
+  justify-content: center;
+}
