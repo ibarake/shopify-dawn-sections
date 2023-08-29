@@ -1276,7 +1276,7 @@ answer-details {
   overflow: hidden;
 }
 
-answer-details .product-review {
+.product-review {
   display: flex;
   justify-content: center;
 }
