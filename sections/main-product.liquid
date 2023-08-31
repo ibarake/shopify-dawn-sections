@@ -1102,6 +1102,7 @@
         {%- for media in product.media -%}
           {%- liquid
             if product.selected_or_first_available_variant.featured_image.alt == media.alt
+              assign thumbnail-alt = media.alt
               if section.settings.hide_variants and variant_images contains media.src
                 assign variant_image = true
               else
