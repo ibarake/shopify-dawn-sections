@@ -1109,7 +1109,6 @@
               endif
   
               unless media.id == product.selected_or_first_available_variant.featured_media.id
-                assign thumbnail-alt = media.alt
                 render 'product-media', media: media, loop: section.settings.enable_video_looping, variant_image: variant_image
               endunless
             endif
