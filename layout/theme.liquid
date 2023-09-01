@@ -299,6 +299,7 @@
       
       
       
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -333,7 +334,14 @@
 
         const Sslides = Islider.querySelectorAll('.thumbnail-slider .thumbnail-list__item')
         const Simages = Islider.querySelectorAll('.thumbnail-slider .thumbnail-list__item img')
+
+        Sslides.forEach((s) => {
+          if ( selectedVariant.nextSibling.querySelector('img').alt != s.querySelector('img').alt){
+              s.style.display = 'none';
+          }
+        })
       }
+
 
 
 
