@@ -1183,7 +1183,7 @@
   }
 
   function filterImagesByVariant(alt) {
-    const allImages = document.querySelectorAll('.product__media-item img');
+    const allImages = document.querySelectorAll('.product__media-wrapper img');
     allImages.forEach(img => {
       if (img.alt === alt) {
         img.style.display = 'block'; // Show the image
