@@ -1162,6 +1162,35 @@
         {%- endfor -%}
       ]
     }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+  // Get the fieldset containing the variant radio buttons
+  const variantFieldset = document.querySelector('.product-form__input');
+
+  if (variantFieldset) {
+    variantFieldset.addEventListener('change', function(event) {
+      // Ensure the event target is a radio button
+      if (event.target.type === 'radio') {
+        const selectedVariantLabel = document.querySelector(`label[for="${event.target.id}"]`);
+        const selectedVariantAlt = selectedVariantLabel ? selectedVariantLabel.innerText.trim() : null;
+        filterImagesByVariant(selectedVariantAlt);
+      }
+    });
+  }
+
+  function filterImagesByVariant(alt) {
+    const allImages = document.querySelectorAll('.product-slider img');
+    allImages.forEach(img => {
+      if (img.alt === alt) {
+        img.style.display = 'block'; // Show the image
+      } else {
+        img.style.display = 'none'; // Hide the image
+      }
+    });
+  }
+});
+
+
   </script>
 </section>
 
