@@ -1174,6 +1174,7 @@
   if (variantFieldset) {
     variantFieldset.addEventListener('change', function(event) {
       // Ensure the event target is a radio button
+    console.log('event triggered');
       if (event.target.type === 'radio') {
         const selectedVariantLabel = document.querySelector(`label[for="${event.target.id}"]`);
         const selectedVariantAlt = selectedVariantLabel ? selectedVariantLabel.innerText.trim() : null;
