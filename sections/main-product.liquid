@@ -1168,36 +1168,6 @@
       ]
     }
     
-    document.addEventListener('DOMContentLoaded', function() {
-  // Get the fieldset containing the variant radio buttons
-  const variantFieldset = document.querySelector('fieldset.product-form__input');
-
-  if (variantFieldset) {
-    variantFieldset.addEventListener('change', function(event) {
-      // Ensure the event target is a radio button
-    console.log('event triggered');
-      if (event.target.type === 'radio') {
-        const selectedVariantLabel = document.querySelector(`label[for="${event.target.id}"]`);
-        const selectedVariantAlt = selectedVariantLabel ? selectedVariantLabel.innerText.trim() : null;
-        console.log(selectedVariantAlt);
-        filterImagesByVariant(selectedVariantAlt);
-      }
-    });
-  }
-
-  function filterImagesByVariant(alt) {
-    const allImages = document.querySelectorAll('.product__media-wrapper img');
-    allImages.forEach(img => {
-      if (img.alt === alt) {
-        img.style.display = 'block'; // Show the image
-      } else {
-        img.style.display = 'none'; // Hide the image
-      }
-    });
-  }
-});
-
-
   </script>
 </section>
 
