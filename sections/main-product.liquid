@@ -1179,7 +1179,7 @@
   }
 
   function filterImagesByVariant(alt) {
-    const allImages = document.querySelectorAll('.product-slider img');
+    const allImages = document.querySelectorAll('.product__media-item img');
     allImages.forEach(img => {
       if (img.alt === alt) {
         img.style.display = 'block'; // Show the image
