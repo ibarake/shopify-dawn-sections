@@ -107,6 +107,11 @@
               </li>
             {%- endif -%}
             {%- for media in product.media -%}
+              {% if product.selected_variant %}
+                        {% if product.selected_variant.featured_image.alt == media.alt %}
+                          {{ media.alt }}
+                        {% endif %}
+                    {% endif %}
               {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li
                   id="Slide-{{ section.id }}-{{ media.id }}"
@@ -931,11 +936,6 @@
                   </li>
                 {%- endif -%}
                 {%- for media in product.media -%}
-                  {% if product.selected_variant %}
-                        {% if product.selected_variant.featured_image.alt == media.alt %}
-                          {{ media.alt }}
-                        {% endif %}
-                    {% endif %}
                   {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                     {%- liquid
                       capture media_index
