@@ -109,10 +109,7 @@
             {%- for media in product.media -%}
               {% if product.selected_variant %}
                         {% if product.selected_variant.featured_image.alt == media.alt %}
-                          {{ media.alt }}
-                        {% endif %}
-                    {% endif %}
-              {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+                          {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li
                   id="Slide-{{ section.id }}-{{ media.id }}"
                   class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
@@ -128,6 +125,9 @@
                   -%}
                 </li>
               {%- endunless -%}
+                        {% endif %}
+                    {% endif %}
+              
             {%- endfor -%}
           </ul>
           <div class="slider-buttons no-js-hidden quick-add-hidden{% if hide_mobile_slider %} small-hide{% endif %}">
