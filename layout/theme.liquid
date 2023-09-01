@@ -297,6 +297,7 @@
       
       
       
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -328,8 +329,11 @@
       function initializeSliderVariants() {
         const sliderImages = document.querySelector('.product__media-wrapper media-gallery');
 
-        const selectedVariant = document.querySelector('.product-form__input input:checked')
+        const selectedVariant = document.querySelector('.product-form__input input[type="radio"]:checked');
+
+        
       }
+
 
 
 
