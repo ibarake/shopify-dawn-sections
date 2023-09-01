@@ -1177,6 +1177,7 @@
       if (event.target.type === 'radio') {
         const selectedVariantLabel = document.querySelector(`label[for="${event.target.id}"]`);
         const selectedVariantAlt = selectedVariantLabel ? selectedVariantLabel.innerText.trim() : null;
+        console.log(selectedVariantAlt);
         filterImagesByVariant(selectedVariantAlt);
       }
     });
