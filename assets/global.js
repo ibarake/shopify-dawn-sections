@@ -767,7 +767,6 @@ class VariantSelects extends HTMLElement {
       this.setUnavailable();
     } else {
       this.updateMedia();
-      this.filterMedia();
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
@@ -784,6 +783,7 @@ class VariantSelects extends HTMLElement {
       $(selected_attribute).show();
     } 
   }
+  
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
   }
