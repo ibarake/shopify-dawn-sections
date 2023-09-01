@@ -499,7 +499,7 @@
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                             {% for variant in product.variants %}
                               {% if variant.options contains value %}
-                              {{ variant.featured_media | img_url | img_tag: "variant-image", variant.featured_media.alt,"100x100" }}
+                                {{ variant.featured_media | img_url | img_tag: variant.featured_media.alt, "variant-image", "100x100" }}
                               {% endif %}
                             {% endfor %}
                           </label>
