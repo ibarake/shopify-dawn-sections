@@ -819,7 +819,7 @@ class VariantSelects extends HTMLElement {
       const mediaImages = mt.querySelector('img');
       const featuredAlt = this.currentVariant.featured_media.alt;
         if (mediaImages.alt === featuredAlt) {
-          console.log(mt.dataset)
+          console.log(mt.dataset.mediaPosition)
           const matchingMediaIndex = mt.dataset.mediaPosition;
         }
     })
