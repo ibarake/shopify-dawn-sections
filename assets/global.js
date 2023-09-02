@@ -771,7 +771,19 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      this.handleVariantChange();
     }
+  }
+
+  handleVariantChange() {
+    // Assuming you have a way to get the selected variant's alt attribute
+    var selectedAlt = selectedVariant.featured_media.alt;
+  
+    // Hide all product images
+    $('.product-image').hide();
+  
+    // Show only those images with a matching alt attribute
+    $(`.product-image[alt="${selectedAlt}"]`).show();
   }
   
   updateOptions() {
