@@ -818,12 +818,10 @@ class VariantSelects extends HTMLElement {
     mediaToggles.forEach((mt) => {      
       const mediaImages = mt.querySelector('img');
       const featuredAlt = this.currentVariant.featured_media.alt;
-      mediaImages.forEach((e) => {
-        if (e.alt === featuredAlt) {
+        if (mediaImages.alt === featuredAlt) {
           console.log(mt.dataset)
           // const matchingMediaId = .dataset.mediaId;
         }
-      })
     })
 
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
