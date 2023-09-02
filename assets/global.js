@@ -753,8 +753,6 @@ class VariantSelects extends HTMLElement {
   constructor() {
     super();
     this.addEventListener('change', this.onVariantChange);
-    // Dispatch an event when fully initialized
-    this.dispatchEvent(new Event('variantRadiosInitialized'));
   }
 
   onVariantChange() {
