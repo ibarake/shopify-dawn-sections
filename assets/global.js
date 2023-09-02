@@ -776,6 +776,7 @@ class VariantSelects extends HTMLElement {
   }
 
   handleVariantChange() {
+    console.log(this)
     // Get the selected variant's alt attribute
     var selectedAlt = this.currentVariant.featured_media.alt;
 
