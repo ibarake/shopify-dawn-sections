@@ -777,6 +777,7 @@ class VariantSelects extends HTMLElement {
 
   handleVariantChange() {
     // Get the selected variant's alt attribute
+    console.log(this.currentVariant)
     var selectedAlt = this.currentVariant.featured_media.alt;
 
     // Hide all thumbnail-list__item elements
