@@ -792,6 +792,11 @@ class VariantSelects extends HTMLElement {
             $(this).show();
         }
     });
+
+    const thumbnailItem = document.querySelector(`.thumbnail-list__item img[alt="${selectedAlt}"]`);
+
+    thumbnailItem.parentNode.click();
+
 }
 
   
