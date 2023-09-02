@@ -302,6 +302,7 @@
       
       
       
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -329,20 +330,6 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
 
-
-      function initializeSliderVariants() {
-        const Islider = document.querySelector('.product__media-wrapper media-gallery');
-        const selectedVariant = document.querySelector('.product-form__input input[type="radio"]:checked');
-
-        const Sslides = Islider.querySelectorAll('.thumbnail-slider .thumbnail-list__item')
-        const Simages = Islider.querySelectorAll('.thumbnail-slider .thumbnail-list__item img')
-
-        Sslides.forEach((s) => {
-          if ( selectedVariant.nextSibling.querySelector('img').alt != s.querySelector('img').alt){
-              s.style.display = 'none';
-          }
-        })
-      }
 
 
     </script>
