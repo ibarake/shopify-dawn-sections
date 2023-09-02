@@ -107,7 +107,6 @@
               </li>
             {%- endif -%}
             {%- for media in product.media -%}
-              {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
               {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li
                   thumbnail-color="{{ media.alt }}"
@@ -126,7 +125,6 @@
                   -%}
                 </li>
               {%- endunless -%}
-              {% endif %}
             {%- endfor -%}
           </ul>
           <div class="slider-buttons no-js-hidden quick-add-hidden{% if hide_mobile_slider %} small-hide{% endif %}">
