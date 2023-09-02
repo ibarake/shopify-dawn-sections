@@ -783,7 +783,7 @@ class VariantSelects extends HTMLElement {
     $('.product-image').hide();
   
     // Show only those images with a matching alt attribute
-    $(`.product-image[alt="${selectedAlt}"]`).show();
+    $(`.thumbnail-list__item img[alt="${selectedAlt}"]`).show();
   }
   
   updateOptions() {
