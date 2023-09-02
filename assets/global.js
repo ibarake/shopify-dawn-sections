@@ -810,7 +810,7 @@ class VariantSelects extends HTMLElement {
   updateMedia() {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
-
+    console.log(this)
     console.log(this.parentNode.parentNode.previousSibling.querySelectorAll('product__media-toggle')[0])
 
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
