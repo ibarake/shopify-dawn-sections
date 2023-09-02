@@ -827,6 +827,8 @@ class VariantSelects extends HTMLElement {
 
     const matchingMediaId = mediaToggles[matchingIndex].dataset.mediaId;
 
+    console.log(matchingMediaId)
+
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
     mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${matchingMediaId}`, true));
 
