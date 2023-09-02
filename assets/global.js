@@ -819,13 +819,14 @@ class VariantSelects extends HTMLElement {
       const mediaImages = mt.querySelector('img');
       const featuredAlt = this.currentVariant.featured_media.alt;
         if (mediaImages.alt === featuredAlt) {
-          console.log(mt.dataset)
-          // const matchingMediaId = .dataset.mediaId;
+          const matchingMediaIndex = mt.dataset.mediaPosition;
         }
     })
 
+    const matchingMediaId = mediaToggles[matchingMediaIndex].dataset.mediaId;
+    
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
-    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.parentNode.parentNode.previousElementSibling.querySelectorAll('.product__media-toggle')[2].dataset.mediaId}`, true));
+    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${matchingMediaId}`, true));
 
     const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
     if (!modalContent) return;
