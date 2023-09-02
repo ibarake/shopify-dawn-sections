@@ -809,11 +809,9 @@ class VariantSelects extends HTMLElement {
   updateMedia() {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
-    console.log(this)
-    console.log(this.parentNode.parentNode.previousElementSibling.querySelectorAll('.product__media-toggle')[0].dataset.mediaId)
-
+    
     // Get all the media toggle elements
-    const mediaToggles = this.parentNode.parentNode.previousElementSibling.querySelectorAll('.product__media-toggle');
+    const mediaToggles = this.parentNode.parentNode.previousElementSibling.querySelectorAll('.thumbnail-list__item');
 
     // Find the index of the element with a matching alt attribute
     const mediaImages = mediaToggles.querySelectorAll('img');
