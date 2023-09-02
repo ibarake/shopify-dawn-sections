@@ -107,7 +107,8 @@
               </li>
             {%- endif -%}
             {%- for media in product.media -%}
-              {%- unless media.alt == product.selected_or_first_available_variant.featured_media.alt -%}
+              {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
+              {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li
                   thumbnail-color="{{ media.alt }}"
                   {% if product.selected_or_first_available_variant.featured_media.alt != blank and product.selected_or_first_available_variant.featured_media.alt != media.alt %}style="display: none"{% endif %}
@@ -125,6 +126,7 @@
                   -%}
                 </li>
               {%- endunless -%}
+              {% endif %}
             {%- endfor -%}
           </ul>
           <div class="slider-buttons no-js-hidden quick-add-hidden{% if hide_mobile_slider %} small-hide{% endif %}">
@@ -234,6 +236,7 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
+                {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   {%- liquid
                     capture media_index
@@ -291,6 +294,7 @@
                     </button>
                   </li>
                 {%- endunless -%}
+                {% endif %}
               {%- endfor -%}
             </ul>
             <button
@@ -832,6 +836,7 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
+                {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   <li
                     id="Slide-{{ section.id }}-{{ media.id }}-right"
@@ -848,6 +853,7 @@
                     -%}
                   </li>
                 {%- endunless -%}
+                  {% endif %}
               {%- endfor -%}
             </ul>
           </slider-component>
@@ -933,6 +939,7 @@
                   </li>
                 {%- endif -%}
                 {%- for media in product.media -%}
+                  {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
                   {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                     {%- liquid
                       capture media_index
@@ -990,6 +997,7 @@
                       </button>
                     </li>
                   {%- endunless -%}
+                  {% endif %}
                 {%- endfor -%}
               </ul>
               <button
