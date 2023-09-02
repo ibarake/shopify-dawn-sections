@@ -776,15 +776,24 @@ class VariantSelects extends HTMLElement {
   }
 
   handleVariantChange() {
-    // Assuming you have a way to get the selected variant's alt attribute
+    // Get the selected variant's alt attribute
     var selectedAlt = this.currentVariant.featured_media.alt;
   
-    // Hide all product images
-    $('.thumbnail-list__item img').hide();
+    // Hide all thumbnail-list__item elements
+    $('.thumbnail-list__item').hide();
   
-    // Show only those images with a matching alt attribute
-    $(`.thumbnail-list__item img[alt="${selectedAlt}"]`).show();
-  }
+    // Iterate over each thumbnail-list__item
+    $('.thumbnail-list__item').each(function() {
+        // Check the alt attribute of the child image
+        var imgAlt = $(this).find('img').attr('alt');
+        
+        // If the alt attribute matches the selected variant's alt, show the thumbnail-list__item
+        if (imgAlt === selectedAlt) {
+            $(this).show();
+        }
+    });
+}
+
   
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
