@@ -753,8 +753,6 @@ class VariantSelects extends HTMLElement {
   constructor() {
     super();
     this.addEventListener('change', this.onVariantChange);
-    // Dispatch an event when fully initialized
-    this.dispatchEvent(new Event('variantRadiosInitialized'));
   }
 
   onVariantChange() {
@@ -778,7 +776,6 @@ class VariantSelects extends HTMLElement {
   }
 
   handleVariantChange() {
-    console.log(this.currentVariant)
     // Get the selected variant's alt attribute
     var selectedAlt = this.currentVariant.featured_media.alt;
 
