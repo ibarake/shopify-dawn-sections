@@ -1215,6 +1215,7 @@
                         <script>
   
   /* FAQ DROPDOWN ANIMATION */
+const initializeDropdown = () => {
 document.addEventListener('DOMContentLoaded', function() {
   var faqTitles = document.querySelectorAll('.title-details');
   var openAnswer = null; // Keeps track of the currently open answer
@@ -1260,7 +1261,8 @@ function rotateSvg(title, rotation) {
   var svgElement = title.querySelector('svg');
   svgElement.style.transform = `rotate(${rotation})`;
 }
-
+}
+    initializeDropdown();
     $(document).ready(function() {
       var selectedAlt = document.querySelector('.product-form__input input[type='radio']:checked img').alt;
 
