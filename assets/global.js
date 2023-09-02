@@ -823,6 +823,8 @@ class VariantSelects extends HTMLElement {
         }
     })
 
+    console.log(matchingMediaIndex)
+
     const matchingMediaId = mediaToggles[matchingMediaIndex].dataset.mediaId;
     
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
