@@ -816,7 +816,7 @@ class VariantSelects extends HTMLElement {
 
     // Find the index of the element with a matching alt attribute
     mediaToggles.forEach((mt) => {      
-      const mediaImages = mt.querySelectorAll('img');
+      const mediaImages = mt.querySelector('img');
       const featuredAlt = this.currentVariant.featured_media.alt;
       mediaImages.forEach((e) => {
         if (e.alt === featuredAlt) {
