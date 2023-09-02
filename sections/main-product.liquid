@@ -1262,12 +1262,21 @@ function rotateSvg(title, rotation) {
 }
 
     $(document).ready(function() {
-      // Assuming the 'variant-selects' element is unique on the page
-      console.log('hello')
-      const variantElement = document.querySelector('variant-radios');
-      if (variantElement) {
-          variantElement.handleVariantChange();
-      }
+      var selectedAlt = document.querySelector('.product-form__input input[type='radio']:checked img').alt;
+
+    // Hide all thumbnail-list__item elements
+    $('.thumbnail-list__item').hide();
+  
+    // Iterate over each thumbnail-list__item
+    $('.thumbnail-list__item').each(function() {
+        // Check the alt attribute of the child image
+        var imgAlt = $(this).find('img').attr('alt');
+        
+        // If the alt attribute matches the selected variant's alt, show the thumbnail-list__item
+        if (imgAlt === selectedAlt) {
+            $(this).show();
+        }
+    });
     });
 </script>
 
