@@ -303,6 +303,7 @@
       
       
       
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -330,6 +331,24 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
 
+      $('document').ready(() => {
+        // Get the selected variant's alt attribute
+    var selectedAlt = this.currentVariant.featured_media.alt;
+
+    // Hide all thumbnail-list__item elements
+    $('.thumbnail-list__item').hide();
+  
+    // Iterate over each thumbnail-list__item
+    $('.thumbnail-list__item').each(function() {
+        // Check the alt attribute of the child image
+        var imgAlt = $(this).find('img').attr('alt');
+        
+        // If the alt attribute matches the selected variant's alt, show the thumbnail-list__item
+        if (imgAlt === selectedAlt) {
+            $(this).show();
+        }
+    });
+      })
 
 
     </script>
