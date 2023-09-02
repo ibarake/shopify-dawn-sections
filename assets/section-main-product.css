@@ -209,6 +209,7 @@ fieldset.product-form__input .form__label {
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
+  overflow: hidden;
 }
 
 .product-form__input input[type='radio'] + label:before {
