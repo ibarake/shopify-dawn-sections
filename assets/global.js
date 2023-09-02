@@ -780,10 +780,10 @@ class VariantSelects extends HTMLElement {
     var selectedAlt = this.currentVariant.featured_media.alt;
   
     // Hide all product images
-    $('.product__media-wrapper img').hide();
+    $('.thumbnail-list__item img').hide();
   
     // Show only those images with a matching alt attribute
-    $(`.product__media-wrapper img[alt="${selectedAlt}"]`).show();
+    $(`.thumbnail-list__item img[alt="${selectedAlt}"]`).show();
   }
   
   updateOptions() {
