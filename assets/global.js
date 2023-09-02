@@ -766,6 +766,7 @@ class VariantSelects extends HTMLElement {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
+      this.updateMedia();
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
@@ -807,6 +808,8 @@ class VariantSelects extends HTMLElement {
   }
 
   updateMedia() {
+    console.log(this)
+    console.log(this.currentVariant)
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
 
