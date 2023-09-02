@@ -1216,7 +1216,6 @@
   
   /* FAQ DROPDOWN ANIMATION */
 const initializeDropdown = () => {
-document.addEventListener('DOMContentLoaded', function() {
   var faqTitles = document.querySelectorAll('.title-details');
   var openAnswer = null; // Keeps track of the currently open answer
   var openTitle = null; // Keeps track of the currently open FAQ title
@@ -1244,7 +1243,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
-});
 function toggleSlide(element) {
   var isHidden = getComputedStyle(element).height === '0px';
   if (isHidden) {
@@ -1262,8 +1260,8 @@ function rotateSvg(title, rotation) {
   svgElement.style.transform = `rotate(${rotation})`;
 }
 }
-    initializeDropdown();
     $(document).ready(function() {
+    initializeDropdown();
       var selectedAlt = document.querySelector('.product-form__input input[type='radio']:checked img').alt;
 
     // Hide all thumbnail-list__item elements
