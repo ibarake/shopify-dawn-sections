@@ -236,7 +236,6 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
-                {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   {%- liquid
                     capture media_index
@@ -294,7 +293,6 @@
                     </button>
                   </li>
                 {%- endunless -%}
-                {% endif %}
               {%- endfor -%}
             </ul>
             <button
@@ -836,7 +834,6 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
-                {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   <li
                     id="Slide-{{ section.id }}-{{ media.id }}-right"
@@ -853,7 +850,6 @@
                     -%}
                   </li>
                 {%- endunless -%}
-                  {% endif %}
               {%- endfor -%}
             </ul>
           </slider-component>
@@ -939,7 +935,6 @@
                   </li>
                 {%- endif -%}
                 {%- for media in product.media -%}
-                  {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
                   {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                     {%- liquid
                       capture media_index
@@ -997,7 +992,6 @@
                       </button>
                     </li>
                   {%- endunless -%}
-                  {% endif %}
                 {%- endfor -%}
               </ul>
               <button
@@ -1048,7 +1042,6 @@
         -%}
 
         {%- for media in product.media -%}
-          {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
           {%- liquid
             if section.settings.hide_variants and variant_images contains media.src
               assign variant_image = true
@@ -1060,7 +1053,6 @@
               render 'product-media', media: media, loop: section.settings.enable_video_looping, variant_image: variant_image
             endunless
           -%}
-          {% endif %}
         {%- endfor -%}
       </div>
     </div>
