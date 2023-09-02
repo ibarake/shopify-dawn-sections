@@ -777,7 +777,7 @@ class VariantSelects extends HTMLElement {
 
   handleVariantChange() {
     // Assuming you have a way to get the selected variant's alt attribute
-    var selectedAlt = selectedVariant.featured_media.alt;
+    var selectedAlt = this.currentVariant.featured_media.alt;
   
     // Hide all product images
     $('.product-image').hide();
