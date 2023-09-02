@@ -811,7 +811,7 @@ class VariantSelects extends HTMLElement {
     if (!this.currentVariant) return;
     console.log(this.currentVariant.featured_image.product_id)
     // Fetch the product details using the variant's product_id
-    fetch(`/products/${this.currentVariant.featured_image.product_id}.json`)
+    fetch(`/admin/api/2023-07/products/${this.currentVariant.featured_image.product_id}.json`)
         .then(response => response.json())
         .then(data => {
             
