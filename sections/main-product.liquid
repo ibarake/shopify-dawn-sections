@@ -356,7 +356,50 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
-                  {{ product.description }}
+                   <con-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>Details and Overview</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details>
+                        {%- assign current_variant = product.selected_or_first_available_variant -%}
+                        <span>Item: {{ current_variant.sku }}</span>
+                        <p style="font-weight:bold; margin:0; ">Descripción</p>
+                        {{ product.description }}
+                      </answer-details>
+                    </container-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>Dimensiones</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details>
+                        <ul>
+                          <li>Alto: {{ product.metafields.custom.alto }}mm</li>
+                          <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
+                          <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
+                        </ul>
+                      </answer-details>
+                    </container-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>Product Reviews</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details class="product-review">
+                        <p>Se el primero en calificar este producto!</p>
+                      </answer-details>
+                    </container-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>My Closet Store</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details>
+                      </answer-details>
+                    </container-details>
+                  </con-details>
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
