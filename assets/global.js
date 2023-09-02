@@ -811,10 +811,10 @@ class VariantSelects extends HTMLElement {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
     console.log(this)
-    console.log(this.parentNode.parentNode.previousElementSibling.querySelectorAll('product__media-toggle')[0])
+    console.log(this.parentNode.parentNode.previousElementSibling.querySelectorAll('product__media-toggle')[0].dataset.mediaId)
 
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
-    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.parentNode.parentNode.previousElementSibling.querySelectorAll('product__media-toggle')[0].dataset}`, true));
+    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.parentNode.parentNode.previousElementSibling.querySelectorAll('product__media-toggle')[0].dataset.mediaId}`, true));
 
     const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
     if (!modalContent) return;
