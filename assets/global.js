@@ -808,18 +808,27 @@ class VariantSelects extends HTMLElement {
   }
 
   updateMedia() {
-    console.log(this)
-    console.log(this.currentVariant)
     if (!this.currentVariant) return;
-    if (!this.currentVariant.featured_media) return;
 
-    const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
-    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.currentVariant.featured_media.id}`, true));
+    // Fetch the product details using the variant's product_id
+    fetch(`/products/${this.currentVariant.product_id}.json`)
+        .then(response => response.json())
+        .then(data => {
+            const mainProductImage = data.product.featured_image;
+            if (!mainProductImage) return;
 
-    const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
-    if (!modalContent) return;
-    const newMediaModal = modalContent.querySelector( `[data-media-id="${this.currentVariant.featured_media.id}"]`);
-    modalContent.prepend(newMediaModal);
+            const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
+            mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${mainProductImage.id}`, true));
+
+            const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
+            if (!modalContent) return;
+            const newMediaModal = modalContent.querySelector(`[data-media-id="${mainProductImage.id}"]`);
+            modalContent.prepend(newMediaModal);
+        })
+        .catch(error => {
+            console.error("Error fetching product details:", error);
+        });
+
   }
 
   updateURL() {
