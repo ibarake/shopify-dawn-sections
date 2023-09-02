@@ -1048,6 +1048,7 @@
         -%}
 
         {%- for media in product.media -%}
+          {% if media.alt == product.selected_or_first_available_variant.featured_media.alt %}
           {%- liquid
             if section.settings.hide_variants and variant_images contains media.src
               assign variant_image = true
@@ -1059,6 +1060,7 @@
               render 'product-media', media: media, loop: section.settings.enable_video_looping, variant_image: variant_image
             endunless
           -%}
+          {% endif %}
         {%- endfor -%}
       </div>
     </div>
