@@ -825,6 +825,7 @@ class VariantSelects extends HTMLElement {
     // If no matching element is found, exit
     if (matchingIndex === -1) return;
 
+    const matchingIndex = matchingIndex + 1
     const matchingMediaId = mediaToggles[matchingIndex].dataset.mediaId;
 
     console.log(matchingMediaId)
