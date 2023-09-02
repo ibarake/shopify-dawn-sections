@@ -253,6 +253,39 @@ fieldset.product-form__input .form__label {
     0 0 0 0.5rem rgba(var(--color-foreground), 0.55);
 }
 
+con-details {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  cursor: pointer;
+}
+
+container-details {
+  width: 82%;
+  border-bottom: 1px solid gray;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+title-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+answer-details {
+  display: block;
+  height: 0px;
+  transition: all 200ms ease;
+  overflow: hidden;
+}
+
+.product-review {
+  display: flex;
+  justify-content: center;
+}
+
 /* Fallback */
 .product-form__input input[type='radio'].focused + label,
 .no-js .shopify-payment-button__button [role="button"]:focus + label {
