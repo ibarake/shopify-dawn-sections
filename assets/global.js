@@ -821,7 +821,9 @@ class VariantSelects extends HTMLElement {
         if (mediaImages.alt === featuredAlt) {
           console.log(mt.dataset.mediaPosition)
           const matchingMediaIndex = mt.dataset.mediaPosition;
+          return true;
         }
+      return false
     })
 
     console.log(matchingMediaIndex)
