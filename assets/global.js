@@ -815,13 +815,15 @@ class VariantSelects extends HTMLElement {
     const mediaToggles = this.parentNode.parentNode.previousElementSibling.querySelectorAll('.thumbnail-list__item');
 
     // Find the index of the element with a matching alt attribute
-    const mediaImages = mediaToggles.querySelectorAll('img');
-    const featuredAlt = this.currentVariant.featured_media.alt;
-    mediaImages.forEach((e) => {
-      if (e.alt === featuredAlt) {
-        console.log(e.parentNode.parentNode.dataset)
-        // const matchingMediaId = .dataset.mediaId;
-      }
+    mediaToggles.forEach((mt) => {      
+      const mediaImages = mt.querySelectorAll('img');
+      const featuredAlt = this.currentVariant.featured_media.alt;
+      mediaImages.forEach((e) => {
+        if (e.alt === featuredAlt) {
+          console.log(mt.dataset)
+          // const matchingMediaId = .dataset.mediaId;
+        }
+      })
     })
 
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
