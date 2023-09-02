@@ -809,9 +809,9 @@ class VariantSelects extends HTMLElement {
 
   updateMedia() {
     if (!this.currentVariant) return;
-
+    console.log(this.currentVariant.featured_image.product_id)
     // Fetch the product details using the variant's product_id
-    fetch(`/products/${this.currentVariant.product_id}.json`)
+    fetch(`/products/${this.currentVariant.featured_image.product_id}.json`)
         .then(response => response.json())
         .then(data => {
             
