@@ -810,32 +810,11 @@ class VariantSelects extends HTMLElement {
   updateMedia() {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
-    
-    // Get all the media toggle elements
-    const mediaToggles = this.parentNode.parentNode.previousElementSibling.querySelectorAll('.thumbnail-list__item');
-
-    // Find the index of the element with a matching alt attribute
-    mediaToggles.forEach((mt) => {      
-      const mediaImages = mt.querySelector('img');
-      const featuredAlt = this.currentVariant.featured_media.alt;
-        if (mediaImages.alt === featuredAlt) {
-          console.log(mt.dataset.mediaPosition)
-          const matchingMediaIndex = mt.dataset.mediaPosition - 1;
-          return true;
-        }
-      return false
-    })
-
-    console.log(matchingMediaIndex)
-
-    const matchingMediaId = mediaToggles[matchingMediaIndex].dataset.mediaId;
-    
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
-    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${matchingMediaId}`, true));
-
+    mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.currentVariant.featured_media.id}`, true));
     const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
     if (!modalContent) return;
-    const newMediaModal = modalContent.querySelector( `[data-media-id="${matchingMediaId}"]`);
+    const newMediaModal = modalContent.querySelector( `[data-media-id="${this.currentVariant.featured_media.id}"]`);
     modalContent.prepend(newMediaModal);
   }
 
