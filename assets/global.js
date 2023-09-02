@@ -811,7 +811,7 @@ class VariantSelects extends HTMLElement {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
     console.log(this)
-    console.log(this.parentNode.parentNode.previousSibling.querySelectorAll('product__media-toggle')[0])
+    console.log(this.parentNode.parentNode.previousElementSibling.querySelectorAll('product__media-toggle')[0])
 
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
     mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.parentNode.parentNode.previousSibling.querySelectorAll('product__media-toggle')[0].dataset}`, true));
