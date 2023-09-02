@@ -815,11 +815,11 @@ class VariantSelects extends HTMLElement {
     const mediaToggles = this.parentNode.parentNode.previousElementSibling.querySelectorAll('.thumbnail-list__item');
 
     // Find the index of the element with a matching alt attribute
-    mediaToggles.forEach((mt) => {      
+    const matchingMediaIndex = mediaToggles.forEach((mt) => {      
       const mediaImages = mt.querySelector('img');
       const featuredAlt = this.currentVariant.featured_media.alt;
         if (mediaImages.alt === featuredAlt) {
-          const matchingMediaIndex = mt.dataset.mediaPosition;
+          return mt.dataset.mediaPosition;
         }
     })
 
