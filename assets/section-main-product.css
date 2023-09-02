@@ -175,7 +175,7 @@
 }
 
 .product-form__input input[type=radio]:checked + label{
-  border: 1px rgb(247, 141, 45) solid;
+  border: 5px rgb(247, 141, 45) solid;
 }
 
 variant-radios,
