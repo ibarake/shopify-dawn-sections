@@ -781,7 +781,7 @@ class VariantSelects extends HTMLElement {
   if (this.currentVariant != undefined) {
     var selectedAlt =  this.currentVariant.featured_media.alt;
   } else {
-    var selectedAlt =  document.querySelector('.product-form__input input[type='radio'] img').alt
+    var selectedAlt =  document.querySelector('.product-form__input input[type='radio']:checked img').alt
   }
     // Hide all thumbnail-list__item elements
     $('.thumbnail-list__item').hide();
