@@ -169,6 +169,10 @@
   border: none;
 }
 
+.product-form__input label{
+  height: 30px;
+}
+
 variant-radios,
 variant-selects {
   display: block;
