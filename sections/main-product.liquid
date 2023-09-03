@@ -1212,15 +1212,18 @@
     
   </script>
 
-<script>  
-/* FAQ DROPDOWN ANIMATION */
+<script>
+  
+  /* FAQ DROPDOWN ANIMATION */
 document.addEventListener('DOMContentLoaded', function() {
   var faqTitles = document.querySelectorAll('.title-details');
   var openAnswer = null; // Keeps track of the currently open answer
   var openTitle = null; // Keeps track of the currently open FAQ title
+
   faqTitles.forEach(function(title) {
     title.addEventListener('click', function() {
       var answer = this.nextElementSibling;
+
       if (openAnswer === answer) {
         // Clicking on the same FAQ title again, close the answer and rotate the SVG back
         toggleSlide(answer);
@@ -1234,6 +1237,7 @@ document.addEventListener('DOMContentLoaded', function() {
           toggleSlide(openAnswer);
           rotateSvg(openTitle, '0deg');
         }
+
         // Open the clicked answer and rotate its SVG
         toggleSlide(answer);
         rotateSvg(this, '90deg');
@@ -1243,8 +1247,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
 function toggleSlide(element) {
   var isHidden = getComputedStyle(element).height === '0px';
+
   if (isHidden) {
     element.style.height = 'auto';
     element.style.marginTop = '15px';
@@ -1255,27 +1261,20 @@ function toggleSlide(element) {
     element.style.marginBottom = '0px';
   }
 }
+
 function rotateSvg(title, rotation) {
   var svgElement = title.querySelector('svg');
   svgElement.style.transform = `rotate(${rotation})`;
 }
-    $(document).ready(function() {
-      var selectedAlt = document.querySelector('.product-form__input input[type='radio']:checked img').alt;
 
-    // Hide all thumbnail-list__item elements
-    $('.thumbnail-list__item').hide();
-  
-    // Iterate over each thumbnail-list__item
-    $('.thumbnail-list__item').each(function() {
-        // Check the alt attribute of the child image
-        var imgAlt = $(this).find('img').attr('alt');
-        
-        // If the alt attribute matches the selected variant's alt, show the thumbnail-list__item
-        if (imgAlt === selectedAlt) {
-            $(this).show();
-        }
-    });
-    });
+    $(document).ready(function() {
+    // Assuming the 'variant-selects' element is unique on the page
+    const variantElement = document.querySelector('variant-selects');
+    if (variantElement) {
+        variantElement.handleVariantChange();
+    }
+});
+
 </script>
 
 </section>
