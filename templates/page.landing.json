@@ -1,5 +1,26 @@
 {
   "sections": {
+    "2f19f4c3-1339-4315-9181-698d88848af6": {
+      "type": "custom-hero-banner",
+      "settings": {
+        "subheading": "HOla",
+        "heading": "HOla",
+        "spacing": 300,
+        "image": "shopify:\/\/shop_images\/happy-woman-in-upside-down-playroom.jpg",
+        "bg-color": "#ffffff",
+        "color": "#ffffff",
+        "img-position": "center center",
+        "button-text": "",
+        "button_link": "",
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#ffffff",
+        "btn-bg-color-hover": "#ffffff",
+        "btn-txt-color": "#ffffff",
+        "img-height": 540,
+        "responsive-container-height": 300,
+        "responsive-img-height": 300
+      }
+    },
     "bfd6853b-b818-412f-bc48-b4fc23ee4845": {
       "type": "image-banner",
       "blocks": {
@@ -182,36 +203,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "2f19f4c3-1339-4315-9181-698d88848af6": {
-      "type": "custom-hero-banner",
-      "settings": {
-        "subheading": "HOla",
-        "heading": "HOla",
-        "spacing": 300,
-        "image": "shopify:\/\/shop_images\/happy-woman-in-upside-down-playroom.jpg",
-        "bg-color": "#FFFFFF",
-        "color": "#FFFFFF",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#FFFFFF",
-        "btn-bg-color-hover": "#FFFFFF",
-        "btn-txt-color": "#FFFFFF",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
-      }
     }
   },
   "order": [
+    "2f19f4c3-1339-4315-9181-698d88848af6",
     "bfd6853b-b818-412f-bc48-b4fc23ee4845",
     "9088c883-64b4-441d-bf95-e0edc855a401",
     "main",
     "16937862778a4ba2f2",
     "44562472-d59b-4959-9b38-667344031fdc",
-    "8a3bbf3e-9270-47a2-abd6-9a85ffa6d15c",
-    "2f19f4c3-1339-4315-9181-698d88848af6"
+    "8a3bbf3e-9270-47a2-abd6-9a85ffa6d15c"
   ]
 }
