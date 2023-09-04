@@ -102,6 +102,7 @@
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-text-1",
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -195,7 +196,6 @@
         "template--20793173180723__8a3bbf3e-9270-47a2-abd6-9a85ffa6d15c-text-1",
         "template--20793173180723__8a3bbf3e-9270-47a2-abd6-9a85ffa6d15c-button-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
