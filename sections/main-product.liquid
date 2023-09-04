@@ -380,7 +380,9 @@
                           <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
                           {% if product.metafields.custom.opciones_adicional %}
-                            <li>{{ product.metafields.custom.opciones_adicional }}</li>
+                            {% for option in product.metafields.custom.opciones_adicional %}
+                              <li>{{ option.measure_1.name }} - {{ option.measure_1.value }}</li>
+                            {% endfor %}
                           {% endif %}
                         </ul>
                       </answer-details>
