@@ -34,6 +34,7 @@
         "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-text-1",
         "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -84,6 +85,7 @@
     },
     "44562472-d59b-4959-9b38-667344031fdc": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
