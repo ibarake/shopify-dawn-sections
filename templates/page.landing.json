@@ -147,18 +147,19 @@
         "template--20793173180723__8a3bbf3e-9270-47a2-abd6-9a85ffa6d15c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Condiciones Concurso <\/p><p>#Dale LaVueltaATuHogar<\/p>",
+            "heading": "<p>Condiciones Concurso - Feria del Hogar 2023<\/p>",
             "heading_size": "h1"
           }
         },
         "template--20793173180723__8a3bbf3e-9270-47a2-abd6-9a85ffa6d15c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p><strong>Términos y Condiciones del Concurso #DaleLaVueltaATuHogar<\/strong><\/p><p><strong>1. Participación en el Concurso<\/strong><\/p><ul><li>El concurso #DaleLaVueltaATuHogar es organizado por Ashley Colombia y se llevará a cabo durante el período de la Feria del Hogar 2023, que se celebra del 7 al 24 de septiembre de 2023.<\/li><li>Para participar, los concursantes deben visitar el stand de Ashley Colombia en el Gran Salón pabellón 2703 de la Feria del Hogar 2023 y tomar una fotografía en \"La Casa al Revés\".<\/li><\/ul><p><strong>2. Registro y Formulario<\/strong><\/p><ul><li>Los participantes deben diligenciar el formulario disponible en <a href=\"https:\/\/ashleycolombia.com\/pages\/feria-del-hogar\">https:\/\/ashleycolombia.com\/pages\/feria-del-hogar<\/a>, proporcionando la información requerida, incluyendo su cuenta de Instagram para verificar el número de seguidores.<\/li><\/ul><p><strong>3. Seguir a Ashley Colombia en Instagram<\/strong><\/p><ul><li>Los participantes deben seguir la cuenta oficial de Instagram de Ashley Colombia: <a href=\"https:\/\/www.instagram.com\/ashleycolombia.oficial\/\">https:\/\/www.instagram.com\/ashleycolombia.oficial\/<\/a> (AshleyColombia.Oficial).<\/li><\/ul><p><strong>4. Publicación en Instagram<\/strong><\/p><ul><li>Los participantes deben publicar la foto tomada en el stand de Ashley Colombia en su propia cuenta de Instagram, utilizando el hashtag #DaleLaVueltaATuHogar.<\/li><\/ul><p><strong>5. Etiqueta a un Amigo<\/strong><\/p><ul><li>En la publicación de Instagram, los participantes deben etiquetar a un amigo que también debe seguir la cuenta de Ashley Colombia en Instagram.<\/li><\/ul><p><strong>6. Selección de Ganadores<\/strong><\/p><ul><li>Las fotos con el mayor número de \"likes\" en sus publicaciones serán las ganadoras.<\/li><li>El primer lugar recibirá un bono de compra en Ashley Colombia por valor de 2.5 millones de pesos colombianos.<\/li><li>El segundo lugar recibirá un bono de compra en Ashley Colombia por valor de 1.5 millones de pesos colombianos.<\/li><li>El tercer lugar recibirá un bono de compra en Ashley Colombia por valor de 500,000 pesos colombianos.<\/li><\/ul><p><strong>7. Anuncio de Ganadores<\/strong><\/p><ul><li>Los \"likes\" serán contabilizados hasta el 8 de octubre de 2023.<\/li><li>Los ganadores serán anunciados a través de mensajes directos en Instagram.<\/li><\/ul><p><strong>8. Condiciones Adicionales<\/strong><\/p><ul><li>Los participantes deben cumplir con todos los requisitos mencionados anteriormente para ser elegibles como ganadores.<\/li><li>La decisión de Ashley Colombia en cuanto a los ganadores es final y no está sujeta a apelación.<\/li><li>Los bonos de compra son canjeables en Ashley Colombia y no pueden ser transferidos ni canjeados por efectivo.<\/li><li>Ashley Colombia se reserva el derecho de descalificar a cualquier participante que incumpla estas reglas o que se considere que está llevando a cabo actividades fraudulentas.<\/li><\/ul><p>Al participar en el concurso #DaleLaVueltaATuHogar, los participantes aceptan cumplir con estos términos y condiciones en su totalidad.<\/p>"
           }
         },
         "template--20793173180723__8a3bbf3e-9270-47a2-abd6-9a85ffa6d15c-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
