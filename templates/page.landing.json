@@ -1,26 +1,5 @@
 {
   "sections": {
-    "2f19f4c3-1339-4315-9181-698d88848af6": {
-      "type": "custom-hero-banner",
-      "settings": {
-        "subheading": "HOla",
-        "heading": "HOla",
-        "spacing": 300,
-        "image": "shopify:\/\/shop_images\/happy-woman-in-upside-down-playroom.jpg",
-        "bg-color": "#ffffff",
-        "color": "#ffffff",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#ffffff",
-        "btn-bg-color-hover": "#ffffff",
-        "btn-txt-color": "#ffffff",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
-      }
-    },
     "bfd6853b-b818-412f-bc48-b4fc23ee4845": {
       "type": "image-banner",
       "blocks": {
@@ -56,8 +35,9 @@
         "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-buttons-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/practicing-yoga-on-their-living-room-table.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -207,7 +187,6 @@
     }
   },
   "order": [
-    "2f19f4c3-1339-4315-9181-698d88848af6",
     "bfd6853b-b818-412f-bc48-b4fc23ee4845",
     "9088c883-64b4-441d-bf95-e0edc855a401",
     "main",
