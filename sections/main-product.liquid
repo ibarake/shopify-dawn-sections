@@ -381,7 +381,7 @@
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
                             {% for info in product.metafields.custom.opciones_adicionales.value %}
                               {% for n in info[0] %}
-                                {{ n }}
+                                {{ n.name }}
                               {% endfor %}
                             {% endfor %}
                         </ul>
