@@ -49,7 +49,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 12,
         "padding_bottom": 12
