@@ -379,10 +379,8 @@
                           <li>Alto: {{ product.metafields.custom.alto }}mm</li>
                           <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
-                          {% if product.metafields.custom.opciones_adicionales != blank %}
-                            {% for option in product.metafields.custom.opciones_adicionales %}
-                              <li>option</li>
-                            {% endfor %}
+                          {% if product.metafields.custom.opciones_adicional %}
+                            <li>{{ product.metafields.custom.opciones_adicional }}</li>
                           {% endif %}
                         </ul>
                       </answer-details>
