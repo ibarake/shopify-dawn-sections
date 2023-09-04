@@ -54,14 +54,14 @@
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>#DaleLaVueltaATuHogar<\/p>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>¡Descubre la Feria del Hogar 2023 con Ashley Furniture! Llegamos a Colombia para transformar tu hogar en un reflejo de tu estilo con calidad y precio excepcionales. Con más de 1100 tiendas en el mundo y la primera de 10 en Colombia en 5 años, somos aliado para transformar tu espacio en hogar.<\/p><p>En la feria, explorarás una exhibición de múltiples estilos, rango de precios y los atributos que nos permitió en convertirnos en el fabricante mas grande del mundo. <\/p><p>Experimenta \"La Casa al Revés\" y participa en el concurso de Instagram donde podrás ganar un bono de 2.5 millones de pesos. **<\/p><p>Únete a Ashley Furniture en la Feria del Hogar 2023 y dale la vuelta a tu hogarTe esperamos!<\/p>"
+            "text": "<p>¡Descubre la Feria del Hogar 2023 con Ashley Furniture! Llegamos a Colombia para transformar tu hogar en un reflejo de tu estilo con calidad y precio excepcionales. Con más de 1100 tiendas en el mundo y la primera de 10 en Colombia en 5 años, somos aliado para transformar tu espacio en hogar.<\/p><p>En la feria, explorarás una exhibición de múltiples estilos, rango de precios y los atributos que nos permitió en convertirnos en el fabricante mas grande del mundo. <\/p><p>Experimenta \"La Casa al Revés\" y participa en el concurso de Instagram donde podrás ganar un bono de 2.5 millones de pesos. **<\/p><p>Únete a Ashley Furniture en la Feria del Hogar 2023 y dale la vuelta a tu hogar Te esperamos!. <\/p>"
           }
         },
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-button-1": {
@@ -82,7 +82,6 @@
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-text-1",
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-button-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
