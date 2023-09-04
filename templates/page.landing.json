@@ -1,16 +1,50 @@
 {
   "sections": {
-    "44562472-d59b-4959-9b38-667344031fdc": {
-      "type": "video",
+    "bfd6853b-b818-412f-bc48-b4fc23ee4845": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-heading-1",
+        "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-text-1",
+        "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-buttons-1"
+      ],
       "settings": {
-        "heading": "Video",
-        "heading_size": "h2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=Zd-b_v6R-Ro&list=PLP-XaxmAm2bKSJ4oAwVkLC3JWuz4FyCHz",
-        "description": "DaleLaVueltaATuHogar",
-        "full_width": true,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "main": {
@@ -48,11 +82,26 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "44562472-d59b-4959-9b38-667344031fdc": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Screenshot_2023-09-03_at_8.09.28_PM.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Zd-b_v6R-Ro&list=PLP-XaxmAm2bKSJ4oAwVkLC3JWuz4FyCHz",
+        "description": "DaleLaVueltaATuHogar",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "44562472-d59b-4959-9b38-667344031fdc",
+    "bfd6853b-b818-412f-bc48-b4fc23ee4845",
     "main",
-    "16937862778a4ba2f2"
+    "16937862778a4ba2f2",
+    "44562472-d59b-4959-9b38-667344031fdc"
   ]
 }
