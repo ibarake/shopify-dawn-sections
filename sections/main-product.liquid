@@ -381,7 +381,7 @@
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
                             {% for info in product.metafields.custom.opciones_adicionales.value %}
                               <script>
-                                console.log({{ info }})
+                                console.log{{ info }}
                               </script>
                             {% endfor %}
                         </ul>
