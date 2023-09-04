@@ -379,9 +379,16 @@
                           <li>Alto: {{ product.metafields.custom.alto }}mm</li>
                           <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
-                            {% for info in product.metafields.custom.opciones_adicionales.value %}
-                              {{ info.measure_1 }}
-                            {% endfor %}
+                          {% for measure in shopify_metafields %}
+                            {% if measure.key == 'measure_1' %}
+                              <h2>Top right opening</h2>
+                              <li>
+                                Height: {{ measure.value.measure_hvalue }}
+                                Depth: {{ measure.value.measure_dvalue }}
+                                Width: {{ measure.value.measure_wvalue }}
+                              </li>
+                            {% endif %}
+                          {% endfor %}
                         </ul>
                       </answer-details>
                     </container-details>
