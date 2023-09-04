@@ -381,7 +381,7 @@
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
                           {% assign info = product.metafields.custom.opciones_adicionales %}
                           <script>
-                            var json = JSON.parse({{ info.toString }});
+                            var json = JSON.parse({{ info }});
                             console.log(json);
                           </script>
                         </ul>
