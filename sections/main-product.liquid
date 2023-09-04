@@ -381,7 +381,7 @@
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
                           {% assign info = product.metafields.custom.opciones_adicionales.value %}
                           {% for key in info %}
-                            <li{{ key[1].measure_name }}</li>
+                            <li>{{ key[1].measure_name }}</li>
                           {% endfor %}
                         </ul>
                       </answer-details>
