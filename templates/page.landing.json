@@ -35,9 +35,9 @@
         "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/practicing-yoga-on-their-living-room-table.jpg",
+        "image": "shopify:\/\/shop_images\/banner-FDH.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
