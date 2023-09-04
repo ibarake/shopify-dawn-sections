@@ -382,7 +382,7 @@
                           {% for info in product.metafields.custom.opciones_adicionales.value %}
                             <script>
                               var json = JSON.parse({{ info }});
-                              {{ json}}
+                              {{ info }}
                             </script>
                           {% endfor %}
                         </ul>
