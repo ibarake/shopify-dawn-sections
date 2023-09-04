@@ -379,7 +379,7 @@
                           <li>Alto: {{ product.metafields.custom.alto }}mm</li>
                           <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
                           <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
-                          {% assign info = product.metafields.custom.opciones_adicionales.value %}
+                          {% assign info = product.metafields.custom.opciones_adicionales %}
                           {{ info }}
                             <script>
                               var json = JSON.parse({{ info }});
