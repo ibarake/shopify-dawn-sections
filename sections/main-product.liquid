@@ -377,7 +377,7 @@
                       <answer-details>
                         <ul class="ul-container">
                           <div class="container-left">
-                            <p style="font-weight:bold;">Dimensiones</p>
+                            <legend style="font-weight:bold;">Dimensiones</legend>
                             <li>Alto: {{ product.metafields.custom.alto }}mm</li>
                             <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
                             <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
@@ -385,7 +385,7 @@
                           <div class="container-right">
                             {% if product.metafields.custom.opciones_adicionales.value != blank %}
                               {% assign info = product.metafields.custom.opciones_adicionales.value %}
-                              <p style="font-weight:bold;">Dimensiones adicionales</p>
+                              <legend style="font-weight:bold;">Dimensiones adicionales</legend>
                               {% for key in info %}
                                 <li>{{ key[1].measure_name }}: Alto: {{ key[1].measure_hvalue }} Profundidad:{{ key[1].measure_dvalue }} Ancho:{{ key[1].measure_wvalue }}</li>
                               {% endfor %}
