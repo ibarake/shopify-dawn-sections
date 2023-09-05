@@ -383,11 +383,13 @@
                             <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
                           </div>
                           <div class="container-right">
-                            {% assign info = product.metafields.custom.opciones_adicionales.value %}
-                            <p style="font-weight:bold;">Dimensiones adicionales</p>
-                            {% for key in info %}
-                              <li>{{ key[1].measure_name }}: Alto: {{ key[1].measure_hvalue }} Profundidad:{{ key[1].measure_dvalue }} Ancho:{{ key[1].measure_wvalue }}</li>
-                            {% endfor %}
+                            {% if product.metafields.custom.opciones_adicionales.value %}
+                              {% assign info = product.metafields.custom.opciones_adicionales.value %}
+                              <p style="font-weight:bold;">Dimensiones adicionales</p>
+                              {% for key in info %}
+                                <li>{{ key[1].measure_name }}: Alto: {{ key[1].measure_hvalue }} Profundidad:{{ key[1].measure_dvalue }} Ancho:{{ key[1].measure_wvalue }}</li>
+                              {% endfor %}
+                            {% endif %}
                           </div>
                         </ul>
                       </answer-details>
