@@ -376,14 +376,18 @@
                       </title-details>
                       <answer-details>
                         <ul>
-                          <li>Alto: {{ product.metafields.custom.alto }}mm</li>
-                          <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
-                          <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
-                          {% assign info = product.metafields.custom.opciones_adicionales.value %}
-                          <p>Dimensiones adicionales</p>
-                          {% for key in info %}
-                            <li>{{ key[1].measure_name }}: Alto: {{ key[1].measure_hvalue }} Profundidad:{{ key[1].measure_dvalue }} Ancho:{{ key[1].measure_wvalue }}</li>
-                          {% endfor %}
+                          <div class="left">
+                            <li>Alto: {{ product.metafields.custom.alto }}mm</li>
+                            <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
+                            <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
+                          </div>
+                          <div class="right">
+                            {% assign info = product.metafields.custom.opciones_adicionales.value %}
+                            <p>Dimensiones adicionales</p>
+                            {% for key in info %}
+                              <li>{{ key[1].measure_name }}: Alto: {{ key[1].measure_hvalue }} Profundidad:{{ key[1].measure_dvalue }} Ancho:{{ key[1].measure_wvalue }}</li>
+                            {% endfor %}
+                          </div>
                         </ul>
                       </answer-details>
                     </container-details>
@@ -394,9 +398,9 @@
                       </title-details>
                       <answer-details class="product-review">
                         <div style='clear:both'></div>
-    <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'>
-        {{ product.metafields.judgeme.widget }}
-    </div>
+                        <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'>
+                            {{ product.metafields.judgeme.widget }}
+                        </div>
                       </answer-details>
                     </container-details>
                     <container-details>
