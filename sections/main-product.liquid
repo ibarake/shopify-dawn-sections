@@ -393,9 +393,24 @@
                         {% render 'icon-arrow-right-dropdown' %}
                       </title-details>
                       <answer-details class="product-review">
-                        <p>Se el primero en calificar este producto!</p>
-                        <div id="judgeme_widget_placeholder">
-                          <div>  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: false, product: product %}  {% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: false, product: product %}  {% render 'judgeme_widgets', widget_type: 'judgeme_featured_carousel', concierge_install: false %}</div>
+                        <div id='judgeme_all_reviews_page' class="page clearfix jdgm-all-reviews-page">
+                          <div class="jdgm-all-reviews-page__wrapper">
+                            <h1 class="jdgm-all-reviews-page__title">{{ page.title }}</h1>
+                            <div class='jdgm-all-reviews-page__description'>{{ page.content }}</div>
+                            <article class='jdgm-widget jdgm-all-reviews-widget'>
+                              <style class='jdgm-temp-hiding-style'>.jdgm-all-reviews-widget{ display: none }</style>
+                              {{ shop.metafields.judgeme.all_reviews_header }}
+                              <div class='jdgm-all-reviews__body'>
+                              {% assign prefix = 'all_reviews_' %}
+                              {% for count in (0..65535) %}
+                                {% assign metafield_key = prefix | append: count %}
+                                {% assign current_metafield = shop.metafields.judgeme[metafield_key] %}
+                                {% unless current_metafield %} {% break %} {% endunless %}
+                                {{ current_metafield }}
+                              {% endfor %}
+                              </div>
+                            </article>
+                          </div>
                         </div>
                       </answer-details>
                     </container-details>
