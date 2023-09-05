@@ -47,11 +47,6 @@
           "settings": {
           }
         },
-        "78bd55d4-9175-47d4-9307-c14676d794a7": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -73,7 +68,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "78bd55d4-9175-47d4-9307-c14676d794a7",
         "share",
         "c589598a-c51a-4679-92d2-0fe79ced895b"
       ],
