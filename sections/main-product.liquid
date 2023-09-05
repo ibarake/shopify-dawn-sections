@@ -383,7 +383,7 @@
                             <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
                           </div>
                           <div class="container-right">
-                            {% if product.metafields.custom.opciones_adicionales.value %}
+                            {% if product.metafields.custom.opciones_adicionales.value != blank %}
                               {% assign info = product.metafields.custom.opciones_adicionales.value %}
                               <p style="font-weight:bold;">Dimensiones adicionales</p>
                               {% for key in info %}
