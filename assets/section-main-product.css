@@ -298,6 +298,7 @@ answer-details {
 .ul-container {
   display: flex;
   align-items: baseline;
+  margin: 0;
 }
 
 /* Fallback */
