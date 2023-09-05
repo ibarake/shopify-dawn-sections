@@ -295,6 +295,11 @@ answer-details {
   justify-content: center;
 }
 
+.ul-container {
+  display: flex;
+  align-items: baseline;
+}
+
 /* Fallback */
 .product-form__input input[type='radio'].focused + label,
 .no-js .shopify-payment-button__button [role="button"]:focus + label {
