@@ -10,7 +10,7 @@
         "bg-color": "#f4f4f4",
         "color": "#000000",
         "img-position": "center center",
-        "button-text": "Noticia",
+        "button-text": "",
         "button_link": "shopify:\/\/blogs\/news",
         "btn-linebreak": "normal",
         "btn-bg-color-normal": "#363534",
