@@ -19,6 +19,7 @@
         },
         "template--20793173180723__bfd6853b-b818-412f-bc48-b4fc23ee4845-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
@@ -48,6 +49,50 @@
         "show_text_below": true
       }
     },
+    "b8e96144-4f1d-4283-8394-fa2d21c9573d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20793173180723__b8e96144-4f1d-4283-8394-fa2d21c9573d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Grán Salón | Pabellón 18 | No.2703 <\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--20793173180723__b8e96144-4f1d-4283-8394-fa2d21c9573d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Feria del Hogar  2023 | Corferias<\/p>"
+          }
+        },
+        "template--20793173180723__b8e96144-4f1d-4283-8394-fa2d21c9573d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20793173180723__b8e96144-4f1d-4283-8394-fa2d21c9573d-heading-1",
+        "template--20793173180723__b8e96144-4f1d-4283-8394-fa2d21c9573d-text-1",
+        "template--20793173180723__b8e96144-4f1d-4283-8394-fa2d21c9573d-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "16937862778a4ba2f2": {
       "type": "apps",
       "blocks": {
@@ -62,8 +107,8 @@
             "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
-            "padding_top": 37,
-            "padding_bottom": 37,
+            "padding_top": 23,
+            "padding_bottom": 24,
             "padding_right": 0,
             "padding_left": 0
           }
@@ -89,7 +134,7 @@
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>¡Descubre la Feria del Hogar 2023 con Ashley Furniture! Llegamos a Colombia para transformar tu hogar en un reflejo de tu estilo con calidad y precio excepcionales. Con más de 1100 tiendas en el mundo y la primera de 10 en Colombia en 5 años, somos aliado para transformar tu espacio en hogar.<\/p><p>En la feria, explorarás una exhibición de múltiples estilos, rango de precios y los atributos que nos permitió en convertirnos en el fabricante mas grande del mundo. <\/p><p>Experimenta \"La Casa al Revés\" y participa en el concurso de Instagram donde podrás ganar un bono de 2.5 millones de pesos. **<\/p><p>Únete a Ashley Furniture en la Feria del Hogar 2023 y dale la vuelta a tu hogar Te esperamos!. <\/p>"
+            "text": "<h3>¡Descubre la Feria del Hogar 2023 con Ashley Furniture! Llegamos a Colombia para transformar tu hogar en un reflejo de tu estilo con calidad y precio excepcionales. Con más de 1100 tiendas en el mundo y la primera de 10 en Colombia en 5 años, somos aliado para transformar tu espacio en hogar.<\/h3><h3>En la feria, explorarás una exhibición de múltiples estilos, rango de precios y los atributos que nos permitió en convertirnos en el fabricante mas grande del mundo. <\/h3><h3>Experimenta \"La Casa al Revés\" y participa en el concurso de Instagram donde podrás ganar un bono de 2.5 millones de pesos. **<\/h3><h3>Únete a Ashley Furniture en la Feria del Hogar 2023 y dale la vuelta a tu hogar Te esperamos!. <\/h3>"
           }
         },
         "template--20793173180723__9088c883-64b4-441d-bf95-e0edc855a401-button-1": {
@@ -188,6 +233,7 @@
   },
   "order": [
     "bfd6853b-b818-412f-bc48-b4fc23ee4845",
+    "b8e96144-4f1d-4283-8394-fa2d21c9573d",
     "16937862778a4ba2f2",
     "9088c883-64b4-441d-bf95-e0edc855a401",
     "main",
