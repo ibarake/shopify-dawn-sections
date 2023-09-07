@@ -3,15 +3,15 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "Av 19  # 109 - 41 Bog",
-        "heading": "Visita nuestra tienda",
+        "subheading": "Feria del HOgar",
+        "heading": "Gran Salon 2703",
         "spacing": 750,
         "image": "shopify:\/\/shop_images\/D760-45-01_6_-60_6985f919-7024-47ff-bc20-578ccd311ae4.jpg",
         "bg-color": "#f4f4f4",
         "color": "#000000",
         "img-position": "center center",
         "button-text": "",
-        "button_link": "shopify:\/\/blogs\/news",
+        "button_link": "shopify:\/\/pages\/feria-del-hogar",
         "btn-linebreak": "normal",
         "btn-bg-color-normal": "#363534",
         "btn-bg-color-hover": "#525252",
