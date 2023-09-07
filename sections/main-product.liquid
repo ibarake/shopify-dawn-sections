@@ -1298,7 +1298,7 @@ function rotateSvg(title, rotation) {
   var characterCount = this.textContent.length;
 
   // Si el número de caracteres actuales es mayor que el límite, evita que el navegador ingrese más caracteres.
-  if (characterCount > 5) {
+  if (characterCount < 5) {
     event.preventDefault();
   }
 });
