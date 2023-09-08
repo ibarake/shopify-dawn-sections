@@ -237,7 +237,7 @@
           ".footer__copyright {display: none;}",
           "h2.footer-block__heading.phone.sec {display: none;}",
           ".footer-block--newsletter {margin-left: 25%;}",
-          ".footer-logo-right {margin-left: 36%;}",
+          ".footer-logo-right {margin-left: 35%;}",
           "@media (max-width: 768px) {.footer-block--newsletter {margin-left: 0; }}"
         ],
         "settings": {
