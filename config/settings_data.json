@@ -214,18 +214,18 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "6292f95f-0751-4176-b8b9-13d77f86f7a5": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p>En Ashley Furniture, nuestra misión es enriquecer vidas ofreciendo muebles asequibles y duraderos con estilo. Nos comprometemos a una experiencia de compra excepcional con un servicio al cliente superior.<\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Sobre Ashley",
               "menu": "sobre-ashley"
-            }
-          },
-          "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Ayuda  \/ Experiencia Ashley",
-              "menu": ""
             }
           },
           "bf422567-176c-4e44-8344-f61f72f2b685": {
@@ -234,20 +234,12 @@
               "heading": "Legal",
               "menu": "footer-legal"
             }
-          },
-          "6292f95f-0751-4176-b8b9-13d77f86f7a5": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
+          "6292f95f-0751-4176-b8b9-13d77f86f7a5",
           "footer-0",
-          "8ffa10b4-7e9a-4cf2-94cf-e913134095c2",
-          "bf422567-176c-4e44-8344-f61f72f2b685",
-          "6292f95f-0751-4176-b8b9-13d77f86f7a5"
+          "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
         "custom_css": [
           ".footer__copyright {display: none;}",
