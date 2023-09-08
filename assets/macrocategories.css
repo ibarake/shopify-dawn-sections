@@ -19,7 +19,7 @@
   font-size: 3rem;
   padding: 90px 2px 15%;
   font-weight: bolder;
-  width: 90%;
+  width: fit-content;
   text-align: center;
   line-height: 32px;
 }
