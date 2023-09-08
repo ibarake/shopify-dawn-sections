@@ -223,7 +223,6 @@
           },
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
               "heading": "Ayuda  \/ Experiencia Ashley",
               "menu": ""
@@ -235,12 +234,20 @@
               "heading": "Legal",
               "menu": "footer-legal"
             }
+          },
+          "6292f95f-0751-4176-b8b9-13d77f86f7a5": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "8ffa10b4-7e9a-4cf2-94cf-e913134095c2",
-          "bf422567-176c-4e44-8344-f61f72f2b685"
+          "bf422567-176c-4e44-8344-f61f72f2b685",
+          "6292f95f-0751-4176-b8b9-13d77f86f7a5"
         ],
         "custom_css": [
           ".footer__copyright {display: none;}",
@@ -304,8 +311,12 @@
           "e1059b68-64cf-4548-8944-5ca5beb8cdb8": {
             "type": "collection",
             "settings": {
+              "heading-text": "Heading text",
+              "title-alignment": "flex-start",
               "collection-title": "Alfombras",
               "collection": "alfombras",
+              "button-title": "Add text",
+              "blocks-selection": "products",
               "product_list": [
                 "alesandra",
                 "alessio-sofa",
@@ -313,21 +324,43 @@
                 "maimz-sofa",
                 "sofa-cama",
                 "sofa-altonbury"
-              ]
+              ],
+              "collection_list": [
+
+              ],
+              "poc-1": "Product 1 text",
+              "poc-2": "Product 2 text",
+              "poc-3": "Product 3 text",
+              "poc-4": "Product 4 text",
+              "poc-5": "Product 5 text",
+              "poc-6": "Product 6 text"
             }
           },
           "9e375062-7938-4f65-9556-11a1d5cab5f0": {
             "type": "collection",
             "settings": {
+              "heading-text": "Heading text",
+              "title-alignment": "flex-start",
               "collection-title": "Espejos",
               "collection": "espejos",
+              "button-title": "Add text",
+              "blocks-selection": "products",
               "product_list": [
                 "alesandra",
                 "alessio-sofa",
                 "cama-nino",
                 "maimz-sofa",
                 "sofa-cama"
-              ]
+              ],
+              "collection_list": [
+
+              ],
+              "poc-1": "Product 1 text",
+              "poc-2": "Product 2 text",
+              "poc-3": "Product 3 text",
+              "poc-4": "Product 4 text",
+              "poc-5": "Product 5 text",
+              "poc-6": "Product 6 text"
             }
           }
         },
@@ -336,6 +369,15 @@
           "9e375062-7938-4f65-9556-11a1d5cab5f0"
         ],
         "settings": {
+          "btn-txt-color": "#363534",
+          "btn-bg-color": "#F4F4F4"
+        }
+      },
+      "custom-double-banner": {
+        "type": "custom-double-banner",
+        "settings": {
+          "text-color": "#FFFFFF",
+          "btn-color": "#363534"
         }
       }
     },
