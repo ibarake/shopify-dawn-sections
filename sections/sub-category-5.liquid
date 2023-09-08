@@ -12,8 +12,6 @@
       <div class="subcategory-scroll">
         {% for collection in collections.value %}
           {% assign collectionpage = collection.url %}
-          {% assign collectionpage = collection.url %}
-
           <a href="{{ collectionpage }}">
             <div class="subcategory-5" style="background-color:{{ section.settings.Color }};">
               <img src="{{ collection.image | image_url }}" alt="collection image">
@@ -22,7 +20,7 @@
                 class="collection-title  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
                 style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
               >
-                <strong>Comprar ahora</strong>
+                <strong><a href="{{ collectionpage }}">Comprar ahora</a></strong>strong>
               </a>
             </div>
           </a>
