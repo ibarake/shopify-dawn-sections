@@ -214,13 +214,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "6292f95f-0751-4176-b8b9-13d77f86f7a5": {
-            "type": "text",
-            "settings": {
-              "heading": "Misión",
-              "subtext": "<p>En Ashley Furniture, nuestra misión es enriquecer vidas ofreciendo muebles asequibles y duraderos con estilo. Nos comprometemos a una experiencia de compra excepcional con un servicio al cliente superior.<\/p>"
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -237,7 +230,6 @@
           }
         },
         "block_order": [
-          "6292f95f-0751-4176-b8b9-13d77f86f7a5",
           "footer-0",
           "bf422567-176c-4e44-8344-f61f72f2b685"
         ],
