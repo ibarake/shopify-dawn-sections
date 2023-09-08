@@ -247,7 +247,7 @@ p.collection-title {
   text-align: center;
   font-weight: 400;
   font-size: 18px;
-  line-height: 4vh;
+  line-height: 150%;
 }
 .subcategory .imagewrap {
   width: 100%;
