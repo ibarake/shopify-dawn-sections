@@ -239,7 +239,7 @@
           ".footer-block--newsletter {margin-left: 25%;}",
           ".footer-logo-right {margin-left: 35%;}",
           "@media (max-width: 768px) {.footer-block--newsletter {margin-left: 0; }}",
-          "@media (min-width: 768px) and (max-width: 1024px) {.footer-logo-right {margin-left: 24%; }}"
+          "@media (min-width: 768px) and (max-width: 1024px) {.footer-logo-right {margin-left: 26%; }}"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/AFHS_INT_Logo_Horizontal_3.png",
