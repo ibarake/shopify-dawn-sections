@@ -378,9 +378,11 @@
                         <ul class="ul-container">
                           <div class="container-left">
                             <legend style="font-weight:bold;">Dimensiones</legend>
-                            <li>Alto: {{ product.metafields.custom.alto }}mm</li>
-                            <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
-                            <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
+                            <ul>
+                              <li>Alto: {{ product.metafields.custom.alto }}mm</li>
+                              <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
+                              <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
+                            </ul>
                           </div>
                           <div class="container-right">
                             {% if product.metafields.custom.opciones_adicionales.value != blank %}
