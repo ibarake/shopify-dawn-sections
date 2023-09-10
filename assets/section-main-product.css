@@ -302,6 +302,10 @@ answer-details {
   padding: 0;
 }
 
+.container-left {
+  width: 50%; 
+}
+
 /* Fallback */
 .product-form__input input[type='radio'].focused + label,
 .no-js .shopify-payment-button__button [role="button"]:focus + label {
