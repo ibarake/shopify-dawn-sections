@@ -387,7 +387,14 @@
                               {% assign info = product.metafields.custom.opciones_adicionales.value %}
                               <legend style="font-weight:bold;">Dimensiones adicionales</legend>
                               {% for key in info %}
-                                <li>{{ key[1].measure_name }}: Alto: {{ key[1].measure_hvalue }} Profundidad:{{ key[1].measure_dvalue }} Ancho:{{ key[1].measure_wvalue }}</li>
+                                <ul>
+                                  <li>{{ key[1].measure_name }}</li>
+                                  <ul>
+                                    <li>Alto: {{ key[1].measure_hvalue }}</li>
+                                    <li>Profundidad: {{ key[1].measure_dvalue }}</li>
+                                    <li>Ancho: {{ key[1].measure_wvalue }}</li>
+                                  </ul>
+                                </ul>
                               {% endfor %}
                             {% endif %}
                           </div>
