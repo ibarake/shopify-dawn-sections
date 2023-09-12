@@ -152,8 +152,8 @@
                   <label class="field__label" for="NewsletterForm--{{ section.id }}" style="color: {{ section.settings.textInput }};">
                     {{ 'newsletter.label' | t }}
                   </label>
-                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                    Registrase
+                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}"  style="background: {{ section.settings.backgroundButton }}; color: {{ section.settings.textButton }};">
+                    Registrarse
                   </button>
                 </div>
                 {%- if form.errors -%}
@@ -605,6 +605,16 @@
       "type": "color",
       "id": "textInput",
       "label": "Text input newlester"
+    },
+    {
+      "type": "color",
+      "id": "backgroundButton",
+      "label": "Background color button"
+    },
+    {
+      "type": "color",
+      "id": "textButton",
+      "label": "Text color button"
     },
     {
       "type": "header",
