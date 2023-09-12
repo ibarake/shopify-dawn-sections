@@ -150,7 +150,7 @@
                     required
                     style="background: {{ section.settings.backgroundInput }}; color: {{ section.settings.textInput }};"
                   >
-                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                  <label class="field__label" for="NewsletterForm--{{ section.id }}" style="color: {{ section.settings.textInput }};">
                     {{ 'newsletter.label' | t }}
                   </label>
                   <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
