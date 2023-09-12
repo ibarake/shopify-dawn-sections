@@ -148,7 +148,7 @@
                     {% endif %}
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
-                    style="background: {{ section.settings.backgroundInput }};"
+                    style="background: {{ section.settings.backgroundInput }}; color: {{ section.settings.textInput }};"
                   >
                   <label class="field__label" for="NewsletterForm--{{ section.id }}">
                     {{ 'newsletter.label' | t }}
@@ -601,6 +601,11 @@
       "type": "color",
       "id": "backgroundInput",
       "label": "Background input newlester"
+    },
+    {
+      "type": "color",
+      "id": "textInput",
+      "label": "Text input newlester"
     },
     {
       "type": "header",
