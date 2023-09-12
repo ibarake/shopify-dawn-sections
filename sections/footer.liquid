@@ -127,7 +127,7 @@
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
-                <div class="field">
+                <div class="field" style="background: {{ section.settings.backgroundButton}}">
                   <input
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
