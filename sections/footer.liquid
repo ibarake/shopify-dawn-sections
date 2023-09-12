@@ -90,10 +90,6 @@
         .logo-footer .field {
         width: 140%;
         }
-        .logo-footer .field__input{
-        background-color: white;
-        color: black;
-        }
        .logo-footer .field__label{
         color: darkgray;
         font-size: 14px;
@@ -152,6 +148,7 @@
                     {% endif %}
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
+                    style="{{ section.settings.backgroundInput }}"
                   >
                   <label class="field__label" for="NewsletterForm--{{ section.id }}">
                     {{ 'newsletter.label' | t }}
@@ -599,6 +596,11 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "color",
+      "id": "backgroundInput",
+      "label": "Background input newlester"
     },
     {
       "type": "header",
