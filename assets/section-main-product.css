@@ -169,6 +169,15 @@
   border: none;
 }
 
+.product-form__input label{
+  height: 50px;
+  width: 50px;
+}
+
+.product-form__input input[type=radio]:checked + label{
+  border: 5px rgb(247, 141, 45) solid;
+}
+
 variant-radios,
 variant-selects {
   display: block;
@@ -198,18 +207,18 @@ fieldset.product-form__input .form__label {
   border: var(--variant-pills-border-width) solid rgba(var(--color-foreground), var(--variant-pills-border-opacity));
   background-color: rgb(var(--color-background));
   color: rgba(var(--color-foreground));
-  border-radius: var(--variant-pills-radius);
+  border-radius: 50%;
   color: rgb(var(--color-foreground));
   display: inline-block;
   margin: 0.7rem 0.5rem 0.2rem 0;
-  padding: 1rem 2rem;
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
-  line-height: 1;
+  line-height: 0;
   text-align: center;
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
+  overflow: hidden;
 }
 
 .product-form__input input[type='radio'] + label:before {
@@ -251,6 +260,50 @@ fieldset.product-form__input .form__label {
 .product-form__input input[type='radio']:focus-visible + label {
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
     0 0 0 0.5rem rgba(var(--color-foreground), 0.55);
+}
+
+con-details {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  cursor: pointer;
+}
+
+container-details {
+  width: 82%;
+  border-bottom: 1px solid gray;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+title-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+answer-details {
+  display: block;
+  height: 0px;
+  transition: all 200ms ease;
+  overflow: hidden;
+}
+
+.product-review {
+  display: flex;
+  justify-content: center;
+}
+
+.ul-container {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.container-left {
+  width: 50%; 
 }
 
 /* Fallback */
@@ -546,6 +599,12 @@ a.product__text {
 
 .product__media-item--variant:first-child {
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  container-details {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {

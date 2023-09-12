@@ -96,7 +96,7 @@
               endif
             -%}
             {%- if product.selected_or_first_available_variant.featured_media != null -%}
-              {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
+              {%- assign featured_media = product.featured_media -%}
               <li
                 id="Slide-{{ section.id }}-{{ featured_media.id }}"
                 class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %} product__media-item--variant{% endif %}"
@@ -356,7 +356,77 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
-                  {{ product.description }}
+                   <con-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>Detalles & Descripción</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details>
+                        {%- assign current_variant = product.selected_or_first_available_variant -%}
+                        <span>Item: {{ current_variant.sku }}</span>
+                        <p style="font-weight:bold; margin:0; ">Descripción</p>
+                        {{ product.description }}
+                      </answer-details>
+                    </container-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>Dimensiones</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details>
+                        <ul class="ul-container">
+                          <div class="container-left">
+                            <a href="{{ product.metafields.custom.dibujo_dimensiones }}">Imagen</a>
+                            <legend style="font-weight:bold;">Dimensiones</legend>
+                            <ul>
+                              <li>Alto: {{ product.metafields.custom.alto }}mm</li>
+                              <li>Ancho: {{ product.metafields.custom.ancho }}mm</li>
+                              <li>Profundidad: {{ product.metafields.custom.profundidad }}mm</li>
+                            </ul>
+                          </div>
+                          <div class="container-right">
+                            {% if product.metafields.custom.opciones_adicionales.value != blank %}
+                              {% assign info = product.metafields.custom.opciones_adicionales.value %}
+                              <legend style="font-weight:bold;">Dimensiones adicionales</legend>
+                              {% for key in info %}
+                                <ul>
+                                  <li>{{ key[1].measure_name }}:</li>
+                                  <ul>
+                                    <li>Alto: {{ key[1].measure_hvalue }}mm</li>
+                                    <li>Profundidad: {{ key[1].measure_dvalue }}mm</li>
+                                    <li>Ancho: {{ key[1].measure_wvalue }}mm</li>
+                                  </ul>
+                                </ul>
+                              {% endfor %}
+                            {% endif %}
+                            <legend style="font-weight:bold;">Instrucciones de armado</legend>
+                            <a href="{{ product.metafields.custom.ensamblaje }}" download="Instrucciones">Descargar</a>
+                          </div>
+                        </ul>
+                      </answer-details>
+                    </container-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>Reseñas</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details class="product-review">
+                        <div style='clear:both'></div>
+                        <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'>
+                            {{ product.metafields.judgeme.widget }}
+                        </div>
+                      </answer-details>
+                    </container-details>
+                    <container-details>
+                      <title-details class="title-details">
+                        <p>Mi tienda más cercana</p>
+                        {% render 'icon-arrow-right-dropdown' %}
+                      </title-details>
+                      <answer-details>
+                      </answer-details>
+                    </container-details>
+                  </con-details>
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
@@ -496,7 +566,11 @@
                             {% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            {{ value }}
+                            {% for variant in product.variants %}
+                              {% if variant.options contains value %}
+                                {{ variant.featured_media | img_url | img_tag: variant.featured_media.alt, "variant-image", "100x100" }}
+                              {% endif %}
+                            {% endfor %}
                           </label>
                         {%- endfor -%}
                       </fieldset>
@@ -815,7 +889,7 @@
             >
               {%- assign media_position = 0 -%}
               {%- if product.selected_or_first_available_variant.featured_media != null -%}
-                {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
+                {%- assign featured_media = product.featured_media -%}
                 <li
                   id="Slide-{{ section.id }}-{{ featured_media.id }}-right"
                   class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %} product__media-item--variant{% endif %}"
@@ -1028,7 +1102,7 @@
       >
         {%- liquid
           if product.selected_or_first_available_variant.featured_media != null
-            assign media = product.selected_or_first_available_variant.featured_media
+            assign media = product.featured_media
             render 'product-media', media: media, loop: section.settings.enable_video_looping, variant_image: section.settings.hide_variants
           endif
         -%}
@@ -1113,7 +1187,7 @@
 
   {%- liquid
     if product.selected_or_first_available_variant.featured_media
-      assign seo_media = product.selected_or_first_available_variant.featured_media
+      assign seo_media = product.featured_media
     else
       assign seo_media = product.featured_media
     endif
@@ -1162,7 +1236,74 @@
         {%- endfor -%}
       ]
     }
+    
   </script>
+
+<script>
+  
+  /* FAQ DROPDOWN ANIMATION */
+document.addEventListener('DOMContentLoaded', function() {
+  var faqTitles = document.querySelectorAll('.title-details');
+  var openAnswer = null; // Keeps track of the currently open answer
+  var openTitle = null; // Keeps track of the currently open FAQ title
+
+  faqTitles.forEach(function(title) {
+    title.addEventListener('click', function() {
+      var answer = this.nextElementSibling;
+
+      if (openAnswer === answer) {
+        // Clicking on the same FAQ title again, close the answer and rotate the SVG back
+        toggleSlide(answer);
+        rotateSvg(this, '0deg');
+        openAnswer = null;
+        openTitle = null;
+      } else {
+        // Clicking on a different FAQ title
+        if (openAnswer) {
+          // Close the previously open answer and rotate its SVG back
+          toggleSlide(openAnswer);
+          rotateSvg(openTitle, '0deg');
+        }
+
+        // Open the clicked answer and rotate its SVG
+        toggleSlide(answer);
+        rotateSvg(this, '90deg');
+        openAnswer = answer;
+        openTitle = this;
+      }
+    });
+  });
+});
+
+function toggleSlide(element) {
+  var isHidden = getComputedStyle(element).height === '0px';
+
+  if (isHidden) {
+    element.style.height = 'auto';
+    element.style.marginTop = '15px';
+    element.style.marginBottom = '10px';
+  } else {
+    element.style.height = '0px';
+    element.style.marginTop = '0px';
+    element.style.marginBottom = '0px';
+  }
+}
+
+function rotateSvg(title, rotation) {
+  var svgElement = title.querySelector('svg');
+  svgElement.style.transform = `rotate(${rotation})`;
+}
+
+    $(document).ready(function() {
+    // Assuming the 'variant-selects' element is unique on the page
+    const variantElement = document.querySelector('variant-selects');
+    if (variantElement) {
+        variantElement.handleVariantChange();
+    }
+});
+
+</script>
+
 </section>
 
 {% schema %}

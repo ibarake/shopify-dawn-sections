@@ -90,12 +90,7 @@
         .logo-footer .field {
         width: 140%;
         }
-        .logo-footer .field__input{
-        background-color: white;
-        color: black;
-        }
        .logo-footer .field__label{
-        color: darkgray;
         font-size: 14px;
         }
         </style>
@@ -132,7 +127,7 @@
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
-                <div class="field">
+                <div class="field" style="background: {{ section.settings.backgroundButton}}">
                   <input
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
@@ -152,12 +147,13 @@
                     {% endif %}
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
+                    style="background: {{ section.settings.backgroundInput }}; color: {{ section.settings.textInput }};"
                   >
-                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                  <label class="field__label" for="NewsletterForm--{{ section.id }}" style="color: {{ section.settings.textInput }};">
                     {{ 'newsletter.label' | t }}
                   </label>
-                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                    Registrase
+                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}"  style="background: {{ section.settings.backgroundButton }}; color: {{ section.settings.textButton }};">
+                    Registrarse
                   </button>
                 </div>
                 {%- if form.errors -%}
@@ -599,6 +595,26 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "color",
+      "id": "backgroundInput",
+      "label": "Background input newlester"
+    },
+    {
+      "type": "color",
+      "id": "textInput",
+      "label": "Text input newlester"
+    },
+    {
+      "type": "color",
+      "id": "backgroundButton",
+      "label": "Background color button"
+    },
+    {
+      "type": "color",
+      "id": "textButton",
+      "label": "Text color button"
     },
     {
       "type": "header",

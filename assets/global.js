@@ -766,14 +766,39 @@ class VariantSelects extends HTMLElement {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
-      this.updateMedia();
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      this.handleVariantChange();
     }
   }
 
+  handleVariantChange() {
+    // Get the selected variant's alt attribute
+    var selectedAlt = this.currentVariant.featured_media.alt;
+
+    // Hide all thumbnail-list__item elements
+    $('.thumbnail-list__item').hide();
+  
+    // Iterate over each thumbnail-list__item
+    $('.thumbnail-list__item').each(function() {
+        // Check the alt attribute of the child image
+        var imgAlt = $(this).find('img').attr('alt');
+        
+        // If the alt attribute matches the selected variant's alt, show the thumbnail-list__item
+        if (imgAlt === selectedAlt) {
+            $(this).show();
+        }
+    });
+
+    const thumbnailItem = document.querySelector(`.thumbnail-list__item img[alt="${selectedAlt}"]`);
+
+    thumbnailItem.parentNode.click();
+
+}
+
+  
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
   }
@@ -789,10 +814,8 @@ class VariantSelects extends HTMLElement {
   updateMedia() {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
-
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
     mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.currentVariant.featured_media.id}`, true));
-
     const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
     if (!modalContent) return;
     const newMediaModal = modalContent.querySelector( `[data-media-id="${this.currentVariant.featured_media.id}"]`);

@@ -17,9 +17,10 @@
 }
 .macro-title {
   font-size: 3rem;
-  padding: 90px 2px 15%;
+  padding: 0 2px 15%;
   font-weight: bolder;
   width: 90%;
+  margin: auto;
   text-align: center;
   line-height: 32px;
 }
@@ -246,6 +247,7 @@ p.collection-title {
   text-align: center;
   font-weight: 400;
   font-size: 18px;
+  line-height: 150%;
 }
 .subcategory .imagewrap {
   width: 100%;
