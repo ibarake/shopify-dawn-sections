@@ -103,7 +103,8 @@
 
 .card__inner {
   width: 100%;
-  height: 26vh;
+  height: 25vh;
+  background: white;
 }
 
 .card--media .card__inner .card__content {
