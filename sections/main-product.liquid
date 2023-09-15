@@ -571,7 +571,9 @@
                                 {% if variant.featured_media %}
                                 {{ variant.featured_media | img_url | img_tag: variant.featured_media.alt, "variant-image", "100x100" }}
                                 {% else %}
-                                {{ variant.title }}
+                                  <p>
+                                    {{ variant.title }}
+                                  </p>
                                 {% endif %}
                               {% endif %}
                             {% endfor %}
