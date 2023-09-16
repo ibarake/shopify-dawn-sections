@@ -244,6 +244,10 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/AFHS_INT_Logo_Horizontal_3.png",
           "color_scheme": "background-2",
+          "backgroundInput": "",
+          "textInput": "",
+          "backgroundButton": "",
+          "textButton": "",
           "newsletter_enable": true,
           "newsletter_heading": "¡Suscribete al newsletter!",
           "phone-number": "+57 (300) 913-2465",
@@ -600,7 +604,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".banner__box {display: none;}"
+      ".banner__box {display: none;}",
+      "p{line-height:1em;}"
     ]
   }
 }
