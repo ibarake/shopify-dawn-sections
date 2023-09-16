@@ -158,7 +158,9 @@
 .card:not(.card--horizontal) > .card__content > .card__badge {
   margin: 1.3rem;
 }
-
+.section-template--17657979765043__product-grid-padding .card__media .media img {
+  object-fit: contain;
+}
 .card__media .media img {
   height: 100%;
   object-fit: cover;
