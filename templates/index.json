@@ -2,15 +2,18 @@
   "sections": {
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
+      "custom_css": [
+
+      ],
       "settings": {
-        "subheading": "Feria del HOgar",
-        "heading": "Gran Salón 2703",
+        "subheading": "Av. 19 N° 109 - 41",
+        "heading": "Bogotá",
         "spacing": 250,
         "image": "shopify:\/\/shop_images\/D760-45-01_6_-60_6985f919-7024-47ff-bc20-578ccd311ae4.jpg",
         "bg-color": "#f4f4f4",
         "color": "#000000",
         "img-position": "center center",
-        "button-text": "Concursa",
+        "button-text": "",
         "button_link": "shopify:\/\/pages\/feria-del-hogar",
         "btn-linebreak": "normal",
         "btn-bg-color-normal": "#363534",
