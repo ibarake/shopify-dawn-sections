@@ -6,9 +6,9 @@
 
       ],
       "settings": {
-        "subheading": "Av. 19 N° 109 - 41",
-        "heading": "Bogotá",
-        "spacing": 250,
+        "subheading": "",
+        "heading": "",
+        "spacing": 0,
         "image": "shopify:\/\/shop_images\/D760-45-01_6_-60_6985f919-7024-47ff-bc20-578ccd311ae4.jpg",
         "bg-color": "#f4f4f4",
         "color": "#000000",
