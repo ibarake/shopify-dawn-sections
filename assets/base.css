@@ -222,7 +222,9 @@
 }
 
 /* base */
-
+button#quick-add-template--17657979765043__product-grid8538827129139-submit {
+  background: #363534;
+}
 .no-js:not(html) {
   display: none !important;
 }
