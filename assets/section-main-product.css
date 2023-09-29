@@ -117,7 +117,7 @@
 }
 
 .shopify-payment-button__button--unbranded::selection {
-  background-color: rgba(var(--color-button-text), 0.3);
+  background-color: #363534;
 }
 
 .shopify-payment-button__button--unbranded:hover,
