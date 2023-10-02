@@ -3,7 +3,7 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "custom_css": [
-        ".content-container2{display: none;}"
+        ".content-container2 {display: none;}"
       ],
       "settings": {
         "subheading": "",
@@ -282,8 +282,8 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
