@@ -18,7 +18,7 @@
     "heading_scale": 100,
     "type_body_font": "open_sans_n4",
     "body_scale": 100,
-    "page_width": 1400,
+    "page_width": 1500,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -605,7 +605,7 @@
   "platform_customizations": {
     "custom_css": [
       ".banner__box {display: none;}",
-      "p{line-height:1em;}"
+      "p {line-height: 1em;}"
     ]
   }
 }
