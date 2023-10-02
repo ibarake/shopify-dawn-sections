@@ -259,7 +259,7 @@ html.no-js .no-js-hidden {
 
 @media screen and (min-width: 1024px) {
   .page-width {
-    padding: 0 3%;
+    padding: 0;
   }
 
   .page-width--narrow {
