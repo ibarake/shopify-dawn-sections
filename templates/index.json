@@ -16,13 +16,13 @@
         "img-position": "center center",
         "button-text": "",
         "button_link": "shopify:\/\/pages\/feria-del-hogar",
-        "btn-linebreak": "nowrap",
+        "btn-linebreak": "normal",
         "btn-bg-color-normal": "#363534",
         "btn-bg-color-hover": "#525252",
         "btn-txt-color": "#ffffff",
         "img-height": 665,
         "responsive-container-height": 10,
-        "responsive-img-height": 200
+        "responsive-img-height": 150
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
