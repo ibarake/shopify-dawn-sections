@@ -21,7 +21,7 @@
         "btn-bg-color-hover": "#525252",
         "btn-txt-color": "#ffffff",
         "img-height": 665,
-        "responsive-container-height": 300,
+        "responsive-container-height": 10,
         "responsive-img-height": 200
       }
     },
