@@ -20,7 +20,7 @@
         "btn-bg-color-normal": "#363534",
         "btn-bg-color-hover": "#525252",
         "btn-txt-color": "#ffffff",
-        "img-height": 600,
+        "img-height": 480,
         "responsive-container-height": 300,
         "responsive-img-height": 200
       }
