@@ -4,25 +4,25 @@
       "type": "custom-hero-banner",
       "custom_css": [
         ".content-container2 {display: none;}",
-        ".hero-banner-container {max-height: 320 px; background-size: contain; background-position: center center;}"
+        ".hero-banner-container {background-size: contain;}"
       ],
       "settings": {
         "subheading": "",
         "heading": "",
         "spacing": 0,
-        "image": "shopify:\/\/shop_images\/sofa-2puestos-hazela-ashley-colombia_31ca9ba1-6e39-4eb2-b1e0-ba94909968cd.jpg",
-        "bg-color": "#f4f4f4",
+        "image": "shopify:\/\/shop_images\/sofa-2puestos-hazela-ashley-colombia.jpg",
+        "bg-color": "#ffffff",
         "color": "#000000",
         "img-position": "center center",
         "button-text": "",
         "button_link": "shopify:\/\/pages\/feria-del-hogar",
-        "btn-linebreak": "normal",
+        "btn-linebreak": "nowrap",
         "btn-bg-color-normal": "#363534",
         "btn-bg-color-hover": "#525252",
         "btn-txt-color": "#ffffff",
-        "img-height": 680,
+        "img-height": 600,
         "responsive-container-height": 300,
-        "responsive-img-height": 220
+        "responsive-img-height": 200
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
