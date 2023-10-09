@@ -3,7 +3,8 @@
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "custom_css": [
-        ".content-container2 {display: none;}"
+        ".content-container2 {display: none;}",
+        ".hero-banner-container {width: 100%; height: 650px; background-size: contain; background-position: center center;}"
       ],
       "settings": {
         "subheading": "",
