@@ -325,7 +325,7 @@ answer-details {
 .product-form__submit {
   background-color: #363534;
   --border-offset: none !important;
-  color:white
+  color:white;
   margin-bottom: 1rem;
 }
 
