@@ -324,8 +324,8 @@ answer-details {
 
 .product-form__submit {
   background-color: #363534;
-  border:none;
-  color:withe;
+  --border-offset: none !important;
+  color:white
   margin-bottom: 1rem;
 }
 
