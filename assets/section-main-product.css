@@ -323,7 +323,7 @@ answer-details {
 }
 
 .product-form__submit {
-  background: rgba(var(--color-button),var(--alpha-button-background));
+  background-color: #363534;
   margin-bottom: 1rem;
 }
 
