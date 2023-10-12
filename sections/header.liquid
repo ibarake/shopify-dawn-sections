@@ -841,7 +841,9 @@ const dropdownContents = document.querySelectorAll('.dropdown-content');
 
 function checkViewport() {
     if (!isInViewport(headerBottomBorder)) {
-        overlay.style.display = 'none';
+        overlay.forEach(o => {
+            o.style.display = 'none';
+        });
         dropdownContents.forEach(content => {
             content.style.display = 'none';
         });
