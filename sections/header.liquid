@@ -838,14 +838,23 @@ function isInViewport(element) {
 }
 document.addEventListener('DOMContentLoaded', () => {
   const headerBottomBorder = document.querySelector('.header-bottom-border');
+const overlays = document.querySelectorAll('.overlay');
 const dropdownContents = document.querySelectorAll('.dropdown-content');
 
 function checkViewport() {
     if (!isInViewport(headerBottomBorder)) {
+        // Hide overlays and dropdown contents when headerBottomBorder is out of viewport
+        overlays.forEach(overlay => {
+            overlay.style.display = 'none';
+        });
         dropdownContents.forEach(content => {
             content.style.display = 'none';
         });
     } else {
+        // Reset inline styles when headerBottomBorder is in the viewport to allow CSS hover rules to take effect
+        overlays.forEach(overlay => {
+            overlay.style.display = '';
+        });
         dropdownContents.forEach(content => {
             content.style.display = '';
         });
