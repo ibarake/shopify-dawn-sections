@@ -497,17 +497,6 @@
       </div>
       </div>
     <div class="header-bottom-border"> 
-      <div class="overlay">
-        <style>
-          .overlay {
-              display: none;
-              position: absolute;
-              width: 100%;
-              background-color: rgba(0, 0, 0, 0.4);
-              height: 100em;
-          }
-        </style>
-      </div>
       <div class="bottom-header-inner page-width">
         <div class="inner-bottom">
           {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
@@ -518,6 +507,17 @@
                 {%- for macrocategory in macrocategories -%}
                   {%- if forloop.index == block.settings.macro-id -%}
                   <li class="dropdown">
+                    <div class="overlay">
+        <style>
+          .overlay {
+              display: none;
+              position: absolute;
+              width: 100%;
+              background-color: rgba(0, 0, 0, 0.4);
+              height: 100em;
+          }
+        </style>
+      </div>
                     <a
                       href="{{ macrocategory.page.value.url }}"
                       class="header__menu-item list-menu__item link focus-inset"
