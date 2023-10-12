@@ -596,20 +596,21 @@
             var dropdownContentElements = document.querySelectorAll('.dropdown-content');
             var overlayElement = document.querySelector('.overlay');
             var headerBar = document.querySelector('.header-bottom-border');
+            var activeElement = null;
             
             for (var i = 0; i < dropdownElements.length; i++) {
               var dropdownElement = dropdownElements[i];
               var dropdownContentElement = dropdownContentElements[i];
               
               dropdownElement.addEventListener('mouseenter', function() {
-                var activeElement = this.querySelector('.dropdown-content');
+                activeElement = this.querySelector('.dropdown-content');
                 // Agregar estilos cuando el hover está activo
                 activeElement.style.display = 'flex';
                 overlayElement.style.display = 'block';
               });
 
               headerBar.addEventListener('mouseenter', function() {
-                var contentElement = this.querySelector('.dropdown-content');
+                var contentElement = activeElement;
                 if (activeElement) {                  
                 // Agregar estilos cuando el hover está activo
                 activeElement.style.display = 'flex';
