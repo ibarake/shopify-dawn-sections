@@ -173,11 +173,11 @@
       {
         "type": "range",
         "id": "page_width",
-        "min": 1000,
-        "max": 1600,
-        "step": 100,
-        "default": 1200,
-        "unit": "px",
+        "min": 0,
+        "max": 1000,
+        "step": 10,
+        "default": 800,
+        "unit": "%",
         "label": "t:settings_schema.layout.settings.page_width.label"
       },
       {
