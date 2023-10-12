@@ -595,7 +595,7 @@
             }
 
             .dropdown:hover .overlay {
-                display: block !important; /* or block, depending on your design */
+                display: block; /* or block, depending on your design */
             }
           
           </style>
@@ -846,7 +846,7 @@ function checkViewport() {
     if (!isInViewport(headerBottomBorder)) {
         // Hide overlays and dropdown contents when headerBottomBorder is out of viewport
         overlays.forEach(overlay => {
-            overlay.style.display = 'none !important';
+            overlay.style.display = 'none';
         });
         dropdownContents.forEach(content => {
             content.style.display = 'none';
