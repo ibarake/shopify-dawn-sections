@@ -2,7 +2,7 @@
   transform: scale(1.3);
 }
 .section-collection-list .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child{
-  transform: scale(1.5) !important;
+  transform: scale(1.4) !important;
 }
 .card-wrapper {
   color: inherit;
