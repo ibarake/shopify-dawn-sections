@@ -380,6 +380,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "5946647744298494267": {
+        "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
