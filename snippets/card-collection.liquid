@@ -48,7 +48,7 @@
     >
       {%- if card_collection.metafields.custom.roomimage -%}
         <div class="card__media">
-          <div class="media media--transparent">
+          <div class="media media--transparent media--hover-effect">
             <img
               srcset="
                 {%- if card_collection.metafields.custom.roomimage.width >= 165 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 165 }} 165w,{%- endif -%}
