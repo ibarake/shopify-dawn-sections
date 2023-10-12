@@ -1,3 +1,9 @@
+.section-collection-list .card__media img{
+  transform: scale(1.3);
+}
+.section-collection-list .card__media img:hover{
+  transform: scale(1.5);
+}
 .card-wrapper {
   color: inherit;
   height: 100%;
