@@ -592,21 +592,39 @@
           {%- endif -%}
 
           <style>
-            /* Initial states */
-            .dropdown-content, .overlay {
-                display: none;
-            }
+            var dropdownElements = document.querySelectorAll('.dropdown');
+            var dropdownContentElements = document.querySelectorAll('.dropdown-content');
+            var overlayElement = document.querySelector('.overlay');
+            var headerBar = document.querySelector('.header-bottom-border');
+            var activeElement = null;
             
-            /* Show dropdown content and overlay when hovering over dropdown */
-            .dropdown:hover .dropdown-content, 
-            .dropdown:hover ~ .overlay {
-                display: flex; /* or block, depending on your design */
-            }
+            for (var i = 0; i < dropdownElements.length; i++) {
+              var dropdownElement = dropdownElements[i];
+              var dropdownContentElement = dropdownContentElements[i];
+              
+              dropdownElement.addEventListener('mouseenter', function() {
+                activeElement = this.querySelector('.dropdown-content');
+                // Agregar estilos cuando el hover está activo
+                activeElement.style.display = 'flex';
+                overlayElement.style.display = 'block';
+              });
 
-            .dropdown:hover ~ .overlay {
-                display: block; /* or block, depending on your design */
+              headerBar.addEventListener('mouseenter', function() {
+                if (activeElement) {                  
+                // Agregar estilos cuando el hover está activo
+                activeElement.style.display = 'flex';
+                overlayElement.style.display = 'block';
+                }
+              });
+            
+              dropdownElement.addEventListener('mouseleave', function() {
+                
+                var contentElement = this.querySelector('.dropdown-content');
+                //cuando el hover ya no está activo
+                contentElement.style.display = 'none';
+                overlayElement.style.display = 'none';
+              });
             }
-          
           </style>
 <style>
    ul.list-menu--inline li {
