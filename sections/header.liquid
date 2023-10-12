@@ -610,7 +610,6 @@
               });
 
               headerBar.addEventListener('mouseenter', function() {
-                var contentElement = activeElement;
                 if (activeElement) {                  
                 // Agregar estilos cuando el hover está activo
                 activeElement.style.display = 'flex';
@@ -624,7 +623,6 @@
                 //cuando el hover ya no está activo
                 contentElement.style.display = 'none';
                 overlayElement.style.display = 'none';
-                activeElement = contentElement
               });
             }
           </script>
