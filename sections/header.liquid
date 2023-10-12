@@ -838,10 +838,11 @@ function isInViewport(element) {
 }
 document.addEventListener('DOMContentLoaded', () => {
   const headerBottomBorder = document.querySelector('.header-bottom-border');
-const overlays = document.querySelectorAll('.overlay');
+
 const dropdownContents = document.querySelectorAll('.dropdown-content');
 
 function checkViewport() {
+  const overlays = document.querySelectorAll('.overlay');
     if (!isInViewport(headerBottomBorder)) {
         // Hide overlays and dropdown contents when headerBottomBorder is out of viewport
         overlays.forEach(overlay => {
