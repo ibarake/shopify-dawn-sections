@@ -593,45 +593,38 @@
 
           <script>
             var dropdownElements = document.querySelectorAll('.dropdown');
-var dropdownContentElements = document.querySelectorAll('.dropdown-content');
-var overlayElement = document.querySelector('.overlay');
-var headerBottomBorderElement = document.querySelector('.header-bottom-border');
-var headerInlineMenuElement = document.querySelector('.header__inline-menu');
+            var dropdownContentElements = document.querySelectorAll('.dropdown-content');
+            var overlayElement = document.querySelector('.overlay');
+            var headerBar = document.querySelector('.header-bottom-border');
+            
+            for (var i = 0; i < dropdownElements.length; i++) {
+              var dropdownElement = dropdownElements[i];
+              var dropdownContentElement = dropdownContentElements[i];
+              
+              dropdownElement.addEventListener('mouseenter', function() {
+                var activeElement = this.querySelector('.dropdown-content');
+                // Agregar estilos cuando el hover está activo
+                activeElement.style.display = 'flex';
+                overlayElement.style.display = 'block';
+              });
 
-for (var i = 0; i < dropdownElements.length; i++) {
-    var dropdownElement = dropdownElements[i];
-
-    dropdownElement.addEventListener('mouseenter', function() {
-        var contentElement = this.querySelector('.dropdown-content');
-        // Add styles when the hover is active
-        contentElement.style.display = 'flex';
-        overlayElement.style.display = 'block';
-    });
-
-    dropdownElement.addEventListener('mouseleave', function(event) {
-        var contentElement = this.querySelector('.dropdown-content');
-        
-        // Check if the related target is the header-bottom-border or header__inline-menu
-        if (event.relatedTarget !== headerBottomBorderElement && event.relatedTarget !== headerInlineMenuElement) {
-            // When the hover is no longer active
-            contentElement.style.display = 'none';
-            overlayElement.style.display = 'none';
-        }
-    });
-}
-
-// Ensure that when the mouse leaves the header-bottom-border or header__inline-menu, the dropdown hides
-function hideDropdowns() {
-    var contentElements = document.querySelectorAll('.dropdown-content');
-    contentElements.forEach(function(contentElement) {
-        contentElement.style.display = 'none';
-    });
-    overlayElement.style.display = 'none';
-}
-
-headerBottomBorderElement.addEventListener('mouseleave', hideDropdowns);
-headerInlineMenuElement.addEventListener('mouseleave', hideDropdowns);
-
+              headerBar.addEventListener('mouseenter', function() {
+                var contentElement = this.querySelector('.dropdown-content');
+                if (activeElement) {                  
+                // Agregar estilos cuando el hover está activo
+                activeElement.style.display = 'flex';
+                overlayElement.style.display = 'block';
+                }
+              });
+            
+              dropdownElement.addEventListener('mouseleave', function() {
+                
+                var contentElement = this.querySelector('.dropdown-content');
+                //cuando el hover ya no está activo
+                contentElement.style.display = 'none';
+                overlayElement.style.display = 'none';
+              });
+            }
           </script>
 <style>
    ul.list-menu--inline li {
