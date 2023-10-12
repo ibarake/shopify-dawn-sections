@@ -836,8 +836,8 @@ function isInViewport(element) {
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
-
-const headerBottomBorder = document.querySelector('.header-bottom-border');
+document.addEventListener('DOMContentLoaded', () => {
+  const headerBottomBorder = document.querySelector('.header-bottom-border');
 const overlays = document.querySelectorAll('.overlay');
 const dropdownContents = document.querySelectorAll('.dropdown-content');
 
@@ -864,6 +864,8 @@ function checkViewport() {
 // Trigger the check on scroll and resize
 window.addEventListener('scroll', checkViewport);
 window.addEventListener('resize', checkViewport);
+
+})
 
 </script>
 <script type="application/ld+json">
