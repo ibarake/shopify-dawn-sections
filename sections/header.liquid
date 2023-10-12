@@ -836,13 +836,13 @@
     );
 }
 const headerBottomBorder = document.querySelector('.header-bottom-border');
-const overlay = document.querySelector('.overlay');
+const overlay = document.querySelectorAll('.overlay');
 const dropdownContents = document.querySelectorAll('.dropdown-content');
 
 function checkViewport() {
     if (!isInViewport(headerBottomBorder)) {
-        overlay.forEach(o => {
-            o.style.display = 'none';
+        overlay.forEach(over => {
+            over.style.display = 'none';
         });
         dropdownContents.forEach(content => {
             content.style.display = 'none';
