@@ -826,7 +826,7 @@
   customElements.define('sticky-header', StickyHeader);
 {% endjavascript %}
 <script>
-  function isInViewport(element) {
+function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return (
         rect.top >= 0 &&
@@ -835,17 +835,27 @@
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
+
 const headerBottomBorder = document.querySelector('.header-bottom-border');
-const overlay = document.querySelectorAll('.overlay');
+const overlays = document.querySelectorAll('.overlay');
 const dropdownContents = document.querySelectorAll('.dropdown-content');
 
 function checkViewport() {
     if (!isInViewport(headerBottomBorder)) {
-        overlay.forEach(over => {
-            over.style.display = 'none';
+        // Hide overlays and dropdown contents when headerBottomBorder is out of viewport
+        overlays.forEach(overlay => {
+            overlay.style.display = 'none';
         });
         dropdownContents.forEach(content => {
             content.style.display = 'none';
+        });
+    } else {
+        // Reset inline styles when headerBottomBorder is in the viewport to allow CSS hover rules to take effect
+        overlays.forEach(overlay => {
+            overlay.style.display = '';
+        });
+        dropdownContents.forEach(content => {
+            content.style.display = '';
         });
     }
 }
