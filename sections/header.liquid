@@ -602,12 +602,11 @@
             .dropdown:hover ~ .overlay {
                 display: flex; /* or block, depending on your design */
             }
-            
-            /* Show the dropdown content and overlay when hovering over header-bottom-border */
-            .header-bottom-border:hover .dropdown .dropdown-content,
-            .header-bottom-border:hover .dropdown ~ .overlay {
-                display: flex; /* or block, depending on your design */
+
+            .dropdown:hover ~ .overlay {
+                display: block; /* or block, depending on your design */
             }
+          
           </style>
 <style>
    ul.list-menu--inline li {
