@@ -243,7 +243,7 @@
         <div class="left-right">
           <div class="left">
             <div class="collection-image">
-              <a href="{{ collection.url }}">
+              <a href="{{ block.settings.collection.url }}">
                 <img
                   class="mainimage"
                   src="{{ block.settings.collection.metafields.custom.roomimage | image_url }}"
@@ -252,7 +252,7 @@
               </a>
             </div>
             <div class="button-container">
-              <a href="{{ collection.url }}" class="btn-collections-all">
+              <a href="{{ block.settings.collection.url }}" class="btn-collections-all">
                 {{- block.settings['button-title'] -}}
               </a>
               <svg
