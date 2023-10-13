@@ -28,6 +28,26 @@
 
 <style>
 
+  i.icon-swym-wishlist {
+font-family: 'swym-font';
+font-style: normal;
+vertical-align: middle;
+}
+i.icon-swym-wishlist+span {
+vertical-align: middle;
+}
+i.icon-swym-wishlist:after {
+content: '';
+font-size: 130%;
+line-height: 18px;
+text-align: center;
+display: inline;
+}
+/*content rendered after swym is ready to avoid showing block/invalid chars*/
+.swym-ready i.icon-swym-wishlist:after {
+content: '\f004';
+}
+
 .header-search{
   grid-area: search;
   width: 100%;
@@ -460,7 +480,7 @@
         
         <div class="header__icons">
         <a href="#swym-wishlist" class="swym-wishlist">
-          <i aria-hidden="true" focusable="false" role="presentation" class="fa fa-heart"></i>
+          <i aria-hidden="true" focusable="false" role="presentation" class="icon icon-swym-wishlist"></i>
         </a>
         {%- if shop.customer_accounts_enabled -%}
           <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
