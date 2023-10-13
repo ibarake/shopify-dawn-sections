@@ -14,17 +14,12 @@
         "colnum": 4
       }
     },
-    "sub-category-2": {
-      "type": "sub-category-2",
-      "settings": {
-      }
-    },
     "sub-category-3": {
       "type": "sub-category-3",
       "settings": {
         "subid": 2,
         "colnum": 3,
-        "Color": "#ffffff",
+        "Color": "#f3f3f3",
         "colorItemsCollections": "#ffffff",
         "ColorImageCollections": "#ffffff",
         "colorText": "#000000",
@@ -35,7 +30,7 @@
     "sub-category-4": {
       "type": "sub-category-4",
       "settings": {
-        "subid": 2,
+        "subid": 1,
         "colnum": 2,
         "numberCollections": 3,
         "Color": "#ffffff",
@@ -44,6 +39,11 @@
         "box_position": "left",
         "Shop_border_style": "style2",
         "Border_style": "style1"
+      }
+    },
+    "sub-category-2": {
+      "type": "sub-category-2",
+      "settings": {
       }
     },
     "sub-category-5": {
@@ -65,9 +65,9 @@
   "order": [
     "main",
     "sub-category-1",
-    "sub-category-2",
     "sub-category-3",
     "sub-category-4",
+    "sub-category-2",
     "sub-category-5",
     "sub-category-6"
   ]
