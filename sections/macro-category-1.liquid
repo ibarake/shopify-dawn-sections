@@ -1,6 +1,6 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 {{ metaobject }}
-{% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign macrocategory = metaobject %}
 {% assign subcategories = macrocategory.subcategories %}
 <div class="page-width">
   <h1 class="macro-cat-title">{{ macrocategory.name }}</h1>
