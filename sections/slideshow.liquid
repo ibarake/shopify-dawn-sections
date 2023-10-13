@@ -150,6 +150,23 @@
                 widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
                 class: 'phone-image'
             }}
+
+            <style>
+              .desktop-image{
+                display: block;
+              }
+              .phone-image{
+                display: none;
+              }
+              @media screen and (max-width: 768px) {
+                .desktop-image{
+                  display: none;
+                }
+                .phone-image{
+                  display: block;
+                }
+              }
+            </style>
           {%- else -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
