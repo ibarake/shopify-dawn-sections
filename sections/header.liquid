@@ -27,25 +27,39 @@
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
 <style>
+.swym-wishlist i{
+    font-size: 20px;
+  }
+  .swym-wishlist{
+    text-decoration: none;
+  }
+  .swym-wishlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+i.icon-swym-wishlist {
+  font-family: 'Font Awesome 5 Free'; /* Use the right font family depending on your Font Awesome version */
+  font-weight: 900; /* For solid icons in FA5 */
+  font-style: normal;
+  vertical-align: middle;
+}
 
-  i.icon-swym-wishlist {
-font-family: 'swym-font';
-font-style: normal;
-vertical-align: middle;
-}
 i.icon-swym-wishlist+span {
-vertical-align: middle;
+  vertical-align: middle;
 }
+
 i.icon-swym-wishlist:after {
-content: '';
-font-size: 130%;
-line-height: 18px;
-text-align: center;
-display: inline;
+  content: '';
+  font-size: 130%;
+  line-height: 18px;
+  text-align: center;
+  display: inline;
 }
+
 /*content rendered after swym is ready to avoid showing block/invalid chars*/
 .swym-ready i.icon-swym-wishlist:after {
-content: '\f004';
+  content: '\f004';
 }
 
 .header-search{
