@@ -10,6 +10,9 @@
     },
     "sub-category-1": {
       "type": "sub-category-1",
+      "custom_css": [
+        ".container {background: #f9f9f9;}"
+      ],
       "settings": {
         "colnum": 4
       }
