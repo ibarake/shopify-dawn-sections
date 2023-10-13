@@ -1,5 +1,5 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
-
+{{ metaobject }}
 {% assign macrocategory = page.metafields.custom.reference.value %}
 {% assign subcategories = macrocategory.subcategories %}
 <div class="page-width">
@@ -8,7 +8,9 @@
     <div class="heading">
       <div class="bolded-h" style="color: {{ section.settings.titleAndSubtitleColor }};">
         <strong>{{ macrocategory.section_1_text_1 }}</strong>
-        <span span="nobold-h" style="color: {{ section.settings.titleAndSubtitleColor }};">{{ macrocategory.section_1_text_2 }}</span>
+        <span span="nobold-h" style="color: {{ section.settings.titleAndSubtitleColor }};">
+          {{- macrocategory.section_1_text_2 -}}
+        </span>
       </div>
     </div>
     <div class="column-container">
@@ -23,17 +25,17 @@
                 </div>
               {% endif %}
               <a href="{{ subcategoriespage.url }}">
-              <img src="{{ subcategory.image | image_url }}" alt="sub image">
+                <img src="{{ subcategory.image | image_url }}" alt="sub image">
                 <div class="link-container">
                   <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor }};">
-                  {{ subcategory.name }}
-                </h2>
+                    {{ subcategory.name }}
+                  </h2>
                   <style>
                     .column-container .iconNext {
                       fill: {{ section.settings.titleAndSubtitleColor }};
                     }
                   </style>
-                {% render 'nextIcon' %}
+                  {% render 'nextIcon' %}
                 </div>
               </a>
             </div>
