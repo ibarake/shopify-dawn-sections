@@ -151,22 +151,6 @@
                 class: 'phone-image'
             }}
 
-            <style>
-              .desktop-image{
-                display: block;
-              }
-              .phone-image{
-                display: none;
-              }
-              @media screen and (max-width: 768px) {
-                .desktop-image{
-                  display: none;
-                }
-                .phone-image{
-                  display: block;
-                }
-              }
-            </style>
           {%- else -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
@@ -278,7 +262,22 @@
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
-
+<style>
+  .desktop-image{
+    display: block;
+  }
+  .phone-image{
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    .desktop-image{
+      display: none;
+    }
+    .phone-image{
+      display: block;
+    }
+  }
+</style>
 {% schema %}
 {
   "name": "t:sections.slideshow.name",
