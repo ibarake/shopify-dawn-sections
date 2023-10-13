@@ -403,7 +403,9 @@
                               {% endfor %}
                             {% endif %}
                             <legend style="font-weight:bold;">Instrucciones de armado</legend>
+                            {% if product.metafields.custom.ensamblaje %}
                             <a href="{{ product.metafields.custom.ensamblaje }}" download="Instrucciones">Descargar</a>
+                            {% endif %}
                           </div>
                         </ul>
                       </answer-details>
