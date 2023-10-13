@@ -25,6 +25,9 @@
       "block_order": [
         "template--17657980813619__08755c67-a875-4322-a5b3-913c460c6744-slide-1"
       ],
+      "custom_css": [
+        ".slideshow__text-wrapper {display: none;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
