@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -14,18 +13,8 @@
         "colnum": 4,
         "titleAndSubtitleColor": "#121212",
         "saleTextColor": "#ffffff",
-        "backgroundColor": "#fff",
+        "backgroundColor": "#ffffff",
         "backgroundSaleColor": "#c60f2f"
-      }
-    },
-    "macro-category-4": {
-      "type": "macro-category-4",
-      "settings": {
-        "numberSubcategories": 5,
-        "titleColor": "#000000",
-        "subColor": "#000000",
-        "backgroundSectionColor": "#ffffff",
-        "backgroundColor": "#fff"
       }
     },
     "macro-category-2": {
@@ -36,7 +25,7 @@
         "box_position": "right",
         "colorText": "#121212",
         "Color": "#ffffff",
-        "ColorImageCollections": "#ffffff",
+        "ColorImageCollections": "#f4f4f4",
         "colorItemsCollections": "#ffffff"
       }
     },
@@ -48,12 +37,23 @@
         "colnum": 2,
         "numberCollections": 3,
         "colorText": "#000000",
-        "Color": "#f3f3f3",
-        "itemColor": "#ffffff"
+        "Color": "#ffffff",
+        "itemColor": "#f4f4f4"
+      }
+    },
+    "macro-category-4": {
+      "type": "macro-category-4",
+      "settings": {
+        "numberSubcategories": 5,
+        "titleColor": "#000000",
+        "subColor": "#000000",
+        "backgroundSectionColor": "#ffffff",
+        "backgroundColor": "#f3f3f3"
       }
     },
     "f23922bc-80ad-419b-967f-108a1e733fce": {
       "type": "macro-category-2",
+      "disabled": true,
       "settings": {
         "subid": 3,
         "colnum": 3,
@@ -66,6 +66,7 @@
     },
     "69bbce97-f696-427e-8443-080adbb1d37c": {
       "type": "macro-category-3",
+      "disabled": true,
       "settings": {
         "subid": 4,
         "box_position": "left",
@@ -86,11 +87,6 @@
         "backgroundItemColor": "#ffffff"
       }
     },
-    "macro-category-7": {
-      "type": "macro-category-7",
-      "settings": {
-      }
-    },
     "3f51cc43-cdde-4412-b2b3-bf540293fee5": {
       "type": "macro-category-6",
       "settings": {
@@ -99,18 +95,23 @@
         "backgroundSectionColor": "#ffffff",
         "backgroundItemColor": "#ffffff"
       }
+    },
+    "macro-category-7": {
+      "type": "macro-category-7",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "macro-category-1",
-    "macro-category-4",
     "macro-category-2",
     "macro-category-3",
+    "macro-category-4",
     "f23922bc-80ad-419b-967f-108a1e733fce",
     "69bbce97-f696-427e-8443-080adbb1d37c",
     "5bb3322b-cbbb-48e4-b229-feb292a1fe38",
-    "macro-category-7",
-    "3f51cc43-cdde-4412-b2b3-bf540293fee5"
+    "3f51cc43-cdde-4412-b2b3-bf540293fee5",
+    "macro-category-7"
   ]
 }
