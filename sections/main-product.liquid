@@ -377,7 +377,9 @@
                       <answer-details>
                         <ul class="ul-container">
                           <div class="container-left">
+                            {% if product.metafields.custom.dibujo_dimensiones %}
                             <a href="{{ product.metafields.custom.dibujo_dimensiones }}">Dimensiones</a>
+                            {% endif %}
                             <legend style="font-weight:bold;">Dimensiones</legend>
                             <ul>
                               <li>Alto: {{ product.metafields.custom.alto }}mm</li>
