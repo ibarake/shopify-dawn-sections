@@ -543,10 +543,10 @@ i.icon-swym-wishlist:after {
               {%- for block in section.blocks -%}
                 {%- for macrocategory in macrocategories -%}
                   {%- if forloop.index == block.settings.macro-id -%}
-                  <li class="dropdown">
                     <div class="overlay">
                       
                     </div>
+                  <li class="dropdown">
                     <a
                       href="{{ macrocategory.page.value.url }}"
                       class="header__menu-item list-menu__item link focus-inset"
