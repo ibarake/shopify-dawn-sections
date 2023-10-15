@@ -274,7 +274,8 @@
         "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
       ],
       "custom_css": [
-        ".image {background-position: center; min-width: 100%;}"
+        ".image {background-position: center;}",
+        ".half {width: 100%;}"
       ],
       "settings": {
         "text-color": "#f68c2c",
