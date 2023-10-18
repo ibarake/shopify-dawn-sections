@@ -1,6 +1,6 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 
-{% assign macrocategory = page.metafields.custom.reference.value %}
+{% assign macrocategory = metaobject %}
 {% assign subcategories = macrocategory.subcategories %}
 
 <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
