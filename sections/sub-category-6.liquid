@@ -1,6 +1,6 @@
 {{ 'subcategories.css' | asset_url | stylesheet_tag }}
 
-{% assign subcategory = page.metafields.custom.reference.value %}
+{% assign subcategory = metaobject %}
 {% assign collections = subcategory.collections %}
 {% for collection in collections.value %}
   {% if forloop.index == section.settings.subid %}
