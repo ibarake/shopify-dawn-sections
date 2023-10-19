@@ -548,7 +548,7 @@ i.icon-swym-wishlist:after {
                       
                     </div>
                     <a
-                      href="{{ macrocategory.page.value.url }}"
+                      href="{{ macrocategory.system.url }}"
                       class="header__menu-item list-menu__item link focus-inset"
                       {% if macrocategory.current %}
                         aria-current="page"
@@ -569,7 +569,7 @@ i.icon-swym-wishlist:after {
                           {% for subcategory in subcategories %}
                             <li class="list-item">
                               <div class="sub-item-link">
-                                <a href="{{ subcategory.page.value.url }}">
+                                <a href="{{ subcategory.system.url }}">
                                   <span
                                     ><strong class="link-sub">{{ subcategory.name }}</strong></span
                                   >
