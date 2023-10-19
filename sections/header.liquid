@@ -234,7 +234,7 @@ i.icon-swym-wishlist:after {
                                   {% for subcategory in subcategories %}
                                     <li>
                                       {%- if subcategory == blank -%}
-                                        <a href="{{ subcategory.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                        <a href="{{ subcategory.system.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {{ subcategory.name | escape }}
                                         </a>
                                       {%- else -%}
