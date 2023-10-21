@@ -46,7 +46,13 @@
               href="{{ collectionpage }}"
               style="width: 100%; height: 100%;"
             >
-              {{ subcategory.image | image_url: width: 1000 | image_tag }}
+              <style>
+                .sub-image-3 {
+                  object-fit: cover;
+                  width: 100%;
+                }
+              </style>
+              {{ subcategory.image | image_url: width: 1000 | image_tag: class: 'sub-image-3' }}
             </a>
           </div>
         </div>
