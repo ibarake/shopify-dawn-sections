@@ -151,7 +151,7 @@
 }
 .section-container-3 .left {
   display: flex;
-  width: 24%;
+  width: 30%;
   flex-direction: column;
   justify-content: center;
 }
@@ -159,10 +159,10 @@
   margin-left: 13%;
 }
 .section-container-3 .right {
-  width: 80%;
+  width: 70%;
   background-position: center;
   background-repeat: norepeat;
-  background-size: 130%;
+  background-size: 100%;
 }
 .section-bottom-3 {
   width: 100%;
