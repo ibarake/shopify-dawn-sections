@@ -561,6 +561,7 @@ p.collection-title.style3 {
     height: auto;
   }
   .section-container-sub-4 .collection-link {
+    padding: 10px;
     font-size: 0.9em;
   }
   .section-container-sub-4 p.collection-title {
