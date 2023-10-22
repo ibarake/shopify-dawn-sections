@@ -614,9 +614,10 @@ p.collection-title.style3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    width: 100%;
   }
   .collection {
-    width: 50%;
+    width: 100%;
     margin-left: 8%;
   }
   .collection p {
