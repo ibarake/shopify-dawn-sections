@@ -611,14 +611,13 @@ p.collection-title.style3 {
 }
 @media only screen and (max-width: 768px) {
   .collections {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     gap: 10px;
     width: 100%;
   }
   .collection {
-    width: 100%;
-    margin-left: 8%;
+    width: 45%;
+    margin: auto;
   }
   .collection p {
     font-size: 1.5rem;
