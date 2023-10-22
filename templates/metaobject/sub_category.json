@@ -9,6 +9,7 @@
     "8099f8d7-931e-4dfc-a7cf-1f02097b832b": {
       "type": "sub-category-2",
       "settings": {
+        "circle_color": "#F9F9F9"
       }
     },
     "9d996973-a46d-4da1-a453-297fbcac065a": {
@@ -30,9 +31,10 @@
         "subid": 2,
         "colnum": 2,
         "numberCollections": 3,
-        "Color": "#f3efea",
+        "Color": "#363534",
         "itemColor": "#f3f3f3",
-        "colorText": "#000000",
+        "colorText": "#ffffff",
+        "colorText1": "#000000",
         "box_position": "left",
         "Shop_border_style": "style2",
         "Border_style": "style1"
