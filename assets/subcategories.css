@@ -108,12 +108,12 @@
 .collections {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .collection {
   width: 16%;
-  margin: 10px;
+  margin: auto;
 }
 .collection p {
   padding: 20px 35px 20px 35px;
