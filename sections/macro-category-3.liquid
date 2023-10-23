@@ -18,7 +18,7 @@
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr);">
             <div class="item" style="background-color:{{ section.settings.Color }};">
               <a href="{{ subcategoriespage.url }}">
-                <p class="macro-title" style="color: {{ section.settings.colorText }};">
+                <p class="macro-title" style="color: {{ section.settings.colorText1 }};">
                   <strong>{{ subcategory.macro_section_title }}</strong>
                 </p>
               </a>
@@ -26,7 +26,7 @@
                 <a
                   href="{{ subcategoriespage.url }}"
                   class="collection-link"
-                  style="color: {{ section.settings.colorText }};"
+                  style="color: {{ section.settings.colorText1 }};"
                   >Ver todo {{ subcategory.name }}
                 </a>
               </div>
@@ -103,9 +103,15 @@
     },
     {
       "type": "color",
-      "id": "colorText",
+      "id": "colorText1",
       "label": "Text color",
       "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "colorText",
+      "label": "Text color",
+      "default": "#ffffff"
     },
     {
       "type":"header",
