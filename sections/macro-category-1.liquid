@@ -8,7 +8,7 @@
     <div class="heading">
       <div class="bolded-h" style="color: {{ section.settings.titleAndSubtitleColor }};">
         <strong>{{ macrocategory.section_1_text_1 }}</strong>
-        <span span="nobold-h" style="color: {{ section.settings.titleAndSubtitleColor1 }};">
+        <span span="nobold-h" style="color: {{ section.settings.titleAndSubtitleColor }};">
           {{- macrocategory.section_1_text_2 -}}
         </span>
       </div>
@@ -27,7 +27,7 @@
               <a href="{{ subcategoriespage.url }}">
                 <img src="{{ subcategory.image | image_url }}" alt="sub image">
                 <div class="link-container">
-                  <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor }};">
+                  <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor1 }};">
                     {{ subcategory.name }}
                   </h2>
                   <style>
