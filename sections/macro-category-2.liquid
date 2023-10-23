@@ -34,16 +34,8 @@
         </div>
 
         <div class="section-bottom-2">
-        {% assign subsize = subcategoriescollections.size %}
-        {{ subcategoriescollections.size }}
-          {% if subsize  == 2 %}
-            <style>
-              .section-bottom-2{
-                width: 63% !important;
-              }
-            </style>
-            {% endif %}
           {% for collection in subcategoriescollections.value %}
+            {% assign subsize = forloop.index %}
             {% if forloop.index <= section.settings.colnum %}
               <div class="column" style="background-color: {{ section.settings.colorItemsCollections }};">
                 <a href="{{ collection.url }}">
@@ -66,6 +58,13 @@
               </div>
             {% endif %}
           {% endfor %}
+        {% if subsize  == 2 %}
+            <style>
+              .section-bottom-2{
+                width: 63% !important;
+              }
+            </style>
+            {% endif %}
         </div>
       {% endif %}
     {% endfor %}
