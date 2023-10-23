@@ -3,7 +3,8 @@
     "91d93d30-514b-4984-92ed-4b0e70226416": {
       "type": "sub-category-1",
       "settings": {
-        "colnum": 3
+        "colnum": 3,
+        "bgcolor": "#f3f3f3"
       }
     },
     "8099f8d7-931e-4dfc-a7cf-1f02097b832b": {
@@ -17,10 +18,10 @@
       "settings": {
         "subid": 1,
         "colnum": 3,
-        "Color": "#ffe3cd",
+        "Color": "#363534",
         "colorItemsCollections": "#ffffff",
         "ColorImageCollections": "#f3efea",
-        "colorText": "#000000",
+        "colorText": "#ffffff",
         "box_position": "left",
         "Border_style": "style1"
       }
