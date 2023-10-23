@@ -34,8 +34,8 @@
         </div>
 
         <div class="section-bottom-2">
-        {% assign subsize = subcategoriescollections.value | size %}
-        {{ subcategoriescollections | size }}
+        {% assign subsize = subcategoriescollections.size %}
+        {{ subcategoriescollections.size }}
           {% if subsize  == 2 %}
             <style>
               .section-bottom-2{
