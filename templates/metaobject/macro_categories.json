@@ -4,10 +4,10 @@
       "type": "macro-category-1",
       "settings": {
         "colnum": 3,
-        "titleAndSubtitleColor": "#ffffff",
-        "titleAndSubtitleColor1": "#f68c2c",
+        "titleAndSubtitleColor": "#363534",
+        "titleAndSubtitleColor1": "#363534",
         "saleTextColor": "#ffffff",
-        "backgroundColor": "#363534",
+        "backgroundColor": "#f3f3f3",
         "backgroundSaleColor": "#c60f2f"
       }
     },
@@ -18,6 +18,7 @@
         "colnum": 3,
         "box_position": "left",
         "colorText": "#ffffff",
+        "colorText1": "#000000",
         "Color": "#363534",
         "ColorImageCollections": "#f3efea",
         "colorItemsCollections": "#ffffff"
@@ -30,8 +31,9 @@
         "box_position": "left",
         "colnum": 2,
         "numberCollections": 3,
-        "colorText": "#000000",
-        "Color": "#f3efea",
+        "colorText1": "#ffffff",
+        "colorText": "#363534",
+        "Color": "#363534",
         "itemColor": "#f5f5f5"
       }
     },
