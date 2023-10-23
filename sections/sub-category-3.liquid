@@ -16,17 +16,17 @@
           <div class="left" style="background-color: {{ section.settings.Color }};">
             <div class="text-content">
               <a href="{{ collectionpage }}">
-                <h2 class="short-title" style="color: {{ section.settings.colorText }};">
+                <h2 class="short-title" style="color: {{ section.settings.colorText1 }};">
                   <strong>{{ subcategory.short_title }}</strong>
                 </h2>
               </a>
               <a href="{{ collectionpage }}">
-                <h1 class="marketing-title" style="color: {{ section.settings.colorText }};">
+                <h1 class="marketing-title" style="color: {{ section.settings.colorText1 }};">
                   <strong>{{ subcategory.marketing_title }}</strong>
                 </h1>
               </a>
               <a href="{{ collectionpage }}">
-                <p class="sub-description" style="color: {{ section.settings.colorText }};">
+                <p class="sub-description" style="color: {{ section.settings.colorText1 }};">
                   {{ subcategory.marketing_description }}
                 </p>
               </a>
@@ -126,6 +126,12 @@
       "id": "colorText",
       "label": "Text color",
       "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "colorText1",
+      "label": "Text color",
+      "default": "#ffffff"
     },
     {
     "type": "select",
