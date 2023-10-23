@@ -17,8 +17,8 @@
         "subid": 1,
         "colnum": 3,
         "box_position": "left",
-        "colorText": "#000000",
-        "Color": "#f3efea",
+        "colorText": "#ffffff",
+        "Color": "#363534",
         "ColorImageCollections": "#f3efea",
         "colorItemsCollections": "#ffffff"
       }
