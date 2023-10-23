@@ -4,7 +4,8 @@
       "type": "macro-category-1",
       "settings": {
         "colnum": 3,
-        "titleAndSubtitleColor": "#f68c2c",
+        "titleAndSubtitleColor": "#ffffff",
+        "titleAndSubtitleColor1": "#f68c2c",
         "saleTextColor": "#ffffff",
         "backgroundColor": "#363534",
         "backgroundSaleColor": "#c60f2f"
