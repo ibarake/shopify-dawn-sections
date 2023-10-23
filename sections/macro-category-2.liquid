@@ -35,12 +35,13 @@
 
         <div class="section-bottom-2">
         {% assign subsize = subcategoriescollections | size %}
+        {{ subsize }}
           {% if subsize  == 2 %}
             <style>
               .section-bottom-2{
                 width: 63%;
               }
-              </style>
+            </style>
             {% endif %}
           {% for collection in subcategoriescollections.value %}
             {% if forloop.index <= section.settings.colnum %}
