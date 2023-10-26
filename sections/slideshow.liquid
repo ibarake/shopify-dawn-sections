@@ -118,7 +118,7 @@
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
       </style>
-      <div
+      <a
         class="slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
@@ -181,7 +181,7 @@
             {%- endif -%}
           </div>
         </div>
-      </div>
+      </a>
     {%- endfor -%}
   </div>
 
