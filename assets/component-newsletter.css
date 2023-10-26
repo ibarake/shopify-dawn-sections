@@ -41,7 +41,7 @@
     justify-content: flex-start;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .newsletter-form__button {
   width: 20%;
 }
