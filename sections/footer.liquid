@@ -330,7 +330,12 @@
     </div>
   {%- endif -%}
 
-  <div class="footer__content-bottom" style="display: none;">
+  <div
+    class="footer__content-bottom"
+    {% if section.settings.enable_bottom == false %}
+      style="display: none;"
+    {% endif %}
+  >
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
@@ -723,6 +728,12 @@
       "type": "header",
       "content": "t:sections.footer.settings.header__1.content",
       "info": "t:sections.footer.settings.header__1.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_bottom",
+      "default": true,
+      "label": "Activar debajo del footer"
     },
     {
       "type": "checkbox",
