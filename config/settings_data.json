@@ -260,6 +260,7 @@
           "textInput": "",
           "backgroundButton": "",
           "textButton": "",
+          "enable_bottom": false,
           "newsletter_enable": true,
           "newsletter_heading": "¡Suscribete al newsletter!",
           "phone-number": "+57 (300) 913-2465",
