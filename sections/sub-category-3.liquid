@@ -53,7 +53,7 @@
           {% for collection in collections.value %}
             {% assign collectionpage = collection.url %}
             {% if forloop.index <= section.settings.colnum %}
-              <a href="{{ collection.url }}">
+              <a href="{{ collectionpage }}">
                 <div
                   class="column  {% if section.settings.Border_style == "style1"%} style1 {% elsif section.settings.Border_style == "style2" %} style2 {% else %} style3 {% endif %}"
                   style="background-color: {{ section.settings.colorItemsCollections }};"
@@ -66,14 +66,14 @@
                       style="background-color: {{ section.settings.ColorImageCollections }};"
                     >
                   </a>
-                  <a href="{{ collection.url }}">
+                  <a href="{{ collectionpage }}">
                     <h2 class="sub-link" style="color: {{ section.settings.colorText }};">{{ collection.title }}</h2>
                   </a>
                   <div
                     class="link-shopNow {% if section.settings.Border_style == "style1"%} hidden {% endif %}"
                     style="color: {{ section.settings.colorText }}; border-color:{{ section.settings.colorText }};"
                   >
-                    <a href="{{ collection.url }}" style="color: {{ section.settings.colorText }};">
+                    <a href="{{ collectionpage }}" style="color: {{ section.settings.colorText }};">
                       <strong>Comprar</strong>
                     </a>
                   </div>
