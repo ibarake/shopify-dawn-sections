@@ -128,7 +128,6 @@ svg.next-icon {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  overflow-x: scroll;
 }
 .section-bottom-2 .column {
   width: 25%;
