@@ -7,14 +7,14 @@
     {% for collection in collections.value %}
       {% assign collectionpage = collection.url %}
       {% if forloop.index == section.settings.subid %}
-        {% assign subimageurl = subcategory.image | image_url %}
+        {% assign colimageurl = collection.custom.roomimage | image_url %}
         <div class="section-container-sub-4">
           <style>
             .section-container-sub-4{
               {% if section.settings.box_position == "left" %} flex-direction: row; {% else %}flex-direction: row-reverse;{% endif %}
             }
           </style>
-          <div class="left" style="background-image: url('{{ subimageurl }}')"></div>
+          <div class="left" style="background-image: url('{{ colimageurl }}')"></div>
           <div class="right" style="grid-template-columns: repeat({{ section.settings.colnum }}, 1fr)">
             <div class="item" style="background-color:{{ section.settings.Color }};">
               <a href="{{ subcategory.system.url }}" class="text-item">
