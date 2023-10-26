@@ -113,7 +113,7 @@
     data-speed="{{ section.settings.change_slides_speed }}"
   >
     {%- for block in section.blocks -%}
-      <a href="{{ block.settings.links }}">
+      <a href="{{ block.settings.link }}">
         <style>
           #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
             opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
