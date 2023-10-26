@@ -21,9 +21,10 @@
         "Color": "#363534",
         "colorItemsCollections": "#ffffff",
         "ColorImageCollections": "#f3efea",
-        "colorText": "#ffffff",
+        "colorText": "#121212",
+        "colorText1": "#ffffff",
         "box_position": "left",
-        "Border_style": "style1"
+        "Border_style": "style3"
       }
     },
     "d4cda536-1515-4918-8e81-ea90ac66e3fe": {

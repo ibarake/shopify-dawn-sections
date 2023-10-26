@@ -60,7 +60,7 @@
                 >
                   <a href="{{ collectionpage }}">
                     <img
-                      src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.image.room | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
+                      src="{% if section.settings.Border_style == "style3"%} {{ collection.metafields.custom.roomimage | image_url }} {% else %}{{ collection.image | image_url }}{% endif %}"
                       alt="sub image"
                       class="img"
                       style="background-color: {{ section.settings.ColorImageCollections }};"
