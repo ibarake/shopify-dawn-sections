@@ -487,7 +487,7 @@ p.collection-title.style3 {
   }
   .section-container-3 .right {
     width: 100%;
-    height: 24em;
+    height: auto;
   }
   .section-bottom-3 .column {
     flex: 1 0 100%;
