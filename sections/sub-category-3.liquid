@@ -40,7 +40,10 @@
             </div>
           </div>
 
-          <div class="right" style="background-image: url('{{ subcategory.image | image_url }}')">
+          <div
+            class="right"
+            style="background-image: url('{{ subcategory.image | image_url }}'); background-size: cover;"
+          >
             <a
               class="right"
               href="{{ collectionpage }}"
