@@ -214,6 +214,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "b96712ea-d296-4dd8-81f9-be6e4c29af2f": {
+            "type": "logo",
+            "settings": {
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -227,11 +232,18 @@
               "heading": "Legal",
               "menu": "footer-legal"
             }
+          },
+          "37fc670f-ace4-437f-ae8a-a2ebb5e251a5": {
+            "type": "newsletter",
+            "settings": {
+            }
           }
         },
         "block_order": [
+          "b96712ea-d296-4dd8-81f9-be6e4c29af2f",
           "footer-0",
-          "bf422567-176c-4e44-8344-f61f72f2b685"
+          "bf422567-176c-4e44-8344-f61f72f2b685",
+          "37fc670f-ace4-437f-ae8a-a2ebb5e251a5"
         ],
         "custom_css": [
           ".footer__copyright {display: none;}",
