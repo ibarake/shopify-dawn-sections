@@ -16,18 +16,18 @@
             }
           </style>
           <div class="left" style="background-color: {{ section.settings.Color }};">
-            <a href="{{ subcategories.url }}">
+            <a href="{{ subcategory.url }}">
               <p class="bolded-h2" style="color: {{ section.settings.colorText }};">
                 <strong>{{ subcategory.macro_section_title }}</strong>
               </p>
             </a>
-            <a href="{{ subcategories.url }}" style="color: {{ section.settings.colorText }};">
+            <a href="{{ subcategory.url }}" style="color: {{ section.settings.colorText }};">
               <div class="link-shop" style=" border-color:{{ section.settings.colorText }};">
                 <strong>Ver todo {{ subcategory.name }}</strong>
               </div>
             </a>
           </div>
-          <a href="{{ subcategories.url }}" class="right" style="background-image: url('{{ subimageurl }}')"> </a>
+          <a href="{{ subcategory.url }}" class="right" style="background-image: url('{{ subimageurl }}')"> </a>
         </div>
 
         <div class="section-bottom-2">
