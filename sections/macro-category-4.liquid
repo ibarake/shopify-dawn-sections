@@ -11,8 +11,7 @@
       {% for subcategory in subcategories.value %}
         {% if forloop.index <= limit %}
           <div class="subcategory">
-            {% assign subcategoriespage = subcategory.page.value %}
-            <a href="{{ subcategoriespage.url }}">
+            <a href="{{ subcategories.url }}">
               <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
                 <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
               </div>
