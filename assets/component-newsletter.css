@@ -41,9 +41,13 @@
     justify-content: flex-start;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .newsletter-form__button {
   width: 20%;
+}
+  .field__label, .customer .field label {
+    font-size: 1.2rem;
+    left: calc(var(--inputs-border-width) + 2rem);
 }
 }
 
