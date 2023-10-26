@@ -49,54 +49,80 @@
             assign footer_grid_class = 'grid--3-col-tablet'
           endif
         -%}
-        <div class="logo-footer">
-          <style>
+        <style>
+           .logo-footer {
+            margin-bottom: 5%;
+            display:flex;
+           }
+           @media screen and (max-width: 678px) {
              .logo-footer {
-              margin-bottom: 5%;
-              display:flex;
-             }
-             @media screen and (max-width: 678px) {
-               .logo-footer {
-                 display:block;
-               }
-               .footer-logo-right {
-                   margin-left: 0 !important;
-               }
-               .logo-footer .field {
-                   width: 100% !important;
-               }
-               .footer-block__heading {
-                   font-size: calc(var(--font-heading-scale) * 1.4rem);
-               }
-             }
-             .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet .footer-block__heading {
-             margin-bottom:0;
-             }
-             svg.icon-phone {
-                 margin-right: 2rem;
+               display:block;
              }
              .footer-logo-right {
-                 margin-left: 22%;
-             }
-             .logo-footer .newsletter-form__button {
-             width: auto;
-             margin: 0px 2px;
-             height: 3em;
-             padding: 4%;
-             }
-             .newsletter-form{
-             margin:0;
+                 margin-left: 0 !important;
              }
              .logo-footer .field {
-             width: 140%;
+                 width: 100% !important;
              }
-            .logo-footer .field__label{
-             font-size: 14px;
+             .footer-block__heading {
+                 font-size: calc(var(--font-heading-scale) * 1.4rem);
              }
-          </style>
-        </div>
+           }
+           .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet .footer-block__heading {
+           margin-bottom:0;
+           }
+           svg.icon-phone {
+               margin-right: 2rem;
+           }
+           .footer-logo-right {
+               margin-left: 22%;
+           }
+           .logo-footer .newsletter-form__button {
+           width: auto;
+           margin: 0px 2px;
+           height: 3em;
+           padding: 4%;
+           }
+           .newsletter-form{
+           margin:0;
+           }
+           .logo-footer .field {
+           width: 140%;
+           }
+          .logo-footer .field__label{
+           font-size: 14px;
+           }
+        </style>
 
         <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
+          <div class="footer-logo-left footer-block grid__item">
+            {%- if request.page_type == 'index' -%}
+              <h1 class="header__heading">
+            {%- endif -%}
+            <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+              {%- if section.settings.logo != blank -%}
+                {%- assign logo_alt = section.settings.logo.alt | default: shop.name | escape -%}
+                {%- assign logo_height = section.settings.logo_width
+                  | divided_by: section.settings.logo.aspect_ratio
+                -%}
+                {{
+                  section.settings.logo
+                  | image_url: width: section.settings.width
+                  | image_tag:
+                    class: 'header__heading-logo',
+                    widths: '50, 100, 150, 200, 250, 300, 400, 500',
+                    height: logo_height,
+                    width: section.settings.logo_width,
+                    alt: logo_alt
+                }}
+              {%- else -%}
+                <span class="h2">{{ shop.name }}</span>
+              {%- endif -%}
+            </a>
+            {%- if request.page_type == 'index' -%}
+              </h1>
+            {%- endif -%}
+          </div>
           <div class="footer-logo-right footer-block grid__item">
             {%- if section.settings.newsletter_enable -%}
               <div class="footer-block__newsletter">
@@ -172,34 +198,7 @@
               </div>
             {%- endif -%}
           </div>
-          <div class="footer-logo-left footer-block grid__item">
-            {%- if request.page_type == 'index' -%}
-              <h1 class="header__heading">
-            {%- endif -%}
-            <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-              {%- if section.settings.logo != blank -%}
-                {%- assign logo_alt = section.settings.logo.alt | default: shop.name | escape -%}
-                {%- assign logo_height = section.settings.logo_width
-                  | divided_by: section.settings.logo.aspect_ratio
-                -%}
-                {{
-                  section.settings.logo
-                  | image_url: width: section.settings.width
-                  | image_tag:
-                    class: 'header__heading-logo',
-                    widths: '50, 100, 150, 200, 250, 300, 400, 500',
-                    height: logo_height,
-                    width: section.settings.logo_width,
-                    alt: logo_alt
-                }}
-              {%- else -%}
-                <span class="h2">{{ shop.name }}</span>
-              {%- endif -%}
-            </a>
-            {%- if request.page_type == 'index' -%}
-              </h1>
-            {%- endif -%}
-          </div>
+
           {%- for block in section.blocks -%}
             <div
               class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}"
