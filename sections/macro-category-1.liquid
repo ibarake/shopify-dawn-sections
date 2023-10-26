@@ -16,7 +16,6 @@
     <div class="column-container">
       {% for subcategory in subcategories.value %}
         {% if forloop.index <= section.settings.colnum %}
-          {% assign subcategoriespage = subcategory.page.value %}
           <div class="column">
             <div class="sub-image-container">
               {% if subcategory.offertag != '' %}
@@ -24,7 +23,7 @@
                   <p style="color: {{ section.settings.saleTextColor }};">{{ subcategory.offertag }}</p>
                 </div>
               {% endif %}
-              <a href="{{ subcategoriespage.url }}">
+              <a href="{{ subcategories.url }}">
                 <img src="{{ subcategory.image | image_url }}" alt="sub image">
                 <div class="link-container">
                   <h2 class="macro-link" style="color: {{ section.settings.titleAndSubtitleColor1 }};">
