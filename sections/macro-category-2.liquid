@@ -59,11 +59,14 @@
             <script>
               document.addEventListener('DOMContentLoaded', () => {
                 // Create a new div element
+                var ele = document.querySelectorAll('section-bottom-2');
                 var newDiv = document.createElement("div");
 
-                // Append the div to the body
-                document.body.appendChild(newDiv);
-                document.body.appendChild(newDiv);
+                ele.forEach((l) => {
+                  // Append the div to the body
+                  l.body.appendChild(newDiv);
+                  l.body.appendChild(newDiv);
+                })
               })
             </script>
           {% endif %}
@@ -71,10 +74,13 @@
             <script>
               document.addEventListener('DOMContentLoaded', () => {
                 // Create a new div element
+                var ele = document.querySelectorAll('section-bottom-2');
                 var newDiv = document.createElement("div");
 
-                // Append the div to the body
-                document.body.appendChild(newDiv);
+                ele.forEach((l) => {
+                  // Append the div to the body
+                  l.body.appendChild(newDiv);
+                })
               })
             </script>
           {% endif %}
