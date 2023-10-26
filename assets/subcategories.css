@@ -493,6 +493,7 @@ p.collection-title.style3 {
     flex: 1 0 100%;
     max-width: 50%;
     margin-right: 10px;
+    justify-content: flex-start;
   }
   .section-bottom-3 a {
     width: 100%;
