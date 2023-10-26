@@ -245,6 +245,9 @@
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
                   </div>
+                {% when 'logo' %}
+
+                {% when 'newsletter' %}
               {%- endcase -%}
             </div>
           {%- endfor -%}
