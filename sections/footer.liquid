@@ -123,81 +123,6 @@
               </h1>
             {%- endif -%}
           </div>
-          <div class="footer-logo-right footer-block grid__item">
-            {%- if section.settings.newsletter_enable -%}
-              <div class="footer-block__newsletter">
-                {%- if section.settings.newsletter_heading != blank -%}
-                  <h2 class="footer-block__heading">
-                    {% render 'icon-gmail' %}
-                    {{ section.settings.newsletter_heading | escape }}
-                  </h2>
-                {%- endif -%}
-                {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
-                  <input type="hidden" name="contact[tags]" value="newsletter">
-                  <div class="newsletter-form__field-wrapper">
-                    <div class="field" style="background: {{ section.settings.backgroundButton}}">
-                      <input
-                        id="NewsletterForm--{{ section.id }}"
-                        type="email"
-                        name="contact[email]"
-                        class="field__input"
-                        value="{{ form.email }}"
-                        aria-required="true"
-                        autocorrect="off"
-                        autocapitalize="off"
-                        autocomplete="email"
-                        {% if form.errors %}
-                          autofocus
-                          aria-invalid="true"
-                          aria-describedby="ContactFooter-error"
-                        {% elsif form.posted_successfully? %}
-                          aria-describedby="ContactFooter-success"
-                        {% endif %}
-                        placeholder="{{ 'newsletter.label' | t }}"
-                        required
-                        style="background: {{ section.settings.backgroundInput }}; color: {{ section.settings.textInput }};"
-                      >
-                      <label
-                        class="field__label"
-                        for="NewsletterForm--{{ section.id }}"
-                        style="color: {{ section.settings.textInput }};"
-                      >
-                        {{ 'newsletter.label' | t }}
-                      </label>
-                      <button
-                        type="submit"
-                        class="newsletter-form__button field__button"
-                        name="commit"
-                        id="Subscribe"
-                        aria-label="{{ 'newsletter.button_label' | t }}"
-                        style="background: {{ section.settings.backgroundButton }}; color: {{ section.settings.textButton }};"
-                      >
-                        Registrarse
-                      </button>
-                    </div>
-                    {%- if form.errors -%}
-                      <small class="newsletter-form__message form__message" id="ContactFooter-error">
-                        {%- render 'icon-error' -%}
-                        {{- form.errors.translated_fields.email | capitalize }}
-                        {{ form.errors.messages.email -}}
-                      </small>
-                    {%- endif -%}
-                  </div>
-                  {%- if form.posted_successfully? -%}
-                    <h3
-                      class="newsletter-form__message newsletter-form__message--success form__message"
-                      id="ContactFooter-success"
-                      tabindex="-1"
-                      autofocus
-                    >
-                      {% render 'icon-success' -%}
-                      {{- 'newsletter.success' | t }}
-                    </h3>
-                  {%- endif -%}
-                {%- endform -%}
-              </div>
-            {%- endif -%}
-          </div>
 
           {%- for block in section.blocks -%}
             <div
@@ -248,6 +173,81 @@
                 {% when 'logo' %}
 
                 {% when 'newsletter' %}
+                  <div class="footer-block__details-content footer-logo-right">
+                    {%- if section.settings.newsletter_enable -%}
+                      <div class="footer-block__newsletter">
+                        {%- if section.settings.newsletter_heading != blank -%}
+                          <h2 class="footer-block__heading">
+                            {% render 'icon-gmail' %}
+                            {{ section.settings.newsletter_heading | escape }}
+                          </h2>
+                        {%- endif -%}
+                        {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
+                          <input type="hidden" name="contact[tags]" value="newsletter">
+                          <div class="newsletter-form__field-wrapper">
+                            <div class="field" style="background: {{ section.settings.backgroundButton}}">
+                              <input
+                                id="NewsletterForm--{{ section.id }}"
+                                type="email"
+                                name="contact[email]"
+                                class="field__input"
+                                value="{{ form.email }}"
+                                aria-required="true"
+                                autocorrect="off"
+                                autocapitalize="off"
+                                autocomplete="email"
+                                {% if form.errors %}
+                                  autofocus
+                                  aria-invalid="true"
+                                  aria-describedby="ContactFooter-error"
+                                {% elsif form.posted_successfully? %}
+                                  aria-describedby="ContactFooter-success"
+                                {% endif %}
+                                placeholder="{{ 'newsletter.label' | t }}"
+                                required
+                                style="background: {{ section.settings.backgroundInput }}; color: {{ section.settings.textInput }};"
+                              >
+                              <label
+                                class="field__label"
+                                for="NewsletterForm--{{ section.id }}"
+                                style="color: {{ section.settings.textInput }};"
+                              >
+                                {{ 'newsletter.label' | t }}
+                              </label>
+                              <button
+                                type="submit"
+                                class="newsletter-form__button field__button"
+                                name="commit"
+                                id="Subscribe"
+                                aria-label="{{ 'newsletter.button_label' | t }}"
+                                style="background: {{ section.settings.backgroundButton }}; color: {{ section.settings.textButton }};"
+                              >
+                                Registrarse
+                              </button>
+                            </div>
+                            {%- if form.errors -%}
+                              <small class="newsletter-form__message form__message" id="ContactFooter-error">
+                                {%- render 'icon-error' -%}
+                                {{- form.errors.translated_fields.email | capitalize }}
+                                {{ form.errors.messages.email -}}
+                              </small>
+                            {%- endif -%}
+                          </div>
+                          {%- if form.posted_successfully? -%}
+                            <h3
+                              class="newsletter-form__message newsletter-form__message--success form__message"
+                              id="ContactFooter-success"
+                              tabindex="-1"
+                              autofocus
+                            >
+                              {% render 'icon-success' -%}
+                              {{- 'newsletter.success' | t }}
+                            </h3>
+                          {%- endif -%}
+                        {%- endform -%}
+                      </div>
+                    {%- endif -%}
+                  </div>
               {%- endcase -%}
             </div>
           {%- endfor -%}
