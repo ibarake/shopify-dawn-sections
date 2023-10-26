@@ -7,7 +7,7 @@
     {% for collection in collections.value %}
       {% assign collectionpage = collection.url %}
       {% if forloop.index == section.settings.subid %}
-        {% assign colimageurl = collection.custom.roomimage | image_url %}
+        {% assign colimageurl = collection.metafields.custom.roomimage | image_url %}
         <div class="section-container-sub-4">
           <style>
             .section-container-sub-4{
