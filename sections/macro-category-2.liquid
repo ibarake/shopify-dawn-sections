@@ -55,6 +55,29 @@
               </div>
             {% endif %}
           {% endfor %}
+          {% if subsize == 1 %}
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                // Create a new div element
+                var newDiv = document.createElement("div");
+
+                // Append the div to the body
+                document.body.appendChild(newDiv);
+                document.body.appendChild(newDiv);
+              })
+            </script>
+          {% endif %}
+          {% if subsize == 2 %}
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                // Create a new div element
+                var newDiv = document.createElement("div");
+
+                // Append the div to the body
+                document.body.appendChild(newDiv);
+              })
+            </script>
+          {% endif %}
           {% if subsize > 3 %}
             <style>
               .section-bottom-2{
