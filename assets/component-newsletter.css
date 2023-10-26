@@ -43,7 +43,7 @@
 }
 
 .newsletter-form__button {
-  width: 4.4rem;
+  width: 50%;
   margin: 0;
   right: var(--inputs-border-width);
   top: 0;
