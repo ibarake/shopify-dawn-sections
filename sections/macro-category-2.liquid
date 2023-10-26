@@ -58,29 +58,34 @@
           {% if subsize == 1 %}
             <script>
               document.addEventListener('DOMContentLoaded', () => {
-                // Create a new div element
-                var ele = document.querySelectorAll('.section-bottom-2');
-                var newDiv = document.createElement("div");
+                  // Get all elements with the class 'section-bottom-2'
+                  var eles = document.querySelectorAll('.section-bottom-2');
 
-                ele.forEach((l) => {
-                  // Append the div to the body
-                  l.body.appendChild(newDiv);
-                  l.body.appendChild(newDiv);
-                })
+                  eles.forEach((l) => {
+                      // Create a new div element for each iteration
+                      var newDiv = document.createElement("div");
+                      var newDiv1 = document.createElement("div");
+
+                      // Append the new div to the element 'l'
+                      l.appendChild(newDiv);
+                      l.appendChild(newDiv1);
+                  })
               })
             </script>
           {% endif %}
           {% if subsize == 2 %}
             <script>
               document.addEventListener('DOMContentLoaded', () => {
-                // Create a new div element
-                var ele = document.querySelectorAll('.section-bottom-2');
-                var newDiv = document.createElement("div");
+                  // Get all elements with the class 'section-bottom-2'
+                  var eles = document.querySelectorAll('.section-bottom-2');
 
-                ele.forEach((l) => {
-                  // Append the div to the body
-                  l.body.appendChild(newDiv);
-                })
+                  eles.forEach((l) => {
+                      // Create a new div element for each iteration
+                      var newDiv = document.createElement("div");
+
+                      // Append the new div to the element 'l'
+                      l.appendChild(newDiv);
+                  })
               })
             </script>
           {% endif %}
