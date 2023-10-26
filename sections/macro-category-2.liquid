@@ -8,7 +8,6 @@
     {% for subcategory in subcategories.value %}
       {% if forloop.index == section.settings.subid %}
         {% assign subcategoriescollections = subcategory.collections %}
-        {% assign subcategoriespage = subcategory.page.value %}
         {% assign subimageurl = subcategory.image | image_url %}
         <div class="section-container-2">
           <style>
@@ -17,20 +16,18 @@
             }
           </style>
           <div class="left" style="background-color: {{ section.settings.Color }};">
-            <a href="{{ subcategoriespage.url }}">
+            <a href="{{ subcategories.url }}">
               <p class="bolded-h2" style="color: {{ section.settings.colorText }};">
                 <strong>{{ subcategory.macro_section_title }}</strong>
               </p>
             </a>
-            <a href="{{ subcategoriespage.url }}" style="color: {{ section.settings.colorText }};">
-            <div class="link-shop" style=" border-color:{{ section.settings.colorText }};">
-              
+            <a href="{{ subcategories.url }}" style="color: {{ section.settings.colorText }};">
+              <div class="link-shop" style=" border-color:{{ section.settings.colorText }};">
                 <strong>Ver todo {{ subcategory.name }}</strong>
-              
-            </div>
-              </a>
+              </div>
+            </a>
           </div>
-          <a href="{{ subcategoriespage.url }}" class="right" style="background-image: url('{{ subimageurl }}')"> </a>
+          <a href="{{ subcategories.url }}" class="right" style="background-image: url('{{ subimageurl }}')"> </a>
         </div>
 
         <div class="section-bottom-2">
@@ -58,13 +55,13 @@
               </div>
             {% endif %}
           {% endfor %}
-        {% if subsize  == 2 %}
+          {% if subsize == 2 %}
             <style>
               .section-bottom-2{
                 width: 63% !important;
               }
             </style>
-            {% endif %}
+          {% endif %}
         </div>
       {% endif %}
     {% endfor %}
