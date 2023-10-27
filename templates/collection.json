@@ -42,6 +42,7 @@
       "settings": {
         "colnum": 3,
         "titleAndSubtitleColor": "#393731",
+        "titleAndSubtitleColor1": "#ffffff",
         "saleTextColor": "#ffffff",
         "backgroundColor": "#f3f3f3",
         "backgroundSaleColor": "#c60f2f"
@@ -49,9 +50,12 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
       "settings": {
         "products_per_page": 24,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
