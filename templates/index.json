@@ -231,6 +231,9 @@
         "b4866806-2c32-4c73-a33f-0eb4ae426949",
         "2026054b-a0f4-43f2-8830-68c7b90e339b"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Comedores",
         "heading_size": "h1",
@@ -568,7 +571,7 @@
       "settings": {
         "title": "Júntalos con sus estilos",
         "heading_size": "h1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
         "show_view_all": false,
