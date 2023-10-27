@@ -317,17 +317,20 @@
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3"
       ],
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
       "settings": {
         "title": "Sofás",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
