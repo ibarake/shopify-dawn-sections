@@ -414,7 +414,6 @@
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-2"
       ],
       "custom_css": [
-        "img {object-fit: cover;}",
         ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
       ],
       "settings": {
