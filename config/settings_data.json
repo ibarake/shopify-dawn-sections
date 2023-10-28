@@ -20,8 +20,8 @@
     "body_scale": 100,
     "page_width": 90,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_horizontal": 4,
+    "spacing_grid_vertical": 4,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -43,10 +43,10 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 12,
     "inputs_shadow_blur": 5,
-    "card_style": "card",
+    "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "background-1",
+    "card_color_scheme": "accent-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -57,7 +57,7 @@
     "collection_card_style": "standard",
     "collection_card_image_padding": 0,
     "collection_card_text_alignment": "left",
-    "collection_card_color_scheme": "background-2",
+    "collection_card_color_scheme": "accent-1",
     "collection_card_border_thickness": 0,
     "collection_card_border_opacity": 10,
     "collection_card_corner_radius": 0,
@@ -624,7 +624,7 @@
   "platform_customizations": {
     "custom_css": [
       ".banner__box {display: none;}",
-      "p {line-height: 1em;}"
+      "p {line-height: 0.5em;}"
     ]
   }
 }

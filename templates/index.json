@@ -225,7 +225,7 @@
         "2026054b-a0f4-43f2-8830-68c7b90e339b"
       ],
       "custom_css": [
-
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
       ],
       "settings": {
         "title": "Comedores",
@@ -314,7 +314,8 @@
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3"
       ],
       "custom_css": [
-        "img {object-fit: contain;}"
+        "img {object-fit: contain;}",
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
       ],
       "settings": {
         "title": "Sofás",
@@ -357,7 +358,8 @@
         "969f180f-3c5b-4291-9058-f41a4c54e7e5"
       ],
       "custom_css": [
-        "img {object-fit: fit;}"
+        "img {object-fit: fit;}",
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
       ],
       "settings": {
         "heading": "Exterior",
@@ -412,7 +414,8 @@
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-2"
       ],
       "custom_css": [
-        "img {object-fit: contain;}"
+        "img {object-fit: contain;}",
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
       ],
       "settings": {
         "title": "Decoración",
