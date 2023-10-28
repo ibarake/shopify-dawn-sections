@@ -329,6 +329,44 @@
         "padding_bottom": 4
       }
     },
+    "54b97664-3cf4-44af-97ad-c90fe7df232c": {
+      "type": "collage",
+      "blocks": {
+        "template--17657980813619__54b97664-3cf4-44af-97ad-c90fe7df232c-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "exterior"
+          }
+        },
+        "f462a52e-dd20-45f7-ba80-503373a8612b": {
+          "type": "collection",
+          "settings": {
+            "collection": "accesorios-exteriores"
+          }
+        },
+        "969f180f-3c5b-4291-9058-f41a4c54e7e5": {
+          "type": "collection",
+          "settings": {
+            "collection": "muebles-de-patio"
+          }
+        }
+      },
+      "block_order": [
+        "template--17657980813619__54b97664-3cf4-44af-97ad-c90fe7df232c-collection-1",
+        "f462a52e-dd20-45f7-ba80-503373a8612b",
+        "969f180f-3c5b-4291-9058-f41a4c54e7e5"
+      ],
+      "settings": {
+        "heading": "Exterior",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
       "type": "collection-list",
       "blocks": {
@@ -382,44 +420,6 @@
         "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "54b97664-3cf4-44af-97ad-c90fe7df232c": {
-      "type": "collage",
-      "blocks": {
-        "template--17657980813619__54b97664-3cf4-44af-97ad-c90fe7df232c-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "exterior"
-          }
-        },
-        "f462a52e-dd20-45f7-ba80-503373a8612b": {
-          "type": "collection",
-          "settings": {
-            "collection": "accesorios-exteriores"
-          }
-        },
-        "969f180f-3c5b-4291-9058-f41a4c54e7e5": {
-          "type": "collection",
-          "settings": {
-            "collection": "muebles-de-patio"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__54b97664-3cf4-44af-97ad-c90fe7df232c-collection-1",
-        "f462a52e-dd20-45f7-ba80-503373a8612b",
-        "969f180f-3c5b-4291-9058-f41a4c54e7e5"
-      ],
-      "settings": {
-        "heading": "Exterior",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "background-1",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -595,8 +595,8 @@
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
-    "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
+    "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "6e5a2fea-fb53-490e-8639-337a3ddca284",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
