@@ -225,7 +225,8 @@
         "2026054b-a0f4-43f2-8830-68c7b90e339b"
       ],
       "custom_css": [
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}",
+        "img {object-fit: contain;}"
       ],
       "settings": {
         "title": "Comedores",
