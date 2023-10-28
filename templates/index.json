@@ -482,28 +482,28 @@
           "type": "product",
           "settings": {
             "product": "juego-de-accesorios-juego-de-5-natilain",
-            "second_image": false
+            "second_image": true
           }
         },
         "c875c8c1-d0ee-465a-ae39-d636811a70ac": {
           "type": "product",
           "settings": {
             "product": "juego-de-accesorios-juego-de-5-gentset",
-            "second_image": false
+            "second_image": true
           }
         },
-        "fee954fd-a524-4b6b-9110-34bd0351a48e": {
-          "type": "image",
+        "2116ac21-49e5-4f76-a919-e0cb4407c277": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/florero-azul-vidiro-ashley-colombia.png",
-            "image_padding": true
+            "product": "florero-lemmitt",
+            "second_image": true
           }
         }
       },
       "block_order": [
         "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1",
         "c875c8c1-d0ee-465a-ae39-d636811a70ac",
-        "fee954fd-a524-4b6b-9110-34bd0351a48e"
+        "2116ac21-49e5-4f76-a919-e0cb4407c277"
       ],
       "custom_css": [
         "img {object-fit: contain;}"
