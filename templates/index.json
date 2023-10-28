@@ -28,11 +28,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sofa-cama-comodo-lucina-ahsley.jpg",
             "image_r": "shopify:\/\/shop_images\/sofa-cama-comodo-lucina-ahsley.jpg",
-            "heading": "Image slide",
+            "heading": "Precios sin trucos | Sofás | Ashley Colombia",
             "heading_size": "h1",
             "subheading": "Precios sin crucos en Ashley Colombia",
             "button_label": "https:\/\/ashleycolombia.com\/search?q=lucina&options%5Bprefix%5D=last",
-            "link": "",
+            "link": "https:\/\/ashleycolombia.com\/search?q=lucina&options%5Bprefix%5D=last",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
