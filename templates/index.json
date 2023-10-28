@@ -466,7 +466,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "img {object-fit: content;}"
+        "img {object-fit: cover;}"
       ],
       "settings": {
         "title": "Oficina en casa",
@@ -477,8 +477,8 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
