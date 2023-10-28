@@ -492,20 +492,21 @@
             "second_image": false
           }
         },
-        "9980586f-a91c-4ef6-8de2-207a89d87fb5": {
-          "type": "collection",
+        "fee954fd-a524-4b6b-9110-34bd0351a48e": {
+          "type": "image",
           "settings": {
-            "collection": "jarrones-y-botellas"
+            "image": "shopify:\/\/shop_images\/floreros-vidrio-colores-decoracion-ashley.png",
+            "image_padding": true
           }
         }
       },
       "block_order": [
         "template--17657980813619__6e5a2fea-fb53-490e-8639-337a3ddca284-product-1",
         "c875c8c1-d0ee-465a-ae39-d636811a70ac",
-        "9980586f-a91c-4ef6-8de2-207a89d87fb5"
+        "fee954fd-a524-4b6b-9110-34bd0351a48e"
       ],
       "custom_css": [
-
+        "img {object-fit: contain;}"
       ],
       "settings": {
         "heading": "Jarrones y Floreros",
