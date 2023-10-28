@@ -466,7 +466,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "img {object-fit: content-box;}"
+        "img {object-fit: content;}"
       ],
       "settings": {
         "title": "Oficina en casa",
