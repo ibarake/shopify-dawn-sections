@@ -246,7 +246,7 @@
         "2026054b-a0f4-43f2-8830-68c7b90e339b"
       ],
       "custom_css": [
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}",
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
         "img {object-fit: contain;}"
       ],
       "settings": {
@@ -337,7 +337,7 @@
       ],
       "custom_css": [
         "img {object-fit: contain;}",
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
       ],
       "settings": {
         "title": "Sofás",
@@ -381,7 +381,7 @@
       ],
       "custom_css": [
         "img {object-fit: fit;}",
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
       ],
       "settings": {
         "heading": "Exterior",
@@ -436,7 +436,7 @@
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-2"
       ],
       "custom_css": [
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 15px;}"
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
       ],
       "settings": {
         "title": "Decoración",
@@ -538,7 +538,8 @@
       ],
       "disabled": true,
       "custom_css": [
-        "img {object-fit: contain;}"
+        "img {object-fit: contain;}",
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
       ],
       "settings": {
         "title": "Júntalos con sus estilos",
