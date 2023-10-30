@@ -17,7 +17,7 @@
       "type": "sub-category-3",
       "custom_css": [
         ".text-content {margin-left: 13%;}",
-        "@media only screen and (max-width: 768px) {.text-content {margin-left: 0%;}}"
+        "@media only screen and (max-width: 768px) {.text-content {margin-left: 0%; }}"
       ],
       "settings": {
         "subid": 5,
@@ -51,6 +51,9 @@
     },
     "f8d47ae2-b6c4-42c5-a2bb-9099a8717266": {
       "type": "sub-category-5",
+      "custom_css": [
+        "p{line-height: 1em;}"
+      ],
       "settings": {
         "Color": "#f3f3f3",
         "colorText": "#000000",
