@@ -204,7 +204,8 @@
         "d9a57b26-d340-4d4e-91bb-78f610ed24ef"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 768px) {.product-image {width: 120px; }}"
+        "@media only screen and (max-width: 768px) {.product-image {width: 120px; }}",
+        ".product-text {line-height: 18px;}"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -247,7 +248,8 @@
       ],
       "custom_css": [
         ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
-        "img {object-fit: contain;}"
+        "img {object-fit: contain;}",
+        ".icon-wrap {display: none;}"
       ],
       "settings": {
         "title": "Comedores",
@@ -337,7 +339,8 @@
       ],
       "custom_css": [
         "img {object-fit: contain;}",
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
+        ".icon-wrap {display: none;}"
       ],
       "settings": {
         "title": "Sofás",
@@ -436,7 +439,8 @@
         "template--17657980813619__7da19d1b-6f58-4850-886c-e0ca3efe7f97-featured_collection-2"
       ],
       "custom_css": [
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
+        ".icon-wrap {display: none;}"
       ],
       "settings": {
         "title": "Decoración",
