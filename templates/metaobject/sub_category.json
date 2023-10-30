@@ -32,6 +32,9 @@
     },
     "d4cda536-1515-4918-8e81-ea90ac66e3fe": {
       "type": "sub-category-4",
+      "custom_css": [
+        ".section-container-sub-4 {height: 900px;}"
+      ],
       "settings": {
         "subid": 3,
         "colnum": 2,
