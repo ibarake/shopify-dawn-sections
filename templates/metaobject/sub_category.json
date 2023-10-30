@@ -16,7 +16,8 @@
     "9d996973-a46d-4da1-a453-297fbcac065a": {
       "type": "sub-category-3",
       "custom_css": [
-        ".text-content {margin-left: 13%;}"
+        ".text-content {margin-left: 13%;}",
+        "@media only screen and (max-width: 768px) {.text-content {margin-left: 0%;}}"
       ],
       "settings": {
         "subid": 5,
@@ -33,7 +34,7 @@
     "d4cda536-1515-4918-8e81-ea90ac66e3fe": {
       "type": "sub-category-4",
       "custom_css": [
-        ".section-container-sub-4 {height: 900px;}"
+
       ],
       "settings": {
         "subid": 3,
