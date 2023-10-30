@@ -629,8 +629,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".banner__box {display: none;}",
-      "p {line-height: 0.5em;}"
+      ".banner__box {display: none;}"
     ]
   }
 }
