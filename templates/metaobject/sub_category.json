@@ -15,6 +15,9 @@
     },
     "9d996973-a46d-4da1-a453-297fbcac065a": {
       "type": "sub-category-3",
+      "custom_css": [
+        ".text-content {margin-left: 13%;}"
+      ],
       "settings": {
         "subid": 5,
         "colnum": 3,
