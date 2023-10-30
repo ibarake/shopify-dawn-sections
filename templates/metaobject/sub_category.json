@@ -9,6 +9,7 @@
     },
     "8099f8d7-931e-4dfc-a7cf-1f02097b832b": {
       "type": "sub-category-2",
+      "disabled": true,
       "settings": {
         "circle_color": "#f9f9f9"
       }
@@ -52,7 +53,7 @@
     "f8d47ae2-b6c4-42c5-a2bb-9099a8717266": {
       "type": "sub-category-5",
       "custom_css": [
-        "p{line-height: 1em;}"
+        "p {line-height: 1em;}"
       ],
       "settings": {
         "Color": "#f3f3f3",
