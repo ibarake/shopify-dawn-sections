@@ -57,7 +57,6 @@
                 {%- if card_collection.metafields.custom.roomimage.width >= 750 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 750 }} 750w,{%- endif -%}
                 {%- if card_collection.metafields.custom.roomimage.width >= 1000 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 1000 }} 1000w,{%- endif -%}
                 {%- if card_collection.metafields.custom.roomimage.width >= 1500 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 1500 }} 1500w,{%- endif -%}
-                {%- if card_collection.metafields.custom.roomimage.width >= 3000 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 3000 }} 3000w,{%- endif -%}
                 {{ card_collection.metafields.custom.roomimage | image_url }} {{ card_collection.metafields.custom.roomimage.width }}w
               "
               src="{{ card_collection.metafields.custom.roomimage | image_url: width: 1500 }}"
