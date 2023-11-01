@@ -134,22 +134,20 @@
             {%- assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round -%}
             {{
               block.settings.image
-              | image_url: width: 3840
+              | image_url: width: 1920
               | image_tag:
-                loading: 'lazy',
                 height: height,
                 sizes: '100vw',
-                widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                widths: '375, 550, 750, 1920',
                 class: 'desktop-image'
             }}
             {{
               block.settings.image_r
-              | image_url: width: 3840
+              | image_url: width: 1920
               | image_tag:
-                loading: 'lazy',
                 height: height,
                 sizes: '100vw',
-                widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                widths: '375, 550, 750, 1920',
                 class: 'phone-image'
             }}
 
