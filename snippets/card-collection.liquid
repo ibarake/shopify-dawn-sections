@@ -51,9 +51,9 @@
           <div class="media media--transparent media--hover-effect">
             <img
               srcset="
-              {{ card_collection.metafields.custom.roomimage | image_url: width: 1500 }} 1500w,
+              {{ card_collection.metafields.custom.roomimage | image_url: width: 720 }} 720w,
               "
-              src="{{ card_collection.metafields.custom.roomimage | image_url: width: 1500 }}"
+              src="{{ card_collection.metafields.custom.roomimage | image_url: width: 720 }}"
               sizes="
                 (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
                 (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
