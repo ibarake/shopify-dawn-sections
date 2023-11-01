@@ -248,12 +248,7 @@
           <div class="left">
             <div class="collection-image">
               <a href="{{ block.settings.collection.url }}">
-                <img
-                  class="mainimage"
-                  src="{{ block.settings.collection.metafields.custom.roomimage | image_url: width: '1280' }}"
-                  alt=""
-                  loading="lazy"
-                >
+                {{ block.settings.collection.metafields.custom.roomimage | image_url: width: 720 | image_tag: width: "720px", alt: block.settings.collection.metafields.custom.roomimage.alt, class: 'mainimage', loading: 'lazy' }}
               </a>
             </div>
             <div class="button-container">
@@ -288,11 +283,7 @@
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
-                    <img
-                      class="product-image"
-                      src="{{ product.images[0] | image_url }}"
-                      alt=""
-                    >
+                {{ product.images[0] | image_url: width: 200 | image_tag: width: "200px", alt: product.images[0].alt, class: 'product-image', loading: 'lazy' }}
                     <p class="product-text">
                       {% if forloop.index == 1 %}
                         {{ block.settings['poc-1'] }}
@@ -324,11 +315,7 @@
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
-                    <img
-                      class="product-image"
-                      src="{{ collection.image | image_url }}"
-                      alt=""
-                    >
+                {{ collection.image | image_url: width: 200 | image_tag: width: "200px", alt: collection.image.alt, class: 'product-image', loading: 'lazy' }}
                     <p class="product-text">
                       {% if forloop.index == 1 %}
                         {{ block.settings['poc-1'] }}
@@ -366,11 +353,7 @@
         <div class="left-right">
           <div class="left">
             <div class="collection-image">
-              <img
-                class="mainimage"
-                src="{{ block.settings.collection.metafields.custom.roomimage | image_url }}"
-                alt=""
-              >
+              {{ block.settings.collection.metafields.custom.roomimage | image_url: width: 720 | image_tag: width: "720px", alt: block.settings.collection.metafields.custom.roomimage.alt, class: 'mainimage', loading: 'lazy' }}
             </div>
             <div class="button-container">
               <a href="{{ collection.url }}" class="btn-collections-all">
@@ -405,11 +388,7 @@
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
-                    <img
-                      class="product-image"
-                      src="{{ product.images[0] | image_url }}"
-                      alt=""
-                    >
+                {{ product.images[0] | image_url: width: 200 | image_tag: width: "200px", alt: product.images[0].alt, class: 'product-image', loading: 'lazy' }}
                     <p class="product-text">
                       {% if forloop.index == 1 %}
                         {{ block.settings['poc-1'] }}
@@ -441,11 +420,7 @@
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
-                    <img
-                      class="product-image"
-                      src="{{ collection.image | image_url }}"
-                      alt=""
-                    >
+                {{ collection.image | image_url: width: 200 | image_tag: width: "200px", alt: collection.image.alt, class: 'product-image', loading: 'lazy' }}
                     <p class="product-text">
                       {% if forloop.index == 1 %}
                         {{ block.settings['poc-1'] }}
