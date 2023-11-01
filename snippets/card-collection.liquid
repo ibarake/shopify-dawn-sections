@@ -51,15 +51,9 @@
           <div class="media media--transparent media--hover-effect">
             <img
               srcset="
-                {%- if card_collection.metafields.custom.roomimage.width >= 165 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 165 }} 165w,{%- endif -%}
-                {%- if card_collection.metafields.custom.roomimage.width >= 330 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 330 }} 330w,{%- endif -%}
-                {%- if card_collection.metafields.custom.roomimage.width >= 535 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 535 }} 535w,{%- endif -%}
-                {%- if card_collection.metafields.custom.roomimage.width >= 750 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 750 }} 750w,{%- endif -%}
-                {%- if card_collection.metafields.custom.roomimage.width >= 1000 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 1000 }} 1000w,{%- endif -%}
-                {%- if card_collection.metafields.custom.roomimage.width >= 1500 -%}{{ card_collection.metafields.custom.roomimage | image_url: width: 1500 }} 1500w,{%- endif -%}
-                {{ card_collection.metafields.custom.roomimage | image_url }} {{ card_collection.metafields.custom.roomimage.width }}w
+              {{ card_collection.metafields.custom.roomimage | image_url: width: 165 }} 165w,
               "
-              src="{{ card_collection.metafields.custom.roomimage | image_url: width: 1500 }}"
+              src="{{ card_collection.metafields.custom.roomimage | image_url: width: 500 }}"
               sizes="
                 (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
                 (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
