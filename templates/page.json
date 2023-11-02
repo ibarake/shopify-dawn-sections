@@ -63,9 +63,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/blackfriday-salas-ashley-colombia.jpg",
-            "title": "sofás",
+            "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "sofás",
             "link": "shopify:\/\/collections\/black-friday-sofas"
           }
         },
@@ -73,9 +73,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
-            "title": "comedores",
+            "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "comedores",
             "link": "shopify:\/\/collections\/comedores-bf"
           }
         }
