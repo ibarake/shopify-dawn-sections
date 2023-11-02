@@ -129,18 +129,11 @@
           "settings": {
             "collection": "promo-black-friday-2023-25"
           }
-        },
-        "6b35824c-8664-491b-a77a-84384c6f7b20": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "black-fridday"
-          }
         }
       },
       "block_order": [
         "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-1",
-        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-2",
-        "6b35824c-8664-491b-a77a-84384c6f7b20"
+        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-2"
       ],
       "settings": {
         "title": "Collections",
@@ -154,12 +147,39 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "fe9ec8ca-3dd7-493b-a5e0-791ef45d8d0b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21474712387891__fe9ec8ca-3dd7-493b-a5e0-791ef45d8d0b-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "black-fridday"
+          }
+        }
+      },
+      "block_order": [
+        "template--21474712387891__fe9ec8ca-3dd7-493b-a5e0-791ef45d8d0b-featured_collection-1"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 1,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "76a79c77-bced-4efb-a457-bffe52003f85",
-    "623c22b6-b7cd-47d1-b8ce-1720f63210d8"
+    "623c22b6-b7cd-47d1-b8ce-1720f63210d8",
+    "fe9ec8ca-3dd7-493b-a5e0-791ef45d8d0b"
   ]
 }
