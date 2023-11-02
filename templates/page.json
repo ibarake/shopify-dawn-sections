@@ -55,10 +55,70 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "76a79c77-bced-4efb-a457-bffe52003f85": {
+      "type": "custom-collections",
+      "blocks": {
+        "0599d7af-3e34-4ad2-8c27-23c09d86f686": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Comedores",
+            "title-alignment": "flex-start",
+            "collection-title": "Comedores Black friday",
+            "collection": "comedores-bf",
+            "button-title": "Ver todos",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "comedores-bf"
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        },
+        "d7de3af5-93ac-4273-b8f8-22958683afe3": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
+            "collection-title": "",
+            "collection": "promo-black-friday-2023-25",
+            "button-title": "Add text",
+            "blocks-selection": "products",
+            "product_list": [
+
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Product 1 text",
+            "poc-2": "Product 2 text",
+            "poc-3": "Product 3 text",
+            "poc-4": "Product 4 text",
+            "poc-5": "Product 5 text",
+            "poc-6": "Product 6 text"
+          }
+        }
+      },
+      "block_order": [
+        "0599d7af-3e34-4ad2-8c27-23c09d86f686",
+        "d7de3af5-93ac-4273-b8f8-22958683afe3"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#F4F4F4"
+      }
     }
   },
   "order": [
     "main",
-    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b"
+    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
+    "76a79c77-bced-4efb-a457-bffe52003f85"
   ]
 }
