@@ -112,11 +112,8 @@
                 {{- 'products.product.sold_out' | t -}}
               </span>
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span
-                id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
-              >
-                {{- 'products.product.on_sale' | t -}}
+              <span>
+                {{ settings.salebadge | image_url: width: 300 | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta' }}
               </span>
             {%- endif -%}
           </div>
