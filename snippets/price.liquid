@@ -36,6 +36,15 @@
   {%- if compare_at_price > price %} price--on-sale {% endif -%}
   {%- if product.price_varies == false and product.compare_at_price_varies %} price--no-compare{% endif -%}
   {%- if show_badges %} price--show-badge{% endif -%}">
+    {%- if show_badges -%}
+    <span>
+      {{ settings.salebadge | image_url: width: 300 | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta' }}
+    </span>
+
+    <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
+      {{ 'products.product.sold_out' | t }}
+    </span>
+  {%- endif -%}
   <div class="price__container">
     {%- comment -%}
       Explanation of description list:
@@ -81,13 +90,5 @@
       </span>
     </small>
   </div>
-  {%- if show_badges -%}
-    <span>
-      {{ settings.salebadge | image_url: width: 300 | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta' }}
-    </span>
 
-    <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
-      {{ 'products.product.sold_out' | t }}
-    </span>
-  {%- endif -%}
 </div>
