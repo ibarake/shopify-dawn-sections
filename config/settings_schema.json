@@ -171,6 +171,11 @@
     "name": "t:settings_schema.layout.name",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "borrartachado",
+        "label": "Borrar tachado?"
+      },
+      {
         "type": "image_picker",
         "id": "salebadge",
         "label": "Imagen de oferta"
