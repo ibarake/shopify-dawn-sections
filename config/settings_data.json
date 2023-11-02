@@ -18,7 +18,7 @@
     "heading_scale": 100,
     "type_body_font": "open_sans_n4",
     "body_scale": 100,
-    "borrartachado": true,
+    "borrartachado": false,
     "salebadge": "shopify:\/\/shop_images\/tag-shoppify.jpg",
     "page_width": 90,
     "spacing_sections": 0,
