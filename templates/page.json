@@ -90,12 +90,12 @@
             "collection-title": "",
             "collection": "promo-black-friday-2023-25",
             "button-title": "Add text",
-            "blocks-selection": "products",
+            "blocks-selection": "collections",
             "product_list": [
 
             ],
             "collection_list": [
-
+              "promo-black-friday-2023-25"
             ],
             "poc-1": "Product 1 text",
             "poc-2": "Product 2 text",
