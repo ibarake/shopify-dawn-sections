@@ -65,16 +65,16 @@
             "collection": "comedores-bf"
           }
         },
-        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-2": {
+        "2076f1d9-8ee6-4da3-9237-43a2219b1b68": {
           "type": "featured_collection",
           "settings": {
-            "collection": "promo-black-friday-2023-25"
+            "collection": "black-fridday"
           }
         }
       },
       "block_order": [
         "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-1",
-        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-2"
+        "2076f1d9-8ee6-4da3-9237-43a2219b1b68"
       ],
       "settings": {
         "title": "Collections",
