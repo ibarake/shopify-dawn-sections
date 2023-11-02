@@ -112,7 +112,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "623c22b6-b7cd-47d1-b8ce-1720f63210d8": {
@@ -130,17 +130,17 @@
             "collection": "promo-black-friday-2023-25"
           }
         },
-        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-3": {
+        "6b35824c-8664-491b-a77a-84384c6f7b20": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "black-fridday"
           }
         }
       },
       "block_order": [
         "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-1",
         "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-2",
-        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-3"
+        "6b35824c-8664-491b-a77a-84384c6f7b20"
       ],
       "settings": {
         "title": "Collections",
