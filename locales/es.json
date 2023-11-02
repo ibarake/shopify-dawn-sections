@@ -107,7 +107,7 @@
     "product": {
       "add_to_cart": "Agregar al carrito",
       "description": "Descripción",
-      "on_sale": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0708\/8157\/5219\/files\/tag-shoppify.jpg?v=1698960957\" alt=\"Shopify Tag\" \/>",
+      "on_sale": "Oferta",
       "product_variants": "Variantes de producto",
       "quantity": {
         "label": "Cantidad",
