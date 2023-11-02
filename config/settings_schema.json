@@ -171,6 +171,11 @@
     "name": "t:settings_schema.layout.name",
     "settings": [
       {
+        "type": "image_picker",
+        "id": "salebadge",
+        "label": "Imagen de oferta"
+      },
+      {
         "type": "range",
         "id": "page_width",
         "min": 0,
