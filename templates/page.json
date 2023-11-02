@@ -56,36 +56,45 @@
         "show_text_below": true
       }
     },
-    "623c22b6-b7cd-47d1-b8ce-1720f63210d8": {
-      "type": "collection-list",
+    "726dc22e-4037-49eb-96b0-a69811a3cc83": {
+      "type": "multicolumn",
       "blocks": {
-        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-1": {
-          "type": "featured_collection",
+        "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-1": {
+          "type": "column",
           "settings": {
-            "collection": "comedores-bf"
+            "image": "shopify:\/\/shop_images\/blackfriday-salas-ashley-colombia.jpg",
+            "title": "sofás",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/black-friday"
           }
         },
-        "2076f1d9-8ee6-4da3-9237-43a2219b1b68": {
-          "type": "featured_collection",
+        "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-2": {
+          "type": "column",
           "settings": {
-            "collection": "black-friday"
+            "image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
+            "title": "comedores",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/comedores-bf"
           }
         }
       },
       "block_order": [
-        "template--21474712387891__623c22b6-b7cd-47d1-b8ce-1720f63210d8-featured_collection-1",
-        "2076f1d9-8ee6-4da3-9237-43a2219b1b68"
-      ],
-      "custom_css": [
-        "img {object-fit: contain;}"
+        "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-1",
+        "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-2"
       ],
       "settings": {
-        "title": "black friday",
-        "heading_size": "h2",
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -96,6 +105,6 @@
   "order": [
     "main",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
-    "623c22b6-b7cd-47d1-b8ce-1720f63210d8"
+    "726dc22e-4037-49eb-96b0-a69811a3cc83"
   ]
 }
