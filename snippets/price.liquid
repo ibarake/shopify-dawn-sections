@@ -41,7 +41,7 @@
   "
 >
   {%- if show_badges -%}
-    {%- unless product.price_varies == false and product.compare_at_price_varies %}
+    {%- unless product.price_varies == true and product.compare_at_price_varies %}
       <span>
         {{
           settings.salebadge
