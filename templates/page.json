@@ -107,7 +107,7 @@
         "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Aplican términos y condiciones.Los precios publicados son válidos hasta el 30 de noviembre del 2023 o hasta  agotar existencia lo que primero suceda. Estos productos no tienen cambio, devolución, ni derecho a retracto de compra.La disponibilidad de entrega es inmediata por lo que el tiempo de entrega no puede ser mayor a 30 días o de lo contrario se realizará un cobro adicional de almacenamiento en bodega.<\/p>"
+            "text": "<h5>Aplican términos y condiciones.Los precios publicados son válidos hasta el 30 de noviembre del 2023 o hasta  agotar existencia lo que primero suceda. Estos productos no tienen cambio, devolución, ni derecho a retracto de compra.La disponibilidad de entrega es inmediata por lo que el tiempo de entrega no puede ser mayor a 30 días o de lo contrario se realizará un cobro adicional de almacenamiento en bodega.<\/h5>"
           }
         }
       },
@@ -119,8 +119,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
