@@ -6,8 +6,8 @@
         "template--17657980813619__08755c67-a875-4322-a5b3-913c460c6744-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/black-friday-banner-ashley-colombia_fc3602e8-0fb4-470d-92be-a5a31bf18a29.jpg",
-            "image_r": "shopify:\/\/shop_images\/black-friday-banner-ashley-colombia_fc3602e8-0fb4-470d-92be-a5a31bf18a29.jpg",
+            "image": "shopify:\/\/shop_images\/sofas-black-friday-ashley.jpg",
+            "image_r": "shopify:\/\/shop_images\/sofas-black-friday-ashley.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -273,7 +273,7 @@
             "first-title": "",
             "second-title": "",
             "button-text": "Los mejor vendidos",
-            "banner-image": "shopify:\/\/shop_images\/4.jpg",
+            "banner-image": "shopify:\/\/shop_images\/Website_1280x256_92f8d353-cec0-41f2-8154-75ebafaa0439.jpg",
             "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
           }
         },
@@ -566,7 +566,7 @@
         ".banner__box {display: none;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-01-13_at_9.46.40_PM.jpg",
+        "image": "shopify:\/\/shop_images\/Website_1280x256_92f8d353-cec0-41f2-8154-75ebafaa0439.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
