@@ -1,14 +1,14 @@
 {% comment %}
-    Renders a list of product's price (regular, sale)
+  Renders a list of product's price (regular, sale)
 
-    Accepts:
-    - product: {Object} Product Liquid object (optional)
-    - use_variant: {Boolean} Renders selected or first variant price instead of overall product pricing (optional)
-    - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
-    - price_class: {String} Adds a price class to the price element (optional)
+  Accepts:
+  - product: {Object} Product Liquid object (optional)
+  - use_variant: {Boolean} Renders selected or first variant price instead of overall product pricing (optional)
+  - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
+  - price_class: {String} Adds a price class to the price element (optional)
 
-    Usage:
-    {% render 'price', product: product %}
+  Usage:
+  {% render 'price', product: product %}
 {% endcomment %}
 {%- liquid
   if use_variant
@@ -30,17 +30,26 @@
   endif
 -%}
 
-<div class="price
-  {%- if price_class %} {{ price_class }}{% endif -%}
-  {%- if available == false %} price--sold-out {% endif -%}
-  {%- if compare_at_price > price %} price--on-sale {% endif -%}
-  {%- if product.price_varies == false and product.compare_at_price_varies %} price--no-compare{% endif -%}
-  {%- if show_badges %} price--show-badge{% endif -%}">
-    {%- if show_badges -%}
-    <span>
-      {{ settings.salebadge | image_url: width: 300 | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta' }}
-    </span>
-
+<div
+  class="
+    price
+    {%- if price_class %} {{ price_class }}{% endif -%}
+    {%- if available == false %} price--sold-out {% endif -%}
+    {%- if compare_at_price > price %} price--on-sale {% endif -%}
+    {%- if product.price_varies == false and product.compare_at_price_varies %} price--no-compare{% endif -%}
+    {%- if show_badges %} price--show-badge{% endif -%}
+  "
+>
+  {%- if show_badges -%}
+    {%- unless product.price_varies == false and product.compare_at_price_varies %}
+      <span>
+        {{
+          settings.salebadge
+          | image_url: width: 300
+          | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
+        }}
+      </span>
+    {%- endunless -%}
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
       {{ 'products.product.sold_out' | t }}
     </span>
@@ -61,7 +70,12 @@
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span>
-          <s class="price-item price-item--regular" {% if settings.borrartachado %}style="display: none;"{% endif %}>
+          <s
+            class="price-item price-item--regular"
+            {% if settings.borrartachado %}
+              style="display: none;"
+            {% endif %}
+          >
             {% if settings.currency_code_enabled %}
               {{ compare_at_price | money_with_currency }}
             {% else %}
@@ -90,5 +104,4 @@
       </span>
     </small>
   </div>
-
 </div>
