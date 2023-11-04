@@ -46,7 +46,7 @@
 <noscript>
   {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
     <span class="product__media-icon motion-reduce quick-add-hidden">{% render 'icon-play' %}</span>
-    <div class="product__media media gradient global-media-settings" style="height: 500px;">
+    <div class="product__media media gradient global-media-settings" >
       {{ media.preview_image | image_url: width: 1946 | image_tag:
         loading: lazy,
         sizes: sizes,
@@ -58,7 +58,7 @@
       <span class="visually-hidden">{{ 'products.product.video_exit_message' | t: title: product.title | escape }}</span>
     </a>
   {%- else -%}
-    <div class="product__media media gradient global-media-settings" style="height: 500px;">
+    <div class="product__media media gradient global-media-settings" >
       {{ media.preview_image | image_url: width: 1946 | image_tag:
         loading: lazy,
         sizes: sizes,
@@ -83,7 +83,7 @@
     -%}
   </span>
 
-  <div class="product__media media media--transparent gradient global-media-settings" style="height: 500px;">
+  <div class="product__media media media--transparent gradient global-media-settings" >
     {{ media.preview_image | image_url: width: 1946 | image_tag:
       loading: lazy,
       sizes: sizes,
