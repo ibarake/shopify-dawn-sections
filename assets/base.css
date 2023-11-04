@@ -2888,7 +2888,7 @@ details-disclosure > details {
   position: relative;
   border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));
   border-radius: var(--media-radius);
-  overflow: visible !important;
+  overflow: hidden !important;
   background-color: rgb(var(--color-background));
 }
 
