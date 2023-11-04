@@ -107,7 +107,7 @@
               </li>
             {%- endif -%}
             {%- for media in product.media -%}
-              {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+              {%- unless media.alt == product.selected_or_first_available_variant.featured_media.alt -%}
                 <li
                   id="Slide-{{ section.id }}-{{ media.id }}"
                   class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
@@ -232,7 +232,7 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
-                {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+                {%- unless media.alt == product.selected_or_first_available_variant.featured_media.alt -%}
                   {%- liquid
                     capture media_index
                       if media.media_type == 'model'
@@ -914,7 +914,7 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
-                {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+                {%- unless media.alt == product.selected_or_first_available_variant.featured_media.alt -%}
                   <li
                     id="Slide-{{ section.id }}-{{ media.id }}-right"
                     class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
@@ -1015,7 +1015,7 @@
                   </li>
                 {%- endif -%}
                 {%- for media in product.media -%}
-                  {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+                  {%- unless media.alt == product.selected_or_first_available_variant.featured_media.alt -%}
                     {%- liquid
                       capture media_index
                         if media.media_type == 'model'
