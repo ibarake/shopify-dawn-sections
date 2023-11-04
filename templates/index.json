@@ -656,6 +656,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "932f4541-17b5-446f-8b08-e2d91ac06519": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-comedores",
+        "products_to_show": 7,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -671,6 +701,7 @@
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "46658e2a-45ab-457a-9e97-791c28394991",
-    "e1d89960-0acc-4e87-9e52-40facd040c9b"
+    "e1d89960-0acc-4e87-9e52-40facd040c9b",
+    "932f4541-17b5-446f-8b08-e2d91ac06519"
   ]
 }
