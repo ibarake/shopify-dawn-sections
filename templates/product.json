@@ -73,7 +73,7 @@
       ],
       "custom_css": [
         ".media > *:not(.zoom):not(.deferred-media__poster-button),.media model-viewer {height: 500px; object-fit: contain;}",
-        "@media screen and (min-width: 768px) {.media > *:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {height: 300px; }}"
+        "@media screen and (max-width: 768px) {.media > *:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {height: 300px; } .product__media.media.gradient.global-media-settings {height: 300px !important; }}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -144,7 +144,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 28
       }
