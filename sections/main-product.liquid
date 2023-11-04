@@ -914,6 +914,7 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
+                {{ product.selected_or_first_available_variant.featured_media.id }}
                 {{ media.id }}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   <li
