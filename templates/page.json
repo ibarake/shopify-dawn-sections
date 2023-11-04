@@ -114,6 +114,10 @@
         "9acbb8d5-0c2f-46d9-8555-1b118e989b39",
         "d8e164aa-ae5a-41d1-8d65-c024d2b6dc04"
       ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "text-color": "#FFFFFF",
         "btn-color": "#363534"
@@ -147,7 +151,6 @@
         "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-1",
         "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-2"
       ],
-      "disabled": true,
       "settings": {
         "title": "black friday",
         "heading_size": "h2",
@@ -163,6 +166,36 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "36c16fc3-6178-43f1-8281-9cbb6abfe74c": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-sofas",
+        "products_to_show": 11,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b": {
@@ -205,6 +238,36 @@
         "btn-bg-color": "#F4F4F4"
       }
     },
+    "c4898edd-ca64-40e0-a383-4c8002642c17": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-comedores",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
       "type": "rich-text",
       "blocks": {
@@ -234,7 +297,9 @@
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
     "777bc39f-f226-475d-9662-b4473acf5755",
     "726dc22e-4037-49eb-96b0-a69811a3cc83",
+    "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
+    "c4898edd-ca64-40e0-a383-4c8002642c17",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
