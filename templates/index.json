@@ -310,6 +310,36 @@
         "padding_bottom": 0
       }
     },
+    "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-sofas",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "ed3299a6-3063-49c0-8b72-db04858f9fd2": {
       "type": "collage",
       "blocks": {
@@ -349,37 +379,7 @@
         "card_styles": "none",
         "color_scheme": "background-1",
         "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
-    "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-sofas",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 44
       }
     },
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
@@ -752,8 +752,8 @@
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "03bc2155-0d93-4439-9121-97ed57ac35e6",
-    "ed3299a6-3063-49c0-8b72-db04858f9fd2",
     "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6",
+    "ed3299a6-3063-49c0-8b72-db04858f9fd2",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
