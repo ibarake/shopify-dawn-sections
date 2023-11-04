@@ -86,6 +86,26 @@
         "responsive-img-height": 150
       }
     },
+    "46658e2a-45ab-457a-9e97-791c28394991": {
+      "type": "image-banner",
+      "disabled": true,
+      "custom_css": [
+        ".banner__box {display: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sofas-ashley-descuentos.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
       "type": "collection-list",
       "blocks": {
@@ -264,23 +284,29 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "46658e2a-45ab-457a-9e97-791c28394991": {
-      "type": "image-banner",
-      "custom_css": [
-        ".banner__box {display: none;}"
+    "03bc2155-0d93-4439-9121-97ed57ac35e6": {
+      "type": "collage",
+      "blocks": {
+        "20bed96f-cad8-4731-9676-533b8cff38f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sofas-ashley-descuentos.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "20bed96f-cad8-4731-9676-533b8cff38f2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/sofas-ashley-descuentos.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "ed3299a6-3063-49c0-8b72-db04858f9fd2": {
@@ -685,39 +711,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "03bc2155-0d93-4439-9121-97ed57ac35e6": {
-      "type": "collage",
-      "blocks": {
-        "20bed96f-cad8-4731-9676-533b8cff38f2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sofas-ashley-descuentos.jpg",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "20bed96f-cad8-4731-9676-533b8cff38f2"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "08755c67-a875-4322-a5b3-913c460c6744",
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
+    "46658e2a-45ab-457a-9e97-791c28394991",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
-    "46658e2a-45ab-457a-9e97-791c28394991",
+    "03bc2155-0d93-4439-9121-97ed57ac35e6",
     "ed3299a6-3063-49c0-8b72-db04858f9fd2",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
@@ -726,7 +728,6 @@
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "e1d89960-0acc-4e87-9e52-40facd040c9b",
-    "932f4541-17b5-446f-8b08-e2d91ac06519",
-    "03bc2155-0d93-4439-9121-97ed57ac35e6"
+    "932f4541-17b5-446f-8b08-e2d91ac06519"
   ]
 }
