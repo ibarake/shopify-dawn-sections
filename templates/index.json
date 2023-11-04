@@ -287,16 +287,16 @@
     "03bc2155-0d93-4439-9121-97ed57ac35e6": {
       "type": "collage",
       "blocks": {
-        "20bed96f-cad8-4731-9676-533b8cff38f2": {
+        "16cad09e-ca99-401a-80bd-48f5f6e718ad": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sofas-ashley-descuentos.jpg",
+            "image": "shopify:\/\/shop_images\/black-friday-ashley-sofas.jpg",
             "image_padding": false
           }
         }
       },
       "block_order": [
-        "20bed96f-cad8-4731-9676-533b8cff38f2"
+        "16cad09e-ca99-401a-80bd-48f5f6e718ad"
       ],
       "settings": {
         "heading": "",
