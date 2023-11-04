@@ -280,21 +280,11 @@
             "image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
             "image_padding": true
           }
-        },
-        "template--21474712518963__ed3299a6-3063-49c0-8b72-db04858f9fd2-video-1": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/black-friday-sofas-comedores-ashley-colombia.jpg",
-            "video_url": "",
-            "description": "Describe the video",
-            "image_padding": false
-          }
         }
       },
       "block_order": [
         "d3db21b3-702f-4eb2-be87-f421bdbad5b8",
-        "90a5bded-318a-4756-b1c6-5f6a72b9b1c8",
-        "template--21474712518963__ed3299a6-3063-49c0-8b72-db04858f9fd2-video-1"
+        "90a5bded-318a-4756-b1c6-5f6a72b9b1c8"
       ],
       "settings": {
         "heading": "",
