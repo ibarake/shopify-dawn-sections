@@ -280,21 +280,32 @@
             "image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
             "image_padding": true
           }
+        },
+        "139058a8-809c-4403-840f-2682b32fa4c8": {
+          "type": "product",
+          "settings": {
+            "product": "seccional-de-2-piezas-kiessel-27602s2",
+            "second_image": true
+          }
         }
       },
       "block_order": [
         "d3db21b3-702f-4eb2-be87-f421bdbad5b8",
-        "90a5bded-318a-4756-b1c6-5f6a72b9b1c8"
+        "90a5bded-318a-4756-b1c6-5f6a72b9b1c8",
+        "139058a8-809c-4403-840f-2682b32fa4c8"
+      ],
+      "custom_css": [
+        "img {object-fit: contain;}"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Black Friday",
         "heading_size": "h1",
         "desktop_layout": "right",
         "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 12
+        "card_styles": "none",
+        "color_scheme": "background-2",
+        "padding_top": 20,
+        "padding_bottom": 44
       }
     },
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
