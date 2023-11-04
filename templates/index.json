@@ -287,7 +287,7 @@
     "03bc2155-0d93-4439-9121-97ed57ac35e6": {
       "type": "collage",
       "blocks": {
-        "16cad09e-ca99-401a-80bd-48f5f6e718ad": {
+        "80362051-fc54-4996-984d-b7993311a73d": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/black-friday-ashley-sofas.jpg",
@@ -296,8 +296,9 @@
         }
       },
       "block_order": [
-        "16cad09e-ca99-401a-80bd-48f5f6e718ad"
+        "80362051-fc54-4996-984d-b7993311a73d"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -485,6 +486,36 @@
         "padding_bottom": 20
       }
     },
+    "932f4541-17b5-446f-8b08-e2d91ac06519": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "Comedores Black Friday",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-comedores",
+        "products_to_show": 8,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
       "type": "collection-list",
       "blocks": {
@@ -666,6 +697,7 @@
         "template--21474712518963__e1d89960-0acc-4e87-9e52-40facd040c9b-featured_collection-1",
         "46125b3d-55c2-4221-8b77-fe5a3ff510c2"
       ],
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
@@ -682,24 +714,21 @@
         "padding_bottom": 36
       }
     },
-    "932f4541-17b5-446f-8b08-e2d91ac06519": {
+    "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6": {
       "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
       "settings": {
-        "title": "Comedores Black Friday",
-        "heading_size": "h2",
+        "title": "",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "black-friday-comedores",
-        "products_to_show": 8,
-        "columns_desktop": 5,
-        "full_width": true,
+        "collection": "",
+        "products_to_show": 9,
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -724,10 +753,11 @@
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
+    "932f4541-17b5-446f-8b08-e2d91ac06519",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "e1d89960-0acc-4e87-9e52-40facd040c9b",
-    "932f4541-17b5-446f-8b08-e2d91ac06519"
+    "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6"
   ]
 }
