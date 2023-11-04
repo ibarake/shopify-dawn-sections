@@ -56,6 +56,69 @@
         "show_text_below": true
       }
     },
+    "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Black Friday - Colección Limitada<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1",
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "777bc39f-f226-475d-9662-b4473acf5755": {
+      "type": "custom-double-banner",
+      "blocks": {
+        "9acbb8d5-0c2f-46d9-8555-1b118e989b39": {
+          "type": "image",
+          "settings": {
+            "first-title": "",
+            "second-title": "",
+            "button-text": "Sofás",
+            "banner-image": "shopify:\/\/shop_images\/blackfriday-salas-ashley-colombia.jpg",
+            "button_link": "shopify:\/\/collections\/black-friday-sofas"
+          }
+        },
+        "d8e164aa-ae5a-41d1-8d65-c024d2b6dc04": {
+          "type": "image",
+          "settings": {
+            "first-title": "",
+            "second-title": "",
+            "button-text": "Comedores",
+            "banner-image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
+            "button_link": "shopify:\/\/collections\/black-friday-comedores"
+          }
+        }
+      },
+      "block_order": [
+        "9acbb8d5-0c2f-46d9-8555-1b118e989b39",
+        "d8e164aa-ae5a-41d1-8d65-c024d2b6dc04"
+      ],
+      "settings": {
+        "text-color": "#FFFFFF",
+        "btn-color": "#363534"
+      }
+    },
     "726dc22e-4037-49eb-96b0-a69811a3cc83": {
       "type": "multicolumn",
       "blocks": {
@@ -84,6 +147,7 @@
         "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-1",
         "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "black friday",
         "heading_size": "h2",
@@ -101,13 +165,53 @@
         "padding_bottom": 36
       }
     },
+    "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b": {
+      "type": "custom-collections",
+      "blocks": {
+        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "center",
+            "collection-title": "Comedores",
+            "collection": "black-friday-comedores",
+            "button-title": "Compra",
+            "blocks-selection": "products",
+            "product_list": [
+              "mesa-de-comedor-y-6-sillas-grindleburg-d754d13",
+              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar",
+              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-bridson",
+              "mesa-de-comedor-con-altura-de-mostrador-y-taburetes-de-bar-juego-de-5-garvine",
+              "mesa-de-comedor-y-sillas-juego-de-5-garvine",
+              "mesa-de-comedor-y-sillas-juego-de-7-caitbrook"
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Grindleburg",
+            "poc-2": "Coviar",
+            "poc-3": "Bridson",
+            "poc-4": "Garvine Bar",
+            "poc-5": "Garvine",
+            "poc-6": "Caitbtook"
+          }
+        }
+      },
+      "block_order": [
+        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#F4F4F4"
+      }
+    },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
       "type": "rich-text",
       "blocks": {
         "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5>*Aplican términos y condiciones.Los precios publicados son válidos hasta el 30 de noviembre del 2023 o hasta  agotar existencia lo que primero suceda. Estos productos no tienen cambio, devolución, ni derecho a retracto de compra.La disponibilidad de entrega es inmediata por lo que el tiempo de entrega no puede ser mayor a 30 días o de lo contrario se realizará un cobro adicional de almacenamiento en bodega.<\/h5>"
+            "text": "<h5><strong>Términos y Condiciones<\/strong><\/h5><h5>*Aplican términos y condiciones.Los precios publicados son válidos hasta el 30 de noviembre del 2023 o hasta  agotar existencia lo que primero suceda. Estos productos no tienen cambio, devolución, ni derecho a retracto de compra.La disponibilidad de entrega es inmediata por lo que el tiempo de entrega no puede ser mayor a 30 días o de lo contrario se realizará un cobro adicional de almacenamiento en bodega.<\/h5>"
           }
         }
       },
@@ -122,46 +226,15 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "777bc39f-f226-475d-9662-b4473acf5755": {
-      "type": "custom-double-banner",
-      "blocks": {
-        "d8e164aa-ae5a-41d1-8d65-c024d2b6dc04": {
-          "type": "image",
-          "settings": {
-            "first-title": "",
-            "second-title": "",
-            "button-text": "Comedores",
-            "banner-image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
-            "button_link": "shopify:\/\/collections\/black-friday-comedores"
-          }
-        },
-        "9acbb8d5-0c2f-46d9-8555-1b118e989b39": {
-          "type": "image",
-          "settings": {
-            "first-title": "",
-            "second-title": "",
-            "button-text": "Sofás",
-            "banner-image": "shopify:\/\/shop_images\/blackfriday-salas-ashley-colombia.jpg",
-            "button_link": "shopify:\/\/collections\/black-friday-sofas"
-          }
-        }
-      },
-      "block_order": [
-        "d8e164aa-ae5a-41d1-8d65-c024d2b6dc04",
-        "9acbb8d5-0c2f-46d9-8555-1b118e989b39"
-      ],
-      "settings": {
-        "text-color": "#FFFFFF",
-        "btn-color": "#363534"
-      }
     }
   },
   "order": [
     "main",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
+    "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
+    "777bc39f-f226-475d-9662-b4473acf5755",
     "726dc22e-4037-49eb-96b0-a69811a3cc83",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "777bc39f-f226-475d-9662-b4473acf5755"
+    "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
