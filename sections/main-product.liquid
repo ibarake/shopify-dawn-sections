@@ -914,6 +914,7 @@
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
+                {{ media.id }}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   <li
                     id="Slide-{{ section.id }}-{{ media.id }}-right"
