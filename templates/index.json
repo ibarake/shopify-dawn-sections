@@ -663,8 +663,8 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
+        "title": "Comedores Black Friday",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
