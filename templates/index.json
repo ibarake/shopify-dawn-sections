@@ -267,32 +267,30 @@
     "ed3299a6-3063-49c0-8b72-db04858f9fd2": {
       "type": "collage",
       "blocks": {
-        "d3db21b3-702f-4eb2-be87-f421bdbad5b8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blackfriday-salas-ashley-colombia.jpg",
-            "image_padding": false
-          }
-        },
-        "90a5bded-318a-4756-b1c6-5f6a72b9b1c8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
-            "image_padding": true
-          }
-        },
         "139058a8-809c-4403-840f-2682b32fa4c8": {
           "type": "product",
           "settings": {
             "product": "seccional-de-2-piezas-kiessel-27602s2",
             "second_image": true
           }
+        },
+        "d832b7d1-98fc-41c2-9845-5ab60e2ba890": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-friday-sofas"
+          }
+        },
+        "f7779859-7e7b-41bd-8535-f559a94ef731": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-friday-comedores"
+          }
         }
       },
       "block_order": [
-        "d3db21b3-702f-4eb2-be87-f421bdbad5b8",
-        "90a5bded-318a-4756-b1c6-5f6a72b9b1c8",
-        "139058a8-809c-4403-840f-2682b32fa4c8"
+        "139058a8-809c-4403-840f-2682b32fa4c8",
+        "d832b7d1-98fc-41c2-9845-5ab60e2ba890",
+        "f7779859-7e7b-41bd-8535-f559a94ef731"
       ],
       "custom_css": [
         "img {object-fit: contain;}"
