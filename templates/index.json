@@ -310,6 +310,31 @@
         "padding_bottom": 0
       }
     },
+    "ee780018-d752-419e-9d6f-9bfcec93f62f": {
+      "type": "collage",
+      "blocks": {
+        "9a623b0f-3488-45e2-9466-46cad1602c75": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-friday-ashley_d2ec5e4f-22db-481c-931d-0e928623b432.png",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "9a623b0f-3488-45e2-9466-46cad1602c75"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6": {
       "type": "featured-collection",
       "custom_css": [
@@ -378,8 +403,8 @@
         "mobile_layout": "collage",
         "card_styles": "none",
         "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 44
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
@@ -752,6 +777,7 @@
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "03bc2155-0d93-4439-9121-97ed57ac35e6",
+    "ee780018-d752-419e-9d6f-9bfcec93f62f",
     "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6",
     "ed3299a6-3063-49c0-8b72-db04858f9fd2",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
