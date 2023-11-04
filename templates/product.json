@@ -72,7 +72,7 @@
         "c589598a-c51a-4679-92d2-0fe79ced895b"
       ],
       "custom_css": [
-        ".media > *:not(.zoom):not(.deferred-media__poster-button),.media model-viewer {height: 700px; object-fit: contain;}"
+        ".media > *:not(.zoom):not(.deferred-media__poster-button),.media model-viewer {max-height: 700px; object-fit: contain;}"
       ],
       "settings": {
         "enable_sticky_info": true,
