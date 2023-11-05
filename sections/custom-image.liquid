@@ -5,7 +5,7 @@
     display: block;
   }
 </style>
-<section class="custom-image page-width">
+<a href="{{ section.settings.url }}" class="custom-image page-width">
   {% if section.settings.image1 != blank %}
     {{
       section.settings.image1
@@ -20,7 +20,7 @@
       | image_tag: width: '768px', class: 'image-custom-r', load: 'lazy'
     }}
   {% endif %}
-</section>
+</a>
 
 {% schema %}
 {
