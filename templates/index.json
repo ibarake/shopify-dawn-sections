@@ -771,9 +771,12 @@
     },
     "765a0479-0ea5-485e-a359-359040f0108a": {
       "type": "custom-image",
+      "disabled": true,
       "settings": {
+        "width": false,
         "image1": "shopify:\/\/shop_images\/black-friday-sofas-ashley.jpg",
-        "image2": "shopify:\/\/shop_images\/0.jpg"
+        "image2": "shopify:\/\/shop_images\/0.jpg",
+        "url": ""
       }
     }
   },
