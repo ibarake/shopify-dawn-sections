@@ -163,7 +163,7 @@
 .product-form__input {
   flex: 0 0 100%;
   padding: 0;
-  margin: 0 0 0 0;
+  margin: 0 0 1.2rem 0;
   max-width: 37rem;
   min-width: fit-content;
   border: none;
@@ -360,7 +360,7 @@ answer-details {
 /* Product info */
 
 .product__info-container > * + * {
-  margin: 0 0;
+  margin: 1.5rem 0;
 }
 
 .product__info-container iframe {
@@ -504,7 +504,6 @@ a.product__text {
 
 .product-form__quantity .form__label {
   margin-bottom: 0.6rem;
-  height: fit-content;
 }
 
 .product-form__quantity-top .form__label {
