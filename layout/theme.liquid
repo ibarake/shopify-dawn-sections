@@ -338,12 +338,6 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
-
-
-
-
-
-
     </script>
 
     {%- if settings.predictive_search_enabled -%}
@@ -354,6 +348,159 @@
     <script type="text/javascript">
       (function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/6413275a11704400250319f8/64736ad3d2e42c0032d5a8da.js?platform=view_installation_code'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();
     </script>
-{{'tiny-img-link-preloader.js' | asset_url | script_tag }}
-</body>
+    {{ 'tiny-img-link-preloader.js' | asset_url | script_tag }}
+    {% if template contains 'product' %}
+      <style>
+        .static-atc {
+          width: 100%;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          height: 80px;
+          background: white;
+          z-index: 9999;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          justify-content: space-around;
+          padding: 0 10px;
+          box-shadow: 0 6px 6px -6px #0003;
+          -webkit-box-shadow: 0 6px 6px -6px #0003;
+          -moz-box-shadow: 0 6px 6px -6px #0003;
+          opacity: 0; /* Initially hidden */
+          transition: opacity 0.5s ease; /* Smooth transition for the opacity */
+        }
+
+        .static-atc form {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          height: 100%;
+        }
+
+        .static-atc label {
+          margin: 0;
+        }
+
+        .static-atc .price {
+          margin-right: auto;
+        }
+
+        .btn {
+          /* Additional styles for your button if needed */
+        }
+        .sticky-bar-image{
+          height: 100%;
+          width: auto;
+          object-fit: contain;
+        }
+        .static-atc.visible {
+          opacity: 1; /* Fully visible when this class is added */
+        }
+      </style>
+
+      <div class="static-atc">
+        <form action="/cart/add" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+          <div style="width: 150px; height: 80%; display: flex; justify-content: flex-end;">
+            {{
+              product.featured_media
+              | image_url: width: 1946
+              | image_tag:
+                loading: lazy,
+                sizes: sizes,
+                widths: '300',
+                alt: product.featured_media.alt,
+                class: 'sticky-bar-image'
+              | escape
+            }}
+          </div>
+          <div style="border-right: 2px solid gray; height: 70%; display: flex; flex-direction: column; align-items: flex-start; justify-content: center;">
+            <p
+              class="h3"
+              style="width: 700px; margin: 0;"
+            >
+              {{ product.title }}
+            </p>
+            item: {{ product.selected_or_first_available_variant.sku }}
+          </div>
+          <div class="wishlist-custom"></div>
+          <!-- Add to Cart Button -->
+          <input
+            type="submit"
+            value="Add to Cart"
+            class="product-form__submit button button--full-width button--primary"
+            style="width: 120px; margin-bottom: 0px;"
+          >
+
+          <!-- Quantity Selector -->
+          <div>
+            <quantity-input class="quantity">
+              <button class="quantity__button no-js-hidden" name="minus" type="button">
+                <span class="visually-hidden">
+                  {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+                </span>
+                {% render 'icon-minus' %}
+              </button>
+              <input
+                class="quantity__input"
+                type="number"
+                name="quantity"
+                id="Quantity-{{ section.id }}"
+                min="1"
+                value="1"
+                form="{{ product_form_id }}"
+              >
+              <button class="quantity__button no-js-hidden" name="plus" type="button">
+                <span class="visually-hidden">
+                  {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                </span>
+                {% render 'icon-plus' %}
+              </button>
+            </quantity-input>
+          </div>
+          <!-- Price Placeholder -->
+          <div
+            class="price"
+            style="display: flex; align-items: flex-end; justify-items: center; flex-direction: column;"
+          >
+            <p style="margin: 0px;">Subtotal:</p>
+            {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+            <!-- Replace with dynamic price if needed -->
+          </div>
+        </form>
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var productFormButtons = document.querySelector('.product-form__buttons');
+          var staticAtc = document.querySelector('.static-atc');
+
+          function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+              rect.top >= 0 &&
+              rect.left >= 0 &&
+              rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+              rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+          }
+
+          function checkVisibility() {
+            if (!isElementInViewport(productFormButtons)) {
+              staticAtc.classList.add('visible');
+            } else {
+              staticAtc.classList.remove('visible');
+            }
+          }
+
+          // Check on scroll and resize
+          window.addEventListener('scroll', checkVisibility);
+          window.addEventListener('resize', checkVisibility);
+
+          // Initial check
+          checkVisibility();
+        });
+      </script>
+    {% endif %}
+  </body>
 </html>
