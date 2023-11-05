@@ -7,6 +7,20 @@
     height: auto;
     display: block;
   }
+  .image-custom-r{
+    display: none;
+  }
+  .image-custom-d{
+    display: block;
+  }
+  @media only screen and (max-width: 768px) {
+    .image-custom-r{
+      display: block;
+    }
+    .image-custom-d{
+      display: none;
+    }
+  }
 </style>
 <a href="{{ section.settings.url }}" class="custom-image {% if section.settings.width == false %}page-width{% endif %}">
   {% if section.settings.image1 != blank %}
