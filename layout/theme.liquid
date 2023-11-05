@@ -351,57 +351,100 @@
     {{ 'tiny-img-link-preloader.js' | asset_url | script_tag }}
     {% if template contains 'product' %}
       <style>
-        .static-atc {
-          width: 100%;
-          position: fixed;
-          top: 0px;
-          left: 0px;
-          height: 80px;
-          background: white;
-          z-index: 9999;
-          display: flex;
-          flex-direction: row-reverse;
-          align-items: center;
-          justify-content: space-around;
-          padding: 0 10px;
-          box-shadow: 0 6px 6px -6px #0003;
-          -webkit-box-shadow: 0 6px 6px -6px #0003;
-          -moz-box-shadow: 0 6px 6px -6px #0003;
-          opacity: 0; /* Initially hidden */
-          transition: opacity 0.5s ease; /* Smooth transition for the opacity */
-        }
+          .static-atc {
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            height: 80px;
+            background: white;
+            z-index: 9999;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0 10px;
+            box-shadow: 0 6px 6px -6px #0003;
+            -webkit-box-shadow: 0 6px 6px -6px #0003;
+            -moz-box-shadow: 0 6px 6px -6px #0003;
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.5s ease; /* Smooth transition for the opacity */
+          }
 
-        .static-atc form {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          height: 100%;
-        }
+          .static-atc .price{
+            display: flex;
+            align-items: flex-end;
+            justify-items: center;
+            flex-direction: column;
+          }
 
-        .static-atc label {
+          .static-atc form {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 10px;
+            height: 100%;
+            width: 100%;
+          }
+
+          .static-atc label {
+            margin: 0;
+          }
+
+          .btn {
+            /* Additional styles for your button if needed */
+          }
+          .sticky-bar-image{
+            height: 100%;
+            width: auto;
+            object-fit: contain;
+          }
+          .static-atc.visible {
+            opacity: 1; /* Fully visible when this class is added */
+          }
+        .bar-title-sticky {
+          width: 700px;
           margin: 0;
         }
-
-        .static-atc .price {
-          margin-right: auto;
+        .bar-title-s{
+          border-right: 2px solid gray;
+          height: 70%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
         }
-
-        .btn {
-          /* Additional styles for your button if needed */
-        }
-        .sticky-bar-image{
-          height: 100%;
-          width: auto;
-          object-fit: contain;
-        }
-        .static-atc.visible {
-          opacity: 1; /* Fully visible when this class is added */
-        }
-        @media only screen and (max-width: 768px) {
-          .static-atc{
-            display: none;
+           @media only screen and (max-width: 768px) {
+            .product__title h1{
+              font-size: 24px !important;
+            }
+            .breadcrumbs{
+              width: 100%;
+            }
+            .sticky-bar-image{
+              display: none;
+            }
+            .bar-title-s {
+              width: 100%;
+              border: none;
+            }
+            .bar-title-sticky {
+              width: 100%;
+            }
+            .static-atc form{
+              flex-wrap: wrap;
+            }
+            .static-atc{
+              height: fit-content;
+              padding-bottom: 15px;
+            }
+            .sticky-sku{
+              display: none;
+            }
+            .static-atc .price{
+              display: none;
+            }
           }
-        }
       </style>
 
       <div class="static-atc">
@@ -420,14 +463,13 @@
               | escape
             }}
           </div>
-          <div style="border-right: 2px solid gray; height: 70%; display: flex; flex-direction: column; align-items: flex-start; justify-content: center;">
+          <div class="bar-title-s">
             <p
-              class="h3"
-              style="width: 700px; margin: 0;"
+              class="h3 bar-title-sticky"
             >
               {{ product.title }}
             </p>
-            item: {{ product.selected_or_first_available_variant.sku }}
+            <p class="sticky-sku">item: {{ product.selected_or_first_available_variant.sku }}</p>
           </div>
           <div class="wishlist-custom"></div>
           <!-- Add to Cart Button -->
@@ -467,7 +509,6 @@
           <!-- Price Placeholder -->
           <div
             class="price"
-            style="display: flex; align-items: flex-end; justify-items: center; flex-direction: column;"
           >
             <p style="margin: 0px;">Subtotal:</p>
             {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
@@ -477,6 +518,7 @@
       </div>
       <script>
         document.addEventListener('DOMContentLoaded', function() {
+          var headerSticky = document.querySelector('header');
           var productFormButtons = document.querySelector('.product-form__buttons');
           var staticAtc = document.querySelector('.static-atc');
 
@@ -491,7 +533,7 @@
           }
 
           function checkVisibility() {
-            if (!isElementInViewport(productFormButtons)) {
+            if (!isElementInViewport(productFormButtons) && !isElementInViewport(headerSticky)) {
               staticAtc.classList.add('visible');
             } else {
               staticAtc.classList.remove('visible');
