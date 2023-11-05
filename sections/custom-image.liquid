@@ -1,6 +1,5 @@
 <style>
   .custom-image img {
-    width: 100%;
     height: auto;
   }
   .image-custom-r{
@@ -18,19 +17,36 @@
     }
   }
 </style>
-<a href="{{ section.settings.url }}" class="custom-image {% if section.settings.width == false %}page-width{% endif %}">
+<a href="{{ section.settings.url }}" class="custom-image">
+  {% assign image_classes = '' %}
+
+  {% comment %}Desktop Image{% endcomment %}
   {% if section.settings.image1 != blank %}
+    {% if section.settings.width %}
+      {% assign image_classes = 'image-custom-D page-width' %}
+    {% else %}
+      {% assign image_classes = 'image-custom-D' %}
+    {% endif %}
+
     {{
       section.settings.image1
       | image_url: width: 1920
-      | image_tag: width: '1920px', class: 'image-custom-d', load: 'lazy'
+      | image_tag: width: '1920px', class: image_classes, load: 'lazy'
     }}
   {% endif %}
+
+  {% comment %}Mobile Image{% endcomment %}
   {% if section.settings.image2 != blank %}
+    {% if section.settings.width %}
+      {% assign image_classes = 'image-custom-R page-width' %}
+    {% else %}
+      {% assign image_classes = 'image-custom-R' %}
+    {% endif %}
+
     {{
       section.settings.image2
       | image_url: width: 768
-      | image_tag: width: '768px', class: 'image-custom-r', load: 'lazy'
+      | image_tag: width: '768px', class: image_classes, load: 'lazy'
     }}
   {% endif %}
 </a>
