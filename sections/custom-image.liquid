@@ -1,11 +1,14 @@
 <style>
+  .custom-image{
+
+  }
   .custom-image img {
     width: 100%;
     height: auto;
     display: block;
   }
 </style>
-<a href="{{ section.settings.url }}" class="custom-image page-width">
+<a href="{{ section.settings.url }}" class="custom-image {% if section.settings.width == false %}page-width{% endif %}">
   {% if section.settings.image1 != blank %}
     {{
       section.settings.image1
@@ -26,6 +29,11 @@
 {
   "name": "Custom image",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "width",
+      "label": "Full width?"
+    },
     {
       "type": "image_picker",
       "id": "image1",
