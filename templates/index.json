@@ -768,15 +768,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "765a0479-0ea5-485e-a359-359040f0108a": {
-      "type": "custom-image",
-      "settings": {
-        "width": false,
-        "image1": "shopify:\/\/shop_images\/black-friday-sofas-ashley.jpg",
-        "image2": "shopify:\/\/shop_images\/0.jpg",
-        "url": "shopify:\/\/collections\/black-friday-sofas"
-      }
     }
   },
   "order": [
@@ -796,7 +787,6 @@
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
     "ceaf14b4-27d3-404e-b8f6-27e140237b10",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "e1d89960-0acc-4e87-9e52-40facd040c9b",
-    "765a0479-0ea5-485e-a359-359040f0108a"
+    "e1d89960-0acc-4e87-9e52-40facd040c9b"
   ]
 }
