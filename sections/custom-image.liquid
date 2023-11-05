@@ -6,16 +6,20 @@
   }
 </style>
 <section class="custom-image page-width">
-  {{
-    section.settings.image1
-    | image_url: width: 1920
-    | image_tag: width: '1920px', class: 'image-custom-d', load: 'lazy'
-  }}
-  {{
-    section.settings.image2
-    | image_url: width: 768
-    | image_tag: width: '768px', class: 'image-custom-r', load: 'lazy'
-  }}
+  {% if section.settings.image1 != blank %}
+    {{
+      section.settings.image1
+      | image_url: width: 1920
+      | image_tag: width: '1920px', class: 'image-custom-d', load: 'lazy'
+    }}
+  {% endif %}
+  {% if section.settings.image2 != blank %}
+    {{
+      section.settings.image2
+      | image_url: width: 768
+      | image_tag: width: '768px', class: 'image-custom-r', load: 'lazy'
+    }}
+  {% endif %}
 </section>
 
 {% schema %}
