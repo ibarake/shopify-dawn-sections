@@ -6,11 +6,11 @@
   </div>
   <div class="column-container">
     {% for block in section.blocks %}
-      <a href="{{ block.url }}">
+      <a href="{{ block.settings.url }}">
         <p>
-          {{ block.title }}
+          {{ block.settings.title }}
         </p>
-        {{ block.image | image_url: width: 300 | image_tag: width: '300px', class: 'column-image' }}
+        {{ block.settings.image | image_url: width: 300 | image_tag: width: '300px', class: 'column-image' }}
       </a>
     {% endfor %}
   </div>
