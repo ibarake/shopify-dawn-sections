@@ -1,10 +1,10 @@
 <div>
-  <div>
+  <div class="section-title-container">
     <p>
       {{ section.settings.title }}
     </p>
   </div>
-  <div>
+  <div class="column-container">
     {% for block in section.blocks %}
       <a href="{{ block.url }}">
         {{ block.image | image_url: width: 300 | image_tag: width: '300px', class: 'column-image' }}
