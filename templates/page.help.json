@@ -6,9 +6,37 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "6c7cf10b-f5ea-4771-9306-b22dc8d668e7": {
+      "type": "main-help",
+      "blocks": {
+        "aa18792e-b211-45ff-8ab3-d9ceee148129": {
+          "type": "columna",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/order-history.svg",
+            "url": "\/account\/orders",
+            "title": ""
+          }
+        },
+        "d3abc7b6-59e1-47bb-85dc-de23fb543c7e": {
+          "type": "columna",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/order_status.svg",
+            "url": "\/account\/orders",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa18792e-b211-45ff-8ab3-d9ceee148129",
+        "d3abc7b6-59e1-47bb-85dc-de23fb543c7e"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "6c7cf10b-f5ea-4771-9306-b22dc8d668e7"
   ]
 }
