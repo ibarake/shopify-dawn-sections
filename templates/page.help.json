@@ -15,7 +15,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/order-history.svg",
             "url": "\/account\/orders",
-            "title": ""
+            "title": "Ordenes"
           }
         },
         "d3abc7b6-59e1-47bb-85dc-de23fb543c7e": {
@@ -23,7 +23,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/order_status.svg",
             "url": "\/account\/orders",
-            "title": ""
+            "title": "Estado de la orden"
           }
         }
       },
