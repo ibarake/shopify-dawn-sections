@@ -4,6 +4,16 @@
       {{ section.settings.title }}
     </p>
   </div>
+  <div>
+    {% for block in section.blocks %}
+      <a href="{{ block.url }}">
+        {{ block.image | image_url: width: 300 | image_tag: width: '300px', class: 'column-image' }}
+        <p>
+          {{ block.title }}
+        </p>
+      </a>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
