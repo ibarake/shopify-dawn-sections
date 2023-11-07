@@ -15,8 +15,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/order-history.svg",
             "url": "\/account\/orders",
-            "title": "Ordenes",
-            "columns-desktop": 4
+            "title": "Ordenes"
           }
         },
         "d3abc7b6-59e1-47bb-85dc-de23fb543c7e": {
@@ -24,8 +23,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/order_status.svg",
             "url": "\/account\/orders",
-            "title": "Estado de la orden",
-            "columns-desktop": 4
+            "title": "Estado de la orden"
           }
         },
         "afa2eac2-ba15-40f1-9840-1b1836581394": {
@@ -45,7 +43,9 @@
         "afa2eac2-ba15-40f1-9840-1b1836581394"
       ],
       "settings": {
-        "title": "Ayuda y Servicio al cliente"
+        "title": "Ayuda y Servicio al cliente",
+        "title-color": "#121212",
+        "columns-desktop": 4
       }
     }
   },
