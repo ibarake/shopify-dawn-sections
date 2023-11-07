@@ -67,7 +67,7 @@
         {% endif %}
       {% if block.type == 'columna_2' %}
         <div class="columna">
-        <p>
+        <p style="color: {{ section.settings.title1-color }}">
           {{ block.settings.title1 }}
         </p>
         <p>
@@ -98,6 +98,12 @@
    {
      "type": "color",
      "id": "title-color",
+     "label": "Titulo color",
+     "default": "#C9C9C9"
+   },
+   {
+     "type": "color",
+     "id": "title1-color",
      "label": "Titulo color",
      "default": "#C9C9C9"
    },
