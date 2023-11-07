@@ -324,6 +324,7 @@
       "block_order": [
         "9a623b0f-3488-45e2-9466-46cad1602c75"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
