@@ -119,7 +119,7 @@
 
       ],
       "settings": {
-        "text-color": "#FFFFFF",
+        "text-color": "#ffffff",
         "btn-color": "#363534"
       }
     },
@@ -226,7 +226,7 @@
             "poc-3": "Bridson",
             "poc-4": "Garvine Bar",
             "poc-5": "Garvine",
-            "poc-6": "Caitbtook"
+            "poc-6": "Caitbrook"
           }
         }
       },
@@ -235,7 +235,7 @@
       ],
       "settings": {
         "btn-txt-color": "#363534",
-        "btn-bg-color": "#F4F4F4"
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "c4898edd-ca64-40e0-a383-4c8002642c17": {
