@@ -32,6 +32,10 @@
     padding: 12px 18px;
     font-weight: 600;
   }
+  .help-button-x{
+    display: flex;
+    flex-direction: row;
+  }
 </style>
 
 <div class="help-section page-width">
@@ -61,7 +65,7 @@
         <p>
           {{ block.settings.title3 }}
         </p>
-      <a href="{{ block.settings.url }}">
+      <a class="help-button-x" href="{{ block.settings.url }}">
         {{ block.settings.title }}
         {% render 'link-outside' %}
       </a>
