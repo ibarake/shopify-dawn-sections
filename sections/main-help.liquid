@@ -8,12 +8,28 @@
   </div>
   <div class="column-container">
     {% for block in section.blocks %}
+      {% if block.type == 'columna' %}
       <a href="{{ block.settings.url }}">
         <p>
           {{ block.settings.title }}
         </p>
         {{ block.settings.image | image_url: width: 300 | image_tag: width: '300px', class: 'column-image' }}
       </a>
+        {% endif %}
+      {% if block.type == 'columna_2' %}
+        <p>
+          {{ block.settings.title1 }}
+        </p>
+        <p>
+          {{ block.settings.title2 }}
+        </p>
+        <p>
+          {{ block.settings.title3 }}
+        </p>
+      <a href="{{ block.settings.url }}">
+        {{ block.settings.title }}
+      </a>
+        {% endif %}
     {% endfor %}
   </div>
 </div>
