@@ -25,11 +25,22 @@
             "url": "\/account\/orders",
             "title": "Estado de la orden"
           }
+        },
+        "afa2eac2-ba15-40f1-9840-1b1836581394": {
+          "type": "columna_2",
+          "settings": {
+            "title1": "Concora Credit",
+            "title2": "Customer Service",
+            "title3": "1-866-502-6439log into Concora",
+            "url": "#",
+            "title": "Log in to Concora"
+          }
         }
       },
       "block_order": [
         "aa18792e-b211-45ff-8ab3-d9ceee148129",
-        "d3abc7b6-59e1-47bb-85dc-de23fb543c7e"
+        "d3abc7b6-59e1-47bb-85dc-de23fb543c7e",
+        "afa2eac2-ba15-40f1-9840-1b1836581394"
       ],
       "settings": {
         "title": "Ayuda y Servicio al cliente"
