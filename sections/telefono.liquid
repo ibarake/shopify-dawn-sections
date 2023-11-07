@@ -1,0 +1,94 @@
+{% stylesheet %}
+/* Add the CSS directly or use asset_url to link to an external stylesheet */
+.call-to-action {
+  position: fixed;
+  width: 390px;
+  height: 69px;
+  top: 756px;
+  background: #FFFFFF;
+  filter: drop-shadow(0px -4px 15px rgba(0, 0, 0, 0.08));
+}
+
+.call-to-action-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 80px;
+  gap: 10px;
+  width: 147px;
+  height: 40px;
+  background: #2D9CDB;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.call-to-action-phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.avatar {
+  background: #E0B37F;
+  border-radius: 50px;
+}
+
+.phone-icon {
+  background: #FFFFFF;
+}
+{% endstylesheet %}
+
+<!-- templates/telofono.liquid -->
+<div class="call-to-action">
+  <!-- Button -->
+  <div style="left: 225px; top: 770px;" class="call-to-action-button">
+    {{ settings.button_label }}
+  </div>
+
+  <!-- Phone Number and Icon -->
+  <div style="left: 28px; top: 769px;" class="call-to-action-phone">
+    <div style="width: 40px; height: 40px;" class="avatar">
+      <!-- Icon would be inserted here -->
+    </div>
+    <div style="width: 113px; height: 43px;">
+      <div style="color: #414141; font-weight: 700;">Teléfono</div>
+      <div style="color: #6B6B6B;">{{ settings.phone_number }}</div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Call to Action",
+  "settings": [
+    {
+      "type": "text",
+      "id": "phone_number",
+      "label": "Phone Number",
+      "default": "320-3949506"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Llamanos"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Call to Action",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+// Any necessary JavaScript can go here
+{% endjavascript %}
