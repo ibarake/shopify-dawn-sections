@@ -15,7 +15,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/order-history.svg",
             "url": "\/account\/orders",
-            "title": "Ordenes"
+            "title": "Ordenes",
+            "columns-desktop": 4
           }
         },
         "d3abc7b6-59e1-47bb-85dc-de23fb543c7e": {
@@ -23,7 +24,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/order_status.svg",
             "url": "\/account\/orders",
-            "title": "Estado de la orden"
+            "title": "Estado de la orden",
+            "columns-desktop": 4
           }
         },
         "afa2eac2-ba15-40f1-9840-1b1836581394": {
@@ -31,7 +33,7 @@
           "settings": {
             "title1": "Concora Credit",
             "title2": "Customer Service",
-            "title3": "1-866-502-6439log into Concora",
+            "title3": "1-866-502-6439",
             "url": "#",
             "title": "Log in to Concora"
           }
