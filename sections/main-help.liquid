@@ -1,7 +1,7 @@
 <style>
   .column-container{
     display: grid;
-    grid-template-columns: repeat({{ block.settings.columns-desktop }}, 1fr);
+    grid-template-columns: repeat({{ section.settings.columns-desktop }}, 1fr);
   }
   .section-title-container{
     display: block;
@@ -72,6 +72,12 @@
            "type": "text",
            "id": "title",
            "label": "title"
+         },
+         {
+           "type": "number",
+           "id": "columns-desktop",
+           "label": "Columnas escritorio",
+           "default": 4
          }
        ]
      },
@@ -93,12 +99,6 @@
            "type": "text",
            "id": "title3",
            "label": "Titulo 3"
-         },
-         {
-           "type": "number",
-           "id": "columns-desktop",
-           "label": "Columnas escritorio",
-           "default": 4
          },
          {
            "type": "url",
