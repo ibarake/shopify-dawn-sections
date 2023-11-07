@@ -47,6 +47,11 @@
   .columna p{
     margin: 10px 0px;
   }
+  @media only screen and (max-width: 768px) {
+  .column-container {
+    grid-template-columns: repeat({{ section.settings.columns-phone | string }}, 1fr);
+  }
+}
 </style>
 
 <div class="help-section page-width">
@@ -112,6 +117,12 @@
            "id": "columns-desktop",
            "label": "Columnas escritorio",
            "default": 4
+         },
+         {
+           "type": "number",
+           "id": "columns-phone",
+           "label": "Columnas escritorio",
+           "default": 1
          }
   ],
   	"blocks": [
