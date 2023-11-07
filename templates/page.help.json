@@ -45,6 +45,7 @@
       "settings": {
         "title": "Ayuda y Servicio al cliente",
         "title-color": "#121212",
+        "title1-color": "#bc5801",
         "columns-desktop": 4
       }
     }
