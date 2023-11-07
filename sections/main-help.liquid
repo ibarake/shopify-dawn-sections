@@ -17,6 +17,10 @@
     align-items: center;
     text-decoration: none;
   }
+  .column-title{
+    text-decoration: none;
+    color: {{ section.settings.title-color }}
+  }
   .column-image {
     width: 50%;
   }
@@ -39,7 +43,7 @@
     {% for block in section.blocks %}
       {% if block.type == 'columna' %}
       <a class="columna" href="{{ block.settings.url }}">
-        <p>
+        <p class="column-title">
           {{ block.settings.title }}
         </p>
         {{ block.settings.image | image_url: width: 300 | image_tag: width: '300px', class: 'column-image' }}
@@ -73,6 +77,12 @@
      "type": "text",
      "id": "title",
      "label": "title"
+   },
+   {
+     "type": "color",
+     "id": "title-color",
+     "label": "Titulo color",
+     "default": "#C9C9C9"
    },
          {
            "type": "number",
