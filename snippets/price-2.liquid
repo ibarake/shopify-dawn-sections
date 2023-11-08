@@ -76,7 +76,7 @@
         </span>
       {%- endunless -%}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
-      <span class="price-item price-item--sale price-item--last" style="display: flex; flex-direction: row; justify-content: flex-start;">
+      <span class="price-item price-item--sale price-item--last" style="display: flex; flex-direction: row; justify-content: flex-start; height: 100%;">
         {{ money_price }}
               {%- if product.compare_at_price and product.compare_at_price > product.price %}
                 <style>
