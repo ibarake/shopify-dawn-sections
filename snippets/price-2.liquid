@@ -75,9 +75,9 @@
           </s>
         </span>
       {%- endunless -%}
+              {%- if product.compare_at_price and product.compare_at_price > product.price %}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last" style="display: flex; flex-direction: row; justify-content: flex-start; height: 20px;">
-              {%- if product.compare_at_price and product.compare_at_price > product.price %}
                 <style>
                   .salebadge{
                     height: 100%;
@@ -90,9 +90,10 @@
           | image_url: width: 300
           | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
         }}
-    {%- endif -%}
         {{ money_price }}
       </span>
+          {%- endif -%}
+
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
