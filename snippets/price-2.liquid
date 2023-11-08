@@ -41,15 +41,6 @@
   "
 >
   {%- if show_badges -%}
-    {%- if product.compare_at_price and product.compare_at_price > product.price %}
-      <span>
-        {{
-          settings.salebadge
-          | image_url: width: 300
-          | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
-        }}
-      </span>
-    {%- endif -%}
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
       {{ 'products.product.sold_out' | t }}
     </span>
@@ -69,6 +60,15 @@
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
+      {%- if product.compare_at_price and product.compare_at_price > product.price %}
+      <span>
+        {{
+          settings.salebadge
+          | image_url: width: 300
+          | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
+        }}
+      </span>
+    {%- endif -%}
         <span>
           <s
             class="price-item price-item--regular"
