@@ -60,15 +60,6 @@
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-      {%- if product.compare_at_price and product.compare_at_price > product.price %}
-      <span>
-        {{
-          settings.salebadge
-          | image_url: width: 300
-          | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
-        }}
-      </span>
-    {%- endif -%}
         <span>
           <s
             class="price-item price-item--regular"
@@ -87,6 +78,13 @@
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
         {{ money_price }}
+              {%- if product.compare_at_price and product.compare_at_price > product.price %}
+        {{
+          settings.salebadge
+          | image_url: width: 300
+          | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
+        }}
+    {%- endif -%}
       </span>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
