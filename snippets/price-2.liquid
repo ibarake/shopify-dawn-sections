@@ -79,6 +79,11 @@
       <span class="price-item price-item--sale price-item--last" style="display: flex; flex-direction: row; justify-content: flex-start;">
         {{ money_price }}
               {%- if product.compare_at_price and product.compare_at_price > product.price %}
+                <style>
+                  .salebadge{
+                    height: 100%;
+                  }
+                </style>
         {{
           settings.salebadge
           | image_url: width: 300
