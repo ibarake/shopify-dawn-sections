@@ -33,6 +33,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
+            "image_r": "shopify:\/\/shop_images\/black-friday-telora.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Black Friday Ashley Colombia",
@@ -237,32 +238,6 @@
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
-      }
-    },
-    "03bc2155-0d93-4439-9121-97ed57ac35e6": {
-      "type": "collage",
-      "blocks": {
-        "80362051-fc54-4996-984d-b7993311a73d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/black-friday-ashley-sofas.jpg",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "80362051-fc54-4996-984d-b7993311a73d"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 0
       }
     },
     "ee780018-d752-419e-9d6f-9bfcec93f62f": {
@@ -731,7 +706,6 @@
     "baa9a133-d47f-4c72-9814-3caa591fae24",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
-    "03bc2155-0d93-4439-9121-97ed57ac35e6",
     "ee780018-d752-419e-9d6f-9bfcec93f62f",
     "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6",
     "ed3299a6-3063-49c0-8b72-db04858f9fd2",
