@@ -1,65 +1,5 @@
 {
   "sections": {
-    "08755c67-a875-4322-a5b3-913c460c6744": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17657980813619__08755c67-a875-4322-a5b3-913c460c6744-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/black-friday-sofas-ashley.jpg",
-            "image_r": "shopify:\/\/shop_images\/black-friday-sofas-ashley.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/pages\/black-friday",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "222b6934-1189-41de-b323-7fbc24f3dbb4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sofa-cama-comodo-lucina-ahsley.jpg",
-            "image_r": "shopify:\/\/shop_images\/sofa-cama-comodo-lucina-ahsley.jpg",
-            "heading": "Precios sin trucos | Sofás | Ashley Colombia",
-            "heading_size": "h1",
-            "subheading": "Precios sin crucos en Ashley Colombia",
-            "button_label": "https:\/\/ashleycolombia.com\/search?q=lucina&options%5Bprefix%5D=last",
-            "link": "https:\/\/ashleycolombia.com\/search?q=lucina&options%5Bprefix%5D=last",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__08755c67-a875-4322-a5b3-913c460c6744-slide-1",
-        "222b6934-1189-41de-b323-7fbc24f3dbb4"
-      ],
-      "custom_css": [
-        ".slideshow__text-wrapper {display: none;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
       "type": "custom-hero-banner",
       "disabled": true,
@@ -88,7 +28,6 @@
     },
     "46658e2a-45ab-457a-9e97-791c28394991": {
       "type": "image-banner",
-      "disabled": true,
       "custom_css": [
         ".banner__box {display: none;}"
       ],
@@ -772,7 +711,6 @@
     }
   },
   "order": [
-    "08755c67-a875-4322-a5b3-913c460c6744",
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
     "46658e2a-45ab-457a-9e97-791c28394991",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
