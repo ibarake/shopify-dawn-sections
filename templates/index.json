@@ -34,32 +34,21 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
             "image_r": "shopify:\/\/shop_images\/black-friday-telora.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Black Friday Ashley Colombia",
-            "button_label": "Button label",
-            "link": "shopify:\/\/pages\/black-friday",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "link": "shopify:\/\/pages\/black-friday"
           }
         }
       },
       "block_order": [
         "92277532-ab8c-403f-8a92-960b6dce56c9"
       ],
+      "custom_css": [
+        ".banner__media{position: relative;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "counter",
         "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "change_slides_speed": 5
       }
     },
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
