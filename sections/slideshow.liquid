@@ -31,7 +31,7 @@
   aria-label="{{ section.settings.accessibility_info | escape }}"
 >
   <!-- Slideshow Controls -->
-  {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
+  {%- if section.blocks.size > 1 -%}
     <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden">
       <!-- Previous Button -->
       <button
