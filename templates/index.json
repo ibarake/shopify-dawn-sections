@@ -42,8 +42,7 @@
         "92277532-ab8c-403f-8a92-960b6dce56c9"
       ],
       "custom_css": [
-        ".banner__media {position: relative;}",
-        "img {height: 100%;}"
+        ".banner__media {position: relative;}"
       ],
       "settings": {
         "layout": "full_bleed",
