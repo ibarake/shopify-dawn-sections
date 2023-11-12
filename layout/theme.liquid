@@ -53,6 +53,14 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+    {% if template.name == 'index' %}
+      <style>
+        .breadcrumbs {
+          display: none;
+        }
+      </style>
+    {% endif %}
+
     {% style %}
       product-recommendations .card__media .media img {
         object-fit: contain;
@@ -566,14 +574,6 @@
           checkVisibility();
         });
       </script>
-    {% endif %}
-
-    {% if template.name == 'index' %}
-      <style>
-        .breadcrumbs {
-          display: none;
-        }
-      </style>
     {% endif %}
   </body>
 </html>
