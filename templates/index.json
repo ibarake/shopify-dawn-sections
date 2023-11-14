@@ -7,6 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
+            "image_r": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
             "link": "shopify:\/\/pages\/black-friday"
           }
         },
@@ -14,6 +15,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
+            "image_r": "shopify:\/\/shop_images\/black-friday-telora.jpg",
             "link": "shopify:\/\/pages\/black-friday"
           }
         }
