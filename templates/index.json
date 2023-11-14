@@ -24,6 +24,9 @@
         "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8",
         "d31617ae-8838-458c-90ad-8a9dc97d31c2"
       ],
+      "custom_css": [
+        "a {z-index: 9999;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
