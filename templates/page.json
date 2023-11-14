@@ -56,6 +56,66 @@
         "show_text_below": true
       }
     },
+    "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Black Friday - Colección Limitada<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1",
+        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "59072d24-743a-49e3-9128-e96d9c7ecac5": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-camas",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b": {
       "type": "image-banner",
       "blocks": {
@@ -103,36 +163,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Black Friday - Colección Limitada<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-text-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1",
-        "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-text-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "777bc39f-f226-475d-9662-b4473acf5755": {
@@ -338,49 +368,19 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "59072d24-743a-49e3-9128-e96d9c7ecac5": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-camas",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "main",
     "26f9329e-6d98-4ea9-bf2c-98aea47f8584",
-    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
+    "59072d24-743a-49e3-9128-e96d9c7ecac5",
+    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "777bc39f-f226-475d-9662-b4473acf5755",
     "726dc22e-4037-49eb-96b0-a69811a3cc83",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "59072d24-743a-49e3-9128-e96d9c7ecac5"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
