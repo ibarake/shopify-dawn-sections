@@ -336,6 +336,36 @@
         "padding_bottom": 20
       }
     },
+    "8f503d84-90dd-4090-97cd-6a2404cfe4b3": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-camas",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
       "type": "collection-list",
       "blocks": {
@@ -708,6 +738,7 @@
     "ee780018-d752-419e-9d6f-9bfcec93f62f",
     "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6",
     "ed3299a6-3063-49c0-8b72-db04858f9fd2",
+    "8f503d84-90dd-4090-97cd-6a2404cfe4b3",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
