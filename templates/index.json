@@ -1,11 +1,32 @@
 {
   "sections": {
-    "410bcaf7-a073-461b-87a6-ad280c78c4aa": {
-      "type": "custom-image",
+    "b4936535-9898-4f2e-b8f4-1287d37875e5": {
+      "type": "slideshow",
+      "blocks": {
+        "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
+            "link": "shopify:\/\/pages\/black-friday"
+          }
+        },
+        "d31617ae-8838-458c-90ad-8a9dc97d31c2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
+            "link": "shopify:\/\/pages\/black-friday"
+          }
+        }
+      },
+      "block_order": [
+        "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8",
+        "d31617ae-8838-458c-90ad-8a9dc97d31c2"
+      ],
       "settings": {
-        "width": false,
-        "image1": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
-        "url": ""
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
       }
     },
     "64830d7c-37d4-434c-b411-b57d0c3609d1": {
@@ -730,7 +751,7 @@
     }
   },
   "order": [
-    "410bcaf7-a073-461b-87a6-ad280c78c4aa",
+    "b4936535-9898-4f2e-b8f4-1287d37875e5",
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
     "baa9a133-d47f-4c72-9814-3caa591fae24",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
