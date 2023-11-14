@@ -43,7 +43,7 @@
         "template--21474712387891__26f9329e-6d98-4ea9-bf2c-98aea47f8584-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
+        "image": "shopify:\/\/shop_images\/Black-friday-ashley-camas-2023.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
@@ -338,6 +338,36 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "59072d24-743a-49e3-9128-e96d9c7ecac5": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday-camas",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -350,6 +380,7 @@
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
+    "59072d24-743a-49e3-9128-e96d9c7ecac5"
   ]
 }
