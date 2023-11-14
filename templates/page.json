@@ -8,52 +8,12 @@
         "padding_bottom": 28
       }
     },
-    "26f9329e-6d98-4ea9-bf2c-98aea47f8584": {
-      "type": "image-banner",
-      "blocks": {
-        "template--21474712387891__26f9329e-6d98-4ea9-bf2c-98aea47f8584-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--21474712387891__26f9329e-6d98-4ea9-bf2c-98aea47f8584-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--21474712387891__26f9329e-6d98-4ea9-bf2c-98aea47f8584-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "shopify:\/\/pages\/black-friday",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "shopify:\/\/pages\/black-friday",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712387891__26f9329e-6d98-4ea9-bf2c-98aea47f8584-heading-1",
-        "template--21474712387891__26f9329e-6d98-4ea9-bf2c-98aea47f8584-text-1",
-        "template--21474712387891__26f9329e-6d98-4ea9-bf2c-98aea47f8584-buttons-1"
-      ],
+    "54daf3b0-bfd0-4ace-ab06-a1c7a3376367": {
+      "type": "custom-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "width": false,
+        "image1": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
+        "url": "shopify:\/\/pages\/black-friday"
       }
     },
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
@@ -372,7 +332,7 @@
   },
   "order": [
     "main",
-    "26f9329e-6d98-4ea9-bf2c-98aea47f8584",
+    "54daf3b0-bfd0-4ace-ab06-a1c7a3376367",
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
     "59072d24-743a-49e3-9128-e96d9c7ecac5",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
