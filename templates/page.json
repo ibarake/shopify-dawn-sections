@@ -8,13 +8,33 @@
         "padding_bottom": 28
       }
     },
-    "54daf3b0-bfd0-4ace-ab06-a1c7a3376367": {
-      "type": "custom-image",
+    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32": {
+      "type": "slideshow",
+      "blocks": {
+        "d85a1b00-2851-4316-9b43-83cc9a496cb6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
+            "link": "shopify:\/\/pages\/black-friday"
+          }
+        },
+        "1bef233c-d04b-4442-9cfd-b5f9ffbb5030": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
+            "link": "shopify:\/\/pages\/black-friday"
+          }
+        }
+      },
+      "block_order": [
+        "d85a1b00-2851-4316-9b43-83cc9a496cb6",
+        "1bef233c-d04b-4442-9cfd-b5f9ffbb5030"
+      ],
       "settings": {
-        "width": false,
-        "image1": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
-        "image2": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
-        "url": "shopify:\/\/pages\/black-friday"
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
       }
     },
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
@@ -329,40 +349,11 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32": {
-      "type": "slideshow",
-      "blocks": {
-        "d85a1b00-2851-4316-9b43-83cc9a496cb6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
-            "link": "shopify:\/\/pages\/black-friday"
-          }
-        },
-        "1bef233c-d04b-4442-9cfd-b5f9ffbb5030": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
-            "link": "shopify:\/\/pages\/black-friday"
-          }
-        }
-      },
-      "block_order": [
-        "d85a1b00-2851-4316-9b43-83cc9a496cb6",
-        "1bef233c-d04b-4442-9cfd-b5f9ffbb5030"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
-      }
     }
   },
   "order": [
     "main",
-    "54daf3b0-bfd0-4ace-ab06-a1c7a3376367",
+    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
     "59072d24-743a-49e3-9128-e96d9c7ecac5",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
@@ -371,7 +362,6 @@
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
