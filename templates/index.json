@@ -539,7 +539,7 @@
         "description_style": "body",
         "collection": "black-friday-comedores",
         "products_to_show": 8,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
