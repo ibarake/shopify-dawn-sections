@@ -26,7 +26,7 @@
         "type": "text",
         "id": "whatsapp_phone",
         "label": "telefono whatsapp",
-        "default": "hola"
+        "default": "+573003003030"
       },
       {
         "type": "textarea",
