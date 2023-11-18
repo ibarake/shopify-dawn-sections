@@ -23,19 +23,19 @@
         "default": false
       },
       {
-        "type": "text",
+        "type": "textarea",
         "id": "whatsapp_message",
         "label": "no product message",
         "default": "hola"
       },
       {
-        "type": "text",
+        "type": "textarea",
         "id": "whatsapp_message_product_1",
         "label": "before product message",
         "default": "hola, me interesa:"
       },
       {
-        "type": "text",
+        "type": "textarea",
         "id": "whatsapp_message_product_2",
         "label": "after product message",
         "default": "quisiera me contacten, gracias!"
