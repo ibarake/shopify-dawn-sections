@@ -12,7 +12,7 @@
     "settings": [
       {
         "type": "checkbox",
-        "id": "show_breadcrumb_whatsapp",
+        "id": "show_whatsapp",
         "label": "Show whatsapp floating button",
         "default": false
       },
