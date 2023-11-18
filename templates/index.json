@@ -25,7 +25,7 @@
         "d31617ae-8838-458c-90ad-8a9dc97d31c2"
       ],
       "custom_css": [
-        "a {z-index: 9999;}"
+        "a {z-index: 50;}"
       ],
       "settings": {
         "layout": "full_bleed",
