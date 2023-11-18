@@ -15,6 +15,30 @@
         "id": "show_breadcrumb_whatsapp",
         "label": "Show whatsapp floating button",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "include_product",
+        "label": "Include product if page is in product",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "whatsapp_message",
+        "label": "no product message",
+        "default": "hola"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp_message_product_1",
+        "label": "before product message",
+        "default": "hola"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp_message_product_2",
+        "label": "after product message",
+        "default": "hola"
       }
     ]
   },
