@@ -605,7 +605,7 @@
 
     {% if settings.show_whatsapp %}
       <a
-        href="https://api.whatsapp.com/send?phone={{ settings.whatsapp_phone }}&text={% if settings.include_product %}{% if template contains 'product' %} {% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}{% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}"
+        href="https://api.whatsapp.com/send?phone={{ settings.whatsapp_phone }}&text={% if settings.include_product %}{% if template contains 'product' %}{{ settings.whatsapp_message_product_1 | url_encode }}{{ product.title | url_encode }}{{ settings.whatsapp_message_product_2 | url_encode }}{% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}{% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}"
         class="float"
         target="_blank"
       >
