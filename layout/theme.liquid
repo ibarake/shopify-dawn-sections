@@ -605,7 +605,7 @@
 
     {% if settings.show_whatsapp %}
       <a
-        href="https://api.whatsapp.com/send?phone=51955081075&text={{ settings. | url_encode }}."
+        href="https://api.whatsapp.com/send?phone={{ settings.whatsapp_phone }}&text={% if settings.include_product %}{% if template contains 'product' %} {% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}{% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}"
         class="float"
         target="_blank"
       >
