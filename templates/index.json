@@ -756,6 +756,9 @@
     },
     "550a77d6-6997-4664-8f4e-1c2f99b213d6": {
       "type": "featured-blog",
+      "custom_css": [
+        ".article-card__excerpt {width: 100%; margin-top: 1.2rem; font: caption;}"
+      ],
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
