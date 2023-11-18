@@ -23,6 +23,12 @@
         "default": false
       },
       {
+        "type": "text",
+        "id": "whatsapp_phone",
+        "label": "telefono whatsapp",
+        "default": "hola"
+      },
+      {
         "type": "textarea",
         "id": "whatsapp_message",
         "label": "no product message",
