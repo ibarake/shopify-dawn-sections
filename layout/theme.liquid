@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
@@ -469,10 +470,10 @@
       (function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/6413275a11704400250319f8/64736ad3d2e42c0032d5a8da.js?platform=view_installation_code'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();
     </script>
 
-    <script> (function(){ var div = null; var id = setInterval(function(){ div = document.getElementById("clgo"); if (div){ div.parentNode.removeChild(div); clearInterval(id); } }, 1000);})() 
+    <script>
+      (function(){ var div = null; var id = setInterval(function(){ div = document.getElementById("clgo"); if (div){ div.parentNode.removeChild(div); clearInterval(id); } }, 1000);})()
     </script>
 
-    
     {{ 'tiny-img-link-preloader.js' | asset_url | script_tag }}
     {% if template contains 'product' %}
       <div class="static-atc">
@@ -581,6 +582,16 @@
           checkVisibility();
         });
       </script>
+    {% endif %}
+
+    {% if settings.show_breadcrumb_whatsapp %}
+      <a
+        href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float"
+        target="_blank"
+      >
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
     {% endif %}
   </body>
 </html>
