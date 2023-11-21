@@ -14,21 +14,13 @@
         "d85a1b00-2851-4316-9b43-83cc9a496cb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/camas-bf-ashley.jpg",
-            "link": "shopify:\/\/pages\/black-friday"
-          }
-        },
-        "1bef233c-d04b-4442-9cfd-b5f9ffbb5030": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
+            "image": "shopify:\/\/shop_images\/blackfriday-ashley-poltronas.jpg",
             "link": "shopify:\/\/pages\/black-friday"
           }
         }
       },
       "block_order": [
-        "d85a1b00-2851-4316-9b43-83cc9a496cb6",
-        "1bef233c-d04b-4442-9cfd-b5f9ffbb5030"
+        "d85a1b00-2851-4316-9b43-83cc9a496cb6"
       ],
       "custom_css": [
         "a {z-index: 2;}"
