@@ -329,24 +329,25 @@
             "collection": "black-friday-sofas"
           }
         },
-        "f7779859-7e7b-41bd-8535-f559a94ef731": {
-          "type": "collection",
-          "settings": {
-            "collection": "poltronas-y-bancos-con-almacenamiento"
-          }
-        },
         "139058a8-809c-4403-840f-2682b32fa4c8": {
           "type": "product",
           "settings": {
             "product": "silla-decorativa-puckman",
             "second_image": true
           }
+        },
+        "18701050-a5a9-4871-a742-445ca5ecd820": {
+          "type": "product",
+          "settings": {
+            "product": "silla-decorativa-avonley",
+            "second_image": false
+          }
         }
       },
       "block_order": [
         "d832b7d1-98fc-41c2-9845-5ab60e2ba890",
-        "f7779859-7e7b-41bd-8535-f559a94ef731",
-        "139058a8-809c-4403-840f-2682b32fa4c8"
+        "139058a8-809c-4403-840f-2682b32fa4c8",
+        "18701050-a5a9-4871-a742-445ca5ecd820"
       ],
       "custom_css": [
         "img {object-fit: contain;}"
