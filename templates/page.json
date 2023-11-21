@@ -218,19 +218,30 @@
             "link_label": "camas",
             "link": "shopify:\/\/collections\/black-friday-camas"
           }
+        },
+        "a810e291-5014-4413-873f-a5bcc72b1bc5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackfriday-poltronas-ashley-colombia.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "poltronas",
+            "link": "shopify:\/\/collections\/poltronas-y-bancos-con-almacenamiento"
+          }
         }
       },
       "block_order": [
         "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-1",
         "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-2",
-        "80ba911f-e06a-4efc-b168-68988297921d"
+        "80ba911f-e06a-4efc-b168-68988297921d",
+        "a810e291-5014-4413-873f-a5bcc72b1bc5"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
