@@ -62,40 +62,18 @@
             "link_label": "comedores",
             "link": "shopify:\/\/collections\/black-friday-comedores"
           }
-        },
-        "80ba911f-e06a-4efc-b168-68988297921d": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blackfriday-camas-ashley-colombia.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "camas",
-            "link": "shopify:\/\/collections\/black-friday-camas"
-          }
-        },
-        "a810e291-5014-4413-873f-a5bcc72b1bc5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blackfriday-poltronas-ashley-colombia.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "poltronas",
-            "link": "shopify:\/\/collections\/poltronas-y-bancos-con-almacenamiento"
-          }
         }
       },
       "block_order": [
         "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-1",
-        "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-2",
-        "80ba911f-e06a-4efc-b168-68988297921d",
-        "a810e291-5014-4413-873f-a5bcc72b1bc5"
+        "template--21474712387891__726dc22e-4037-49eb-96b0-a69811a3cc83-column-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
@@ -114,21 +92,21 @@
           "type": "product",
           "settings": {
             "product": "silla-decorativa-puckman",
-            "second_image": false
+            "second_image": true
           }
         },
         "0b7e2b4a-1f0e-4cca-a6f7-78322353b0de": {
           "type": "product",
           "settings": {
             "product": "banco-de-acento-tapizado-donford",
-            "second_image": false
+            "second_image": true
           }
         },
         "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1": {
           "type": "product",
           "settings": {
             "product": "silla-decorativa-avila",
-            "second_image": false
+            "second_image": true
           }
         }
       },
@@ -144,10 +122,10 @@
         "heading": "Poltronas y bancos con almacenamiento",
         "heading_size": "h2",
         "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
+        "mobile_layout": "column",
+        "card_styles": "none",
         "color_scheme": "background-1",
-        "padding_top": 48,
+        "padding_top": 32,
         "padding_bottom": 0
       }
     },
@@ -448,6 +426,51 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackfriday-camas-ashley-colombia.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "camas",
+            "link": "shopify:\/\/collections\/black-friday-camas"
+          }
+        },
+        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackfriday-poltronas-ashley-colombia.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "poltronas",
+            "link": "shopify:\/\/collections\/poltronas-y-bancos-con-almacenamiento"
+          }
+        }
+      },
+      "block_order": [
+        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-2",
+        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -463,6 +486,7 @@
     "777bc39f-f226-475d-9662-b4473acf5755",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
+    "3351b522-8c99-4497-a46e-3eaeb9cfc693"
   ]
 }
