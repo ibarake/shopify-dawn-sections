@@ -107,6 +107,50 @@
         "padding_bottom": 36
       }
     },
+    "feac8e1e-17d6-4323-82ae-5ada6c557d52": {
+      "type": "collage",
+      "blocks": {
+        "6f6d3e69-15ec-43a7-9cfd-fe8f4d3bc92a": {
+          "type": "product",
+          "settings": {
+            "product": "silla-decorativa-puckman",
+            "second_image": false
+          }
+        },
+        "0b7e2b4a-1f0e-4cca-a6f7-78322353b0de": {
+          "type": "product",
+          "settings": {
+            "product": "banco-de-acento-tapizado-donford",
+            "second_image": false
+          }
+        },
+        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "silla-decorativa-avila",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "6f6d3e69-15ec-43a7-9cfd-fe8f4d3bc92a",
+        "0b7e2b4a-1f0e-4cca-a6f7-78322353b0de",
+        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1"
+      ],
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "heading": "Poltronas y bancos con almacenamiento",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
       "type": "rich-text",
       "blocks": {
@@ -167,6 +211,36 @@
         "padding_bottom": 0
       }
     },
+    "143ca7d4-669f-476e-91f1-b777438ace22": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "Poltronas y bancos con almacenamiento",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "poltronas-y-bancos-con-almacenamiento",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b": {
       "type": "image-banner",
       "blocks": {
@@ -214,6 +288,46 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b": {
+      "type": "custom-collections",
+      "blocks": {
+        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "center",
+            "collection-title": "Comedores",
+            "collection": "black-friday-comedores",
+            "button-title": "Compra",
+            "blocks-selection": "products",
+            "product_list": [
+              "mesa-de-comedor-y-6-sillas-grindleburg-d754d13",
+              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar",
+              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-bridson",
+              "mesa-de-comedor-con-altura-de-mostrador-y-taburetes-de-bar-juego-de-5-garvine",
+              "mesa-de-comedor-y-sillas-juego-de-5-garvine",
+              "mesa-de-comedor-y-sillas-juego-de-7-caitbrook"
+            ],
+            "collection_list": [
+
+            ],
+            "poc-1": "Grindleburg",
+            "poc-2": "Coviar",
+            "poc-3": "Bridson",
+            "poc-4": "Garvine Bar",
+            "poc-5": "Garvine",
+            "poc-6": "Caitbrook"
+          }
+        }
+      },
+      "block_order": [
+        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4"
       }
     },
     "777bc39f-f226-475d-9662-b4473acf5755": {
@@ -283,46 +397,6 @@
         "padding_bottom": 0
       }
     },
-    "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b": {
-      "type": "custom-collections",
-      "blocks": {
-        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "center",
-            "collection-title": "Comedores",
-            "collection": "black-friday-comedores",
-            "button-title": "Compra",
-            "blocks-selection": "products",
-            "product_list": [
-              "mesa-de-comedor-y-6-sillas-grindleburg-d754d13",
-              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar",
-              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-bridson",
-              "mesa-de-comedor-con-altura-de-mostrador-y-taburetes-de-bar-juego-de-5-garvine",
-              "mesa-de-comedor-y-sillas-juego-de-5-garvine",
-              "mesa-de-comedor-y-sillas-juego-de-7-caitbrook"
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "Grindleburg",
-            "poc-2": "Coviar",
-            "poc-3": "Bridson",
-            "poc-4": "Garvine Bar",
-            "poc-5": "Garvine",
-            "poc-6": "Caitbrook"
-          }
-        }
-      },
-      "block_order": [
-        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
-      }
-    },
     "c4898edd-ca64-40e0-a383-4c8002642c17": {
       "type": "featured-collection",
       "custom_css": [
@@ -374,52 +448,21 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "feac8e1e-17d6-4323-82ae-5ada6c557d52": {
-      "type": "collage",
-      "blocks": {
-        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "poltronas-y-bancos-con-almacenamiento"
-          }
-        },
-        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-collection-1",
-        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "726dc22e-4037-49eb-96b0-a69811a3cc83",
+    "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
     "59072d24-743a-49e3-9128-e96d9c7ecac5",
+    "143ca7d4-669f-476e-91f1-b777438ace22",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
+    "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
     "777bc39f-f226-475d-9662-b4473acf5755",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
-    "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "feac8e1e-17d6-4323-82ae-5ada6c557d52"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
