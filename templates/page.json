@@ -54,18 +54,29 @@
             "link_label": "poltronas",
             "link": "shopify:\/\/collections\/poltronas-y-bancos-con-almacenamiento"
           }
+        },
+        "a07838d1-4ce3-47cf-a059-c051a814f333": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackfriday-bancos-ashley-colombia-_Recuperado.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "bancos",
+            "link": "shopify:\/\/collections\/bancos-black-friday-20"
+          }
         }
       },
       "block_order": [
         "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-2",
-        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3"
+        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3",
+        "a07838d1-4ce3-47cf-a059-c051a814f333"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
@@ -463,40 +474,6 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "cbfcdb46-f6da-4763-b26e-0e6e198b7006": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21474712387891__cbfcdb46-f6da-4763-b26e-0e6e198b7006-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blackfriday-bancos-ashley-colombia-_Recuperado.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712387891__cbfcdb46-f6da-4763-b26e-0e6e198b7006-column-2"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -513,7 +490,6 @@
     "777bc39f-f226-475d-9662-b4473acf5755",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "cbfcdb46-f6da-4763-b26e-0e6e198b7006"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
