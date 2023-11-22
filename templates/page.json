@@ -122,7 +122,7 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "heading": "Poltronas y bancos con almacenamiento",
+        "heading": "Poltronas y bancos",
         "heading_size": "h2",
         "desktop_layout": "right",
         "mobile_layout": "column",
