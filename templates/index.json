@@ -51,6 +51,36 @@
         "responsive-img-height": 150
       }
     },
+    "0756195e-dd34-48fc-94b1-a345f9e5f7ed": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "poltronas-y-bancos-con-almacenamiento",
+        "products_to_show": 8,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "baa9a133-d47f-4c72-9814-3caa591fae24": {
       "type": "slideshow",
       "blocks": {
@@ -770,6 +800,7 @@
   "order": [
     "b4936535-9898-4f2e-b8f4-1287d37875e5",
     "64830d7c-37d4-434c-b411-b57d0c3609d1",
+    "0756195e-dd34-48fc-94b1-a345f9e5f7ed",
     "baa9a133-d47f-4c72-9814-3caa591fae24",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
