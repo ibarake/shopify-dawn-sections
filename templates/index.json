@@ -314,7 +314,7 @@
     "9b3d4c79-a438-4938-9845-c0e6a6d1b6b6": {
       "type": "featured-collection",
       "custom_css": [
-        "img {object-fit: contain;}"
+        "img {object-fit: contain; max-width: 90%;}"
       ],
       "settings": {
         "title": "",
@@ -324,7 +324,7 @@
         "description_style": "body",
         "collection": "black-friday-sofas",
         "products_to_show": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -387,7 +387,7 @@
     "8f503d84-90dd-4090-97cd-6a2404cfe4b3": {
       "type": "featured-collection",
       "custom_css": [
-        "img {object-fit: contain;}"
+        "img {object-fit: contain; max-width: 80%;}"
       ],
       "settings": {
         "title": "",
@@ -551,7 +551,7 @@
     "932f4541-17b5-446f-8b08-e2d91ac06519": {
       "type": "featured-collection",
       "custom_css": [
-        "img {object-fit: contain;}"
+        "img {object-fit: contain; max-width: 80%;}"
       ],
       "settings": {
         "title": "Comedores Black Friday",
