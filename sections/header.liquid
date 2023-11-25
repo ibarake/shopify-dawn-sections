@@ -539,7 +539,7 @@ i.icon-swym-wishlist:after {
               <ul class="list-menu list-menu--inline" role="list">
               {%- for block in section.blocks -%}
                 {% if block.type == 'nav-menu' %}
-                {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
+                {%- assign macrocategories = block.menu -%}
                   {% else %}
                 {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
                   {% endif %}
@@ -1135,6 +1135,11 @@ window.addEventListener('resize', checkViewport);
         "type": "nav-menu",
         "name": "nav-item",
         "settings": [
+          {
+            "type": "link_list",
+            "id": "menu",
+            "label": "Menu"
+          },
           {
             "type": "link_list",
             "id": "menu-promo",
