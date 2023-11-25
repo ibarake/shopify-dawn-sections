@@ -555,28 +555,27 @@ i.icon-swym-wishlist:after {
                           class="header__active-menu-item"
                         {% endif %}
                       >
-                        {{- link.title | escape -}}
+                        {{- block.title | escape -}}
                       </span>
                     </a>
                     <ul>
                       <div class="dropdown-content" >
                         <div class="list-content">
-                          {% for sub-link in link.links %}
+                          {% for link in block.menu.links %}
                             <li class="list-item">
                               <div class="sub-item-link">
-                                <a href="{{ sub-link.url }}">
+                                <a href="{{ link.url }}">
                                   <span
-                                    ><strong class="link-sub">{{ sub-link.title }}</strong></span
+                                    ><strong class="link-sub">{{ link.title }}</strong></span
                                   >
                                 </a>
                               </div>
-                              {% assign collections = subcategory.collections.value %}
                               <ul>
-                                {% for collection in collections %}
+                                {% for sub-link in link.links %}
                                   <li>
                                     <div class="collection-item-link">
-                                      <a href="{{ collection.url }}" class="link-col">
-                                        <span class="">{{ collection.title }}</span>
+                                      <a href="{{ sub-link.url }}" class="link-col">
+                                        <span class="">{{ sub-link.title }}</span>
                                       </a>
                                     </div>
                                   </li>
