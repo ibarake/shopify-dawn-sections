@@ -202,7 +202,7 @@
             "settings": {
               "title": "BLACK FRIDAY",
               "url": "shopify:\/\/pages\/black-friday",
-              "menu": "",
+              "menu": "black-friday",
               "menu-promo": "",
               "image-promo-url": ""
             }
