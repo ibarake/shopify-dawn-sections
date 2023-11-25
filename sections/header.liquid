@@ -539,7 +539,80 @@ i.icon-swym-wishlist:after {
               <ul class="list-menu list-menu--inline" role="list">
               {%- for block in section.blocks -%}
                 {% if block.type == 'nav-menu' %}
-                {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
+                   {%- for macrocategory in macrocategories -%}
+                  {%- if forloop.index == block.settings.macro-id -%}
+                  <li class="dropdown">
+                    <div class="overlay">
+                      
+                    </div>
+                    <a
+                      href="{{ macrocategory.system.url }}"
+                      class="header__menu-item list-menu__item link focus-inset"
+                      {% if macrocategory.current %}
+                        aria-current="page"
+                      {% endif %}
+                    >
+                      <span
+                        {%- if macrocategory.current %}
+                          class="header__active-menu-item"
+                        {% endif %}
+                      >
+                        {{- macrocategory.name | escape -}}
+                      </span>
+                    </a>
+                    <ul>
+                      <div class="dropdown-content" >
+                        <div class="list-content">
+                          {% assign subcategories = macrocategory.subcategories.value %}
+                          {% for subcategory in subcategories %}
+                            <li class="list-item">
+                              <div class="sub-item-link">
+                                <a href="{{ subcategory.system.url }}">
+                                  <span
+                                    ><strong class="link-sub">{{ subcategory.name }}</strong></span
+                                  >
+                                </a>
+                              </div>
+                              {% assign collections = subcategory.collections.value %}
+                              <ul>
+                                {% for collection in collections %}
+                                  <li>
+                                    <div class="collection-item-link">
+                                      <a href="{{ collection.url }}" class="link-col">
+                                        <span class="">{{ collection.title }}</span>
+                                      </a>
+                                    </div>
+                                  </li>
+                                {% endfor %}
+                              </ul>
+                            </li>
+                          {% endfor %}
+                        </div>
+                        <div class="image-content">
+                          {%- if block.settings.image-promo-url != blank -%} 
+                          <div class="top-content">
+                            <a href="{{ block.settings.image-promo-url}}">
+                              <img class="img-promo"src="{{ block.settings.image-promo.src | img_url }}" alt="promo image">
+                            </a>
+                          </div>
+                          {%- endif -%}
+                       {%- if block.settings.menu-promo.links != blank -%}
+                          <div class="bottom-content">
+                             {%- for link in block.settings.menu-promo.links -%}
+                               {%- if link != blank -%}
+                                <a href="{{ link.url }}" class="link-col">
+                                  <span>{{ link.title | escape }}</span><br>
+                                </a>
+                              {%- endif -%}
+                            {% endfor %}
+                          </div>
+                        </div>
+                        {%- endif -%}
+                      </div>
+                    </ul>
+                  </li>
+                  {%- endif -%}
+                {%- endfor -%}
                 {% else %}
                 {%- for macrocategory in macrocategories -%}
                   {%- if forloop.index == block.settings.macro-id -%}
