@@ -539,15 +539,14 @@ i.icon-swym-wishlist:after {
               <ul class="list-menu list-menu--inline" role="list">
               {%- for block in section.blocks -%}
                 {% if block.type == 'nav-menu' %}
-                   {%- for link in block.menu.links -%}
                   <li class="dropdown">
                     <div class="overlay">
                       
                     </div>
                     <a
-                      href="{{ link.url }}"
+                      href="{{ block.url }}"
                       class="header__menu-item list-menu__item link focus-inset"
-                      {% if link.current %}
+                      {% if block.url.current %}
                         aria-current="page"
                       {% endif %}
                     >
@@ -565,9 +564,9 @@ i.icon-swym-wishlist:after {
                           {% for sub-link in link.links %}
                             <li class="list-item">
                               <div class="sub-item-link">
-                                <a href="{{ subcategory.system.url }}">
+                                <a href="{{ sub-link.url }}">
                                   <span
-                                    ><strong class="link-sub">{{ subcategory.name }}</strong></span
+                                    ><strong class="link-sub">{{ sub-link.title }}</strong></span
                                   >
                                 </a>
                               </div>
@@ -609,7 +608,6 @@ i.icon-swym-wishlist:after {
                       </div>
                     </ul>
                   </li>
-                {%- endfor -%}
                 {% else %}
                 {%- for macrocategory in macrocategories -%}
                   {%- if forloop.index == block.settings.macro-id -%}
