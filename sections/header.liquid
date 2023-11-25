@@ -538,11 +538,7 @@ i.icon-swym-wishlist:after {
             <nav class="header__inline-menu">
               <ul class="list-menu list-menu--inline" role="list">
               {%- for block in section.blocks -%}
-                {% if block.type == 'nav-menu' %}
-                {%- assign macrocategories = block.menu -%}
-                  {% else %}
                 {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
-                  {% endif %}
                 {%- for macrocategory in macrocategories -%}
                   {%- if forloop.index == block.settings.macro-id -%}
                   <li class="dropdown">
@@ -1135,11 +1131,6 @@ window.addEventListener('resize', checkViewport);
         "type": "nav-menu",
         "name": "nav-item",
         "settings": [
-          {
-            "type": "link_list",
-            "id": "menu",
-            "label": "Menu"
-          },
           {
             "type": "link_list",
             "id": "menu-promo",
