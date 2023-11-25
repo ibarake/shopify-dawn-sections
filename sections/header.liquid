@@ -544,24 +544,24 @@ i.icon-swym-wishlist:after {
                       
                     </div>
                     <a
-                      href="{{ block.url }}"
+                      href="{{ block.settings.url }}"
                       class="header__menu-item list-menu__item link focus-inset"
-                      {% if block.url.current %}
+                      {% if block.settings.url.current %}
                         aria-current="page"
                       {% endif %}
                     >
                       <span
-                        {%- if block.url.current %}
+                        {%- if block.settings.url.current %}
                           class="header__active-menu-item"
                         {% endif %}
                       >
-                        {{- block.title | escape -}}
+                        {{- block.settings.title | escape -}}
                       </span>
                     </a>
                     <ul>
                       <div class="dropdown-content" >
                         <div class="list-content">
-                          {% for link in block.menu.links %}
+                          {% for link in block.settings.menu.links %}
                             <li class="list-item">
                               <div class="sub-item-link">
                                 <a href="{{ link.url }}">
