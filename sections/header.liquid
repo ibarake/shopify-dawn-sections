@@ -539,7 +539,7 @@ i.icon-swym-wishlist:after {
               <ul class="list-menu list-menu--inline" role="list">
               {%- for block in section.blocks -%}
                 {% if block.type == 'nav-menu' %}
-                   {%- for macrocategory in macrocategories -%}
+                   {%- for link in block.menu.links -%}
                   {%- if forloop.index == block.settings.macro-id -%}
                   <li class="dropdown">
                     <div class="overlay">
