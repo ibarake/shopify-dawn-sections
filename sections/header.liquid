@@ -538,6 +538,11 @@ i.icon-swym-wishlist:after {
             <nav class="header__inline-menu">
               <ul class="list-menu list-menu--inline" role="list">
               {%- for block in section.blocks -%}
+                {% if block.type == 'nav-menu' %}
+                {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
+                  {% else %}
+                {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
+                  {% endif %}
                 {%- for macrocategory in macrocategories -%}
                   {%- if forloop.index == block.settings.macro-id -%}
                   <li class="dropdown">
