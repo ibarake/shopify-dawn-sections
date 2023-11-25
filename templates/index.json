@@ -16,7 +16,8 @@
         "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8"
       ],
       "custom_css": [
-        "a {z-index: 2; height: 300px;}"
+        "a {z-index: 2;}",
+        "@media only screen and (max-width: 768px) {a {height: 300px; }}"
       ],
       "settings": {
         "layout": "full_bleed",
