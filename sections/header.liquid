@@ -545,25 +545,24 @@ i.icon-swym-wishlist:after {
                       
                     </div>
                     <a
-                      href="{{ macrocategory.system.url }}"
+                      href="{{ link.url }}"
                       class="header__menu-item list-menu__item link focus-inset"
-                      {% if macrocategory.current %}
+                      {% if link.current %}
                         aria-current="page"
                       {% endif %}
                     >
                       <span
-                        {%- if macrocategory.current %}
+                        {%- if link.current %}
                           class="header__active-menu-item"
                         {% endif %}
                       >
-                        {{- macrocategory.name | escape -}}
+                        {{- link.title | escape -}}
                       </span>
                     </a>
                     <ul>
                       <div class="dropdown-content" >
                         <div class="list-content">
-                          {% assign subcategories = macrocategory.subcategories.value %}
-                          {% for subcategory in subcategories %}
+                          {% for sub-link in link.links %}
                             <li class="list-item">
                               <div class="sub-item-link">
                                 <a href="{{ subcategory.system.url }}">
