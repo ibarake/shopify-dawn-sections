@@ -14,7 +14,7 @@
         "d85a1b00-2851-4316-9b43-83cc9a496cb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-11-29_at_12.52.48_PM.jpg",
+            "image": "shopify:\/\/shop_images\/blackfriday-asley.jpg",
             "image_r": "shopify:\/\/shop_images\/black-friday-sofas-comedores-ashley-colombia.jpg",
             "link": "shopify:\/\/pages\/black-friday"
           }
@@ -36,16 +36,6 @@
     "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
       "type": "multicolumn",
       "blocks": {
-        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-11-29_at_12.52.48_PM.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "prueba",
-            "link": "shopify:\/\/collections\/orange-is-christmas"
-          }
-        },
         "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3": {
           "type": "column",
           "settings": {
@@ -68,7 +58,6 @@
         }
       },
       "block_order": [
-        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-2",
         "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3",
         "a07838d1-4ce3-47cf-a059-c051a814f333"
       ],
@@ -77,7 +66,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
