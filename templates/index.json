@@ -54,6 +54,7 @@
     },
     "0756195e-dd34-48fc-94b1-a345f9e5f7ed": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain; max-width: 70%;}"
       ],
