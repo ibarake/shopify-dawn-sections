@@ -184,8 +184,8 @@
         "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Black Friday - Colección Limitada<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Orange is Christmas - Colección Limitada<\/p>",
+            "heading_size": "h2"
           }
         },
         "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-text-1": {
@@ -351,6 +351,9 @@
       },
       "block_order": [
         "98df0c39-1168-4a50-8ee7-e3e75dfccbd9"
+      ],
+      "custom_css": [
+        "img {object-fit: contain;}"
       ],
       "settings": {
         "btn-txt-color": "#363534",
