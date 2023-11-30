@@ -269,39 +269,11 @@
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b": {
       "type": "custom-collections",
       "blocks": {
-        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9": {
+        "3ba7b0ae-049d-4b4b-b08f-d50d02ce15f5": {
           "type": "collection",
           "settings": {
-            "heading-text": "",
-            "title-alignment": "center",
-            "collection-title": "Comedores",
-            "collection": "black-friday-comedores",
-            "button-title": "Compra",
-            "blocks-selection": "products",
-            "product_list": [
-              "mesa-de-comedor-y-6-sillas-grindleburg-d754d13",
-              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar",
-              "mesa-de-comedor-y-sillas-con-banco-juego-de-6-bridson",
-              "mesa-de-comedor-con-altura-de-mostrador-y-taburetes-de-bar-juego-de-5-garvine",
-              "mesa-de-comedor-y-sillas-juego-de-5-garvine",
-              "mesa-de-comedor-y-sillas-juego-de-7-caitbrook"
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "Grindleburg",
-            "poc-2": "Coviar",
-            "poc-3": "Bridson",
-            "poc-4": "Garvine Bar",
-            "poc-5": "Garvine",
-            "poc-6": "Caitbrook"
-          }
-        },
-        "cb4b8109-cbf3-4b2b-8123-fedd63812363": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Heading te",
-            "title-alignment": "center",
+            "heading-text": "Heading text",
+            "title-alignment": "flex-start",
             "collection-title": "",
             "collection": "",
             "button-title": "Add text",
@@ -322,9 +294,9 @@
         }
       },
       "block_order": [
-        "98df0c39-1168-4a50-8ee7-e3e75dfccbd9",
-        "cb4b8109-cbf3-4b2b-8123-fedd63812363"
+        "3ba7b0ae-049d-4b4b-b08f-d50d02ce15f5"
       ],
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
@@ -377,7 +349,7 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -396,7 +368,7 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
@@ -426,8 +398,8 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 4,
-        "padding_bottom": 4
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
