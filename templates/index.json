@@ -372,6 +372,7 @@
         "139058a8-809c-4403-840f-2682b32fa4c8",
         "18701050-a5a9-4871-a742-445ca5ecd820"
       ],
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
