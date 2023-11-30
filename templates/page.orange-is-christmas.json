@@ -63,6 +63,7 @@
         "0b7e2b4a-1f0e-4cca-a6f7-78322353b0de",
         "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1"
       ],
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
@@ -109,34 +110,12 @@
             "link_label": "Dormitorio",
             "link": "shopify:\/\/collections\/orange-is-christmas-camas"
           }
-        },
-        "d17c519d-34d4-4b19-9e3d-d3d3e25c0708": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sofas-Orange.png",
-            "title": "",
-            "text": "",
-            "link_label": "Sofas",
-            "link": "shopify:\/\/collections\/orange-is-christmas"
-          }
-        },
-        "c4bff637-35c6-4af4-a062-ca22d24ab4fe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Comedores-Orange.png",
-            "title": "",
-            "text": "",
-            "link_label": "Comedores",
-            "link": "shopify:\/\/collections\/orange-is-christmas-comedores"
-          }
         }
       },
       "block_order": [
         "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3",
         "a07838d1-4ce3-47cf-a059-c051a814f333",
-        "1c1187c7-f402-4b7e-9262-170ab77b8bfd",
-        "d17c519d-34d4-4b19-9e3d-d3d3e25c0708",
-        "c4bff637-35c6-4af4-a062-ca22d24ab4fe"
+        "1c1187c7-f402-4b7e-9262-170ab77b8bfd"
       ],
       "settings": {
         "title": "",
@@ -196,8 +175,8 @@
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
@@ -206,7 +185,7 @@
         "template--21474712387891__d7d37ea8-6ba0-4e73-bf36-085dc873eec2-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Orange is Christmas - Colección Limitada<\/p>",
+            "heading": "<p>Orange is Chri<\/p>",
             "heading_size": "h2"
           }
         },
@@ -243,7 +222,7 @@
         "description_style": "body",
         "collection": "black-friday-camas",
         "products_to_show": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -254,7 +233,7 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
@@ -273,7 +252,7 @@
         "description_style": "body",
         "collection": "poltronas-y-bancos-con-almacenamiento",
         "products_to_show": 12,
-        "columns_desktop": 5,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -432,7 +411,7 @@
         "description_style": "body",
         "collection": "black-friday-sofas",
         "products_to_show": 11,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -462,7 +441,7 @@
         "description_style": "body",
         "collection": "black-friday-comedores",
         "products_to_show": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
