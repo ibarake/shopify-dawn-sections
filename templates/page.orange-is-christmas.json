@@ -33,62 +33,6 @@
         "change_slides_speed": 6
       }
     },
-    "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Poltronas-Orange.png",
-            "title": "",
-            "text": "",
-            "link_label": "Poltronas",
-            "link": "shopify:\/\/collections\/prueba-2"
-          }
-        },
-        "a07838d1-4ce3-47cf-a059-c051a814f333": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/orange-christmas-bancos.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Bancos",
-            "link": "shopify:\/\/collections\/orange-is-christmas-bancas"
-          }
-        },
-        "1c1187c7-f402-4b7e-9262-170ab77b8bfd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Camas-Orange.png",
-            "title": "",
-            "text": "",
-            "link_label": "Dormitorio",
-            "link": "shopify:\/\/collections\/orange-is-christmas-camas"
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3",
-        "a07838d1-4ce3-47cf-a059-c051a814f333",
-        "1c1187c7-f402-4b7e-9262-170ab77b8bfd"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "feac8e1e-17d6-4323-82ae-5ada6c557d52": {
       "type": "collage",
       "blocks": {
@@ -131,6 +75,84 @@
         "color_scheme": "background-1",
         "padding_top": 32,
         "padding_bottom": 0
+      }
+    },
+    "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Poltronas-Orange.png",
+            "title": "",
+            "text": "",
+            "link_label": "Poltronas",
+            "link": "shopify:\/\/collections\/prueba-2"
+          }
+        },
+        "a07838d1-4ce3-47cf-a059-c051a814f333": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/orange-christmas-bancos.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Bancos",
+            "link": "shopify:\/\/collections\/orange-is-christmas-bancas"
+          }
+        },
+        "1c1187c7-f402-4b7e-9262-170ab77b8bfd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Camas-Orange.png",
+            "title": "",
+            "text": "",
+            "link_label": "Dormitorio",
+            "link": "shopify:\/\/collections\/orange-is-christmas-camas"
+          }
+        },
+        "d17c519d-34d4-4b19-9e3d-d3d3e25c0708": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sofas-Orange.png",
+            "title": "",
+            "text": "",
+            "link_label": "Sofas",
+            "link": "shopify:\/\/collections\/orange-is-christmas"
+          }
+        },
+        "c4bff637-35c6-4af4-a062-ca22d24ab4fe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comedores-Orange.png",
+            "title": "",
+            "text": "",
+            "link_label": "Comedores",
+            "link": "shopify:\/\/collections\/orange-is-christmas-comedores"
+          }
+        }
+      },
+      "block_order": [
+        "template--21474712387891__3351b522-8c99-4497-a46e-3eaeb9cfc693-column-3",
+        "a07838d1-4ce3-47cf-a059-c051a814f333",
+        "1c1187c7-f402-4b7e-9262-170ab77b8bfd",
+        "d17c519d-34d4-4b19-9e3d-d3d3e25c0708",
+        "c4bff637-35c6-4af4-a062-ca22d24ab4fe"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "726dc22e-4037-49eb-96b0-a69811a3cc83": {
@@ -483,8 +505,8 @@
   "order": [
     "main",
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
-    "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
+    "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "726dc22e-4037-49eb-96b0-a69811a3cc83",
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
     "59072d24-743a-49e3-9128-e96d9c7ecac5",
