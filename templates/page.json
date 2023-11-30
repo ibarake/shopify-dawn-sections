@@ -14,7 +14,7 @@
         "d85a1b00-2851-4316-9b43-83cc9a496cb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blackfriday-asley.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-11-29_at_12.52.48_PM.jpg",
             "image_r": "shopify:\/\/shop_images\/black-friday-sofas-comedores-ashley-colombia.jpg",
             "link": "shopify:\/\/pages\/black-friday"
           }
@@ -464,36 +464,6 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "e8235b23-285f-41a5-9982-49163716aac7": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "decoracion-del-hogar",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -510,7 +480,6 @@
     "777bc39f-f226-475d-9662-b4473acf5755",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "e8235b23-285f-41a5-9982-49163716aac7"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
