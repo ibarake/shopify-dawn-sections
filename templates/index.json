@@ -17,7 +17,7 @@
       ],
       "custom_css": [
         "a {z-index: 2;}",
-        "@media only screen and (max-width: 768px) {a {height: 300px; }}"
+        "@media only screen and (max-width: 768px) {a {height: 400px; }}"
       ],
       "settings": {
         "layout": "full_bleed",
