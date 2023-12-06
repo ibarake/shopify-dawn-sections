@@ -273,7 +273,7 @@
         "template--21725082648883__c7c8373c-77fd-4b66-be7d-c06a4abd68b8-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/orange-christmas-movil.jpg",
+            "image": "shopify:\/\/shop_images\/orange-christmas-accesorios.jpg",
             "title": "",
             "text": "",
             "link_label": "Accesorios",
@@ -283,6 +283,9 @@
       },
       "block_order": [
         "template--21725082648883__c7c8373c-77fd-4b66-be7d-c06a4abd68b8-column-3"
+      ],
+      "custom_css": [
+        "img {object-fit: contain;}"
       ],
       "settings": {
         "title": "",
@@ -297,8 +300,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 56,
+        "padding_bottom": 0
       }
     },
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b": {
