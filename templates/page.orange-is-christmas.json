@@ -267,6 +267,40 @@
         "show_text_below": true
       }
     },
+    "c7c8373c-77fd-4b66-be7d-c06a4abd68b8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21725082648883__c7c8373c-77fd-4b66-be7d-c06a4abd68b8-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/orange-christmas-movil.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Accesorios",
+            "link": "shopify:\/\/collections\/orange-is-christmas-accesorios"
+          }
+        }
+      },
+      "block_order": [
+        "template--21725082648883__c7c8373c-77fd-4b66-be7d-c06a4abd68b8-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b": {
       "type": "custom-collections",
       "blocks": {
@@ -435,6 +469,7 @@
     "59072d24-743a-49e3-9128-e96d9c7ecac5",
     "67273f3a-52d1-48b2-a974-4db367375c32",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
+    "c7c8373c-77fd-4b66-be7d-c06a4abd68b8",
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
     "777bc39f-f226-475d-9662-b4473acf5755",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
