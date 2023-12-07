@@ -269,21 +269,6 @@
     },
     "c7c8373c-77fd-4b66-be7d-c06a4abd68b8": {
       "type": "multicolumn",
-      "blocks": {
-        "template--21725082648883__c7c8373c-77fd-4b66-be7d-c06a4abd68b8-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/orange-christmas-accesorios.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Accesorios",
-            "link": "shopify:\/\/collections\/orange-is-christmas-accesorios"
-          }
-        }
-      },
-      "block_order": [
-        "template--21725082648883__c7c8373c-77fd-4b66-be7d-c06a4abd68b8-column-3"
-      ],
       "custom_css": [
         "img {object-fit: contain;}"
       ],
