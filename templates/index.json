@@ -357,6 +357,36 @@
         "padding_bottom": 20
       }
     },
+    "3c0f41fc-9aba-4927-9907-4884cc477768": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "orange-is-christmas-accesorios",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
       "type": "collection-list",
       "blocks": {
@@ -809,6 +839,7 @@
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "ee780018-d752-419e-9d6f-9bfcec93f62f",
     "ed3299a6-3063-49c0-8b72-db04858f9fd2",
+    "3c0f41fc-9aba-4927-9907-4884cc477768",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "8f503d84-90dd-4090-97cd-6a2404cfe4b3",
     "5e2a584c-a48e-4c52-896c-4793dd016861",
