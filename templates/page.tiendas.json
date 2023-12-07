@@ -1,5 +1,21 @@
 {
   "sections": {
+    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/orange-christmas-accesorios_e045b0e3-c204-4f3e-89bb-78bff348f60d.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
       "type": "custom-liquid",
       "custom_css": [
@@ -72,55 +88,6 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b": {
-      "type": "image-banner",
-      "blocks": {
-        "template--21474712387891__c4ef97fe-086d-4e4d-a973-dd94d865cf4b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--21474712387891__c4ef97fe-086d-4e4d-a973-dd94d865cf4b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--21474712387891__c4ef97fe-086d-4e4d-a973-dd94d865cf4b-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712387891__c4ef97fe-086d-4e4d-a973-dd94d865cf4b-heading-1",
-        "template--21474712387891__c4ef97fe-086d-4e4d-a973-dd94d865cf4b-text-1",
-        "template--21474712387891__c4ef97fe-086d-4e4d-a973-dd94d865cf4b-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/black-friday-ashley-colombia-desceuntos.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "777bc39f-f226-475d-9662-b4473acf5755": {
@@ -241,11 +208,11 @@
     }
   },
   "order": [
+    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
     "74f89a8e-1019-440b-bb46-8f103d566b78",
     "b4470a39-f2fc-4017-a147-66072f7a2e30",
     "main",
-    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "777bc39f-f226-475d-9662-b4473acf5755",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
