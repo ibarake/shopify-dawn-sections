@@ -14,7 +14,7 @@
         "d85a1b00-2851-4316-9b43-83cc9a496cb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Orange-is-christmas-banner.jpg",
+            "image": "shopify:\/\/shop_images\/banner-orange-is-christmas-accesorios.jpg",
             "image_r": "shopify:\/\/shop_images\/orange-christmas-movil.jpg",
             "link": "shopify:\/\/pages\/orange-is-christmas"
           }
@@ -111,19 +111,30 @@
             "link_label": "Comedores",
             "link": "shopify:\/\/collections\/orange-is-christmas-comedores"
           }
+        },
+        "c591d96e-97e7-4109-965e-375bc8c63358": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/orange-christmas-accesorios_e045b0e3-c204-4f3e-89bb-78bff348f60d.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Accesorios",
+            "link": "shopify:\/\/collections\/orange-is-christmas-accesorios"
+          }
         }
       },
       "block_order": [
         "1c1187c7-f402-4b7e-9262-170ab77b8bfd",
         "3d362d61-83a8-4f68-8887-92f46fe6e4a3",
-        "5178b2a1-9aea-4a1d-9ace-e178f911c5af"
+        "5178b2a1-9aea-4a1d-9ace-e178f911c5af",
+        "c591d96e-97e7-4109-965e-375bc8c63358"
       ],
       "settings": {
         "title": "",
         "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
