@@ -1,7 +1,65 @@
 {
   "sections": {
+    "74f89a8e-1019-440b-bb46-8f103d566b78": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ashley Furniture HomeStore<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Telefono: 3009132465<br\/>Dirección: Av. Cra 19 #109-41, Bogotá<br\/>horarios: de domingo a jueves: 10 a. m.a 7 p. m.<br\/>Viernes y sabado: miércoles, 10 a. m. a 8 p. m.<\/p>"
+          }
+        },
+        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1",
+        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-text-1",
+        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-button-1"
+      ],
+      "custom_css": [
+        "{width: 40%;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{width: 40%;}"
+      ],
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d33150.95613608574!2d-74.06565645439285!3d4.694491455402288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c28730fb1b%3A0x6d5332b21891156!2sAshley%20Furniture%20HomeStore!5e0!3m2!1ses!2sco!4v1701975201874!5m2!1ses!2sco\" width=\"100%\" height=\"320\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -171,73 +229,16 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "{width: 40%;}"
-      ],
-      "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d33150.95613608574!2d-74.06565645439285!3d4.694491455402288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c28730fb1b%3A0x6d5332b21891156!2sAshley%20Furniture%20HomeStore!5e0!3m2!1ses!2sco!4v1701975201874!5m2!1ses!2sco\" width=\"100%\" height=\"320\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "74f89a8e-1019-440b-bb46-8f103d566b78": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Ashley Furniture HomeStore<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Telefono: 3009132465<br\/>Dirección: Av. Cra 19 #109-41, Bogotá<br\/>horarios: de domingo a jueves: 10 a. m.a 7 p. m.<br\/>Viernes y sabado: miércoles, 10 a. m. a 8 p. m.<\/p>"
-          }
-        },
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1",
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-text-1",
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-button-1"
-      ],
-      "custom_css": [
-        "{width: 40%;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
+    "74f89a8e-1019-440b-bb46-8f103d566b78",
+    "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
     "main",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "777bc39f-f226-475d-9662-b4473acf5755",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
-    "74f89a8e-1019-440b-bb46-8f103d566b78"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
