@@ -24,7 +24,7 @@
       "settings": {
         "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d33150.95613608574!2d-74.06565645439285!3d4.694491455402288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c28730fb1b%3A0x6d5332b21891156!2sAshley%20Furniture%20HomeStore!5e0!3m2!1ses!2sco!4v1701975201874!5m2!1ses!2sco\" width=\"100%\" height=\"320\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "color_scheme": "background-1",
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
@@ -127,63 +127,6 @@
         "btn-color": "#363534"
       }
     },
-    "36c16fc3-6178-43f1-8281-9cbb6abfe74c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-sofas",
-        "products_to_show": 11,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "c4898edd-ca64-40e0-a383-4c8002642c17": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-comedores",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
       "type": "rich-text",
       "blocks": {
@@ -214,8 +157,6 @@
     "b4470a39-f2fc-4017-a147-66072f7a2e30",
     "main",
     "777bc39f-f226-475d-9662-b4473acf5755",
-    "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
-    "c4898edd-ca64-40e0-a383-4c8002642c17",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
