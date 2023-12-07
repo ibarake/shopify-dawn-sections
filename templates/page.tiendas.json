@@ -174,8 +174,11 @@
     },
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
       "type": "custom-liquid",
+      "custom_css": [
+        "{width: 40%;}"
+      ],
       "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d33150.95613608574!2d-74.06565645439285!3d4.694491455402288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c28730fb1b%3A0x6d5332b21891156!2sAshley%20Furniture%20HomeStore!5e0!3m2!1ses!2sco!4v1701975201874!5m2!1ses!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d33150.95613608574!2d-74.06565645439285!3d4.694491455402288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c28730fb1b%3A0x6d5332b21891156!2sAshley%20Furniture%20HomeStore!5e0!3m2!1ses!2sco!4v1701975201874!5m2!1ses!2sco\" width=\"100%\" height=\"320\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -213,6 +216,9 @@
         "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1",
         "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-text-1",
         "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-button-1"
+      ],
+      "custom_css": [
+        "{width: 40%;}"
       ],
       "settings": {
         "desktop_content_position": "center",
