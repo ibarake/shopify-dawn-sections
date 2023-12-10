@@ -491,36 +491,48 @@
         "padding_bottom": 20
       }
     },
-    "f381afd0-40c7-46b9-a6e9-a29327471b4a": {
+    "e10a64e5-b52f-4c65-83af-5f6f6a854ffb": {
       "type": "collage",
       "blocks": {
-        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-product-1": {
+        "template--21725082648883__e10a64e5-b52f-4c65-83af-5f6f6a854ffb-product-1": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "jarron-efim",
+            "second_image": true
           }
         },
-        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-collection-1": {
-          "type": "collection",
+        "0a5e1d67-78c6-489a-9baf-c3b413fc4c3d": {
+          "type": "product",
           "settings": {
-            "collection": "orange-is-christmas-accesorios"
+            "product": "sofa-macleary",
+            "second_image": true
+          }
+        },
+        "aabd3b4f-bc00-42c1-b8f9-b218caf25500": {
+          "type": "product",
+          "settings": {
+            "product": "mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar",
+            "second_image": true
           }
         }
       },
       "block_order": [
-        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-product-1",
-        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-collection-1"
+        "template--21725082648883__e10a64e5-b52f-4c65-83af-5f6f6a854ffb-product-1",
+        "0a5e1d67-78c6-489a-9baf-c3b413fc4c3d",
+        "aabd3b4f-bc00-42c1-b8f9-b218caf25500"
+      ],
+      "custom_css": [
+        "img {object-fit: contain;}"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
+        "heading": "Convierte tu espacio en un hogar",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -540,6 +552,6 @@
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "f381afd0-40c7-46b9-a6e9-a29327471b4a"
+    "e10a64e5-b52f-4c65-83af-5f6f6a854ffb"
   ]
 }
