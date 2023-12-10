@@ -129,9 +129,12 @@
         "5178b2a1-9aea-4a1d-9ace-e178f911c5af",
         "c591d96e-97e7-4109-965e-375bc8c63358"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "",
-        "heading_size": "h0",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -143,7 +146,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
@@ -487,6 +490,38 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "f381afd0-40c7-46b9-a6e9-a29327471b4a": {
+      "type": "collage",
+      "blocks": {
+        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "orange-is-christmas-accesorios"
+          }
+        }
+      },
+      "block_order": [
+        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-product-1",
+        "template--21725082648883__f381afd0-40c7-46b9-a6e9-a29327471b4a-collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -504,6 +539,7 @@
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
     "c4898edd-ca64-40e0-a383-4c8002642c17",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
+    "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
+    "f381afd0-40c7-46b9-a6e9-a29327471b4a"
   ]
 }
