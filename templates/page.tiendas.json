@@ -126,28 +126,6 @@
         "text-color": "#ffffff",
         "btn-color": "#363534"
       }
-    },
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><strong>Términos y Condiciones<\/strong><\/h5><h5>*Aplican términos y condiciones.Los precios publicados son válidos hasta el 30 de noviembre del 2023 o hasta  agotar existencia lo que primero suceda. Estos productos no tienen cambio, devolución, ni derecho a retracto de compra.La disponibilidad de entrega es inmediata por lo que el tiempo de entrega no puede ser mayor a 30 días o de lo contrario se realizará un cobro adicional de almacenamiento en bodega.<\/h5>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
     }
   },
   "order": [
@@ -156,7 +134,6 @@
     "74f89a8e-1019-440b-bb46-8f103d566b78",
     "b4470a39-f2fc-4017-a147-66072f7a2e30",
     "main",
-    "777bc39f-f226-475d-9662-b4473acf5755",
-    "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
+    "777bc39f-f226-475d-9662-b4473acf5755"
   ]
 }
