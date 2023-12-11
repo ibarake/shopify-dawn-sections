@@ -138,15 +138,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "ed5fa7f1-5473-48c1-bc3e-3b93c96035d5": {
-            "type": "announcement",
-            "settings": {
-              "text": "Te esperamos en la Av.19 #109-41",
-              "text_alignment": "center",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
@@ -158,7 +149,6 @@
           }
         },
         "block_order": [
-          "ed5fa7f1-5473-48c1-bc3e-3b93c96035d5",
           "announcement-bar-0"
         ],
         "settings": {
