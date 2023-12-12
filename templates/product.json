@@ -20,6 +20,13 @@
           "settings": {
           }
         },
+        "552e5624-4e4f-456a-903e-33474d64febe": {
+          "type": "fecha",
+          "settings": {
+            "text_fecha": "Fecha de proxima disponibilidad",
+            "show_with_inv": true
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -63,6 +70,7 @@
         "vendor",
         "title",
         "b84f642f-6e1b-4683-8cf2-2db533d3107b",
+        "552e5624-4e4f-456a-903e-33474d64febe",
         "price",
         "variant_picker",
         "quantity_selector",
