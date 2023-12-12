@@ -316,7 +316,7 @@
           {%- case block.type -%}
             {% when  'fecha' %}
             {% if block.settings.show_with_inv %}
-              {{ product.metafields.custom.fecha_disponible }}
+              <p>{{ block.settings.text_fecha }} {{ product.metafields.custom.fecha_disponible }}</p>
             {% else %}
               
             {% endif %}
