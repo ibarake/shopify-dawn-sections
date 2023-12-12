@@ -24,7 +24,7 @@
           "type": "fecha",
           "settings": {
             "text_fecha": "Fecha de proxima disponibilidad",
-            "show_with_inv": true
+            "show_with_inv": false
           }
         },
         "price": {
