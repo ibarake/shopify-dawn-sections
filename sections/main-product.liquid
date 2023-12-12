@@ -318,7 +318,9 @@
             {% if block.settings.show_with_inv %}
               <p>{{ block.settings.text_fecha }} {{ product.metafields.custom.fecha_disponible }}</p>
             {% else %}
-              
+              {% if product.available %}
+                <p>{{ block.settings.text_fecha }} {{ product.metafields.custom.fecha_disponible }}</p>
+              {% endif %}
             {% endif %}
             {%- when '@app' -%}
               {% render block %}
