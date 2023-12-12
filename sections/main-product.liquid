@@ -314,6 +314,12 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+            {% when  'fecha' %}
+            {% if block.settings.show_with_inv %}
+              {{ product.metafields.custom.fecha_disponible }}
+            {% else %}
+              
+            {% endif %}
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
@@ -1692,14 +1698,16 @@ function rotateSvg(title, rotation) {
       "limit": 1,
       "settings": [
         {
-          "type": "paragraph",
-          "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
+          "type": "text",
+          "id": "text_fecha",
+          "label": "Texto de fecha",
+          "default": "Fecha de proxima disponibilidad"
         },
         {
           "type": "checkbox",
           "id": "show_with_inv",
-          "default": true,
-          "label": "Mostrar productos con inventario"
+          "label": "Mostrar productos con inventario",
+          "default": true
         }
       ]
     },
