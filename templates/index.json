@@ -165,20 +165,13 @@
           "settings": {
             "collection": "sofas-reclinomaticos"
           }
-        },
-        "5839dd76-2025-4e08-95ae-c90c5720d8ae": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-reclinables-de-dos-plazas"
-          }
         }
       },
       "block_order": [
         "99fbd5e3-4065-43f1-b063-d763ddddd5ca",
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2",
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3",
-        "5839dd76-2025-4e08-95ae-c90c5720d8ae"
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3"
       ],
       "custom_css": [
         "img {object-fit: contain;}",
@@ -187,9 +180,9 @@
       ],
       "settings": {
         "title": "Sofás",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": true,
         "columns_mobile": "1",
