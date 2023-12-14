@@ -55,6 +55,12 @@
     "9c0637e8-c09e-4130-b97e-d4fefc81597b": {
       "type": "collection-list",
       "blocks": {
+        "1a149651-13fe-40bd-85c8-f31e5450f759": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "precios-naranja"
+          }
+        },
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
@@ -67,30 +73,31 @@
             "collection": "orange-is-christmas-comedores"
           }
         },
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "orange-is-christmas-accesorios"
-          }
-        },
         "6524b61f-ca84-4614-b4d1-a67ed9e891fb": {
           "type": "featured_collection",
           "settings": {
             "collection": "sofas"
           }
+        },
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "orange-is-christmas-accesorios"
+          }
         }
       },
       "block_order": [
+        "1a149651-13fe-40bd-85c8-f31e5450f759",
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1",
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-2",
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3",
-        "6524b61f-ca84-4614-b4d1-a67ed9e891fb"
+        "6524b61f-ca84-4614-b4d1-a67ed9e891fb",
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3"
       ],
       "settings": {
         "title": "Colección de temporada",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
