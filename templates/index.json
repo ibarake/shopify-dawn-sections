@@ -76,7 +76,7 @@
         "6524b61f-ca84-4614-b4d1-a67ed9e891fb": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "sofas"
           }
         }
       },
@@ -97,58 +97,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
-      "type": "collection-list",
-      "blocks": {
-        "99fbd5e3-4065-43f1-b063-d763ddddd5ca": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-modulares"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-3-puestos"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-2-puestos"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-reclinomaticos"
-          }
-        }
-      },
-      "block_order": [
-        "99fbd5e3-4065-43f1-b063-d763ddddd5ca",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3"
-      ],
-      "custom_css": [
-        "img {object-fit: contain;}",
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
-        ".icon-wrap {display: none;}"
-      ],
-      "settings": {
-        "title": "Sofás",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 0
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
@@ -275,6 +223,58 @@
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
+      }
+    },
+    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
+      "type": "collection-list",
+      "blocks": {
+        "99fbd5e3-4065-43f1-b063-d763ddddd5ca": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-modulares"
+          }
+        },
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-3-puestos"
+          }
+        },
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-2-puestos"
+          }
+        },
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sofas-reclinomaticos"
+          }
+        }
+      },
+      "block_order": [
+        "99fbd5e3-4065-43f1-b063-d763ddddd5ca",
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2",
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
+        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3"
+      ],
+      "custom_css": [
+        "img {object-fit: contain;}",
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
+        ".icon-wrap {display: none;}"
+      ],
+      "settings": {
+        "title": "Sofás",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "3c0f41fc-9aba-4927-9907-4884cc477768": {
@@ -603,8 +603,8 @@
     "b4936535-9898-4f2e-b8f4-1287d37875e5",
     "baa9a133-d47f-4c72-9814-3caa591fae24",
     "9c0637e8-c09e-4130-b97e-d4fefc81597b",
-    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
+    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
