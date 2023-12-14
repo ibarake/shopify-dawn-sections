@@ -26,93 +26,6 @@
         "change_slides_speed": 6
       }
     },
-    "64830d7c-37d4-434c-b411-b57d0c3609d1": {
-      "type": "custom-hero-banner",
-      "disabled": true,
-      "custom_css": [
-        ".content-container2 {display: none;}",
-        ".hero-banner-container {background-size: contain;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "heading": "",
-        "spacing": 0,
-        "image": "shopify:\/\/shop_images\/black-friday-sofas-ashley.jpg",
-        "bg-color": "#ffffff",
-        "color": "#000000",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "https:\/\/ashleycolombia.com\/products\/sofa-de-dos-puestos-hazela?variant=47126941696307",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#363534",
-        "btn-bg-color-hover": "#525252",
-        "btn-txt-color": "#ffffff",
-        "img-height": 665,
-        "responsive-container-height": 10,
-        "responsive-img-height": 150
-      }
-    },
-    "3c0f41fc-9aba-4927-9907-4884cc477768": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "orange-is-christmas-accesorios",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "0756195e-dd34-48fc-94b1-a345f9e5f7ed": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        "img {object-fit: contain; max-width: 70%;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "poltronas-y-bancos-con-almacenamiento",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "baa9a133-d47f-4c72-9814-3caa591fae24": {
       "type": "slideshow",
       "blocks": {
@@ -139,34 +52,33 @@
         "change_slides_speed": 5
       }
     },
-    "9b50df27-253d-4078-9ab8-ae357e5d71a5": {
+    "9c0637e8-c09e-4130-b97e-d4fefc81597b": {
       "type": "collection-list",
       "blocks": {
-        "template--21474712518963__9b50df27-253d-4078-9ab8-ae357e5d71a5-featured_collection-1": {
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "template--21474712518963__9b50df27-253d-4078-9ab8-ae357e5d71a5-featured_collection-2": {
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "template--21474712518963__9b50df27-253d-4078-9ab8-ae357e5d71a5-featured_collection-3": {
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "orange-is-christmas-accesorios"
           }
         }
       },
       "block_order": [
-        "template--21474712518963__9b50df27-253d-4078-9ab8-ae357e5d71a5-featured_collection-1",
-        "template--21474712518963__9b50df27-253d-4078-9ab8-ae357e5d71a5-featured_collection-2",
-        "template--21474712518963__9b50df27-253d-4078-9ab8-ae357e5d71a5-featured_collection-3"
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1",
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-2",
+        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3"
       ],
-      "disabled": true,
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
@@ -229,6 +141,36 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "3c0f41fc-9aba-4927-9907-4884cc477768": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "orange-is-christmas-accesorios",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 0
       }
     },
@@ -358,76 +300,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "ee780018-d752-419e-9d6f-9bfcec93f62f": {
-      "type": "collage",
-      "blocks": {
-        "9a623b0f-3488-45e2-9466-46cad1602c75": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/black-friday-ashley_d2ec5e4f-22db-481c-931d-0e928623b432.png",
-            "image_padding": true
-          }
-        }
-      },
-      "block_order": [
-        "9a623b0f-3488-45e2-9466-46cad1602c75"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "ed3299a6-3063-49c0-8b72-db04858f9fd2": {
-      "type": "collage",
-      "blocks": {
-        "d832b7d1-98fc-41c2-9845-5ab60e2ba890": {
-          "type": "collection",
-          "settings": {
-            "collection": "black-friday-sofas"
-          }
-        },
-        "139058a8-809c-4403-840f-2682b32fa4c8": {
-          "type": "product",
-          "settings": {
-            "product": "silla-decorativa-puckman",
-            "second_image": true
-          }
-        },
-        "18701050-a5a9-4871-a742-445ca5ecd820": {
-          "type": "product",
-          "settings": {
-            "product": "silla-decorativa-avonley",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "d832b7d1-98fc-41c2-9845-5ab60e2ba890",
-        "139058a8-809c-4403-840f-2682b32fa4c8",
-        "18701050-a5a9-4871-a742-445ca5ecd820"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 20
-      }
-    },
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd": {
       "type": "collection-list",
       "blocks": {
@@ -480,75 +352,6 @@
         "padding_bottom": 4
       }
     },
-    "8f503d84-90dd-4090-97cd-6a2404cfe4b3": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain; max-width: 80%;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-camas",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5e2a584c-a48e-4c52-896c-4793dd016861": {
-      "type": "custom-double-banner",
-      "blocks": {
-        "af0d6954-943b-491b-a9fd-226774b24bfc": {
-          "type": "image",
-          "settings": {
-            "first-title": "",
-            "second-title": "",
-            "button-text": "Los mejor vendidos",
-            "banner-image": "shopify:\/\/shop_images\/Website_1280x256_92f8d353-cec0-41f2-8154-75ebafaa0439.jpg",
-            "button_link": "shopify:\/\/collections\/mejores-vendidos-de-colombia"
-          }
-        },
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "first-title": "",
-            "second-title": "",
-            "button-text": "Conoce nuestra linea naranja",
-            "banner-image": "shopify:\/\/shop_images\/3.jpg",
-            "button_link": "shopify:\/\/collections\/linea-naranja"
-          }
-        }
-      },
-      "block_order": [
-        "af0d6954-943b-491b-a9fd-226774b24bfc",
-        "5f4bd88c-d0e7-47df-877e-9a691c697ba5"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".image {background-position: center;}",
-        ".half {width: 100%;}"
-      ],
-      "settings": {
-        "text-color": "#f68c2c",
-        "btn-color": "#363534"
-      }
-    },
     "54b97664-3cf4-44af-97ad-c90fe7df232c": {
       "type": "collage",
       "blocks": {
@@ -599,14 +402,14 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "orange-is-christmas",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
@@ -680,87 +483,6 @@
         "padding_bottom": 4
       }
     },
-    "ceaf14b4-27d3-404e-b8f6-27e140237b10": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "escritorios"
-          }
-        },
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lamparas-de-escritorio"
-          }
-        },
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sillas-de-oficina"
-          }
-        },
-        "d9b846fe-062d-41b9-beed-a125b3e7a1a2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "almacenamiento-para-oficina"
-          }
-        }
-      },
-      "block_order": [
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-1",
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-2",
-        "template--17657980813619__ceaf14b4-27d3-404e-b8f6-27e140237b10-featured_collection-3",
-        "d9b846fe-062d-41b9-beed-a125b3e7a1a2"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Oficina en casa",
-        "heading_size": "h1",
-        "image_ratio": "portrait",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "932f4541-17b5-446f-8b08-e2d91ac06519": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain; max-width: 80%;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-comedores",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
       "type": "collection-list",
       "blocks": {
@@ -795,7 +517,6 @@
         "8dec4ffe-b887-4bd5-9f18-9db11ff98c76",
         "7ccf0866-29c8-44b6-9869-ed629cf42d94"
       ],
-      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}",
         ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
@@ -873,23 +594,15 @@
   },
   "order": [
     "b4936535-9898-4f2e-b8f4-1287d37875e5",
-    "64830d7c-37d4-434c-b411-b57d0c3609d1",
-    "3c0f41fc-9aba-4927-9907-4884cc477768",
-    "0756195e-dd34-48fc-94b1-a345f9e5f7ed",
     "baa9a133-d47f-4c72-9814-3caa591fae24",
-    "9b50df27-253d-4078-9ab8-ae357e5d71a5",
+    "9c0637e8-c09e-4130-b97e-d4fefc81597b",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
+    "3c0f41fc-9aba-4927-9907-4884cc477768",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
-    "ee780018-d752-419e-9d6f-9bfcec93f62f",
-    "ed3299a6-3063-49c0-8b72-db04858f9fd2",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
-    "8f503d84-90dd-4090-97cd-6a2404cfe4b3",
-    "5e2a584c-a48e-4c52-896c-4793dd016861",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
     "18008aac-0289-48aa-8312-3ddc8709340b",
     "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
-    "ceaf14b4-27d3-404e-b8f6-27e140237b10",
-    "932f4541-17b5-446f-8b08-e2d91ac06519",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "e1d89960-0acc-4e87-9e52-40facd040c9b",
     "550a77d6-6997-4664-8f4e-1c2f99b213d6"
