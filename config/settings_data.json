@@ -140,6 +140,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Síguenos en Instagram  @ashleycolombia.oficial",
               "text_alignment": "center",
