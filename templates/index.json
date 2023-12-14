@@ -55,16 +55,16 @@
     "9c0637e8-c09e-4130-b97e-d4fefc81597b": {
       "type": "collection-list",
       "blocks": {
-        "1a149651-13fe-40bd-85c8-f31e5450f759": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "precios-naranja"
-          }
-        },
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "sofa-cama"
+          }
+        },
+        "1a149651-13fe-40bd-85c8-f31e5450f759": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "precios-naranja"
           }
         },
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-2": {
@@ -87,8 +87,8 @@
         }
       },
       "block_order": [
-        "1a149651-13fe-40bd-85c8-f31e5450f759",
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1",
+        "1a149651-13fe-40bd-85c8-f31e5450f759",
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-2",
         "6524b61f-ca84-4614-b4d1-a67ed9e891fb",
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3"
