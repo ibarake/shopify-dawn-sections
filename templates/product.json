@@ -23,7 +23,7 @@
         "552e5624-4e4f-456a-903e-33474d64febe": {
           "type": "fecha",
           "settings": {
-            "text_fecha": "Fecha de proxima disponibilidad",
+            "text_fecha": "Fecha de entrega:",
             "show_with_inv": true
           }
         },
