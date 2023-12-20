@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/BANNER_WEB.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-christmas-movil.jpg",
+            "image_r": "shopify:\/\/shop_images\/Banner-mobile.jpg",
             "link": ""
           }
         }
@@ -58,7 +58,7 @@
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofa-cama"
+            "collection": "sofa-cama-1"
           }
         },
         "1a149651-13fe-40bd-85c8-f31e5450f759": {
