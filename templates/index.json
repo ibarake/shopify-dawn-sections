@@ -10,10 +10,28 @@
             "image_r": "shopify:\/\/shop_images\/Banner-mobile.jpg",
             "link": ""
           }
+        },
+        "d843f009-5481-4f09-be45-bf865a5fbe5f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_BANNER-WEB.jpg",
+            "image_r": "shopify:\/\/shop_images\/2_BANNER-WEB_3271d986-a4d8-4557-888b-d3a460210f12.jpg",
+            "link": "shopify:\/\/products\/mural-drewland"
+          }
+        },
+        "af17804e-6fb1-4715-b95b-363eda21e629": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_BANNER-WEB.jpg",
+            "image_r": "shopify:\/\/shop_images\/3_BANNER-WEB_8cdfe9a3-d568-407f-b7f1-1b323cf0c466.jpg",
+            "link": "shopify:\/\/products\/reloj-de-pared-augustina"
+          }
         }
       },
       "block_order": [
-        "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8"
+        "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8",
+        "d843f009-5481-4f09-be45-bf865a5fbe5f",
+        "af17804e-6fb1-4715-b95b-363eda21e629"
       ],
       "custom_css": [
         "a {z-index: 2;}",
