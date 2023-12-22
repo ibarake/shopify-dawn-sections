@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/BANNER_WEB.jpg",
-            "image_r": "shopify:\/\/shop_images\/Banner-mobile.jpg",
+            "image_r": "shopify:\/\/shop_images\/BANNER_MOBILE_RHETLEN.jpg",
             "link": ""
           }
         },
@@ -15,7 +15,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_BANNER-WEB.jpg",
-            "image_r": "shopify:\/\/shop_images\/2_BANNER-WEB_3271d986-a4d8-4557-888b-d3a460210f12.jpg",
+            "image_r": "shopify:\/\/shop_images\/Banner-mobile-drewland.jpg",
             "link": "shopify:\/\/products\/mural-drewland"
           }
         },
@@ -23,7 +23,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_BANNER-WEB.jpg",
-            "image_r": "shopify:\/\/shop_images\/3_BANNER-WEB_8cdfe9a3-d568-407f-b7f1-1b323cf0c466.jpg",
+            "image_r": "shopify:\/\/shop_images\/Banner-mobile-augustina.jpg",
             "link": "shopify:\/\/products\/reloj-de-pared-augustina"
           }
         }
