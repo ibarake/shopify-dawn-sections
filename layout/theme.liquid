@@ -598,7 +598,7 @@
           function checkVisibility() {
             if (!isElementInViewport(productFormButtons) && !isElementInViewport(headerSticky)) {
               staticAtc.style.display = 'block';
-              staticAtc.classList.add('visible');
+              setTimeout(() =>staticAtc.classList.add('visible'), 1000)
             } else {
               staticAtc.classList.remove('visible');
               setTimeout(() => staticAtc.style.display = 'none', 1000)
