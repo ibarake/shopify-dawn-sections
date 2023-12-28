@@ -598,7 +598,7 @@
           function checkVisibility() {
             if (!isElementInViewport(productFormButtons) && !isElementInViewport(headerSticky)) {
               staticAtc.style.Zindex = '9999';
-              setTimeout(() =>staticAtc.classList.add('visible'), 300)
+              staticAtc.classList.add('visible')
             } else {
               staticAtc.classList.remove('visible');
               setTimeout(function() {
