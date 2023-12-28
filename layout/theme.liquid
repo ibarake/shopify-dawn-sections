@@ -601,7 +601,12 @@
               setTimeout(() =>staticAtc.classList.add('visible'), 300)
             } else {
               staticAtc.classList.remove('visible');
-              setTimeout(() => staticAtc.style.Zindex = '-1', 300)
+              setTimeout(function() {
+                if (!staticAtc.classList.contains('visible')) {
+                  // Now push it behind other content
+                  staticAtc.style.zIndex = -1;
+                }
+              }, 500);
             }
           }
 
