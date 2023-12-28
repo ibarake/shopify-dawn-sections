@@ -597,11 +597,11 @@
 
           function checkVisibility() {
             if (!isElementInViewport(productFormButtons) && !isElementInViewport(headerSticky)) {
-              staticAtc.style.display = 'block';
+              staticAtc.style.Zindex = '9999';
               setTimeout(() =>staticAtc.classList.add('visible'), 1000)
             } else {
               staticAtc.classList.remove('visible');
-              setTimeout(() => staticAtc.style.display = 'none', 1000)
+              setTimeout(() => staticAtc.style.Zindex = '-1', 1000)
             }
           }
 
