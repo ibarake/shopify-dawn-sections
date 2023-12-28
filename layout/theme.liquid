@@ -597,16 +597,11 @@
 
           function checkVisibility() {
             if (!isElementInViewport(productFormButtons) && !isElementInViewport(headerSticky)) {
-              staticAtc.style.Zindex = '9999';
-              staticAtc.classList.add('visible')
+              staticAtc.style.zIndex = '9999';
+              setTimeout(() =>staticAtc.classList.add('visible'), 300)
             } else {
               staticAtc.classList.remove('visible');
-              setTimeout(function() {
-                if (!staticAtc.classList.contains('visible')) {
-                  // Now push it behind other content
-                  staticAtc.style.zIndex = -1;
-                }
-              }, 500);
+              setTimeout(() => staticAtc.style.zIndex = '-1', 300)
             }
           }
 
