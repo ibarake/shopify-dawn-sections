@@ -33,6 +33,7 @@
         "d843f009-5481-4f09-be45-bf865a5fbe5f",
         "af17804e-6fb1-4715-b95b-363eda21e629"
       ],
+      "disabled": true,
       "custom_css": [
         "a {z-index: 2;}",
         "@media only screen and (max-width: 768px) {a {height: 400px; }}"
@@ -111,6 +112,7 @@
         "6524b61f-ca84-4614-b4d1-a67ed9e891fb",
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Colección de temporada",
         "heading_size": "h2",
