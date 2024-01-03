@@ -1,5 +1,39 @@
 {
   "sections": {
+    "22fc9450-1282-4534-8d8b-3f2372fac9de": {
+      "type": "newsletter",
+      "blocks": {
+        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Haz parte de nosotros",
+            "heading_size": "h1"
+          }
+        },
+        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Únete a nuestra comunidad: Transformamos espacios en hogares, y queremos compartir contigo cada inspiración. Suscríbete a nuestro newsletter y haz que cada rincón cuente tu historia de estilo y comodidad<\/p>"
+          }
+        },
+        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-heading-1",
+        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-paragraph-1",
+        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "b4936535-9898-4f2e-b8f4-1287d37875e5": {
       "type": "slideshow",
       "blocks": {
@@ -627,6 +661,7 @@
     }
   },
   "order": [
+    "22fc9450-1282-4534-8d8b-3f2372fac9de",
     "b4936535-9898-4f2e-b8f4-1287d37875e5",
     "baa9a133-d47f-4c72-9814-3caa591fae24",
     "9c0637e8-c09e-4130-b97e-d4fefc81597b",
