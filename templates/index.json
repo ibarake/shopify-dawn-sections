@@ -27,6 +27,9 @@
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-paragraph-1",
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1"
       ],
+      "custom_css": [
+        ".newsletter-form{margin: auto;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
