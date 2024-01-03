@@ -27,7 +27,7 @@
     elsif card_product.featured_media and media_aspect_ratio == 'adapt'
       assign ratio = card_product.featured_media.aspect_ratio
     endif
-    if ratio == 0 or ratio == nil
+    if ratio == 0 or ratio == null
       assign ratio = 1
     endif
   -%}
@@ -53,9 +53,7 @@
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
-                srcset="
-                  {{ card_product.featured_media | image_url: width: 400 }} 400w,
-                "
+                srcset="                  {{ card_product.featured_media | image_url: width: 400 }} 400w,"
                 src="{{ card_product.featured_media | image_url: width: 500 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="{{ card_product.featured_media.alt | escape }}"
@@ -68,11 +66,9 @@
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
-              {%- if card_product.media[1] != nil and show_secondary_image -%}
+              {%- if card_product.media[1] != null and show_secondary_image -%}
                 <img
-                  srcset="
-                    {{ card_product.media[1] | image_url: width: 400 }} 400w,
-                  "
+                  srcset="                    {{ card_product.media[1] | image_url: width: 400 }} 400w,"
                   src="{{ card_product.media[1] | image_url: width: 500 }}"
                   sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                   alt=""
@@ -89,7 +85,7 @@
           <div class="card__information">
             <h3
               class="card__heading"
-              {% if card_product.featured_media == nil and settings.card_style == 'standard' %}
+              {% if card_product.featured_media == null and settings.card_style == 'standard' %}
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}
             >
@@ -112,9 +108,15 @@
                 {{- 'products.product.sold_out' | t -}}
               </span>
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span>
-                {{ settings.salebadge | image_url: width: 300 | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta' }}
-              </span>
+              {% if setting.salesadge %}
+                <span>
+                  {{
+                    settings.salebadge
+                    | image_url: width: 300
+                    | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
+                  }}
+                </span>
+              {% endif %}
             {%- endif -%}
           </div>
         </div>
@@ -175,7 +177,7 @@
                 <span aria-hidden="true">({{ card_product.metafields.reviews.rating_count }})</span>
                 <span class="visually-hidden">
                   {{- card_product.metafields.reviews.rating_count }}
-                  {{ "accessibility.total_reviews" | t -}}
+                  {{ 'accessibility.total_reviews' | t -}}
                 </span>
               </p>
             {%- endif -%}
@@ -188,7 +190,13 @@
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
             {%- if card_product.variants.size == 1 -%}
               <product-form>
-                {%- form 'product', card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                {%- form 'product',
+                  card_product,
+                  id: product_form_id,
+                  class: 'form',
+                  novalidate: 'novalidate',
+                  data-type: 'add-to-cart-form'
+                -%}
                   <input
                     type="hidden"
                     name="id"
