@@ -12,7 +12,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#363534",
     "gradient_accent_1": "",
-    "colors_accent_2": "{{ shop.brand.colors.primary[0].background }}",
+    "colors_accent_2": "#363534",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
