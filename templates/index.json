@@ -28,7 +28,7 @@
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1"
       ],
       "custom_css": [
-        ".newsletter-form{margin: auto;}"
+        ".newsletter-form {margin: auto;}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -37,75 +37,17 @@
         "padding_bottom": 52
       }
     },
-    "b4936535-9898-4f2e-b8f4-1287d37875e5": {
-      "type": "slideshow",
-      "blocks": {
-        "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BANNER_WEB.jpg",
-            "image_r": "shopify:\/\/shop_images\/BANNER_MOBILE_RHETLEN.jpg",
-            "link": ""
-          }
-        },
-        "d843f009-5481-4f09-be45-bf865a5fbe5f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_BANNER-WEB.jpg",
-            "image_r": "shopify:\/\/shop_images\/Banner-mobile-drewland.jpg",
-            "link": "shopify:\/\/products\/mural-drewland"
-          }
-        },
-        "af17804e-6fb1-4715-b95b-363eda21e629": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_BANNER-WEB.jpg",
-            "image_r": "shopify:\/\/shop_images\/Banner-mobile-augustina.jpg",
-            "link": "shopify:\/\/products\/reloj-de-pared-augustina"
-          }
-        }
-      },
-      "block_order": [
-        "d4f1f4f8-cf62-4b50-8838-b0208e0e32b8",
-        "d843f009-5481-4f09-be45-bf865a5fbe5f",
-        "af17804e-6fb1-4715-b95b-363eda21e629"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "a {z-index: 2;}",
-        "@media only screen and (max-width: 768px) {a {height: 400px; }}"
-      ],
+    "270e60e5-d686-41b0-b4ae-0fb10661d289": {
+      "type": "video",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
-      }
-    },
-    "baa9a133-d47f-4c72-9814-3caa591fae24": {
-      "type": "slideshow",
-      "blocks": {
-        "92277532-ab8c-403f-8a92-960b6dce56c9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/black-friday-telora.jpg",
-            "image_r": "shopify:\/\/shop_images\/0.jpg",
-            "link": "shopify:\/\/pages\/black-friday"
-          }
-        }
-      },
-      "block_order": [
-        "92277532-ab8c-403f-8a92-960b6dce56c9"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".banner__media {position: relative;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 5
+        "heading": "",
+        "heading_size": "h2",
+        "video_url": "https:\/\/youtu.be\/jG4xOVDsCdA",
+        "description": "Renueva con Ashley Furnmiture",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "9c0637e8-c09e-4130-b97e-d4fefc81597b": {
@@ -665,8 +607,7 @@
   },
   "order": [
     "22fc9450-1282-4534-8d8b-3f2372fac9de",
-    "b4936535-9898-4f2e-b8f4-1287d37875e5",
-    "baa9a133-d47f-4c72-9814-3caa591fae24",
+    "270e60e5-d686-41b0-b4ae-0fb10661d289",
     "9c0637e8-c09e-4130-b97e-d4fefc81597b",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
