@@ -37,6 +37,64 @@
         "padding_bottom": 52
       }
     },
+    "fb110c7a-4332-4d8d-b923-860cd019d091": {
+      "type": "slideshow",
+      "blocks": {
+        "86185acb-c6be-4925-9cc0-e354eb02b1e7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-1.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-1.jpg",
+            "link": ""
+          }
+        },
+        "62ca52f1-39ee-4cdf-87a0-24873fa63789": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-Coviar_2.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Coviar-2.jpg",
+            "link": ""
+          }
+        },
+        "5ec119ba-7112-4f9e-8d82-4ca1f686f21c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Langford-Enero-3.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Langford-3.jpg",
+            "link": ""
+          }
+        },
+        "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Johnelle-Enero-4.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-johnelle-4.jpg",
+            "link": ""
+          }
+        },
+        "cdc10851-f41e-4f44-8ab3-0f5a6274924c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-Cierre-5.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-Comedores-cierre-ASHLEY.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "86185acb-c6be-4925-9cc0-e354eb02b1e7",
+        "62ca52f1-39ee-4cdf-87a0-24873fa63789",
+        "5ec119ba-7112-4f9e-8d82-4ca1f686f21c",
+        "b5c9dd85-db88-4010-81c9-179d02e78bf1",
+        "cdc10851-f41e-4f44-8ab3-0f5a6274924c"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
     "270e60e5-d686-41b0-b4ae-0fb10661d289": {
       "type": "video",
       "disabled": true,
@@ -608,6 +666,7 @@
   },
   "order": [
     "22fc9450-1282-4534-8d8b-3f2372fac9de",
+    "fb110c7a-4332-4d8d-b923-860cd019d091",
     "270e60e5-d686-41b0-b4ae-0fb10661d289",
     "9c0637e8-c09e-4130-b97e-d4fefc81597b",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
