@@ -6,14 +6,8 @@
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Haz parte de nosotros",
+            "heading": "Únete a Nuestro NewsLetter",
             "heading_size": "h1"
-          }
-        },
-        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Transformamos espacios en hogares, y queremos compartir contigo cada inspiración. Suscríbete a nuestro newsletter y haz que cada rincón cuente tu historia.<\/p>"
           }
         },
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1": {
@@ -24,7 +18,6 @@
       },
       "block_order": [
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-heading-1",
-        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-paragraph-1",
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1"
       ],
       "custom_css": [
@@ -33,8 +26,8 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 8,
+        "padding_bottom": 20
       }
     },
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
