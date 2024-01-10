@@ -33,12 +33,12 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "86185acb-c6be-4925-9cc0-e354eb02b1e7": {
+        "5ec119ba-7112-4f9e-8d82-4ca1f686f21c": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-1.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-1.jpg",
-            "link": "https:\/\/ashleycolombia.com\/collections\/cocina-y-comedor"
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Langford-Enero-3.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Langford-3.jpg",
+            "link": ""
           }
         },
         "62ca52f1-39ee-4cdf-87a0-24873fa63789": {
@@ -47,14 +47,6 @@
             "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-Coviar_2.jpg",
             "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Coviar-2.jpg",
             "link": "https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar?_pos=1&_sid=169ef7ff9&_ss=r"
-          }
-        },
-        "5ec119ba-7112-4f9e-8d82-4ca1f686f21c": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Langford-Enero-3.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Langford-3.jpg",
-            "link": ""
           }
         },
         "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
@@ -72,14 +64,22 @@
             "image_r": "shopify:\/\/shop_images\/banner-Comedores-cierre-ASHLEY.jpg",
             "link": ""
           }
+        },
+        "86185acb-c6be-4925-9cc0-e354eb02b1e7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-1.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-1.jpg",
+            "link": "https:\/\/ashleycolombia.com\/collections\/cocina-y-comedor"
+          }
         }
       },
       "block_order": [
-        "86185acb-c6be-4925-9cc0-e354eb02b1e7",
-        "62ca52f1-39ee-4cdf-87a0-24873fa63789",
         "5ec119ba-7112-4f9e-8d82-4ca1f686f21c",
+        "62ca52f1-39ee-4cdf-87a0-24873fa63789",
         "b5c9dd85-db88-4010-81c9-179d02e78bf1",
-        "cdc10851-f41e-4f44-8ab3-0f5a6274924c"
+        "cdc10851-f41e-4f44-8ab3-0f5a6274924c",
+        "86185acb-c6be-4925-9cc0-e354eb02b1e7"
       ],
       "settings": {
         "layout": "full_bleed",
