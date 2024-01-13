@@ -12,18 +12,53 @@
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 
 <script>
-  const metafieldValue = '{{ product.metafields.custom.nombre_de_serie }}';
+    async function fetchAllProducts(url) {
+    let products = [];
+    let hasNextPage = true;
 
-fetch(`/admin/api/2023-01/products.json?metafield[namespace]=custom&metafield[key]=nombre_de_serie&metafield[value]=${metafieldValue}`, {
-  method: 'GET',
-  headers: {
-    'Content-Type': 'application/json',
-    'X-Shopify-Access-Token': 'your_access_token'
+    while (hasNextPage) {
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Shopify-Access-Token': 'your_access_token'
+        }
+      });
+      const data = await response.json();
+      products = products.concat(data.products);
+
+      // Check for the link header to see if there's a next page
+      const linkHeader = response.headers.get('link');
+      if (linkHeader) {
+        const matches = linkHeader.match(/<(.*?)>; rel="next"/);
+        if (matches) {
+          url = matches[1];
+        } else {
+          hasNextPage = false;
+        }
+      } else {
+        hasNextPage = false;
+      }
+    }
+
+    return products;
   }
-})
-.then(response => response.json())
-.then(data => console.log(data))
-.catch(error => console.error('Error:', error));
+
+  function filterProductsByMetafield(products, metafieldNamespace, metafieldKey, metafieldValue) {
+    return products.filter(product => {
+      const metafield = product.metafields.find(m => m.namespace === metafieldNamespace && m.key === metafieldKey);
+      return metafield && metafield.value === metafieldValue;
+    });
+  }
+
+  // Usage
+  const allProductsUrl = 'https://your_shopify_domain/admin/api/2023-01/products.json?limit=250'; // Adjust the API version and limit as needed
+  fetchAllProducts(allProductsUrl)
+    .then(allProducts => {
+      const filteredProducts = filterProductsByMetafield(allProducts, 'custom', 'nombre_de_serie', 'desired_value');
+      console.log(filteredProducts);
+    })
+    .catch(error => console.error('Error:', error));
 </script>
 
 {%- style -%}
