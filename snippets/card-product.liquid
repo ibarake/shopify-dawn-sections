@@ -138,6 +138,9 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+          <div>
+            <p>{{ product.metafields.custom.fecha_disponible }}</p>
+          </div>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
