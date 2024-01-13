@@ -25,8 +25,20 @@
   }
 {%- endstyle -%}
 
+{% assign serie_value = product.metafields.custom.nombre_de_serie %}
+{% assign products_with_same_serie = '' | split: ',' %}
+
+{% for collection_product in collections.all.products %}
+  {% if collection_product.metafields.custom.nombre_de_serie == serie_value %}
+    {% unless products_with_same_serie contains collection_product %}
+      {% assign products_with_same_serie = products_with_same_serie | append: collection_product | split: ',' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% assign first_collection = products_with_same_serie %}
+
 {%- liquid
-  assign first_collection = product.collections.last
   assign products_to_display = first_collection.all_products_count
 
   if first_collection.all_products_count > section.settings.products_to_show
