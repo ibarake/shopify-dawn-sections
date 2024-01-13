@@ -52,7 +52,7 @@
   }
 
   // Usage
-  const allProductsUrl = '/admin/api/2023-01/products.json?limit=250'; // Adjust the API version and limit as needed
+  const allProductsUrl = '/admin/api/2023-01/products.json?limit=90'; // Adjust the API version and limit as needed
   fetchAllProducts(allProductsUrl)
     .then(allProducts => {
       const filteredProducts = filterProductsByMetafield(allProducts, 'custom', 'nombre_de_serie', 'desired_value');
