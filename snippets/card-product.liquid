@@ -137,8 +137,14 @@
             >
               {{ card_product.title | escape }}
             </a>
-            disponible para: {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
+            {% assign variant = card_product.selected_or_first_available_variant %}
+            {% if variant.available %}
+              <span style="color: green;">En inventario</span>
+            {% else %}
+              <span style="color: lightred;">Disponible para: {{ variant.metafields.custom.fecha_disponible }}</span>
+            {% endif %}
           </h3>
+
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
