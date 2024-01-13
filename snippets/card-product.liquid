@@ -137,7 +137,7 @@
             >
               {{ card_product.title | escape }}
             </a>
-            {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
+            disponible para: {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
