@@ -603,7 +603,7 @@
             {%- when 'variant_picker' -%}
               <style>
                               .product-form__input input[type=radio]:checked + label{
-                  border: 5px #343434 solid;
+                  border: 5px {{ block.settings.border}} solid;
                 }
               </style>
               {%- unless product.has_only_default_variant -%}
