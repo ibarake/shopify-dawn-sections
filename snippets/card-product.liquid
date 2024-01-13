@@ -138,7 +138,7 @@
               {{ card_product.title | escape }}
             </a>
             {% assign variant = card_product.selected_or_first_available_variant %}
-            {% if variant.available %}
+            {% if variant.inventory_quantity > 0 %}
               <span style="color: green;">En inventario</span>
             {% else %}
               <span style="color: lightred;">Disponible para: {{ variant.metafields.custom.fecha_disponible }}</span>
