@@ -28,7 +28,7 @@
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-  {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
+  {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
     {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
     <link
@@ -61,7 +61,7 @@
         <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
         <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
           <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
-            {{ "accessibility.skip_to_product_info" | t }}
+            {{ 'accessibility.skip_to_product_info' | t }}
           </a>
           <ul
             id="Slider-Gallery-{{ section.id }}"
@@ -103,7 +103,18 @@
                 data-media-id="{{ section.id }}-{{ featured_media.id }}"
               >
                 {%- assign media_position = 1 -%}
-                {% render 'product-thumbnail', media: featured_media, media_count: media_count, position: media_position, desktop_layout: section.settings.gallery_layout, mobile_layout: section.settings.mobile_thumbnails, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, lazy_load: false %}
+                {% render 'product-thumbnail',
+                  media: featured_media,
+                  media_count: media_count,
+                  position: media_position,
+                  desktop_layout: section.settings.gallery_layout,
+                  mobile_layout: section.settings.mobile_thumbnails,
+                  loop: section.settings.enable_video_looping,
+                  modal_id: section.id,
+                  xr_button: true,
+                  media_width: media_width,
+                  lazy_load: false
+                %}
               </li>
             {%- endif -%}
             {%- for media in product.media -%}
@@ -164,7 +175,10 @@
             {{ 'products.product.xr_button' | t }}
           </button>
         {%- endif -%}
-        {%- if media_count > 1 and section.settings.gallery_layout contains 'thumbnail' or section.settings.mobile_thumbnails == 'show' -%}
+        {%- if media_count > 1
+          and section.settings.gallery_layout contains 'thumbnail'
+          or section.settings.mobile_thumbnails == 'show'
+        -%}
           <slider-component
             id="GalleryThumbnails-{{ section.id }}"
             class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% unless section.settings.gallery_layout contains 'thumbnail' %} medium-hide large-up-hide{% endunless %}{% if section.settings.mobile_thumbnails != 'show' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}"
@@ -263,7 +277,10 @@
                     <button
                       class="thumbnail global-media-settings global-media-settings--no-shadow {% if media.preview_image.aspect_ratio > 1 %}thumbnail--wide{% else %}thumbnail--narrow{% endif %}"
                       aria-label="{%- if media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
-                      {% if media == product.selected_or_first_available_variant.featured_media or product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %}
+                      {% if media == product.selected_or_first_available_variant.featured_media
+                        or product.selected_or_first_available_variant.featured_media == null
+                        and forloop.index == 1
+                      %}
                         aria-current="true"
                       {% endif %}
                       aria-controls="GalleryViewer-{{ section.id }}"
@@ -314,16 +331,22 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
-            {% when  'fecha' %}
-            {% if product.selected_or_first_available_variant.metafields.custom.fecha_disponible %}
-              {% if block.settings.show_with_inv %}
-                <p>{{ block.settings.text_fecha }} {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}</p>
-              {% else %}
-                {% if product.selected_or_first_available_variant.available == false %}
-                  <p>{{ block.settings.text_fecha }} {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}</p>
+            {% when 'fecha' %}
+              {% if product.selected_or_first_available_variant.metafields.custom.fecha_disponible %}
+                {% if block.settings.show_with_inv %}
+                  <p>
+                    {{ block.settings.text_fecha }}
+                    {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
+                  </p>
+                {% else %}
+                  {% if product.selected_or_first_available_variant.available == false %}
+                    <p>
+                      {{ block.settings.text_fecha }}
+                      {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
+                    </p>
+                  {% endif %}
                 {% endif %}
               {% endif %}
-            {% endif %}
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
@@ -344,7 +367,12 @@
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+                {%- render 'price',
+                  product: product,
+                  use_variant: true,
+                  show_badges: true,
+                  price_class: 'price--large'
+                -%}
               </div>
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="product__tax caption rte">
@@ -366,7 +394,7 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
-                   <con-details>
+                  <con-details>
                     <container-details>
                       <title-details class="title-details">
                         <p>Detalles & Descripción</p>
@@ -388,7 +416,7 @@
                         <ul class="ul-container">
                           <div class="container-left">
                             {% if product.metafields.custom.dibujo_dimensiones %}
-                            <a href="{{ product.metafields.custom.dibujo_dimensiones }}">Dimensiones</a>
+                              <a href="{{ product.metafields.custom.dibujo_dimensiones }}">Dimensiones</a>
                             {% endif %}
                             <legend style="font-weight:bold;">Dimensiones</legend>
                             <ul>
@@ -413,8 +441,10 @@
                               {% endfor %}
                             {% endif %}
                             {% if product.metafields.custom.ensamblaje %}
-                            <legend style="font-weight:bold;">Instrucciones de armado</legend>
-                            <a href="{{ product.metafields.custom.ensamblaje }}" download="Instrucciones">Descargar</a>
+                              <legend style="font-weight:bold;">Instrucciones de armado</legend>
+                              <a href="{{ product.metafields.custom.ensamblaje }}" download="Instrucciones"
+                                >Descargar</a
+                              >
                             {% endif %}
                           </div>
                         </ul>
@@ -426,9 +456,13 @@
                         {% render 'icon-arrow-right-dropdown' %}
                       </title-details>
                       <answer-details class="product-review">
-                        <div style='clear:both'></div>
-                        <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'>
-                            {{ product.metafields.judgeme.widget }}
+                        <div style="clear:both"></div>
+                        <div
+                          id="judgeme_product_reviews"
+                          class="jdgm-widget jdgm-review-widget"
+                          data-id="{{ product.id }}"
+                        >
+                          {{ product.metafields.judgeme.widget }}
                         </div>
                       </answer-details>
                     </container-details>
@@ -438,7 +472,16 @@
                         {% render 'icon-arrow-right-dropdown' %}
                       </title-details>
                       <answer-details>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18376.68421697243!2d-74.05484919895927!3d4.696338648394784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c28730fb1b%3A0x6d5332b21891156!2sAshley%20Furniture%20HomeStore!5e0!3m2!1ses-419!2sco!4v1694913822736!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width: 100%; height: auto;"></iframe>
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18376.68421697243!2d-74.05484919895927!3d4.696338648394784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99c28730fb1b%3A0x6d5332b21891156!2sAshley%20Furniture%20HomeStore!5e0!3m2!1ses-419!2sco!4v1694913822736!5m2!1ses-419!2sco"
+                          width="600"
+                          height="450"
+                          style="border:0;"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                          style="width: 100%; height: auto;"
+                        ></iframe>
                       </answer-details>
                     </container-details>
                   </con-details>
@@ -558,6 +601,11 @@
               </share-button>
               <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
             {%- when 'variant_picker' -%}
+              <style>
+                              .product-form__input input[type=radio]:checked + label{
+                  border: 5px #343434 solid;
+                }
+              </style>
               {%- unless product.has_only_default_variant -%}
                 {%- if block.settings.picker_type == 'button' -%}
                   <variant-radios
@@ -580,11 +628,15 @@
                               checked
                             {% endif %}
                           >
-                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" >
+                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                             {% for variant in product.variants %}
                               {% if variant.options contains value %}
                                 {% if variant.featured_media %}
-                                {{ variant.featured_media | img_url | img_tag: variant.featured_media.alt, "variant-image", "100x100" }}
+                                  {{
+                                    variant.featured_media
+                                    | img_url
+                                    | img_tag: variant.featured_media.alt, 'variant-image', '100x100'
+                                  }}
                                 {% else %}
                                   <p class="variant-text" style="width: 100%; line-height: 100%;">
                                     {{ variant.title }}
@@ -696,7 +748,13 @@
                     <span class="product-form__error-message"></span>
                   </div>
 
-                  {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                  {%- form 'product',
+                    product,
+                    id: product_form_id,
+                    class: 'form',
+                    novalidate: 'novalidate',
+                    data-type: 'add-to-cart-form'
+                  -%}
                     <input
                       type="hidden"
                       name="id"
@@ -741,7 +799,9 @@
 
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
-                {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+                {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities
+                  | where: 'pick_up_enabled', true
+                -%}
 
                 <pickup-availability
                   class="product__pickup-availabilities no-js-hidden quick-add-hidden"
@@ -771,12 +831,12 @@
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
                   assign rating_decimal = 0
-                   assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
-                   if decimal >= 0.3 and decimal <= 0.7
+                  assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+                  if decimal >= 0.3 and decimal <= 0.7
                     assign rating_decimal = 0.5
                   elsif decimal > 0.7
                     assign rating_decimal = 1
-                   endif
+                  endif
                 %}
                 <div
                   class="rating"
@@ -799,92 +859,151 @@
                   <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
                   <span class="visually-hidden">
                     {{- product.metafields.reviews.rating_count }}
-                    {{ "accessibility.total_reviews" | t -}}
+                    {{ 'accessibility.total_reviews' | t -}}
                   </span>
                 </p>
               {%- endif -%}
 
-              {%- when 'complementary' -%}
-                <product-recommendations class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
-                  {%- if recommendations.performed and recommendations.products_count > 0 -%}
-                    <aside aria-label="{{ 'accessibility.complementary_products' | t }}" {{ block.shopify_attributes }}{% if block.settings.make_collapsible_row %} class="product__accordion accordion"{% endif %}>
-                      <div class="complementary-products__container">
+            {%- when 'complementary' -%}
+              <product-recommendations
+                class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}"
+                data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary"
+              >
+                {%- if recommendations.performed and recommendations.products_count > 0 -%}
+                  <aside
+                    aria-label="{{ 'accessibility.complementary_products' | t }}"
+                    {{ block.shopify_attributes -}}
+                    {% if block.settings.make_collapsible_row %}
+                      class="product__accordion accordion"
+                    {% endif %}
+                  >
+                    <div class="complementary-products__container">
+                      {%- if block.settings.make_collapsible_row -%}
+                        <details id="Details-{{ block.id }}-{{ section.id }}" open>
+                          <summary>
+                      {%- endif %}
+                      <div class="summary__title">
                         {%- if block.settings.make_collapsible_row -%}
-                          <details id="Details-{{ block.id }}-{{ section.id }}" open>
-                            <summary>
-                        {%- endif %}
-                        <div class="summary__title">
-                          {%- if block.settings.make_collapsible_row -%}
-                            {% render 'icon-accordion', icon: block.settings.icon %}
-                            <h2 class="h4 accordion__title">{{ block.settings.block_heading }}</h2>
-                          {%- else -%}
-                            <h2 class="h3 accordion__title">{{ block.settings.block_heading }}</h2>
-                          {%- endif -%}
-                        </div>
-                        {%- if block.settings.make_collapsible_row -%}
-                            {% render 'icon-caret' %}
-                          </summary>
-                        {%- endif -%}
-                        <slideshow-component class="slider-mobile-gutter">
-                          {%- assign number_of_slides = recommendations.products_count | plus: 0.0 | divided_by: block.settings.products_per_page | ceil -%}
-                          <div id="Slider-{{ block.id }}" class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere" role="list"{% if number_of_slides > 1 %} aria-label="{{ 'general.slider.name' | t }}"{% endif %}>
-                            {%- for i in (1..number_of_slides) -%}
-                              <div id="Slide-{{ block.id }}-{{ forloop.index }}" class="complementary-slide complementary-slide--{{ settings.card_style }} grid__item slider__slide slideshow__slide" tabindex="-1" role="group"{% if number_of_slides > 1 %} aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"{% endif %}>
-                                <ul class="list-unstyled" role="list">
-                                  {%- for product in recommendations.products limit: block.settings.products_per_page offset: continue -%}
-                                    <li>
-                                      {% render 'card-product',
-                                        card_product: product,
-                                        media_aspect_ratio: block.settings.image_ratio,
-                                        show_secondary_image: false,
-                                        lazy_load: false,
-                                        show_quick_add: block.settings.enable_quick_add,
-                                        section_id: section.id,
-                                        horizontal_class: true
-                                      %}
-                                    </li>
-                                  {%- endfor -%}
-                                </ul>
-                              </div>
-                            {%- endfor -%}
-                          </div>
-                          {%- if number_of_slides > 1 -%}
-                            <div class="slider-buttons no-js-hidden">
-                              <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
-                              <div class="slider-counter slider-counter--{{ block.settings.pagination_style }}{% if block.settings.pagination_style == 'counter' or block.settings.pagination_style == 'numbers' %} caption{% endif %}">
-                                {%- if block.settings.pagination_style == 'counter' -%}
-                                  <span class="slider-counter--current">1</span>
-                                  <span aria-hidden="true"> / </span>
-                                  <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-                                  <span class="slider-counter--total">{{ number_of_slides }}</span>
-                                {%- else -%}
-                                  <div class="slideshow__control-wrapper">
-                                    {%- for i in (1..number_of_slides) -%}
-                                      <button class="slider-counter__link slider-counter__link--{{ block.settings.pagination_style }} link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-{{ block.id }}">
-                                        {%- if block.settings.pagination_style == 'numbers' -%}{{ forloop.index }}{% else %}<span class="dot"></span>{%- endif -%}
-                                      </button>
-                                    {%- endfor -%}
-                                  </div>
-                                {%- endif -%}
-                              </div>
-                              <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
-                            </div>
-                          {%- endif -%}
-                        </slideshow-component>
-                        {%- if block.settings.make_collapsible_row -%}
-                          </details>
+                          {% render 'icon-accordion', icon: block.settings.icon %}
+                          <h2 class="h4 accordion__title">{{ block.settings.block_heading }}</h2>
+                        {%- else -%}
+                          <h2 class="h3 accordion__title">{{ block.settings.block_heading }}</h2>
                         {%- endif -%}
                       </div>
-                    </aside>
-                  {%- endif -%}
-                  {{ 'component-card.css' | asset_url | stylesheet_tag }}
-                  {{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}
-                  {{ 'component-complementary-products.css' | asset_url | stylesheet_tag }}
-                  {%- if block.settings.enable_quick_add -%}
-                    <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
-                    <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
-                  {%- endif -%}
-                </product-recommendations>
+                      {%- if block.settings.make_collapsible_row -%}
+                        {% render 'icon-caret' %}
+                        </summary>
+                      {%- endif -%}
+                      <slideshow-component class="slider-mobile-gutter">
+                        {%- assign number_of_slides = recommendations.products_count
+                          | plus: 0.0
+                          | divided_by: block.settings.products_per_page
+                          | ceil
+                        -%}
+                        <div
+                          id="Slider-{{ block.id }}"
+                          class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere"
+                          role="list"
+                          {% if number_of_slides > 1 %}
+                            aria-label="{{ 'general.slider.name' | t }}"
+                          {% endif %}
+                        >
+                          {%- for i in (1..number_of_slides) -%}
+                            <div
+                              id="Slide-{{ block.id }}-{{ forloop.index }}"
+                              class="complementary-slide complementary-slide--{{ settings.card_style }} grid__item slider__slide slideshow__slide"
+                              tabindex="-1"
+                              role="group"
+                              {% if number_of_slides > 1 %}
+                                aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                                aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                              {% endif %}
+                            >
+                              <ul class="list-unstyled" role="list">
+                                {%- for product in recommendations.products
+                                  limit: block.settings.products_per_page
+                                  offset: continue
+                                -%}
+                                  <li>
+                                    {% render 'card-product',
+                                      card_product: product,
+                                      media_aspect_ratio: block.settings.image_ratio,
+                                      show_secondary_image: false,
+                                      lazy_load: false,
+                                      show_quick_add: block.settings.enable_quick_add,
+                                      section_id: section.id,
+                                      horizontal_class: true
+                                    %}
+                                  </li>
+                                {%- endfor -%}
+                              </ul>
+                            </div>
+                          {%- endfor -%}
+                        </div>
+                        {%- if number_of_slides > 1 -%}
+                          <div class="slider-buttons no-js-hidden">
+                            <button
+                              type="button"
+                              class="slider-button slider-button--prev"
+                              name="previous"
+                              aria-label="{{ 'general.slider.previous_slide' | t }}"
+                            >
+                              {% render 'icon-caret' %}
+                            </button>
+                            <div class="slider-counter slider-counter--{{ block.settings.pagination_style }}{% if block.settings.pagination_style == 'counter' or block.settings.pagination_style == 'numbers' %} caption{% endif %}">
+                              {%- if block.settings.pagination_style == 'counter' -%}
+                                <span class="slider-counter--current">1</span>
+                                <span aria-hidden="true"> / </span>
+                                <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                                <span class="slider-counter--total">{{ number_of_slides }}</span>
+                              {%- else -%}
+                                <div class="slideshow__control-wrapper">
+                                  {%- for i in (1..number_of_slides) -%}
+                                    <button
+                                      class="slider-counter__link slider-counter__link--{{ block.settings.pagination_style }} link"
+                                      aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                                      aria-controls="Slider-{{ block.id }}"
+                                    >
+                                      {%- if block.settings.pagination_style == 'numbers' -%}
+                                        {{ forloop.index -}}
+                                      {%- else -%}
+                                        <span class="dot"></span>
+                                      {%- endif -%}
+                                    </button>
+                                  {%- endfor -%}
+                                </div>
+                              {%- endif -%}
+                            </div>
+                            <button
+                              type="button"
+                              class="slider-button slider-button--next"
+                              name="next"
+                              aria-label="{{ 'general.slider.next_slide' | t }}"
+                            >
+                              {% render 'icon-caret' %}
+                            </button>
+                          </div>
+                        {%- endif -%}
+                      </slideshow-component>
+                      {%- if block.settings.make_collapsible_row -%}
+                        </details>
+                      {%- endif -%}
+                    </div>
+                  </aside>
+                {%- endif -%}
+                {{ 'component-card.css' | asset_url | stylesheet_tag }}
+                {{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}
+                {{ 'component-complementary-products.css' | asset_url | stylesheet_tag }}
+                {%- if block.settings.enable_quick_add -%}
+                  <link
+                    rel="stylesheet"
+                    href="{{ 'quick-add.css' | asset_url }}"
+                    media="print"
+                    onload="this.media='all'"
+                  >
+                  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+                {%- endif -%}
+              </product-recommendations>
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -920,7 +1039,18 @@
                   data-media-id="{{ section.id }}-{{ featured_media.id }}"
                 >
                   {%- assign media_position = 1 -%}
-                  {% render 'product-thumbnail', media: featured_media, media_count: media_count, position: media_position, desktop_layout: section.settings.gallery_layout, mobile_layout: section.settings.mobile_thumbnails, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, lazy_load: false %}
+                  {% render 'product-thumbnail',
+                    media: featured_media,
+                    media_count: media_count,
+                    position: media_position,
+                    desktop_layout: section.settings.gallery_layout,
+                    mobile_layout: section.settings.mobile_thumbnails,
+                    loop: section.settings.enable_video_looping,
+                    modal_id: section.id,
+                    xr_button: true,
+                    media_width: media_width,
+                    lazy_load: false
+                  %}
                 </li>
               {%- endif -%}
               {%- for media in product.media -%}
@@ -957,7 +1087,10 @@
               {{ 'products.product.xr_button' | t }}
             </button>
           {%- endif -%}
-          {%- if media_count > 1 and section.settings.gallery_layout contains 'thumbnail' or section.settings.mobile_thumbnails == 'show' -%}
+          {%- if media_count > 1
+            and section.settings.gallery_layout contains 'thumbnail'
+            or section.settings.mobile_thumbnails == 'show'
+          -%}
             <slider-component
               id="GalleryThumbnails-{{ section.id }}-right"
               class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% unless section.settings.gallery_layout contains 'thumbnail' %} medium-hide large-up-hide{% endunless %}{% if section.settings.mobile_thumbnails != 'show' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}"
@@ -1056,7 +1189,10 @@
                       <button
                         class="thumbnail global-media-settings global-media-settings--no-shadow {% if media.preview_image.aspect_ratio > 1 %}thumbnail--wide{% else %}thumbnail--narrow{% endif %}"
                         aria-label="{%- if media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
-                        {% if media == product.selected_or_first_available_variant.featured_media or product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %}
+                        {% if media == product.selected_or_first_available_variant.featured_media
+                          or product.selected_or_first_available_variant.featured_media == null
+                          and forloop.index == 1
+                        %}
                           aria-current="true"
                         {% endif %}
                         aria-controls="GalleryViewer-{{ section.id }}-right"
@@ -1148,7 +1284,7 @@
     </div>
   </product-modal>
 
-  {% assign popups = section.blocks | where: "type", "popup" %}
+  {% assign popups = section.blocks | where: 'type', 'popup' %}
   {%- for block in popups -%}
     <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
       <div
@@ -1260,10 +1396,9 @@
         {%- endfor -%}
       ]
     }
-    
   </script>
 
-<script>
+  <script>
   
   /* FAQ DROPDOWN ANIMATION */
 document.addEventListener('DOMContentLoaded', function() {
@@ -1325,9 +1460,7 @@ function rotateSvg(title, rotation) {
         variantElement.handleVariantChange();
     }
 });
-
-</script>
-
+  </script>
 </section>
 
 {% schema %}
@@ -1406,7 +1539,14 @@ function rotateSvg(title, rotation) {
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
-        }
+        },
+          {
+  "type": "color",
+  "id": "border",
+  "label": "Border color",
+  "default": "#343434"
+}
+
       ]
     },
     {
