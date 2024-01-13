@@ -158,8 +158,8 @@
         "padding_bottom": 28
       }
     },
-    "product_family_Twh9Xh": {
-      "type": "product-family",
+    "product_collection_BfNqAq": {
+      "type": "product-collection",
       "settings": {
         "title": "Productos similares",
         "heading_size": "h2",
@@ -241,7 +241,7 @@
     "main",
     "multicolumn",
     "product-recommendations",
-    "product_family_Twh9Xh",
+    "product_collection_BfNqAq",
     "1019d179-9363-4397-bb86-e5190b6615ac",
     "36fe26bc-e236-47ce-90a6-ec84501ec813",
     "5f6b00c0-887c-40d8-99a5-325fc99427d7"
