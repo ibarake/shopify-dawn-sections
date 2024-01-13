@@ -121,7 +121,7 @@
               {%- if media.id != product.featured_media.id -%}
                 <li
                   id="Slide-{{ section.id }}-{{ media.id }}"
-                  class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if media.id != product.featured_media.id and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
+                  class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if media.id != product.featured_media.id and forloop.index == 2 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
                   data-media-id="{{ section.id }}-{{ media.id }}"
                 >
                   {%- liquid
@@ -279,7 +279,7 @@
                       aria-label="{%- if media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
                       {% if media == product.selected_or_first_available_variant.featured_media
                         or media.id != product.featured_media.id
-                        and forloop.index == 1
+                        and forloop.index == 2
                       %}
                         aria-current="true"
                       {% endif %}
@@ -1057,7 +1057,7 @@
                 {%- if media.id != product.featured_media.id -%}
                   <li
                     id="Slide-{{ section.id }}-{{ media.id }}-right"
-                    class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if media.id != product.featured_media.id and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
+                    class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if media.id != product.featured_media.id and forloop.index == 2 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
                     data-media-id="{{ section.id }}-{{ media.id }}"
                   >
                     {%- liquid
@@ -1191,7 +1191,7 @@
                         aria-label="{%- if media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
                         {% if media == product.selected_or_first_available_variant.featured_media
                           or media.id != product.featured_media.id
-                          and forloop.index == 1
+                          and forloop.index == 2
                         %}
                           aria-current="true"
                         {% endif %}
