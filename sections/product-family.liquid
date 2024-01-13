@@ -26,7 +26,7 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign first_collection = product.collections.first
+  assign first_collection = product.collections.last
   assign products_to_display = first_collection.all_products_count
 
   if first_collection.all_products_count > section.settings.products_to_show
