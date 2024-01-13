@@ -12,53 +12,43 @@
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 
 <script>
-    async function fetchAllProducts(url) {
+async function fetchAllProducts() {
     let products = [];
-    let hasNextPage = true;
+    let page = 1;
+    let hasMoreProducts = true;
 
-    while (hasNextPage) {
-      const response = await fetch(url, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-Shopify-Access-Token': 'your_access_token'
-        }
-      });
-      const data = await response.json();
-      products = products.concat(data.products);
+    while (hasMoreProducts) {
+        try {
+            const response = await fetch(`/products.json?page=${page}&limit=100`);
+            const data = await response.json();
+            products = products.concat(data.products);
 
-      // Check for the link header to see if there's a next page
-      const linkHeader = response.headers.get('link');
-      if (linkHeader) {
-        const matches = linkHeader.match(/<(.*?)>; rel="next"/);
-        if (matches) {
-          url = matches[1];
-        } else {
-          hasNextPage = false;
+            if (data.products.length < 100) {
+                hasMoreProducts = false;
+            } else {
+                page++;
+            }
+        } catch (error) {
+            console.error('Error fetching products:', error);
+            hasMoreProducts = false;
         }
-      } else {
-        hasNextPage = false;
-      }
     }
 
     return products;
-  }
+}
 
-  function filterProductsByMetafield(products, metafieldNamespace, metafieldKey, metafieldValue) {
-    return products.filter(product => {
-      const metafield = product.metafields.find(m => m.namespace === metafieldNamespace && m.key === metafieldKey);
-      return metafield && metafield.value === metafieldValue;
-    });
-  }
+function filterProducts(products, criterion) {
+    // Replace the criterion with your desired filtering logic
+    // This example uses tags for filtering
+    return products.filter(product => product.tags.includes(criterion));
+}
 
-  // Usage
-  const allProductsUrl = '/admin/api/2023-01/products.json?limit=90'; // Adjust the API version and limit as needed
-  fetchAllProducts(allProductsUrl)
-    .then(allProducts => {
-      const filteredProducts = filterProductsByMetafield(allProducts, 'custom', 'nombre_de_serie', 'desired_value');
-      console.log(filteredProducts);
-    })
-    .catch(error => console.error('Error:', error));
+// Usage
+fetchAllProducts().then(allProducts => {
+    const criterion = 'your_desired_criterion'; // Replace with your filtering criterion
+    const filteredProducts = filterProducts(allProducts, criterion);
+    console.log(filteredProducts);
+});
 </script>
 
 {%- style -%}
