@@ -12,6 +12,8 @@
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 
 <script>
+var currentProductNombreDeSerie = "{{ product.metafields.custom.nombre_de_serie }}";
+
 async function fetchAllProducts() {
     let products = [];
     let page = 1;
@@ -37,16 +39,15 @@ async function fetchAllProducts() {
     return products;
 }
 
-function filterProducts(products, criterion) {
-    // Replace the criterion with your desired filtering logic
-    // This example uses tags for filtering
-    return products.filter(product => product.tags.includes(criterion));
+function filterProducts(products) {
+    // Replace this logic based on how you can access the metafield value.
+    // This example uses a placeholder for filtering logic.
+    return products.filter(product => product.tags.includes(currentProductNombreDeSerie));
 }
 
 // Usage
 fetchAllProducts().then(allProducts => {
-    const criterion = 'your_desired_criterion'; // Replace with your filtering criterion
-    const filteredProducts = filterProducts(allProducts, criterion);
+    const filteredProducts = filterProducts(allProducts);
     console.log(filteredProducts);
 });
 </script>
