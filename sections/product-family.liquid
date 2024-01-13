@@ -11,6 +11,21 @@
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 
+<script>
+  const metafieldValue = '{{ product.metafields.custom.nombre_de_serie }}';
+
+fetch(`/admin/api/2023-01/products.json?metafield[namespace]=custom&metafield[key]=nombre_de_serie&metafield[value]=${metafieldValue}`, {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json',
+    'X-Shopify-Access-Token': 'your_access_token'
+  }
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Error:', error));
+</script>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
