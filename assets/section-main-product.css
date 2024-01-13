@@ -174,10 +174,6 @@
   width: 50px;
 }
 
-.product-form__input input[type=radio]:checked + label{
-  border: 5px #343434 solid;
-}
-
 variant-radios,
 variant-selects {
   display: block;
