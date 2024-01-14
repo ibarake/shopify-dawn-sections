@@ -20,6 +20,7 @@
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-heading-1",
         "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".newsletter-form {margin: auto;}"
       ],
