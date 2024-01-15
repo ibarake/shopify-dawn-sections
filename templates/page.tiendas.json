@@ -1,21 +1,5 @@
 {
   "sections": {
-    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Orange-is-christmas-Ashley.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
       "type": "custom-liquid",
       "custom_css": [
@@ -129,7 +113,6 @@
     }
   },
   "order": [
-    "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
     "74f89a8e-1019-440b-bb46-8f103d566b78",
     "b4470a39-f2fc-4017-a147-66072f7a2e30",
