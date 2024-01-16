@@ -14,25 +14,26 @@
           {% comment %} Use matched_image URL instead of item.image URL {% endcomment %}
           <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
           <img
-            class="cart-item__image"
+            class="cart-item__image square-image"
             src="{{ matched_image | image_url: width: 300 }}"
             alt="{{ matched_image.alt | escape }}"
             loading="lazy"
             width="150"
-            height="{{ 150 | divided_by: matched_image.aspect_ratio | ceil }}"
+            height="150"
           >
         {% else %}
           <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
           <img
-            class="cart-item__image"
+            class="cart-item__image square-image"
             src="{{ item.image | image_url: width: 300 }}"
             alt="{{ item.image.alt | escape }}"
             loading="lazy"
             width="150"
-            height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
+            height="150"
           >
         {% endif %}
       {% endif %}
+
       <div>
         {%- if settings.show_vendor -%}
           <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
