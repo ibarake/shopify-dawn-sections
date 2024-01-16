@@ -1,17 +1,38 @@
 {%- if cart != empty -%}
   {%- for item in cart.items -%}
     <div id="cart-notification-product-{{ item.key }}" class="cart-item">
-      {%- if item.image -%}
-        <div class="cart-notification-product__image global-media-settings">
+      {% if item.image %}
+        {% assign matched_image = null %}
+        {% for product_image in item.product.images %}
+          {% if product_image.alt == item.image.alt and product_image.id != item.image.id %}
+            {% assign matched_image = product_image %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if matched_image %}
+          {% comment %} Use matched_image URL instead of item.image URL {% endcomment %}
+          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
           <img
-            src="{{ item.image | image_url: width: 140 }}"
-            alt="{{ item.image.alt | escape }}"
-            width="70"
-            height="{{ 70 | divided_by: item.image.aspect_ratio | ceil }}"
+            class="cart-item__image"
+            src="{{ matched_image | image_url: width: 300 }}"
+            alt="{{ matched_image.alt | escape }}"
             loading="lazy"
+            width="150"
+            height="{{ 150 | divided_by: matched_image.aspect_ratio | ceil }}"
           >
-        </div>
-      {%- endif -%}
+        {% else %}
+          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
+          <img
+            class="cart-item__image"
+            src="{{ item.image | image_url: width: 300 }}"
+            alt="{{ item.image.alt | escape }}"
+            loading="lazy"
+            width="150"
+            height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
+          >
+        {% endif %}
+      {% endif %}
       <div>
         {%- if settings.show_vendor -%}
           <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
@@ -44,7 +65,7 @@
             {%- endif -%}
           {%- endfor -%}
         </dl>
-        {%- if item.selling_plan_allocation != nil -%}
+        {%- if item.selling_plan_allocation != null -%}
           <p class="product-option">{{ item.selling_plan_allocation.selling_plan.name }}</p>
         {%- endif -%}
       </div>
