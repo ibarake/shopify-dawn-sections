@@ -647,6 +647,7 @@ i.icon-swym-wishlist:after {
                       </span>
                     </a>
                     <ul>
+                      {% if block.settings.menu.links %}
                       <div class="dropdown-content" >
                         <div class="list-content">
                           {% for link in block.settings.menu.links %}
@@ -693,6 +694,7 @@ i.icon-swym-wishlist:after {
                         </div>
                         {%- endif -%}
                       </div>
+                      {% endif %}
                     </ul>
                   </li>
                 {% else %}
