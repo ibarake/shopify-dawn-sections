@@ -630,9 +630,11 @@ i.icon-swym-wishlist:after {
               {%- for block in section.blocks -%}
                 {% if block.type == 'nav-menu' %}
                   <li class="dropdown">
+                  {% if block.settings.menu.links %}
                     <div class="overlay">
                       
                     </div>
+                    {% endif %}
                     <a
                       href="{{ block.settings.url }}"
                       class="header__menu-item list-menu__item link focus-inset"
