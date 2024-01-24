@@ -161,8 +161,9 @@
             "type": "menu",
             "settings": {
               "macro-id": 5,
-              "menu-promo": "",
-              "image-promo-url": ""
+              "menu-promo": "footer-legal",
+              "image-promo": "shopify:\/\/shop_images\/B974-78-76-NM-ANGLE-SW_BIG_93fb164e-a968-4f1d-9c56-b4beee09f3b1.jpg",
+              "image-promo-url": "#"
             }
           },
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
