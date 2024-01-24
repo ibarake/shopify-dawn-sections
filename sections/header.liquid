@@ -230,7 +230,7 @@ i.icon-swym-wishlist:after {
                                   {{ block.settings.title | escape }}
                                 </button> 
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
-                                  {% assign subcategories = macrocategory.subcategories.value %}
+                                  {% assign subcategories = block.settings.menu.links %}
                                   {% for subcategory in subcategories %}
                                     <li>
                                       {%- if subcategory == blank -%}
@@ -250,7 +250,7 @@ i.icon-swym-wishlist:after {
                                               {{ subcategory.name | escape }}
                                             </button>
                                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
-                                              {% assign collections = subcategory.collections.value %}
+                                              {% assign collections = subcategory.links %}
                                               {% for collection in collections %}
                                                 <li>
                                                   <a href="{{ collection.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
