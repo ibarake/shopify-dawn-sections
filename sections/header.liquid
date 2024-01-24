@@ -219,7 +219,7 @@ i.icon-swym-wishlist:after {
                         <li>
                           <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
-                              {{- macrocategory.name | escape -}}
+                              {{- block.settings.title | escape -}}
                               {% render 'icon-arrow' %}
                               {% render 'icon-caret' %}
                             </summary>
@@ -227,7 +227,7 @@ i.icon-swym-wishlist:after {
                               <div class="menu-drawer__inner-submenu">
                                 <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                   {% render 'icon-arrow' %}
-                                  {{ macrocategory.name | escape }}
+                                  {{ block.settings.title | escape }}
                                 </button> 
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {% assign subcategories = macrocategory.subcategories.value %}
