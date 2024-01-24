@@ -214,6 +214,16 @@ i.icon-swym-wishlist:after {
                 <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- assign macrocategories = shop.metaobjects.macro_categories.values -%}
+                    {%- for block in section.blocks -%}
+                      {% if block.type == 'nav-menu' %}
+                      {% else %}
+                        {%- for macrocategory in macrocategories -%}
+                          {%- if forloop.index == block.settings.macro-id -%}
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                      
+                    {% endfor %}
                     {%- for macrocategory in macrocategories -%}
                       <li>
                         {%- if macrocategories != blank -%}
