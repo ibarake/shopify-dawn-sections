@@ -219,13 +219,7 @@ i.icon-swym-wishlist:after {
                       {% else %}
                         {%- for macrocategory in macrocategories -%}
                           {%- if forloop.index == block.settings.macro-id -%}
-                          {% endif %}
-                        {% endfor %}
-                      {% endif %}
-                      
-                    {% endfor %}
-                    {%- for macrocategory in macrocategories -%}
-                      <li>
+                             <li>
                         {%- if macrocategories != blank -%}
                           <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
@@ -308,7 +302,11 @@ i.icon-swym-wishlist:after {
                           </a>
                         {%- endif -%}
                       </li>
-                    {%- endfor -%}
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                      
+                    {% endfor %}
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
