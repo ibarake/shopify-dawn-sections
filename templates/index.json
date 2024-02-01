@@ -1,39 +1,16 @@
 {
   "sections": {
-    "22fc9450-1282-4534-8d8b-3f2372fac9de": {
-      "type": "newsletter",
-      "blocks": {
-        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Únete a Nuestro NewsLetter",
-            "heading_size": "h1"
-          }
-        },
-        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-heading-1",
-        "template--21474712518963__22fc9450-1282-4534-8d8b-3f2372fac9de-email_form-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".newsletter-form {margin: auto;}"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 20
-      }
-    },
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
+        "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Johnelle-Enero-4.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-johnelle-4.jpg",
+            "link": "https:\/\/ashleycolombia.com\/search?q=johnelle&options%5Bprefix%5D=last"
+          }
+        },
         "5ec119ba-7112-4f9e-8d82-4ca1f686f21c": {
           "type": "slide",
           "settings": {
@@ -48,14 +25,6 @@
             "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-Coviar_2.jpg",
             "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Coviar-2.jpg",
             "link": "https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar?_pos=1&_sid=169ef7ff9&_ss=r"
-          }
-        },
-        "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Johnelle-Enero-4.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-johnelle-4.jpg",
-            "link": "https:\/\/ashleycolombia.com\/search?q=johnelle&options%5Bprefix%5D=last"
           }
         },
         "cdc10851-f41e-4f44-8ab3-0f5a6274924c": {
@@ -76,9 +45,9 @@
         }
       },
       "block_order": [
+        "b5c9dd85-db88-4010-81c9-179d02e78bf1",
         "5ec119ba-7112-4f9e-8d82-4ca1f686f21c",
         "62ca52f1-39ee-4cdf-87a0-24873fa63789",
-        "b5c9dd85-db88-4010-81c9-179d02e78bf1",
         "cdc10851-f41e-4f44-8ab3-0f5a6274924c",
         "86185acb-c6be-4925-9cc0-e354eb02b1e7"
       ],
@@ -87,75 +56,6 @@
         "slide_height": "adapt_image",
         "auto_rotate": false,
         "change_slides_speed": 6
-      }
-    },
-    "270e60e5-d686-41b0-b4ae-0fb10661d289": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "video_url": "https:\/\/youtu.be\/jG4xOVDsCdA",
-        "description": "Renueva con Ashley Furnmiture",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "9c0637e8-c09e-4130-b97e-d4fefc81597b": {
-      "type": "collection-list",
-      "blocks": {
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofa-cama-1"
-          }
-        },
-        "1a149651-13fe-40bd-85c8-f31e5450f759": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "precios-naranja"
-          }
-        },
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "orange-is-christmas-comedores"
-          }
-        },
-        "6524b61f-ca84-4614-b4d1-a67ed9e891fb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "orange-is-christmas"
-          }
-        },
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "detalles-que-enamoran"
-          }
-        }
-      },
-      "block_order": [
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-1",
-        "1a149651-13fe-40bd-85c8-f31e5450f759",
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-2",
-        "6524b61f-ca84-4614-b4d1-a67ed9e891fb",
-        "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Colección de temporada",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
@@ -659,10 +559,7 @@
     }
   },
   "order": [
-    "22fc9450-1282-4534-8d8b-3f2372fac9de",
     "fb110c7a-4332-4d8d-b923-860cd019d091",
-    "270e60e5-d686-41b0-b4ae-0fb10661d289",
-    "9c0637e8-c09e-4130-b97e-d4fefc81597b",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
