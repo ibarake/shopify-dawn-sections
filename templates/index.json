@@ -133,7 +133,7 @@
         "template--21474712518963__9c0637e8-c09e-4130-b97e-d4fefc81597b-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "orange-is-christmas-accesorios"
+            "collection": "detalles-que-enamoran"
           }
         }
       },
@@ -347,7 +347,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "orange-is-christmas-accesorios",
+        "collection": "detalles-que-enamoran",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
