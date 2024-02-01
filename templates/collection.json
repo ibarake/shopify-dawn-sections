@@ -51,7 +51,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
