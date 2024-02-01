@@ -9,7 +9,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "esculturas",
+        "collection": "jarrones-y-botellas",
         "products_to_show": 12,
         "columns_desktop": 5,
         "full_width": false,
