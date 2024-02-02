@@ -189,6 +189,7 @@
     },
     "3c0f41fc-9aba-4927-9907-4884cc477768": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
@@ -250,6 +251,7 @@
       "block_order": [
         "collection_jcYXFW"
       ],
+      "disabled": true,
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
