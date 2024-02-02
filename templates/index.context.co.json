@@ -4,26 +4,5 @@
     "market": "co"
   },
   "sections": {
-    "7da19d1b-6f58-4850-886c-e0ca3efe7f97": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    }
-  },
-  "order": [
-    "fb110c7a-4332-4d8d-b923-860cd019d091",
-    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
-    "7da19d1b-6f58-4850-886c-e0ca3efe7f97",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "550a77d6-6997-4664-8f4e-1c2f99b213d6"
-  ]
+  }
 }
