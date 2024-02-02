@@ -229,6 +229,7 @@
         "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3",
         "featured_collection_LHeyRn"
       ],
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}",
         ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
@@ -305,34 +306,10 @@
             "poc-5": "Accesorios",
             "poc-6": "Product 6 text"
           }
-        },
-        "collection_wGB4dU": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Heading text",
-            "title-alignment": "flex-start",
-            "collection-title": "",
-            "collection": "",
-            "button-title": "Add text",
-            "blocks-selection": "products",
-            "product_list": [
-              "alfombra-grande-brookhall"
-            ],
-            "collection_list": [
-
-            ],
-            "poc-1": "Product 1 text",
-            "poc-2": "Product 2 text",
-            "poc-3": "Product 3 text",
-            "poc-4": "Product 4 text",
-            "poc-5": "Product 5 text",
-            "poc-6": "Product 6 text"
-          }
         }
       },
       "block_order": [
-        "collection_jcYXFW",
-        "collection_wGB4dU"
+        "collection_jcYXFW"
       ],
       "settings": {
         "btn-txt-color": "#363534",
@@ -515,7 +492,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "color_scheme": "background-1",
-        "show_view_all": true,
+        "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 4,
@@ -568,7 +545,7 @@
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 4,
         "padding_bottom": 4
       }
