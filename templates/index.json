@@ -257,6 +257,33 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
+    "featured_collection_mjjnk9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Accesorios Decorativos",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "decoracion-del-hogar",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "550a77d6-6997-4664-8f4e-1c2f99b213d6": {
       "type": "featured-blog",
       "custom_css": [
@@ -328,33 +355,6 @@
         "padding_top": 4,
         "padding_bottom": 4
       }
-    },
-    "featured_collection_mjjnk9": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Accesorios Decorativos",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "decoracion-del-hogar",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -362,8 +362,8 @@
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
     "custom_collections_RBBGjc",
+    "featured_collection_mjjnk9",
     "550a77d6-6997-4664-8f4e-1c2f99b213d6",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "featured_collection_mjjnk9"
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
   ]
 }
