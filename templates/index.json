@@ -184,6 +184,36 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
+    "3c0f41fc-9aba-4927-9907-4884cc477768": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sillas-para-sala-y-habitacion",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
       "type": "collection-list",
       "blocks": {
@@ -233,36 +263,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
-    "3c0f41fc-9aba-4927-9907-4884cc477768": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "detalles-que-enamoran",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
         "padding_bottom": 0
       }
     },
@@ -561,8 +561,8 @@
   "order": [
     "fb110c7a-4332-4d8d-b923-860cd019d091",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
-    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
+    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
     "54b97664-3cf4-44af-97ad-c90fe7df232c",
     "18008aac-0289-48aa-8312-3ddc8709340b",
