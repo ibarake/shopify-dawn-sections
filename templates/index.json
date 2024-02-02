@@ -260,7 +260,7 @@
     "featured_collection_mjjnk9": {
       "type": "featured-collection",
       "settings": {
-        "title": "Accesorios Decorativos",
+        "title": "accesorios decorativos",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -287,14 +287,41 @@
     "featured_collection_h97Y38": {
       "type": "featured-collection",
       "settings": {
-        "title": "Lámparas de Techo",
+        "title": "lámparas de techo",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "lamparas-de-techo",
         "products_to_show": 12,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_WcGghW": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "lámparas de piso",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lamparas-de-pie",
+        "products_to_show": 12,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -391,6 +418,7 @@
     "custom_collections_RBBGjc",
     "featured_collection_mjjnk9",
     "featured_collection_h97Y38",
+    "featured_collection_WcGghW",
     "550a77d6-6997-4664-8f4e-1c2f99b213d6",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
   ]
