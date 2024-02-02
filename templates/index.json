@@ -148,11 +148,11 @@
         "collection_TCPqU7": {
           "type": "collection",
           "settings": {
-            "heading-text": "Todos los Reclinables",
+            "heading-text": "",
             "title-alignment": "flex-start",
             "collection-title": "reclinables",
             "collection": "asientos-electricos",
-            "button-title": "Sofas 2.5 Puestos",
+            "button-title": "Todos los Reclinables",
             "blocks-selection": "collections",
             "product_list": [
 
