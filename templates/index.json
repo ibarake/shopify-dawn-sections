@@ -187,67 +187,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791": {
-      "type": "collection-list",
-      "blocks": {
-        "99fbd5e3-4065-43f1-b063-d763ddddd5ca": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-modulares"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-3-puestos"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-2-puestos"
-          }
-        },
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-reclinomaticos"
-          }
-        },
-        "featured_collection_LHeyRn": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "99fbd5e3-4065-43f1-b063-d763ddddd5ca",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-2",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-1",
-        "template--17657980813619__31522f44-64b5-49bd-8c9c-1cb4ba7cb791-featured_collection-3",
-        "featured_collection_LHeyRn"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "img {object-fit: contain;}",
-        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}",
-        ".icon-wrap {display: none;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "3c0f41fc-9aba-4927-9907-4884cc477768": {
       "type": "featured-collection",
       "custom_css": [
@@ -611,7 +550,6 @@
   "order": [
     "fb110c7a-4332-4d8d-b923-860cd019d091",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
-    "31522f44-64b5-49bd-8c9c-1cb4ba7cb791",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
     "custom_collections_RBBGjc",
     "20cb0676-888c-4753-b8e9-32e8cc6eecbd",
