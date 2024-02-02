@@ -159,13 +159,15 @@
             ],
             "collection_list": [
               "sofas-reclinomaticos",
-              "sofas-reclinables"
+              "sofas-reclinables",
+              "cojines-para-interior-y-exterior",
+              "alfombras-1"
             ],
             "poc-1": "Sofas Reclinables",
             "poc-2": "Sillas Reclinables",
-            "poc-3": "Sofa 2 Puestos",
-            "poc-4": "Sillas Reclinables",
-            "poc-5": "Product 5 text",
+            "poc-3": "Cojines Decorativos",
+            "poc-4": "Alfombras",
+            "poc-5": "",
             "poc-6": "Product 6 text"
           }
         }
