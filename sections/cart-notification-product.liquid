@@ -4,37 +4,21 @@
       {% if item.image %}
         {% assign matched_image = null %}
         {% for product_image in item.product.images %}
-          {% if product_image.alt == item.image.alt and product_image.id != item.image.id %}
+          {% if product_image.alt == item.image.alt %}
             {% assign matched_image = product_image %}
             {% break %}
           {% endif %}
         {% endfor %}
-
+    
         {% if matched_image %}
-          {% comment %} Use matched_image URL instead of item.image URL {% endcomment %}
-          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
-          <img
-            class="cart-item__image square-image"
-            src="{{ matched_image | image_url: width: 300 }}"
-            alt="{{ matched_image.alt | escape }}"
-            loading="lazy"
-            width="150"
-            height="150"
-          >
+          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"></a>
+          {{ image_tag matched_image, class: 'cart-item__image square-image', width: 150, height: 150, loading: 'lazy' }}
         {% else %}
-          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
-          <img
-            class="cart-item__image square-image"
-            src="{{ item.image | image_url: width: 300 }}"
-            alt="{{ item.image.alt | escape }}"
-            loading="lazy"
-            width="150"
-            height="150"
-          >
+          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"></a>
+          {{ image_tag item.image, class: 'cart-item__image square-image', width: 150, height: 150, loading: 'lazy' }}
         {% endif %}
       {% endif %}
-
-      <div>
+    <div>
         {%- if settings.show_vendor -%}
           <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
         {%- endif -%}

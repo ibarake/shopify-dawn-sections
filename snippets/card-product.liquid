@@ -53,7 +53,7 @@
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
-                srcset="                  {{ card_product.featured_media | image_url: width: 400 }} 400w,"
+                srcset="{{ card_product.featured_media | image_url: width: 400 }} 400w,"
                 src="{{ card_product.featured_media | image_url: width: 500 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="{{ card_product.featured_media.alt | escape }}"
@@ -64,7 +64,7 @@
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
               >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+              {% comment %}Imagen del hover {% endcomment %}
 
               {%- if card_product.media[1] != null and show_secondary_image -%}
                 <img
@@ -123,6 +123,51 @@
       </div>
       <div class="card__content">
         <div class="card__information">
+          <div class="variant-images">
+            <fieldset class="variants">
+              {%- for variant in card_product.variants -%}
+                {% if variant.image %}
+                  {% assign variant_images = card_product.images | where: "alt", variant.title %}
+                  {% if variant_images.size > 0 %}
+                    <input
+                      type="radio"
+                      id="variant-{{ variant.id }}"
+                      name="product-variant"
+                      value="{{ variant.id }}"
+                      class="variant-input"
+                      data-variant-image-url="{{ variant_images.first.src | img_url: 'master' }}"
+                      style="display:none;" 
+                    >
+                    <label for="variant-{{ variant.id }}" class="variant-label" style="background-image: url('{{ variant_images.last.src | img_url: '300x300' }}');">
+                      <span class="visually-hidden">{{ variant.title }}</span>
+                    </label>
+                  {% endif %}
+                {% endif %}
+              {%- endfor -%}             
+            </fieldset>
+            <style>
+              .variant-label {
+                z-index: 2;
+                display: inline-block;
+                width: 40px; 
+                height: 40px;
+                border-radius: 50%; 
+                background-size: cover;
+                background-position: center;
+                cursor: pointer;
+              }
+              .variant-label:hover {
+                opacity: 0.8; 
+              }
+              .variants {
+                display: flex;
+                gap: 10px;
+                padding: 5px 0;
+                border: none;
+              }
+            </style>
+
+          </div>
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
@@ -140,11 +185,10 @@
             {% assign variant = card_product.selected_or_first_available_variant %}
             {% if variant.inventory_quantity > 0 %}
               <span style="color: green;">En inventario</span>
-            {% else %}
-              <span style="color: lightred;">Disponible para: {{ variant.metafields.custom.fecha_disponible }}</span>
+            {% else %} 
+              <span style="color: red;">Disponible para: {{ variant.metafields.custom.fecha_disponible }}</span>
             {% endif %}
           </h3>
-
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
@@ -188,9 +232,14 @@
                 </span>
               </p>
             {%- endif -%}
-
             {% render 'price', product: card_product, price_class: '' %}
           </div>
+          
+          {% style %}
+            .variant-image-pill:hover {
+              opacity: 0.8; 
+            }
+          {% endstyle %}
         </div>
         {%- if show_quick_add -%}
           <div class="quick-add no-js-hidden">
@@ -363,3 +412,28 @@
     </div>
   </div>
 {%- endif -%}
+{% style %}
+  .card__information .full-unstyled-link {
+      font-size: 1.2em;
+  }
+{% endstyle %}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.variant-input').forEach(function(input) {
+    input.addEventListener('change', function(e) {
+      const imageUrl = e.target.getAttribute('data-variant-image-url');
+      const cardWrapper = e.target.closest('.product-card-wrapper');
+      
+      if (cardWrapper) {
+        // Encuentra la segunda imagen dentro del contenedor de la tarjeta
+        const secondaryImage = cardWrapper.querySelector('.card__media img:nth-of-type(2)');
+        if (secondaryImage) {
+          // Actualiza la segunda imagen con la de la variante seleccionada
+          secondaryImage.src = imageUrl;
+          secondaryImage.srcset = imageUrl + ' 1x';
+        }
+      }
+    });
+  });
+});
+</script>
