@@ -75,13 +75,12 @@
                     {% if item.image %}
                       {% assign matched_image = null %}
                       {% for product_image in item.product.images %}
-                        {% if product_image.alt == item.image.alt and product_image.id != item.image.id %}
+                        {% if product_image.alt == item.image.alt %}
                           {% assign matched_image = product_image %}
                           {% break %}
                         {% endif %}
                       {% endfor %}
-
-                      {% if matched_image %}
+                      {% if matched_image %} 
                         {% comment %} Use matched_image URL instead of item.image URL {% endcomment %}
                         <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
                         <img
