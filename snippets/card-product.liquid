@@ -44,10 +44,7 @@
       "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
-      <div
-        class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
-        style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
-      >
+      <div class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
         {%- if card_product.featured_media -%}
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
@@ -72,7 +69,7 @@
                   src="{{ card_product.media[1] | image_url: width: 500 }}"
                   sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                   alt=""
-                  class="motion-reduce"
+                  class="motion-reduce second-image"
                   loading="lazy"
                   width="{{ card_product.media[1].width }}"
                   height="{{ card_product.media[1].height }}"
@@ -136,6 +133,7 @@
                       value="{{ variant.id }}"
                       class="variant-input"
                       data-variant-image-url="{{ variant_images.first.src | img_url: 'master' }}"
+                      data-image-2-url="{{ variant_images[1].src |  img_url: "master" }}"
                       style="display:none;" 
                     >
                     <label for="variant-{{ variant.id }}" class="variant-label" style="background-image: url('{{ variant_images.last.src | img_url: '300x300' }}');">
@@ -145,28 +143,6 @@
                 {% endif %}
               {%- endfor -%}             
             </fieldset>
-            <style>
-              .variant-label {
-                z-index: 2;
-                display: inline-block;
-                width: 40px; 
-                height: 40px;
-                border-radius: 50%; 
-                background-size: cover;
-                background-position: center;
-                cursor: pointer;
-              }
-              .variant-label:hover {
-                opacity: 0.8; 
-              }
-              .variants {
-                display: flex;
-                gap: 10px;
-                padding: 5px 0;
-                border: none;
-              }
-            </style>
-
           </div>
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
@@ -234,22 +210,15 @@
             {%- endif -%}
             {% render 'price', product: card_product, price_class: '' %}
           </div>
-          
-          {% style %}
-            .variant-image-pill:hover {
-              opacity: 0.8; 
-            }
-          {% endstyle %}
         </div>
         {%- if show_quick_add -%}
           <div class="quick-add no-js-hidden">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
-            {%- if card_product.variants.size == 1 -%}
               <product-form>
                 {%- form 'product',
                   card_product,
                   id: product_form_id,
-                  class: 'form',
+                  class: 'form', 
                   novalidate: 'novalidate',
                   data-type: 'add-to-cart-form'
                 -%}
@@ -297,52 +266,6 @@
                   </button>
                 {%- endform -%}
               </product-form>
-            {%- else -%}
-              <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
-                <button
-                  id="{{ product_form_id }}-submit"
-                  type="submit"
-                  name="add"
-                  class="quick-add__submit button button--full-width button--secondary"
-                  aria-haspopup="dialog"
-                  aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
-                  data-product-url="{{ card_product.url }}"
-                >
-                  {{ 'products.product.choose_options' | t }}
-                  <div class="loading-overlay__spinner hidden">
-                    <svg
-                      aria-hidden="true"
-                      focusable="false"
-                      role="presentation"
-                      class="spinner"
-                      viewBox="0 0 66 66"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                    </svg>
-                  </div>
-                </button>
-              </modal-opener>
-              <quick-add-modal id="QuickAdd-{{ card_product.id }}" class="quick-add-modal">
-                <div
-                  role="dialog"
-                  aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}"
-                  aria-modal="true"
-                  class="quick-add-modal__content global-settings-popup"
-                  tabindex="-1"
-                >
-                  <button
-                    id="ModalClose-{{ card_product.id }}"
-                    type="button"
-                    class="quick-add-modal__toggle"
-                    aria-label="{{ 'accessibility.close' | t }}"
-                  >
-                    {% render 'icon-close' %}
-                  </button>
-                  <div id="QuickAddInfo-{{ card_product.id }}" class="quick-add-modal__content-info"></div>
-                </div>
-              </quick-add-modal>
-            {%- endif -%}
           </div>
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
@@ -412,28 +335,3 @@
     </div>
   </div>
 {%- endif -%}
-{% style %}
-  .card__information .full-unstyled-link {
-      font-size: 1.2em;
-  }
-{% endstyle %}
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll('.variant-input').forEach(function(input) {
-    input.addEventListener('change', function(e) {
-      const imageUrl = e.target.getAttribute('data-variant-image-url');
-      const cardWrapper = e.target.closest('.product-card-wrapper');
-      
-      if (cardWrapper) {
-        // Encuentra la segunda imagen dentro del contenedor de la tarjeta
-        const secondaryImage = cardWrapper.querySelector('.card__media img:nth-of-type(2)');
-        if (secondaryImage) {
-          // Actualiza la segunda imagen con la de la variante seleccionada
-          secondaryImage.src = imageUrl;
-          secondaryImage.srcset = imageUrl + ' 1x';
-        }
-      }
-    });
-  });
-});
-</script>

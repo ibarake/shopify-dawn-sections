@@ -330,7 +330,28 @@
                                 {{ form.errors.messages.email -}}
                               </small>
                             {%- endif -%}
-                          </div>
+                            <div class="field__checkbox-wrapper">
+                                <input
+                                  type="checkbox"
+                                  id="acceptPolicy"
+                                  name="accept_policy"
+                                  class="field__checkbox"
+                                  required
+                                  style="margin: 0px;"
+                                >
+                                <label for="acceptPolicy" class="field__label-checkbox" style="display: inline;">
+                                  Acepto las <a href="//ashleycolombia.com/pages/politica-de-privacidad">políticas de privacidad</a>
+                                </label>
+                                <style>
+                                  label.field__label-checkbox {
+                                    font-size: 15px;
+                                  }
+                                </style>
+                              </div>
+                              <small class="newsletter-form__message form__message form__message--error" id="policyError" style="display: none;">
+                                Debe aceptar las políticas.
+                              </small>
+                            </div>
                           {%- if form.posted_successfully? -%}
                             <h3
                               class="newsletter-form__message newsletter-form__message--success form__message"
@@ -599,6 +620,25 @@
   }
 
   customElements.define('localization-form', LocalizationForm);
+  document.addEventListener("DOMContentLoaded", function() {
+  const form = document.querySelector(".footer__newsletter form");
+  const checkbox = document.querySelector("#acceptPolicy");
+  const errorMessage = document.querySelector("#policyError");
+
+  form.addEventListener("submit", function(event) {
+    if (!checkbox.checked) {
+      event.preventDefault(); // Evitar enviar el formulario
+      errorMessage.style.display = "block"; // Mostrar mensaje de error
+    }
+  });
+
+  checkbox.addEventListener("change", function() {
+    if (checkbox.checked) {
+      errorMessage.style.display = "none"; 
+    }
+  });
+});
+
 {% endjavascript %}
 
 {% schema %}

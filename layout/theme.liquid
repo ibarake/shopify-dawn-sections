@@ -471,7 +471,74 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
     </script>
-
+    <!-- Código para la card del producto -->
+    {% style %}
+      .card__information .full-unstyled-link {
+          font-size: 1.2em;
+      }
+      .variant-image-pill:hover {
+        opacity: 0.8; 
+      }
+      .variant-label {
+        z-index: 2;
+        display: inline-block;
+        width: 40px; 
+        height: 40px;
+        border-radius: 50%; 
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+      }
+      .variant-label:hover {
+        opacity: 0.8; 
+      }
+      .variants {
+        display: flex;
+        gap: 10px;
+        padding: 5px 0;
+        border: none;
+      }
+    {% endstyle %}    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll('.variant-input').forEach(function(input) {
+        input.addEventListener('change', function(e) {
+          // Obtiene la URL de la imagen de la variante seleccionada
+          const imageUrl = e.target.getAttribute('data-variant-image-url');
+          const image2Url = e.target.getAttribute('data-image-2-url');
+          // Encuentra el contenedor más cercano de la tarjeta del producto
+          const cardWrapper = e.target.closest('.product-card-wrapper');
+          
+          if (cardWrapper) {
+            // Selecciona la primera imagen dentro del contenedor de la tarjeta
+            const primaryImage = cardWrapper.querySelector('.card__media img:first-child');
+            const secondImage = cardWrapper.querySelector('.card__media img.second-image'); 
+            if (primaryImage) {
+              // Actualiza la primera imagen (imagen principal) con la de la variante seleccionada
+              primaryImage.src = imageUrl;
+              primaryImage.srcset = imageUrl + ' 1x';
+            }
+            if (secondImage) {
+              //Actualiza la segunda imagen
+              secondImage.src = image2Url;
+              secondImage.srcset = image2Url + ' 1x';
+            }
+            // Actualiza el valor del input oculto para el ID de la variante seleccionada
+            const variantId = e.target.value;
+            const form = cardWrapper.querySelector('form'); // Asegúrate de que este selector corresponda a tu formulario de añadir al carrito
+            if (form) {
+              const inputVariantId = form.querySelector('input[name="id"]');
+              if (inputVariantId) {
+                inputVariantId.value = variantId;
+              }
+            }
+          }
+        });
+      });
+    });
+    </script>
+    <!-------------------------------------->
+    
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
@@ -498,5 +565,35 @@
         </svg>
       </a>
     {% endif %}
+        <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var variantRadios = document.querySelectorAll('input[type="radio"]');
+    function updateVariantDetails(event) {
+        var selectedRadio = event.target;
+        var newSku = selectedRadio.getAttribute('data-sku');
+        var newImage = selectedRadio.getAttribute('data-img');
+        var newAlt = selectedRadio.getAttribute('value');
+        var baseURL = 'https://ashleycolombia.com/cdn/shop/'; 
+
+        // Actualizar SKU
+        var skuElement = document.querySelector('.sticky-sku');
+        if (skuElement) {
+          skuElement.textContent = "item: " + newSku;
+        }
+
+        // Actualizar imagen
+        var imageElement = document.querySelector('.sticky-bar-image');
+        if (imageElement && newImage) {
+          var fullPath = new URL(newImage, baseURL).href;
+          imageElement.src = fullPath;
+          imageElement.srcset = fullPath;
+          imageElement.alt = newAlt;
+        }
+    }
+    variantRadios.forEach(function(radio) {
+        radio.addEventListener('change', updateVariantDetails);
+    });
+});
+    </script>
   </body>
 </html>
