@@ -2171,6 +2171,9 @@ input[type='checkbox'] {
   left: 2.2rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
+a#cart-icon-bubble .cart-count-bubble {
+  background-color: #f98800;
+}
 
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
@@ -2410,6 +2413,13 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  align-items: center;
+}
+
+a#cart-icon-bubble {
+  width: 2rem;
+  height: 0rem;
+  margin-right: 0;
 }
 
 .header__icon:not(.header__icon--summary),
