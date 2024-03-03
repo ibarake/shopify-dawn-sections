@@ -99,7 +99,7 @@
               {%- assign featured_media = product.featured_media -%}
               <li
                 id="Slide-{{ section.id }}-{{ featured_media.id }}"
-                class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %} product__media-item--variant{% endif %}"
+                class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %}{% endif %}"
                 data-media-id="{{ section.id }}-{{ featured_media.id }}"
               >
                 {%- assign media_position = 1 -%}
@@ -121,7 +121,7 @@
               
                 <li
                   id="Slide-{{ section.id }}-{{ media.id }}"
-                  class="product__media-item grid__item slider__slide {% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and media.id != product.featured_media.id and forloop.index == 2 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
+                  class="product__media-item grid__item slider__slide {% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and media.id != product.featured_media.id and forloop.index == 2 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %}{% endif %}"
                   data-media-id="{{ section.id }}-{{ media.id }}"
                 >
                   {%- liquid
@@ -1034,7 +1034,7 @@
                 {%- assign featured_media = product.featured_media -%}
                 <li
                   id="Slide-{{ section.id }}-{{ featured_media.id }}-right"
-                  class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %} product__media-item--variant{% endif %}"
+                  class="product__media-item grid__item slider__slide is-active{% if single_media_visible %} product__media-item--single{% endif %}{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %}{% endif %}"
                   data-media-id="{{ section.id }}-{{ featured_media.id }}"
                 >
                   {%- assign media_position = 1 -%}
@@ -1056,7 +1056,7 @@
                 
                   <li
                     id="Slide-{{ section.id }}-{{ media.id }}-right"
-                    class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and media.id != product.featured_media.id and forloop.index == 2 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
+                    class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and media.id != product.featured_media.id and forloop.index == 2 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} {% endif %}"
                     data-media-id="{{ section.id }}-{{ media.id }}"
                   >
                     {%- liquid
@@ -1322,7 +1322,6 @@
         const ua = window.navigator.userAgent;
         const msie = ua.indexOf('MSIE ');
         const trident = ua.indexOf('Trident/');
-
         return (msie > 0 || trident > 0);
       }
 
@@ -1499,70 +1498,69 @@
         {%- endfor -%}
       ]
     }
-  </script>
+  </script> 
 
   <script>
-  
-  /* FAQ DROPDOWN ANIMATION */
-document.addEventListener('DOMContentLoaded', function() {
-  var faqTitles = document.querySelectorAll('.title-details');
-  var openAnswer = null; // Keeps track of the currently open answer
-  var openTitle = null; // Keeps track of the currently open FAQ title
+      /* FAQ DROPDOWN ANIMATION */
+    document.addEventListener('DOMContentLoaded', function() {
+      var faqTitles = document.querySelectorAll('.title-details');
+      var openAnswer = null; // Keeps track of the currently open answer
+      var openTitle = null; // Keeps track of the currently open FAQ title
 
-  faqTitles.forEach(function(title) {
-    title.addEventListener('click', function() {
-      var answer = this.nextElementSibling;
+      faqTitles.forEach(function(title) {
+        title.addEventListener('click', function() {
+          var answer = this.nextElementSibling;
 
-      if (openAnswer === answer) {
-        // Clicking on the same FAQ title again, close the answer and rotate the SVG back
-        toggleSlide(answer);
-        rotateSvg(this, '0deg');
-        openAnswer = null;
-        openTitle = null;
-      } else {
-        // Clicking on a different FAQ title
-        if (openAnswer) {
-          // Close the previously open answer and rotate its SVG back
-          toggleSlide(openAnswer);
-          rotateSvg(openTitle, '0deg');
-        }
+          if (openAnswer === answer) {
+            // Clicking on the same FAQ title again, close the answer and rotate the SVG back
+            toggleSlide(answer);
+            rotateSvg(this, '0deg');
+            openAnswer = null;
+            openTitle = null;
+          } else {
+            // Clicking on a different FAQ title
+            if (openAnswer) {
+              // Close the previously open answer and rotate its SVG back
+              toggleSlide(openAnswer);
+              rotateSvg(openTitle, '0deg');
+            }
 
-        // Open the clicked answer and rotate its SVG
-        toggleSlide(answer);
-        rotateSvg(this, '90deg');
-        openAnswer = answer;
-        openTitle = this;
-      }
+            // Open the clicked answer and rotate its SVG
+            toggleSlide(answer);
+            rotateSvg(this, '90deg');
+            openAnswer = answer;
+            openTitle = this;
+          }
+        });
+      });
     });
-  });
-});
 
-function toggleSlide(element) {
-  var isHidden = getComputedStyle(element).height === '0px';
+    function toggleSlide(element) {
+      var isHidden = getComputedStyle(element).height === '0px';
 
-  if (isHidden) {
-    element.style.height = 'auto';
-    element.style.marginTop = '15px';
-    element.style.marginBottom = '10px';
-  } else {
-    element.style.height = '0px';
-    element.style.marginTop = '0px';
-    element.style.marginBottom = '0px';
-  }
-}
-
-function rotateSvg(title, rotation) {
-  var svgElement = title.querySelector('svg');
-  svgElement.style.transform = `rotate(${rotation})`;
-}
-
-    $(document).ready(function() {
-    // Assuming the 'variant-selects' element is unique on the page
-    const variantElement = document.querySelector('variant-selects');
-    if (variantElement) {
-        variantElement.handleVariantChange();
+      if (isHidden) {
+        element.style.height = 'auto';
+        element.style.marginTop = '15px';
+        element.style.marginBottom = '10px';
+      } else {
+        element.style.height = '0px';
+        element.style.marginTop = '0px';
+        element.style.marginBottom = '0px';
+      }
     }
-});
+
+    function rotateSvg(title, rotation) {
+      var svgElement = title.querySelector('svg');
+      svgElement.style.transform = `rotate(${rotation})`;
+    }
+
+        $(document).ready(function() {
+        // Assuming the 'variant-selects' element is unique on the page
+        const variantElement = document.querySelector('variant-selects');
+        if (variantElement) {
+            variantElement.handleVariantChange();
+        }
+    });
   </script>
 
 </section>
