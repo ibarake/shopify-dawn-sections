@@ -1,1 +1,416 @@
-{"sections":{"fb110c7a-4332-4d8d-b923-860cd019d091":{"type":"slideshow","blocks":{"b5c9dd85-db88-4010-81c9-179d02e78bf1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Banner-comedores-Johnelle-Enero-4.jpg","image_r":"shopify:\/\/shop_images\/banner-comedores-mobile-enero-johnelle-4.jpg","link":"https:\/\/ashleycolombia.com\/search?q=johnelle&options%5Bprefix%5D=last"}},"5ec119ba-7112-4f9e-8d82-4ca1f686f21c":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Banner-comedores-Langford-Enero-3.jpg","image_r":"shopify:\/\/shop_images\/banner-comedores-mobile-enero-Langford-3.jpg","link":""}},"62ca52f1-39ee-4cdf-87a0-24873fa63789":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Banner-comedores-Enero-Coviar_2.jpg","image_r":"shopify:\/\/shop_images\/banner-comedores-mobile-enero-Coviar-2.jpg","link":"https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar?_pos=1&_sid=169ef7ff9&_ss=r"}},"cdc10851-f41e-4f44-8ab3-0f5a6274924c":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Banner-comedores-Enero-Cierre-5.jpg","image_r":"shopify:\/\/shop_images\/banner-Comedores-cierre-ASHLEY.jpg","link":""}},"86185acb-c6be-4925-9cc0-e354eb02b1e7":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Banner-comedores-Enero-1.jpg","image_r":"shopify:\/\/shop_images\/banner-comedores-mobile-enero-1.jpg","link":"https:\/\/ashleycolombia.com\/collections\/cocina-y-comedor"}}},"block_order":["b5c9dd85-db88-4010-81c9-179d02e78bf1","5ec119ba-7112-4f9e-8d82-4ca1f686f21c","62ca52f1-39ee-4cdf-87a0-24873fa63789","cdc10851-f41e-4f44-8ab3-0f5a6274924c","86185acb-c6be-4925-9cc0-e354eb02b1e7"],"settings":{"layout":"full_bleed","slide_height":"adapt_image","auto_rotate":false,"change_slides_speed":6}},"ceb85f3e-2e32-4555-9627-d705ec2a2d8f":{"type":"custom-collections","blocks":{"4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14":{"type":"collection","settings":{"heading-text":"","title-alignment":"flex-start","collection-title":"Salas","collection":"salas","button-title":"Todo en salas","blocks-selection":"collections","product_list":[],"collection_list":["sofas-modulares","sofas-2-puestos","sofas-3-puestos","sillas-para-sala-y-habitacion","mesas-de-centro","mesas-de-centro-y-auxiliares"],"poc-1":"Modulares","poc-2":"2 Puestos","poc-3":"3 Puestos","poc-4":"Poltronas","poc-5":"Mesas de Centro","poc-6":"Mesas Auxiliares"}},"f2a12ca4-b64f-4515-a892-93248634a1d3":{"type":"collection","settings":{"heading-text":"","title-alignment":"flex-end","collection-title":"Comedores","collection":"cocina-y-comedor","button-title":"todo en Comedores","blocks-selection":"collections","product_list":[],"collection_list":["mesas-de-comedor","sillas-de-comedor","almacenamiento-comedor","bancos-de-comedor","mesas-de-comedor-altas","sillas-altas-de-comedor"],"poc-1":"Mesas de comedor","poc-2":"Sillas de comedor","poc-3":"Almacenamiento para comedor","poc-4":"Bancos de comedor","poc-5":"Mesas de barra","poc-6":"sillas de barra"}},"b61a3fc5-bc64-42f0-a445-205351259d9a":{"type":"collection","settings":{"heading-text":"","title-alignment":"flex-start","collection-title":"Dormitorio","collection":"dormitorio","button-title":"Todo en dormitorios","blocks-selection":"collections","product_list":[],"collection_list":["camas","mesitas-de-noche","bancos-de-dormitorio","sillas-de-dormitorio","lamparas-de-mesa","cobijas-y-mantas"],"poc-1":"Camas","poc-2":"Mesas de noche","poc-3":"bancos","poc-4":"Sillas","poc-5":"Lámparas","poc-6":"Mantas"}},"collection_TCPqU7":{"type":"collection","settings":{"heading-text":"","title-alignment":"flex-start","collection-title":"reclinables","collection":"asientos-electricos","button-title":"Todos los Reclinables","blocks-selection":"collections","product_list":[],"collection_list":["sofas-reclinomaticos","sofas-reclinables","cojines-para-interior-y-exterior","alfombras-1"],"poc-1":"Sofas Reclinables","poc-2":"Sillas Reclinables","poc-3":"Cojines Decorativos","poc-4":"Alfombras","poc-5":"","poc-6":"Product 6 text"}}},"block_order":["4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14","f2a12ca4-b64f-4515-a892-93248634a1d3","b61a3fc5-bc64-42f0-a445-205351259d9a","collection_TCPqU7"],"custom_css":["@media only screen and (max-width: 768px) {.product-image {width: 120px; }}",".product-text {line-height: 18px;}"],"settings":{"btn-txt-color":"#363534","btn-bg-color":"#f4f4f4"}},"3c0f41fc-9aba-4927-9907-4884cc477768":{"type":"featured-collection","custom_css":["img {object-fit: contain;}"],"settings":{"title":"Poltronas","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"sillas-para-sala-y-habitacion","products_to_show":11,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":0,"padding_bottom":0}},"custom_collections_RBBGjc":{"type":"custom-collections","blocks":{"collection_jcYXFW":{"type":"collection","settings":{"heading-text":"Terraza y Decoración","title-alignment":"flex-start","collection-title":"","collection":"muebles-de-patio","button-title":"Todo de Exterior","blocks-selection":"collections","product_list":[],"collection_list":["jarrones-y-botellas","alfombras-1","esculturas","esculturas-de-pared","cuadros-de-pared","lamparas"],"poc-1":"Jarrones y Floreros","poc-2":"Tapetes","poc-3":"Esculturas","poc-4":"Escultura de Pared","poc-5":"Cuadros","poc-6":"Lámparas"}}},"block_order":["collection_jcYXFW"],"settings":{"btn-txt-color":"#363534","btn-bg-color":"#f4f4f4"}},"featured_collection_mjjnk9":{"type":"featured-collection","settings":{"title":"accesorios decorativos","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"decoracion-del-hogar","products_to_show":12,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"featured_collection_h97Y38":{"type":"featured-collection","settings":{"title":"lámparas de techo","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"lamparas-de-techo","products_to_show":12,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"featured_collection_WcGghW":{"type":"featured-collection","settings":{"title":"lámparas de piso","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"lamparas-de-pie","products_to_show":12,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"550a77d6-6997-4664-8f4e-1c2f99b213d6":{"type":"featured-blog","custom_css":[".article-card__excerpt {width: 100%; margin-top: 1.2rem; font: caption;}"],"settings":{"heading":"Blog posts","heading_size":"h2","blog":"news","post_limit":3,"columns_desktop":3,"color_scheme":"background-1","show_image":true,"show_date":true,"show_author":false,"show_view_all":true,"padding_top":0,"padding_bottom":0}},"2b005d30-4e48-4619-8a3b-2ebf0b4880b5":{"type":"collection-list","blocks":{"13c91ef6-ae26-4022-999d-eedef2b7983e":{"type":"featured_collection","settings":{"collection":"alfombras-1"}},"4fa7c405-59a3-484d-aa69-72fdafcb35b4":{"type":"featured_collection","settings":{"collection":"espejos-de-pared"}},"8dec4ffe-b887-4bd5-9f18-9db11ff98c76":{"type":"featured_collection","settings":{"collection":"estantes"}},"7ccf0866-29c8-44b6-9869-ed629cf42d94":{"type":"featured_collection","settings":{"collection":"bols-y-bandejas"}}},"block_order":["13c91ef6-ae26-4022-999d-eedef2b7983e","4fa7c405-59a3-484d-aa69-72fdafcb35b4","8dec4ffe-b887-4bd5-9f18-9db11ff98c76","7ccf0866-29c8-44b6-9869-ed629cf42d94"],"disabled":true,"custom_css":["img {object-fit: contain;}",".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"],"settings":{"title":"Júntalos con sus estilos","heading_size":"h1","image_ratio":"portrait","columns_desktop":4,"color_scheme":"background-1","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":4,"padding_bottom":4}}},"order":["fb110c7a-4332-4d8d-b923-860cd019d091","ceb85f3e-2e32-4555-9627-d705ec2a2d8f","3c0f41fc-9aba-4927-9907-4884cc477768","custom_collections_RBBGjc","featured_collection_mjjnk9","featured_collection_h97Y38","featured_collection_WcGghW","550a77d6-6997-4664-8f4e-1c2f99b213d6","2b005d30-4e48-4619-8a3b-2ebf0b4880b5"]}
+{
+  "sections": {
+    "fb110c7a-4332-4d8d-b923-860cd019d091": {
+      "type": "slideshow",
+      "blocks": {
+        "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Johnelle-Enero-4.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-johnelle-4.jpg",
+            "link": "https:\/\/ashleycolombia.com\/search?q=johnelle&options%5Bprefix%5D=last"
+          }
+        },
+        "5ec119ba-7112-4f9e-8d82-4ca1f686f21c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Langford-Enero-3.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Langford-3.jpg",
+            "link": ""
+          }
+        },
+        "62ca52f1-39ee-4cdf-87a0-24873fa63789": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-Coviar_2.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Coviar-2.jpg",
+            "link": "https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar?_pos=1&_sid=169ef7ff9&_ss=r"
+          }
+        },
+        "86185acb-c6be-4925-9cc0-e354eb02b1e7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-1.jpg",
+            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-1.jpg",
+            "link": "https:\/\/ashleycolombia.com\/collections\/cocina-y-comedor"
+          }
+        }
+      },
+      "block_order": [
+        "b5c9dd85-db88-4010-81c9-179d02e78bf1",
+        "5ec119ba-7112-4f9e-8d82-4ca1f686f21c",
+        "62ca52f1-39ee-4cdf-87a0-24873fa63789",
+        "86185acb-c6be-4925-9cc0-e354eb02b1e7"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
+    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
+      "type": "custom-collections",
+      "blocks": {
+        "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Salas",
+            "collection": "salas",
+            "button-title": "Todo en salas",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "sofas-modulares",
+              "sofas-2-puestos",
+              "sofas-3-puestos",
+              "sillas-para-sala-y-habitacion",
+              "mesas-de-centro",
+              "mesas-de-centro-y-auxiliares"
+            ],
+            "poc-1": "Modulares",
+            "poc-2": "2 Puestos",
+            "poc-3": "3 Puestos",
+            "poc-4": "Poltronas",
+            "poc-5": "Mesas de Centro",
+            "poc-6": "Mesas Auxiliares"
+          }
+        },
+        "collection_TCPqU7": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "reclinables",
+            "collection": "asientos-electricos",
+            "button-title": "Todos los Reclinables",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "sofas-reclinomaticos",
+              "sofas-reclinables",
+              "cojines-para-interior-y-exterior",
+              "alfombras-1"
+            ],
+            "poc-1": "Sofas Reclinables",
+            "poc-2": "Sillas Reclinables",
+            "poc-3": "Cojines Decorativos",
+            "poc-4": "Alfombras",
+            "poc-5": "",
+            "poc-6": "Product 6 text"
+          }
+        },
+        "f2a12ca4-b64f-4515-a892-93248634a1d3": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-end",
+            "collection-title": "Comedores",
+            "collection": "cocina-y-comedor",
+            "button-title": "todo en Comedores",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "mesas-de-comedor",
+              "sillas-de-comedor",
+              "almacenamiento-comedor",
+              "bancos-de-comedor",
+              "mesas-de-comedor-altas",
+              "sillas-altas-de-comedor"
+            ],
+            "poc-1": "Mesas de comedor",
+            "poc-2": "Sillas de comedor",
+            "poc-3": "Almacenamiento para comedor",
+            "poc-4": "Bancos de comedor",
+            "poc-5": "Mesas de barra",
+            "poc-6": "sillas de barra"
+          }
+        },
+        "b61a3fc5-bc64-42f0-a445-205351259d9a": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "Dormitorio",
+            "collection": "dormitorio",
+            "button-title": "Todo en dormitorios",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "camas",
+              "mesitas-de-noche",
+              "bancos-de-dormitorio",
+              "sillas-de-dormitorio",
+              "lamparas-de-mesa",
+              "cobijas-y-mantas"
+            ],
+            "poc-1": "Camas",
+            "poc-2": "Mesas de noche",
+            "poc-3": "bancos",
+            "poc-4": "Sillas",
+            "poc-5": "Lámparas",
+            "poc-6": "Mantas"
+          }
+        }
+      },
+      "block_order": [
+        "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14",
+        "collection_TCPqU7",
+        "f2a12ca4-b64f-4515-a892-93248634a1d3",
+        "b61a3fc5-bc64-42f0-a445-205351259d9a"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 768px) {.product-image {width: 120px; }}",
+        ".product-text {line-height: 18px;}"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4"
+      }
+    },
+    "3c0f41fc-9aba-4927-9907-4884cc477768": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "Poltronas",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sillas-para-sala-y-habitacion",
+        "products_to_show": 11,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_collections_RBBGjc": {
+      "type": "custom-collections",
+      "blocks": {
+        "collection_jcYXFW": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Terraza y Decoración",
+            "title-alignment": "flex-start",
+            "collection-title": "",
+            "collection": "muebles-de-patio",
+            "button-title": "Todo de Exterior",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "jarrones-y-botellas",
+              "alfombras-1",
+              "esculturas",
+              "esculturas-de-pared",
+              "cuadros-de-pared",
+              "lamparas"
+            ],
+            "poc-1": "Jarrones y Floreros",
+            "poc-2": "Tapetes",
+            "poc-3": "Esculturas",
+            "poc-4": "Escultura de Pared",
+            "poc-5": "Cuadros",
+            "poc-6": "Lámparas"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jcYXFW"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4"
+      }
+    },
+    "featured_collection_mjjnk9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "accesorios decorativos",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "decoracion-del-hogar",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_h97Y38": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "lámparas de techo",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lamparas-de-techo",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_WcGghW": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "lámparas de piso",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lamparas-de-pie",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "550a77d6-6997-4664-8f4e-1c2f99b213d6": {
+      "type": "featured-blog",
+      "custom_css": [
+        ".article-card__excerpt {width: 100%; margin-top: 1.2rem; font: caption;}"
+      ],
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
+      "type": "collection-list",
+      "blocks": {
+        "13c91ef6-ae26-4022-999d-eedef2b7983e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "alfombras-1"
+          }
+        },
+        "4fa7c405-59a3-484d-aa69-72fdafcb35b4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "espejos-de-pared"
+          }
+        },
+        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "estantes"
+          }
+        },
+        "7ccf0866-29c8-44b6-9869-ed629cf42d94": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bols-y-bandejas"
+          }
+        }
+      },
+      "block_order": [
+        "13c91ef6-ae26-4022-999d-eedef2b7983e",
+        "4fa7c405-59a3-484d-aa69-72fdafcb35b4",
+        "8dec4ffe-b887-4bd5-9f18-9db11ff98c76",
+        "7ccf0866-29c8-44b6-9869-ed629cf42d94"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "img {object-fit: contain;}",
+        ".full-unstyled-link {text-decoration: none; color: currentColor; display: block; font-size: 12px;}"
+      ],
+      "settings": {
+        "title": "Júntalos con sus estilos",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    }
+  },
+  "order": [
+    "fb110c7a-4332-4d8d-b923-860cd019d091",
+    "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
+    "3c0f41fc-9aba-4927-9907-4884cc477768",
+    "custom_collections_RBBGjc",
+    "featured_collection_mjjnk9",
+    "featured_collection_h97Y38",
+    "featured_collection_WcGghW",
+    "550a77d6-6997-4664-8f4e-1c2f99b213d6",
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
+  ]
+}
