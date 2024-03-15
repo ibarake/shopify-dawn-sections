@@ -16,7 +16,8 @@
         "slide_rtnnkJ"
       ],
       "custom_css": [
-        ".banner__media{height: 500px;}"
+        ".banner__media{height: 750px;}",
+        "@media (max-width: 768px){.banner__media{height: 500px;}}"
       ],
       "settings": {
         "layout": "full_bleed",
