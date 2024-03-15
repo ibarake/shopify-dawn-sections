@@ -15,6 +15,9 @@
       "block_order": [
         "slide_rtnnkJ"
       ],
+      "custom_css": [
+        ".banner__media{height: 500px;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
