@@ -1,5 +1,56 @@
 {
   "sections": {
+    "slideshow_PTV3UM": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_rtnnkJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIMBO_69db6de2-bca5-4244-9f87-bee507eebb3b.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_rtnnkJ"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
+    "rich_text_87hrb8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UCtLzz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_mRKTB9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Estimados amigos, clientes y enamorados del hogar,<\/p><p>Con profundo sentimiento me dirijo a ustedes en este momento crucial para el mercado de muebles y decoración. Como alguien que ha dedicado más de dos décadas a la industria del mobiliario en Colombia, la noticia de la liquidación de Muebles y Accesorios, una empresa que ha sido un pilar en nuestras vidas durante tanto tiempo, me ha llevado a una reflexión profunda.<\/p><p>Ser empresario implica una labor ardua que demanda no solo visión y disciplina, sino también un profundo respeto por nuestros clientes y un compromiso inquebrantable con la calidad y el servicio. No puedo sino imaginar el sentimiento de incertidumbre que deben estar experimentando los propietarios, directivos y empleados de esta institución. Sin embargo, reconozco que su legado ha sido una fuente de inspiración para mí desde mi infancia, y presenciar este desenlace me reafirma la importancia de abordar cada día con el mismo cuidado al detalle del primer día.<\/p><p>Al observar las noticias y las redes sociales, constato la frustración de muchos compradores debido a la falta de claridad sobre el destino de sus compras. Comprar muebles no es simplemente adquirir productos para satisfacer una necesidad en un espacio; es una experiencia cargada de emociones que define lo más íntimo de nuestras vidas: nuestro hogar.<\/p><p>Por eso, junto con  el equipo líder de Ashley en Colombia hemos creado el programa Limbo para darle una mano a todos los clientes afectados por el proceso de liquidación. Limbo le permitirá a los afectados contar con nuestro inventario disponible para entrega rápida más un descuento del 35% (*Ver términos y condiciones). Creemos que esta iniciativa es una forma de contribuir en momentos de frustración para ayudar a solucionar las necesidades de sus hogares.<\/p><p>Ashley es una empresa estadounidense, el mayor fabricante mundial de muebles,, con presencia global en más de 1200 tiendas, donde la honestidad e integridad son valores centrales de nuestra cultura, siempre comprometidos en ofrecer el mejor valor posible a nuestros clientes.<\/p><p>En estos tiempos de cambios en la industria, nos ubicamos del lado de ofrecer soluciones que faciliten este momento de compra en medio de la circunstancia.<\/p><p>Atentamente,<\/p><p><br\/><\/p><p>Cordialmente,<\/p><p><br\/><\/p><p>Pablo Sardi<\/p><p>Gerente General<\/p><p>Ashley Furniture<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UCtLzz",
+        "text_mRKTB9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +60,8 @@
     }
   },
   "order": [
+    "slideshow_PTV3UM",
+    "rich_text_87hrb8",
     "main"
   ]
 }
