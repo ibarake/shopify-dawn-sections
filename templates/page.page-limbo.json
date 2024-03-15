@@ -15,7 +15,7 @@
         "slide_rtnnkJ"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "small",
         "auto_rotate": false,
         "change_slides_speed": 6
