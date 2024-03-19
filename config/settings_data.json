@@ -202,7 +202,7 @@
             "type": "nav-menu",
             "settings": {
               "title": "Sofas",
-              "url": "shopify:\/\/collections\/sofas",
+              "url": "shopify:\/\/collections\/sofas-todos",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
