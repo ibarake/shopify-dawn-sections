@@ -165,6 +165,16 @@
               "image-promo-url": ""
             }
           },
+          "nav_menu_EjLDre": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Sofas",
+              "url": "shopify:\/\/collections\/sofas",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
             "type": "menu",
             "settings": {
@@ -217,11 +227,11 @@
               "image-promo-url": ""
             }
           },
-          "nav_menu_EjLDre": {
+          "nav_menu_dNkn69": {
             "type": "nav-menu",
             "settings": {
-              "title": "Sofas",
-              "url": "shopify:\/\/collections\/sofas",
+              "title": "comerdores",
+              "url": "shopify:\/\/collections\/cocina-y-comedor",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -230,13 +240,14 @@
         },
         "block_order": [
           "169412a7-c2d4-47d8-968c-0f32aee3b012",
+          "nav_menu_EjLDre",
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7",
           "f04b324e-b43b-4506-92ed-79ac3bca20c5",
           "d8102645-15e5-4527-9a78-717e61793ffd",
           "1c69075e-efb7-464d-8e2c-55a30d596df5",
           "nav_menu_rrmXjy",
           "nav_menu_8C6hWr",
-          "nav_menu_EjLDre"
+          "nav_menu_dNkn69"
         ],
         "settings": {
           "color_scheme": "background-1",
