@@ -218,6 +218,16 @@
               "image-promo-url": ""
             }
           },
+          "nav_menu_rHVEKR": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Reclinables",
+              "url": "shopify:\/\/collections\/sofas-reclinomaticos",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
           "nav_menu_dBEybV": {
             "type": "nav-menu",
             "settings": {
@@ -257,26 +267,6 @@
               "menu-promo": "",
               "image-promo-url": ""
             }
-          },
-          "nav_menu_QfWR7B": {
-            "type": "nav-menu",
-            "settings": {
-              "title": "modulares",
-              "url": "shopify:\/\/collections\/sofas-modulares",
-              "menu": "",
-              "menu-promo": "",
-              "image-promo-url": ""
-            }
-          },
-          "nav_menu_rHVEKR": {
-            "type": "nav-menu",
-            "settings": {
-              "title": "Reclinomáticos",
-              "url": "shopify:\/\/collections\/sofas-reclinomaticos",
-              "menu": "",
-              "menu-promo": "",
-              "image-promo-url": ""
-            }
           }
         },
         "block_order": [
@@ -287,12 +277,11 @@
           "1c69075e-efb7-464d-8e2c-55a30d596df5",
           "nav_menu_EjLDre",
           "nav_menu_dNkn69",
+          "nav_menu_rHVEKR",
           "nav_menu_dBEybV",
           "nav_menu_FEr3nj",
           "nav_menu_8C6hWr",
-          "nav_menu_rrmXjy",
-          "nav_menu_QfWR7B",
-          "nav_menu_rHVEKR"
+          "nav_menu_rrmXjy"
         ],
         "settings": {
           "color_scheme": "background-1",
