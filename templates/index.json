@@ -43,7 +43,7 @@
         "slide_X96znd"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "auto_rotate": true,
         "change_slides_speed": 5
