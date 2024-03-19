@@ -27,31 +27,31 @@
         "featured_collection_dxeFWt": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofas-3-puestos"
+            "collection": "sofas-reclinomaticos"
           }
         },
         "featured_collection_WUcAFh": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofas-2-puestos"
+            "collection": "sofas-reclinables-de-dos-plazas"
           }
         },
         "featured_collection_CVxqyD": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofa-cama"
+            "collection": "sofas-reclinables"
           }
         },
         "featured_collection_8hTwYY": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofas-modulares"
+            "collection": "asientos-electricos"
           }
         },
         "featured_collection_x4crwh": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sofas-reclinomaticos"
+            "collection": "sofas"
           }
         }
       },
