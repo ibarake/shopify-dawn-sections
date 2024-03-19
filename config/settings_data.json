@@ -267,6 +267,16 @@
               "menu-promo": "",
               "image-promo-url": ""
             }
+          },
+          "nav_menu_rHVEKR": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Reclinomáticos",
+              "url": "",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
           }
         },
         "block_order": [
@@ -281,7 +291,8 @@
           "nav_menu_FEr3nj",
           "nav_menu_8C6hWr",
           "nav_menu_rrmXjy",
-          "nav_menu_QfWR7B"
+          "nav_menu_QfWR7B",
+          "nav_menu_rHVEKR"
         ],
         "settings": {
           "color_scheme": "background-1",
