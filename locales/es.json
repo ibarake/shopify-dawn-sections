@@ -436,6 +436,9 @@
     "checkout": {
       "general": {
         "autocomplete_powered_by_google": " "
+      },
+      "contact": {
+        "company_label": "Cedúla"
       }
     },
     "links": {
