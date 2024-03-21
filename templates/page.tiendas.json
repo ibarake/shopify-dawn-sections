@@ -41,8 +41,44 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_6CybAc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LHRCj7": {
+          "type": "heading",
+          "settings": {
+            "heading": "¡Nuestros asesores te esperan!",
+            "heading_size": "h1"
+          }
+        },
+        "text_LKcqmm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ven y conoce a nuestro equipo de profesionales altamente capacitados, listos para brindarte el mejor servicio.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LHRCj7",
+        "text_LKcqmm"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Equipo.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
@@ -55,15 +91,6 @@
         "color_scheme": "background-1",
         "padding_top": 20,
         "padding_bottom": 0
-      }
-    },
-    "b4470a39-f2fc-4017-a147-66072f7a2e30": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "main": {
@@ -110,50 +137,13 @@
         "text-color": "#ffffff",
         "btn-color": "#363534"
       }
-    },
-    "image_with_text_6CybAc": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LHRCj7": {
-          "type": "heading",
-          "settings": {
-            "heading": "¡Nuestros asesores te esperan!",
-            "heading_size": "h1"
-          }
-        },
-        "text_LKcqmm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ven y conoce a nuestro equipo de profesionales altamente capacitados, listos para brindarte el mejor servicio.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LHRCj7",
-        "text_LKcqmm"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Equipo.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "74f89a8e-1019-440b-bb46-8f103d566b78",
+    "image_with_text_6CybAc",
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
-    "b4470a39-f2fc-4017-a147-66072f7a2e30",
     "main",
-    "777bc39f-f226-475d-9662-b4473acf5755",
-    "image_with_text_6CybAc"
+    "777bc39f-f226-475d-9662-b4473acf5755"
   ]
 }
