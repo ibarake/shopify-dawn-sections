@@ -19,9 +19,9 @@
   <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
     <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
     <div class="macro-section-4">
-      3{{ subcategoryGroup }}
-      1{{ subcolVal }}
-      2{{ collection.id }}
+      1:{{ subcategoryGroup }}
+      2:{{ subcolVal }}
+      3:{{ collection.id }}
       <div class="subcategories">
         {% assign limit = section.settings.numberSubcategories %}
         {% for col in subcategory.collections.values %}
