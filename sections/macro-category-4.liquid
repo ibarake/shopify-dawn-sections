@@ -24,8 +24,8 @@
     <div class="macro-section-4">
       <div class="subcategories">
         {% assign limit = section.settings.numberSubcategories %}
-        {{ subcategory.collections }}
-        {% for col in subcategory.collections %}
+        {% assign subcatcols = subcategory.collections.value %}
+        {% for col in subcatcols %}
           {{ col }}
           {% if col.id != collection.id %}
           {% if forloop.index <= limit %}
