@@ -27,7 +27,7 @@
             <div class="subcategory">
               <a href="{{ col.url }}">
                 <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
-                  <img src="{{ col.metafields.custom.koimage | image_url }}" alt="collection image">
+                  <img src="{{ col.featured_image | image_url }}" alt="collection image">
                 </div>
                 <p style="color: {{ section.settings.subColor }};">{{ col.title }}</p>
               </a>
