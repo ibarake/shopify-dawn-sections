@@ -4,10 +4,7 @@
   if template contains "collection"
     assign subcategoryGroup = shop.metaobjects.sub_category.values
     for sub in subcategoryGroup
-        assign subcols = sub.collections
-        for subcol in subcols
-          assign subcat = subcol
-        endfor
+        assign subcols = sub
     endfor
   else
     assign macrocategory = metaobject
