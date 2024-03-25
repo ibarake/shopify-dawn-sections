@@ -5,9 +5,7 @@
     assign subcategoryGroup = shop.metaobjects.sub_category.values
     for sub in subcategoryGroup
         for subcol in sub.collections
-          if subcol.id == collection.id
-            assign subcategory = subcol
-          endif
+            assign subcategory = subcol.id
         endfor
     endfor
   else
@@ -22,6 +20,7 @@
     <div class="macro-section-4">
       {{ subcategoryGroup }}
       {{ subcategory }}
+      {{ collection.id }}
       <div class="subcategories">
         {% assign limit = section.settings.numberSubcategories %}
         {% for col in subcategory.collections.values %}
