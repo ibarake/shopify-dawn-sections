@@ -55,7 +55,7 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "products_per_page": 25,
+        "products_per_page": 33,
         "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,
