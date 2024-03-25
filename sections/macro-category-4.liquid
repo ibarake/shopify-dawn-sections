@@ -21,16 +21,18 @@
     <div class="macro-section-4">
       <div class="subcategories">
         {% assign limit = section.settings.numberSubcategories %}
-        {% for collection in subcategory.collections.values %}
+        {% for col in subcategory.collections.values %}
+          {% if col != collection %}
           {% if forloop.index <= limit %}
             <div class="subcategory">
-              <a href="{{ collection.url }}">
+              <a href="{{ col.url }}">
                 <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
-                  <img src="{{ collection.metafields.custom.koimage | image_url }}" alt="collection image">
+                  <img src="{{ col.metafields.custom.koimage | image_url }}" alt="collection image">
                 </div>
-                <p style="color: {{ section.settings.subColor }};">{{ collection.title }}</p>
+                <p style="color: {{ section.settings.subColor }};">{{ col.title }}</p>
               </a>
             </div>
+          {% endif %}
           {% endif %}
         {% endfor %}
       </div>
