@@ -6,7 +6,9 @@
     for sub in subcategoryGroup
         assign subcols = sub.collections
         for subcol in subcols.value
-          assign subcolVal = subcol
+          if subcol.id == collection.id
+            assign col = subcol
+          endif
         endfor
     endfor
   else
@@ -20,7 +22,7 @@
     <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
     <div class="macro-section-4">
       1:{{ subcategoryGroup }}
-      2:{{ subcolVal }}
+      2:{{ col }}
       3:{{ collection.id }}
       <div class="subcategories">
         {% assign limit = section.settings.numberSubcategories %}
