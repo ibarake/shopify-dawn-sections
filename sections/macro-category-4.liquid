@@ -5,7 +5,7 @@
     assign subcategoryGroup = shop.metaobjects.sub_category.values
     for sub in subcategoryGroup
         assign subcols = sub.collections
-        for subcol in subcols.values
+        for subcol in subcols.value
           assign subcolVal = subcol
         endfor
     endfor
@@ -20,7 +20,7 @@
     <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
     <div class="macro-section-4">
       1:{{ subcategoryGroup }}
-      2:{{ subcols.value }}
+      2:{{ subcolVal }}
       3:{{ collection.id }}
       <div class="subcategories">
         {% assign limit = section.settings.numberSubcategories %}
