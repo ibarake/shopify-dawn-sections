@@ -4,7 +4,7 @@
   if template contains "collection"
     assign subcategoryGroup = shop.metaobjects.sub_category.values
     for sub in subcategoryGroup
-      if sub.collections contains collection
+      if sub.collections.values contains collection
         assign subcategory = sub
       endif
     endfor
@@ -19,8 +19,8 @@
   <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
     <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
     <div class="macro-section-4">
-      hola 1:{{ subcategoryGroup }}
-      hola 2:{{ subcategory }}
+      {{ subcategoryGroup }}
+      {{ subcategory }}
       <div class="subcategories">
         {% assign limit = section.settings.numberSubcategories %}
         {% for col in subcategory.collections.values %}
