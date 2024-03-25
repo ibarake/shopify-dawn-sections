@@ -252,9 +252,20 @@ slider-component.slider-component-full-width {
   background: rgba(var(--color-foreground), 0.04);
   border-radius: 0.4rem;
 }
+section#shopify-section-template--22395782824243__fb110c7a-4332-4d8d-b923-860cd019d091 .slider-counter,
+section#shopify-section-template--22395782824243__fb110c7a-4332-4d8d-b923-860cd019d091 .slideshow__autoplay.slider-button{
+  display: none;
+}
+
+section#shopify-section-template--22395782824243__fb110c7a-4332-4d8d-b923-860cd019d091 .slider-buttons {
+  gap: 5%;
+}
+
+section#shopify-section-template--22395782824243__fb110c7a-4332-4d8d-b923-860cd019d091 .banner:after {
+  display: none;
+} 
 
 .slider-counter {
-  display: flex;
   justify-content: center;
   min-width: 4.4rem;
 }

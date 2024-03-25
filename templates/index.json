@@ -27,11 +27,11 @@
             "link": "https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-bridson"
           }
         },
-        "slide_X96znd": {
+        "slide_PDAY6X": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.01.59_PM_2.jpg",
-            "image_r": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.02.00_PM_2.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.01.59_PM_2_f1c4fc59-e0e1-4d06-8c5a-1f790ca77cee.jpg",
+            "image_r": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.02.00_PM_2_cae3e46b-bd0f-47a8-8881-f87bcc0386db.jpg",
             "link": "https:\/\/ashleycolombia.com\/pages\/macro-categories\/exterior"
           }
         }
@@ -40,13 +40,16 @@
         "b5c9dd85-db88-4010-81c9-179d02e78bf1",
         "5ec119ba-7112-4f9e-8d82-4ca1f686f21c",
         "62ca52f1-39ee-4cdf-87a0-24873fa63789",
-        "slide_X96znd"
+        "slide_PDAY6X"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
+        "slider_visual": "counter",
         "auto_rotate": true,
-        "change_slides_speed": 5
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
