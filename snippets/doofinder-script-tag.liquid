@@ -1,0 +1,109 @@
+<script>
+  const dfLayerOptions = {
+    installationId: '192a778e-2134-417c-9c35-413218b1a4e6',
+    zone: 'us1'
+  };
+
+  
+/** START SHOPIFY ADD TO CART **/
+document.addEventListener('doofinder.cart.add', function(event) {
+
+  const product_endpoint = new URL(event.detail.link).pathname + '.js'
+
+  fetch(product_endpoint, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+    })
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      variant_id = get_variant_id(parseInt(event.detail.item_id), data)
+      if (variant_id) {
+        add_to_cart(variant_id, event.detail.amount)
+      } else {
+        window.location.href = event.detail.link
+      }
+    })
+    .catch((error) => {
+      console.error('Error:', error)
+    })
+
+  function get_variant_id(product_id, product_data) {
+    if (product_data.variants.length > 1) {
+      if (is_variant_id_in_list(product_id, product_data.variants)) {
+        return product_id
+      }
+      return false
+    } else {
+      return product_data.variants[0].id
+    }
+  }
+
+  function is_variant_id_in_list(variant_id, variant_list) {
+    let is_variant = false
+
+    variant_list.forEach(variant => {
+      if (variant.id === variant_id) {
+        is_variant = true
+      }
+    })
+
+    return is_variant
+  }
+
+  function add_to_cart(id, amount) {
+    let formData = {
+      'items': [{
+        'id': id,
+        'quantity': amount
+      }],
+      sections: "cart-items,cart-icon-bubble,cart-live-region-text,cart-footer"
+    }
+
+    const route = window.Shopify.routes.root ?
+      window.Shopify.routes.root + 'cart/add.js' :
+      window.Shopify.routes.cart_url + '/add.js' ;
+
+    fetch(route, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      })
+      .then(response => response.json())
+      .then(data => {renderSections(data.sections)})
+      .catch((error) => {
+        console.error('Error:', error)
+      });
+  }
+
+  function renderSections(sections){
+    for( section_id in sections ){
+      let section = document.querySelector("#"+section_id);
+      let section_html = sections[section_id];
+      if(section && section_html){
+        section.innerHTML = section_html;
+      }
+    }
+  }
+});
+/** END SHOPIFY ADD TO CART **/
+
+
+/** START SHOPIFY OPTIONS **/
+dfLayerOptions.language = "{{ shop.locale }}";
+/** END SHOPIFY OPTIONS **/
+
+
+
+  (function (l, a, y, e, r, s) {
+    r = l.createElement(a); r.onload = e; r.async = 1; r.src = y;
+    s = l.getElementsByTagName(a)[0]; s.parentNode.insertBefore(r, s);
+  })(document, 'script', 'https://cdn.doofinder.com/livelayer/1/js/loader.min.js', function () {
+    doofinderLoader.load(dfLayerOptions);
+  });
+</script>

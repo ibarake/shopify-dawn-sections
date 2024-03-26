@@ -1,28 +1,70 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 
-{% assign macrocategory = metaobject %}
-{% assign subcategories = macrocategory.subcategories %}
+{% liquid 
+  if template contains "collection"
+    assign subcategoryGroup = shop.metaobjects.sub_category.values
+    for sub in subcategoryGroup
+        assign subcols = sub.collections
+        for subcol in subcols.value
+          assign subcolid = subcol.id
+          if subcolid == collection.id
+            assign subcategory = sub
+          endif
+        endfor
+    endfor
+  else
+    assign macrocategory = metaobject
+    assign subcategories = macrocategory.subcategories
+  endif
+%}
 
-<div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
-  <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
-  <div class="macro-section-4">
-    <div class="subcategories">
-      {% assign limit = section.settings.numberSubcategories %}
-      {% for subcategory in subcategories.value %}
-        {% if forloop.index <= limit %}
-          <div class="subcategory">
-            <a href="{{ subcategory.system.url }}">
-              <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
-                <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
-              </div>
-              <p style="color: {{ section.settings.subColor }};">{{ subcategory.name }}</p>
-            </a>
-          </div>
-        {% endif %}
-      {% endfor %}
+{% if template contains "collection" %}
+  <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
+    <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
+    <div class="macro-section-4">
+      <div class="subcategories">
+        {% assign limit = section.settings.numberSubcategories %}
+        {% assign subcatcols = subcategory.collections.value %}
+        {% for col in subcatcols %}
+          {{ col }}
+          {% if col.id != collection.id %}
+          {% if forloop.index <= limit %}
+            <div class="subcategory">
+              <a href="{{ col.url }}">
+                <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
+                  <img src="{{ col.featured_image | image_url }}" alt="collection image">
+                </div>
+                <p style="color: {{ section.settings.subColor }};">{{ col.title }}</p>
+              </a>
+            </div>
+          {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
+{% else %}
+  <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
+    <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
+    <div class="macro-section-4">
+      <div class="subcategories">
+        {% assign limit = section.settings.numberSubcategories %}
+        {% for subcategory in subcategories.value %}
+          {% if forloop.index <= limit %}
+            <div class="subcategory">
+              <a href="{{ subcategory.system.url }}">
+                <div class="imagewrap" style="background-color:{{ section.settings.backgroundColor }};">
+                  <img src="{{ subcategory.koimage | image_url }}" alt="sub image">
+                </div>
+                <p style="color: {{ section.settings.subColor }};">{{ subcategory.name }}</p>
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
 
 {% schema %}
 {

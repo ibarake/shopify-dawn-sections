@@ -1,5 +1,16 @@
 {
   "sections": {
+    "macro_category_4_DCkpnn": {
+      "type": "macro-category-4",
+      "disabled": true,
+      "settings": {
+        "numberSubcategories": 8,
+        "titleColor": "#000000",
+        "subColor": "#000000",
+        "backgroundSectionColor": "#ffffff",
+        "backgroundColor": "#f2f2f2"
+      }
+    },
     "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e": {
       "type": "featured-collection",
       "disabled": true,
@@ -55,7 +66,7 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 33,
         "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -72,6 +83,7 @@
     }
   },
   "order": [
+    "macro_category_4_DCkpnn",
     "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e",
     "banner",
     "87c60f33-59d8-416a-8360-f7543630c187",

@@ -4,36 +4,40 @@
       {% if item.image %}
         {% assign matched_image = null %}
         {% for product_image in item.product.images %}
-          {% if product_image.alt == item.image.alt and product_image.id != item.image.id %}
+          {% if product_image.alt == item.image.alt %}
             {% assign matched_image = product_image %}
             {% break %}
           {% endif %}
         {% endfor %}
 
         {% if matched_image %}
-          {% comment %} Use matched_image URL instead of item.image URL {% endcomment %}
-          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
+          <a
+            href="{{ item.url }}"
+            class="cart-item__link"
+            tabindex="-1"
+            aria-hidden="true"></a>
           <img
             class="cart-item__image square-image"
-            src="{{ matched_image | image_url: width: 300 }}"
+            src="{{ matched_image | image_url: width: 150 }}"
             alt="{{ matched_image.alt | escape }}"
             loading="lazy"
             width="150"
-            height="150"
-          >
+            height="150">
         {% else %}
-          <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> </a>
+          <a
+            href="{{ item.url }}"
+            class="cart-item__link"
+            tabindex="-1"
+            aria-hidden="true"></a>
           <img
             class="cart-item__image square-image"
             src="{{ item.image | image_url: width: 300 }}"
             alt="{{ item.image.alt | escape }}"
             loading="lazy"
             width="150"
-            height="150"
-          >
+            height="150">
         {% endif %}
       {% endif %}
-
       <div>
         {%- if settings.show_vendor -%}
           <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
@@ -55,7 +59,10 @@
                 <dt>{{ property.first }}:</dt>
                 <dd>
                   {%- if property.last contains '/uploads/' -%}
-                    <a href="{{ property.last }}" class="link" target="_blank">
+                    <a
+                      href="{{ property.last }}"
+                      class="link"
+                      target="_blank">
                       {{ property.last | split: '/' | last }}
                     </a>
                   {%- else -%}

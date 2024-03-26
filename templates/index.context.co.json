@@ -1,8 +1,1 @@
-{
-  "parent": "index.json",
-  "context": {
-    "market": "co"
-  },
-  "sections": {
-  }
-}
+{"parent":"index.json","context":{"market":"co"},"sections":{}}
