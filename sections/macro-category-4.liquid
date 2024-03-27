@@ -26,7 +26,6 @@
         {% assign limit = section.settings.numberSubcategories %}
         {% assign subcatcols = subcategory.collections.value %}
         {% for col in subcatcols %}
-          {{ col }}
           {% if col.id != collection.id %}
           {% if forloop.index <= limit %}
             <div class="subcategory">

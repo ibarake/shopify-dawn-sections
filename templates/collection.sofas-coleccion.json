@@ -21,58 +21,14 @@
         "backgroundSaleColor": "#c60f2f"
       }
     },
-    "collection_list_cmt7CU": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_dxeFWt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-3-puestos"
-          }
-        },
-        "featured_collection_WUcAFh": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-2-puestos"
-          }
-        },
-        "featured_collection_CVxqyD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofa-cama"
-          }
-        },
-        "featured_collection_8hTwYY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sofas-modulares"
-          }
-        },
-        "featured_collection_x4crwh": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "reclinables-todos"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_dxeFWt",
-        "featured_collection_WUcAFh",
-        "featured_collection_CVxqyD",
-        "featured_collection_8hTwYY",
-        "featured_collection_x4crwh"
-      ],
+    "macro_category_4_HpdrFz": {
+      "type": "macro-category-4",
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "numberSubcategories": 8,
+        "titleColor": "#000000",
+        "subColor": "#000000",
+        "backgroundSectionColor": "#FFFFFF",
+        "backgroundColor": "#f2f2f2"
       }
     },
     "product-grid": {
@@ -100,7 +56,7 @@
   "order": [
     "banner",
     "87c60f33-59d8-416a-8360-f7543630c187",
-    "collection_list_cmt7CU",
+    "macro_category_4_HpdrFz",
     "product-grid"
   ]
 }

@@ -84,12 +84,6 @@
                     object-fit:contain;
                   }
                 </style>
-        
-        {{
-          settings.salebadge
-          | image_url: width: 300
-          | image_tag: width: '120px', class: 'salebadge', alt: 'tag de oferta'
-        }}
         {{ money_price }}
       </span>
           {%- endif -%}
