@@ -90,31 +90,16 @@
 {% assign family_products = '' %}
 
 {% paginate collections.all.products by 1000 %}
-  {% for product in collections.all.products %}
-    {% for tag in product.tags %}
-      {% if tag contains 'familia:' %}
-      {% endif %}
-      {% if tag contains family_tag %}
-        {% assign family_products = family_products | append: product | append: ", " %}
+  {% for prod in collections.all.products %}
+    {% for tag in prod.tags %}
+      {% if tag contains family_tag and prod.id != product.id %}
+        {% assign family_products = family_products | append: prod.handle | append: ',' %}
       {% endif %}
     {% endfor %}
   {% endfor %}
 {% endpaginate %}
 
-{% assign family_products = family_products | split: ", " %}
-{% for prod in family_products %}
-  {{ prod }}
-{% endfor %}
-
-{% for collection_product in collections.all.products %}
-  {% if collection_product.metafields.custom.nombre_de_serie == serie_value %}
-    {% unless products_with_same_serie contains collection_product %}
-      {% assign products_with_same_serie = products_with_same_serie | append: collection_product | split: ',' %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
-
-{% assign first_collection = products_with_same_serie %}
+{% assign family_products = family_products | split: "," %}
 
 {%- liquid
   assign products_to_display = first_collection.all_products_count
@@ -135,105 +120,105 @@
     assign show_desktop_slider = true
   endif
 -%}
-
-<div class="color-{{ section.settings.color_scheme }} isolate gradient">
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
-    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
-      <div>{{ family_products }}</div>
-      {%- if section.settings.title != blank -%}
-        <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }} {{ family_name }}</h2>
-      {%- endif -%}
-      {%- if section.settings.description != blank
+{% if family_name != '' %}
+  <div class="color-{{ section.settings.color_scheme }} isolate gradient">
+    <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
+      <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+        {%- if section.settings.title != blank -%}
+          <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }} {{ family_name }}</h2>
+        {%- endif -%}
+        {%- if section.settings.description != blank
  or section.settings.show_description
  and first_collection.description != empty
-      -%}
-        <div class="collection__description {{ section.settings.description_style }}">
-          {%- if section.settings.show_description -%}
-            {{ first_collection.description }}
+        -%}
+          <div class="collection__description {{ section.settings.description_style }}">
+            {%- if section.settings.show_description -%}
+              {{ first_collection.description }}
+            {%- else -%}
+              {{ section.settings.description -}}
+            {%- endif %}
+          </div>
+        {%- endif -%}
+      </div>
+
+      <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}">
+        <ul
+          id="Slider-{{ section.id }}"
+          class="grid product-grid contains-card contains-card--product{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop{% if first_collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %}"
+          role="list"
+          aria-label="{{ 'general.slider.name' | t }}">
+          {%- for family_handle in family_products limit: section.settings.products_to_show -%}
+            {% assign prod = all_products[family_handle] %}
+            <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
+              {% render 'card-product'
+                ,
+ card_product: prod
+                ,
+ media_aspect_ratio: section.settings.image_ratio
+                ,
+ show_secondary_image: section.settings.show_secondary_image
+                ,
+ show_vendor: section.settings.show_vendor
+                ,
+ show_rating: section.settings.show_rating
+                ,
+ show_quick_add: section.settings.enable_quick_add
+                ,
+ section_id: section.id
+              %}
+            </li>
           {%- else -%}
-            {{ section.settings.description -}}
-          {%- endif %}
+            {%- for i in (1..4) -%}
+              <li class="grid__item">
+                {% render 'card-product'
+                  , show_vendor: section.settings.show_vendor %}
+              </li>
+            {%- endfor -%}
+          {%- endfor -%}
+        </ul>
+        {%- if show_mobile_slider or show_desktop_slider -%}
+          <div class="slider-buttons no-js-hidden">
+            <button
+              type="button"
+              class="slider-button slider-button--prev"
+              name="previous"
+              aria-label="{{ 'general.slider.previous_slide' | t }}"
+              aria-controls="Slider-{{ section.id }}">
+              {% render 'icon-caret' %}
+            </button>
+            <div class="slider-counter caption">
+              <span class="slider-counter--current">1</span>
+              <span aria-hidden="true">
+                /
+              </span>
+              <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+              <span class="slider-counter--total">{{ products_to_display }}</span>
+            </div>
+            <button
+              type="button"
+              class="slider-button slider-button--next"
+              name="next"
+              aria-label="{{ 'general.slider.next_slide' | t }}"
+              aria-controls="Slider-{{ section.id }}">
+              {% render 'icon-caret' %}
+            </button>
+          </div>
+        {%- endif -%}
+      </slider-component>
+
+      {%- if section.settings.show_view_all -%}
+        <div class="center collection__view-all">
+          <a
+            href="https://ashleycolombia.com/collections/all/familia:{{ family_name }}"
+            class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
+            aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: first_collection.title }}">
+            {{ 'sections.featured_collection.view_all' | t }}
+          </a>
         </div>
       {%- endif -%}
     </div>
-
-    <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}">
-      <ul
-        id="Slider-{{ section.id }}"
-        class="grid product-grid contains-card contains-card--product{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop{% if first_collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %}"
-        role="list"
-        aria-label="{{ 'general.slider.name' | t }}">
-        {%- for product in first_collection.products limit: section.settings.products_to_show -%}
-          <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
-            {% render 'card-product'
-              ,
- card_product: product
-              ,
- media_aspect_ratio: section.settings.image_ratio
-              ,
- show_secondary_image: section.settings.show_secondary_image
-              ,
- show_vendor: section.settings.show_vendor
-              ,
- show_rating: section.settings.show_rating
-              ,
- show_quick_add: section.settings.enable_quick_add
-              ,
- section_id: section.id
-            %}
-          </li>
-        {%- else -%}
-          {%- for i in (1..4) -%}
-            <li class="grid__item">
-              {% render 'card-product'
-                , show_vendor: section.settings.show_vendor %}
-            </li>
-          {%- endfor -%}
-        {%- endfor -%}
-      </ul>
-      {%- if show_mobile_slider or show_desktop_slider -%}
-        <div class="slider-buttons no-js-hidden">
-          <button
-            type="button"
-            class="slider-button slider-button--prev"
-            name="previous"
-            aria-label="{{ 'general.slider.previous_slide' | t }}"
-            aria-controls="Slider-{{ section.id }}">
-            {% render 'icon-caret' %}
-          </button>
-          <div class="slider-counter caption">
-            <span class="slider-counter--current">1</span>
-            <span aria-hidden="true">
-              /
-            </span>
-            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-            <span class="slider-counter--total">{{ products_to_display }}</span>
-          </div>
-          <button
-            type="button"
-            class="slider-button slider-button--next"
-            name="next"
-            aria-label="{{ 'general.slider.next_slide' | t }}"
-            aria-controls="Slider-{{ section.id }}">
-            {% render 'icon-caret' %}
-          </button>
-        </div>
-      {%- endif -%}
-    </slider-component>
-
-    {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="center collection__view-all">
-        <a
-          href="{{ first_collection.url }}"
-          class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
-          aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: first_collection.title }}">
-          {{ 'sections.featured_collection.view_all' | t }}
-        </a>
-      </div>
-    {%- endif -%}
   </div>
-</div>
-
+{% endif %}
 {% schema %}
   {
     "name": "Family products",
