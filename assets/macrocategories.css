@@ -239,6 +239,7 @@ p.collection-title {
 }
 .subcategory {
   min-width: 150px;
+  width: 150px;
   margin: 10px;
 }
 .subcategory p {
