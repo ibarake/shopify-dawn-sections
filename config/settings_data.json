@@ -25,7 +25,7 @@
     "type_body_font": "open_sans_n4",
     "body_scale": 100,
     "borrartachado": false,
-    "page_width": 88,
+    "page_width": 79,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 4,
     "spacing_grid_vertical": 4,
@@ -61,7 +61,7 @@
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
-    "collection_card_style": "standard",
+    "collection_card_style": "card",
     "collection_card_image_padding": 0,
     "collection_card_text_alignment": "left",
     "collection_card_color_scheme": "background-1",
@@ -175,6 +175,7 @@
           },
           "f04b324e-b43b-4506-92ed-79ac3bca20c5": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "macro-id": 1,
               "menu-promo": "",
@@ -197,11 +198,51 @@
               "image-promo-url": ""
             }
           },
-          "nav_menu_rrmXjy": {
+          "nav_menu_EjLDre": {
             "type": "nav-menu",
             "settings": {
-              "title": "Blog",
-              "url": "shopify:\/\/blogs\/news",
+              "title": "Sofas",
+              "url": "shopify:\/\/collections\/sofas-todos",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "nav_menu_dNkn69": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Comedores",
+              "url": "shopify:\/\/collections\/cocina-y-comedor",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "nav_menu_rHVEKR": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Reclinables",
+              "url": "shopify:\/\/collections\/sofas-reclinomaticos",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "nav_menu_dBEybV": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Sofa Cama",
+              "url": "shopify:\/\/collections\/sofa-cama",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "nav_menu_FEr3nj": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "poltronas",
+              "url": "shopify:\/\/collections\/sillas-para-sala-y-habitacion",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -216,6 +257,16 @@
               "menu-promo": "",
               "image-promo-url": ""
             }
+          },
+          "nav_menu_rrmXjy": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Blog",
+              "url": "shopify:\/\/blogs\/news",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
           }
         },
         "block_order": [
@@ -224,8 +275,13 @@
           "f04b324e-b43b-4506-92ed-79ac3bca20c5",
           "d8102645-15e5-4527-9a78-717e61793ffd",
           "1c69075e-efb7-464d-8e2c-55a30d596df5",
-          "nav_menu_rrmXjy",
-          "nav_menu_8C6hWr"
+          "nav_menu_EjLDre",
+          "nav_menu_dNkn69",
+          "nav_menu_rHVEKR",
+          "nav_menu_dBEybV",
+          "nav_menu_FEr3nj",
+          "nav_menu_8C6hWr",
+          "nav_menu_rrmXjy"
         ],
         "settings": {
           "color_scheme": "background-1",
@@ -280,7 +336,8 @@
           "h2.footer-block__heading.phone.sec {display: none;}",
           ".footer-block--newsletter {margin-left: 0%;}",
           ".footer-logo-right {margin-left: 0%;}",
-          "@media (max-width: 768px) {.footer-block--newsletter {margin-left: 0; }}"
+          "@media (max-width: 768px) {.footer-block--newsletter {margin-left: 0; }}",
+          "@media (min-width: 768px) and (max-width: 1024px) {.footer-logo-right {margin-left: 26%; }}"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/AFHS_INT_Logo_Horizontal_3.png",

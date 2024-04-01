@@ -6,41 +6,33 @@
         "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Johnelle-Enero-4.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-johnelle-4.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.01.59_PM.jpg",
+            "image_r": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.01.59_PM_1.jpg",
             "link": "https:\/\/ashleycolombia.com\/search?q=johnelle&options%5Bprefix%5D=last"
           }
         },
         "5ec119ba-7112-4f9e-8d82-4ca1f686f21c": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Langford-Enero-3.jpg",
+            "image": "shopify:\/\/shop_images\/Banner_limbo.png",
             "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Langford-3.jpg",
-            "link": ""
+            "link": "https:\/\/ashleycolombia.com\/pages\/limbo"
           }
         },
         "62ca52f1-39ee-4cdf-87a0-24873fa63789": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-Coviar_2.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-Coviar-2.jpg",
-            "link": "https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-y-sillas-con-banco-juego-de-6-coviar?_pos=1&_sid=169ef7ff9&_ss=r"
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-18_at_3.53.18_PM.jpg",
+            "image_r": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.02.00_PM_e6531210-3625-47ad-b655-cc817d568174.jpg",
+            "link": "https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-bridson"
           }
         },
-        "cdc10851-f41e-4f44-8ab3-0f5a6274924c": {
+        "slide_X96znd": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-Cierre-5.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-Comedores-cierre-ASHLEY.jpg",
-            "link": ""
-          }
-        },
-        "86185acb-c6be-4925-9cc0-e354eb02b1e7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-comedores-Enero-1.jpg",
-            "image_r": "shopify:\/\/shop_images\/banner-comedores-mobile-enero-1.jpg",
-            "link": "https:\/\/ashleycolombia.com\/collections\/cocina-y-comedor"
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.01.59_PM_2.jpg",
+            "image_r": "shopify:\/\/shop_images\/WhatsApp_Image_2024-03-19_at_3.02.00_PM_2.jpg",
+            "link": "https:\/\/ashleycolombia.com\/pages\/macro-categories\/exterior"
           }
         }
       },
@@ -48,14 +40,13 @@
         "b5c9dd85-db88-4010-81c9-179d02e78bf1",
         "5ec119ba-7112-4f9e-8d82-4ca1f686f21c",
         "62ca52f1-39ee-4cdf-87a0-24873fa63789",
-        "cdc10851-f41e-4f44-8ab3-0f5a6274924c",
-        "86185acb-c6be-4925-9cc0-e354eb02b1e7"
+        "slide_X96znd"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
+        "auto_rotate": true,
+        "change_slides_speed": 5
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
@@ -87,6 +78,32 @@
             "poc-4": "Poltronas",
             "poc-5": "Mesas de Centro",
             "poc-6": "Mesas Auxiliares"
+          }
+        },
+        "collection_TCPqU7": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "",
+            "title-alignment": "flex-start",
+            "collection-title": "reclinables",
+            "collection": "asientos-electricos",
+            "button-title": "Todos los Reclinables",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "sofas-reclinomaticos",
+              "sofas-reclinables",
+              "cojines-para-interior-y-exterior",
+              "alfombras-1"
+            ],
+            "poc-1": "Sofas Reclinables",
+            "poc-2": "Sillas Reclinables",
+            "poc-3": "Cojines Decorativos",
+            "poc-4": "Alfombras",
+            "poc-5": "",
+            "poc-6": "Product 6 text"
           }
         },
         "f2a12ca4-b64f-4515-a892-93248634a1d3": {
@@ -144,39 +161,13 @@
             "poc-5": "Lámparas",
             "poc-6": "Mantas"
           }
-        },
-        "collection_TCPqU7": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "",
-            "title-alignment": "flex-start",
-            "collection-title": "reclinables",
-            "collection": "asientos-electricos",
-            "button-title": "Todos los Reclinables",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "sofas-reclinomaticos",
-              "sofas-reclinables",
-              "cojines-para-interior-y-exterior",
-              "alfombras-1"
-            ],
-            "poc-1": "Sofas Reclinables",
-            "poc-2": "Sillas Reclinables",
-            "poc-3": "Cojines Decorativos",
-            "poc-4": "Alfombras",
-            "poc-5": "",
-            "poc-6": "Product 6 text"
-          }
         }
       },
       "block_order": [
         "4ff3c85c-5a4d-46bc-acb2-e5a2fafc0f14",
+        "collection_TCPqU7",
         "f2a12ca4-b64f-4515-a892-93248634a1d3",
-        "b61a3fc5-bc64-42f0-a445-205351259d9a",
-        "collection_TCPqU7"
+        "b61a3fc5-bc64-42f0-a445-205351259d9a"
       ],
       "custom_css": [
         "@media only screen and (max-width: 768px) {.product-image {width: 120px; }}",

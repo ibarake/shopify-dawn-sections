@@ -13,7 +13,7 @@
     </script>
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
@@ -68,7 +68,7 @@
         	width:60px;
         	height:60px;
         	bottom:40px;
-        	left:40px;
+        	right:40px;
         	background-color:#25d366;
         	color:#FFF;
         	border-radius:50px;
@@ -407,7 +407,7 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  </head>
+  <!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY--></head>
 
   <body class="gradient">
     <!-- Google Tag Manager (noscript) -->
@@ -444,23 +444,6 @@
     </ul>
 
     <script>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -488,7 +471,74 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
     </script>
-
+    <!-- Código para la card del producto -->
+    {% style %}
+      .card__information .full-unstyled-link {
+          font-size: 1.2em;
+      }
+      .variant-image-pill:hover {
+        opacity: 0.8; 
+      }
+      .variant-label {
+        z-index: 2;
+        display: inline-block;
+        width: 40px; 
+        height: 40px;
+        border-radius: 50%; 
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+      }
+      .variant-label:hover {
+        opacity: 0.8; 
+      }
+      .variants {
+        display: flex;
+        gap: 10px;
+        padding: 5px 0;
+        border: none;
+      }
+    {% endstyle %}    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll('.variant-input').forEach(function(input) {
+        input.addEventListener('change', function(e) {
+          // Obtiene la URL de la imagen de la variante seleccionada
+          const imageUrl = e.target.getAttribute('data-variant-image-url');
+          const image2Url = e.target.getAttribute('data-image-2-url');
+          // Encuentra el contenedor más cercano de la tarjeta del producto
+          const cardWrapper = e.target.closest('.product-card-wrapper');
+          
+          if (cardWrapper) {
+            // Selecciona la primera imagen dentro del contenedor de la tarjeta
+            const primaryImage = cardWrapper.querySelector('.card__media img:first-child');
+            const secondImage = cardWrapper.querySelector('.card__media img.second-image'); 
+            if (primaryImage) {
+              // Actualiza la primera imagen (imagen principal) con la de la variante seleccionada
+              primaryImage.src = imageUrl;
+              primaryImage.srcset = imageUrl + ' 1x';
+            }
+            if (secondImage) {
+              //Actualiza la segunda imagen
+              secondImage.src = image2Url;
+              secondImage.srcset = image2Url + ' 1x';
+            }
+            // Actualiza el valor del input oculto para el ID de la variante seleccionada
+            const variantId = e.target.value;
+            const form = cardWrapper.querySelector('form'); // Asegúrate de que este selector corresponda a tu formulario de añadir al carrito
+            if (form) {
+              const inputVariantId = form.querySelector('input[name="id"]');
+              if (inputVariantId) {
+                inputVariantId.value = variantId;
+              }
+            }
+          }
+        });
+      });
+    });
+    </script>
+    <!-------------------------------------->
+    
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
@@ -504,118 +554,6 @@
       </script>
     -->
     {{ 'tiny-img-link-preloader.js' | asset_url | script_tag }}
-    {% if template contains 'product' %}
-      <div class="static-atc">
-        <form action="/cart/add" method="post" enctype="multipart/form-data">
-          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-          <div style="width: 150px; height: 80%; display: flex; justify-content: flex-end;">
-            {{
-              product.featured_media
-              | image_url: width: 1946
-              | image_tag:
-                loading: lazy,
-                sizes: sizes,
-                widths: '300',
-                alt: product.featured_media.alt,
-                class: 'sticky-bar-image'
-              | escape
-            }}
-          </div>
-          <div class="bar-title-s">
-            <p
-              class="h3 bar-title-sticky"
-            >
-              {{ product.title }}
-            </p>
-            <p class="sticky-sku" style="margin: 0;">item: {{ product.selected_or_first_available_variant.sku }}</p>
-          </div>
-          <div class="wishlist-custom"></div>
-          <!-- Add to Cart Button -->
-          <input
-            type="submit"
-            value="Add to Cart"
-            class="product-form__submit button button--full-width button--primary"
-            style="width: 120px; margin-bottom: 0px;"
-          >
-
-          <!-- Quantity Selector -->
-          <div>
-            <quantity-input class="quantity">
-              <button class="quantity__button no-js-hidden" name="minus" type="button">
-                <span class="visually-hidden">
-                  {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
-                </span>
-                {% render 'icon-minus' %}
-              </button>
-              <input
-                class="quantity__input"
-                type="number"
-                name="quantity"
-                id="Quantity-{{ section.id }}"
-                min="1"
-                value="1"
-                form="{{ product_form_id }}"
-              >
-              <button class="quantity__button no-js-hidden" name="plus" type="button">
-                <span class="visually-hidden">
-                  {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
-                </span>
-                {% render 'icon-plus' %}
-              </button>
-            </quantity-input>
-          </div>
-          <!-- Price Placeholder -->
-          <div
-            class="price"
-          >
-            <p style="margin: 0px;">Subtotal:</p>
-            {%- render 'price-2',
-              product: product,
-              use_variant: true,
-              show_badges: true,
-              price_class: 'price--large'
-            -%}
-            <!-- Replace with dynamic price if needed -->
-          </div>
-        </form>
-      </div>
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          var headerSticky = document.querySelector('header');
-          var productFormButtons = document.querySelector('.product-form__buttons');
-          var staticAtc = document.querySelector('.static-atc');
-
-          function isElementInViewport(el) {
-            var rect = el.getBoundingClientRect();
-            return (
-              rect.top >= 0 &&
-              rect.left >= 0 &&
-              rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-              rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-          }
-
-          function checkVisibility() {
-            if (!isElementInViewport(productFormButtons) && !isElementInViewport(headerSticky)) {
-              staticAtc.style.zIndex = '9999';
-              staticAtc.classList.add('visible');
-            } else {
-              staticAtc.classList.remove('visible');
-              setTimeout(() => staticAtc.style.zIndex = '-1', 300)
-            }
-          }
-
-          // Check on scroll and resize
-          window.addEventListener('DOMContentLoaded', checkVisibility);
-          window.addEventListener('scroll', checkVisibility);
-          window.addEventListener('resize', checkVisibility);
-
-          // Initial check
-          checkVisibility();
-        });
-      </script>
-    {% endif %}
-
     {% if settings.show_whatsapp %}
       <a
         href="https://api.whatsapp.com/send?phone={{ settings.whatsapp_phone }}&text={% if settings.include_product %}{% if template contains 'product' %}{{ settings.whatsapp_message_product_1 | url_encode }}%0A{{ product.title | url_encode }}%0A{{ settings.whatsapp_message_product_2 | url_encode }}{% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}{% else %}{{ settings.whatsapp_message | url_encode }}{% endif %}"
@@ -627,5 +565,36 @@
         </svg>
       </a>
     {% endif %}
+        <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var variantRadios = document.querySelectorAll('input[type="radio"]');
+    function updateVariantDetails(event) {
+        var selectedRadio = event.target;
+        var newSku = selectedRadio.getAttribute('data-sku');
+        var newImage = selectedRadio.getAttribute('data-img');
+        var newAlt = selectedRadio.getAttribute('value');
+        var baseURL = 'https://ashleycolombia.com/cdn/shop/'; 
+
+        // Actualizar SKU
+        var skuElement = document.querySelector('.sticky-sku');
+        if (skuElement) {
+          skuElement.textContent = "item: " + newSku;
+        }
+
+        // Actualizar imagen
+        var imageElement = document.querySelector('.sticky-bar-image');
+        if (imageElement && newImage) {
+          var fullPath = new URL(newImage, baseURL).href;
+          imageElement.src = fullPath;
+          imageElement.srcset = fullPath;
+          imageElement.alt = newAlt;
+        }
+    }
+    variantRadios.forEach(function(radio) {
+        radio.addEventListener('change', updateVariantDetails);
+    });
+});
+    </script>
+    <script data-name="shopifyAddiWidget" data-id="ashley-ecommerce" data-ally-slug="ashley-ecommerce" data-element-reference=".price.price--large.price--show-badge" src="https://statics.addi.com/shopify/js/shopify-co-widget-wrapper.bundle.min.js"></script>
   </body>
 </html>

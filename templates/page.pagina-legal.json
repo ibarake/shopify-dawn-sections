@@ -1,19 +1,25 @@
 {
   "sections": {
-    "345d5939-db3f-4587-8cd8-6aabbf95df83": {
-      "type": "image-banner",
+    "slideshow_9ggkCF": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_kgeWRX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/P750-838-Paradise-Trail-DIM.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_kgeWRX"
+      ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Only_Photo_-_Legal_-_Banner_-_Ashley_-_jan_11_2023_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
       }
     },
     "main": {
@@ -25,7 +31,7 @@
     }
   },
   "order": [
-    "345d5939-db3f-4587-8cd8-6aabbf95df83",
+    "slideshow_9ggkCF",
     "main"
   ]
 }
