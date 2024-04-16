@@ -398,7 +398,7 @@
                       </title-details>
                       <answer-details>
                         {%- assign current_variant = product.selected_or_first_available_variant -%}
-                        <span>Item: {{ current_variant.sku }}</span>
+                        <span>Item: <span id="variant-sku">{{ current_variant.sku }}</span></span>
                         <p style="font-weight:bold; margin:0; ">Descripción</p>
                         {{ product.description }}
                       </answer-details>
@@ -1560,6 +1560,16 @@
         if (variantElement) {
             variantElement.handleVariantChange();
         }
+    });
+  </script>
+  <script>
+    var radioButtons = document.querySelectorAll('.js.product-form__input input[type="radio"]');
+    radioButtons.forEach(function(radioButton) {
+      radioButton?.addEventListener('change', function() {
+        var selectedVariantId = this.dataset.sku;
+        var skuSpan = document.getElementById('variant-sku');
+        skuSpan.innerHTML = selectedVariantId
+      });
     });
   </script>
 

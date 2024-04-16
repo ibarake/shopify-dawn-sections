@@ -121,7 +121,7 @@
       <div class="card__content">
         <div class="card__information">
           <div class="variant-images">
-            <fieldset class="variants">
+            <fieldset class="variants" style="display:flex; flex-wrap: wrap;">
               {%- for variant in card_product.variants -%}
                 {% if variant.image %}
                   {% assign variant_images = card_product.images | where: "alt", variant.title %}

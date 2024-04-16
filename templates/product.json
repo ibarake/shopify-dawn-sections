@@ -141,6 +141,33 @@
         "padding_bottom": 36
       }
     },
+    "product_family_48pWwB": {
+      "type": "product-family",
+      "settings": {
+        "title": "Productos",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product_collection_BfNqAq": {
       "type": "product-collection",
       "settings": {
@@ -240,6 +267,7 @@
   "order": [
     "main",
     "multicolumn",
+    "product_family_48pWwB",
     "product_collection_BfNqAq",
     "product-recommendations",
     "1019d179-9363-4397-bb86-e5190b6615ac",
