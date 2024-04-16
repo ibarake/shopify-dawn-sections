@@ -60,24 +60,24 @@
         "backgroundSaleColor": "#c60f2f"
       }
     },
-    "image_banner_pHrEGE": {
+    "image_banner_kBmDMV": {
       "type": "image-banner",
       "blocks": {
-        "heading_UA9w4H": {
+        "heading_NenHK6": {
           "type": "heading",
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "text_aJmeV4": {
+        "text_8JVhkH": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "buttons_f7yidb": {
+        "buttons_d3YKmC": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
@@ -90,9 +90,9 @@
         }
       },
       "block_order": [
-        "heading_UA9w4H",
-        "text_aJmeV4",
-        "buttons_f7yidb"
+        "heading_NenHK6",
+        "text_8JVhkH",
+        "buttons_d3YKmC"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-04-16_at_12.52.04_3.jpg",
@@ -135,7 +135,7 @@
     "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e",
     "banner",
     "87c60f33-59d8-416a-8360-f7543630c187",
-    "image_banner_pHrEGE",
+    "image_banner_kBmDMV",
     "product-grid"
   ]
 }
