@@ -146,10 +146,20 @@
               "color_scheme": "accent-1",
               "link": "https:\/\/www.instagram.com\/ashleycolombia.oficial\/"
             }
+          },
+          "announcement_8EGc8k": {
+            "type": "announcement",
+            "settings": {
+              "text": "Bienvenidos a Ashley Furniture Homestore, Colombia",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "announcement_8EGc8k"
         ],
         "settings": {
         }
