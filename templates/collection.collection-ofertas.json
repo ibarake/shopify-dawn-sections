@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "macro_category_4_DCkpnn": {
+      "type": "macro-category-4",
+      "disabled": true,
+      "settings": {
+        "numberSubcategories": 8,
+        "titleColor": "#000000",
+        "subColor": "#000000",
+        "backgroundSectionColor": "#ffffff",
+        "backgroundColor": "#f2f2f2"
+      }
+    },
+    "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "jarrones-y-botellas",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "87c60f33-59d8-416a-8360-f7543630c187": {
+      "type": "macro-category-1",
+      "disabled": true,
+      "settings": {
+        "colnum": 3,
+        "titleAndSubtitleColor": "#393731",
+        "titleAndSubtitleColor1": "#ffffff",
+        "saleTextColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
+        "backgroundSaleColor": "#c60f2f"
+      }
+    },
+    "image_banner_kBmDMV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NenHK6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_8JVhkH": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_d3YKmC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NenHK6",
+        "text_8JVhkH",
+        "buttons_d3YKmC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-04-16_at_12.52.04_3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "products_per_page": 33,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "macro_category_4_DCkpnn",
+    "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e",
+    "banner",
+    "87c60f33-59d8-416a-8360-f7543630c187",
+    "image_banner_kBmDMV",
+    "product-grid"
+  ]
+}
