@@ -96,7 +96,7 @@
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
       <span class="price-item price-item--last">
         <span>{{- product.selected_or_first_available_variant.unit_price | money -}}</span>
-        <span>/</span>
+        <span aria-hidden="true">/</span>
         <span class="visually-hidden">&nbsp;{{ 'accessibility.unit_price_separator' | t }}&nbsp;</span>
         <span>
           {%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 -%}
