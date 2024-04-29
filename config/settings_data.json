@@ -512,7 +512,7 @@
           "button_icon": "chat_bubble",
           "button_text": "live_chat",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
+          "button_vertical_position": "highest",
           "greeting_message": ""
         }
       }
