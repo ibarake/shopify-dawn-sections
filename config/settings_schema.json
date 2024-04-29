@@ -16,14 +16,14 @@
         "options": [
           {
             "label": "Left",
-            "value": "Left"
+            "value": "left"
           },
           {
             "label": "Right",
-            "value": "Right"
+            "value": "right"
           }
         ],
-        "default": "Left"
+        "default": "left"
       },
       {
         "type": "checkbox",
