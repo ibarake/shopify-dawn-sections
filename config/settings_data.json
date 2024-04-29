@@ -506,11 +506,11 @@
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
-          "button_color": "#f68c2c",
-          "secondary_color": "#ffffff",
+          "button_color": "#121212",
+          "secondary_color": "#f68c2c",
           "ternary_color": "#363534",
           "button_icon": "chat_bubble",
-          "button_text": "chat_with_us",
+          "button_text": "live_chat",
           "button_horizontal_position": "bottom_left",
           "button_vertical_position": "lowest",
           "greeting_message": ""
