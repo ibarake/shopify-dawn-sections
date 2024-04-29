@@ -1,6 +1,5 @@
 {
   "current": {
-    "wapp_side": "left",
     "show_whatsapp": true,
     "include_product": true,
     "whatsapp_phone": "+573007331806",
@@ -512,7 +511,7 @@
           "ternary_color": "#363534",
           "button_icon": "chat_bubble",
           "button_text": "live_chat",
-          "button_horizontal_position": "bottom_left",
+          "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
