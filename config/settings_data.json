@@ -1,5 +1,6 @@
 {
   "current": {
+    "wapp_side": "left",
     "show_whatsapp": true,
     "include_product": true,
     "whatsapp_phone": "+573007331806",
