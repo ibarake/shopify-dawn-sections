@@ -11,6 +11,21 @@
     "name": "Whatsapp",
     "settings": [
       {
+        "type": "select",
+        "id": "wapp_side",
+        "options": [
+          {
+            "label": "Left",
+            "value": "Left"
+          },
+          {
+            "label": "Right",
+            "value": "Right"
+          }
+        ],
+        "default": "Left"
+      },
+      {
         "type": "checkbox",
         "id": "show_whatsapp",
         "label": "Show whatsapp floating button",
