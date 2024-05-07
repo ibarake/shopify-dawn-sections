@@ -487,12 +487,6 @@
           "greeting_message": ""
         }
       },
-      "8208493610395315515": {
-        "type": "shopify:\/\/apps\/dondy-whatsapp-chat-marketing\/blocks\/app-block\/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "13768625480086291342": {
         "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
@@ -508,6 +502,12 @@
       "8813254906777318544": {
         "type": "shopify:\/\/apps\/kaktus-advanced-wishlist\/blocks\/app-embeded\/21053a4c-1902-4720-aab8-ebfc69de009a",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "8208493610395315515": {
+        "type": "shopify:\/\/apps\/dondy-whatsapp-chat-marketing\/blocks\/app-block\/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
+        "disabled": true,
         "settings": {
         }
       }
