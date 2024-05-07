@@ -137,16 +137,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "Síguenos en Instagram  @ashleycolombia.oficial",
-              "text_alignment": "center",
-              "color_scheme": "accent-1",
-              "link": "https:\/\/www.instagram.com\/ashleycolombia.oficial\/"
-            }
-          },
           "announcement_8EGc8k": {
             "type": "announcement",
             "settings": {
@@ -158,7 +148,6 @@
           }
         },
         "block_order": [
-          "announcement-bar-0",
           "announcement_8EGc8k"
         ],
         "settings": {
