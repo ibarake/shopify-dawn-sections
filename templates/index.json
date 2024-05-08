@@ -46,8 +46,9 @@
         "column_fwPRH9": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/servicio-de-calidad.png",
             "title": "Garantía",
-            "text": "",
+            "text": "<p>Dos (2) años a partir de la fecha de entrega<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -90,8 +91,8 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
+        "image_width": "half",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
