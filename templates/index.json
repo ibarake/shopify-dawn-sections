@@ -66,6 +66,7 @@
         "column_MNbye8": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/apoyo.png",
             "title": "Atención personalizada",
             "text": "",
             "link_label": "",
