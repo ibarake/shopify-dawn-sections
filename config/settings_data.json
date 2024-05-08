@@ -1,7 +1,7 @@
 {
   "current": {
-    "wapp_side": "left",
-    "show_whatsapp": true,
+    "wapp_side": "right",
+    "show_whatsapp": false,
     "include_product": true,
     "whatsapp_phone": "+573007331806",
     "whatsapp_message": "Hola, estaba en Ashleycolombia.com y me gustaría tener ayuda",
