@@ -40,71 +40,26 @@
         "change_slides_speed": 5
       }
     },
-    "multicolumn_zreYGj": {
-      "type": "multicolumn",
+    "slideshow_dTBPGe": {
+      "type": "slideshow",
       "blocks": {
-        "column_fwPRH9": {
-          "type": "column",
+        "slide_mJhXMy": {
+          "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/servicio-de-calidad.png",
-            "title": "Garantía",
-            "text": "<p>Dos (2) años a partir de la fecha de entrega<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Xt6ppc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/entrega-rapida.png",
-            "title": "Tiempos de envío",
-            "text": "<p>Bogotá: Hasta 48 horas  <br\/>Resto del país: 3 a 5 días hábiles<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_MNbye8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/apoyo.png",
-            "title": "Atención personalizada",
-            "text": "<p>Facilitamos tu compra por <a href=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\" title=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\">WhatsApp.<\/a> Contáctanos<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NRzfw9": {
-          "type": "column",
-          "settings": {
-            "title": "Más de 75 años",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/atributos.png",
+            "image_r": "shopify:\/\/shop_images\/atributos_mobile.png",
+            "link": "https:\/\/ashleycolombia.com\/products\/sofa-modular-elyza-sku-10006s1?variant=47297591542067"
           }
         }
       },
       "block_order": [
-        "column_fwPRH9",
-        "column_Xt6ppc",
-        "column_MNbye8",
-        "column_NRzfw9"
+        "slide_mJhXMy"
       ],
-      "disabled": true,
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 5
       }
     },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
@@ -462,7 +417,7 @@
   },
   "order": [
     "fb110c7a-4332-4d8d-b923-860cd019d091",
-    "multicolumn_zreYGj",
+    "slideshow_dTBPGe",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
     "custom_collections_RBBGjc",
