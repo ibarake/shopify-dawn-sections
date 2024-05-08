@@ -45,6 +45,7 @@
       "blocks": {
         "column_fwPRH9": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/servicio-de-calidad.png",
             "title": "Garantía",
@@ -56,6 +57,7 @@
         "column_Xt6ppc": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/entrega-rapida.png",
             "title": "Tiempos de envío",
             "text": "",
             "link_label": "",
