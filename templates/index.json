@@ -68,7 +68,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/apoyo.png",
             "title": "Atención personalizada",
-            "text": "<p>Si tienes alguna duda en el proceso de tu compra comunícate por <a href=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\" title=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\">WhatsApp +573007331806<\/a><\/p>",
+            "text": "<p>Facilitamos tu compra por <a href=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\" title=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\">WhatsApp.<\/a> Contáctanos<\/p>",
             "link_label": "",
             "link": ""
           }
