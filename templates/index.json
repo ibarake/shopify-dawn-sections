@@ -45,7 +45,6 @@
       "blocks": {
         "column_fwPRH9": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/servicio-de-calidad.png",
             "title": "Garantía",
@@ -59,7 +58,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/entrega-rapida.png",
             "title": "Tiempos de envío",
-            "text": "",
+            "text": "<p>Bogotá: Hasta 48 horas  <br\/>Resto del país: 3 a 5 días hábiles<\/p>",
             "link_label": "",
             "link": ""
           }
