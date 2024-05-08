@@ -40,6 +40,70 @@
         "change_slides_speed": 5
       }
     },
+    "multicolumn_zreYGj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fwPRH9": {
+          "type": "column",
+          "settings": {
+            "title": "Garantía",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Xt6ppc": {
+          "type": "column",
+          "settings": {
+            "title": "Tiempos de envío",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MNbye8": {
+          "type": "column",
+          "settings": {
+            "title": "Atención personalizada",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NRzfw9": {
+          "type": "column",
+          "settings": {
+            "title": "Más de 75 años",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fwPRH9",
+        "column_Xt6ppc",
+        "column_MNbye8",
+        "column_NRzfw9"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
       "type": "custom-collections",
       "blocks": {
@@ -395,6 +459,7 @@
   },
   "order": [
     "fb110c7a-4332-4d8d-b923-860cd019d091",
+    "multicolumn_zreYGj",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
     "custom_collections_RBBGjc",
