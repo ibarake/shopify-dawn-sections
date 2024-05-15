@@ -6,7 +6,7 @@
         "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners-01.png",
+            "image": "shopify:\/\/shop_images\/Banners_ll-02.jpg",
             "image_r": "shopify:\/\/shop_images\/Banners_responsive-01.jpg",
             "link": "https:\/\/ashleycolombia.com\/products\/sofa-modular-elyza-sku-10006s1?variant=47297591542067"
           }
@@ -14,9 +14,16 @@
         "62ca52f1-39ee-4cdf-87a0-24873fa63789": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners-02_1.png",
+            "image": "shopify:\/\/shop_images\/Banners_ll-03.jpg",
             "image_r": "shopify:\/\/shop_images\/Banners_responsive-02.jpg",
-            "link": "https:\/\/ashleycolombia.com\/products\/mesa-de-comedor-caitbrook"
+            "link": "https:\/\/ashleycolombia.com\/collections\/ofertas-ashley"
+          }
+        },
+        "slide_dcUTgA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banners_ll-04.jpg",
+            "link": "https:\/\/ashleycolombia.com\/products\/sofa-2-puestos-parklynn"
           }
         },
         "slide_X96znd": {
@@ -31,6 +38,7 @@
       "block_order": [
         "b5c9dd85-db88-4010-81c9-179d02e78bf1",
         "62ca52f1-39ee-4cdf-87a0-24873fa63789",
+        "slide_dcUTgA",
         "slide_X96znd"
       ],
       "settings": {
