@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banners_ll-02.jpg",
-            "image_r": "shopify:\/\/shop_images\/Banners_responsive-01.jpg",
+            "image_r": "shopify:\/\/shop_images\/banners_mobile-01.jpg",
             "link": "https:\/\/ashleycolombia.com\/collections\/sofas"
           }
         },
@@ -23,7 +23,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banners_ll-03.jpg",
-            "image_r": "shopify:\/\/shop_images\/Banners_responsive-02.jpg",
+            "image_r": "shopify:\/\/shop_images\/banners_mobile-02.jpg",
             "link": "https:\/\/ashleycolombia.com\/collections\/ofertas-ashley"
           }
         },
