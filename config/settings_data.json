@@ -153,7 +153,7 @@
               "text": "Te asesoramos por WhatsApp, comunícate aquí",
               "text_alignment": "center",
               "color_scheme": "accent-1",
-              "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda"
+              "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda_back"
             }
           }
         },
