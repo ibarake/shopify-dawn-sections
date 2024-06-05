@@ -146,10 +146,20 @@
               "color_scheme": "accent-1",
               "link": ""
             }
+          },
+          "announcement_7rcQQ7": {
+            "type": "announcement",
+            "settings": {
+              "text": "Te asesoramos por WhatsApp, comunícate aquí",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda"
+            }
           }
         },
         "block_order": [
-          "announcement_8EGc8k"
+          "announcement_8EGc8k",
+          "announcement_7rcQQ7"
         ],
         "settings": {
         }
