@@ -21,6 +21,36 @@
         "backgroundSaleColor": "#c60f2f"
       }
     },
+    "rich_text_YwDafw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qtyYjc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>¿Necesitas asesoría para finalizar tu compra?<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_Fam3jJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Escríbenos por WhatsApp y te asesoramos. <a href=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\" title=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\">Habla con nosotros<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qtyYjc",
+        "text_Fam3jJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collection_list_cmt7CU": {
       "type": "collection-list",
       "blocks": {
@@ -100,6 +130,7 @@
   "order": [
     "banner",
     "87c60f33-59d8-416a-8360-f7543630c187",
+    "rich_text_YwDafw",
     "collection_list_cmt7CU",
     "product-grid"
   ]
