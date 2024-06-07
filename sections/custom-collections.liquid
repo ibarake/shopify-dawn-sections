@@ -240,12 +240,20 @@
 
   {% for block in section.blocks %}
     {% if forloop.index == 1 %}
+      {% liquid
+        assign side = block.settings.section-alignment
+        if side == 'left'
+          assign sideClass = 'right'
+        else
+          assign sideClass = 'left'
+        endif
+      %}
       <div id="custom-content-{{ section.id }}-{{ forloop.index }}" class="collection-content-container active">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
         <div class="left-right">
-          <div class="left">
+          <div class="{{ block.settings.section-alignment }}">
             <div class="collection-image">
               <a href="{{ block.settings.collection.url }}">
                 {{ block.settings.collection.metafields.custom.roomimage | image_url: width: 1280 | image_tag: width: "1280px", height: "720px", alt: block.settings.collection.metafields.custom.roomimage.alt, class: 'mainimage', loading: 'lazy' }}
@@ -279,7 +287,7 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div class="right ">
+            <div class="{{ sideClass }}">
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
@@ -311,7 +319,7 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div class="right ">
+            <div class="{{ sideClass }}">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
@@ -346,12 +354,20 @@
     {% endif %}
 
     {% if forloop.index > 1 %}
+      {% liquid
+        assign side = block.settings.section-alignment
+        if side == 'left'
+          assign sideClass = 'right'
+        else
+          assign sideClass = 'left'
+        endif
+      %}
       <div id="custom-content-{{ section.id }}-{{ forloop.index }}" class="collection-content-container">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
         <div class="left-right">
-          <div class="left">
+          <div class="{{ block.settings.section-alignment }}">
             <div class="collection-image">
               {{ block.settings.collection.metafields.custom.roomimage | image_url: width: 1280 | image_tag: width: "1280px", height: "720px", alt: block.settings.collection.metafields.custom.roomimage.alt, class: 'mainimage', loading: 'lazy' }}
             </div>
@@ -384,7 +400,7 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div class="right ">
+            <div class="{{ sideClass }}">
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
@@ -416,7 +432,7 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div class="right">
+            <div class="{{ sideClass }}">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
@@ -455,7 +471,7 @@
 <script>
       document.querySelectorAll('.custom-collections-section').forEach((section) => {
 
-      const rights = section.querySelectorAll('.right');
+      const rights = section.querySelectorAll('.{{ sideClass }}');
 
       rights.forEach((element) => {
        const ChildsNumber = element.childElementCount;
