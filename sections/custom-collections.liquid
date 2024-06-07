@@ -236,12 +236,12 @@
         assign side = block.settings.section-alignment
         if side == 'left'
           assign sideClass = '6.5fr 3.5fr'
-          assign sideOrder = 1
-          assign sideOrderS = 2
+          assign sideOrder = -1
+          assign sideOrderS = 1
         else
           assign sideClass = '3.5fr 6.5fr'
-          assign sideOrder = 2
-          assign sideOrderS = 1
+          assign sideOrder = 1
+          assign sideOrderS = -1
         endif
       %}
       <style>
