@@ -235,31 +235,6 @@
 
   {% for block in section.blocks %}
     {% if forloop.index == 1 %}
-      {% liquid
-        assign side = block.settings.section-alignment
-        if side == 'left'
-          assign sideClass = '6.5fr 3.5fr'
-          assign sideOrder = 1
-          assign sideOrderS = 2
-        else
-          assign sideClass = '3.5fr 6.5fr'
-          assign sideOrder = 2
-          assign sideOrderS = 1
-        endif
-      %}
-      <style>
-      .left-right-{{ block.id }} {
-        display: grid;
-        grid-template-columns: {{ sideClass }};
-        gap: 1rem 1rem;
-      }
-      .left{
-        grid-order: {{ sideOrder }};
-      }
-      .right{
-        grid-order: {{ sideOrderS }};
-      }
-      </style>
       <div id="custom-content-{{ section.id }}-{{ forloop.index }}" class="collection-content-container active">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
