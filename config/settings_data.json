@@ -149,6 +149,7 @@
           },
           "announcement_7rcQQ7": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Te asesoramos por WhatsApp, comunícate aquí",
               "text_alignment": "center",
