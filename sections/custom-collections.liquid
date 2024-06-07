@@ -250,10 +250,10 @@
         grid-template-columns: {{ sideClass }};
         gap: 1rem 1rem;
       }
-      .left{
+      .left-right-{{ block.id }} .left{
         order: {{ sideOrder }};
       }
-      .right{
+      .left-right-{{ block.id }} .right{
         order: {{ sideOrderS }};
       }
       @media screen and (max-width: 989px) {
