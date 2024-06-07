@@ -44,6 +44,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner_Voragine.jpg",
+        "image_2": "shopify:\/\/shop_images\/Banner_la_voragine.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
