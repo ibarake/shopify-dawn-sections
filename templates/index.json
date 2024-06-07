@@ -3,44 +3,17 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "b5c9dd85-db88-4010-81c9-179d02e78bf1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_ll-02.jpg",
-            "image_r": "shopify:\/\/shop_images\/banners_mobile-01.jpg",
-            "link": "https:\/\/ashleycolombia.com\/collections\/sofas"
-          }
-        },
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banners_ll-04_8e15d4c8-0615-47c9-9430-412442a1bb32.jpg",
             "image_r": "shopify:\/\/shop_images\/banners_mobile-04.jpg",
-            "link": "https:\/\/ashleycolombia.com\/products\/sofa-2-puestos-parklynn"
-          }
-        },
-        "62ca52f1-39ee-4cdf-87a0-24873fa63789": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_ll-03.jpg",
-            "image_r": "shopify:\/\/shop_images\/banners_mobile-02.jpg",
-            "link": "https:\/\/ashleycolombia.com\/collections\/ofertas-ashley"
-          }
-        },
-        "slide_X96znd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banners-03_1.png",
-            "image_r": "shopify:\/\/shop_images\/Banners_responsive-03.jpg",
-            "link": "https:\/\/ashleycolombia.com\/pages\/macro-categories\/exterior"
+            "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+BannerAshleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda"
           }
         }
       },
       "block_order": [
-        "b5c9dd85-db88-4010-81c9-179d02e78bf1",
-        "slide_Pyhgb6",
-        "62ca52f1-39ee-4cdf-87a0-24873fa63789",
-        "slide_X96znd"
+        "slide_Pyhgb6"
       ],
       "settings": {
         "layout": "full_bleed",
