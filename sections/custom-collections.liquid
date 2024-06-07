@@ -140,11 +140,6 @@
       text-underline-offset: 0.8rem;
       text-decoration-thickness: 0.2rem;
     }
-    .left-right {
-      display: grid;
-      grid-template-columns: 6.5fr 3.5fr;
-      gap: 1rem 1rem;
-    }
     .collection-content-container {
       display: none;
       width: 100%;
@@ -243,17 +238,34 @@
       {% liquid
         assign side = block.settings.section-alignment
         if side == 'left'
-          assign sideClass = 'right'
+          assign sideClass = '6.5fr 3.5fr'
+          assign sideOrder = 1
+          assign sideOrderS = 2
         else
-          assign sideClass = 'left'
+          assign sideClass = '3.5fr 6.5fr'
+          assign sideOrder = 2
+          assign sideOrderS = 1
         endif
       %}
+      <style>
+      .left-right-{{ block.id }} {
+        display: grid;
+        grid-template-columns: {{ sideClass }};
+        gap: 1rem 1rem;
+      }
+      .left{
+        grid-order: {{ sideOrder }};
+      }
+      .right{
+        grid-order: {{ sideOrderS }};
+      }
+      </style>
       <div id="custom-content-{{ section.id }}-{{ forloop.index }}" class="collection-content-container active">
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
         <div class="left-right">
-          <div class="{{ block.settings.section-alignment }}">
+          <div class="left">
             <div class="collection-image">
               <a href="{{ block.settings.collection.url }}">
                 {{ block.settings.collection.metafields.custom.roomimage | image_url: width: 1280 | image_tag: width: "1280px", height: "720px", alt: block.settings.collection.metafields.custom.roomimage.alt, class: 'mainimage', loading: 'lazy' }}
@@ -287,7 +299,7 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div class="{{ sideClass }}">
+            <div class="right">
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
@@ -319,7 +331,7 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div class="{{ sideClass }}">
+            <div class="right">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
@@ -366,8 +378,8 @@
         <div class="title-section-container" style="justify-content: {{ block.settings.title-alignment }};">
           <h2 class="title-section">{{ block.settings['heading-text'] }}</h2>
         </div>
-        <div class="left-right">
-          <div class="{{ block.settings.section-alignment }}">
+        <div class="left-right-{{ block.id }}">
+          <div class="left">
             <div class="collection-image">
               {{ block.settings.collection.metafields.custom.roomimage | image_url: width: 1280 | image_tag: width: "1280px", height: "720px", alt: block.settings.collection.metafields.custom.roomimage.alt, class: 'mainimage', loading: 'lazy' }}
             </div>
@@ -400,7 +412,7 @@
           </div>
 
           {% if block.settings['blocks-selection'] == 'products' %}
-            <div class="{{ sideClass }}">
+            <div class="right">
               {% for product in block.settings.product_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ product.url }}">
@@ -432,7 +444,7 @@
           {% endif %}
 
           {% if block.settings['blocks-selection'] == 'collections' %}
-            <div class="{{ sideClass }}">
+            <div class="right">
               {% for collection in block.settings.collection_list %}
                 <div class="product-container">
                   <a class="product-text-container" href="{{ collection.url }}">
