@@ -130,6 +130,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -149,6 +150,7 @@
     },
     "product_family_48pWwB": {
       "type": "product-family",
+      "disabled": true,
       "settings": {
         "title": "Productos",
         "heading_size": "h2",
