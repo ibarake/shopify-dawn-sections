@@ -15,22 +15,24 @@
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_Julio_Web-03.png",
-            "image_r": "shopify:\/\/shop_images\/banners_mobile-04.jpg",
+            "image": "shopify:\/\/shop_images\/carla_Banners_Julio_Web_final-03.png",
+            "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-03.jpg",
             "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+BannerAshleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda"
           }
         },
         "slide_KygXRz": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_Julio_Web_Mesa_de_trabajo_1.png",
+            "image": "shopify:\/\/shop_images\/carla_Banners_Julio_Web_final_Mesa_de_trabajo_1.png",
+            "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-01.jpg",
             "link": "https:\/\/ashleycolombia.com\/collections\/lamparas"
           }
         },
         "slide_Tan9Cj": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_Julio_Web-02.png",
+            "image": "shopify:\/\/shop_images\/carla_Banners_Julio_Web_final-02.png",
+            "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-02.jpg",
             "link": "https:\/\/ashleycolombia.com\/collections\/sofas"
           }
         }
