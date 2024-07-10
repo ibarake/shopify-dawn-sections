@@ -84,6 +84,48 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_VeyCtC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G7ihG7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Ashley Furniture HomeStore | Centro de Distribución<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "text_FXT9wM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Dirección:<\/strong> Calle 171 # 21a - 67, Bogotá.<\/p>"
+          }
+        },
+        "button_dAR7i3": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_G7ihG7",
+        "text_FXT9wM",
+        "button_dAR7i3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
       "type": "custom-liquid",
       "custom_css": [
@@ -181,6 +223,7 @@
   "order": [
     "74f89a8e-1019-440b-bb46-8f103d566b78",
     "rich_text_JrCHgd",
+    "rich_text_VeyCtC",
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
     "main",
     "777bc39f-f226-475d-9662-b4473acf5755",
