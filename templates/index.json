@@ -692,9 +692,8 @@
         "column_nxgdLw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconos_pag_web_Mesa_de_trabajo_1_2d9c7317-a9f2-4a53-8d66-c62d8d6e7946.png",
             "title": "Marca No. 1 en EE.UU.",
-            "text": "<p>Con más de 75 años en el mercado, más de 1,200 tiendas en 160 países y más de 10,000 productos disponibles. ¡Descubre más!<\/p>",
+            "text": "<p>Con más de 75 años en el mercado, más de 1,200 tiendas...<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -702,9 +701,8 @@
         "column_hQiQpy": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconos_pag_web-02.png",
             "title": "Respaldo y garantía",
-            "text": "<p>Disfruta de una garantía de 2 años en todos nuestros productos por defectos de fabricación, respaldada por un servicio experto y diligente.<\/p>",
+            "text": "<p>Garantía de 2 años en todos nuestros productos*<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -712,9 +710,8 @@
         "column_XF83g3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconos_pag_web-03_7eeaac0d-21db-47d3-b34e-05f609a650a7.png",
             "title": "Pagos y financiamiento",
-            "text": "<p>Aceptamos MasterCard, Visa, American Express y transferencias. Financiación disponible con SU+ y Addi.<\/p>",
+            "text": "<p>Aceptamos MasterCard, Visa, American Express y más<\/p>",
             "link_label": "",
             "link": ""
           }
