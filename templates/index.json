@@ -685,6 +685,59 @@
         "padding_top": 4,
         "padding_bottom": 4
       }
+    },
+    "multicolumn_DPynT8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nxgdLw": {
+          "type": "column",
+          "settings": {
+            "title": "# 1 EN USA",
+            "text": "<p>Ashley Furniture marca No. 1 de USA, 75 años en el mercado, + 1,200 tiendas, + 160 paises, + 10,000 referencias, Conoce más<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hQiQpy": {
+          "type": "column",
+          "settings": {
+            "title": "RESPALDO Y GARANTÍA",
+            "text": "<p>Garantía de 2 años en todos los productos  por defectos de fabricación y un servicio experto y diligente.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XF83g3": {
+          "type": "column",
+          "settings": {
+            "title": "MÉTODOS DE PAGO Y ALIADOS DE FINANCIAMIENTO",
+            "text": "<p>Recibimos todas las tarjetas, transferencias y  aliados de crédito. Master Card, Visa, American Express.  SU+ Y Addi.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nxgdLw",
+        "column_hQiQpy",
+        "column_XF83g3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -699,6 +752,7 @@
     "custom_collections_RBBGjc",
     "featured_collection_WcGghW",
     "550a77d6-6997-4664-8f4e-1c2f99b213d6",
-    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5"
+    "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
+    "multicolumn_DPynT8"
   ]
 }
