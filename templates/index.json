@@ -627,9 +627,9 @@
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_image": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -732,7 +732,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
