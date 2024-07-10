@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "74f89a8e-1019-440b-bb46-8f103d566b78": {
@@ -6,7 +15,7 @@
         "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Ashley Furniture HomeStore Av 19 Bogotá<\/p>",
+            "heading": "<p>Ashley Furniture HomeStore | Av 19, Bogotá<\/p>",
             "heading_size": "h2"
           }
         },
@@ -43,6 +52,36 @@
         "full_width": true,
         "padding_top": 8,
         "padding_bottom": 0
+      }
+    },
+    "rich_text_JrCHgd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cDTdXW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Ashley Furniture HomeStore | Multipaque, Bogotá<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "text_FEwVE8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Dirección:<\/strong> Autopista Nte. #224-60, Usaquén, Bogotá.<\/p><p><strong>PRÓXIMAMENTE<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cDTdXW",
+        "text_FEwVE8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
@@ -141,6 +180,7 @@
   },
   "order": [
     "74f89a8e-1019-440b-bb46-8f103d566b78",
+    "rich_text_JrCHgd",
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
     "main",
     "777bc39f-f226-475d-9662-b4473acf5755",
