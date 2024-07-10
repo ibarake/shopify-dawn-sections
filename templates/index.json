@@ -738,6 +738,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17206283303b9acc9b": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_Q9rUeU": {
+          "type": "shopify:\/\/apps\/google-reviews-plus\/blocks\/app-block\/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_Q9rUeU"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -753,6 +769,7 @@
     "featured_collection_WcGghW",
     "550a77d6-6997-4664-8f4e-1c2f99b213d6",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
-    "multicolumn_DPynT8"
+    "multicolumn_DPynT8",
+    "17206283303b9acc9b"
   ]
 }
