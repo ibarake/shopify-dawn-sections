@@ -17,55 +17,25 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_aaJgW6": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_be4iXY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Calidez Ashley Furniture",
-            "heading_size": "h1"
-          }
-        },
-        "text_fYHLzd": {
-          "type": "text",
-          "settings": {
-            "text": "Un espacio es diseño, comodidad, calidad e identificarnos para hacer de nuestro espacio un hogar",
-            "text_style": "body"
-          }
-        },
-        "buttons_EK6t7n": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_be4iXY",
-        "text_fYHLzd",
-        "buttons_EK6t7n"
-      ],
-      "custom_css": [
-
-      ],
+    "custom_hero_banner_kiK9CE": {
+      "type": "custom-hero-banner",
       "settings": {
+        "subheading": "Ashley multiparque",
+        "heading": "proximamente",
+        "spacing": 300,
         "image": "shopify:\/\/shop_images\/AHS_Homey_Influencer_097_FA1_dwkplf_web_ab01c7f8-4a8b-4df2-b117-ba06b302ce6a.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "bg-color": "#f3f3f3",
+        "color": "#121212",
+        "img-position": "center center",
+        "button-text": "",
+        "button_link": "",
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#FFFFFF",
+        "btn-bg-color-hover": "#FFFFFF",
+        "btn-txt-color": "#FFFFFF",
+        "img-height": 540,
+        "responsive-container-height": 300,
+        "responsive-img-height": 300
       }
     },
     "1720719707798c886e": {
@@ -83,7 +53,7 @@
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
-            "padding_bottom": 62,
+            "padding_bottom": 0,
             "padding_right": 0,
             "padding_left": 0
           }
@@ -190,18 +160,19 @@
         "heading_BxrChi": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Miltiparque<\/p>",
+            "heading": "<p>Multiparque<\/p>",
             "heading_size": "h1"
           }
         },
         "text_VUJdk9": {
           "type": "text",
           "settings": {
-            "text": "<p>Multiparque es un lugar que ofrece entretenimiento integral para las familias; nos hemos venido consolidando durante los años 80,s como un lugar diferente, preferido por las personas que quieren vivir una experiencia dónde se conjuga diversión y alegría.<br\/>En una extensión de cien mil metros cuadrados de espacios rodeados de naturaleza y al aire libre, contamos con atracciones tematizadas, salones para eventos, restaurantes y espacios comerciales.<\/p><p>Nuestro compromiso son las personas y sus familias, para que vivan la mejor experiencia en cada una de sus visitas a nuestro parque.<\/p><p><strong>Queremos ver y compartir con cada visitante una sonrisa.<\/strong><\/p>"
+            "text": "<p>Multiparque es un lugar que ofrece entretenimiento integral para las familias; se ha consolidado desde los años 80 como un lugar diferente, preferido por las personas que quieren vivir una experiencia donde se conjugan diversión y alegría. En una extensión de cien mil metros cuadrados de espacios rodeados de naturaleza y al aire libre, cuenta con atracciones tematizadas, salones para eventos, restaurantes y espacios comerciales.<\/p>"
           }
         },
         "button_weng7A": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -210,12 +181,21 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "caption_b9VGdJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "pasa un dia en familia y resuleve tus espacios con ashley furniture",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
         }
       },
       "block_order": [
         "heading_BxrChi",
         "text_VUJdk9",
-        "button_weng7A"
+        "button_weng7A",
+        "caption_b9VGdJ"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -229,7 +209,7 @@
   },
   "order": [
     "main",
-    "image_banner_aaJgW6",
+    "custom_hero_banner_kiK9CE",
     "1720719707798c886e",
     "rich_text_BPBzzk",
     "image_with_text_KMDjJg",
