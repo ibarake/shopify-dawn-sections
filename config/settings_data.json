@@ -16,7 +16,6 @@
     "whatsapp_message": "Hola, estaba en Ashleycolombia.com y me gustaría tener ayuda",
     "whatsapp_message_product_1": "Hola, me interesa:",
     "whatsapp_message_product_2": "Quisiera me contacten, ¡Gracias!",
-    "horizontal_space": 4,
     "show_breadcrumb_nav": true,
     "breadcrumb_delimeter": "slash",
     "breadcrumb_text_color": "#121212",
@@ -354,21 +353,13 @@
             "type": "newsletter",
             "settings": {
             }
-          },
-          "link_list_G6fetP": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Menú Principal",
-              "menu": "footer-producto"
-            }
           }
         },
         "block_order": [
           "b96712ea-d296-4dd8-81f9-be6e4c29af2f",
           "footer-0",
           "bf422567-176c-4e44-8344-f61f72f2b685",
-          "37fc670f-ace4-437f-ae8a-a2ebb5e251a5",
-          "link_list_G6fetP"
+          "37fc670f-ace4-437f-ae8a-a2ebb5e251a5"
         ],
         "custom_css": [
           ".footer__copyright {display: none;}",
