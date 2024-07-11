@@ -605,6 +605,8 @@
     });
 });
     </script>
-    <script data-name="shopifyAddiWidget" data-id="ashley-ecommerce" data-ally-slug="ashley-ecommerce" data-element-reference=".price.price--large.price--show-badge" src="https://statics.addi.com/shopify/js/shopify-co-widget-wrapper.bundle.min.js"></script>
+     {% if settings.addi_widget %}
+    <script data-name="shopifyAddiWidget" data-id="ashley-ecommerce" data-ally-slug="ashley-ecommerce" data-element-reference=".price.price--large.price--show-badge" src="https://statics.addi.com/shopify/js/shopify-co-widget-wrapper.bundle.min.js" async></script>
+ {% endif%}
   </body>
 </html>
