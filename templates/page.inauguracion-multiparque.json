@@ -9,6 +9,34 @@
 */
 {
   "sections": {
+    "1720719707798c886e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_cx4CUH": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "137185",
+            "text_color": "#121212",
+            "button_background_color": "#f68c2c",
+            "button_label_color": "#121212",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 21,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_cx4CUH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -38,48 +66,20 @@
         "responsive-img-height": 300
       }
     },
-    "1720719707798c886e": {
-      "type": "apps",
-      "blocks": {
-        "forms_inline_cx4CUH": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
-          "settings": {
-            "form_id": "137185",
-            "text_color": "#121212",
-            "button_background_color": "#f68c2c",
-            "button_label_color": "#121212",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 0,
-            "padding_right": 0,
-            "padding_left": 0
-          }
-        }
-      },
-      "block_order": [
-        "forms_inline_cx4CUH"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "rich_text_BPBzzk": {
       "type": "rich-text",
       "blocks": {
         "heading_WJ9Gi4": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Ashley Furniture HomeStore<\/p>",
+            "heading": "<p>Nuestro Propósito<\/p>",
             "heading_size": "h1"
           }
         },
         "text_DABEMd": {
           "type": "text",
           "settings": {
-            "text": "<p>Ashley Furniture con mas 75 años de trayectoria es la marca No. 1 de Estados Unidos, con mas de 1,200 tiendas en el mundo. Nos destacamos por ofrecer alta calidad en más de 20 categorías de productos y una amplia variedad de estilos.<\/p><p>En Colombia, abrimos en junio de 2023 y hemos superado todas las expectativas con nuestra propuesta única de diseño, calidad, servicio, variedad de productos, amplio rango de precios, entrega inmediata y los mejores profesionales. Todo esto al precio correcto.<\/p><p>Visítanos en Avenida 19 No. 109-41, Bogotá (Parqueadero).<\/p><p>Tu hogar, tu estilo.<\/p>"
+            "text": "<h2>Inspirar el amor por el el hogar y enriquecer las vidas de todos los que nos rodean.<\/h2>"
           }
         },
         "button_WH7pgn": {
@@ -105,8 +105,53 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_qErYDq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zk4Ywx": {
+          "type": "heading",
+          "settings": {
+            "heading": "El Legado de Ashley",
+            "heading_size": "h2"
+          }
+        },
+        "text_3Utx9r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alguna vez fuimos una compañía familiar con 35 empleados en 1970. Ahora somos un equipo de más de 35,000 valiosos miembros en todo el mundo, con fábricas y oficinas en 280 hectáreas y presencia en 155 países, lo que nos permite crear nuevos empleos y seguir dinamizando las economías.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EcLfXd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_zk4Ywx",
+        "text_3Utx9r",
+        "button_EcLfXd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_KMDjJg": {
@@ -144,7 +189,7 @@
         "image": "shopify:\/\/shop_images\/Screenshot_2024-06-28_at_2.26.08_PM.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -208,10 +253,11 @@
     }
   },
   "order": [
+    "1720719707798c886e",
     "main",
     "custom_hero_banner_kiK9CE",
-    "1720719707798c886e",
     "rich_text_BPBzzk",
+    "image_with_text_qErYDq",
     "image_with_text_KMDjJg",
     "rich_text_C9EJPq"
   ]
