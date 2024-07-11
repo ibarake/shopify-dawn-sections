@@ -9,49 +9,92 @@
 */
 {
   "sections": {
-    "74f89a8e-1019-440b-bb46-8f103d566b78": {
-      "type": "rich-text",
+    "image_with_text_hgL3m4": {
+      "type": "image-with-text",
       "blocks": {
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1": {
+        "heading_9UHwrG": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Ashley Furniture HomeStore | Av 19, Bogotá<\/p>",
-            "heading_size": "h2"
+            "heading": "Ashley Avenida 19 Bogotá",
+            "heading_size": "h1"
           }
         },
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-text-1": {
+        "text_4bzdWV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dirección:<\/strong> Av. Cra 19 #109-41, Bogotá.<\/p><p><strong>Teléfono: <\/strong>+57 (300) 913-246<\/p><p><strong>WhatsApp: <\/strong><a href=\"https:\/\/wa.me\/573007331806\" target=\"_blank\" title=\"https:\/\/wa.me\/573007331806\">+57 (300) 733-1806<\/a><\/p><p><br\/><strong>Horarios de Tienda:<\/strong><\/p><p>Domingo a jueves: 10 AM - 7 PM<br\/>Viernes y sábado: 10 AM. - 8 PM<\/p>"
+            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> Av. Cra 19 #109-41, Bogotá.<\/p><p><strong>Teléfono: <\/strong>+57 (300) 913-246<\/p><p><strong>WhatsApp: <\/strong><a href=\"https:\/\/wa.me\/573007331806\" target=\"_blank\" title=\"https:\/\/wa.me\/573007331806\">+57 (300) 733-1806<\/a><\/p><p><br\/><strong>Horarios de Tienda:<\/strong><\/p><p>Domingo a Jueves: 10 AM - 7 PM<br\/>Viernes y Sábado: 10 AM - 8 PM<\/p><p><\/p>",
+            "text_style": "body"
           }
         },
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-button-1": {
+        "button_gKyXfn": {
           "type": "button",
           "settings": {
             "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-heading-1",
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-text-1",
-        "template--21765274829107__74f89a8e-1019-440b-bb46-8f103d566b78-button-1"
-      ],
-      "custom_css": [
-
+        "heading_9UHwrG",
+        "text_4bzdWV",
+        "button_gKyXfn"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
+        "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 0
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rGGVqi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ecN48R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ashley Multiparque Bogotá",
+            "heading_size": "h1"
+          }
+        },
+        "text_AzLPrU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> Av. Cra 19 #109-41, Bogotá.<\/p><p><strong>Teléfono: <\/strong>+57 (300) 913-246<\/p><p><strong>WhatsApp: <\/strong><a href=\"https:\/\/wa.me\/573007331806\" target=\"_blank\" title=\"https:\/\/wa.me\/573007331806\">+57 (300) 733-1806<\/a><\/p><p><br\/><strong>Horarios de Tienda:<\/strong><\/p><p>Domingo a Jueves: 10 AM - 7 PM<br\/>Viernes y Sábado: 10 AM - 8 PM<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EA64Kh": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ecN48R",
+        "text_AzLPrU",
+        "button_EA64Kh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_JrCHgd": {
@@ -67,7 +110,7 @@
         "text_FEwVE8": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dirección:<\/strong> Autopista Nte. #224-60, Usaquén, Bogotá.<\/p><p><strong>PRÓXIMAMENTE<\/strong><\/p>"
+            "text": "<p><strong>Dirección:<\/strong> Autopista Nte. #224-60, Usaquén, Bogotá.<\/p><p><strong>PRÓXIMAMENTE<\/strong><\/p>"
           }
         }
       },
@@ -179,7 +222,8 @@
     }
   },
   "order": [
-    "74f89a8e-1019-440b-bb46-8f103d566b78",
+    "image_with_text_hgL3m4",
+    "image_with_text_rGGVqi",
     "rich_text_JrCHgd",
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
     "main",
