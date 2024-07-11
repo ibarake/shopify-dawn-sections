@@ -74,12 +74,22 @@
       },
       {
         "type": "range",
-        "id": "font_size",
+        "id": "Horizontal_space",
         "min": 0,
         "max": 100,
         "step": 1,
         "unit": "%",
-        "label": "Horizontal width",
+        "label": "Horizontal space",
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "Vertical_space",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Vertical space",
         "default": 40
       }
     ]
