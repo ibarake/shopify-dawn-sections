@@ -23,14 +23,14 @@
         "heading_be4iXY": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Calidez Ashley Furniture",
             "heading_size": "h1"
           }
         },
         "text_fYHLzd": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Un espacio es diseño, comodidad, calidad e identificarnos para hacer de nuestro espacio un hogar",
             "text_style": "body"
           }
         },
@@ -51,12 +51,15 @@
         "text_fYHLzd",
         "buttons_EK6t7n"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AHS_Homey_Influencer_097_FA1_dwkplf_web.webp",
+        "image": "shopify:\/\/shop_images\/AHS_Homey_Influencer_097_FA1_dwkplf_web_ab01c7f8-4a8b-4df2-b117-ba06b302ce6a.webp",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -64,10 +67,172 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1720719707798c886e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_cx4CUH": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "137185",
+            "text_color": "#121212",
+            "button_background_color": "#f68c2c",
+            "button_label_color": "#121212",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 62,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_cx4CUH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_BPBzzk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WJ9Gi4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ashley Furniture HomeStore<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DABEMd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ashley Furniture es la marca número 1 de Estados Unidos, con más de 1,200 tiendas alrededor del mundo. Nos distinguimos por ofrecer una alta calidad en más de 20 categorías de producto y una amplia variedad de estilos, para que cada persona pueda encontrar algo que se adapte a sus gustos y transformar su espacio en un hogar.<\/p><p>En Colombia, abrimos en junio de 2023 y hemos superado todas las expectativas gracias a nuestra propuesta única, que combina diseño, calidad, servicio, variedad de productos, amplio rango de precios, entrega inmediata y los mejores profesionales a tu servicio. Todo esto al precio correcto. <\/p><p>Tienda Avenida 19 No. 109-41, Bogotá (Parqueadero)<\/p><p>Ahora, puedes tener el hogar de tus sueños al precio que deseas. Tu Hogar, Tu estilo.<\/p>"
+          }
+        },
+        "button_WH7pgn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WJ9Gi4",
+        "text_DABEMd",
+        "button_WH7pgn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_KMDjJg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LWq4UC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Próximamente Ashley Multiparque",
+            "heading_size": "h2"
+          }
+        },
+        "text_ELY4zE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Multiparque ha sido la cuna de las leyendas muebleras de Colombia. Es un honor para nosotros escribir nuestra historia como marca ancla. <\/p><p>Ahora, las familias pueden disfrutar de su parque favorito y resolver todas sus necesidades del hogar en Ashley Furniture.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_jJycyd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LWq4UC",
+        "text_ELY4zE",
+        "button_jJycyd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-06-28_at_2.26.08_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_C9EJPq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BxrChi": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Miltiparque<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_VUJdk9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Multiparque es un lugar que ofrece entretenimiento integral para las familias; nos hemos venido consolidando durante los años 80,s como un lugar diferente, preferido por las personas que quieren vivir una experiencia dónde se conjuga diversión y alegría.<br\/>En una extensión de cien mil metros cuadrados de espacios rodeados de naturaleza y al aire libre, contamos con atracciones tematizadas, salones para eventos, restaurantes y espacios comerciales.<\/p><p>Nuestro compromiso son las personas y sus familias, para que vivan la mejor experiencia en cada una de sus visitas a nuestro parque.<\/p><p><strong>Queremos ver y compartir con cada visitante una sonrisa.<\/strong><\/p>"
+          }
+        },
+        "button_weng7A": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BxrChi",
+        "text_VUJdk9",
+        "button_weng7A"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_aaJgW6"
+    "image_banner_aaJgW6",
+    "1720719707798c886e",
+    "rich_text_BPBzzk",
+    "image_with_text_KMDjJg",
+    "rich_text_C9EJPq"
   ]
 }
