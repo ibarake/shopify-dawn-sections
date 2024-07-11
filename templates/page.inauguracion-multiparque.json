@@ -370,12 +370,12 @@
     "featured_collection_VkUnwD": {
       "type": "featured-collection",
       "settings": {
-        "title": "Comedores",
+        "title": "Poltronas",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "sofas-2-puestos",
+        "collection": "sillas-para-sala-y-habitacion",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
