@@ -160,14 +160,14 @@
         "heading_LWq4UC": {
           "type": "heading",
           "settings": {
-            "heading": "Próximamente Ashley Multiparque",
+            "heading": "Próximamente Ashley en Multiparque",
             "heading_size": "h2"
           }
         },
         "text_ELY4zE": {
           "type": "text",
           "settings": {
-            "text": "<p>Multiparque ha sido la cuna de las leyendas muebleras de Colombia. Es un honor para nosotros escribir nuestra historia como marca ancla. <\/p><p>Ahora, las familias pueden disfrutar de su parque favorito y resolver todas sus necesidades del hogar en Ashley Furniture.<\/p>",
+            "text": "<p>Multiparque ha sido la cuna de las leyendas muebleras de Colombia. Es un honor iniciar nuestra expansión siendo el ancla de este irónico parque de diversiones favorito por las familias de Bogotá. <\/p>",
             "text_style": "body"
           }
         },
@@ -250,6 +250,59 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_3DmH9n": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UwmTpa": {
+          "type": "column",
+          "settings": {
+            "title": "Propuesta de Valor",
+            "text": "<p>Mas de 10,000 referencias, 20 categorías de producto, 9 estilos, entrega inmediata', servicio excepcional, calidad y <strong>precio correcto en un solo lugar.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gFJCP8": {
+          "type": "column",
+          "settings": {
+            "title": "Ashley Furniture",
+            "text": "<p>Con <strong>75 años de experiencia<\/strong>, somos el <strong>mayor fabricante de muebles en el mundo<\/strong> y la <strong>marca número 1 en Estados Unidos<\/strong>. Contamos con más de <strong>1,200 tiendas en más de 65 países.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gpdWUL": {
+          "type": "column",
+          "settings": {
+            "title": "Expertos en Colombia",
+            "text": "<p>El equipo de Clover4 SAS tiene mas de 20 años expandiendo marcas de muebles Globales en Colombia. En el primer año hemos servido mas de 1,000 clientes entregando mas de <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UwmTpa",
+        "column_gFJCP8",
+        "column_gpdWUL"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -259,6 +312,7 @@
     "rich_text_BPBzzk",
     "image_with_text_qErYDq",
     "image_with_text_KMDjJg",
-    "rich_text_C9EJPq"
+    "rich_text_C9EJPq",
+    "multicolumn_3DmH9n"
   ]
 }
