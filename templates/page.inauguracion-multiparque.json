@@ -44,7 +44,7 @@
         "heading": "próximamente",
         "spacing": 300,
         "image": "shopify:\/\/shop_images\/AHS_Homey_Influencer_097_FA1_dwkplf_web_ab01c7f8-4a8b-4df2-b117-ba06b302ce6a.webp",
-        "bg-color": "#FFFFFF",
+        "bg-color": "#f3f3f3",
         "color": "#121212",
         "img-position": "center center",
         "button-text": "",
@@ -312,6 +312,60 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "featured_collection_kewnFY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sofás",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sofas-2-puestos",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_UHTNYf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Comedores",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sofas-2-puestos",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -323,6 +377,8 @@
     "image_with_text_KMDjJg",
     "multicolumn_3DmH9n",
     "image_with_text_HG4BGq",
-    "17207332740b186fae"
+    "17207332740b186fae",
+    "featured_collection_kewnFY",
+    "featured_collection_UHTNYf"
   ]
 }
