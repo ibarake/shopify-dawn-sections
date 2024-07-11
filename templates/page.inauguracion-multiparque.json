@@ -19,8 +19,8 @@
             "text_color": "#121212",
             "button_background_color": "#f68c2c",
             "button_label_color": "#121212",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
@@ -37,22 +37,14 @@
         "include_margins": true
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "custom_hero_banner_kiK9CE": {
+    "custom_hero_banner_H6KUWB": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "Ashley multiparque",
-        "heading": "proximamente",
+        "subheading": "Ashley Multiparque",
+        "heading": "próximamente",
         "spacing": 300,
         "image": "shopify:\/\/shop_images\/AHS_Homey_Influencer_097_FA1_dwkplf_web_ab01c7f8-4a8b-4df2-b117-ba06b302ce6a.webp",
-        "bg-color": "#f3f3f3",
+        "bg-color": "#FFFFFF",
         "color": "#121212",
         "img-position": "center center",
         "button-text": "",
@@ -64,6 +56,14 @@
         "img-height": 540,
         "responsive-container-height": 300,
         "responsive-img-height": 300
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "rich_text_BPBzzk": {
@@ -256,43 +256,21 @@
       "type": "main-help",
       "settings": {
         "title": "Visítanos en  la Avenida 19 No. 109 - 41, Bogotá",
-        "title-color": "#C9C9C9",
-        "title1-color": "#C9C9C9",
+        "title-color": "#c9c9c9",
+        "title1-color": "#c9c9c9",
         "columns-desktop": 3,
         "columns-phone": 1
-      }
-    },
-    "custom_hero_banner_HztFTP": {
-      "type": "custom-hero-banner",
-      "settings": {
-        "subheading": "",
-        "heading": "",
-        "spacing": 0,
-        "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
-        "bg-color": "#f3f3f3",
-        "color": "#121212",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#FFFFFF",
-        "btn-bg-color-hover": "#FFFFFF",
-        "btn-txt-color": "#FFFFFF",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
       }
     }
   },
   "order": [
     "1720719707798c886e",
+    "custom_hero_banner_H6KUWB",
     "main",
-    "custom_hero_banner_kiK9CE",
     "rich_text_BPBzzk",
     "image_with_text_qErYDq",
     "image_with_text_KMDjJg",
     "multicolumn_3DmH9n",
-    "main_help_CzzgRF",
-    "custom_hero_banner_HztFTP"
+    "main_help_CzzgRF"
   ]
 }
