@@ -80,7 +80,7 @@
         "step": 1,
         "unit": "%",
         "label": "Horizontal space",
-        "default": 40
+        "default": 4
       },
       {
         "type": "range",
@@ -90,7 +90,7 @@
         "step": 1,
         "unit": "%",
         "label": "Vertical space",
-        "default": 40
+        "default": 4
       }
     ]
   },
