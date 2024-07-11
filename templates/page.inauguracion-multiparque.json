@@ -79,7 +79,7 @@
         "text_DABEMd": {
           "type": "text",
           "settings": {
-            "text": "<h2>Inspirar el amor por el el hogar y enriquecer las vidas de todos los que nos rodean.<\/h2>"
+            "text": "<h2>Inspirar el amor por el hogar y enriquecer las vidas de todos los que nos rodean.<\/h2>"
           }
         },
         "button_WH7pgn": {
@@ -288,11 +288,11 @@
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
