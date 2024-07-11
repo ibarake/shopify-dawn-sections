@@ -74,7 +74,7 @@
       },
       {
         "type": "range",
-        "id": "Horizontal_space",
+        "id": "vorizontal_space",
         "min": 0,
         "max": 100,
         "step": 1,
@@ -84,7 +84,7 @@
       },
       {
         "type": "range",
-        "id": "Vertical_space",
+        "id": "vertical_space",
         "min": 0,
         "max": 100,
         "step": 1,
