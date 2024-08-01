@@ -536,12 +536,6 @@
         "disabled": false,
         "settings": {
         }
-      },
-      "8208493610395315515": {
-        "type": "shopify:\/\/apps\/dondy-whatsapp-chat-marketing\/blocks\/app-block\/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
-        "disabled": true,
-        "settings": {
-        }
       }
     }
   },

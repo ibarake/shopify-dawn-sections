@@ -12,28 +12,12 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "slide_ieiaTQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer-Sale_1.jpg",
-            "image_r": "shopify:\/\/shop_images\/Summer-Sale-mobile.jpg",
-            "link": "https:\/\/ashleycolombia.com\/collections\/ofertas-ashley"
-          }
-        },
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/carla_Banners_Julio_Web_final-03.png",
             "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-03.jpg",
             "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+vengo+del+Banner+de+la+p%C3%A1gina+principal+de+ashleycolombia.com.+Podr%C3%ADas+ayudarme%3F"
-          }
-        },
-        "slide_KygXRz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/carla_Banners_Julio_Web_final_Mesa_de_trabajo_1.png",
-            "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-01.jpg",
-            "link": "https:\/\/ashleycolombia.com\/collections\/lamparas"
           }
         },
         "slide_Tan9Cj": {
@@ -46,9 +30,7 @@
         }
       },
       "block_order": [
-        "slide_ieiaTQ",
         "slide_Pyhgb6",
-        "slide_KygXRz",
         "slide_Tan9Cj"
       ],
       "settings": {
