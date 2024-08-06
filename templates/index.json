@@ -19,19 +19,10 @@
             "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-03.jpg",
             "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+vengo+del+Banner+de+la+p%C3%A1gina+principal+de+ashleycolombia.com.+Podr%C3%ADas+ayudarme%3F"
           }
-        },
-        "slide_Tan9Cj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/carla_Banners_Julio_Web_final-02.png",
-            "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-02.jpg",
-            "link": "https:\/\/ashleycolombia.com\/collections\/sofas"
-          }
         }
       },
       "block_order": [
-        "slide_Pyhgb6",
-        "slide_Tan9Cj"
+        "slide_Pyhgb6"
       ],
       "settings": {
         "layout": "full_bleed",
