@@ -22,12 +22,56 @@
         "button-text": "",
         "button_link": "",
         "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#FFFFFF",
-        "btn-bg-color-hover": "#FFFFFF",
-        "btn-txt-color": "#FFFFFF",
+        "btn-bg-color-normal": "#ffffff",
+        "btn-bg-color-hover": "#ffffff",
+        "btn-txt-color": "#ffffff",
         "img-height": 540,
         "responsive-container-height": 300,
         "responsive-img-height": 300
+      }
+    },
+    "image_with_text_rGGVqi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ecN48R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ashley Multiparque Bogotá",
+            "heading_size": "h1"
+          }
+        },
+        "text_AzLPrU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> <\/p><p>Multiparque | Autopista Nte No. 224 - 60, Bogotá <\/p><p><strong>Horarios de Atención:<\/strong><\/p><p>Todos los dias y festivos <\/p><p>10 AM a 7 PM<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EA64Kh": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ecN48R",
+        "text_AzLPrU",
+        "button_EA64Kh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-06-28_at_2.26.08_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_hgL3m4": {
@@ -65,50 +109,6 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_rGGVqi": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_ecN48R": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ashley Multiparque Bogotá",
-            "heading_size": "h1"
-          }
-        },
-        "text_AzLPrU": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> Autopista Norte No. 224 - 60, Bogotá<\/p><p><a href=\"\/pages\/inauguracion-multiparque\" title=\"inauguracion-multiparque\"><strong>Abrimos Próximamente<\/strong><\/a><\/p><p><\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_EA64Kh": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_ecN48R",
-        "text_AzLPrU",
-        "button_EA64Kh"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-06-28_at_2.26.08_PM.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -178,8 +178,8 @@
   },
   "order": [
     "custom_hero_banner_wFANBY",
-    "image_with_text_hgL3m4",
     "image_with_text_rGGVqi",
+    "image_with_text_hgL3m4",
     "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
     "main",
     "777bc39f-f226-475d-9662-b4473acf5755"
