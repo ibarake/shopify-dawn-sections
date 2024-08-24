@@ -43,7 +43,7 @@
         "text_AzLPrU": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> <\/p><p>Multiparque | Autopista Nte No. 224 - 60, Bogotá <\/p><p><strong>Horarios de Atención:<\/strong><\/p><p>Todos los dias y festivos <\/p><p>10 AM a 7 PM<\/p>",
+            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> <\/p><p>Multiparque | Autopista N. No. 224 - 60, Bogotá <\/p><p><strong>Horarios de Atención:<\/strong><\/p><p>Todos los dias y festivos <\/p><p>10 AM a 7 PM<\/p>",
             "text_style": "body"
           }
         },
@@ -61,7 +61,7 @@
         "button_EA64Kh"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-06-28_at_2.26.08_PM.jpg",
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-08-24_at_16.53.48.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
