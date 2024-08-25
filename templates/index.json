@@ -191,22 +191,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "17206283303b9acc9b": {
-      "type": "apps",
-      "blocks": {
-        "google_reviews_plus_app_block_Q9rUeU": {
-          "type": "shopify:\/\/apps\/google-reviews-plus\/blocks\/app-block\/d11c8893-a181-4aff-a280-7446d42cec3b",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "google_reviews_plus_app_block_Q9rUeU"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "3c0f41fc-9aba-4927-9907-4884cc477768": {
       "type": "featured-collection",
       "custom_css": [
@@ -395,6 +379,22 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "17206283303b9acc9b": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_Q9rUeU": {
+          "type": "shopify:\/\/apps\/google-reviews-plus\/blocks\/app-block\/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_Q9rUeU"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "custom_collections_GtVtHw": {
@@ -751,10 +751,10 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091",
     "slideshow_dTBPGe",
     "custom_collections_baBDHY",
-    "17206283303b9acc9b",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "featured_collection_h97Y38",
+    "17206283303b9acc9b",
     "custom_collections_GtVtHw",
     "featured_collection_mjjnk9",
     "custom_collections_RBBGjc",
