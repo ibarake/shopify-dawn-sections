@@ -9,6 +9,7 @@
 */
 {
   "current": {
+    "addi_widget": false,
     "wapp_side": "right",
     "show_whatsapp": true,
     "include_product": true,
