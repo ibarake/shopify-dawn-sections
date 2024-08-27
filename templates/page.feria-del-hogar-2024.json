@@ -43,7 +43,7 @@
         "subheading": "Regístrate y gana",
         "heading": "1 de 5 premios",
         "spacing": 286,
-        "image": "shopify:\/\/shop_images\/AHS_Homey_Influencer_097_FA1_dwkplf_web_ab01c7f8-4a8b-4df2-b117-ba06b302ce6a.webp",
+        "image": "shopify:\/\/shop_images\/Prueba_banner_069259ce-ab21-4f15-8921-01a77520e762.png",
         "bg-color": "#f3f3f3",
         "color": "#121212",
         "img-position": "center center",
@@ -66,63 +66,20 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_BPBzzk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WJ9Gi4": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Nuestro Propósito<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text_DABEMd": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Inspirar el amor por el hogar y enriquecer las vidas de todos los que nos rodean.<\/h2>"
-          }
-        },
-        "button_WH7pgn": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_WJ9Gi4",
-        "text_DABEMd",
-        "button_WH7pgn"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "image_with_text_qErYDq": {
       "type": "image-with-text",
       "blocks": {
         "heading_zk4Ywx": {
           "type": "heading",
           "settings": {
-            "heading": "El Legado de Ashley",
+            "heading": "Únete a nuestro newsletter y gana uno de los 5 premios de hasta $1'000.000 COP cada uno.",
             "heading_size": "h2"
           }
         },
         "text_3Utx9r": {
           "type": "text",
           "settings": {
-            "text": "<p>Alguna vez fuimos una compañía familiar con 35 empleados en 1970. Ahora somos un equipo de más de 35,000 valiosos miembros en todo el mundo, con fábricas y oficinas en 280 hectáreas y presencia en 155 países, lo que nos permite crear nuevos empleos y seguir dinamizando las economías.<\/p>",
+            "text": "<p><strong>¡Suscríbete a nuestro newsletter entre el 29 de agosto y el 15 de septiembre y ¡entra en el sorteo de uno de los 5 premios que tenemos para ti! <\/strong><\/p><p>El sorteo se realizará el viernes 20 de septiembre de 2024. <\/p><p>*Aplican términos y condiciones. Los premios se asignarán aleatoriamente, el costo de envío corre por cuenta del ganador y los premios no son canjeables por dinero en efectivo.<\/p>",
             "text_style": "body"
           }
         },
@@ -399,7 +356,6 @@
     "1720719707798c886e",
     "custom_hero_banner_H6KUWB",
     "main",
-    "rich_text_BPBzzk",
     "image_with_text_qErYDq",
     "image_with_text_KMDjJg",
     "multicolumn_3DmH9n",
