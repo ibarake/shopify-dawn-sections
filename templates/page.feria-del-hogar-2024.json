@@ -37,27 +37,6 @@
         "include_margins": true
       }
     },
-    "custom_hero_banner_H6KUWB": {
-      "type": "custom-hero-banner",
-      "settings": {
-        "subheading": "Regístrate y gana",
-        "heading": "1 de 5 premios",
-        "spacing": 286,
-        "image": "shopify:\/\/shop_images\/Prueba_banner_069259ce-ab21-4f15-8921-01a77520e762.png",
-        "bg-color": "#f3f3f3",
-        "color": "#121212",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#ffffff",
-        "btn-bg-color-hover": "#ffffff",
-        "btn-txt-color": "#ffffff",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -72,14 +51,14 @@
         "heading_zk4Ywx": {
           "type": "heading",
           "settings": {
-            "heading": "Únete a nuestro newsletter y gana uno de los 5 premios de hasta $1'000.000 COP cada uno.",
+            "heading": "Únete a nuestro newsletter y gana uno de los 3 bonos de $1'000.000 COP para redimir en nuestra tienda.",
             "heading_size": "h2"
           }
         },
         "text_3Utx9r": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>¡Suscríbete a nuestro newsletter entre el 29 de agosto y el 15 de septiembre y ¡entra en el sorteo de uno de los 5 premios que tenemos para ti! <\/strong><\/p><p>El sorteo se realizará el viernes 20 de septiembre de 2024. <\/p><p>*Aplican términos y condiciones. Los premios se asignarán aleatoriamente, el costo de envío corre por cuenta del ganador y los premios no son canjeables por dinero en efectivo.<\/p>",
+            "text": "<p><strong>Suscríbete a nuestro newsletter entre el 29 de agosto y el 15 de septiembre y ¡entra en el sorteo de uno de los 3 bonos que tenemos para ti! <\/strong><\/p><p>El sorteo se realizará el viernes 20 de septiembre de 2024. <\/p><p>* Aplican términos y condiciones. Los bonos son personales e intransferibles, válidos únicamente en Ashley Bogotá hasta el 31 de diciembre de 2024. Deben redimirse por productos.  No son canjeables por dinero en efectivo. Los premios se asignarán de manera aleatoria.<\/p>",
             "text_style": "body"
           }
         },
@@ -109,6 +88,27 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "slideshow_tBEcEa": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Wm8bKN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Prueba_banner_069259ce-ab21-4f15-8921-01a77520e762.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_Wm8bKN"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
       }
     },
     "image_with_text_KMDjJg": {
@@ -256,9 +256,9 @@
   },
   "order": [
     "1720719707798c886e",
-    "custom_hero_banner_H6KUWB",
     "main",
     "image_with_text_qErYDq",
+    "slideshow_tBEcEa",
     "image_with_text_KMDjJg",
     "17207332740b186fae",
     "featured_collection_kewnFY",
