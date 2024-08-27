@@ -117,14 +117,14 @@
         "heading_LWq4UC": {
           "type": "heading",
           "settings": {
-            "heading": "Próximamente Ashley en Multiparque",
+            "heading": "Visítanos en Feria del Hogar",
             "heading_size": "h2"
           }
         },
         "text_ELY4zE": {
           "type": "text",
           "settings": {
-            "text": "<p>Multiparque ha sido la cuna de las leyendas muebleras de Colombia. Es un honor iniciar nuestra expansión siendo el ancla de este icónico parque de diversiones en Bogotá.<\/p>",
+            "text": "<p>Te esperamos desde el jueves 29 de Agosto hasta el domingo 15 de septiembre. Pabellón 17, Stand 1406<\/p>",
             "text_style": "body"
           }
         },
@@ -143,7 +143,7 @@
         "button_jJycyd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-06-28_at_2.26.08_PM.jpg",
+        "image": "shopify:\/\/shop_images\/1694989380943.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -152,104 +152,6 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_3DmH9n": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_UwmTpa": {
-          "type": "column",
-          "settings": {
-            "title": "Propuesta de Valor",
-            "text": "<p><strong>Mas de 10,000 referencias<\/strong>, 20 categorías de producto, 9 estilos, entrega inmediata', <strong>servicio excepciona<\/strong>l, calidad y <strong>precio correcto en un solo lugar.<\/strong><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gFJCP8": {
-          "type": "column",
-          "settings": {
-            "title": "Ashley Furniture",
-            "text": "<p>Con <strong>75 años de experiencia<\/strong>, somos el <strong>mayor fabricante de muebles en el mundo<\/strong> y la <strong>marca número 1 en Estados Unidos<\/strong>. Contamos con más de <strong>1,200 tiendas en más de 65 países.<\/strong><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gpdWUL": {
-          "type": "column",
-          "settings": {
-            "title": "Somos Expertos en Colombia",
-            "text": "<p>El equipo de Clover4 SAS tiene <strong>más de 20 años de experiencia<\/strong> operando las empresas globales de muebles y decoracion <strong>más destacadas en el país.<\/strong><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_UwmTpa",
-        "column_gFJCP8",
-        "column_gpdWUL"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_HG4BGq": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_RLFp6H": {
-          "type": "heading",
-          "settings": {
-            "heading": "Visítanos en la Avenida 19",
-            "heading_size": "h2"
-          }
-        },
-        "text_XCPXHi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Conoce Ashley Furniture en nuestra flasg ship store en la  Avenida 19 No. 109 - 41 en Bogotá.<\/p><p>Estamos para ayudarte a resolver tus necesidades mientras inauguramos nuestra Mega Tienda de Multiparque.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_GN6hT8": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_RLFp6H",
-        "text_XCPXHi",
-        "button_GN6hT8"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -358,8 +260,6 @@
     "main",
     "image_with_text_qErYDq",
     "image_with_text_KMDjJg",
-    "multicolumn_3DmH9n",
-    "image_with_text_HG4BGq",
     "17207332740b186fae",
     "featured_collection_kewnFY",
     "featured_collection_UHTNYf",
