@@ -12,6 +12,14 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
+        "slide_dkxKzP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Feria-del-Hogar.jpg",
+            "image_r": "shopify:\/\/shop_images\/Feria-del-Hogar-mobile.jpg",
+            "link": "https:\/\/ashleycolombia.com\/pages\/tiendas"
+          }
+        },
         "slide_q8hJwn": {
           "type": "slide",
           "settings": {
@@ -30,6 +38,7 @@
         }
       },
       "block_order": [
+        "slide_dkxKzP",
         "slide_q8hJwn",
         "slide_Pyhgb6"
       ],
