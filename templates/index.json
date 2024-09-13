@@ -19,19 +19,10 @@
             "image_r": "shopify:\/\/shop_images\/Banners-Julio-Web-03.jpg",
             "link": "https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+vengo+del+Banner+de+la+p%C3%A1gina+principal+de+ashleycolombia.com.+Podr%C3%ADas+ayudarme%3F"
           }
-        },
-        "slide_q8hJwn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Multiparque.jpg",
-            "image_r": "shopify:\/\/shop_images\/Multiparque-mobile.jpg",
-            "link": "https:\/\/ashleycolombia.com\/pages\/tiendas"
-          }
         }
       },
       "block_order": [
-        "slide_Pyhgb6",
-        "slide_q8hJwn"
+        "slide_Pyhgb6"
       ],
       "settings": {
         "layout": "full_bleed",
