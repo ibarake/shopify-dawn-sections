@@ -330,7 +330,7 @@
             {%- assign variant = product.selected_or_first_available_variant -%}
             {% if variant.inventory_quantity <= 0 %}
               {% if product.selected_or_first_available_variant.metafields.custom.fecha_disponible %}
-                  <p>
+                  <p style="display:none">
                     {{ block.settings.text_fecha }}
                     {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
                   </p>
