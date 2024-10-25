@@ -162,7 +162,7 @@
             {% if variant.inventory_quantity > 0 %}
               <span style="color: green;">En inventario</span>
             {% else %} 
-              <span style="color: red;">Disponible para: {{ variant.metafields.custom.fecha_disponible }}</span>
+              <span style="color: red;">No disponible */para: {% comment %} {{ variant.metafields.custom.fecha_disponible }}{% endcomment %}</span>
             {% endif %}
           </h3>
           <div class="card-information">
