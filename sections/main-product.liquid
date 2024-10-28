@@ -330,13 +330,13 @@
             {%- assign variant = product.selected_or_first_available_variant -%}
             {% if variant.inventory_quantity <= 0 %}
               {% if product.selected_or_first_available_variant.metafields.custom.fecha_disponible %}
-                  <p style="display:none;">
+                  <p >
                     {{ block.settings.text_fecha }}
                     {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
                   </p>
                 {% else %}
                   {% if product.selected_or_first_available_variant.available == false %}
-                    <p style="display:none;">
+                    <p >
                       {{ block.settings.text_fecha }}
                       {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
                     </p>
