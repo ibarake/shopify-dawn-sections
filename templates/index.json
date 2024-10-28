@@ -160,36 +160,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "3c0f41fc-9aba-4927-9907-4884cc477768": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "Poltronas",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "sillas-para-sala-y-habitacion",
-        "products_to_show": 11,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f": {
       "type": "custom-collections",
       "blocks": {
@@ -323,49 +293,6 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
-    "featured_collection_h97Y38": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "lámparas de techo",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "lamparas-de-techo",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "17206283303b9acc9b": {
-      "type": "apps",
-      "blocks": {
-        "google_reviews_plus_app_block_Q9rUeU": {
-          "type": "shopify://apps/google-reviews-plus/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "google_reviews_plus_app_block_Q9rUeU"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "custom_collections_GtVtHw": {
       "type": "custom-collections",
       "blocks": {
@@ -495,6 +422,79 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
+    "3c0f41fc-9aba-4927-9907-4884cc477768": {
+      "type": "featured-collection",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "title": "Poltronas",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sillas-para-sala-y-habitacion",
+        "products_to_show": 11,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_h97Y38": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "lámparas de techo",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lamparas-de-techo",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17206283303b9acc9b": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_Q9rUeU": {
+          "type": "shopify://apps/google-reviews-plus/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_Q9rUeU"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "featured_collection_mjjnk9": {
       "type": "featured-collection",
       "settings": {
@@ -561,28 +561,6 @@
       "settings": {
         "btn-txt-color": "#363534",
         "btn-bg-color": "#f4f4f4"
-      }
-    },
-    "slideshow_dTBPGe": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_mJhXMy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/atributos_9f93b15d-90e2-4a55-80ce-abab5568cb96.png",
-            "image_r": "shopify://shop_images/atributos_mobile_d8b6d479-4cba-47af-8c53-435b12518c44.png",
-            "link": "https://api.whatsapp.com/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda+Confianza"
-          }
-        }
-      },
-      "block_order": [
-        "slide_mJhXMy"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 5
       }
     },
     "featured_collection_WcGghW": {
@@ -736,16 +714,38 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "slideshow_dTBPGe": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_mJhXMy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/atributos_9f93b15d-90e2-4a55-80ce-abab5568cb96.png",
+            "image_r": "shopify://shop_images/atributos_mobile_d8b6d479-4cba-47af-8c53-435b12518c44.png",
+            "link": "https://api.whatsapp.com/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda+Confianza"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mJhXMy"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 5
+      }
     }
   },
   "order": [
     "fb110c7a-4332-4d8d-b923-860cd019d091",
     "custom_collections_baBDHY",
-    "3c0f41fc-9aba-4927-9907-4884cc477768",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
+    "custom_collections_GtVtHw",
+    "3c0f41fc-9aba-4927-9907-4884cc477768",
     "featured_collection_h97Y38",
     "17206283303b9acc9b",
-    "custom_collections_GtVtHw",
     "featured_collection_mjjnk9",
     "custom_collections_RBBGjc",
     "featured_collection_WcGghW",
