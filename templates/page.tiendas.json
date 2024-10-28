@@ -87,7 +87,7 @@
         "text_4bzdWV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> Av. Cra 19 #109-41, Bogotá.</p><p><strong>Teléfono: </strong>+57 (300) 913-246</p><p><strong>WhatsApp: </strong><a href=\"https://wa.me/573007331806\" target=\"_blank\" title=\"https://wa.me/573007331806\">+57 (300) 733-1806</a></p><p><br/><strong>Horarios de Tienda:</strong></p><p>Domingo a Jueves: 10 AM - 7 PM<br/>Viernes y Sábado: 10 AM - 8 PM</p><p></p>",
+            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> Av. Cra 19 #109-41, Bogotá.</p><p><strong>Teléfono: </strong>+57 (300) 913-246</p><p><a href=\"https://wa.me/573009132465\" title=\"WhatsApp Ashley Avenida 19 Bogotá\"><strong>WhatsApp Haz Click</strong></a><strong>:</strong></p><p><br/><strong>Horarios de Tienda:</strong></p><p>Domingo a Jueves: 10 AM - 7 PM<br/>Viernes y Sábado: 10 AM - 8 PM</p><p></p>",
             "text_style": "body"
           }
         },
@@ -118,16 +118,48 @@
         "padding_bottom": 36
       }
     },
-    "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8": {
-      "type": "custom-liquid",
-      "custom_css": [
-
+    "image_with_text_7XCYRK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QpFFiC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Próximamente Ashley en La Costa en Barranquilla",
+            "heading_size": "h2"
+          }
+        },
+        "text_pjCVCN": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Dirección:</strong> </p><p>Alto Prado Barranquilla </p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\">WhatsApp Haz Click</a></p>",
+            "text_style": "body"
+          }
+        },
+        "button_MxQ9tq": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QpFFiC",
+        "text_pjCVCN",
+        "button_MxQ9tq"
       ],
       "settings": {
-        "custom_liquid": "<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1sXuHz6TcL3X4hFwePKEJ9f4fpaG3dIg&ehbc=2E312F\" width=\"100%\" height=\"480\"></iframe>",
+        "image": "shopify://shop_images/banner_dos_9fa14c0a-0c52-4e87-82df-87558f5a6038.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 0
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
@@ -180,7 +212,7 @@
     "custom_hero_banner_wFANBY",
     "image_with_text_rGGVqi",
     "image_with_text_hgL3m4",
-    "89592feb-226d-4b21-b7fd-bd2c6b5bf2a8",
+    "image_with_text_7XCYRK",
     "main",
     "777bc39f-f226-475d-9662-b4473acf5755"
   ]
