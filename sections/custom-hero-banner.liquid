@@ -21,10 +21,8 @@
     gap: 0px 0px;
     height: {{ section.settings.img-height }}px;
     padding: 0 16px 0 16px;
-    background-color: rgba(
-      {{ settings.bg_color | color_to_rgb | join: ', ' }},
-      {{ settings.bg_opacity }}
-    );
+    background-color: {{ settings.bg_color }};
+    opacity: {{ settings.bg_opacity }};
     color: {{ section.settings.color }};
   }
   .content-spacer{
