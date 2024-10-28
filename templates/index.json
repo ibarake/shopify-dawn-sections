@@ -479,22 +479,6 @@
         "padding_bottom": 36
       }
     },
-    "17206283303b9acc9b": {
-      "type": "apps",
-      "blocks": {
-        "google_reviews_plus_app_block_Q9rUeU": {
-          "type": "shopify://apps/google-reviews-plus/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "google_reviews_plus_app_block_Q9rUeU"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "featured_collection_mjjnk9": {
       "type": "featured-collection",
       "settings": {
@@ -608,6 +592,22 @@
         "show_view_all": false,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "17206283303b9acc9b": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_Q9rUeU": {
+          "type": "shopify://apps/google-reviews-plus/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_Q9rUeU"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5": {
@@ -743,13 +743,13 @@
     "custom_collections_baBDHY",
     "ceb85f3e-2e32-4555-9627-d705ec2a2d8f",
     "custom_collections_GtVtHw",
+    "custom_collections_RBBGjc",
     "3c0f41fc-9aba-4927-9907-4884cc477768",
     "featured_collection_h97Y38",
-    "17206283303b9acc9b",
     "featured_collection_mjjnk9",
-    "custom_collections_RBBGjc",
     "featured_collection_WcGghW",
     "550a77d6-6997-4664-8f4e-1c2f99b213d6",
+    "17206283303b9acc9b",
     "2b005d30-4e48-4619-8a3b-2ebf0b4880b5",
     "multicolumn_DPynT8",
     "slideshow_dTBPGe"
