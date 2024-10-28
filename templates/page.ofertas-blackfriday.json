@@ -393,6 +393,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "Heading text",
+            "section-alignment": "left",
             "title-alignment": "flex-start",
             "collection-title": "",
             "collection": "",
@@ -543,10 +544,32 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_hero_banner_6eKLQm": {
+      "type": "custom-hero-banner",
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "spacing": 300,
+        "image": "shopify://shop_images/ultimo_dia-01.jpg",
+        "bg-color": "#FFFFFF",
+        "color": "#FFFFFF",
+        "img-position": "center center",
+        "button-text": "",
+        "button_link": "",
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#FFFFFF",
+        "btn-bg-color-hover": "#FFFFFF",
+        "btn-txt-color": "#FFFFFF",
+        "img-height": 540,
+        "responsive-container-height": 300,
+        "responsive-img-height": 300
+      }
     }
   },
   "order": [
     "main",
+    "custom_hero_banner_6eKLQm",
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
