@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_hero_banner_wFANBY": {
@@ -15,7 +15,7 @@
         "subheading": "Estamos para Ayudarte",
         "heading": "Equipo Ashley",
         "spacing": 100,
-        "image": "shopify:\/\/shop_images\/Equipo_Ashley-02.webp",
+        "image": "shopify://shop_images/Equipo_Ashley-02.webp",
         "bg-color": "#f3f3f3",
         "color": "#121212",
         "img-position": "center center",
@@ -36,14 +36,14 @@
         "heading_ecN48R": {
           "type": "heading",
           "settings": {
-            "heading": "Ashley Multiparque Bogotá",
-            "heading_size": "h1"
+            "heading": "Mega Tienda Ashley en Multiparque Bogotá",
+            "heading_size": "h2"
           }
         },
         "text_AzLPrU": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> <\/p><p>Multiparque | Autopista N. No. 224 - 60, Bogotá <\/p><p><strong>Horarios de Atención:<\/strong><\/p><p>Todos los dias y festivos <\/p><p>10 AM a 7 PM<\/p>",
+            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> </p><p>Multiparque | Autopista N. No. 224 - 60, Bogotá </p><p><strong>Teléfono: </strong>+57 (300) 974-7019</p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\">WhatsApp Haz Click</a></p><p><strong>Horarios de Atención:</strong></p><p>Todos los dias y festivos </p><p>10 AM a 7 PM</p>",
             "text_style": "body"
           }
         },
@@ -61,7 +61,7 @@
         "button_EA64Kh"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-08-24_at_16.53.48.jpg",
+        "image": "shopify://shop_images/WhatsApp_Image_2024-08-24_at_16.53.48.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -80,14 +80,14 @@
         "heading_9UHwrG": {
           "type": "heading",
           "settings": {
-            "heading": "Ashley Avenida 19 Bogotá",
-            "heading_size": "h1"
+            "heading": "Tienda Ashley |  Avenida 19 Bogotá",
+            "heading_size": "h2"
           }
         },
         "text_4bzdWV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Visítanos<\/strong><\/p><p><strong>Dirección:<\/strong> Av. Cra 19 #109-41, Bogotá.<\/p><p><strong>Teléfono: <\/strong>+57 (300) 913-246<\/p><p><strong>WhatsApp: <\/strong><a href=\"https:\/\/wa.me\/573007331806\" target=\"_blank\" title=\"https:\/\/wa.me\/573007331806\">+57 (300) 733-1806<\/a><\/p><p><br\/><strong>Horarios de Tienda:<\/strong><\/p><p>Domingo a Jueves: 10 AM - 7 PM<br\/>Viernes y Sábado: 10 AM - 8 PM<\/p><p><\/p>",
+            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> Av. Cra 19 #109-41, Bogotá.</p><p><strong>Teléfono: </strong>+57 (300) 913-246</p><p><strong>WhatsApp: </strong><a href=\"https://wa.me/573007331806\" target=\"_blank\" title=\"https://wa.me/573007331806\">+57 (300) 733-1806</a></p><p><br/><strong>Horarios de Tienda:</strong></p><p>Domingo a Jueves: 10 AM - 7 PM<br/>Viernes y Sábado: 10 AM - 8 PM</p><p></p>",
             "text_style": "body"
           }
         },
@@ -105,7 +105,7 @@
         "button_gKyXfn"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
+        "image": "shopify://shop_images/Untitled_design_23.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -124,7 +124,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/u\/0\/embed?mid=1sXuHz6TcL3X4hFwePKEJ9f4fpaG3dIg&ehbc=2E312F\" width=\"100%\" height=\"480\"><\/iframe>",
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1sXuHz6TcL3X4hFwePKEJ9f4fpaG3dIg&ehbc=2E312F\" width=\"100%\" height=\"480\"></iframe>",
         "color_scheme": "background-1",
         "padding_top": 20,
         "padding_bottom": 0
@@ -147,8 +147,8 @@
             "first-title": "",
             "second-title": "",
             "button-text": "Sofás",
-            "banner-image": "shopify:\/\/shop_images\/blackfriday-salas-ashley-colombia.jpg",
-            "button_link": "shopify:\/\/collections\/black-friday-sofas"
+            "banner-image": "shopify://shop_images/blackfriday-salas-ashley-colombia.jpg",
+            "button_link": "shopify://collections/black-friday-sofas"
           }
         },
         "d8e164aa-ae5a-41d1-8d65-c024d2b6dc04": {
@@ -157,8 +157,8 @@
             "first-title": "",
             "second-title": "",
             "button-text": "Comedores",
-            "banner-image": "shopify:\/\/shop_images\/blackfriday-comedores-ashley-colombia.jpg",
-            "button_link": "shopify:\/\/collections\/black-friday-comedores"
+            "banner-image": "shopify://shop_images/blackfriday-comedores-ashley-colombia.jpg",
+            "button_link": "shopify://collections/black-friday-comedores"
           }
         }
       },
