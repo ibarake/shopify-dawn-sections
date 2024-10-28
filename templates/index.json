@@ -300,7 +300,7 @@
           "type": "collection",
           "settings": {
             "heading-text": "",
-            "section-alignment": "left",
+            "section-alignment": "right",
             "title-alignment": "flex-start",
             "collection-title": "Dormitorio",
             "collection": "dormitorio",
