@@ -57,12 +57,12 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "title": "",
+        "title": "Sofás",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "detalles-que-enamoran",
+        "collection": "sofas-black-friday",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": true,
