@@ -111,9 +111,9 @@
     "featured_collection_Twcmkx": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Accesorios Decorativos",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Realza tus espacios con la magia de los detalles decorativos.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "",
