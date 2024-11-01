@@ -135,15 +135,15 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_caL79p": {
+    "featured_collection_XVaCtR": {
       "type": "featured-collection",
       "settings": {
         "title": "Alfombras",
         "heading_size": "h1",
-        "description": "<p>Da vida, color y confort a cada en rincón.</p>",
+        "description": "<p>Da vida, color y confort a cada rincón de tu hogar</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "alfombras-black-friday-2024",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -642,7 +642,7 @@
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "featured_collection_3YdF7t",
     "featured_collection_Twcmkx",
-    "featured_collection_caL79p",
+    "featured_collection_XVaCtR",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
