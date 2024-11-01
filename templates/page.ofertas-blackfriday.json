@@ -439,24 +439,13 @@
         "padding_bottom": 0
       }
     },
-    "d7d37ea8-6ba0-4e73-bf36-085dc873eec2": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "67273f3a-52d1-48b2-a974-4db367375c32": {
       "type": "slideshow",
       "blocks": {
         "35de342f-99ac-42d5-ac1c-8cf32a4daab5": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/unnamed.jpg",
+            "image": "shopify://shop_images/Banner_delgado.jpg",
             "image_r": "shopify://shop_images/unnamed.jpg",
             "link": ""
           }
@@ -755,6 +744,7 @@
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "featured_collection_kYxwU7",
     "featured_collection_XVaCtR",
+    "67273f3a-52d1-48b2-a974-4db367375c32",
     "featured_collection_3YdF7t",
     "featured_collection_Twcmkx",
     "featured_collection_pVwmg4",
@@ -764,8 +754,6 @@
     "featured_collection_4d7YzB",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
-    "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
-    "67273f3a-52d1-48b2-a974-4db367375c32",
     "e10a64e5-b52f-4c65-83af-5f6f6a854ffb",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "c7c8373c-77fd-4b66-be7d-c06a4abd68b8",
