@@ -108,6 +108,33 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_XVaCtR": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Alfombras",
+        "heading_size": "h1",
+        "description": "<p>Da vida, color y confort a cada rincón de tu hogar</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "alfombras-black-friday-2024",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_3YdF7t": {
       "type": "featured-collection",
       "settings": {
@@ -144,33 +171,6 @@
         "show_description": false,
         "description_style": "body",
         "collection": "accesorios-decorativos-black-friday-2024",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_XVaCtR": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Alfombras",
-        "heading_size": "h1",
-        "description": "<p>Da vida, color y confort a cada rincón de tu hogar</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "alfombras-black-friday-2024",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -668,9 +668,9 @@
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "featured_collection_kYxwU7",
+    "featured_collection_XVaCtR",
     "featured_collection_3YdF7t",
     "featured_collection_Twcmkx",
-    "featured_collection_XVaCtR",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "d7d37ea8-6ba0-4e73-bf36-085dc873eec2",
