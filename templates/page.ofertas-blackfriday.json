@@ -135,6 +135,28 @@
         "padding_bottom": 36
       }
     },
+    "67273f3a-52d1-48b2-a974-4db367375c32": {
+      "type": "slideshow",
+      "blocks": {
+        "35de342f-99ac-42d5-ac1c-8cf32a4daab5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_delgado.jpg",
+            "image_r": "shopify://shop_images/unnamed.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "35de342f-99ac-42d5-ac1c-8cf32a4daab5"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
     "featured_collection_3YdF7t": {
       "type": "featured-collection",
       "settings": {
@@ -378,14 +400,14 @@
             "image": "shopify://shop_images/Camas-Orange.png",
             "title": "",
             "text": "",
-            "link_label": "Dormitorio",
-            "link": "shopify://collections/orange-is-christmas-camas"
+            "link_label": "Poltronas",
+            "link": "shopify://collections/poltronas-black-friday-2024"
           }
         },
         "3d362d61-83a8-4f68-8887-92f46fe6e4a3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sofas-Orange.png",
+            "image": "shopify://shop_images/dramatic_59031759-32ae-4948-a4cd-803aa2afe9f9.jpg",
             "title": "",
             "text": "",
             "link_label": "Sofás",
@@ -398,8 +420,8 @@
             "image": "shopify://shop_images/orange-christmas-comedores.jpg",
             "title": "",
             "text": "",
-            "link_label": "Comedores",
-            "link": "shopify://collections/orange-is-christmas-comedores"
+            "link_label": "Lámparas",
+            "link": "shopify://collections/lamparas-black-friday-2024"
           }
         },
         "c591d96e-97e7-4109-965e-375bc8c63358": {
@@ -408,7 +430,7 @@
             "image": "shopify://shop_images/orange-christmas-accesorios_e045b0e3-c204-4f3e-89bb-78bff348f60d.jpg",
             "title": "",
             "text": "",
-            "link_label": "Accesorios",
+            "link_label": "Dormitorio",
             "link": "shopify://collections/detalles-que-enamoran"
           }
         }
@@ -436,72 +458,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "67273f3a-52d1-48b2-a974-4db367375c32": {
-      "type": "slideshow",
-      "blocks": {
-        "35de342f-99ac-42d5-ac1c-8cf32a4daab5": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_delgado.jpg",
-            "image_r": "shopify://shop_images/unnamed.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "35de342f-99ac-42d5-ac1c-8cf32a4daab5"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
-      }
-    },
-    "e10a64e5-b52f-4c65-83af-5f6f6a854ffb": {
-      "type": "collage",
-      "blocks": {
-        "template--21725082648883__e10a64e5-b52f-4c65-83af-5f6f6a854ffb-product-1": {
-          "type": "product",
-          "settings": {
-            "product": "jarron-efim-sku-a2000575",
-            "second_image": true
-          }
-        },
-        "0a5e1d67-78c6-489a-9baf-c3b413fc4c3d": {
-          "type": "product",
-          "settings": {
-            "product": "sofa-3-puestos-macleary",
-            "second_image": true
-          }
-        },
-        "aabd3b4f-bc00-42c1-b8f9-b218caf25500": {
-          "type": "product",
-          "settings": {
-            "product": "mesa-de-comedor-coviar",
-            "second_image": true
-          }
-        }
-      },
-      "block_order": [
-        "template--21725082648883__e10a64e5-b52f-4c65-83af-5f6f6a854ffb-product-1",
-        "0a5e1d67-78c6-489a-9baf-c3b413fc4c3d",
-        "aabd3b4f-bc00-42c1-b8f9-b218caf25500"
-      ],
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "heading": "Convierte tu espacio en un hogar",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 48,
         "padding_bottom": 0
       }
     },
@@ -654,66 +610,6 @@
         "btn-color": "#363534"
       }
     },
-    "36c16fc3-6178-43f1-8281-9cbb6abfe74c": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-sofas",
-        "products_to_show": 11,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "c4898edd-ca64-40e0-a383-4c8002642c17": {
-      "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "black-friday-comedores",
-        "products_to_show": 12,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
       "type": "rich-text",
       "blocks": {
@@ -732,8 +628,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -754,13 +650,10 @@
     "featured_collection_4d7YzB",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
-    "e10a64e5-b52f-4c65-83af-5f6f6a854ffb",
     "c4ef97fe-086d-4e4d-a973-dd94d865cf4b",
     "c7c8373c-77fd-4b66-be7d-c06a4abd68b8",
     "3f3ec7d3-a0cf-4fa8-bc97-8820ed57cb4b",
     "777bc39f-f226-475d-9662-b4473acf5755",
-    "36c16fc3-6178-43f1-8281-9cbb6abfe74c",
-    "c4898edd-ca64-40e0-a383-4c8002642c17",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866"
   ]
 }
