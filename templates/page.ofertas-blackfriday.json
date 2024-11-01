@@ -137,19 +137,6 @@
     },
     "67273f3a-52d1-48b2-a974-4db367375c32": {
       "type": "slideshow",
-      "blocks": {
-        "35de342f-99ac-42d5-ac1c-8cf32a4daab5": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_delgado.jpg",
-            "image_r": "shopify://shop_images/unnamed.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "35de342f-99ac-42d5-ac1c-8cf32a4daab5"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
