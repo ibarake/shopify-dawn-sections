@@ -15,8 +15,8 @@
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/carla_Banners_Julio_Web_final-03.png",
-            "image_r": "shopify://shop_images/Banners-Julio-Web-03.jpg",
+            "image": "shopify://shop_images/Black_Friday_79ea0506-d07a-44c7-87bd-5d4bd5a56c20.jpg",
+            "image_r": "shopify://shop_images/Black_Friday-03.jpg",
             "link": "https://api.whatsapp.com/send?phone=+573007331806&text=Hola%2C+vengo+del+Banner+de+la+p%C3%A1gina+principal+de+ashleycolombia.com.+Podr%C3%ADas+ayudarme%3F"
           }
         }
@@ -422,6 +422,47 @@
         "btn-bg-color": "#f4f4f4"
       }
     },
+    "custom_collections_RBBGjc": {
+      "type": "custom-collections",
+      "blocks": {
+        "collection_jcYXFW": {
+          "type": "collection",
+          "settings": {
+            "heading-text": "Terraza y Decoración",
+            "section-alignment": "left",
+            "title-alignment": "flex-start",
+            "collection-title": "",
+            "collection": "muebles-de-patio",
+            "button-title": "Todo de Exterior",
+            "blocks-selection": "collections",
+            "product_list": [
+
+            ],
+            "collection_list": [
+              "jarrones-y-botellas",
+              "alfombras-1",
+              "esculturas",
+              "esculturas-de-pared",
+              "cuadros-de-pared",
+              "lamparas"
+            ],
+            "poc-1": "Jarrones y Floreros",
+            "poc-2": "Tapetes",
+            "poc-3": "Esculturas",
+            "poc-4": "Escultura de Pared",
+            "poc-5": "Cuadros",
+            "poc-6": "Lámparas"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jcYXFW"
+      ],
+      "settings": {
+        "btn-txt-color": "#363534",
+        "btn-bg-color": "#f4f4f4"
+      }
+    },
     "3c0f41fc-9aba-4927-9907-4884cc477768": {
       "type": "featured-collection",
       "custom_css": [
@@ -504,47 +545,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "custom_collections_RBBGjc": {
-      "type": "custom-collections",
-      "blocks": {
-        "collection_jcYXFW": {
-          "type": "collection",
-          "settings": {
-            "heading-text": "Terraza y Decoración",
-            "section-alignment": "left",
-            "title-alignment": "flex-start",
-            "collection-title": "",
-            "collection": "muebles-de-patio",
-            "button-title": "Todo de Exterior",
-            "blocks-selection": "collections",
-            "product_list": [
-
-            ],
-            "collection_list": [
-              "jarrones-y-botellas",
-              "alfombras-1",
-              "esculturas",
-              "esculturas-de-pared",
-              "cuadros-de-pared",
-              "lamparas"
-            ],
-            "poc-1": "Jarrones y Floreros",
-            "poc-2": "Tapetes",
-            "poc-3": "Esculturas",
-            "poc-4": "Escultura de Pared",
-            "poc-5": "Cuadros",
-            "poc-6": "Lámparas"
-          }
-        }
-      },
-      "block_order": [
-        "collection_jcYXFW"
-      ],
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
       }
     },
     "featured_collection_WcGghW": {
