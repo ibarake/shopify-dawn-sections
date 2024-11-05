@@ -547,6 +547,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "12476284290585462717": {
+        "type": "shopify://apps/doofinder-search-discovery/blocks/doofinder-script/1abc6bc6-ff36-4a37-9034-effae4a47cf6",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
