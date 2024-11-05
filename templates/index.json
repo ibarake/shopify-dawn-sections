@@ -677,7 +677,7 @@
         "column_hQiQpy": {
           "type": "column",
           "settings": {
-            "title": "Respaldo y garantía",
+            "title": "Respaldo y Garantía",
             "text": "<p>Garantía de 2 años en todos nuestros productos*</p>",
             "link_label": "",
             "link": ""
@@ -686,7 +686,7 @@
         "column_XF83g3": {
           "type": "column",
           "settings": {
-            "title": "Pagos y financiamiento",
+            "title": "Pagos y Financiamiento",
             "text": "<p>Aceptamos MasterCard, Visa, American Express y más</p>",
             "link_label": "",
             "link": ""
@@ -705,10 +705,10 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
