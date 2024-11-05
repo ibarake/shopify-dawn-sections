@@ -469,7 +469,7 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "title": "Poltronas",
+        "title": "poltronas",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -580,7 +580,7 @@
         ".article-card__excerpt {width: 100%; margin-top: 1.2rem; font: caption;}"
       ],
       "settings": {
-        "heading": "Blog posts",
+        "heading": "blog",
         "heading_size": "h2",
         "blog": "news",
         "post_limit": 3,
