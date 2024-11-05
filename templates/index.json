@@ -524,7 +524,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "accesorios decorativos",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -551,7 +551,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "lámparas de piso",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
