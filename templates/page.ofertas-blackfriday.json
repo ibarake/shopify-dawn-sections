@@ -135,27 +135,6 @@
         "padding_bottom": 36
       }
     },
-    "67273f3a-52d1-48b2-a974-4db367375c32": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_PfHtcU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_delgado.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_PfHtcU"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
-      }
-    },
     "featured_collection_wcyL6L": {
       "type": "featured-collection",
       "settings": {
@@ -487,13 +466,34 @@
         "padding_bottom": 0
       }
     },
+    "67273f3a-52d1-48b2-a974-4db367375c32": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_PfHtcU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_delgado.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_PfHtcU"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
       "type": "rich-text",
       "blocks": {
         "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5><strong>Términos y Condiciones</strong></h5><h5>*Aplican términos y condiciones. Los precios publicados son válidos hasta el 31 de diciembre del 2023 o hasta  agotar existencia lo que primero suceda. Estos productos no tienen cambio, devolución, ni derecho a retracto de compra. La disponibilidad de entrega es inmediata por lo que el tiempo de entrega no puede ser mayor a 30 días o de lo contrario se realizará un cobro adicional de almacenamiento en bodega.</h5>"
+            "text": "<h5><strong>* Aplican Términos y Condiciones. Válido para productos seleccionados. Unidades Limitadas. 01 de Nov. al 02 de Dic. 2024</strong></h5><h5>*Campaña Black Friday - Términos y Condiciones: Vigente del 1 de noviembre al 2 de diciembre de 2024, hasta las 7:00 p.m. Los descuentos aplican solo a referencias seleccionadas y en unidades limitadas, sujetas a disponibilidad. Oferta válida en nuestras tiendas de Av. 19 #109-41 y Autopista Norte #224-60 en Bogotá, así como en www.ashleycolombia.com. Una vez agotadas las unidades en promoción, el descuento dejará de aplicarse para ese producto.</h5>"
           }
         }
       },
