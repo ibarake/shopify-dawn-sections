@@ -16,7 +16,7 @@
         "heading": "para ayudarte",
         "spacing": 300,
         "image": "shopify://shop_images/Equipo_Ashley-02.webp",
-        "bg-color": "#f3f3f3",
+        "bg_color": "#FFFFFF",
         "color": "#121212",
         "img-position": "center center",
         "button-text": "",
@@ -87,7 +87,7 @@
         "text_4bzdWV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> Av. Cra 19 #109-41, Bogotá.</p><p><strong>Teléfono: </strong>+57 (300) 913-246</p><p><a href=\"https://wa.me/573009132465\" title=\"WhatsApp Ashley Avenida 19 Bogotá\"><strong>WhatsApp Haz Click</strong></a><strong>:</strong></p><p><br/><strong>Horarios de Tienda:</strong></p><p>Domingo a Jueves: 10 AM - 7 PM<br/>Viernes y Sábado: 10 AM - 8 PM</p><p></p>",
+            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> Av. Cra 19 #109-41, Bogotá.</p><p><strong>Teléfono: </strong>+57 (301) 485-7154</p><p><a href=\"https://wa.me/573009132465\" title=\"WhatsApp Ashley Avenida 19 Bogotá\"><strong>WhatsApp Haz Click</strong></a><strong>:</strong></p><p><br/><strong>Horarios de Tienda:</strong></p><p>Domingo a Jueves: 10 AM - 7 PM<br/>Viernes y Sábado: 10 AM - 8 PM</p><p></p>",
             "text_style": "body"
           }
         },
@@ -199,9 +199,7 @@
         "d8e164aa-ae5a-41d1-8d65-c024d2b6dc04"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text-color": "#ffffff",
         "btn-color": "#363534"
