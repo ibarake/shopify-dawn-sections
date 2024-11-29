@@ -12,8 +12,8 @@
     "custom_hero_banner_wFANBY": {
       "type": "custom-hero-banner",
       "settings": {
-        "subheading": "Siempre listos",
-        "heading": "para ayudarte",
+        "subheading": "",
+        "heading": "",
         "spacing": 300,
         "image": "shopify://shop_images/Equipo_Ashley-02.webp",
         "bg_color": "#FFFFFF",
