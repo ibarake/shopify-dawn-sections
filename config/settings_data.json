@@ -183,8 +183,7 @@
           "announcement_7rcQQ7",
           "announcement_BJC66B"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -282,6 +281,7 @@
           },
           "nav_menu_8C6hWr": {
             "type": "nav-menu",
+            "disabled": true,
             "settings": {
               "title": "Black Friday",
               "url": "shopify://pages/ofertas-blackfriday",
@@ -345,8 +345,7 @@
         "blocks": {
           "b96712ea-d296-4dd8-81f9-be6e4c29af2f": {
             "type": "logo",
-            "settings": {
-            }
+            "settings": {}
           },
           "footer-0": {
             "type": "link_list",
@@ -364,8 +363,7 @@
           },
           "37fc670f-ace4-437f-ae8a-a2ebb5e251a5": {
             "type": "newsletter",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -456,9 +454,7 @@
                 "sofa-cama",
                 "sofa-3-puestos-altonbury"
               ],
-              "collection_list": [
-
-              ],
+              "collection_list": [],
               "poc-1": "Product 1 text",
               "poc-2": "Product 2 text",
               "poc-3": "Product 3 text",
@@ -483,9 +479,7 @@
                 "maimz-sofa",
                 "sofa-cama"
               ],
-              "collection_list": [
-
-              ],
+              "collection_list": [],
               "poc-1": "Product 1 text",
               "poc-2": "Product 2 text",
               "poc-3": "Product 3 text",
@@ -512,9 +506,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -533,26 +525,22 @@
       "13768625480086291342": {
         "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "8813254906777318544": {
         "type": "shopify://apps/kaktus-advanced-wishlist/blocks/app-embeded/21053a4c-1902-4720-aab8-ebfc69de009a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12476284290585462717": {
         "type": "shopify://apps/doofinder-search-discovery/blocks/doofinder-script/1abc6bc6-ff36-4a37-9034-effae4a47cf6",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -696,8 +684,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
