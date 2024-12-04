@@ -33,6 +33,7 @@ slider-component.slider-component-full-width {
   scroll-snap-align: start;
   flex-shrink: 0;
   padding-bottom: 0;
+  z-index: 2;
 }
 
 @media screen and (max-width: 749px) {

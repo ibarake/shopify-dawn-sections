@@ -8,8 +8,34 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+   "name": "Addi widget",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "addi_widget",
+        "label": "Show Addi widget",
+        "default": true
+      }
+    ]
+  },
+  {
     "name": "Whatsapp",
     "settings": [
+      {
+        "type": "select",
+        "id": "wapp_side",
+        "options": [
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label": "Right",
+            "value": "right"
+          }
+        ],
+        "default": "left"
+      },
       {
         "type": "checkbox",
         "id": "show_whatsapp",
@@ -45,6 +71,26 @@
         "id": "whatsapp_message_product_2",
         "label": "after product message",
         "default": "quisiera me contacten, gracias!"
+      },
+      {
+        "type": "range",
+        "id": "horizontal_space",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Horizontal space",
+        "default": 4
+      },
+      {
+        "type": "range",
+        "id": "vertical_space",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Vertical space",
+        "default": 4
       }
     ]
   },

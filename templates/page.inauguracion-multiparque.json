@@ -1,0 +1,412 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "1720719707798c886e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_cx4CUH": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "137185",
+            "text_color": "#121212",
+            "button_background_color": "#f68c2c",
+            "button_label_color": "#121212",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 21,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_cx4CUH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_hero_banner_H6KUWB": {
+      "type": "custom-hero-banner",
+      "settings": {
+        "subheading": "Ashley Multiparque",
+        "heading": "próximamente",
+        "spacing": 300,
+        "image": "shopify:\/\/shop_images\/AHS_Homey_Influencer_097_FA1_dwkplf_web_ab01c7f8-4a8b-4df2-b117-ba06b302ce6a.webp",
+        "bg-color": "#f3f3f3",
+        "color": "#121212",
+        "img-position": "center center",
+        "button-text": "",
+        "button_link": "",
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#FFFFFF",
+        "btn-bg-color-hover": "#FFFFFF",
+        "btn-txt-color": "#FFFFFF",
+        "img-height": 540,
+        "responsive-container-height": 300,
+        "responsive-img-height": 300
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_BPBzzk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WJ9Gi4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Nuestro Propósito<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DABEMd": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Inspirar el amor por el hogar y enriquecer las vidas de todos los que nos rodean.<\/h2>"
+          }
+        },
+        "button_WH7pgn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WJ9Gi4",
+        "text_DABEMd",
+        "button_WH7pgn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_qErYDq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zk4Ywx": {
+          "type": "heading",
+          "settings": {
+            "heading": "El Legado de Ashley",
+            "heading_size": "h2"
+          }
+        },
+        "text_3Utx9r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alguna vez fuimos una compañía familiar con 35 empleados en 1970. Ahora somos un equipo de más de 35,000 valiosos miembros en todo el mundo, con fábricas y oficinas en 280 hectáreas y presencia en 155 países, lo que nos permite crear nuevos empleos y seguir dinamizando las economías.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EcLfXd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_zk4Ywx",
+        "text_3Utx9r",
+        "button_EcLfXd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_KMDjJg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LWq4UC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Próximamente Ashley en Multiparque",
+            "heading_size": "h2"
+          }
+        },
+        "text_ELY4zE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Multiparque ha sido la cuna de las leyendas muebleras de Colombia. Es un honor iniciar nuestra expansión siendo el ancla de este icónico parque de diversiones en Bogotá.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_jJycyd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LWq4UC",
+        "text_ELY4zE",
+        "button_jJycyd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-06-28_at_2.26.08_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_3DmH9n": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UwmTpa": {
+          "type": "column",
+          "settings": {
+            "title": "Propuesta de Valor",
+            "text": "<p><strong>Mas de 10,000 referencias<\/strong>, 20 categorías de producto, 9 estilos, entrega inmediata', <strong>servicio excepciona<\/strong>l, calidad y <strong>precio correcto en un solo lugar.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gFJCP8": {
+          "type": "column",
+          "settings": {
+            "title": "Ashley Furniture",
+            "text": "<p>Con <strong>75 años de experiencia<\/strong>, somos el <strong>mayor fabricante de muebles en el mundo<\/strong> y la <strong>marca número 1 en Estados Unidos<\/strong>. Contamos con más de <strong>1,200 tiendas en más de 65 países.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gpdWUL": {
+          "type": "column",
+          "settings": {
+            "title": "Somos Expertos en Colombia",
+            "text": "<p>El equipo de Clover4 SAS tiene <strong>más de 20 años de experiencia<\/strong> operando las empresas globales de muebles y decoracion <strong>más destacadas en el país.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UwmTpa",
+        "column_gFJCP8",
+        "column_gpdWUL"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_HG4BGq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RLFp6H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visítanos en la Avenida 19",
+            "heading_size": "h2"
+          }
+        },
+        "text_XCPXHi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Conoce Ashley Furniture en nuestra flasg ship store en la  Avenida 19 No. 109 - 41 en Bogotá.<\/p><p>Estamos para ayudarte a resolver tus necesidades mientras inauguramos nuestra Mega Tienda de Multiparque.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_GN6hT8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RLFp6H",
+        "text_XCPXHi",
+        "button_GN6hT8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17207332740b186fae": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_hCzifa": {
+          "type": "shopify:\/\/apps\/google-reviews-plus\/blocks\/app-block\/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_hCzifa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_collection_kewnFY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sofás",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sofas-2-puestos",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_UHTNYf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Comedores",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mesas-de-comedor",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_VkUnwD": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Poltronas",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sillas-para-sala-y-habitacion",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1720719707798c886e",
+    "custom_hero_banner_H6KUWB",
+    "main",
+    "rich_text_BPBzzk",
+    "image_with_text_qErYDq",
+    "image_with_text_KMDjJg",
+    "multicolumn_3DmH9n",
+    "image_with_text_HG4BGq",
+    "17207332740b186fae",
+    "featured_collection_kewnFY",
+    "featured_collection_UHTNYf",
+    "featured_collection_VkUnwD"
+  ]
+}

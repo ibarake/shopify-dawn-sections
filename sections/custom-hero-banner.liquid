@@ -21,8 +21,8 @@
     gap: 0px 0px;
     height: {{ section.settings.img-height }}px;
     padding: 0 16px 0 16px;
-    background-color: {{ section.settings.bg-color }};
-    color: {{ section.settings.color }};
+    background-color: {{ settings.bg_color }};
+    text-color: {{ section.settings.color }};
   }
   .content-spacer{
     width: 60%;
@@ -126,10 +126,10 @@
         "label": "Heading"
       },
       {
-            "type": "number",
-            "id": "spacing",
-            "label": "overlay left spacing",
-            "default": 300
+              "type": "number",
+              "id": "spacing",
+              "label": "overlay left spacing",
+              "default": 300
       },
       {
             "type": "image_picker",
@@ -137,16 +137,16 @@
             "id": "image"
       },
       {
-      "type": "color",
-      "id": "bg-color",
-      "label": "Overlay color",
-      "default": "#FFFFFF"
+        "type": "color",
+        "id": "bg_color",
+        "label": "Overlay color",
+        "default": "#FFFFFF"
       },
       {
-      "type": "color",
-      "id": "color",
-      "label": "Text color",
-      "default": "#FFFFFF"
+        "type": "color",
+        "id": "color",
+        "label": "Text-color",
+        "default": "#000000"
       },
       {
         "type": "select",

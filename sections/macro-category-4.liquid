@@ -1,16 +1,16 @@
 {{ 'macrocategories.css' | asset_url | stylesheet_tag }}
 
-{% liquid 
+{% liquid
   if template contains "collection"
     assign subcategoryGroup = shop.metaobjects.sub_category.values
     for sub in subcategoryGroup
-        assign subcols = sub.collections
-        for subcol in subcols.value
-          assign subcolid = subcol.id
-          if subcolid == collection.id
-            assign subcategory = sub
-          endif
-        endfor
+      assign subcols = sub.collections
+      for subcol in subcols.value
+        assign subcolid = subcol.id
+        if subcolid == collection.id
+          assign subcategory = sub
+        endif
+      endfor
     endfor
   else
     assign macrocategory = metaobject
@@ -21,13 +21,12 @@
 {% if template contains "collection" %}
   <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
     <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
-    <div class="macro-section-4">
-      <div class="subcategories">
-        {% assign limit = section.settings.numberSubcategories %}
-        {% assign subcatcols = subcategory.collections.value %}
-        {% for col in subcatcols %}
-          {{ col }}
-          {% if col.id != collection.id %}
+
+    <div class="subcategories">
+      {% assign limit = section.settings.numberSubcategories %}
+      {% assign subcatcols = subcategory.collections.value %}
+      {% for col in subcatcols %}
+        {% if col.id != collection.id %}
           {% if forloop.index <= limit %}
             <div class="subcategory">
               <a href="{{ col.url }}">
@@ -38,11 +37,11 @@
               </a>
             </div>
           {% endif %}
-          {% endif %}
-        {% endfor %}
-      </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
+
 {% else %}
   <div class="page-width" style="background-color:{{ section.settings.backgroundSectionColor }};">
     <p class="heading-categories" style="color: {{ section.settings.titleColor }};">Compra por categoría</p>
@@ -67,57 +66,53 @@
 {% endif %}
 
 {% schema %}
-{
-  "name": "macro-category-4",
-  "settings": [
   {
-    "type":"header",
-    "content":" ------------- Configure section ------------- "
-  },
-  {
-    "type": "number",
-    "id": "numberSubcategories",
-    "label": "# of subcategories",
-    "default": 8
-  },
-  {
-    "type":"header",
-    "content":" ----------------- Text colors ----------------- "
-  },
-  {
-    "type": "color",
-    "id": "titleColor",
-    "label": "Title color",
-    "default": "#000000"
-  },
-  {
-    "type": "color",
-    "id": "subColor",
-    "label": "Subcategory title color",
-    "default": "#000000"
-  },
-  {
-    "type":"header",
-    "content":" ------------ Background colors ------------ "
-  },
-  {
-    "type": "color",
-    "id": "backgroundSectionColor",
-    "label": "Background section color",
-    "default": "#FFFFFF"
-  },
-  {
-    "type": "color",
-    "id": "backgroundColor",
-    "label": "Background item subcategory",
-    "default": "#f2f2f2"
+    "name": "macro-category-4",
+    "settings": [
+      {
+        "type": "header",
+        "content": " ------------- Configure section ------------- "
+      },
+      {
+        "type": "number",
+        "id": "numberSubcategories",
+        "label": "# of subcategories",
+        "default": 8
+      },
+      {
+        "type": "header",
+        "content": " ----------------- Text colors ----------------- "
+      },
+      {
+        "type": "color",
+        "id": "titleColor",
+        "label": "Title color",
+        "default": "#000000"
+      }, {
+        "type": "color",
+        "id": "subColor",
+        "label": "Subcategory title color",
+        "default": "#000000"
+      }, {
+        "type": "header",
+        "content": " ------------ Background colors ------------ "
+      }, {
+        "type": "color",
+        "id": "backgroundSectionColor",
+        "label": "Background section color",
+        "default": "#FFFFFF"
+      }, {
+        "type": "color",
+        "id": "backgroundColor",
+        "label": "Background item subcategory",
+        "default": "#f2f2f2"
+      }
+    ],
+    "presets": [
+      {
+        "category": "macro-category-4",
+        "name": "Custom macrocategory 4 section Ashley"
+      }
+    ]
   }
-  ],
-  "presets": [
-  {
-    "category": "macro-category-4",
-    "name": "Custom macrocategory 4 section Ashley"
-  }
-]
-}
 {% endschema %}

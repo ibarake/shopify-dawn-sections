@@ -330,13 +330,13 @@
             {%- assign variant = product.selected_or_first_available_variant -%}
             {% if variant.inventory_quantity <= 0 %}
               {% if product.selected_or_first_available_variant.metafields.custom.fecha_disponible %}
-                  <p>
+                  <p >
                     {{ block.settings.text_fecha }}
                     {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
                   </p>
                 {% else %}
                   {% if product.selected_or_first_available_variant.available == false %}
-                    <p>
+                    <p >
                       {{ block.settings.text_fecha }}
                       {{ product.selected_or_first_available_variant.metafields.custom.fecha_disponible }}
                     </p>
@@ -398,7 +398,7 @@
                       </title-details>
                       <answer-details>
                         {%- assign current_variant = product.selected_or_first_available_variant -%}
-                        <span>Item: {{ current_variant.sku }}</span>
+                        <span>Item: <span id="variant-sku">{{ current_variant.sku }}</span></span>
                         <p style="font-weight:bold; margin:0; ">Descripción</p>
                         {{ product.description }}
                       </answer-details>
@@ -1533,6 +1533,8 @@
           }
         });
       });
+      console.log(faqTitles);
+      faqTitles[0].click();
     });
 
     function toggleSlide(element) {
@@ -1562,7 +1564,17 @@
         }
     });
   </script>
-
+  <script>
+    var radioButtons = document.querySelectorAll('.js.product-form__input input[type="radio"]');
+    radioButtons.forEach(function(radioButton) {
+      radioButton?.addEventListener('change', function() {
+        var selectedVariantId = this.dataset.sku;
+        var skuSpan = document.getElementById('variant-sku');
+        skuSpan.innerHTML = selectedVariantId
+      });
+    });
+  </script>
+                        
 </section>
 
 {% schema %}

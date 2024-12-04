@@ -121,7 +121,7 @@
       <div class="card__content">
         <div class="card__information">
           <div class="variant-images">
-            <fieldset class="variants">
+            <fieldset class="variants" style="display:flex; flex-wrap: wrap;">
               {%- for variant in card_product.variants -%}
                 {% if variant.image %}
                   {% assign variant_images = card_product.images | where: "alt", variant.title %}
@@ -162,7 +162,7 @@
             {% if variant.inventory_quantity > 0 %}
               <span style="color: green;">En inventario</span>
             {% else %} 
-              <span style="color: red;">Disponible para: {{ variant.metafields.custom.fecha_disponible }}</span>
+              <span style="color: red;"> disponible para: {{ variant.metafields.custom.fecha_disponible }}</span>
             {% endif %}
           </h3>
           <div class="card-information">
