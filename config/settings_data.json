@@ -279,22 +279,11 @@
               "image-promo-url": ""
             }
           },
-          "nav_menu_8C6hWr": {
-            "type": "nav-menu",
-            "disabled": true,
-            "settings": {
-              "title": "Black Friday",
-              "url": "shopify://pages/ofertas-blackfriday",
-              "menu": "",
-              "menu-promo": "",
-              "image-promo-url": ""
-            }
-          },
           "nav_menu_xK4HMa": {
             "type": "nav-menu",
             "settings": {
               "title": "Christmas",
-              "url": "",
+              "url": "shopify://pages/christmas",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -332,7 +321,6 @@
           "nav_menu_rHVEKR",
           "nav_menu_dBEybV",
           "nav_menu_FEr3nj",
-          "nav_menu_8C6hWr",
           "nav_menu_xK4HMa",
           "nav_menu_rrmXjy",
           "nav_menu_CXenEr"
