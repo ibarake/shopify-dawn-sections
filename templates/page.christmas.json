@@ -38,6 +38,33 @@
         "responsive-img-height": 300
       }
     },
+    "featured_collection_RGLaEx": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Muebles para el Hogar",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "christmas-50",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_XVaCtR": {
       "type": "featured-collection",
       "settings": {
@@ -466,18 +493,6 @@
     },
     "67273f3a-52d1-48b2-a974-4db367375c32": {
       "type": "slideshow",
-      "blocks": {
-        "slide_PfHtcU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_delgado.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_PfHtcU"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -532,6 +547,7 @@
   "order": [
     "main",
     "custom_hero_banner_6eKLQm",
+    "featured_collection_RGLaEx",
     "featured_collection_XVaCtR",
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "af603ef8-1e43-4053-a645-a61d8372acf2",
