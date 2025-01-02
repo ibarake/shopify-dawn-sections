@@ -15,7 +15,7 @@
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Navidad-01.jpg",
+            "image": "shopify://shop_images/Banner_Pagina.jpg",
             "image_r": "shopify://shop_images/Navidad-03.jpg",
             "link": "https://ashleycolombia.com/pages/christmas"
           }
@@ -572,7 +572,7 @@
       "type": "apps",
       "blocks": {
         "google_reviews_plus_app_block_Q9rUeU": {
-          "type": "shopify://apps/google-reviews-plus/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
           "settings": {}
         }
       },
