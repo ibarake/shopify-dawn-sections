@@ -67,6 +67,7 @@
     },
     "featured_collection_XVaCtR": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Alfombras",
         "heading_size": "h2",
@@ -121,6 +122,7 @@
     },
     "featured_collection_Twcmkx": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Accesorios Decorativos",
         "heading_size": "h2",
@@ -148,6 +150,7 @@
     },
     "featured_collection_3YdF7t": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Accesorios | Mantas y Cojines",
         "heading_size": "h2",
@@ -245,6 +248,7 @@
     },
     "featured_collection_pVwmg4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Lámparas",
         "heading_size": "h2",
@@ -272,6 +276,7 @@
     },
     "featured_collection_M6dX9B": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Decoración de Pared",
         "heading_size": "h2",
@@ -536,12 +541,12 @@
   "order": [
     "main",
     "custom_hero_banner_6eKLQm",
+    "featured_collection_yei8Bc",
     "featured_collection_RGLaEx",
     "featured_collection_XVaCtR",
     "featured_collection_wcyL6L",
     "featured_collection_Twcmkx",
     "featured_collection_3YdF7t",
-    "featured_collection_yei8Bc",
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "featured_collection_pVwmg4",
