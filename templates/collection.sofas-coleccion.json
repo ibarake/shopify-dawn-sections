@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -27,14 +36,14 @@
         "heading_qtyYjc": {
           "type": "heading",
           "settings": {
-            "heading": "<p>¿Necesitas asesoría para finalizar tu compra?<\/p>",
+            "heading": "<p>¿Necesitas asesoría para finalizar tu compra?</p>",
             "heading_size": "h2"
           }
         },
         "text_Fam3jJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Escríbenos por WhatsApp y te asesoramos. <a href=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\" title=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\">Habla con nosotros<\/a><\/p>"
+            "text": "<p>Escríbenos por WhatsApp y te asesoramos. <a href=\"https://api.whatsapp.com/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\" title=\"https://api.whatsapp.com/send?phone=+573009768353&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\">Habla con nosotros</a></p>"
           }
         }
       },
