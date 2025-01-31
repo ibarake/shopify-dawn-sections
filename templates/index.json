@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/WEB_jpg.png",
             "image_r": "shopify://shop_images/MB_jpg.png",
-            "link": "https://ashleycolombia.com/pages/christmas"
+            "link": "shopify://pages/haz-match"
           }
         }
       },
