@@ -34,7 +34,7 @@
         "btn-bg-color-hover": "#ffffff",
         "btn-txt-color": "#ffffff",
         "img-height": 540,
-        "responsive-container-height": 300,
+        "responsive-container-height": 1,
         "responsive-img-height": 300
       }
     },
