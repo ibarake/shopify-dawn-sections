@@ -41,12 +41,12 @@
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Haz Match",
+        "title": "Celebra con Nosotros",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "haz-match-25-febrero-2024",
+        "collection": "aniversario-ashley-80-anos",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -68,9 +68,9 @@
     "featured_collection_Kxz9Fp": {
       "type": "featured-collection",
       "settings": {
-        "title": "Más productos...",
+        "title": "Nuevos Precios Bajos",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Encuentra más de 100 productos con nuevos precios bajos.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "mas-productos",
