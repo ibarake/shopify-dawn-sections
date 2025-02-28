@@ -23,7 +23,7 @@
         "subheading": "",
         "heading": "",
         "spacing": 300,
-        "image": "shopify://shop_images/WEB_jpg.png",
+        "image": "shopify://shop_images/80TH-ANNIVERSARY.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
         "img-position": "center center",
@@ -577,24 +577,52 @@
         "change_slides_speed": 6
       }
     },
-    "custom_hero_banner_YNtEgr": {
-      "type": "custom-hero-banner",
+    "image_banner_xtRB4j": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zfFgR4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_zn3pmj": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_PxRWBz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zfFgR4",
+        "text_zn3pmj",
+        "buttons_PxRWBz"
+      ],
       "settings": {
-        "subheading": "",
-        "heading": "",
-        "spacing": 300,
-        "bg_color": "#FFFFFF",
-        "color": "#000000",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#FFFFFF",
-        "btn-bg-color-hover": "#FFFFFF",
-        "btn-txt-color": "#FFFFFF",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
+        "image": "shopify://shop_images/80TH-ANNIVERSARY.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -602,7 +630,6 @@
     "main",
     "custom_hero_banner_6eKLQm",
     "featured_collection_yei8Bc",
-    "custom_hero_banner_YNtEgr",
     "featured_collection_Kxz9Fp",
     "featured_collection_RGLaEx",
     "featured_collection_XVaCtR",
@@ -620,6 +647,7 @@
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "67273f3a-52d1-48b2-a974-4db367375c32",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "slideshow_R39eBJ"
+    "slideshow_R39eBJ",
+    "image_banner_xtRB4j"
   ]
 }
