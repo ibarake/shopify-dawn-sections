@@ -41,7 +41,7 @@
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Haz Match con tu Espacio",
+        "title": "Haz Match",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -380,6 +380,7 @@
         "5178b2a1-9aea-4a1d-9ace-e178f911c5af",
         "c591d96e-97e7-4109-965e-375bc8c63358"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "",
