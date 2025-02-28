@@ -15,14 +15,23 @@
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/WEB_jpg.png",
-            "image_r": "shopify://shop_images/MB_jpg.png",
+            "image": "shopify://shop_images/80TH-ANNIVERSARY.jpg",
+            "image_r": "shopify://shop_images/80TH_ANNIVERSARY-02.jpg",
             "link": "shopify://pages/haz-match"
+          }
+        },
+        "slide_pVTk9H": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/80TH-ANNIVERSARY-ll.jpg",
+            "image_r": "shopify://shop_images/80TH_ANNIVERSARY-05.jpg",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "slide_Pyhgb6"
+        "slide_Pyhgb6",
+        "slide_pVTk9H"
       ],
       "settings": {
         "layout": "full_bleed",

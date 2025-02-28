@@ -232,6 +232,17 @@
     },
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32": {
       "type": "slideshow",
+      "blocks": {
+        "slide_yjcjgD": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_yjcjgD"
+      ],
       "custom_css": [
         "a {z-index: 2;}",
         "@media only screen and (max-width: 768px) {a {height: 400px; }}"
@@ -565,12 +576,33 @@
         "auto_rotate": false,
         "change_slides_speed": 6
       }
+    },
+    "custom_hero_banner_YNtEgr": {
+      "type": "custom-hero-banner",
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "spacing": 300,
+        "bg_color": "#FFFFFF",
+        "color": "#000000",
+        "img-position": "center center",
+        "button-text": "",
+        "button_link": "",
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#FFFFFF",
+        "btn-bg-color-hover": "#FFFFFF",
+        "btn-txt-color": "#FFFFFF",
+        "img-height": 540,
+        "responsive-container-height": 300,
+        "responsive-img-height": 300
+      }
     }
   },
   "order": [
     "main",
     "custom_hero_banner_6eKLQm",
     "featured_collection_yei8Bc",
+    "custom_hero_banner_YNtEgr",
     "featured_collection_Kxz9Fp",
     "featured_collection_RGLaEx",
     "featured_collection_XVaCtR",
