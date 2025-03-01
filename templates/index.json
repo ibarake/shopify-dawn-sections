@@ -12,14 +12,6 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "slide_Pyhgb6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/80TH-ANNIVERSARY.jpg",
-            "image_r": "shopify://shop_images/80TH_ANNIVERSARY-02.jpg",
-            "link": "shopify://collections/aniversario-ashley-80-anos"
-          }
-        },
         "slide_pVTk9H": {
           "type": "slide",
           "settings": {
@@ -27,11 +19,19 @@
             "image_r": "shopify://shop_images/80TH_ANNIVERSARY-05.jpg",
             "link": "shopify://collections/nuevos-precios-bajos"
           }
+        },
+        "slide_Pyhgb6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/80TH-ANNIVERSARY.jpg",
+            "image_r": "shopify://shop_images/80TH_ANNIVERSARY-02.jpg",
+            "link": "shopify://collections/aniversario-ashley-80-anos"
+          }
         }
       },
       "block_order": [
-        "slide_Pyhgb6",
-        "slide_pVTk9H"
+        "slide_pVTk9H",
+        "slide_Pyhgb6"
       ],
       "settings": {
         "layout": "full_bleed",
