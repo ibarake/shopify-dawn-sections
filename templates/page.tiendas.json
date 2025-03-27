@@ -36,14 +36,14 @@
         "heading_ecN48R": {
           "type": "heading",
           "settings": {
-            "heading": "Mega Tienda Ashley en Multiparque Bogotá",
+            "heading": "Mega Tienda Ashley | Multiparque Bogotá",
             "heading_size": "h2"
           }
         },
         "text_AzLPrU": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> </p><p>Multiparque | Autopista N. No. 224 - 60, Bogotá </p><p><strong>Teléfono: </strong>+57 (300) 974-7019</p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\">WhatsApp Haz Click</a></p><p><strong>Horarios de Atención:</strong></p><p>Todos los dias y festivos </p><p>10 AM a 7 PM</p>",
+            "text": "<p><strong>Visítanos</strong></p><p><strong>Dirección:</strong> </p><p>Multiparque | Autopista N. No. 224 - 60, Bogotá </p><p><strong>Teléfono: </strong>+57 (300) 974-7019</p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\"><strong>WhatsApp Haz Click</strong></a></p><p><strong>Horarios de Atención:</strong></p><p>Todos los dias y festivos </p><p>10 AM a 7 PM</p>",
             "text_style": "body"
           }
         },
@@ -131,7 +131,7 @@
         "text_pjCVCN": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dirección:</strong> Cra. 53 # 80 - 91<br/><br/><strong>Horarios y Contacto: </strong>Disponibles próximamente</p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\">WhatsApp Haz Click</a></p>",
+            "text": "<p><strong>Dirección:</strong> Cra. 53 # 80 - 91<br/><br/><strong>Horarios y Contacto: </strong>Disponibles próximamente</p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\"><strong>WhatsApp Haz Click</strong></a></p>",
             "text_style": "body"
           }
         },
