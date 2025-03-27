@@ -124,14 +124,14 @@
         "heading_QpFFiC": {
           "type": "heading",
           "settings": {
-            "heading": "Próximamente Ashley en La Costa en Barranquilla",
+            "heading": "Porximamente: Tienda Ashley | Barranquilla",
             "heading_size": "h2"
           }
         },
         "text_pjCVCN": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dirección:</strong> </p><p>Alto Prado Barranquilla </p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\">WhatsApp Haz Click</a></p>",
+            "text": "<p><strong>Dirección:</strong> Cra. 53 # 80 - 91<br/><br/><strong>Horarios y Contacto: </strong>Disponibles próximamente</p><p><a href=\"https://wa.me/573009747019\" target=\"_blank\" title=\"WhatsApp Ashley Multiparque Bogotá\">WhatsApp Haz Click</a></p>",
             "text_style": "body"
           }
         },
@@ -149,7 +149,7 @@
         "button_MxQ9tq"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner_dos_9fa14c0a-0c52-4e87-82df-87558f5a6038.png",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-03-26_at_14.47.37_3010936c-9550-47c1-ad8c-c69d21735e9f.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
