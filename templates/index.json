@@ -15,22 +15,31 @@
         "slide_pVTk9H": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/80TH-ANNIVERSARY-ll.jpg",
-            "image_r": "shopify://shop_images/80TH_ANNIVERSARY-05.jpg",
+            "image": "shopify://shop_images/Banner_primavera-01.jpg",
+            "image_r": "shopify://shop_images/Banner_primavera-03.jpg",
             "link": "shopify://collections/nuevos-precios-bajos"
+          }
+        },
+        "slide_HRADEg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_primavera-04.jpg",
+            "image_r": "shopify://shop_images/Banner_primavera-09.jpg",
+            "link": ""
           }
         },
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/80TH-ANNIVERSARY.jpg",
-            "image_r": "shopify://shop_images/80TH_ANNIVERSARY-02.jpg",
+            "image": "shopify://shop_images/Banner_primavera-05.jpg",
+            "image_r": "shopify://shop_images/Banner_primavera-08.jpg",
             "link": "shopify://collections/coleccion-limitada-80-anos"
           }
         }
       },
       "block_order": [
         "slide_pVTk9H",
+        "slide_HRADEg",
         "slide_Pyhgb6"
       ],
       "settings": {
