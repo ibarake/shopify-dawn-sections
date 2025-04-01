@@ -23,7 +23,7 @@
         "subheading": "",
         "heading": "",
         "spacing": 300,
-        "image": "shopify://shop_images/80TH-ANNIVERSARY_cae47e85-943e-4120-82fa-0b06e6113942.jpg",
+        "image": "shopify://shop_images/Banner_primavera-01.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
         "img-position": "center center",
@@ -41,7 +41,7 @@
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Celebra con Nosotros",
+        "title": "Nueva temporada, nuevo hogar.",
         "heading_size": "h2",
         "description": "<p>Descubre promociones limitadas y remodela el espacio que amas.</p>",
         "show_description": false,
