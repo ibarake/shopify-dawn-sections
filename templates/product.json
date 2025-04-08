@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "b84f642f-6e1b-4683-8cf2-2db533d3107b": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "552e5624-4e4f-456a-903e-33474d64febe": {
           "type": "fecha",
@@ -28,8 +35,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -40,25 +46,23 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "custom_liquid_fyafUp": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/api.whatsapp.com\/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\">\n\n  <button class=\"button\">Te asesoramos por WhatsApp<\/button>\n<\/a>\n\n<style>\n.button {\n  background-color: #363534;\n  color: white;\n  border: none;\n  padding: 20px 50px;\n  font-size: 16px;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  z-index: 1;\n}\n\n.button:hover {\n  background-color: #363534;\n  color: #ffffff;\n  border: 2px black;\n  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 0;\n  height: 0;\n  background: rgba(255, 255, 255, 0.2);\n  border-radius: 100%;\n  z-index: -1;\n  transition: all 0.3s ease;\n}\n\n.button:hover:before {\n  width: 200%;\n  height: 200%;\n}\n<\/style>"
+            "custom_liquid": "<a href=\"https://api.whatsapp.com/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda\" target=\"_blank\">\n\n  <button class=\"button\">Te asesoramos por WhatsApp</button>\n</a>\n\n<style>\n.button {\n  background-color: #363534;\n  color: white;\n  border: none;\n  padding: 20px 50px;\n  font-size: 16px;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  z-index: 1;\n}\n\n.button:hover {\n  background-color: #363534;\n  color: #ffffff;\n  border: 2px black;\n  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 0;\n  height: 0;\n  background: rgba(255, 255, 255, 0.2);\n  border-radius: 100%;\n  z-index: -1;\n  transition: all 0.3s ease;\n}\n\n.button:hover:before {\n  width: 200%;\n  height: 200%;\n}\n</style>"
           }
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -68,8 +72,7 @@
         },
         "c589598a-c51a-4679-92d2-0fe79ced895b": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -110,7 +113,7 @@
           "disabled": true,
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -120,7 +123,7 @@
           "disabled": true,
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -224,7 +227,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/CollectionA_Banner_Abinger_Sofa.jpg",
+        "image": "shopify://shop_images/CollectionA_Banner_Abinger_Sofa.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -241,7 +244,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/AHS_Stationary_PDP_IconSet23_DK.jpg",
+        "image": "shopify://shop_images/AHS_Stationary_PDP_IconSet23_DK.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
