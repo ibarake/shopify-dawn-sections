@@ -41,12 +41,12 @@
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Nueva temporada, nuevo hogar.",
+        "title": "Descubre tu colchón ideal",
         "heading_size": "h2",
-        "description": "<p>Descubre promociones limitadas y remodela el espacio que amas.</p>",
+        "description": "<p>Descubre todas las opciones que tenemos para ti.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "tu-casa-en-primavera",
+        "collection": "colchones",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -65,6 +65,27 @@
         "padding_bottom": 36
       }
     },
+    "custom_hero_banner_dhcz7w": {
+      "type": "custom-hero-banner",
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "spacing": 300,
+        "image": "shopify://shop_images/Banner_primavera-01.jpg",
+        "bg_color": "#ffffff",
+        "color": "#121212",
+        "img-position": "center center",
+        "button-text": "",
+        "button_link": "",
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#ffffff",
+        "btn-bg-color-hover": "#ffffff",
+        "btn-txt-color": "#ffffff",
+        "img-height": 540,
+        "responsive-container-height": 1,
+        "responsive-img-height": 100
+      }
+    },
     "featured_collection_Kxz9Fp": {
       "type": "featured-collection",
       "settings": {
@@ -73,7 +94,7 @@
         "description": "<p>Encuentras más de 100 productos con nuevos precios bajos.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "nuevos-precios-bajos",
+        "collection": "hibrido",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -570,6 +591,7 @@
     "main",
     "custom_hero_banner_6eKLQm",
     "featured_collection_yei8Bc",
+    "custom_hero_banner_dhcz7w",
     "featured_collection_Kxz9Fp",
     "featured_collection_RGLaEx",
     "featured_collection_XVaCtR",
