@@ -1504,35 +1504,27 @@
       /* FAQ DROPDOWN ANIMATION */
     document.addEventListener('DOMContentLoaded', function() {
       var faqTitles = document.querySelectorAll('.title-details');
-      var openAnswer = null; // Keeps track of the currently open answer
-      var openTitle = null; // Keeps track of the currently open FAQ title
 
       faqTitles.forEach(function(title) {
         title.addEventListener('click', function() {
           var answer = this.nextElementSibling;
-
-          if (openAnswer === answer) {
-            // Clicking on the same FAQ title again, close the answer and rotate the SVG back
-            toggleSlide(answer);
+          
+          // Toggle the current answer
+          toggleSlide(answer);
+          
+          // Toggle the SVG rotation
+          var svgElement = this.querySelector('svg');
+          var currentRotation = getComputedStyle(svgElement).transform;
+          
+          // Check if it's already rotated
+          if (currentRotation.includes('matrix') && !currentRotation.includes('matrix(1, 0, 0, 1, 0, 0)')) {
             rotateSvg(this, '0deg');
-            openAnswer = null;
-            openTitle = null;
           } else {
-            // Clicking on a different FAQ title
-            if (openAnswer) {
-              // Close the previously open answer and rotate its SVG back
-              toggleSlide(openAnswer);
-              rotateSvg(openTitle, '0deg');
-            }
-
-            // Open the clicked answer and rotate its SVG
-            toggleSlide(answer);
             rotateSvg(this, '90deg');
-            openAnswer = answer;
-            openTitle = this;
           }
         });
       });
+      
       console.log(faqTitles);
       faqTitles[0].click();
     });
