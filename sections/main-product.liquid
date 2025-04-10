@@ -1566,6 +1566,107 @@
       });
     });
   </script>
+<!-- Script Comprar Ahora /Checkout -->
+<script>
+  window.addEventListener('load', function() {
+    function setupCheckoutButtons() {
+      // Seleccionar los botones de pago
+      const paymentButtons = document.querySelectorAll('.shopify-payment-button__button');
+      if (!paymentButtons.length) {
+        setTimeout(setupCheckoutButtons, 1000);
+        return;
+      }
+      
+      // Obtener el formulario y el input de variante
+      const productForm = document.querySelector('form[data-type="add-to-cart-form"]');
+      const variantInput = productForm?.querySelector('input[name="id"]');
+      const quantityInput = document.querySelector('input[name="quantity"]');
+      
+      // Habilitar el input de variante si está deshabilitado
+      if (variantInput?.hasAttribute('disabled')) {
+        variantInput.removeAttribute('disabled');
+      }
+      
+      // Procesar cada botón de pago
+      paymentButtons.forEach(button => {
+        // Reemplazar el botón para evitar event listeners duplicados
+        const newButton = button.cloneNode(true);
+        button.parentNode?.replaceChild(newButton, button);
+        
+        // Agregar el event listener optimizado
+        newButton.addEventListener('click', function(event) {
+          event.preventDefault();
+          event.stopPropagation();
+          
+          // Obtener datos del producto
+          const variantId = variantInput?.value || '{{ product.selected_or_first_available_variant.id }}';
+          const quantity = quantityInput?.value || 1;
+          
+          // Agregar al carrito y redirigir al checkout
+          addToCartAndCheckout(variantId, quantity);
+        });
+      });
+    }
+    
+    // Función para agregar al carrito y redirigir al checkout
+    function addToCartAndCheckout(variantId, quantity) {
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          id: variantId,
+          quantity: quantity
+        })
+      })
+      .then(response => {
+        if (response.ok) {
+          window.location.href = '/checkout';
+        } else {
+          // Si hay error, usar método alternativo
+          createAndSubmitForm(variantId, quantity);
+        }
+      })
+      .catch(() => {
+        // Si fetch falla, usar método alternativo
+        createAndSubmitForm(variantId, quantity);
+      });
+    }
+    
+    // Función para crear y enviar un formulario como método alternativo
+    function createAndSubmitForm(variantId, quantity) {
+      const form = document.createElement('form');
+      form.method = 'post';
+      form.action = '/cart/add';
+      form.style.display = 'none';
+      
+      // Agregar campos necesarios
+      appendInput(form, 'id', variantId);
+      appendInput(form, 'quantity', quantity);
+      appendInput(form, 'checkout', '');
+      
+      // Enviar formulario
+      document.body.appendChild(form);
+      form.submit();
+    }
+    
+    // Función auxiliar para crear inputs
+    function appendInput(form, name, value) {
+      const input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = name;
+      input.value = value;
+      form.appendChild(input);
+    }
+    
+    // Inicializar y configurar para cambios de variante
+    setupCheckoutButtons();
+    document.addEventListener('variant:changed', () => setTimeout(setupCheckoutButtons, 500));
+  });
+</script>
+
                         
 </section>
 
