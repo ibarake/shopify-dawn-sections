@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "macro_category_4_DCkpnn": {
@@ -69,35 +60,52 @@
         "backgroundSaleColor": "#c60f2f"
       }
     },
-    "rich_text_fQYbHV": {
-      "type": "rich-text",
+    "image_banner_kBmDMV": {
+      "type": "image-banner",
       "blocks": {
-        "heading_cRiBpc": {
+        "heading_NenHK6": {
           "type": "heading",
           "settings": {
-            "heading": "<p>¿Necesitas asesoría para finalizar tu compra?</p>",
-            "heading_size": "h2"
+            "heading": "Image banner",
+            "heading_size": "h1"
           }
         },
-        "text_8TLmtK": {
+        "text_8JVhkH": {
           "type": "text",
           "settings": {
-            "text": "<p>Escríbenos por WhatsApp y te asesoramos. <a href=\"https://wa.me/573015519915\" target=\"_blank\" title=\"https://wa.me/573015519915\">Habla con nosotros</a></p>"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_d3YKmC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_cRiBpc",
-        "text_8TLmtK"
+        "heading_NenHK6",
+        "text_8JVhkH",
+        "buttons_d3YKmC"
       ],
-      "disabled": true,
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-04-16_at_12.52.04_3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "product-grid": {
@@ -127,7 +135,7 @@
     "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e",
     "banner",
     "87c60f33-59d8-416a-8360-f7543630c187",
-    "rich_text_fQYbHV",
+    "image_banner_kBmDMV",
     "product-grid"
   ]
 }

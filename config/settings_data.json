@@ -1,18 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
+    "addi_widget": false,
+    "wapp_side": "right",
     "show_whatsapp": true,
     "include_product": true,
-    "whatsapp_phone": "+573007331806",
-    "whatsapp_message": "Hola, estaba en Ashleycolombia.com y me gustaría tener ayuda",
+    "whatsapp_phone": "+573015519915",
+    "whatsapp_message": "Hola, estoy en la pagina: necesito ayuda.",
     "whatsapp_message_product_1": "Hola, me interesa:",
     "whatsapp_message_product_2": "Quisiera me contacten, ¡Gracias!",
+    "vertical_space": 10,
     "show_breadcrumb_nav": true,
     "breadcrumb_delimeter": "slash",
     "breadcrumb_text_color": "#121212",
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#363534",
+    "colors_accent_1": "#e48f3b",
     "gradient_accent_1": "",
-    "colors_accent_2": "#363534",
+    "colors_accent_2": "#e48f3b",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -21,9 +33,9 @@
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
     "type_header_font": "open_sans_n6",
-    "heading_scale": 100,
+    "heading_scale": 110,
     "type_body_font": "open_sans_n4",
-    "body_scale": 100,
+    "body_scale": 105,
     "borrartachado": false,
     "page_width": 79,
     "spacing_sections": 0,
@@ -116,9 +128,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/AshleyColombia",
+    "social_facebook_link": "https://www.facebook.com/AshleyColombia",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/ashleycolombia.oficial\/",
+    "social_instagram_link": "https://www.instagram.com/ashleycolombia.oficial/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -127,32 +139,51 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/HouseIcon_primary_cykdcn.png",
+    "favicon": "shopify://shop_images/HouseIcon_primary_cykdcn.png",
     "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
-    "checkout_logo_image": "shopify:\/\/shop_images\/AFHS_INT_Logo_Horizontal_3.png",
+    "checkout_logo_image": "shopify://shop_images/AFHS_INT_Logo_Horizontal_3.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "announcement_8EGc8k": {
+            "type": "announcement",
+            "settings": {
+              "text": "Envíos rápidos a toda Colombia: hasta 48 horas en Bogotá y 3 días hábiles en el resto del país.",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "announcement_7rcQQ7": {
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Síguenos en Instagram  @ashleycolombia.oficial",
+              "text": "Te asesoramos por WhatsApp, comunícate aquí",
               "text_alignment": "center",
               "color_scheme": "accent-1",
-              "link": "https:\/\/www.instagram.com\/ashleycolombia.oficial\/"
+              "link": "https://api.whatsapp.com/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda"
+            }
+          },
+          "announcement_BJC66B": {
+            "type": "announcement",
+            "settings": {
+              "text": "",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": "shopify://collections/lamparas"
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement_8EGc8k",
+          "announcement_7rcQQ7",
+          "announcement_BJC66B"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -162,6 +193,7 @@
             "settings": {
               "macro-id": 5,
               "menu-promo": "",
+              "image-promo": "shopify://shop_images/Banner_primavera-01.jpg",
               "image-promo-url": ""
             }
           },
@@ -202,7 +234,7 @@
             "type": "nav-menu",
             "settings": {
               "title": "Sofas",
-              "url": "shopify:\/\/collections\/sofas-todos",
+              "url": "shopify://collections/sofas-todos",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -212,7 +244,7 @@
             "type": "nav-menu",
             "settings": {
               "title": "Comedores",
-              "url": "shopify:\/\/collections\/cocina-y-comedor",
+              "url": "shopify://collections/cocina-y-comedor",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -222,7 +254,7 @@
             "type": "nav-menu",
             "settings": {
               "title": "Reclinables",
-              "url": "shopify:\/\/collections\/sofas-reclinomaticos",
+              "url": "shopify://collections/sofas-reclinomaticos",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -232,7 +264,7 @@
             "type": "nav-menu",
             "settings": {
               "title": "Sofa Cama",
-              "url": "shopify:\/\/collections\/sofa-cama",
+              "url": "shopify://collections/sofa-cama",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -242,17 +274,28 @@
             "type": "nav-menu",
             "settings": {
               "title": "poltronas",
-              "url": "shopify:\/\/collections\/sillas-para-sala-y-habitacion",
+              "url": "shopify://collections/sillas-para-sala-y-habitacion",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
             }
           },
-          "nav_menu_8C6hWr": {
+          "nav_menu_xK4HMa": {
             "type": "nav-menu",
             "settings": {
-              "title": "Ofertas",
-              "url": "shopify:\/\/collections\/ofertas-ashley",
+              "title": "SALE",
+              "url": "shopify://pages/tu-casa-en-primavera",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "nav_menu_9jNcwH": {
+            "type": "nav-menu",
+            "disabled": true,
+            "settings": {
+              "title": "Ashley sleep",
+              "url": "shopify://pages/ashley-sleep",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -262,7 +305,17 @@
             "type": "nav-menu",
             "settings": {
               "title": "Blog",
-              "url": "shopify:\/\/blogs\/news",
+              "url": "shopify://blogs/news",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
+          },
+          "nav_menu_CXenEr": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Tiendas",
+              "url": "https://ashleycolombia.com/pages/tiendas",
               "menu": "",
               "menu-promo": "",
               "image-promo-url": ""
@@ -280,8 +333,10 @@
           "nav_menu_rHVEKR",
           "nav_menu_dBEybV",
           "nav_menu_FEr3nj",
-          "nav_menu_8C6hWr",
-          "nav_menu_rrmXjy"
+          "nav_menu_xK4HMa",
+          "nav_menu_9jNcwH",
+          "nav_menu_rrmXjy",
+          "nav_menu_CXenEr"
         ],
         "settings": {
           "color_scheme": "background-1",
@@ -302,8 +357,7 @@
         "blocks": {
           "b96712ea-d296-4dd8-81f9-be6e4c29af2f": {
             "type": "logo",
-            "settings": {
-            }
+            "settings": {}
           },
           "footer-0": {
             "type": "link_list",
@@ -321,8 +375,7 @@
           },
           "37fc670f-ace4-437f-ae8a-a2ebb5e251a5": {
             "type": "newsletter",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -340,7 +393,7 @@
           "@media (min-width: 768px) and (max-width: 1024px) {.footer-logo-right {margin-left: 26%; }}"
         ],
         "settings": {
-          "logo": "shopify:\/\/shop_images\/AFHS_INT_Logo_Horizontal_3.png",
+          "logo": "shopify://shop_images/AFHS_INT_Logo_Horizontal_3.png",
           "color_scheme": "background-2",
           "backgroundInput": "",
           "textInput": "",
@@ -349,7 +402,7 @@
           "enable_bottom": false,
           "newsletter_enable": true,
           "newsletter_heading": "¡Suscribete al newsletter!",
-          "phone-number": "+57 (300) 913-2465",
+          "phone-number": "+57 (300) 9547808",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
@@ -379,12 +432,11 @@
           "subheading": "Spruce up your home",
           "heading": "with fresh new looks!",
           "spacing": 100,
-          "image": "shopify:\/\/shop_images\/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
-          "bg-color": "#1878b9",
+          "image": "shopify://shop_images/FW2-4_HP_DK_1_2560x800_b6fcb044-28cc-4193-845f-e7c1a668384f.webp",
           "color": "#ffffff",
           "img-position": "center center",
           "button-text": "shop now",
-          "button_link": "shopify:\/\/pages\/contact",
+          "button_link": "shopify://pages/contact",
           "btn-linebreak": "nowrap",
           "btn-bg-color-normal": "#ffffff",
           "btn-bg-color-hover": "#ffffff",
@@ -414,9 +466,7 @@
                 "sofa-cama",
                 "sofa-3-puestos-altonbury"
               ],
-              "collection_list": [
-
-              ],
+              "collection_list": [],
               "poc-1": "Product 1 text",
               "poc-2": "Product 2 text",
               "poc-3": "Product 3 text",
@@ -441,9 +491,7 @@
                 "maimz-sofa",
                 "sofa-cama"
               ],
-              "collection_list": [
-
-              ],
+              "collection_list": [],
               "poc-1": "Product 1 text",
               "poc-2": "Product 2 text",
               "poc-3": "Product 3 text",
@@ -470,27 +518,41 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
         "settings": {
+          "button_color": "#121212",
+          "secondary_color": "#f68c2c",
+          "ternary_color": "#363534",
+          "button_icon": "chat_bubble",
+          "button_text": "live_chat",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "highest",
+          "greeting_message": ""
         }
       },
       "13768625480086291342": {
-        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
       },
       "8813254906777318544": {
-        "type": "shopify:\/\/apps\/k-wishlist\/blocks\/app-embeded\/21053a4c-1902-4720-aab8-ebfc69de009a",
+        "type": "shopify://apps/kaktus-advanced-wishlist/blocks/app-embeded/21053a4c-1902-4720-aab8-ebfc69de009a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "12476284290585462717": {
+        "type": "shopify://apps/doofinder-search-discovery/blocks/doofinder-script/1abc6bc6-ff36-4a37-9034-effae4a47cf6",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -634,8 +696,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -674,7 +735,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
