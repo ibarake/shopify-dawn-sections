@@ -71,7 +71,7 @@
         "subheading": "",
         "heading": "",
         "spacing": 300,
-        "image": "shopify://shop_images/Banner_primavera-01.jpg",
+        "image": "shopify://shop_images/Banners_Ashley_sleep-01.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
         "img-position": "center center",
@@ -84,6 +84,51 @@
         "img-height": 540,
         "responsive-container-height": 1,
         "responsive-img-height": 100
+      }
+    },
+    "image_with_text_R7nhCn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Jq8L88": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_XzbLLr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_yqyRdK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jq8L88",
+        "text_XzbLLr",
+        "button_yqyRdK"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/nectar.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection_Kxz9Fp": {
@@ -585,19 +630,6 @@
         "auto_rotate": false,
         "change_slides_speed": 6
       }
-    },
-    "video_C7xJVD": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "video_url": "https://youtu.be/X2p3nrHfHs4",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -606,6 +638,7 @@
     "featured_collection_yei8Bc",
     "custom_hero_banner_dhcz7w",
     "featured_collection_Kxz9Fp",
+    "image_with_text_R7nhCn",
     "featured_collection_RGLaEx",
     "featured_collection_XVaCtR",
     "featured_collection_wcyL6L",
@@ -622,7 +655,6 @@
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "67273f3a-52d1-48b2-a974-4db367375c32",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "slideshow_R39eBJ",
-    "video_C7xJVD"
+    "slideshow_R39eBJ"
   ]
 }
