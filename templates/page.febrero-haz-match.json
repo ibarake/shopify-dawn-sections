@@ -70,7 +70,7 @@
       "settings": {
         "title": "Un regalo especial para Mamá",
         "heading_size": "h2",
-        "description": "<p>Compra productos de la líneas Hazela, Abinger & Hennington y lleva un bono por $500.000 pesos para Mamá.</p>",
+        "description": "<p>Compra productos de la líneas Hazela, Abinger & Hennington y lleva un <strong>bono por $500.000 pesos para Mamá</strong>.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "hogar-dulce-hogar-hzela-abinger-hennington",
