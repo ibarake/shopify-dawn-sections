@@ -73,7 +73,7 @@
         "description": "<p>Compra productos de la líneas Hazela, Abinger & Hennington y lleva un bono por $500.000 pesos para Mamá</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "nuevos-precios-bajos",
+        "collection": "hogar-dulce-hogar-hzela-abinger-hennington",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
