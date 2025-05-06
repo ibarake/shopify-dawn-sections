@@ -158,6 +158,56 @@ class QuantityInput extends HTMLElement {
 
 customElements.define('quantity-input', QuantityInput);
 
+// Nuevo componente específico para la sección de producto principal
+class ProductQuantityInput extends HTMLElement {
+  constructor() {
+    super();
+    this.input = this.querySelector('input');
+    this.changeEvent = new Event('change', { bubbles: true });
+
+    this.querySelectorAll('button').forEach(
+      (button) => button.addEventListener('click', this.onButtonClick.bind(this))
+    );
+
+    // Escuchar el evento personalizado
+    this.addEventListener('syncQuantity', this.onSyncQuantity.bind(this));
+
+    // Agregar listener para cambios directos en el input
+    this.input.addEventListener('change', () => {
+      this.syncWithOtherInputs();
+    });
+  }
+
+  onButtonClick(event) {
+    event.preventDefault();
+    const previousValue = this.input.value;
+
+    event.target.name === 'plus' ? this.input.stepUp() : this.input.stepDown();
+    if (previousValue !== this.input.value) {
+      this.input.dispatchEvent(this.changeEvent);
+      this.syncWithOtherInputs();
+    }
+  }
+
+  syncWithOtherInputs() {
+    document.querySelectorAll('product-quantity-input').forEach((quantityInput) => {
+      if (quantityInput !== this) {
+        quantityInput.dispatchEvent(
+          new CustomEvent('syncQuantity', { 
+            detail: { value: this.input.value }
+          })
+        );
+      }
+    });
+  }
+
+  onSyncQuantity(event) {
+    this.input.value = event.detail.value;
+  }
+}
+
+customElements.define('product-quantity-input', ProductQuantityInput);
+
 function debounce(fn, wait) {
   let t;
   return (...args) => {
@@ -861,18 +911,22 @@ class VariantSelects extends HTMLElement {
     const productForm = section.querySelector('product-form');
     if (productForm) productForm.handleErrorMessage();
   }
-
+  
   renderProductInfo() {
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
         const html = new DOMParser().parseFromString(responseText, 'text/html')
-        const destination = document.getElementById(`price-${this.dataset.section}`);
-        const source = html.getElementById(`price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
-        if (source && destination) destination.innerHTML = source.innerHTML;
-
+        const destinations = document.querySelectorAll(`.price-${this.dataset.section}`);
+        const sources = html.querySelectorAll(`.price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        if (sources && sources.length > 0 && destinations && destinations.length > 0) {
+          destinations.forEach((destination, index) => {
+            if (sources[index]) {
+              destination.innerHTML = sources[index].innerHTML;
+            }
+          });
+        }
         const price = document.getElementById(`price-${this.dataset.section}`);
-
         if (price) price.classList.remove('visibility-hidden');
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
