@@ -34,7 +34,7 @@
     price
     {%- if price_class %} {{ price_class }}{% endif -%}
     {%- if available == false %} price--sold-out {% endif -%}
-    {%- if compare_at_price > price %} price--on-sale {% endif -%}
+    {%- if compare_at_price != blank and compare_at_price > price and compare_at_price != price %} price--on-sale {% endif -%}
     {%- if product.price_varies == false and product.compare_at_price_varies %} price--no-compare{% endif -%}
     {%- if show_badges %} price--show-badge{% endif -%}
   ">
@@ -43,7 +43,7 @@
       {{ 'products.product.sold_out' | t }}
     </span>
   {%- endif -%}
-  <div class="price__container">
+  <div class="price__container" style="display: flex;">
     {%- comment -%} 
                   Explanation of description list: 
                   - div.price__regular: Displayed when there are no variants on sale 
@@ -61,7 +61,7 @@
         <span>
           <s
             class="price-item price-item--regular"
-            {% if settings.borrartachado %}
+            {% if settings.borrartachado or compare_at_price == price %}
             style="display: none;"
             {% endif %}>
             {% if settings.currency_code_enabled %}
@@ -72,7 +72,7 @@
           </s>
         </span>
       {%- endunless -%}
-      {%- if product.compare_at_price and product.compare_at_price > product.price %}
+      {%- if compare_at_price != blank and compare_at_price > price and compare_at_price != price %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
         <span class="price-item price-item--sale price-item--last" style="display: flex; flex-direction: row; justify-content: flex-start; height: 20px;">
           <style>

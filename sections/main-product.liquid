@@ -362,7 +362,7 @@
                 </a>
               </div>
             {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden price-{{ section.id }}" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
                   product: product,
                   use_variant: true,
@@ -512,7 +512,7 @@
                   {{ 'products.product.quantity.label' | t }}
                 </label>
 
-                <quantity-input class="quantity">
+                <product-quantity-input class="quantity">
                   <button class="quantity__button no-js-hidden" name="minus" type="button">
                     <span class="visually-hidden">
                       {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
@@ -534,7 +534,7 @@
                     </span>
                     {% render 'icon-plus' %}
                   </button>
-                </quantity-input>
+                </product-quantity-input>
               </div>
             {%- when 'popup' -%}
               <modal-opener
@@ -1340,7 +1340,7 @@
 
   {%- liquid
     if product.selected_or_first_available_variant.featured_media
-      assign seo_media = product.featured_media
+      assign seo_media = product.selected_or_first_available_variant.featured_media
     else
       assign seo_media = product.featured_media
     endif
@@ -1349,17 +1349,31 @@
       <form action="/cart/add" method="post" enctype="multipart/form-data">
         <input type="hidden" name="id" value="{{ product.variants.first.id }}">
         <div style="width: 150px; height: 80%; display: flex; justify-content: flex-end;">
-          {{
-            product.selected_or_first_available_variant.featured_media
-            | image_url: width: 1946
-            | image_tag:
-              loading: lazy,
-              sizes: sizes,
-              widths: '300',
-              alt: product.featured_media.alt,
-              class: 'sticky-bar-image'
-            | escape
-          }}
+          {%- if product.selected_or_first_available_variant.featured_media -%}
+            {{
+              product.selected_or_first_available_variant.featured_media
+              | image_url: width: 1946
+              | image_tag:
+                loading: lazy,
+                sizes: sizes,
+                widths: '300',
+                alt: product.selected_or_first_available_variant.featured_media.alt,
+                class: 'sticky-bar-image'
+              | escape
+            }}
+          {%- elsif product.featured_media -%}
+            {{
+              product.featured_media
+              | image_url: width: 1946
+              | image_tag:
+                loading: lazy,
+                sizes: sizes,
+                widths: '300',
+                alt: product.featured_media.alt,
+                class: 'sticky-bar-image'
+              | escape
+            }}
+          {%- endif -%}
         </div>
         <div class="bar-title-s">
           <p
@@ -1380,7 +1394,7 @@
 
         <!-- Quantity Selector -->
         <div>
-          <quantity-input class="quantity">
+          <product-quantity-input class="quantity">
             <button class="quantity__button no-js-hidden" name="minus" type="button">
               <span class="visually-hidden">
                 {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
@@ -1402,11 +1416,11 @@
               </span>
               {% render 'icon-plus' %}
             </button>
-          </quantity-input>
+          </product-quantity-input>
         </div>
         <!-- Price Placeholder -->
         <div
-          class="price"
+          class="price price-{{ section.id }}"
         >
           <p style="margin: 0px;">Subtotal:</p>
           {%- render 'price-2',
