@@ -10,14 +10,15 @@
 {
   "current": {
     "addi_widget": false,
-    "wapp_side": "right",
+    "wapp_side": "left",
     "show_whatsapp": true,
     "include_product": true,
     "whatsapp_phone": "+573015519915",
     "whatsapp_message": "Hola, estoy en la pagina: necesito ayuda.",
     "whatsapp_message_product_1": "Hola, me interesa:",
     "whatsapp_message_product_2": "Quisiera me contacten, ¡Gracias!",
-    "vertical_space": 10,
+    "horizontal_space": 1,
+    "vertical_space": 1,
     "show_breadcrumb_nav": true,
     "breadcrumb_delimeter": "slash",
     "breadcrumb_text_color": "#121212",
