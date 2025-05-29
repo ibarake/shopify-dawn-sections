@@ -26,14 +26,14 @@
         "image": "shopify://shop_images/Banners_Ashley_sleep-01.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
-        "img-position": "center center",
+        "img-position": "left top",
         "button-text": "",
         "button_link": "",
         "btn-linebreak": "normal",
         "btn-bg-color-normal": "#ffffff",
         "btn-bg-color-hover": "#ffffff",
         "btn-txt-color": "#ffffff",
-        "img-height": 540,
+        "img-height": 300,
         "responsive-container-height": 1,
         "responsive-img-height": 100
       }
@@ -122,7 +122,6 @@
         "text_XzbLLr",
         "button_yqyRdK"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/nectar.gif",
         "height": "adapt",
