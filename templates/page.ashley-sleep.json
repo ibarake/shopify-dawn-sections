@@ -109,33 +109,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_wcyL6L": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Productos de Exteriores",
-        "heading_size": "h2",
-        "description": "<p>Los productos de exteriores transforman tus espacios al aire libre en lugares ideales para disfrutar momentos únicos.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "muebles-exteriores",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32": {
       "type": "slideshow",
       "custom_css": [
@@ -155,11 +128,11 @@
         "1c1187c7-f402-4b7e-9262-170ab77b8bfd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Cimarose.jpg",
+            "image": "shopify://shop_images/M87431-M9X932-MOOD-B.jpg",
             "title": "",
             "text": "",
-            "link_label": "Poltronas",
-            "link": "shopify://collections/poltronas-black-friday-2024"
+            "link_label": "Base ajustable",
+            "link": "shopify://collections/bases-ajustables"
           }
         },
         "3d362d61-83a8-4f68-8887-92f46fe6e4a3": {
@@ -170,15 +143,6 @@
             "text": "",
             "link_label": "Sofás",
             "link": "shopify://collections/orange-is-christmas"
-          }
-        },
-        "column_MYciEj": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
           }
         },
         "5178b2a1-9aea-4a1d-9ace-e178f911c5af": {
@@ -205,7 +169,6 @@
       "block_order": [
         "1c1187c7-f402-4b7e-9262-170ab77b8bfd",
         "3d362d61-83a8-4f68-8887-92f46fe6e4a3",
-        "column_MYciEj",
         "5178b2a1-9aea-4a1d-9ace-e178f911c5af",
         "c591d96e-97e7-4109-965e-375bc8c63358"
       ],
@@ -318,7 +281,6 @@
     "custom_hero_banner_6eKLQm",
     "featured_collection_yei8Bc",
     "image_with_text_R7nhCn",
-    "featured_collection_wcyL6L",
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
