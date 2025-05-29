@@ -85,8 +85,8 @@
         "button_yqyRdK": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Ver más",
+            "button_link": "shopify://collections/hibrido"
           }
         }
       },
@@ -176,10 +176,10 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "half",
+        "image_ratio": "portrait",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -237,6 +237,17 @@
     },
     "67273f3a-52d1-48b2-a974-4db367375c32": {
       "type": "slideshow",
+      "blocks": {
+        "slide_nxNrCz": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_nxNrCz"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -250,7 +261,7 @@
         "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Tu Casa en Primavera:</strong> Aplican términos y condiciones. <strong>Vigencia:</strong> 1 de abril al 30 de abril de 2025, hasta las 7:00 p.m. <strong>Unidades limitadas en referencias seleccionadas, sujetas a disponibilidad.</strong> Oferta válida en tiendas físicas (Av. 19 #109-41 y Autopista Norte #224-60, Bogotá) y en <a href=\"http://www.ashleycolombia.com\">www.ashleycolombia.com</a>. Una vez agotadas las unidades en promoción, el descuento dejará de aplicarse para ese producto.</p>"
+            "text": ""
           }
         }
       },
