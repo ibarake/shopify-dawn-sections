@@ -31,9 +31,9 @@
         "slide_Pyhgb6": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Banners_Hogar_dulce_hogar-04.jpg",
-            "image_r": "shopify://shop_images/Banners_Hogar_dulce_hogar-06.jpg",
-            "link": "https://ashleycolombia.com/collections/hogar-dulce-hogar-20-off"
+            "image": "shopify://shop_images/Home_1.jpg",
+            "image_r": "shopify://shop_images/Mobile_1.jpg",
+            "link": "shopify://collections"
           }
         }
       },
