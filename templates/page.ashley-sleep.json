@@ -286,6 +286,27 @@
         "responsive-container-height": 300,
         "responsive-img-height": 300
       }
+    },
+    "slideshow_rM6ypK": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_3QxF46": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3QxF46"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
     }
   },
   "order": [
@@ -297,6 +318,7 @@
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "custom_hero_banner_T9E83j"
+    "custom_hero_banner_T9E83j",
+    "slideshow_rM6ypK"
   ]
 }
