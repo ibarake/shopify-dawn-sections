@@ -17,25 +17,48 @@
         "padding_bottom": 28
       }
     },
-    "custom_hero_banner_6eKLQm": {
-      "type": "custom-hero-banner",
+    "slideshow_JQACWk": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_HUqrb3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Mesa_de_trabajo_1-80_1d0aa83f-ed84-4438-b798-6ca8ab0ebbdf.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_HUqrb3"
+      ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "subheading": "",
-        "heading": "",
-        "spacing": 300,
-        "image": "shopify://shop_images/Banners_Ashley_sleep-01.jpg",
-        "bg_color": "#ffffff",
-        "color": "#121212",
-        "img-position": "left top",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#ffffff",
-        "btn-bg-color-hover": "#ffffff",
-        "btn-txt-color": "#ffffff",
-        "img-height": 300,
-        "responsive-container-height": 1,
-        "responsive-img-height": 100
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
+    "slideshow_e6VGNq": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_3wpx8c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banners_Ashley_sleep.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3wpx8c"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
       }
     },
     "featured_collection_yei8Bc": {
@@ -107,19 +130,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32": {
-      "type": "slideshow",
-      "custom_css": [
-        "a {z-index: 2;}",
-        "@media only screen and (max-width: 768px) {a {height: 400px; }}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
       }
     },
     "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
@@ -220,7 +230,6 @@
         "0b7e2b4a-1f0e-4cca-a6f7-78322353b0de",
         "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1"
       ],
-      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
@@ -233,26 +242,6 @@
         "color_scheme": "background-1",
         "padding_top": 32,
         "padding_bottom": 0
-      }
-    },
-    "67273f3a-52d1-48b2-a974-4db367375c32": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_nxNrCz": {
-          "type": "slide",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_nxNrCz"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
       }
     },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
@@ -277,26 +266,37 @@
         "padding_bottom": 0
       }
     },
-    "slideshow_R39eBJ": {
-      "type": "slideshow",
+    "custom_hero_banner_T9E83j": {
+      "type": "custom-hero-banner",
+      "name": "Custom hero banner Ashley",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
+        "subheading": "",
+        "heading": "",
+        "spacing": 300,
+        "bg_color": "#FFFFFF",
+        "color": "#000000",
+        "img-position": "center center",
+        "button-text": "",
+        "button_link": "",
+        "btn-linebreak": "normal",
+        "btn-bg-color-normal": "#FFFFFF",
+        "btn-bg-color-hover": "#FFFFFF",
+        "btn-txt-color": "#FFFFFF",
+        "img-height": 540,
+        "responsive-container-height": 300,
+        "responsive-img-height": 300
       }
     }
   },
   "order": [
     "main",
-    "custom_hero_banner_6eKLQm",
+    "slideshow_JQACWk",
+    "slideshow_e6VGNq",
     "featured_collection_yei8Bc",
     "image_with_text_R7nhCn",
-    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
-    "67273f3a-52d1-48b2-a974-4db367375c32",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "slideshow_R39eBJ"
+    "custom_hero_banner_T9E83j"
   ]
 }
