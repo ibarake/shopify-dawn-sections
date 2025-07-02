@@ -57,9 +57,9 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "title": "Sofás",
+        "title": "¡Aprovecha el Summer SALE!",
         "heading_size": "h2",
-        "description": "<p>Transforma tus espacios con el confort y estilo que mereces.</p>",
+        "description": "<p>Esta es tu oportunidad de llevarte piezas únicas con <strong>descuentos que no volverán</strong>.<br/><strong>¡Lo que ves hoy, mañana puede no estar!</strong><br/>Compra ahora y disfruta de entrega rápida</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "sofas-black-friday",
@@ -84,9 +84,9 @@
     "featured_collection_kYxwU7": {
       "type": "featured-collection",
       "settings": {
-        "title": "Poltronas",
+        "title": "¡Últimas unidades en SALE!",
         "heading_size": "h2",
-        "description": "<p>Sofisticación y comodidad en una sola pieza</p>",
+        "description": "<p>Llévate esa poltrona que le da el toque especial a tu espacio…</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "poltronas-black-friday-2024",
