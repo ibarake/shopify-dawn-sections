@@ -116,7 +116,7 @@
         "description": "<p>Este verano, transforma tu exterior con diseño y funcionalidad.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "muebles-exteriores",
+        "collection": "summer-sale-40",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
