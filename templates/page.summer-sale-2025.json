@@ -466,18 +466,6 @@
     },
     "67273f3a-52d1-48b2-a974-4db367375c32": {
       "type": "slideshow",
-      "blocks": {
-        "slide_PfHtcU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_delgado.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_PfHtcU"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -491,7 +479,7 @@
         "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5><strong>* Aplican Términos y Condiciones. Válido para productos seleccionados. Unidades Limitadas. 01 de Nov. al 02 de Dic. 2024</strong></h5><h5>*Campaña Black Friday - Términos y Condiciones: Vigente del 1 de noviembre al 2 de diciembre de 2024, hasta las 7:00 p.m. Los descuentos aplican solo a referencias seleccionadas y en unidades limitadas, sujetas a disponibilidad. Oferta válida en nuestras tiendas de Av. 19 #109-41 y Autopista Norte #224-60 en Bogotá, así como en www.ashleycolombia.com. Una vez agotadas las unidades en promoción, el descuento dejará de aplicarse para ese producto.</h5>"
+            "text": "<h5><strong>* Aplican Términos y Condiciones. Válido para productos seleccionados. Unidades Limitadas. Vigencia desde 01 al 31 de Julio 2025.  </strong></h5><h5>*Campaña SUMMER SALE - Términos y Condiciones: Vigente del 01 al 31 de  Julio 2025 hasta las 7:00 p.m. Los descuentos aplican solo a referencias seleccionadas y en unidades limitadas, sujetas a disponibilidad. Oferta válida en nuestras tiendas de Av. 19 #109-41 y Autopista Norte #224-60 en Bogotá, así como en www.ashleycolombia.com. Una vez agotadas las unidades en promoción, el descuento dejará de aplicarse para ese producto.</h5>"
           }
         }
       },
@@ -509,18 +497,6 @@
     },
     "slideshow_R39eBJ": {
       "type": "slideshow",
-      "blocks": {
-        "slide_zqRiyg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/25_35_40_50_e69a3566-b26f-490b-89ba-600c3adfdafd.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_zqRiyg"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
