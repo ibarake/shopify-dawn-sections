@@ -189,60 +189,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_pVwmg4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Lámparas",
-        "heading_size": "h2",
-        "description": "<p>Las lámparas de piso, techo y mesa iluminan y realzan tus espacios, cada una aportando un estilo único y funcionalidad</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "lamparas-black-friday-2024",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_M6dX9B": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Decoración de Pared",
-        "heading_size": "h2",
-        "description": "<p>Espejos y cuadros armonizan tus espacios, aportando luz, estilo y personalidad a cada pared.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "decoracion-de-pared",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
       "type": "multicolumn",
       "blocks": {
@@ -311,33 +257,6 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection_xe9aiy": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Mesas de Centro y Auxiliares",
-        "heading_size": "h2",
-        "description": "<p>Funcionalidad y Estilo para tu Hogar</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mesas-centro-auxiliares",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_AK6pXN": {
       "type": "featured-collection",
       "settings": {
@@ -347,33 +266,6 @@
         "show_description": false,
         "description_style": "body",
         "collection": "camas-black-friday-2024",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_4d7YzB": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Comedores y Muebles de TV",
-        "heading_size": "h2",
-        "description": "<p>Crea espacios acogedores para disfrutar en familia</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "muebles-tv-black-friday-2024",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -487,12 +379,8 @@
     "featured_collection_wcyL6L",
     "featured_collection_3YdF7t",
     "featured_collection_Twcmkx",
-    "featured_collection_pVwmg4",
-    "featured_collection_M6dX9B",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
-    "featured_collection_xe9aiy",
     "featured_collection_AK6pXN",
-    "featured_collection_4d7YzB",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "67273f3a-52d1-48b2-a974-4db367375c32",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
