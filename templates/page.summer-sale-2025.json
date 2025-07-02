@@ -86,7 +86,7 @@
       "settings": {
         "title": "¡Últimas unidades en SALE!",
         "heading_size": "h2",
-        "description": "<p>Llévate esa poltrona que le da el toque especial a tu espacio…</p>",
+        "description": "<p>Llévate ese producto que le da el toque especial a tu espacio…</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "summer-sale-30",
@@ -111,9 +111,9 @@
     "featured_collection_wcyL6L": {
       "type": "featured-collection",
       "settings": {
-        "title": "Summer SALE en exteriores",
+        "title": "Summer SALE hasta el 50%",
         "heading_size": "h2",
-        "description": "<p>Este verano, transforma tu exterior con diseño y funcionalidad.</p>",
+        "description": "<p>en productos seleccionados</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "summer-sale-40",
