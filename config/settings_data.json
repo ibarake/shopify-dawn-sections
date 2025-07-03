@@ -341,7 +341,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify://shop_images/Ashley_Pagina.jpg",
           "logo_width": 170,
           "logo_position": "top-left",
           "menu": "main-menu",
