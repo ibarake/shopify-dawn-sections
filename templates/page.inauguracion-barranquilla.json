@@ -37,6 +37,51 @@
         "include_margins": true
       }
     },
+    "image_with_text_KMDjJg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LWq4UC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Muy pronto, Ashley llega a la Costa.",
+            "heading_size": "h2"
+          }
+        },
+        "text_ELY4zE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En pocos días abriremos nuestra primera tienda en Barranquilla, marcando así la expansión de nuestra marca a la región Caribe.<br/><br/>Será nuestra tercera tienda en Colombia, y estamos listos para ofrecerte una experiencia única con muebles de diseño, calidad superior y precios accesibles.<br/><br/><strong>Prepárate para vivir la experiencia Ashley.</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_jJycyd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LWq4UC",
+        "text_ELY4zE",
+        "button_jJycyd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Foto_Fachada.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_hero_banner_H6KUWB": {
       "type": "custom-hero-banner",
       "settings": {
@@ -105,8 +150,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 12,
+        "padding_bottom": 8
       }
     },
     "image_with_text_qErYDq": {
@@ -145,51 +190,6 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_KMDjJg": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LWq4UC": {
-          "type": "heading",
-          "settings": {
-            "heading": "Muy pronto, Ashley llega a la Costa.",
-            "heading_size": "h2"
-          }
-        },
-        "text_ELY4zE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>En pocos días abriremos nuestra primera tienda en Barranquilla, marcando así la expansión de nuestra marca a la región Caribe.<br/><br/>Será nuestra tercera tienda en Colombia, y estamos listos para ofrecerte una experiencia única con muebles de diseño, calidad superior y precios accesibles.<br/><br/><strong>Prepárate para vivir la experiencia Ashley.</strong></p>",
-            "text_style": "body"
-          }
-        },
-        "button_jJycyd": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_LWq4UC",
-        "text_ELY4zE",
-        "button_jJycyd"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Foto_Fachada.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -351,11 +351,11 @@
   },
   "order": [
     "1720719707798c886e",
+    "image_with_text_KMDjJg",
     "custom_hero_banner_H6KUWB",
     "main",
     "rich_text_BPBzzk",
     "image_with_text_qErYDq",
-    "image_with_text_KMDjJg",
     "multicolumn_3DmH9n",
     "17207332740b186fae",
     "featured_collection_kewnFY",
