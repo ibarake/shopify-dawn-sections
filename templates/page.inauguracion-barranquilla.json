@@ -43,7 +43,7 @@
         "subheading": "",
         "heading": "",
         "spacing": 300,
-        "image": "shopify://shop_images/Banners.jpg",
+        "image": "shopify://shop_images/Banner_a5e40250-b0e4-46fb-8441-a4fd8a214ff0.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
         "img-position": "center center",
@@ -256,7 +256,7 @@
       "type": "apps",
       "blocks": {
         "google_reviews_plus_app_block_hCzifa": {
-          "type": "shopify://apps/google-reviews-plus/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
           "settings": {}
         }
       },
