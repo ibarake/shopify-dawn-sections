@@ -160,14 +160,14 @@
         "heading_LWq4UC": {
           "type": "heading",
           "settings": {
-            "heading": "Próximamente Ashley en Barranquilla",
+            "heading": "Muy pronto, Ashley llega a la Costa.",
             "heading_size": "h2"
           }
         },
         "text_ELY4zE": {
           "type": "text",
           "settings": {
-            "text": "<p>En el 2025 llegaremos a arenosa. Esta será nuestra tercera tienda en Colombia, marcando nuestra llegada a la costa. Aquí encontrarás una variedad de productos para el hogar con diseños únicos y precios accesibles.</p>",
+            "text": "<p>En pocos días abriremos nuestra primera tienda en Barranquilla, marcando así la expansión de nuestra marca a la región Caribe.<br/><br/>Será nuestra tercera tienda en Colombia, y estamos listos para ofrecerte una experiencia única con muebles de diseño, calidad superior y precios accesibles.<br/><br/><strong>Prepárate para vivir la experiencia Ashley.</strong></p>",
             "text_style": "body"
           }
         },
@@ -186,7 +186,7 @@
         "button_jJycyd"
       ],
       "settings": {
-        "image": "shopify://shop_images/Foto_Barranquilla.jpg",
+        "image": "shopify://shop_images/Foto_Fachada.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
