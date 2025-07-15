@@ -9,6 +9,30 @@
  */
 {
   "sections": {
+    "rich_text_GTfJ63": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CRGFj8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Haz de tu hogar tu lugar favorito</p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CRGFj8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1720719707798c886e": {
       "type": "apps",
       "blocks": {
@@ -69,7 +93,7 @@
         "button_jJycyd"
       ],
       "settings": {
-        "image": "shopify://shop_images/Sin_titulo-5_8bb78652-9936-43fb-9071-f431b909501d.jpg",
+        "image": "shopify://shop_images/foto_fachada_0b703daf-523e-43de-b217-040ebe983dc0.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -84,7 +108,6 @@
     },
     "custom_hero_banner_H6KUWB": {
       "type": "custom-hero-banner",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "heading": "",
@@ -353,6 +376,7 @@
     }
   },
   "order": [
+    "rich_text_GTfJ63",
     "1720719707798c886e",
     "image_with_text_KMDjJg",
     "custom_hero_banner_H6KUWB",
