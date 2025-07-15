@@ -14,6 +14,7 @@
       "blocks": {
         "heading_CRGFj8": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>Haz de tu hogar tu lugar favorito</p>",
             "heading_size": "h1"
@@ -93,9 +94,9 @@
         "button_jJycyd"
       ],
       "settings": {
-        "image": "shopify://shop_images/foto_fachada_0b703daf-523e-43de-b217-040ebe983dc0.jpg",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-07-14_at_10.42.08_PM.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
