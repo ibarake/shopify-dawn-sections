@@ -32,6 +32,21 @@
         "change_slides_speed": 6
       }
     },
+    "17207332740b186fae": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_hCzifa": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_hCzifa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "rich_text_GTfJ63": {
       "type": "rich-text",
       "disabled": true,
@@ -151,21 +166,6 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "17207332740b186fae": {
-      "type": "apps",
-      "blocks": {
-        "google_reviews_plus_app_block_hCzifa": {
-          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "google_reviews_plus_app_block_hCzifa"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "featured_collection_kewnFY": {
@@ -308,6 +308,7 @@
   },
   "order": [
     "slideshow_jX9qT4",
+    "1720719707798c886e",
     "rich_text_GTfJ63",
     "multicolumn_3DmH9n",
     "image_with_text_KMDjJg",
@@ -316,7 +317,6 @@
     "featured_collection_UHTNYf",
     "featured_collection_VkUnwD",
     "featured_collection_jyjMTQ",
-    "17207332740b186fae",
-    "1720719707798c886e"
+    "17207332740b186fae"
   ]
 }
