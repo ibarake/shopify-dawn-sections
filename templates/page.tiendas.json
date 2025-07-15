@@ -107,7 +107,7 @@
       "settings": {
         "image": "shopify://shop_images/as3_12e34a21-30e5-4824-9aff-4f3685e75d34.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
