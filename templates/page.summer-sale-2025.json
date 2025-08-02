@@ -23,7 +23,7 @@
         "subheading": "",
         "heading": "",
         "spacing": 300,
-        "image": "shopify://shop_images/Banners_Summer_Sale_2-01.png",
+        "image": "shopify://shop_images/Banner-ll.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
         "img-position": "center center",
@@ -57,7 +57,7 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "title": "¡Aprovecha el Summer SALE!",
+        "title": "",
         "heading_size": "h2",
         "description": "<p>Esta es tu oportunidad de llevarte piezas únicas con <strong>descuentos que no volverán</strong>.<br/><strong>¡Lo que ves hoy, mañana puede no estar!</strong><br/>Compra ahora y disfruta de entrega rápida</p>",
         "show_description": false,
