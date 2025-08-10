@@ -283,6 +283,7 @@
           },
           "nav_menu_xK4HMa": {
             "type": "nav-menu",
+            "disabled": true,
             "settings": {
               "title": "SALE",
               "url": "shopify://pages/https-ashleycolombia-com-pages-summer-sale-2025-la-temporada-de-descuentos-ya-esta-aqui",
