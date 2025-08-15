@@ -12,26 +12,26 @@
     "1720719707798c886e": {
       "type": "apps",
       "blocks": {
-        "forms_inline_cx4CUH": {
+        "forms_inline_HGEpXT": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "165665",
-            "text_color": "#121212",
-            "button_background_color": "#f68c2c",
-            "button_label_color": "#121212",
-            "links_color": "#1878b9",
-            "errors_color": "#e02229",
+            "form_id": "610233",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
-            "padding_bottom": 21,
+            "padding_bottom": 24,
             "padding_right": 0,
             "padding_left": 0
           }
         }
       },
       "block_order": [
-        "forms_inline_cx4CUH"
+        "forms_inline_HGEpXT"
       ],
       "settings": {
         "include_margins": true
@@ -51,14 +51,14 @@
         "heading_zk4Ywx": {
           "type": "heading",
           "settings": {
-            "heading": "Únete a nuestro newsletter y gana uno de los 3 bonos de $1'000.000 COP para redimir en nuestra tienda.",
+            "heading": "Regístrate en nuestra base de datos y gana al instante",
             "heading_size": "h2"
           }
         },
         "text_3Utx9r": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Suscríbete a nuestro newsletter entre el 29 de agosto y el 15 de septiembre y ¡entra en el sorteo de uno de los 3 bonos que tenemos para ti! </strong></p><p>El sorteo se realizará el viernes 20 de septiembre de 2024. </p><p>* Aplican términos y condiciones. Los bonos son personales e intransferibles, válidos únicamente en Ashley Bogotá hasta el 31 de diciembre de 2024. Deben redimirse por productos.  No son canjeables por dinero en efectivo. Los premios se asignarán de manera aleatoria.</p>",
+            "text": "<p><strong>Suscríbete a nuestro newsletter entre el 04 al 21 de Septiembre 2025 y gana un bono de $100.000 para usar cualquiera de las tiendas Ashley Furniture en el país.</strong></p>",
             "text_style": "body"
           }
         },
@@ -124,7 +124,7 @@
         "text_ELY4zE": {
           "type": "text",
           "settings": {
-            "text": "<p>Te esperamos desde el jueves 29 de Agosto hasta el domingo 15 de septiembre. Pabellón 17, Stand 1406</p>",
+            "text": "<p><strong>Del 4 al 21 de septiembre de 2025</strong> .</p><ul><li>Colchones Ashley Sleep – Gran Salón, Pabellón 16, Stand 1214<br/></li><li>Muebles para el hogar – Pabellón 17, Stand 1406<br/></li></ul><p>¡Te esperamos para que descubras calidad, confort y diseño en un solo lugar!</p>",
             "text_style": "body"
           }
         },
@@ -251,6 +251,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17552268509b9c8b6d": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -262,6 +268,7 @@
     "17207332740b186fae",
     "featured_collection_kewnFY",
     "featured_collection_UHTNYf",
-    "featured_collection_VkUnwD"
+    "featured_collection_VkUnwD",
+    "17552268509b9c8b6d"
   ]
 }
