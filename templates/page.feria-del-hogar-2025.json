@@ -1,0 +1,267 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1720719707798c886e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_cx4CUH": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "165665",
+            "text_color": "#121212",
+            "button_background_color": "#f68c2c",
+            "button_label_color": "#121212",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 21,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_cx4CUH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_qErYDq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zk4Ywx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Únete a nuestro newsletter y gana uno de los 3 bonos de $1'000.000 COP para redimir en nuestra tienda.",
+            "heading_size": "h2"
+          }
+        },
+        "text_3Utx9r": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Suscríbete a nuestro newsletter entre el 29 de agosto y el 15 de septiembre y ¡entra en el sorteo de uno de los 3 bonos que tenemos para ti! </strong></p><p>El sorteo se realizará el viernes 20 de septiembre de 2024. </p><p>* Aplican términos y condiciones. Los bonos son personales e intransferibles, válidos únicamente en Ashley Bogotá hasta el 31 de diciembre de 2024. Deben redimirse por productos.  No son canjeables por dinero en efectivo. Los premios se asignarán de manera aleatoria.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_EcLfXd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_zk4Ywx",
+        "text_3Utx9r",
+        "button_EcLfXd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner_2_Mesa_de_trabajo_1_ad6d9870-caa8-4dfd-8e83-feb034216805.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_tBEcEa": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Wm8bKN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Prueba_banner_069259ce-ab21-4f15-8921-01a77520e762.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_Wm8bKN"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
+    "image_with_text_KMDjJg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LWq4UC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visítanos en Feria del Hogar",
+            "heading_size": "h2"
+          }
+        },
+        "text_ELY4zE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Te esperamos desde el jueves 29 de Agosto hasta el domingo 15 de septiembre. Pabellón 17, Stand 1406</p>",
+            "text_style": "body"
+          }
+        },
+        "button_jJycyd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LWq4UC",
+        "text_ELY4zE",
+        "button_jJycyd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1694989380943.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17207332740b186fae": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_hCzifa": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_hCzifa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_collection_kewnFY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sofás",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sofas-2-puestos",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_UHTNYf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Comedores",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mesas-de-comedor",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_VkUnwD": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Poltronas",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sillas-para-sala-y-habitacion",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1720719707798c886e",
+    "main",
+    "image_with_text_qErYDq",
+    "slideshow_tBEcEa",
+    "image_with_text_KMDjJg",
+    "17207332740b186fae",
+    "featured_collection_kewnFY",
+    "featured_collection_UHTNYf",
+    "featured_collection_VkUnwD"
+  ]
+}
