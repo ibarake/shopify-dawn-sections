@@ -15,8 +15,8 @@
         "slide_fJAcb3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Banner_Bquilla-02.jpg",
-            "image_r": "shopify://shop_images/Ashley_Barranquilla_Banner.jpg",
+            "image": "shopify://shop_images/Banner_brunch-01.jpg",
+            "image_r": "shopify://shop_images/Banner_brunch-02.jpg",
             "link": ""
           }
         }
@@ -38,7 +38,7 @@
         "forms_inline_cx4CUH": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "137192",
+            "form_id": "626257",
             "text_color": "#121212",
             "button_background_color": "#f68c2c",
             "button_label_color": "#121212",
