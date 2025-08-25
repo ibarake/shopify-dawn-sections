@@ -1,0 +1,322 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_jX9qT4": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fJAcb3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Bquilla-02.jpg",
+            "image_r": "shopify://shop_images/Ashley_Barranquilla_Banner.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_fJAcb3"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
+    "1720719707798c886e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_cx4CUH": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "137192",
+            "text_color": "#121212",
+            "button_background_color": "#f68c2c",
+            "button_label_color": "#121212",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 10,
+            "padding_bottom": 10,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_cx4CUH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_GTfJ63": {
+      "type": "rich-text",
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 76,
+        "padding_bottom": 80
+      }
+    },
+    "multicolumn_3DmH9n": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UwmTpa": {
+          "type": "column",
+          "settings": {
+            "title": "Propuesta de Valor",
+            "text": "<p><strong>Mas de 10,000 referencias</strong>, 20 categorías de producto, 9 estilos, entrega inmediata', <strong>servicio excepciona</strong>l, calidad y <strong>precio correcto en un solo lugar.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gFJCP8": {
+          "type": "column",
+          "settings": {
+            "title": "Ashley Furniture",
+            "text": "<p>Con <strong>80 años de experiencia</strong>, somos el <strong>mayor fabricante de muebles en el mundo</strong> y la <strong>marca número 1 en Estados Unidos</strong>. Contamos con más de <strong>1,200 tiendas en más de 65 países.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gpdWUL": {
+          "type": "column",
+          "settings": {
+            "title": "Somos Expertos en Colombia",
+            "text": "<p>El equipo de Clover4 SAS tiene <strong>más de 20 años de experiencia</strong> operando las empresas globales de muebles y decoracion <strong>más destacadas en el país.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UwmTpa",
+        "column_gFJCP8",
+        "column_gpdWUL"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_KMDjJg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LWq4UC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Muy pronto, Ashley llega a la Costa.",
+            "heading_size": "h2"
+          }
+        },
+        "text_ELY4zE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En pocos días abriremos nuestra primera tienda en Barranquilla, marcando así la expansión de nuestra marca a la región Caribe.<br/><br/>Será nuestra tercera tienda en Colombia, y estamos listos para ofrecerte una experiencia única con muebles de diseño, calidad superior y precios accesibles.<br/><br/><strong>Prepárate para vivir la experiencia Ashley.</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_jJycyd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LWq4UC",
+        "text_ELY4zE",
+        "button_jJycyd"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/foto_fachada_0b703daf-523e-43de-b217-040ebe983dc0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_collection_kewnFY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sofás",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sofas-2-puestos",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_UHTNYf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Comedores",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mesas-de-comedor",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_VkUnwD": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Poltronas",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sillas-para-sala-y-habitacion",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_jyjMTQ": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Reclinables",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sofas-reclinables",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17207332740b186fae": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_hCzifa": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_hCzifa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_jX9qT4",
+    "1720719707798c886e",
+    "rich_text_GTfJ63",
+    "multicolumn_3DmH9n",
+    "image_with_text_KMDjJg",
+    "main",
+    "featured_collection_kewnFY",
+    "featured_collection_UHTNYf",
+    "featured_collection_VkUnwD",
+    "featured_collection_jyjMTQ",
+    "17207332740b186fae"
+  ]
+}
