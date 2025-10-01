@@ -22,6 +22,7 @@
         },
         "slide_HRADEg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Novedades_Home.jpg",
             "image_r": "shopify://shop_images/Novedades_Mobile.jpg",
