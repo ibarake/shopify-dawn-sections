@@ -12,13 +12,12 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "slide_pVTk9H": {
+        "slide_dNXXUX": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Banner-ll.jpg",
-            "image_r": "shopify://shop_images/Banners-03_1_1c8a3c04-e25a-4c46-9936-945dce2da4b6.png",
-            "link": "https://ashleycolombia.com/products/mesa-de-comedor-sanbriar?_pos=1&_sid=979d90424&_ss=r"
+            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03.jpg",
+            "link": ""
           }
         },
         "slide_HRADEg": {
@@ -39,7 +38,7 @@
         }
       },
       "block_order": [
-        "slide_pVTk9H",
+        "slide_dNXXUX",
         "slide_HRADEg",
         "slide_Pyhgb6"
       ],
