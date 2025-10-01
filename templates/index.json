@@ -41,6 +41,7 @@
         },
         "slide_Pyhgb6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mesa_de_trabajo_1-80_b4dbac16-8ac2-4940-b1e9-8fcdf3f6a83d.jpg",
             "image_r": "shopify://shop_images/Mobile_1.jpg",
