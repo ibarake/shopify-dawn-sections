@@ -12,15 +12,6 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "slide_dNXXUX": {
-          "type": "slide",
-          "name": "Hechízate Sleep",
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-05.jpg",
-            "link": "https://wa.link/dw3b4e"
-          }
-        },
         "slide_WrBU9J": {
           "type": "slide",
           "name": "Diapositiva Hechízate",
@@ -28,6 +19,15 @@
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03.jpg",
             "link": "https://wa.link/ax5s37"
+          }
+        },
+        "slide_dNXXUX": {
+          "type": "slide",
+          "name": "Hechízate Sleep",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-05.jpg",
+            "link": "https://wa.link/dw3b4e"
           }
         },
         "slide_HRADEg": {
@@ -50,8 +50,8 @@
         }
       },
       "block_order": [
-        "slide_dNXXUX",
         "slide_WrBU9J",
+        "slide_dNXXUX",
         "slide_HRADEg",
         "slide_Pyhgb6"
       ],
