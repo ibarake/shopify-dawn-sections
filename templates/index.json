@@ -12,13 +12,22 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
+        "slide_r77zjk": {
+          "type": "slide",
+          "name": "Orange Sale",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01_21658b7d-da6c-46eb-8161-82a4e7322ef3.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-02.jpg",
+            "link": "https://wa.link/wtg1dt"
+          }
+        },
         "slide_WrBU9J": {
           "type": "slide",
-          "name": "Diapositiva Hechízate",
+          "name": "Hechízate",
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03.jpg",
-            "link": "https://wa.link/ax5s37"
+            "link": "https://wa.link/342v77"
           }
         },
         "slide_dNXXUX": {
@@ -27,7 +36,7 @@
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-05.jpg",
-            "link": "https://wa.link/dw3b4e"
+            "link": "https://wa.link/hkv08d"
           }
         },
         "slide_HRADEg": {
@@ -50,6 +59,7 @@
         }
       },
       "block_order": [
+        "slide_r77zjk",
         "slide_WrBU9J",
         "slide_dNXXUX",
         "slide_HRADEg",
