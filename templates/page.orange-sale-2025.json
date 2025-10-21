@@ -204,10 +204,28 @@
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-02.jpg",
             "link": "https://api.whatsapp.com/send?phone=573014857154&text=Hola%20Ashley!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20accesorios%20en%20ORANGE%20SALE"
           }
+        },
+        "slide_khhqmk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03.jpg",
+            "link": ""
+          }
+        },
+        "slide_DKDq9P": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-05.jpg",
+            "link": "https://api.whatsapp.com/send?phone=573014857154&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20precios%20especiales%20Hech%C3%ADzate%20con%20Ashley%20Sleep"
+          }
         }
       },
       "block_order": [
-        "slide_PfHtcU"
+        "slide_PfHtcU",
+        "slide_khhqmk",
+        "slide_DKDq9P"
       ],
       "settings": {
         "layout": "full_bleed",
