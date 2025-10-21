@@ -23,7 +23,7 @@
         "subheading": "",
         "heading": "",
         "spacing": 300,
-        "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03_486158cf-ccf3-4afb-9fb7-cb14b2565706.jpg",
+        "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04_55a2c7d4-91f5-45c2-b47b-fbd2e858d276.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
         "img-position": "center center",
@@ -33,9 +33,9 @@
         "btn-bg-color-normal": "#ffffff",
         "btn-bg-color-hover": "#ffffff",
         "btn-txt-color": "#ffffff",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
+        "img-height": 500,
+        "responsive-container-height": 0,
+        "responsive-img-height": 500
       }
     },
     "af603ef8-1e43-4053-a645-a61d8372acf2": {
