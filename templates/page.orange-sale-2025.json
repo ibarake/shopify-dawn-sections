@@ -23,7 +23,7 @@
         "subheading": "",
         "heading": "",
         "spacing": 300,
-        "image": "shopify://shop_images/Black-Friday-2025_23f03669-5c7b-47ca-9dda-df19e9e49cda.jpg",
+        "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03_486158cf-ccf3-4afb-9fb7-cb14b2565706.jpg",
         "bg_color": "#ffffff",
         "color": "#121212",
         "img-position": "center center",
@@ -57,39 +57,12 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "title": "Sofás",
+        "title": "Accesorios",
         "heading_size": "h2",
-        "description": "<p>Transforma tus espacios con el confort y estilo que mereces.</p>",
-        "show_description": false,
+        "description": "<p>Cada detalle cuenta</p>",
+        "show_description": true,
         "description_style": "body",
-        "collection": "sofas-black-friday",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection_kYxwU7": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Poltronas",
-        "heading_size": "h2",
-        "description": "<p>Sofisticación y comodidad en una sola pieza</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "poltronas-black-friday-2024",
+        "collection": "hotsale-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -97,177 +70,15 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_XVaCtR": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Alfombras",
-        "heading_size": "h2",
-        "description": "<p>Da vida, color y confort a cada rincón de tu hogar</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "alfombras-black-friday-2024",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_wcyL6L": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Productos de Exteriores",
-        "heading_size": "h2",
-        "description": "<p>Los productos de exteriores transforman tus espacios al aire libre en lugares ideales para disfrutar momentos únicos.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "muebles-exteriores",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_3YdF7t": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Accesorios | Mantas y Cojines",
-        "heading_size": "h2",
-        "description": "<p>Añade calidez y carácter a cada rincón.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "accesorios-black-friday-2024",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_Twcmkx": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Accesorios Decorativos",
-        "heading_size": "h2",
-        "description": "<p>Realza tus espacios con la magia de los detalles decorativos.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "accesorios-decorativos-black-friday-2024",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_pVwmg4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Lámparas",
-        "heading_size": "h2",
-        "description": "<p>Las lámparas de piso, techo y mesa iluminan y realzan tus espacios, cada una aportando un estilo único y funcionalidad</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "lamparas-black-friday-2024",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_M6dX9B": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Decoración de Pared",
-        "heading_size": "h2",
-        "description": "<p>Espejos y cuadros armonizan tus espacios, aportando luz, estilo y personalidad a cada pared.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "decoracion-de-pared",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
@@ -276,40 +87,40 @@
         "1c1187c7-f402-4b7e-9262-170ab77b8bfd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Cimarose.jpg",
+            "image": "shopify://shop_images/92103-64-46-77-46-65-T683.jpg",
             "title": "",
             "text": "",
-            "link_label": "Poltronas",
-            "link": "shopify://collections/poltronas-black-friday-2024"
+            "link_label": "Sala",
+            "link": "https://ashleycolombia.com/pages/sub-category/living-room"
           }
         },
         "3d362d61-83a8-4f68-8887-92f46fe6e4a3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/dramatic_59031759-32ae-4948-a4cd-803aa2afe9f9.jpg",
+            "image": "shopify://shop_images/D974-60-MOOD-V-B.jpg",
             "title": "",
             "text": "",
-            "link_label": "Sofás",
-            "link": "shopify://collections/orange-is-christmas"
+            "link_label": "Comedor",
+            "link": "https://ashleycolombia.com/pages/sub-category/muebles-de-cocina-y-sala-de-comedor"
           }
         },
         "5178b2a1-9aea-4a1d-9ace-e178f911c5af": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/lampara.jpg",
+            "image": "shopify://shop_images/M12711-M12771-M12721-M12731-M12741-M12751-Nectar_5_4de9ae0c-483c-428f-97ee-9507d5e76b38.jpg",
             "title": "",
             "text": "",
-            "link_label": "Lámparas",
-            "link": "shopify://collections/lamparas-black-friday-2024"
+            "link_label": "Dormitorio",
+            "link": "https://ashleycolombia.com/pages/sub-category/dormitorio"
           }
         },
         "c591d96e-97e7-4109-965e-375bc8c63358": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Flannia.jpg",
+            "image": "shopify://shop_images/Exterior_COn_fondo.webp",
             "title": "",
             "text": "",
-            "link_label": "Dormitorio",
+            "link_label": "Exterior",
             "link": "shopify://collections/camas-black-friday-2024"
           }
         }
@@ -335,88 +146,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection_xe9aiy": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Mesas de Centro y Auxiliares",
-        "heading_size": "h2",
-        "description": "<p>Funcionalidad y Estilo para tu Hogar</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mesas-centro-auxiliares",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_AK6pXN": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Dormitorio",
-        "heading_size": "h2",
-        "description": "<p>Descanso y Estilo en Cada Noche</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "camas-black-friday-2024",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_4d7YzB": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Comedores y Muebles de TV",
-        "heading_size": "h2",
-        "description": "<p>Crea espacios acogedores para disfrutar en familia</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "muebles-tv-black-friday-2024",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 40
       }
     },
     "feac8e1e-17d6-4323-82ae-5ada6c557d52": {
@@ -470,8 +200,9 @@
         "slide_PfHtcU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Banner_delgado.jpg",
-            "link": ""
+            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01_21658b7d-da6c-46eb-8161-82a4e7322ef3.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-02.jpg",
+            "link": "https://api.whatsapp.com/send?phone=573014857154&text=Hola%20Ashley!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20accesorios%20en%20ORANGE%20SALE"
           }
         }
       },
@@ -491,7 +222,7 @@
         "template--21474712387891__5ce47f5a-4a23-49c7-82f5-52b6ff309866-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5><strong>* Aplican Términos y Condiciones. Válido para productos seleccionados. Unidades Limitadas. 01 de Nov. al 02 de Dic. 2024</strong></h5><h5>*Campaña Black Friday - Términos y Condiciones: Vigente del 1 de noviembre al 2 de diciembre de 2024, hasta las 7:00 p.m. Los descuentos aplican solo a referencias seleccionadas y en unidades limitadas, sujetas a disponibilidad. Oferta válida en nuestras tiendas de Av. 19 #109-41 y Autopista Norte #224-60 en Bogotá, así como en www.ashleycolombia.com. Una vez agotadas las unidades en promoción, el descuento dejará de aplicarse para ese producto.</h5>"
+            "text": "<p>Términos y condiciones Campaña ORANGE SALE<br/><br/>Vigencia: del 16 al 29 de Octubre de 2025, hasta las 7:00 p.m. Aplicabilidad: Los descuentos son válidos únicamente para productos seleccionados en unidades limitadas y hasta agotar existencias. Disponibilidad: Sujeta a inventario disponible en puntos de venta físicos ubicados en Bogotá (Av. 19 #109 - 41 y Autopista Norte # 224 - 60) o en Barranquilla (Cra. 53 # 80 - 91), así como en la tienda en línea www.ashleycolombia.com. Condiciones: Una vez agotadas las unidades en promoción, los precios promocionales dejarán de aplicarse, sin obligación de reposición por parte del comercializador.</p>"
           }
         }
       },
@@ -509,18 +240,6 @@
     },
     "slideshow_R39eBJ": {
       "type": "slideshow",
-      "blocks": {
-        "slide_zqRiyg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/25_35_40_50_e69a3566-b26f-490b-89ba-600c3adfdafd.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_zqRiyg"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -534,17 +253,7 @@
     "custom_hero_banner_6eKLQm",
     "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "af603ef8-1e43-4053-a645-a61d8372acf2",
-    "featured_collection_kYxwU7",
-    "featured_collection_XVaCtR",
-    "featured_collection_wcyL6L",
-    "featured_collection_3YdF7t",
-    "featured_collection_Twcmkx",
-    "featured_collection_pVwmg4",
-    "featured_collection_M6dX9B",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
-    "featured_collection_xe9aiy",
-    "featured_collection_AK6pXN",
-    "featured_collection_4d7YzB",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "67273f3a-52d1-48b2-a974-4db367375c32",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
