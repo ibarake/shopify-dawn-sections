@@ -38,19 +38,6 @@
         "responsive-img-height": 300
       }
     },
-    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32": {
-      "type": "slideshow",
-      "custom_css": [
-        "a {z-index: 2;}",
-        "@media only screen and (max-width: 768px) {a {height: 400px; }}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
-      }
-    },
     "af603ef8-1e43-4053-a645-a61d8372acf2": {
       "type": "featured-collection",
       "custom_css": [
@@ -61,7 +48,7 @@
         "heading_size": "h2",
         "description": "<p>Cada detalle cuenta</p>",
         "show_description": true,
-        "description_style": "body",
+        "description_style": "subtitle",
         "collection": "hotsale-2025",
         "products_to_show": 12,
         "columns_desktop": 4,
@@ -199,6 +186,7 @@
       "blocks": {
         "slide_PfHtcU": {
           "type": "slide",
+          "name": "Orange Sale",
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01_21658b7d-da6c-46eb-8161-82a4e7322ef3.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-02.jpg",
@@ -271,7 +259,6 @@
   "order": [
     "main",
     "custom_hero_banner_6eKLQm",
-    "85f31dc0-b81d-4ca8-b400-0989ea0b0e32",
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
