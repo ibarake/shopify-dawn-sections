@@ -207,10 +207,11 @@
         },
         "slide_khhqmk": {
           "type": "slide",
+          "name": "hechizate con ashley",
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03.jpg",
-            "link": ""
+            "link": "https://api.whatsapp.com/send?phone=573014857154&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20precios%20especiales%20Hech%C3%ADzate%20con%20Ashley"
           }
         },
         "slide_DKDq9P": {
