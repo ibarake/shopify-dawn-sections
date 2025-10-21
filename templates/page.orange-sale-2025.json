@@ -17,27 +17,6 @@
         "padding_bottom": 28
       }
     },
-    "custom_hero_banner_6eKLQm": {
-      "type": "custom-hero-banner",
-      "settings": {
-        "subheading": "",
-        "heading": "",
-        "spacing": 300,
-        "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04_55a2c7d4-91f5-45c2-b47b-fbd2e858d276.jpg",
-        "bg_color": "#ffffff",
-        "color": "#121212",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#ffffff",
-        "btn-bg-color-hover": "#ffffff",
-        "btn-txt-color": "#ffffff",
-        "img-height": 500,
-        "responsive-container-height": 0,
-        "responsive-img-height": 500
-      }
-    },
     "af603ef8-1e43-4053-a645-a61d8372acf2": {
       "type": "featured-collection",
       "custom_css": [
@@ -257,12 +236,11 @@
     }
   },
   "order": [
+    "67273f3a-52d1-48b2-a974-4db367375c32",
     "main",
-    "custom_hero_banner_6eKLQm",
     "af603ef8-1e43-4053-a645-a61d8372acf2",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "feac8e1e-17d6-4323-82ae-5ada6c557d52",
-    "67273f3a-52d1-48b2-a974-4db367375c32",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
     "slideshow_R39eBJ"
   ]
