@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "slideshow_xk4Cqz": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_CyE3Gz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-07.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-08.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_CyE3Gz"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
     "macro_category_4_DCkpnn": {
       "type": "macro-category-4",
       "disabled": true,
@@ -123,6 +146,7 @@
     }
   },
   "order": [
+    "slideshow_xk4Cqz",
     "macro_category_4_DCkpnn",
     "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e",
     "banner",
