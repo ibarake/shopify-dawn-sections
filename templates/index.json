@@ -15,6 +15,7 @@
         "slide_r77zjk": {
           "type": "slide",
           "name": "Orange Sale",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01_21658b7d-da6c-46eb-8161-82a4e7322ef3.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-02.jpg",
@@ -24,6 +25,7 @@
         "slide_WrBU9J": {
           "type": "slide",
           "name": "Hechízate",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03.jpg",
@@ -33,6 +35,7 @@
         "slide_dNXXUX": {
           "type": "slide",
           "name": "Hechízate Sleep",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-05.jpg",
@@ -56,6 +59,15 @@
             "image_r": "shopify://shop_images/Mobile_1.jpg",
             "link": "shopify://collections"
           }
+        },
+        "slide_Rzwrh6": {
+          "type": "slide",
+          "name": "PRE BLACK FRIDAY",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-10.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-10_bdeb1974-f982-4ecd-84bb-6f4f99f9c9f7.jpg",
+            "link": "shopify://collections/black-friday"
+          }
         }
       },
       "block_order": [
@@ -63,7 +75,8 @@
         "slide_WrBU9J",
         "slide_dNXXUX",
         "slide_HRADEg",
-        "slide_Pyhgb6"
+        "slide_Pyhgb6",
+        "slide_Rzwrh6"
       ],
       "settings": {
         "layout": "full_bleed",
