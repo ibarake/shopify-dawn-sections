@@ -281,17 +281,6 @@
               "image-promo-url": ""
             }
           },
-          "nav_menu_xK4HMa": {
-            "type": "nav-menu",
-            "disabled": true,
-            "settings": {
-              "title": "SALE",
-              "url": "shopify://pages/https-ashleycolombia-com-pages-summer-sale-2025-la-temporada-de-descuentos-ya-esta-aqui",
-              "menu": "",
-              "menu-promo": "",
-              "image-promo-url": ""
-            }
-          },
           "nav_menu_9jNcwH": {
             "type": "nav-menu",
             "disabled": true,
@@ -322,6 +311,16 @@
               "menu-promo": "",
               "image-promo-url": ""
             }
+          },
+          "nav_menu_xK4HMa": {
+            "type": "nav-menu",
+            "settings": {
+              "title": "Black Friday",
+              "url": "shopify://collections/black-friday",
+              "menu": "",
+              "menu-promo": "",
+              "image-promo-url": ""
+            }
           }
         },
         "block_order": [
@@ -335,10 +334,10 @@
           "nav_menu_rHVEKR",
           "nav_menu_dBEybV",
           "nav_menu_FEr3nj",
-          "nav_menu_xK4HMa",
           "nav_menu_9jNcwH",
           "nav_menu_rrmXjy",
-          "nav_menu_CXenEr"
+          "nav_menu_CXenEr",
+          "nav_menu_xK4HMa"
         ],
         "settings": {
           "color_scheme": "background-1",
