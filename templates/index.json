@@ -76,6 +76,14 @@
             "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-03.jpg",
             "link": "shopify://collections/black-friday"
           }
+        },
+        "slide_QG8fa7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-06.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-05.jpg",
+            "link": "shopify://collections/black-friday"
+          }
         }
       },
       "block_order": [
@@ -85,7 +93,8 @@
         "slide_HRADEg",
         "slide_Pyhgb6",
         "slide_Rzwrh6",
-        "slide_8i8bCz"
+        "slide_8i8bCz",
+        "slide_QG8fa7"
       ],
       "settings": {
         "layout": "full_bleed",
