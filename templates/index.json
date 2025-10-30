@@ -64,8 +64,16 @@
           "type": "slide",
           "name": "PRE BLACK FRIDAY",
           "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-10.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-10_bdeb1974-f982-4ecd-84bb-6f4f99f9c9f7.jpg",
+            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-01_859f9ec4-897a-4f57-832c-1894d70e7480.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-02_d31c6487-c110-44c1-8233-f37df4a2c65c.jpg",
+            "link": "shopify://collections/black-friday"
+          }
+        },
+        "slide_8i8bCz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-04.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-03.jpg",
             "link": "shopify://collections/black-friday"
           }
         }
@@ -76,7 +84,8 @@
         "slide_dNXXUX",
         "slide_HRADEg",
         "slide_Pyhgb6",
-        "slide_Rzwrh6"
+        "slide_Rzwrh6",
+        "slide_8i8bCz"
       ],
       "settings": {
         "layout": "full_bleed",
