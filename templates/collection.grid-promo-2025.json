@@ -15,8 +15,8 @@
         "slide_CyE3Gz": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-12.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-13.jpg",
+            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-03.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-04.jpg",
             "link": ""
           }
         }
@@ -149,8 +149,8 @@
       "name": "custom image",
       "settings": {
         "width": false,
-        "image1": "shopify://shop_images/Ashley_Campana_Noviembre_Newsletter_2-08.jpg",
-        "image2": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-11.jpg",
+        "image1": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-05.jpg",
+        "image2": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-06.jpg",
         "url": ""
       }
     }
