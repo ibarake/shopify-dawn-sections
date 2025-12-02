@@ -28,7 +28,7 @@
         "description": "<p>Cada detalle cuenta</p>",
         "show_description": true,
         "description_style": "subtitle",
-        "collection": "black-friday",
+        "collection": "sale",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
