@@ -12,6 +12,14 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
+        "slide_zY9Ceb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-01.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-02.jpg",
+            "link": "shopify://collections/black-friday"
+          }
+        },
         "slide_r77zjk": {
           "type": "slide",
           "name": "Orange Sale",
@@ -59,42 +67,15 @@
             "image_r": "shopify://shop_images/Mobile_1.jpg",
             "link": "shopify://collections"
           }
-        },
-        "slide_Rzwrh6": {
-          "type": "slide",
-          "name": "PRE BLACK FRIDAY",
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-01.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-02.jpg",
-            "link": "shopify://collections/black-friday"
-          }
-        },
-        "slide_8i8bCz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-04.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-03.jpg",
-            "link": "shopify://collections/black-friday"
-          }
-        },
-        "slide_QG8fa7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-06.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Noviembre_Black_Friday_Banners-05.jpg",
-            "link": "shopify://collections/black-friday"
-          }
         }
       },
       "block_order": [
+        "slide_zY9Ceb",
         "slide_r77zjk",
         "slide_WrBU9J",
         "slide_dNXXUX",
         "slide_HRADEg",
-        "slide_Pyhgb6",
-        "slide_Rzwrh6",
-        "slide_8i8bCz",
-        "slide_QG8fa7"
+        "slide_Pyhgb6"
       ],
       "settings": {
         "layout": "full_bleed",
