@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-07.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-08.jpg",
-            "link": "https://wa.me/573014857154?text=Hola%20Ashley,%20quiero%20mi%20regalo%20de%20Pap%C3%A1%20Noel&utm_source=Whatsapp&utm_medium=Whatsapp&utm_campaign=activacionpapanoel"
+            "link": "https://api.whatsapp.com/send/?phone=573014857154&text=Hola+Ashley%2C+quiero+mi+regalo+de+Navidad&type=phone_number&app_absent=0&utm_campaign=navidadweb&utm_source=web"
           }
         },
         "slide_zY9Ceb": {
