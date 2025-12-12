@@ -12,6 +12,14 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
+        "slide_WwKyFe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-07.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-08.jpg",
+            "link": "https://wa.me/573014857154?text=Hola%20Ashley,%20quiero%20mi%20regalo%20de%20Pap%C3%A1%20Noel&utm_source=Whatsapp&utm_medium=Whatsapp&utm_campaign=activacionpapanoel"
+          }
+        },
         "slide_zY9Ceb": {
           "type": "slide",
           "settings": {
@@ -70,6 +78,7 @@
         }
       },
       "block_order": [
+        "slide_WwKyFe",
         "slide_zY9Ceb",
         "slide_r77zjk",
         "slide_WrBU9J",
@@ -626,7 +635,9 @@
       "blocks": {
         "google_reviews_plus_app_block_Q9rUeU": {
           "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
-          "settings": {}
+          "settings": {
+            "widget_layout": "default"
+          }
         }
       },
       "block_order": [
