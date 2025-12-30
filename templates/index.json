@@ -30,61 +30,19 @@
         },
         "slide_r77zjk": {
           "type": "slide",
-          "name": "Orange Sale",
+          "name": "TIEMPO DE RENOVAR",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01_21658b7d-da6c-46eb-8161-82a4e7322ef3.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-02.jpg",
-            "link": "https://wa.link/wtg1dt"
-          }
-        },
-        "slide_WrBU9J": {
-          "type": "slide",
-          "name": "Hechízate",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-01.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-03.jpg",
-            "link": "https://wa.link/342v77"
-          }
-        },
-        "slide_dNXXUX": {
-          "type": "slide",
-          "name": "Hechízate Sleep",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Octubre_Banners-04.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Octubre_Banners-05.jpg",
-            "link": "https://wa.link/hkv08d"
-          }
-        },
-        "slide_HRADEg": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Novedades_Home.jpg",
-            "image_r": "shopify://shop_images/Novedades_Mobile.jpg",
-            "link": "https://ashleycolombia.com/collections/hogar-dulce-hogar-hzela-abinger-hennington"
-          }
-        },
-        "slide_Pyhgb6": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mesa_de_trabajo_1-80_b4dbac16-8ac2-4940-b1e9-8fcdf3f6a83d.jpg",
-            "image_r": "shopify://shop_images/Mobile_1.jpg",
-            "link": "shopify://collections"
+            "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-01.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-02.jpg",
+            "link": "shopify://collections/sale"
           }
         }
       },
       "block_order": [
         "slide_WwKyFe",
         "slide_zY9Ceb",
-        "slide_r77zjk",
-        "slide_WrBU9J",
-        "slide_dNXXUX",
-        "slide_HRADEg",
-        "slide_Pyhgb6"
+        "slide_r77zjk"
       ],
       "settings": {
         "layout": "full_bleed",
