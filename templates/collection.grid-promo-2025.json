@@ -12,6 +12,15 @@
     "slideshow_xk4Cqz": {
       "type": "slideshow",
       "blocks": {
+        "slide_HrGdHA": {
+          "type": "slide",
+          "name": "TIEMPO DE RENOVAR",
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-03.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-04.jpg",
+            "link": ""
+          }
+        },
         "slide_CyE3Gz": {
           "type": "slide",
           "settings": {
@@ -22,6 +31,7 @@
         }
       },
       "block_order": [
+        "slide_HrGdHA",
         "slide_CyE3Gz"
       ],
       "name": "t:sections.slideshow.presets.name",
