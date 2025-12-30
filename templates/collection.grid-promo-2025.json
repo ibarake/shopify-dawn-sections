@@ -15,6 +15,7 @@
         "slide_HrGdHA": {
           "type": "slide",
           "name": "TIEMPO DE RENOVAR",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-03.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-04.jpg",
@@ -163,6 +164,17 @@
         "image2": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-06_31c23abf-4c92-40d7-83f3-a31e88051d0b.jpg",
         "url": ""
       }
+    },
+    "custom_image_C6tixF": {
+      "type": "custom-image",
+      "disabled": true,
+      "name": "TÉRMINOS (tiempo de renovar)",
+      "settings": {
+        "width": false,
+        "image1": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-05.jpg",
+        "image2": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-06.jpg",
+        "url": ""
+      }
     }
   },
   "order": [
@@ -173,6 +185,7 @@
     "87c60f33-59d8-416a-8360-f7543630c187",
     "rich_text_fQYbHV",
     "product-grid",
-    "custom_image_wGMnX8"
+    "custom_image_wGMnX8",
+    "custom_image_C6tixF"
   ]
 }
