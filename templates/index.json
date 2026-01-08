@@ -12,26 +12,23 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "slide_WwKyFe": {
+        "slide_QwNBCt": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-07.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-08.jpg",
-            "link": "https://api.whatsapp.com/send/?phone=573014857154&text=Hola+Ashley%2C+quiero+mi+regalo+de+Navidad&type=phone_number&app_absent=0&utm_campaign=navidadweb&utm_source=web"
+            "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-03_978ab5fd-b85c-4061-8be3-0c5deb56f19f.jpg",
+            "link": ""
           }
         },
-        "slide_zY9Ceb": {
+        "slide_HfVxaV": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-01.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-02.jpg",
-            "link": "shopify://collections/sale"
+            "image": "shopify://shop_images/Banner.png",
+            "link": ""
           }
         },
         "slide_r77zjk": {
           "type": "slide",
           "name": "TIEMPO DE RENOVAR",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-02.jpg",
@@ -41,19 +38,38 @@
         "slide_M3TPJG": {
           "type": "slide",
           "name": "TIEMPO DE RENOVAR 2",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-07.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-08.jpg",
             "link": "shopify://collections/sale"
           }
+        },
+        "slide_WwKyFe": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-07.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-08.jpg",
+            "link": "https://api.whatsapp.com/send/?phone=573014857154&text=Hola+Ashley%2C+quiero+mi+regalo+de+Navidad&type=phone_number&app_absent=0&utm_campaign=navidadweb&utm_source=web"
+          }
+        },
+        "slide_zY9Ceb": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-01.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-02.jpg",
+            "link": "shopify://collections/sale"
+          }
         }
       },
       "block_order": [
-        "slide_WwKyFe",
-        "slide_zY9Ceb",
+        "slide_QwNBCt",
+        "slide_HfVxaV",
         "slide_r77zjk",
-        "slide_M3TPJG"
+        "slide_M3TPJG",
+        "slide_WwKyFe",
+        "slide_zY9Ceb"
       ],
       "settings": {
         "layout": "full_bleed",
