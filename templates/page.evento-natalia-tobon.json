@@ -1,0 +1,258 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "67d7aaf5-e986-470e-9005-a37d6684b9c0": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_15.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "39fb3151-406a-4bf2-970c-62eab757adfe": {
+      "type": "rich-text",
+      "blocks": {
+        "e2a3314c-79d6-483f-9c16-5232cf431adb": {
+          "type": "caption",
+          "settings": {
+            "caption": "nuestro propósito",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>Inspirar el amor por el hogar y enriquecer la vida de quienes nos rodean</strong></h2>",
+            "heading_size": "hxl"
+          }
+        }
+      },
+      "block_order": [
+        "e2a3314c-79d6-483f-9c16-5232cf431adb",
+        "template--19647063589171__39fb3151-406a-4bf2-970c-62eab757adfe-1687390291b379dd75-0"
+      ],
+      "custom_css": [
+        "p.rich-text__caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {font-weight: 700; letter-spacing: 3px; font-size: 1.4rem;}",
+        "h2 {font-size: 3rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "ba277442-b64e-4d5d-99ee-8e4f9aaf1bda": {
+      "type": "image-with-text",
+      "blocks": {
+        "8f5ead8e-2230-45c3-8bd1-998e9ed210e5": {
+          "type": "caption",
+          "settings": {
+            "caption": "el legado de ashley",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuestra historia",
+            "heading_size": "h1"
+          }
+        },
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lo que una vez fue una empresa familiar con solo 35 empleados a mas de 35.000 miembros valiosos del equipo en todo el mundo. Con mas de 30 millones de pies cuadrados de espacio en instalaciones, cuenta con 155 instalaciones en todo el mundo lo que nos permite aprovechar proveedores y empresas, crear nuestros puestos de trabajo adicionales y continuar infundiendo economías.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "8f5ead8e-2230-45c3-8bd1-998e9ed210e5",
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-0",
+        "template--19647063589171__ba277442-b64e-4d5d-99ee-8e4f9aaf1bda-1687391321e73433d4-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium.caption-with-letter-spacing {font-weight: bold; letter-spacing: 3px; font-size: 1.4rem;}",
+        ".image-with-text__heading {font-weight: bold;}",
+        "p {font-weight: 600;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Ashley_direct_person_bd21f2ec-2173-4acc-8caa-f1529993ba4c.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9660274e-316f-4bad-9f90-394ccaa58dc1": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19647063589171__9660274e-316f-4bad-9f90-394ccaa58dc1-16873934966ea0120c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Diseno_sin_titulo_13.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19647063589171__9660274e-316f-4bad-9f90-394ccaa58dc1-16873934966ea0120c-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_a94341d2-5a61-4f5e-a9d5-8ab7385351e9.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2157caaa-ae23-4576-834e-d21baf1f10cd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9ba79713-4e78-4e52-bfa2-7b5d5addd473": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19647063589171__9660274e-316f-4bad-9f90-394ccaa58dc1-16873934966ea0120c-0",
+        "template--19647063589171__9660274e-316f-4bad-9f90-394ccaa58dc1-16873934966ea0120c-1",
+        "2157caaa-ae23-4576-834e-d21baf1f10cd",
+        "9ba79713-4e78-4e52-bfa2-7b5d5addd473"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center;}",
+        ".multicolumn .title {font-weight: bold;}",
+        ".multicolumn.background-primary .multicolumn-card {background: white;}",
+        ".multicolumn-card__info {padding: 0px 2.5rem;}",
+        ".multicolumn-card-spacing {padding-top: 0;}",
+        ".title-wrapper-with-link {margin: 5rem 0 0rem;}"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "98378411-2d2f-458e-955b-5b0dd8153122": {
+      "type": "image-with-text",
+      "blocks": {
+        "823685c1-a06e-4f3a-a171-e7219f2c0088": {
+          "type": "caption",
+          "settings": {
+            "caption": "el legado de ashley",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "010c34b7-56af-437a-bdc4-d0f2775137cd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuestra historia",
+            "heading_size": "h1"
+          }
+        },
+        "e70cabf6-8f7f-46d0-9993-a6b9491eb854": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lo que una vez fue una empresa familiar con solo 35 empleados a mas de 35.000 miembros valiosos del equipo en todo el mundo. Con mas de 30 millones de pies cuadrados de espacio en instalaciones, cuenta con 155 instalaciones en todo el mundo lo que nos permite aprovechar proveedores y empresas, crear nuestros puestos de trabajo adicionales y continuar infundiendo economías.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "823685c1-a06e-4f3a-a171-e7219f2c0088",
+        "010c34b7-56af-437a-bdc4-d0f2775137cd",
+        "e70cabf6-8f7f-46d0-9993-a6b9491eb854"
+      ],
+      "custom_css": [
+        "p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium.caption-with-letter-spacing {font-weight: bold; letter-spacing: 3px; font-size: 1.4rem;}",
+        ".image-with-text__heading {font-weight: bold;}",
+        "p {font-weight: 600;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Ashley_direct_person_bd21f2ec-2173-4acc-8caa-f1529993ba4c.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "67d7aaf5-e986-470e-9005-a37d6684b9c0",
+    "39fb3151-406a-4bf2-970c-62eab757adfe",
+    "ba277442-b64e-4d5d-99ee-8e4f9aaf1bda",
+    "9660274e-316f-4bad-9f90-394ccaa58dc1",
+    "98378411-2d2f-458e-955b-5b0dd8153122"
+  ]
+}
