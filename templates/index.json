@@ -51,6 +51,7 @@
         },
         "slide_MCxN3c": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Renueva_la_energia_de_tu_hogar_para_comenzar_el_ano_con_intencion_2.png",
             "image_r": "shopify://shop_images/WhatsApp_Image_2026-01-08_at_18.02.21_2.jpg",
