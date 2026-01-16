@@ -1,0 +1,92 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "87c60f33-59d8-416a-8360-f7543630c187": {
+      "type": "macro-category-1",
+      "disabled": true,
+      "settings": {
+        "colnum": 3,
+        "titleAndSubtitleColor": "#393731",
+        "titleAndSubtitleColor1": "#ffffff",
+        "saleTextColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
+        "backgroundSaleColor": "#c60f2f"
+      }
+    },
+    "rich_text_YwDafw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qtyYjc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>¿Necesitas asesoría para finalizar tu compra?</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_Fam3jJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Escríbenos por WhatsApp y te asesoramos. <a href=\"https://wa.me/573015519915\" target=\"_blank\" title=\"https://wa.me/573015519915\">Habla con nosotros</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qtyYjc",
+        "text_Fam3jJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "products_per_page": 100,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "87c60f33-59d8-416a-8360-f7543630c187",
+    "rich_text_YwDafw",
+    "product-grid"
+  ]
+}
