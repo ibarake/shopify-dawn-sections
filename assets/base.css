@@ -3029,7 +3029,7 @@ details-disclosure > details {
 /* Ajustes de tamaño de texto para vista móvil */
 @media screen and (max-width: 600px) {
   body {
-    font-size: 95% !important;
+    font-size: 98% !important;
   }
 
   h1, h2, h3, h4 {
