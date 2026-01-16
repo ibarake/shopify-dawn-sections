@@ -3029,18 +3029,18 @@ details-disclosure > details {
 /* Ajustes de tamaño de texto para vista móvil */
 @media screen and (max-width: 600px) {
   body {
-    font-size: 90% !important;
-  }
-
-  h1, h2, h3, h4 {
     font-size: 95% !important;
   }
 
+  h1, h2, h3, h4 {
+    font-size: 98% !important;
+  }
+
   .price, .product-price, .price__regular {
-    font-size: 90% !important;
+    font-size: 95% !important;
   }
 
   .button, .button--full-width {
-    font-size: 90% !important;
+    font-size: 95% !important;
   }
 }
