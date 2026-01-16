@@ -25,7 +25,7 @@
       "disabled": true,
       "settings": {
         "title": "Featured collection",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -43,7 +43,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
