@@ -3090,3 +3090,7 @@ details-disclosure > details {
   border-radius: 6px;
   text-align: center;
 }
+.float-whatsapp,
+.float-chat {
+  bottom: 60px; /* en vez de 20px */
+}
