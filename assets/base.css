@@ -3070,3 +3070,16 @@ details-disclosure > details {
     padding-bottom: 10px !important;
   }
 }
+@media screen and (max-width: 600px) {
+  .collection-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+  }
+
+  .collection-tabs .tab {
+    scroll-snap-align: start;
+    display: inline-block;
+    min-width: 90px;
+  }
+}
