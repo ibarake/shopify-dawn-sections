@@ -3064,3 +3064,9 @@ details-disclosure > details {
     grid-template-columns: 1fr !important;
   }
 }
+@media screen and (max-width: 600px) {
+  .section, .grid, .collection-list {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
