@@ -3052,3 +3052,9 @@ details-disclosure > details {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .product-grid, .card__content {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
