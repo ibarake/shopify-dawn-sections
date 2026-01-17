@@ -3110,3 +3110,15 @@ details-disclosure > details {
     font-size: 18px !important;
   }
 }
+@media screen and (max-width: 600px) {
+  .hero__cta {
+    display: block;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px;
+    margin-top: 10px;
+  }
+}
