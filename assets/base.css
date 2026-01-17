@@ -3126,3 +3126,8 @@ details-disclosure > details {
 .float-chat {
   bottom: 80px !important;
 }
+@media screen and (max-width: 600px) {
+  .header__icon {
+    font-size: 24px !important;
+  }
+}
