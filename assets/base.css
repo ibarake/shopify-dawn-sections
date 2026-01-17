@@ -3094,3 +3094,9 @@ details-disclosure > details {
 .float-chat {
   bottom: 60px; /* en vez de 20px */
 }
+@media screen and (max-width: 600px) {
+  .hero, .banner, .slideshow__slide {
+    max-height: 380px !important;
+    overflow: hidden;
+  }
+}
