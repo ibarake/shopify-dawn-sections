@@ -3100,3 +3100,13 @@ details-disclosure > details {
     overflow: hidden;
   }
 }
+@media screen and (max-width: 600px) {
+  .hero__heading, .slideshow__heading {
+    font-size: 24px !important;
+    padding: 0 10px !important;
+  }
+
+  .hero__subheading {
+    font-size: 18px !important;
+  }
+}
