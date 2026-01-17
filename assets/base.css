@@ -3122,3 +3122,7 @@ details-disclosure > details {
     margin-top: 10px;
   }
 }
+.float-whatsapp,
+.float-chat {
+  bottom: 80px !important;
+}
