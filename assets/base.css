@@ -3083,3 +3083,10 @@ details-disclosure > details {
     min-width: 90px;
   }
 }
+.home .button--link {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-align: center;
+}
