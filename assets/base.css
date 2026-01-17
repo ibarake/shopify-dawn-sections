@@ -3043,3 +3043,12 @@ details-disclosure > details {
     font-size: 100% !important;
   }
 
+@media screen and (max-width: 600px) {
+  .card__heading, .product-card__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limita a 2 líneas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
