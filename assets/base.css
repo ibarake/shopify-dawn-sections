@@ -3131,3 +3131,14 @@ details-disclosure > details {
     font-size: 24px !important;
   }
 }
+@media screen and (max-width: 600px) {
+  body.template-collection .product-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px;
+  }
+
+  body.template-collection .product-grid > * {
+    width: 100% !important;
+  }
+}
