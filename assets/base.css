@@ -3058,3 +3058,9 @@ details-disclosure > details {
     padding-bottom: 10px !important;
   }
 }
+
+@media screen and (max-width: 600px) {
+  body.template-collection .product-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
