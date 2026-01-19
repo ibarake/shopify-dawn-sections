@@ -56,7 +56,6 @@
     },
     "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
@@ -136,6 +135,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
@@ -157,6 +157,7 @@
     },
     "custom_image_wGMnX8": {
       "type": "custom-image",
+      "disabled": true,
       "name": "custom image",
       "settings": {
         "width": false,
