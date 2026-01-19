@@ -83,7 +83,6 @@
     },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -92,7 +91,6 @@
     },
     "87c60f33-59d8-416a-8360-f7543630c187": {
       "type": "macro-category-1",
-      "disabled": true,
       "settings": {
         "colnum": 3,
         "titleAndSubtitleColor": "#393731",
@@ -135,7 +133,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
@@ -157,7 +154,6 @@
     },
     "custom_image_wGMnX8": {
       "type": "custom-image",
-      "disabled": true,
       "name": "custom image",
       "settings": {
         "width": false,
@@ -168,7 +164,6 @@
     },
     "custom_image_C6tixF": {
       "type": "custom-image",
-      "disabled": true,
       "name": "TÉRMINOS (tiempo de renovar)",
       "settings": {
         "width": false,
