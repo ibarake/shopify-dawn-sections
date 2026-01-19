@@ -191,7 +191,6 @@
         "blocks": {
           "169412a7-c2d4-47d8-968c-0f32aee3b012": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "macro-id": 5,
               "menu-promo": "",
@@ -201,7 +200,6 @@
           },
           "38bd6002-ca8a-4e29-af3c-263bb42aa3a7": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "macro-id": 4,
               "menu-promo": "",
@@ -210,7 +208,6 @@
           },
           "f04b324e-b43b-4506-92ed-79ac3bca20c5": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "macro-id": 1,
               "menu-promo": "",
@@ -219,7 +216,6 @@
           },
           "d8102645-15e5-4527-9a78-717e61793ffd": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "macro-id": 3,
               "menu-promo": "",
@@ -228,7 +224,6 @@
           },
           "1c69075e-efb7-464d-8e2c-55a30d596df5": {
             "type": "menu",
-            "disabled": true,
             "settings": {
               "macro-id": 2,
               "menu-promo": "",
@@ -237,7 +232,6 @@
           },
           "nav_menu_EjLDre": {
             "type": "nav-menu",
-            "disabled": true,
             "settings": {
               "title": "Sofas",
               "url": "shopify://collections/sofas-todos",
@@ -248,7 +242,6 @@
           },
           "nav_menu_dNkn69": {
             "type": "nav-menu",
-            "disabled": true,
             "settings": {
               "title": "Comedores",
               "url": "shopify://collections/cocina-y-comedor",
@@ -259,7 +252,6 @@
           },
           "nav_menu_rHVEKR": {
             "type": "nav-menu",
-            "disabled": true,
             "settings": {
               "title": "Reclinables",
               "url": "shopify://collections/sofas-reclinomaticos",
@@ -270,7 +262,6 @@
           },
           "nav_menu_dBEybV": {
             "type": "nav-menu",
-            "disabled": true,
             "settings": {
               "title": "Sofa Cama",
               "url": "shopify://collections/sofa-cama",
@@ -281,7 +272,6 @@
           },
           "nav_menu_FEr3nj": {
             "type": "nav-menu",
-            "disabled": true,
             "settings": {
               "title": "poltronas",
               "url": "shopify://collections/sillas-para-sala-y-habitacion",
@@ -292,7 +282,6 @@
           },
           "nav_menu_9jNcwH": {
             "type": "nav-menu",
-            "disabled": true,
             "settings": {
               "title": "Ashley sleep",
               "url": "shopify://pages/ashley-sleep",
