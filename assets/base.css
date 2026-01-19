@@ -3142,3 +3142,8 @@ details-disclosure > details {
     width: 100% !important;
   }
 }
+{% if collection.handle == 'sale' %}
+  <script>
+    window.location.href = '/collections/tiempo-de-renovar-2026';
+  </script>
+{% endif %}
