@@ -164,6 +164,7 @@
     },
     "custom_image_C6tixF": {
       "type": "custom-image",
+      "disabled": true,
       "name": "TÉRMINOS (tiempo de renovar)",
       "settings": {
         "width": false,
