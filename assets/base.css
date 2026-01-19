@@ -3147,3 +3147,17 @@ details-disclosure > details {
     window.location.href = '/collections/tiempo-de-renovar-2026';
   </script>
 {% endif %}
+{% assign nueva_coleccion = collections['tiempo-de-renovar-2026'] %}
+
+{% if nueva_coleccion %}
+  <h1>{{ nueva_coleccion.title }}</h1>
+  <div class="grid">
+    {% for product in nueva_coleccion.products %}
+      <div class="grid__item">
+        {% include 'product-card', product: product %}
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No se encontró la colección "Tiempo de Renovar 2026".</p>
+{% endif %}
