@@ -770,7 +770,11 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".banner__box {display: none;}"
+      ".banner__box {display: none;}",
+      "/* BOTÓN WHATSAPP PRODUCTO */.btn-whatsapp-product {display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; margin-top: 12px; padding: 16px; background-color: #9bb36a; color: #ffffff; font-weight: 600; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; border-radius: 2px; text-decoration: none;}",
+      ".btn-whatsapp-product:hover {background-color: #8aa45d;}",
+      ".btn-whatsapp-product {display: flex; align-items: center; justify-content: center; width: 100%; margin-top: 12px; padding: 16px; background-color: #9BB36A; color: #ffffff; font-weight: 600; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; border-radius: 2px; text-decoration: none;}",
+      ".btn-whatsapp-product:hover {background-color: #8AA45D;}"
     ]
   }
 }
