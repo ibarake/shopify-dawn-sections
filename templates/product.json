@@ -48,16 +48,16 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "custom_liquid_LyzrWt": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<a\n  href=\"https://wa.me/573014857154?text=Hola%2C%20quiero%20saber%20más%20sobre%3A%20{{ product.title | url_encode }}\"\n  class=\"btn-whatsapp-product\"\n  target=\"_blank\"\n  rel=\"noopener\"\n>\n  Escríbenos por WhatsApp\n</a>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -83,8 +83,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "custom_liquid_LyzrWt",
+        "buy_buttons",
         "description",
         "share",
         "c589598a-c51a-4679-92d2-0fe79ced895b"
