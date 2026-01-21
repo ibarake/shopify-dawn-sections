@@ -57,7 +57,7 @@
         "custom_liquid_LyzrWt": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"#cliengo-chat\" class=\"btn-whatsapp-product\">\n  RECIBE ASESORÍA POR WHATSAPP\n</a>"
+            "custom_liquid": "<a\n  href=\"https://wa.me/573014857154?text=Hola%2C%20quiero%20saber%20más%20sobre%3A%20{{ product.title | url_encode }}\"\n  class=\"btn-whatsapp-product\"\n  target=\"_blank\"\n  rel=\"noopener\"\n>\n  Escríbenos por WhatsApp\n</a>"
           }
         },
         "description": {
