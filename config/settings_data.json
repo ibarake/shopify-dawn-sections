@@ -771,10 +771,11 @@
   "platform_customizations": {
     "custom_css": [
       ".banner__box {display: none;}",
-      "/* BOTÓN WHATSAPP PRODUCTO */.btn-whatsapp-product {display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; margin-top: 12px; padding: 16px; background-color: #9bb36a; color: #ffffff; font-weight: 600; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; border-radius: 2px; text-decoration: none;}",
-      ".btn-whatsapp-product:hover {background-color: #8aa45d;}",
-      ".btn-whatsapp-product {display: flex; align-items: center; justify-content: center; width: 100%; margin-top: 12px; padding: 16px; background-color: #9BB36A; color: #ffffff; font-weight: 600; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; border-radius: 2px; text-decoration: none;}",
-      ".btn-whatsapp-product:hover {background-color: #8AA45D;}"
+      "/* BOTÓN WHATSAPP PRODUCTO - RESPONSIVE FINAL */.btn-whatsapp-product {box-sizing: border-box; display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; max-width: 100%; padding: 16px; min-height: 48px; background-color: #25D366; /* Verde oficial WhatsApp */ color: #ffffff; font-weight: 600; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; text-align: center; line-height: 1.2; border-radius: 6px; text-decoration: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation;}",
+      "/* Hover (desktop) */.btn-whatsapp-product:hover {background-color: #1ebe5d;}",
+      "/* Feedback táctil (mobile) */.btn-whatsapp-product:active {transform: scale(0.99); background-color: #1aa851;}",
+      "/* Accesibilidad */.btn-whatsapp-product:focus-visible {outline: 3px solid rgba(37, 211, 102, 0.35); outline-offset: 2px;}",
+      "/* Pantallas muy pequeñas */@media (max-width: 360px) {.btn-whatsapp-product {padding: 14px; font-size: 13px; letter-spacing: 0.5px; }}"
     ]
   }
 }
