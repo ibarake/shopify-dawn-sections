@@ -68,7 +68,7 @@
         "heading_size": "h2",
         "description": "<p>Porque dormir bien no es un lujo… es el primer paso para vivir mejor.</p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "uppercase",
         "collection": "colchones",
         "products_to_show": 9,
         "columns_desktop": 3,
@@ -122,6 +122,50 @@
         "image": "shopify://shop_images/nectar.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_tLpFg3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6gTWxr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mantente fresco y duerme bien",
+            "heading_size": "h2"
+          }
+        },
+        "text_mqhgDM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Adiós a los sudores nocturnos. Gracias a nuestra tecnología de telas de enfriamiento, la funda transpirable mejora la circulación del aire, manteniéndote fresco, seco y cómodo durante toda la noche.<br/><br/><br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_m7BHGG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver más",
+            "button_link": "shopify://collections/hibrido"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6gTWxr",
+        "text_mqhgDM",
+        "button_m7BHGG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/nectar.gif",
+        "height": "large",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -250,6 +294,7 @@
     "slideshow_e6VGNq",
     "featured_collection_yei8Bc",
     "image_with_text_R7nhCn",
+    "image_with_text_tLpFg3",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
     "slideshow_rM6ypK"
