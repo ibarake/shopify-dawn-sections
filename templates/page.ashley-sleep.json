@@ -70,8 +70,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "colchones",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "products_to_show": 9,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -200,50 +200,6 @@
         "padding_bottom": 0
       }
     },
-    "feac8e1e-17d6-4323-82ae-5ada6c557d52": {
-      "type": "collage",
-      "blocks": {
-        "6f6d3e69-15ec-43a7-9cfd-fe8f4d3bc92a": {
-          "type": "product",
-          "settings": {
-            "product": "poltrona-puckman",
-            "second_image": true
-          }
-        },
-        "0b7e2b4a-1f0e-4cca-a6f7-78322353b0de": {
-          "type": "product",
-          "settings": {
-            "product": "banca-donford",
-            "second_image": true
-          }
-        },
-        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1": {
-          "type": "product",
-          "settings": {
-            "product": "poltrona-avila",
-            "second_image": true
-          }
-        }
-      },
-      "block_order": [
-        "6f6d3e69-15ec-43a7-9cfd-fe8f4d3bc92a",
-        "0b7e2b4a-1f0e-4cca-a6f7-78322353b0de",
-        "template--21474712387891__feac8e1e-17d6-4323-82ae-5ada6c557d52-product-1"
-      ],
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
-      "settings": {
-        "heading": "Poltronas y bancos",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 32,
-        "padding_bottom": 0
-      }
-    },
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866": {
       "type": "rich-text",
       "blocks": {
@@ -264,27 +220,6 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "custom_hero_banner_T9E83j": {
-      "type": "custom-hero-banner",
-      "name": "Custom hero banner Ashley",
-      "settings": {
-        "subheading": "",
-        "heading": "",
-        "spacing": 300,
-        "bg_color": "#FFFFFF",
-        "color": "#000000",
-        "img-position": "center center",
-        "button-text": "",
-        "button_link": "",
-        "btn-linebreak": "normal",
-        "btn-bg-color-normal": "#FFFFFF",
-        "btn-bg-color-hover": "#FFFFFF",
-        "btn-txt-color": "#FFFFFF",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
       }
     },
     "slideshow_rM6ypK": {
@@ -316,9 +251,7 @@
     "featured_collection_yei8Bc",
     "image_with_text_R7nhCn",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
-    "feac8e1e-17d6-4323-82ae-5ada6c557d52",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "custom_hero_banner_T9E83j",
     "slideshow_rM6ypK"
   ]
 }
