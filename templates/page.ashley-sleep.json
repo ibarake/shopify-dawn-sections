@@ -23,7 +23,8 @@
         "slide_HUqrb3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Mesa_de_trabajo_1-80_1d0aa83f-ed84-4438-b798-6ca8ab0ebbdf.jpg",
+            "image": "shopify://shop_images/7._Colchones-08.jpg",
+            "image_r": "shopify://shop_images/banner_colchones-13.webp",
             "link": ""
           }
         }
@@ -108,9 +109,9 @@
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ashley Sleep llegó para tí",
+        "title": "DORMIR BIEN NO ES UN LUJO,",
         "heading_size": "h2",
-        "description": "<p>Porque dormir bien no es un lujo… es el primer paso para vivir mejor.</p>",
+        "description": "<h3>es el primer paso para vivir mejor.</h3>",
         "show_description": false,
         "description_style": "uppercase",
         "collection": "colchones",
@@ -162,6 +163,7 @@
         "text_mqhgDM",
         "button_m7BHGG"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/nectar.gif",
         "height": "adapt",
