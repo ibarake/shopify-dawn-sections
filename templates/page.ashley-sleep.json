@@ -138,7 +138,7 @@
         "heading_6gTWxr": {
           "type": "heading",
           "settings": {
-            "heading": "Mantente fresco y duerme bien",
+            "heading": "Tecnología de enfriamiento avanzada",
             "heading_size": "h2"
           }
         },
@@ -164,8 +164,8 @@
       ],
       "settings": {
         "image": "shopify://shop_images/nectar.gif",
-        "height": "large",
-        "desktop_image_width": "large",
+        "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
