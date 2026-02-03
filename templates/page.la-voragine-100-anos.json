@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -19,12 +19,13 @@
     },
     "custom_hero_banner_jq7Wcc": {
       "type": "custom-hero-banner",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "heading": "",
         "spacing": 0,
-        "image": "shopify:\/\/shop_images\/Banner_la_Voragine_2.jpg",
-        "bg-color": "#ffffff",
+        "image": "shopify://shop_images/Banner_la_Voragine_2.jpg",
+        "bg_color": "#ffffff",
         "color": "#ffffff",
         "img-position": "center center",
         "button-text": "",
@@ -42,9 +43,9 @@
       "type": "apps",
       "blocks": {
         "forms_inline_GFt6zX": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "120811",
+            "form_id": "857004",
             "text_color": "#202020",
             "button_background_color": "#f68c2c",
             "button_label_color": "#ffffff",
