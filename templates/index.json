@@ -12,6 +12,14 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
+        "slide_GntNHm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner_PNG.png",
+            "image_r": "shopify://shop_images/BANNER_PNG_2.png",
+            "link": "shopify://pages/carnaval2026"
+          }
+        },
         "slide_QwNBCt": {
           "type": "slide",
           "name": "Tiempo de Renovar 1",
@@ -24,6 +32,7 @@
         "slide_HfVxaV": {
           "type": "slide",
           "name": "Evento Natalia Tobón",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_invitacion_evento_Natalia_Tobon_Banners_web-01.jpg",
             "image_r": "shopify://shop_images/Ashley_invitacion_evento_Natalia_Tobon_Banners_web-02.jpg",
@@ -77,6 +86,7 @@
         }
       },
       "block_order": [
+        "slide_GntNHm",
         "slide_QwNBCt",
         "slide_HfVxaV",
         "slide_r77zjk",
