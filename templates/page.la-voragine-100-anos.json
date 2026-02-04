@@ -19,12 +19,11 @@
     },
     "custom_hero_banner_jq7Wcc": {
       "type": "custom-hero-banner",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "heading": "",
         "spacing": 0,
-        "image": "shopify://shop_images/Banner_la_Voragine_2.jpg",
+        "image": "shopify://shop_images/banner_PNG.png",
         "bg_color": "#ffffff",
         "color": "#ffffff",
         "img-position": "center center",
