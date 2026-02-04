@@ -15,6 +15,7 @@
         "slide_GntNHm": {
           "type": "slide",
           "name": "Carnaval",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner_PNG.png",
             "image_r": "shopify://shop_images/BANNER_PNG_2.png",
@@ -24,7 +25,6 @@
         "slide_QwNBCt": {
           "type": "slide",
           "name": "Tiempo de Renovar 1",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-03_978ab5fd-b85c-4061-8be3-0c5deb56f19f.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-04_60c250e5-5ae1-41e9-b367-fb14f45fb15f.jpg",
@@ -44,7 +44,6 @@
         "slide_r77zjk": {
           "type": "slide",
           "name": "Tiempo de Renovar Comedor",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-02.jpg",
@@ -54,7 +53,6 @@
         "slide_M3TPJG": {
           "type": "slide",
           "name": "Tiempo de Renovar Reclinables",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-07.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-08.jpg",
