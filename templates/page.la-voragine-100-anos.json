@@ -54,19 +54,11 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "custom_collections_8PerKQ": {
-      "type": "custom-collections",
-      "settings": {
-        "btn-txt-color": "#363534",
-        "btn-bg-color": "#f4f4f4"
-      }
     }
   },
   "order": [
     "main",
     "custom_image_YXTpea",
-    "17177127601cd956fa",
-    "custom_collections_8PerKQ"
+    "17177127601cd956fa"
   ]
 }
