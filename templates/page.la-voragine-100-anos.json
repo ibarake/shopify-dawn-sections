@@ -21,7 +21,7 @@
       "type": "custom-image",
       "name": "Banner Volanteo",
       "settings": {
-        "width": false,
+        "width": true,
         "image1": "shopify://shop_images/Copia_de_..jpg",
         "image2": "shopify://shop_images/Diseno_sin_titulo_9.png",
         "url": ""
