@@ -19,11 +19,15 @@
     },
     "custom_hero_banner_jq7Wcc": {
       "type": "custom-hero-banner",
+      "custom_css": [
+        ".banner__media img {object-fit: contain;}",
+        ".banner {min-height: 70vh;}"
+      ],
       "settings": {
         "subheading": "",
         "heading": "",
         "spacing": 0,
-        "image": "shopify://shop_images/BANNER_PNG_2.png",
+        "image": "shopify://shop_images/Diseno_sin_titulo.jpg",
         "bg_color": "#ffffff",
         "color": "#ffffff",
         "img-position": "center center",
@@ -33,9 +37,9 @@
         "btn-bg-color-normal": "#ffffff",
         "btn-bg-color-hover": "#ffffff",
         "btn-txt-color": "#ffffff",
-        "img-height": 540,
-        "responsive-container-height": 300,
-        "responsive-img-height": 300
+        "img-height": 400,
+        "responsive-container-height": 450,
+        "responsive-img-height": 200
       }
     },
     "17177127601cd956fa": {
@@ -44,7 +48,7 @@
         "forms_inline_GFt6zX": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "857004",
+            "form_id": "888206",
             "text_color": "#202020",
             "button_background_color": "#f68c2c",
             "button_label_color": "#ffffff",
