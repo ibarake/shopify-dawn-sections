@@ -81,7 +81,8 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1_1156eaf1-fa60-432e-9b9c-65e462d1cbfc.jpg",
+        "image": "shopify://shop_images/Copia_de_..jpg",
+        "image_2": "shopify://shop_images/Diseno_sin_titulo_9.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
