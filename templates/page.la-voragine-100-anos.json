@@ -26,7 +26,7 @@
       "settings": {
         "subheading": "",
         "heading": "",
-        "spacing": 0,
+        "spacing": 15,
         "image": "shopify://shop_images/Diseno_sin_titulo.jpg",
         "bg_color": "#ffffff",
         "color": "#ffffff",
@@ -37,9 +37,9 @@
         "btn-bg-color-normal": "#ffffff",
         "btn-bg-color-hover": "#ffffff",
         "btn-txt-color": "#ffffff",
-        "img-height": 400,
-        "responsive-container-height": 450,
-        "responsive-img-height": 200
+        "img-height": 500,
+        "responsive-container-height": 280,
+        "responsive-img-height": 350
       }
     },
     "17177127601cd956fa": {
