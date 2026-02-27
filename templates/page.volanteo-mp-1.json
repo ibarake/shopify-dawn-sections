@@ -23,7 +23,7 @@
         "slide_kbFYxK": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Copia_de_._23e6a142-9ffa-4d18-8f34-73b348797b83.jpg",
+            "image": "shopify://shop_images/Copia_de_._a9d56a5b-1298-4f5e-9d5d-99ab0854989a.jpg",
             "link": ""
           }
         }
@@ -45,7 +45,7 @@
         "forms_inline_RyNCaH": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "890111",
+            "form_id": "890842",
             "text_color": "#202020",
             "button_background_color": "#202020",
             "button_label_color": "#ffffff",
