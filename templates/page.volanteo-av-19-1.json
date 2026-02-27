@@ -23,7 +23,8 @@
         "slide_kbFYxK": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Copia_de_._23e6a142-9ffa-4d18-8f34-73b348797b83.jpg",
+            "image": "shopify://shop_images/banners_volanteo-01.webp",
+            "image_r": "shopify://shop_images/banners_volanteo-02.webp",
             "link": ""
           }
         }
@@ -53,7 +54,7 @@
             "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
-            "padding_top": 0,
+            "padding_top": 24,
             "padding_bottom": 24,
             "padding_right": 0,
             "padding_left": 0
