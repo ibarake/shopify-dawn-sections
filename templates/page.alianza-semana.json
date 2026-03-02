@@ -67,11 +67,35 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_dBLXzL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_rKeDNV": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Términos y condiciones: Bono válido por $500.000 para redimir sin condiciones de compra mínima en puntos de venta físicos ubicados en Bogotá (Av. 19 #109 - 41 y Autopista Norte # 224 - 60) o en Barranquilla (Cra. 53 # 80 - 91) así como en la tienda en línea al +57 (301) 485-7154. Aplica para el titular suscriptor de la revista semana sujeto a validación. Válido por 165 días calendario a partir de su inscripción sujeto a productos disponibles. Este bono no es acumulable con promociones activas, productos en liquidación o descuentos de temporada. Válido solo para una (1) transacción dentro del periodo asignado.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_rKeDNV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "slideshow_Rpk6wX",
-    "1772209924080f5545"
+    "1772209924080f5545",
+    "rich_text_dBLXzL"
   ]
 }
