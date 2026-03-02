@@ -12,90 +12,28 @@
     "fb110c7a-4332-4d8d-b923-860cd019d091": {
       "type": "slideshow",
       "blocks": {
-        "slide_GntNHm": {
-          "type": "slide",
-          "name": "Carnaval",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/banner_PNG.png",
-            "image_r": "shopify://shop_images/BANNER_PNG_2.png",
-            "link": "shopify://pages/carnaval2026"
-          }
-        },
         "slide_QwNBCt": {
           "type": "slide",
-          "name": "Tiempo de Renovar 1",
+          "name": "Aniversario",
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-02.jpg",
             "link": "shopify://collections/tiempo-de-renovar-2026"
           }
         },
-        "slide_HfVxaV": {
+        "slide_Y4DgrW": {
           "type": "slide",
-          "name": "Evento Natalia Tobón",
-          "disabled": true,
+          "name": "Aniversario 2",
           "settings": {
-            "image": "shopify://shop_images/Ashley_invitacion_evento_Natalia_Tobon_Banners_web-01.jpg",
-            "image_r": "shopify://shop_images/Ashley_invitacion_evento_Natalia_Tobon_Banners_web-02.jpg",
-            "link": "https://mailchi.mp/ashleycolombia.com/featnataliatobon"
-          }
-        },
-        "slide_r77zjk": {
-          "type": "slide",
-          "name": "Tiempo de Renovar Comedor",
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-01.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-02.jpg",
-            "link": "shopify://collections/juegos-de-comedor"
-          }
-        },
-        "slide_M3TPJG": {
-          "type": "slide",
-          "name": "Tiempo de Renovar Reclinables",
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-07.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Enero_Tiempo_de_Renovar_Banners_web-08.jpg",
-            "link": "https://api.whatsapp.com/send?phone=573014857154&text=Hola%20Ashley%20%F0%9F%A7%A1%20Estoy%20interesado%20en%20el%20SOF%C3%81%20RECLINABLE%20MOREAU"
-          }
-        },
-        "slide_MCxN3c": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Renueva_la_energia_de_tu_hogar_para_comenzar_el_ano_con_intencion_2.png",
-            "image_r": "shopify://shop_images/WhatsApp_Image_2026-01-08_at_18.02.21_2.jpg",
-            "link": "shopify://collections/novedades-2026"
-          }
-        },
-        "slide_WwKyFe": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-07.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-08.jpg",
-            "link": "https://api.whatsapp.com/send/?phone=573014857154&text=Hola+Ashley%2C+quiero+mi+regalo+de+Navidad&type=phone_number&app_absent=0&utm_campaign=navidadweb&utm_source=web"
-          }
-        },
-        "slide_zY9Ceb": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-01.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Diciembre_Navidad_Banners_web-02.jpg",
-            "link": "shopify://collections/sale"
+            "image": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-07.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-07.jpg",
+            "link": "shopify://collections/tiempo-de-renovar-2026"
           }
         }
       },
       "block_order": [
-        "slide_GntNHm",
         "slide_QwNBCt",
-        "slide_HfVxaV",
-        "slide_r77zjk",
-        "slide_M3TPJG",
-        "slide_MCxN3c",
-        "slide_WwKyFe",
-        "slide_zY9Ceb"
+        "slide_Y4DgrW"
       ],
       "settings": {
         "layout": "full_bleed",
