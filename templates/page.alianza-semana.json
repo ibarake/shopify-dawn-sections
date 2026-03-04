@@ -46,6 +46,29 @@
         "slide_AU3wYj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/nuevo_home_2026.jpg",
+            "image_r": "shopify://shop_images/nuevo_home_2026_2.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_AU3wYj"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
+    "slideshow_TbWzcb": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_GtEX8C": {
+          "type": "slide",
+          "settings": {
             "image": "shopify://shop_images/NEWSLETTER_SEMANA_FEBRERO-03.jpg",
             "image_r": "shopify://shop_images/NEWSLETTER_SEMANA_FEBRERO-04.jpg",
             "link": ""
@@ -53,7 +76,7 @@
         }
       },
       "block_order": [
-        "slide_AU3wYj"
+        "slide_GtEX8C"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
@@ -137,6 +160,7 @@
     "main",
     "slideshow_Rpk6wX",
     "slideshow_DYFDPB",
+    "slideshow_TbWzcb",
     "1772209924080f5545",
     "rich_text_dBLXzL"
   ]
