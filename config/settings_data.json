@@ -399,7 +399,7 @@
           "backgroundButton": "",
           "textButton": "",
           "enable_bottom": false,
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "¡Suscribete al newsletter!",
           "phone-number": "+57 (301) 2464099",
           "show_social": true,
