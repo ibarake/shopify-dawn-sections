@@ -107,6 +107,50 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_7cHYRt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mGkVYq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comodidad con Enfriamiento Superior",
+            "heading_size": "h2"
+          }
+        },
+        "text_MhRKYP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Las fibras de enfriamiento, integradas directamente en la superficie del colchón, te ayudan a mantenerte fresco y renovado durante toda la noche. Además, su diseño transpirable favorece la circulación del aire, creando un ambiente de descanso cómodo en todo momento.</p><p>¿Quieres una sensación aún más fresca? Potencia el efecto de enfriamiento de tu colchón Nectar con nuestra tecnología <strong>NectarCool</strong>, que incorpora una mayor cantidad de fibras refrescantes para una experiencia de descanso superior.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_39cKUK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver más",
+            "button_link": "shopify://collections/hibrido"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGkVYq",
+        "text_MhRKYP",
+        "button_39cKUK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/nectar.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
@@ -296,6 +340,7 @@
     "slideshow_JQACWk",
     "slideshow_e6VGNq",
     "image_with_text_R7nhCn",
+    "image_with_text_7cHYRt",
     "featured_collection_yei8Bc",
     "image_with_text_tLpFg3",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
