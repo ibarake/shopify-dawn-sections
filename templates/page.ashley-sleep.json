@@ -96,12 +96,12 @@
       "settings": {
         "image": "shopify://shop_images/nectar.gif",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -113,14 +113,14 @@
         "heading_76KaCX": {
           "type": "heading",
           "settings": {
-            "heading": "Comodidad que se ajusta a ti",
+            "heading": "Confort térmico superior",
             "heading_size": "h2"
           }
         },
         "text_qeEwhY": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
+            "text": "<p>Fibras refrescantes en la superficie y un diseño transpirable mantienen una temperatura ideal durante toda la noche.</p><p>¿Más frescura? Mejora tu colchón con <strong>NectarCool</strong>, que incorpora más fibras de enfriamiento para un descanso aún más fresco.</p>",
             "text_style": "body"
           }
         },
@@ -140,56 +140,12 @@
       "settings": {
         "image": "shopify://shop_images/A2.gif",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_kxCzYb": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_Bm9HHw": {
-          "type": "heading",
-          "settings": {
-            "heading": "Comodidad que se ajusta a ti",
-            "heading_size": "h2"
-          }
-        },
-        "text_ehHFpM": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
-            "text_style": "body"
-          }
-        },
-        "button_JAfYbP": {
-          "type": "button",
-          "settings": {
-            "button_label": "Ver más",
-            "button_link": "shopify://collections/hibrido"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Bm9HHw",
-        "text_ehHFpM",
-        "button_JAfYbP"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/A2.gif",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -201,14 +157,14 @@
         "heading_kLXBRG": {
           "type": "heading",
           "settings": {
-            "heading": "Comodidad que se ajusta a ti",
+            "heading": "Adiós a la transferencia de movimiento",
             "heading_size": "h2"
           }
         },
         "text_YUJmG8": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
+            "text": "<p>Nuestra capa de espuma de soporte absorbe los movimientos, evitando que se transmitan de un lado al otro de la cama. Así, aunque tu pareja se mueva o se levante durante la noche, podrás disfrutar de un descanso continuo y sin interrupciones.</p>",
             "text_style": "body"
           }
         },
@@ -228,12 +184,12 @@
       "settings": {
         "image": "shopify://shop_images/A1.gif",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
-        "desktop_content_position": "bottom",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -242,13 +198,13 @@
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
-        "title": "DORMIR BIEN NO ES UN LUJO,",
+        "title": "Dormir bien no ess olo",
         "heading_size": "h2",
-        "description": "<h3>es el primer paso para vivir mejor.</h3>",
+        "description": "<h3>Es el primer paso para vivir mejor </h3>",
         "show_description": false,
-        "description_style": "uppercase",
+        "description_style": "subtitle",
         "collection": "colchones",
-        "products_to_show": 9,
+        "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
@@ -394,7 +350,6 @@
     "slideshow_e6VGNq",
     "image_with_text_R7nhCn",
     "image_with_text_chM4rE",
-    "image_with_text_kxCzYb",
     "image_with_text_T9Ffim",
     "featured_collection_yei8Bc",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
