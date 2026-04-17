@@ -134,50 +134,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_tLpFg3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_6gTWxr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tecnología de enfriamiento avanzada",
-            "heading_size": "h2"
-          }
-        },
-        "text_mqhgDM": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br/>Disfruta de una sensación superior de frescura gracias a las fibras refrescantes integradas directamente en la superficie del colchón, diseñadas para mantener una temperatura agradable durante toda la noche. Su estructura transpirable favorece la circulación del aire y crea un entorno de descanso cómodo en cualquier condición.<br/><br/>¿Buscas aún más frescura? Potencia el rendimiento de tu colchón Nectar con la tecnología <strong>NectarCool</strong>, que incorpora una mayor cantidad de fibras refrescantes para un descanso todavía más frío.<br/><br/></p>",
-            "text_style": "body"
-          }
-        },
-        "button_m7BHGG": {
-          "type": "button",
-          "settings": {
-            "button_label": "Ver más",
-            "button_link": "shopify://collections/hibrido"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6gTWxr",
-        "text_mqhgDM",
-        "button_m7BHGG"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/nectar.gif",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "3351b522-8c99-4497-a46e-3eaeb9cfc693": {
       "type": "multicolumn",
       "blocks": {
@@ -289,18 +245,14 @@
         "change_slides_speed": 6
       }
     },
-    "video_tcaFPy": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
+    "custom_liquid_eV7xhz": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "video_url": "https://player.vimeo.com/video/1117858480?muted=1&autoplay=1&autopause=0&loop=1&background=1&app_id=122963",
-        "description": "",
-        "full_width": false,
+        "custom_liquid": "",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -310,10 +262,9 @@
     "slideshow_e6VGNq",
     "image_with_text_R7nhCn",
     "featured_collection_yei8Bc",
-    "image_with_text_tLpFg3",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
     "slideshow_rM6ypK",
-    "video_tcaFPy"
+    "custom_liquid_eV7xhz"
   ]
 }
