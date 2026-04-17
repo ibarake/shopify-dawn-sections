@@ -107,24 +107,24 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_7cHYRt": {
+    "image_with_text_nDPw8g": {
       "type": "image-with-text",
       "blocks": {
-        "heading_mGkVYq": {
+        "heading_fepJgY": {
           "type": "heading",
           "settings": {
-            "heading": "Comodidad con Enfriamiento Superior",
+            "heading": "Comodidad que se ajusta a ti",
             "heading_size": "h2"
           }
         },
-        "text_MhRKYP": {
+        "text_HnbVgC": {
           "type": "text",
           "settings": {
-            "text": "<p>Las fibras de enfriamiento, integradas directamente en la superficie del colchón, te ayudan a mantenerte fresco y renovado durante toda la noche. Además, su diseño transpirable favorece la circulación del aire, creando un ambiente de descanso cómodo en todo momento.</p><p>¿Quieres una sensación aún más fresca? Potencia el efecto de enfriamiento de tu colchón Nectar con nuestra tecnología <strong>NectarCool</strong>, que incorpora una mayor cantidad de fibras refrescantes para una experiencia de descanso superior.</p>",
-            "text_style": "subtitle"
+            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
+            "text_style": "body"
           }
         },
-        "button_39cKUK": {
+        "button_BVCibD": {
           "type": "button",
           "settings": {
             "button_label": "Ver más",
@@ -133,11 +133,13 @@
         }
       },
       "block_order": [
-        "heading_mGkVYq",
-        "text_MhRKYP",
-        "button_39cKUK"
+        "heading_fepJgY",
+        "text_HnbVgC",
+        "button_BVCibD"
       ],
+      "custom_css": [],
       "settings": {
+        "image": "shopify://shop_images/nectar.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -332,6 +334,20 @@
         "auto_rotate": false,
         "change_slides_speed": 6
       }
+    },
+    "video_w7itfg": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https://player.vimeo.com/video/1117858480?muted=1&autoplay=1&autopause=0&loop=1&background=1&app_id=122963",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -339,11 +355,12 @@
     "slideshow_JQACWk",
     "slideshow_e6VGNq",
     "image_with_text_R7nhCn",
-    "image_with_text_7cHYRt",
+    "image_with_text_nDPw8g",
     "featured_collection_yei8Bc",
     "image_with_text_tLpFg3",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
-    "slideshow_rM6ypK"
+    "slideshow_rM6ypK",
+    "video_w7itfg"
   ]
 }
