@@ -205,7 +205,7 @@
         "description_style": "subtitle",
         "collection": "colchones",
         "products_to_show": 12,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
