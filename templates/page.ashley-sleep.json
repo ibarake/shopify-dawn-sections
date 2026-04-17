@@ -164,7 +164,6 @@
         "text_mqhgDM",
         "button_m7BHGG"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/nectar.gif",
         "height": "adapt",
@@ -290,15 +289,15 @@
         "change_slides_speed": 6
       }
     },
-    "video_tfh7LJ": {
+    "video_tcaFPy": {
       "type": "video",
-      "name": "Comodidad con Enfriamiento Superior",
+      "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Comodidad con Enfriamiento Superior",
+        "heading": "Video",
         "heading_size": "h1",
         "video_url": "https://player.vimeo.com/video/1117858480?muted=1&autoplay=1&autopause=0&loop=1&background=1&app_id=122963",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -315,6 +314,6 @@
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
     "slideshow_rM6ypK",
-    "video_tfh7LJ"
+    "video_tcaFPy"
   ]
 }
