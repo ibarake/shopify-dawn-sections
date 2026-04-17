@@ -198,9 +198,9 @@
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dormir bien",
+        "title": "Un gran descanso nocturno te espera",
         "heading_size": "h2",
-        "description": "<h3>Es el primer paso para vivir mejor </h3>",
+        "description": "<h3>Elige tu colchón</h3>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "colchones",
