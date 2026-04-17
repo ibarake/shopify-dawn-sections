@@ -200,7 +200,7 @@
       "settings": {
         "title": "Un gran descanso nocturno te espera",
         "heading_size": "h2",
-        "description": "<h3>Elige tu colchón</h3>",
+        "description": "<p>Comodidad y calidad que te acompañan cada noche</p><p></p>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "colchones",
