@@ -107,6 +107,138 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_chM4rE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_76KaCX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comodidad que se ajusta a ti",
+            "heading_size": "h2"
+          }
+        },
+        "text_qeEwhY": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_KF3cP8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver más",
+            "button_link": "shopify://collections/hibrido"
+          }
+        }
+      },
+      "block_order": [
+        "heading_76KaCX",
+        "text_qeEwhY",
+        "button_KF3cP8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/A2.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_kxCzYb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Bm9HHw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comodidad que se ajusta a ti",
+            "heading_size": "h2"
+          }
+        },
+        "text_ehHFpM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_JAfYbP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver más",
+            "button_link": "shopify://collections/hibrido"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bm9HHw",
+        "text_ehHFpM",
+        "button_JAfYbP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/A2.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_T9Ffim": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kLXBRG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comodidad que se ajusta a ti",
+            "heading_size": "h2"
+          }
+        },
+        "text_YUJmG8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_4miTDW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver más",
+            "button_link": "shopify://collections/hibrido"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kLXBRG",
+        "text_YUJmG8",
+        "button_4miTDW"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/A1.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
@@ -261,6 +393,9 @@
     "slideshow_JQACWk",
     "slideshow_e6VGNq",
     "image_with_text_R7nhCn",
+    "image_with_text_chM4rE",
+    "image_with_text_kxCzYb",
+    "image_with_text_T9Ffim",
     "featured_collection_yei8Bc",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
