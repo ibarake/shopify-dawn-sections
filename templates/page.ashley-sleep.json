@@ -290,7 +290,7 @@
         "change_slides_speed": 6
       }
     },
-    "video_CmY9KE": {
+    "video_MwFDnc": {
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
@@ -315,6 +315,6 @@
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
     "slideshow_rM6ypK",
-    "video_CmY9KE"
+    "video_MwFDnc"
   ]
 }
