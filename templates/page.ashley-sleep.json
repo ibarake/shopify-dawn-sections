@@ -107,51 +107,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_nDPw8g": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_fepJgY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Comodidad que se ajusta a ti",
-            "heading_size": "h2"
-          }
-        },
-        "text_HnbVgC": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br/>Gracias a sus capas de espuma de alta calidad, el colchón se amolda suavemente a tu cuerpo, distribuyendo el peso de manera uniforme. Esta tecnología de adaptación favorece una postura natural y proporciona una sensación envolvente sin perder soporte.<br/><br/></p>",
-            "text_style": "body"
-          }
-        },
-        "button_BVCibD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Ver más",
-            "button_link": "shopify://collections/hibrido"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fepJgY",
-        "text_HnbVgC",
-        "button_BVCibD"
-      ],
-      "custom_css": [],
-      "settings": {
-        "image": "shopify://shop_images/nectar.gif",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_yei8Bc": {
       "type": "featured-collection",
       "settings": {
@@ -335,7 +290,7 @@
         "change_slides_speed": 6
       }
     },
-    "video_w7itfg": {
+    "video_CmY9KE": {
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
@@ -355,12 +310,11 @@
     "slideshow_JQACWk",
     "slideshow_e6VGNq",
     "image_with_text_R7nhCn",
-    "image_with_text_nDPw8g",
     "featured_collection_yei8Bc",
     "image_with_text_tLpFg3",
     "3351b522-8c99-4497-a46e-3eaeb9cfc693",
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
     "slideshow_rM6ypK",
-    "video_w7itfg"
+    "video_CmY9KE"
   ]
 }
