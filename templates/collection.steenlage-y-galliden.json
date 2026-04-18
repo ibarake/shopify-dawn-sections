@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "macro_category_4_DCkpnn": {
+      "type": "macro-category-4",
+      "disabled": true,
+      "settings": {
+        "numberSubcategories": 8,
+        "titleColor": "#000000",
+        "subColor": "#000000",
+        "backgroundSectionColor": "#ffffff",
+        "backgroundColor": "#f2f2f2"
+      }
+    },
+    "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "jarrones-y-botellas",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "87c60f33-59d8-416a-8360-f7543630c187": {
+      "type": "macro-category-1",
+      "disabled": true,
+      "settings": {
+        "colnum": 3,
+        "titleAndSubtitleColor": "#393731",
+        "titleAndSubtitleColor1": "#ffffff",
+        "saleTextColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
+        "backgroundSaleColor": "#c60f2f"
+      }
+    },
+    "rich_text_fQYbHV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cRiBpc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>¿Necesitas asesoría para finalizar tu compra?</p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_8TLmtK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Escríbenos por WhatsApp y te asesoramos. <a href=\"https://wa.me/573015519915\" target=\"_blank\" title=\"https://wa.me/573015519915\">Habla con nosotros</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cRiBpc",
+        "text_8TLmtK"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 40
+      }
+    },
+    "slideshow_pHdfgz": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_yR7KFc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1600_x_450_Banner.png",
+            "image_r": "shopify://shop_images/PNG_BANNER.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_yR7KFc"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
+    "image_with_text_TqPrVq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VWmy9U": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sala",
+            "heading_size": "h1"
+          }
+        },
+        "text_VxcytY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La elección de Mabel refleja su estilo y afinidad por una paleta de colores armónica. Optó por un sofá tipo <em>cloud</em>, con diseño cojín sobre cojín, que brinda una experiencia superior de confort y suavidad.</p><p>La colección <strong>Elyza</strong> combina elegancia y comodidad en un seccional de alto diseño, creando un espacio versátil, acogedor y sofisticado.</p><p>Para complementar, se eligieron mesas de centro de estilo contemporáneo con acabado tipo cemento y patas en tono espresso, que aportan contraste y modernidad. Su disposición en escala permite aprovechar mejor el espacio, aportando funcionalidad y sensación de amplitud en la sala.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Hh7Rja": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver Sala",
+            "button_link": "shopify://collections/sala-modular-elyza"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VWmy9U",
+        "text_VxcytY",
+        "button_Hh7Rja"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_9366.heic",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_xrfYfi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4WYxj6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comedor",
+            "heading_size": "h1"
+          }
+        },
+        "text_d43AXj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Para el comedor se combinan la mesa <strong>Steenlage</strong> y las sillas <strong>Galliden</strong>, logrando un equilibrio entre naturalidad y contraste. La mesa, con su acabado en madera de apariencia natural y diseño extensible, aporta calidez y versatilidad, adaptándose fácilmente a diferentes momentos y número de invitados.</p><p>Por su parte, las sillas en negro envejecido con respaldo en caña sintética añaden textura y carácter, generando un contraste visual elegante frente a los tonos claros. La mezcla de materiales y colores aporta profundidad y mayor definición al espacio.</p><p>El resultado es un comedor moderno, acogedor y funcional, alineado con la paleta del hogar y pensado tanto para el día a día como para ocasiones especiales.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3TinPx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver Comedor",
+            "button_link": "shopify://collections/steenlage-y-galliden"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4WYxj6",
+        "text_d43AXj",
+        "button_3TinPx"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_9595.heic",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_8rn8CV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Kb3Adp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terraza",
+            "heading_size": "h1"
+          }
+        },
+        "text_R9Fg3k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En la terraza se eligió la colección <strong>Seton Creek</strong>, diseñada para exteriores y pensada para resistir diferentes condiciones climáticas sin perder estilo. Su estética contemporánea en tonos neutros crea un ambiente relajado, elegante y funcional.</p><p>La mesa de centro, con superficie de vidrio templado y estructura en mimbre de resina sobre aluminio, aporta durabilidad y practicidad, ideal para acompañar momentos al aire libre. Los sofás y el loveseat, revestidos en tela <strong>Nuvella+</strong> de alto rendimiento, ofrecen una experiencia de confort superior, con materiales resistentes al sol, fáciles de limpiar y pensados para uso continuo en exteriores.</p><p>El sillón giratorio complementa el espacio con un toque dinámico y funcional, permitiendo una rotación de 360° que mejora la interacción y comodidad. En conjunto, los materiales como el mimbre sintético, los herrajes en acero inoxidable y los acabados tipo madera garantizan resistencia, mientras que su diseño mantiene una estética moderna y acogedora.</p><p>El resultado es una terraza versátil, cómoda y duradera, perfecta para disfrutar en cualquier momento del día.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_YdrUgL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver Terraza",
+            "button_link": "shopify://collections/muebles-exteriores"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kb3Adp",
+        "text_R9Fg3k",
+        "button_YdrUgL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2026-03-31_at_17.28.47.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "products_per_page": 100,
+        "columns_desktop": 3,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "featured_collection_XaJbJY": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Y los favoritos son ....",
+        "heading_size": "h1",
+        "description": "<p><br/>Compartimos las colecciones que hicieron parte de la selección de Mabel para su hogar. Sabemos que renovar un espacio puede ser un proceso retador —querrás llevarte todo—, por eso reunimos algunas de las tendencias más destacadas en diseño, confort y estilo para ayudarte a crear un hogar que realmente se sienta tuyo.<br/><br/></p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mis-favoritos-en-ashley-por-mabel-cartagena",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "macro_category_4_DCkpnn",
+    "8da3b324-cd83-4cfb-8ff1-ddebe0c9c74e",
+    "banner",
+    "87c60f33-59d8-416a-8360-f7543630c187",
+    "rich_text_fQYbHV",
+    "slideshow_pHdfgz",
+    "image_with_text_TqPrVq",
+    "image_with_text_xrfYfi",
+    "image_with_text_8rn8CV",
+    "product-grid",
+    "featured_collection_XaJbJY"
+  ]
+}
