@@ -189,7 +189,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify://collections/steenlage-y-galliden"
+            "button_link": "/collections/steenlage-y-galliden"
           }
         }
       },
