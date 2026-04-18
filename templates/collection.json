@@ -100,6 +100,29 @@
         "padding_bottom": 40
       }
     },
+    "slideshow_pHdfgz": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_yR7KFc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1600_x_450_Banner.png",
+            "image_r": "shopify://shop_images/PNG_BANNER.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_yR7KFc"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 6
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
@@ -119,29 +142,6 @@
         "columns_mobile": "1",
         "padding_top": 48,
         "padding_bottom": 48
-      }
-    },
-    "slideshow_pHdfgz": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_yR7KFc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-03.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-04.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_yR7KFc"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
       }
     }
   },
