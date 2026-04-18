@@ -17,52 +17,8 @@
         "padding_bottom": 28
       }
     },
-    "slideshow_Rpk6wX": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_kbFYxK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Copia_de_..jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_kbFYxK"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
-      }
-    },
     "1772209924080f5545": {
       "type": "apps",
-      "blocks": {
-        "forms_inline_RyNCaH": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
-          "settings": {
-            "form_id": "890842",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 24,
-            "padding_right": 0,
-            "padding_left": 0
-          }
-        }
-      },
-      "block_order": [
-        "forms_inline_RyNCaH"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -70,7 +26,6 @@
   },
   "order": [
     "main",
-    "slideshow_Rpk6wX",
     "1772209924080f5545"
   ]
 }
