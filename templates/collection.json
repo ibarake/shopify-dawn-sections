@@ -184,19 +184,11 @@
             "text": "<p>Para el comedor se combinan la mesa <strong>Steenlage</strong> y las sillas <strong>Galliden</strong>, logrando un equilibrio entre naturalidad y contraste. La mesa, con su acabado en madera de apariencia natural y diseño extensible, aporta calidez y versatilidad, adaptándose fácilmente a diferentes momentos y número de invitados.</p><p>Por su parte, las sillas en negro envejecido con respaldo en caña sintética añaden textura y carácter, generando un contraste visual elegante frente a los tonos claros. La mezcla de materiales y colores aporta profundidad y mayor definición al espacio.</p><p>El resultado es un comedor moderno, acogedor y funcional, alineado con la paleta del hogar y pensado tanto para el día a día como para ocasiones especiales.</p>",
             "text_style": "body"
           }
-        },
-        "button_3TinPx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Ver Comedor",
-            "button_link": "shopify://collections/steenlage-y-galliden"
-          }
         }
       },
       "block_order": [
         "heading_4WYxj6",
-        "text_d43AXj",
-        "button_3TinPx"
+        "text_d43AXj"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -279,34 +271,6 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
-    },
-    "featured_collection_XaJbJY": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "title": "Y los favoritos son ....",
-        "heading_size": "h1",
-        "description": "<p><br/>Compartimos las colecciones que hicieron parte de la selección de Mabel para su hogar. Sabemos que renovar un espacio puede ser un proceso retador —querrás llevarte todo—, por eso reunimos algunas de las tendencias más destacadas en diseño, confort y estilo para ayudarte a crear un hogar que realmente se sienta tuyo.<br/><br/></p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mis-favoritos-en-ashley-por-mabel-cartagena",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -319,7 +283,6 @@
     "image_with_text_TqPrVq",
     "image_with_text_xrfYfi",
     "image_with_text_8rn8CV",
-    "product-grid",
-    "featured_collection_XaJbJY"
+    "product-grid"
   ]
 }
