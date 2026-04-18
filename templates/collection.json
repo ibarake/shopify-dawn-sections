@@ -129,22 +129,22 @@
         "heading_VWmy9U": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Sala",
             "heading_size": "h1"
           }
         },
         "text_VxcytY": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>La elección de Mabel refleja su estilo y afinidad por una paleta de colores armónica. Optó por un sofá tipo <em>cloud</em>, con diseño cojín sobre cojín, que brinda una experiencia superior de confort y suavidad.</p><p>La colección <strong>Elyza</strong> combina elegancia y comodidad en un seccional de alto diseño, con una estética moderna y acogedora. Sus brazos amplios, cojines con relleno de plumas y su diseño modular permiten crear un espacio versátil, relajado y sofisticado.</p>",
             "text_style": "body"
           }
         },
         "button_Hh7Rja": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Ver Sala Elyza",
+            "button_link": "shopify://collections/sala-modular-elyza"
           }
         }
       },
@@ -180,8 +180,8 @@
         "text_d43AXj": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "text": "<p>La elección de Mabel refleja su estilo y afinidad por una paleta de colores armónica. Optó por un sofá tipo <em>cloud</em>, con diseño cojín sobre cojín, que brinda una experiencia superior de confort y suavidad.</p><p>La colección <strong>Elyza</strong> combina elegancia y comodidad en un seccional de alto diseño, con una estética moderna y acogedora. Sus brazos amplios, cojines con relleno de plumas y su diseño modular permiten crear un espacio versátil, relajado y sofisticado.</p>",
+            "text_style": "subtitle"
           }
         },
         "button_3TinPx": {
