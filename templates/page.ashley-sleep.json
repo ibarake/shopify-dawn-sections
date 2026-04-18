@@ -343,24 +343,24 @@
         "padding_bottom": 52
       }
     },
-    "image_banner_EerFYD": {
+    "image_banner_Fd8ghb": {
       "type": "image-banner",
       "blocks": {
-        "heading_BJ46WY": {
+        "heading_6cF678": {
           "type": "heading",
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "text_LJGj4p": {
+        "text_zfCf7T": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "buttons_G7CUB7": {
+        "buttons_Mwgmkm": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
@@ -373,9 +373,58 @@
         }
       },
       "block_order": [
-        "heading_BJ46WY",
-        "text_LJGj4p",
-        "buttons_G7CUB7"
+        "heading_6cF678",
+        "text_zfCf7T",
+        "buttons_Mwgmkm"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_biMANV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_WpdF4E": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_AdgLi7": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_Nc8nwV": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WpdF4E",
+        "text_AdgLi7",
+        "buttons_Nc8nwV"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -405,6 +454,7 @@
     "5ce47f5a-4a23-49c7-82f5-52b6ff309866",
     "slideshow_rM6ypK",
     "custom_liquid_eV7xhz",
-    "image_banner_EerFYD"
+    "image_banner_Fd8ghb",
+    "image_banner_biMANV"
   ]
 }
