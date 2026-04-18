@@ -136,14 +136,14 @@
         "text_VxcytY": {
           "type": "text",
           "settings": {
-            "text": "<p>La elección de Mabel refleja su estilo y afinidad por una paleta de colores armónica. Optó por un sofá tipo <em>cloud</em>, con diseño cojín sobre cojín, que brinda una experiencia superior de confort y suavidad.</p><p>La colección <strong>Elyza</strong> combina elegancia y comodidad en un seccional de alto diseño, con una estética moderna y acogedora. Sus brazos amplios, cojines con relleno de plumas y su diseño modular permiten crear un espacio versátil, relajado y sofisticado.</p>",
+            "text": "<p>La elección de Mabel refleja su estilo y afinidad por una paleta de colores armónica. Optó por un sofá tipo <em>cloud</em>, con diseño cojín sobre cojín, que brinda una experiencia superior de confort y suavidad.</p><p>La colección <strong>Elyza</strong> combina elegancia y comodidad en un seccional de alto diseño, creando un espacio versátil, acogedor y sofisticado.</p><p>Para complementar, se eligieron mesas de centro de estilo contemporáneo con acabado tipo cemento y patas en tono espresso, que aportan contraste y modernidad. Su disposición en escala permite aprovechar mejor el espacio, aportando funcionalidad y sensación de amplitud en la sala.</p>",
             "text_style": "body"
           }
         },
         "button_Hh7Rja": {
           "type": "button",
           "settings": {
-            "button_label": "Ver Sala Elyza",
+            "button_label": "Ver Sala",
             "button_link": "shopify://collections/sala-modular-elyza"
           }
         }
@@ -155,6 +155,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/IMG_9366.heic",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -173,22 +174,22 @@
         "heading_4WYxj6": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Comedor",
             "heading_size": "h1"
           }
         },
         "text_d43AXj": {
           "type": "text",
           "settings": {
-            "text": "<p>La elección de Mabel refleja su estilo y afinidad por una paleta de colores armónica. Optó por un sofá tipo <em>cloud</em>, con diseño cojín sobre cojín, que brinda una experiencia superior de confort y suavidad.</p><p>La colección <strong>Elyza</strong> combina elegancia y comodidad en un seccional de alto diseño, con una estética moderna y acogedora. Sus brazos amplios, cojines con relleno de plumas y su diseño modular permiten crear un espacio versátil, relajado y sofisticado.</p>",
+            "text": "<p>Para el comedor se combinan la mesa <strong>Steenlage</strong> y las sillas <strong>Galliden</strong>, logrando un equilibrio entre naturalidad y contraste. La mesa, con su acabado en madera de apariencia natural y diseño extensible, aporta calidez y versatilidad, adaptándose fácilmente a diferentes momentos y número de invitados.</p><p>Por su parte, las sillas en negro envejecido con respaldo en caña sintética añaden textura y carácter, generando un contraste visual elegante frente a los tonos claros. La mezcla de materiales y colores aporta profundidad y mayor definición al espacio.</p><p>El resultado es un comedor moderno, acogedor y funcional, alineado con la paleta del hogar y pensado tanto para el día a día como para ocasiones especiales.</p>",
             "text_style": "subtitle"
           }
         },
         "button_3TinPx": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Ver Comedor",
+            "button_link": "shopify://collections/steenlage-y-galliden"
           }
         }
       },
@@ -199,9 +200,10 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/IMG_9595.heic",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -217,7 +219,7 @@
         "heading_Kb3Adp": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Comedor",
             "heading_size": "h1"
           }
         },
@@ -257,6 +259,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
