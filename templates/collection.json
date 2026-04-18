@@ -219,14 +219,14 @@
         "heading_Kb3Adp": {
           "type": "heading",
           "settings": {
-            "heading": "Comedor",
+            "heading": "Terraza",
             "heading_size": "h1"
           }
         },
         "text_R9Fg3k": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>En la terraza se eligió la colección <strong>Seton Creek</strong>, diseñada para exteriores y pensada para resistir diferentes condiciones climáticas sin perder estilo. Su estética contemporánea en tonos neutros crea un ambiente relajado, elegante y funcional.</p><p>La mesa de centro, con superficie de vidrio templado y estructura en mimbre de resina sobre aluminio, aporta durabilidad y practicidad, ideal para acompañar momentos al aire libre. Los sofás y el loveseat, revestidos en tela <strong>Nuvella+</strong> de alto rendimiento, ofrecen una experiencia de confort superior, con materiales resistentes al sol, fáciles de limpiar y pensados para uso continuo en exteriores.</p><p>El sillón giratorio complementa el espacio con un toque dinámico y funcional, permitiendo una rotación de 360° que mejora la interacción y comodidad. En conjunto, los materiales como el mimbre sintético, los herrajes en acero inoxidable y los acabados tipo madera garantizan resistencia, mientras que su diseño mantiene una estética moderna y acogedora.</p><p>El resultado es una terraza versátil, cómoda y duradera, perfecta para disfrutar en cualquier momento del día.</p>",
             "text_style": "body"
           }
         },
@@ -245,7 +245,8 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "height": "adapt",
+        "image": "shopify://shop_images/WhatsApp_Image_2026-03-31_at_17.28.47.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
