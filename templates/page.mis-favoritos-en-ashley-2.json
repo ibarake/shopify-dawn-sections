@@ -185,7 +185,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Y los favoritos son.....",
+        "title": "Y los favoritos son...",
         "heading_size": "h1",
         "description": "<p>Te presentamos una selección de productos inspirados en la elección de Mabel, con opciones similares para todos los espacios de tu hogar: sala, comedor, habitación y terraza.<br/><br/></p>",
         "show_description": false,
