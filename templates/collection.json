@@ -46,6 +46,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/1600_x_450_Banner_opc2_1.png",
+        "image_2": "shopify://shop_images/1100_x_1100_banner_mobile_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
