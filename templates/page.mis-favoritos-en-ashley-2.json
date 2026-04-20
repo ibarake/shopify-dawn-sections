@@ -156,8 +156,8 @@
         "button_8nic3h": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Ver Terraza",
+            "button_link": "shopify://collections/la-terraza-de-mabel-cartagena"
           }
         }
       },
