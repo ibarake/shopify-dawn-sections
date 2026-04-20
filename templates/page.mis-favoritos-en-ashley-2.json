@@ -187,7 +187,7 @@
       "settings": {
         "title": "Y los favoritos son.....",
         "heading_size": "h1",
-        "description": "<p>Te presentamos una selección de productos inspirados en la elección de Mabel, con opciones similares para llevar a tu hogar para todos los espacios sala, comedor, habitación, terraza  etc.</p>",
+        "description": "<p>Te presentamos una selección de productos inspirados en la elección de Mabel, con opciones similares para todos los espacios de tu hogar: sala, comedor, habitación y terraza.<br/><br/></p>",
         "show_description": false,
         "description_style": "body",
         "collection": "los-favoritos-de-mabel",
