@@ -73,7 +73,6 @@
         "text_hFhFbL",
         "buttons_xnnwh7"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
@@ -90,8 +89,8 @@
     }
   },
   "order": [
+    "image_banner_97WxGt",
     "banner",
-    "product-grid",
-    "image_banner_97WxGt"
+    "product-grid"
   ]
 }
