@@ -32,6 +32,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/10.png",
+            "image_r": "shopify://shop_images/B_1.png",
             "link": ""
           }
         },
