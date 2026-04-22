@@ -40,6 +40,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/11.png",
+            "image_r": "shopify://shop_images/C.png",
             "link": ""
           }
         }
@@ -120,7 +121,7 @@
   "order": [
     "main",
     "slideshow_Rpk6wX",
-    "rich_text_Ktp36c",
-    "1772209924080f5545"
+    "1772209924080f5545",
+    "rich_text_Ktp36c"
   ]
 }
