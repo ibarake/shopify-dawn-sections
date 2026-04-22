@@ -45,7 +45,7 @@
         "heading_TWcQz7": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Taller Creativo Isabella Garmán y ASHLEY</p>",
+            "heading": "<p>Taller Creativo Isabella Garmán y ASHLEY 🧡</p>",
             "heading_size": "h1"
           }
         },
@@ -64,7 +64,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
