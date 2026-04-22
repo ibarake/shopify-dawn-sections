@@ -20,15 +20,31 @@
     "slideshow_Rpk6wX": {
       "type": "slideshow",
       "blocks": {
+        "slide_bfmfCK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/11.png",
+            "link": ""
+          }
+        },
+        "slide_FCCQ3p": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/9.png",
+            "link": ""
+          }
+        },
         "slide_kbFYxK": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Copia_de_..jpg",
+            "image": "shopify://shop_images/10.png",
             "link": ""
           }
         }
       },
       "block_order": [
+        "slide_bfmfCK",
+        "slide_FCCQ3p",
         "slide_kbFYxK"
       ],
       "name": "t:sections.slideshow.presets.name",
