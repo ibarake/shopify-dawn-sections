@@ -51,8 +51,8 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "auto_rotate": false,
-        "change_slides_speed": 6
+        "auto_rotate": true,
+        "change_slides_speed": 5
       }
     },
     "rich_text_Ktp36c": {
