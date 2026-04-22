@@ -24,6 +24,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/9.png",
+            "image_r": "shopify://shop_images/A_2.png",
             "link": ""
           }
         },
