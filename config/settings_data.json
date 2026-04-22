@@ -169,6 +169,15 @@
               "link": "https://api.whatsapp.com/send?phone=+573007331806&text=Hola%2C+estaba+en+Ashleycolombia.com+y+me+gustar%C3%ADa+tener+ayuda"
             }
           },
+          "announcement_mArR3F": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
           "announcement_BJC66B": {
             "type": "announcement",
             "settings": {
@@ -182,6 +191,7 @@
         "block_order": [
           "announcement_8EGc8k",
           "announcement_7rcQQ7",
+          "announcement_mArR3F",
           "announcement_BJC66B"
         ],
         "settings": {}
