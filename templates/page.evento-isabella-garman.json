@@ -86,37 +86,6 @@
         "include_margins": true
       }
     },
-    "rich_text_Ktp36c": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TWcQz7": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Taller Creativo Isabella Garmán y ASHLEY 🧡</p>",
-            "heading_size": "h1"
-          }
-        },
-        "text_pDy8LP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Este 8 de mayo te invitamos a vivir una experiencia única llena de creatividad, diversión e inspiración.</p><p><strong>Isabella Garmán</strong> será nuestra host y anfitriona, quien te guiará con su talento artístico en la creación de un joyero, una pieza especial y funcional para tu hogar.</p><p>El taller se llevará a cabo en la comodidad de nuestra tienda en la Cra 53 en Barranquilla, donde además disfrutarás de un agradable espacio de lunch y un momento de conversación e interacción con nuestro CEO de marca.</p><p>Al registrarte, recibirás toda la información y confirmación del evento.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_TWcQz7",
-        "text_pDy8LP"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_with_text_pRn3G7": {
       "type": "image-with-text",
       "blocks": {
@@ -141,7 +110,8 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "height": "small",
+        "image": "shopify://shop_images/FOTO_1.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -158,7 +128,6 @@
     "main",
     "slideshow_Rpk6wX",
     "1772209924080f5545",
-    "rich_text_Ktp36c",
     "image_with_text_pRn3G7"
   ]
 }
