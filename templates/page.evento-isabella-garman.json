@@ -58,6 +58,34 @@
         "change_slides_speed": 5
       }
     },
+    "1772209924080f5545": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_RyNCaH": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "963263",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_RyNCaH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "rich_text_Ktp36c": {
       "type": "rich-text",
       "blocks": {
@@ -89,32 +117,40 @@
         "padding_bottom": 52
       }
     },
-    "1772209924080f5545": {
-      "type": "apps",
+    "image_with_text_pRn3G7": {
+      "type": "image-with-text",
       "blocks": {
-        "forms_inline_RyNCaH": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "heading_xrJKxr": {
+          "type": "heading",
           "settings": {
-            "form_id": "963263",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#ffffff",
-            "links_color": "#1878b9",
-            "errors_color": "#e02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 24,
-            "padding_right": 0,
-            "padding_left": 0
+            "heading": "Taller Creativo Isabella Garmán y ASHLEY 🧡",
+            "heading_size": "h2"
+          }
+        },
+        "text_NYwyFx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Este 8 de mayo te invitamos a vivir una experiencia única llena de creatividad, diversión e inspiración.</p><p><strong>Isabella Garmán</strong> será nuestra host y anfitriona, quien te guiará con su talento artístico en la creación de un joyero, una pieza especial y funcional para tu hogar.</p><p>El taller se llevará a cabo en la comodidad de nuestra tienda en la Cra 53 en Barranquilla, donde además disfrutarás de un agradable espacio de lunch y un momento de conversación e interacción con nuestro CEO de marca.</p><p>Al registrarte, recibirás toda la información y confirmación del evento.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "forms_inline_RyNCaH"
+        "heading_xrJKxr",
+        "text_NYwyFx"
       ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "include_margins": true
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -122,6 +158,7 @@
     "main",
     "slideshow_Rpk6wX",
     "1772209924080f5545",
-    "rich_text_Ktp36c"
+    "rich_text_Ktp36c",
+    "image_with_text_pRn3G7"
   ]
 }
