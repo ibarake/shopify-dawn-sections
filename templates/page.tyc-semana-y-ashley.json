@@ -19,6 +19,19 @@
     },
     "slideshow_Rpk6wX": {
       "type": "slideshow",
+      "blocks": {
+        "slide_YcmimW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_logos_1.png",
+            "image_r": "shopify://shop_images/1100_x_1100_MOBILE.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_YcmimW"
+      ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
