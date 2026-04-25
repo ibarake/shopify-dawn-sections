@@ -113,47 +113,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "rich_text_dBLXzL": {
-      "type": "rich-text",
-      "blocks": {
-        "caption_HUNEXE": {
-          "type": "caption",
-          "settings": {
-            "caption": "términos y condiciones",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "text_rKeDNV": {
-          "type": "text",
-          "settings": {
-            "text": "<h6>*Beneficios para redimir en puntos de venta físicos ubicados en Bogotá (Av. 19 #109 - 41 y Autopista Norte # 224 - 60) o en Barranquilla (Cra. 53 # 80 - 91), así como en la tienda en línea a través del canal online +57 (301) 485-7154. Aplica para el titular suscriptor de <em>SEMANA</em> sujeto a validación. El bono por suscripción es válido por 365 días calendario a partir de su inscripción sujeto a productos disponibles. El bono por cumpleaños será válido durante los 30 días calendario posteriores a la fecha de cumpleaños del suscriptor. El descuento del 10% será válido sobre el precio vigente de los productos Ashley permanentemente sujeto a continuidad del convenio entre <em>Ashley Furniture HomeStore Colombia</em> y <em>SEMANA</em>. El beneficio es personal e intransferible. No es canjeable por dinero en efectivo, total ni parcialmente. Es acumulable con otras promociones y descuentos vigentes al momento de la compra. No es acumulable con otros beneficios exclusivos otorgados a suscriptores de <em>SEMANA</em>. El bono podrá redimirse en una sola compra. En caso de que el valor del bono no sea utilizado en su totalidad, no habrá devolución del saldo restante. El cliente deberá presentar documento de identidad y acreditar su condición de suscriptor activo al momento de la redención. No aplica para compras institucionales o corporativas, salvo autorización expresa de Ashley. Ashley Colombia se reserva el derecho de modificar, suspender o cancelar los beneficios en cualquier momento, informando previamente a <em>SEMANA</em>. Los beneficios aplican dentro del territorio colombiano.<br/></h6>"
-          }
-        },
-        "caption_yT3iCf": {
-          "type": "caption",
-          "settings": {
-            "caption": "",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "caption_HUNEXE",
-        "text_rKeDNV",
-        "caption_yT3iCf"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -161,7 +120,6 @@
     "slideshow_Rpk6wX",
     "slideshow_DYFDPB",
     "slideshow_TbWzcb",
-    "1772209924080f5545",
-    "rich_text_dBLXzL"
+    "1772209924080f5545"
   ]
 }
