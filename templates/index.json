@@ -14,7 +14,7 @@
       "blocks": {
         "slide_QwNBCt": {
           "type": "slide",
-          "name": "Aniversario",
+          "name": "Hogar Dulce Hogar 40%",
           "settings": {
             "image": "shopify://shop_images/Ashley_Campana_Hogar_dulce_hogar_Abril_2026_Banners_web-01.jpg",
             "image_r": "shopify://shop_images/Ashley_Campana_Hogar_dulce_hogar_Abril_2026_Banners_web-02.jpg",
@@ -25,8 +25,8 @@
           "type": "slide",
           "name": "Aniversario 2",
           "settings": {
-            "image": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-07.jpg",
-            "image_r": "shopify://shop_images/Ashley_Campana_Marzo_Aniversario_Banners_web-08.jpg",
+            "image": "shopify://shop_images/Ashley_Campana_Hogar_dulce_hogar_Abril_2026_Banners_web-07.jpg",
+            "image_r": "shopify://shop_images/Ashley_Campana_Hogar_dulce_hogar_Abril_2026_Banners_web-08_1.jpg",
             "link": "shopify://products/moreau-place-loveseat-dbl-rec-con-consola"
           }
         }
